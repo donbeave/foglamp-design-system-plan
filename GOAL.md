@@ -1,6 +1,6 @@
 # Master `/goal` Prompt: Foglamp Design System & Fumadocs + BaseUI + TanStack Start + Story Portal
 
-Copy and run the `/goal` prompt below to execute the entire extraction and documentation portal build using the cost-optimized model & effort pyramid (`Luna` < `Terra` < `Sol`):
+Copy and run the `/goal` prompt below to execute the entire extraction and documentation portal build using the official OpenAI cost-optimized model & effort pyramid (`Luna` < `Terra` < `Sol`):
 
 ````markdown
 /goal
@@ -33,36 +33,37 @@ Build the complete, reusable **Foglamp Design System** (`@foglamp/design-system`
 
 ---
 
-### 1.3 Cost-Optimized Model & Effort Pyramid (`Luna` < `Terra` < `Sol` — Strict Enforcement)
-All tasks, steps, and subagent invocations MUST be executed **exclusively** using these three model families following the celestial hierarchy (**`Luna`** = Moon smallest/cheapest worker, **`Terra`** = Earth mid-tier engineer, **`Sol`** = Sun flagship orchestrator & apex escalation):
-- **`GPT-6-Luna` (`low`, `medium`, `high`, `max`)** — **~75% of all work** *(Smallest / Lowest-Cost Bulk Worker Tier)*
-- **`GPT-6.1-Terra` (`low`, `medium`, `high`)** — **~19% of all work** *(Mid-Tier Multi-Component & Physics Engineering Tier)*
-- **`GPT-6.1-Sol` (`low`, `medium`, `high`)** — **~6% of all work** *(Flagship Tier: `Sol (low)` as Lead Orchestrator/Coordinator, `Sol (medium)` for high-risk subsystem review, and `Sol (high)` on ONLY 2 apex tasks!)*
+### 1.3 Official OpenAI Cost-Optimized Model & Effort Pyramid (`Luna` < `Terra` < `Sol` — Strict Enforcement)
+All tasks, steps, and subagent invocations MUST be executed **exclusively** using these three model families following OpenAI's official pricing, throughput, and benchmark capabilities:
+- **`GPT-6-Luna` (`low`, `medium`, `high`, `max`)** — **~72% of all work** *(`$0.10/$0.50` per 1M tokens, `180M TPM` — 20× cheaper than Sol; `66.6%` DeepSWE v1.1 at `max` effort)*
+- **`GPT-6.1-Terra` (`low`, `medium`, `high`)** — **~21% of all work** *(`$1.00/$5.00` per 1M tokens, >3× faster than Sol — specialized in `MMMU-Pro` visual reasoning, `Terminal-Bench 4.0` layout-shift fixes, clear natural writing, and `Agents' Last Exam` Computer Use)*
+- **`GPT-6.1-Sol` (`low`, `medium`, `high`)** — **~7% of all work** *(`$2.00/$10.00` per 1M tokens — `Sol (low)` as native `multi_agent` Root Orchestrator with `2.1%` tool-error rate & `-32%` factual errors; `Sol (medium)` for `75.2%` DeepSWE physics subsystems; `Sol (high)` on ONLY 2 apex connected-visual-system tasks!)*
 
-#### Exact Model + Effort Assignment Rules:
-1. **`GPT-6.1-Sol (low)` (~2% of work — Lead Orchestrator / Coordinator)**:
-   - Acts as the **Lead Orchestrator / Coordinator** for the entire `/goal` run. It dispatches parallel subagents (`invoke_subagent`), tracks wave completion against `TASKS.md`, enforces gatekeeper checks, and manages escalations. **The Coordinator NEVER writes implementation code itself**, keeping its output token footprint minimal (<2%) while providing flagship-grade orchestration reliability across 25+ subagents. *(For an ultra-lean budget on routine waves, `GPT-6.1-Terra (low)` may be used as a wave sub-coordinator).*
-2. **`GPT-6-Luna (low)` (~28% of work — Ultra-Low Cost Worker)**:
-   - Use for verbatim file copies (48 zero-coupling Base UI primitives, 25 `BrandLogos`, `.woff2` fonts, `ai-workshop.webp`, 2,094-line `mock-data.ts`), barrel `index.ts` exports, `meta.json` navigation trees, portal homepage assembly, and running CLI checks (`tsc --noEmit`, `vitest run`, `shadcn build`, `bun run build`).
-3. **`GPT-6-Luna (medium)` (~22% of work — Economical Structured Worker)**:
+#### Exact 10-Rung Model + Effort Assignment Rules:
+1. **`GPT-6.1-Sol (low)` (~2% of work — Lead Orchestrator / Root Coordinator `/root`)**:
+   - Acts as the **Lead Orchestrator / Root Coordinator** (`multi_agent` root model). It dispatches parallel subagents (`invoke_subagent`), tracks wave completion against `TASKS.md`, enforces gatekeeper checks, and manages escalations. **The Coordinator NEVER writes implementation code itself**, keeping its output token footprint minimal (<2%) and leveraging `$0.10/1M` cached inputs (`95%` discount).
+2. **`GPT-6-Luna (low)` (~26% of work — Ultra-Low Cost Worker)**:
+   - Per OpenAI's *Model Selection Guide* (*"Fine-grained edits, well-scoped problem-solving, and simple data extraction"*), use for verbatim file copies (48 zero-coupling Base UI primitives, 25 `BrandLogos`, `.woff2` fonts, `ai-workshop.webp`, 2,094-line `mock-data.ts`), barrel `index.ts` exports, `meta.json` navigation trees, portal homepage assembly, and running CLI checks (`tsc --noEmit`, `vitest run`, `shadcn build`, `bun run build`).
+3. **`GPT-6-Luna (medium)` (~20% of work — Economical Structured Worker)**:
    - Use for extracting pure TS utilities (`format.ts`, `range.ts`, `trace-timeline.ts`, `payload-messages.ts`, `hooks.ts`), simple leaf widgets (`ModelLogo`, `BrandMark`, `Logo`, `AgentIcon`, `ProjectIcon` `<Image>`→`<img>`, `CustomerAvatar`, `ToolIcon`, `SpanTypeChip`, `CopyIcon`, `CopyButton`, `Stat`, `RelativeTime`, `SunsetCard`, `NodeFlow`), generating all 56 UI primitive `.story.tsx` files, and building `registry.json`.
-4. **`GPT-6-Luna (high)` (~18% of work — High-Throughput Docs, Stories & Moderate Widget Decoupling)**:
-   - Use for authoring all **110+ `.mdx` documentation pages** (`index.mdx`, `credits.mdx`, `foundations/*`, 56 `primitives/*`, 35+ `widgets/*`, 12 `charts/*`, 22 `figures/*`, 18 `blocks/*`), `.story.tsx` files for widgets/charts/figures/blocks, and decoupling single-file moderate widgets (`ContextChip`, `ModelChip`, `PromptVersionChip`, `CodeBlock` Shiki singleton, `Markdown`, `AnimatedApiKey`, `PageHeader`, `StatCard` with `TickerValue`/`CardSparkline`/`PillMeter`, `RangePicker`, `RangeProvider`, `ProjectProvider`, `QuotaCardView`, `ThemeSwitcher`, `UserMenuView`, `LoginFormBlock`, `DeviceApproveBlock`, `OnboardingPanelBlock`, `InstrumentEmptyStateBlock`, `ButtonsBadgesPlaygroundBlock`, and `OriginalAuthorsBlock`).
-5. **`GPT-6-Luna (max)` (~7% of work — Deep Worker Reasoning on Custom Primitives, EvilCharts & 22 Figures)**:
-   - Push the cheap `Luna` worker to its `max` reasoning effort before stepping up to `Terra` pricing! Use for verifying the 8 custom-logic primitives (`Button`, `Badge`, `DRAWER_BUTTON_CLASS`, `Select` recursive label collector, `Sheet` floating variant, `Table` `ResizeObserver` + `interactive` row, `Tooltip`, `Sonner`), `<FoglampLinkProvider>`, all 11 `evilcharts/*` files + `CostBreakdownView` & `ToolBreakdownView`, all **22 Landing Figures** (`FigureKit22Block`), `DriftingFogCtaBlock`, `CuttingMatFooterBlock`, and `HudSimulatorBlock`.
-6. **`GPT-6.1-Terra (low)` (~4% of work — Inter-Wave Gatekeeper)**:
-   - Use between waves for fast inspection of exports, running unit tests, and verifying zero `next/*` or `trpc` leakage.
-7. **`GPT-6.1-Terra (medium)` (~8% of work — CSS Token Harmony, Layout/Diff Algorithms & Multi-Pane Views)**:
-   - Use in Wave 0 to wire TanStack Start + `@fumadocs/base-ui` + `@fumadocs/story` + Tailwind v4 CSS tokens (`globals.css` + `effects.css`), in Wave 1D/1E to extract `@foglamp/prompts` (LCS `diffLines`, `inferVersions`, `slotValues`), `scan/layout.ts` (2-pass `elkjs` orthogonal layout engine + `SNAP_TOL = 20px` row snap + `BAND_KEEP = 72px` empty-band squeeze), and `FoglampStoryPanel`, and in Wave 2/3 for `PayloadView` + `ClampedBody` + `RunExchange` drawers, `PromptProseView` (`SlotChip`) + `PromptVersionsView` (`TemplateDiff`), `EvalScores`, `AppShellBlock`, and the 7 Dashboard Page Blocks.
-8. **`GPT-6.1-Terra (high)` (~7% of work — Complex DOM Measurement, Waterfall Timelines, WAAPI Comets & Shadow DOM Physics)**:
-   - Use for `DataTable` + `Toolbar` (`ResizeObserver` + `motion.div layoutId` header portal-lifting + `useFilterGroupItem` + `FilterSelect` typeahead), `TraceTimeline` (multi-phase LLM bars, `groupRepeatedSiblings` `×N` folding, imperative hover cursor, `1.2s` reveal), `FlowMapBlock` + `ScanBoardBlock` (`<BeamPulse>` WAAPI `offsetPath` comets, imperative `hitRings`, `<AgentBeam>`, crisp zoom, BFS trace), `ObservabilityGuideBlock` ("Warm Paper Field Guide" scrollytelling), `SetupBoardBlock` (sparse `PlanEdits` editor), and `FoggyLauncher` (SVG `NOTCH_FILL`/`NOTCH_EDGE` carved corner shelf) + `FoggyWidgetView` (`rubberBand` resize) + `FoglampHUD` (Shadow DOM 240Hz `useSizeSpring` + sub-pixel `translateX` timeline).
-9. **`GPT-6.1-Sol (medium)` (~2.5% of work — Flagship Subsystem Review & Escalation)**:
-   - Use to audit and resolve any subtle layout/animation edge cases in `TraceTimeline`, `FlowMap` (`elkjs` + WAAPI `BeamPulse`), and `FoglampHUD` 240Hz spring physics.
-10. **`GPT-6.1-Sol (high)` (~1.5% of work — Strictly Reserved for ONLY 2 Apex Tasks)**:
+4. **`GPT-6-Luna (high)` (~16% of work — High-Throughput Docs, Stories & Single-File Widget Decoupling)**:
+   - Use for authoring the **100+ component reference `.mdx` pages** (`primitives/*`, `widgets/*`, `charts/*`, `figures/*`, `blocks/*`), `.story.tsx` files for widgets/charts/figures/blocks, and decoupling single-file moderate widgets (`ContextChip`, `ModelChip`, `PromptVersionChip`, `CodeBlock` Shiki singleton, `Markdown`, `AnimatedApiKey`, `PageHeader`, `StatCard` with `TickerValue`/`CardSparkline`/`PillMeter`, `RangePicker`, `RangeProvider`, `ProjectProvider`, `QuotaCardView`, `ThemeSwitcher`, `UserMenuView`).
+5. **`GPT-6-Luna (max)` (~10% of work — `66.6%` DeepSWE v1.1 Worker Reasoning at 1/10th Terra's Token Rate)**:
+   - Per OpenAI's *Model Selection Guide* (*"Solving problems with clear constraints"*), push `Luna` to `max` effort before paying `10×` more for `Terra`! Use for verifying the 8 custom-logic primitives (`Button`, `Badge`, `DRAWER_BUTTON_CLASS`, `Select` recursive label collector, `Sheet` floating variant, `Table` `ResizeObserver` + `interactive` row, `Tooltip`, `Sonner`), `<FoglampLinkProvider>`, `@foglamp/prompts` (LCS `diffLines`, `inferVersions`, `slotValues` + unit tests), all 11 `evilcharts/*` files + `CostBreakdownView` & `ToolBreakdownView`, all **22 Landing Figures** (`FigureKit22Block`), `DriftingFogCtaBlock`, `CuttingMatFooterBlock`, `HudSimulatorBlock`, Auth/Onboarding blocks, and `OriginalAuthorsBlock`.
+6. **`GPT-6.1-Terra (low)` (~5% of work — Clear Natural Writing & Fast Inter-Wave Gatekeeper)**:
+   - Per OpenAI's *Model Selection Guide* (*"Concise writing based on supplied material"*), use to author & polish the flagship narrative docs (`content/docs/index.mdx`, `content/docs/credits.mdx` honoring **Gustavo Fior** `@gustavo-fior` & **Foglamp Labs**, and `content/docs/foundations/*.mdx`), plus fast (>3× faster than `Sol`) inter-wave gatekeeper checks verifying zero `next/*` or `trpc` leakage.
+7. **`GPT-6.1-Terra (medium)` (~9% of work — `MMMU-Pro` Visual Token Harmony & Multi-Pane Views)**:
+   - Use in Wave 0 to wire TanStack Start + `@fumadocs/base-ui` + `@fumadocs/story` + Tailwind v4 CSS tokens (`globals.css` 18 `--custom-shadow*` tokens + `@toolwind/corner-shape` squircles + `effects.css`), in Wave 1D/1E to extract `scan/layout.ts` (2-pass `elkjs` orthogonal layout engine + `SNAP_TOL = 20px` row snap + `BAND_KEEP = 72px` empty-band squeeze) and `FoglampStoryPanel`, and in Wave 2/3 for `PayloadView` + `ClampedBody` + `RunExchange` drawers, `PromptProseView` (`SlotChip`) + `PromptVersionsView` (`TemplateDiff`), `EvalScores`, `AppShellBlock`, and the 7 Dashboard Page Blocks.
+8. **`GPT-6.1-Terra (high)` (~7% of work — `Terminal-Bench 4.0` Layout-Shift Mastery & `Agents' Last Exam` Computer-Use Browser QA)**:
+   - Use for `DataTable` + `Toolbar` (`ResizeObserver` + `motion.div layoutId` header portal-lifting + `useFilterGroupItem` + `FilterSelect` typeahead), `ObservabilityGuideBlock` ("Warm Paper Field Guide" sticky scrollytelling), `SetupBoardBlock` (sparse `PlanEdits` editor), and **Wave 5 Automated Live-Browser Computer-Use Visual QA** (>3× faster than `Sol`).
+9. **`GPT-6.1-Sol (medium)` (~3.5% of work — `75.2%` DeepSWE v1.1 Complex Technical & Physics Subsystems)**:
+   - Per OpenAI's *Model Selection Guide* (*"Complex technical work and coordinated deliverables"*), use for `TraceTimeline` (multi-phase LLM bars, `groupRepeatedSiblings` `×N` folding, imperative hover cursor, `1.2s` reveal), `FlowMapBlock` + `ScanBoardBlock` (`<BeamPulse>` WAAPI `offsetPath` comets, imperative `hitRings`, `<AgentBeam>`, crisp zoom, BFS trace), and `FoggyLauncher` (SVG `NOTCH_FILL`/`NOTCH_EDGE` carved corner shelf) + `FoggyWidgetView` (`rubberBand` resize) + `FoglampHUD` (Shadow DOM 240Hz `useSizeSpring` + sub-pixel `translateX` timeline).
+10. **`GPT-6.1-Sol (high)` (~1.5% of work — Strictly Reserved for ONLY 2 Connected-Visual-System Apex Tasks)**:
+    - Per OpenAI's *Model Selection Guide* (*"Polished deliverables, connected visual systems, and decisions built from conflicting evidence"*):
     - **Apex Task 1**: `Hero3DDemoBlock` (`hero.tsx`, `hero-demo.tsx`, `entrance.ts`, `piece.tsx`, and the 7-tab / 5-detail interactive `DashboardDemo` with 3-Beat `transform-3d` perspective assembly, Beat 0 dark-mode 8-bit sRGB anti-flicker tween, and `ENTRANCE_TABLE` separated cell shadows).
-    - **Apex Task 2**: Wave 5 Final Whole-Portal Light/Dark Pixel-Parity, Hydration & Attribution Sign-Off.
+    - **Apex Task 2**: Wave 5 Final Whole-Portal Connected Visual System, Light/Dark Pixel-Parity & Attribution Sign-Off.
 
-**Dynamic Escalation Rule**: Always start every subagent at its assigned tier above (`Luna` first!). Only escalate **one step up** (`Luna (low)` → `Luna (medium)` → `Luna (high)` → `Luna (max)` → `Terra (medium)` → `Terra (high)` → `Sol (medium)` → `Sol (high)`) if a subagent fails to resolve a bundler/type/rendering edge case after 2 attempts.
+**Dynamic Escalation Rule**: Always start every subagent at its assigned tier above (`Luna` first!). Preserve prompt caching prefixes (`prompt_cache_options.ttl: "30m"`) and only escalate **one step up** if a subagent fails to resolve a bundler/type/rendering edge case after 2 attempts.
 
 ---
 
@@ -85,16 +86,16 @@ All tasks, steps, and subagent invocations MUST be executed **exclusively** usin
   - Copy the 48 zero-coupling Base UI primitives from `.reference/foglamp/packages/ui/src/components/` into `packages/design-system/src/ui/`.
   - Copy `brand-logos.tsx` (25 SVGs), `hooks/use-mobile.ts`, `hooks/use-copied.ts`, and `lib/utils.ts` (`cn`).
 
-- **Subagent 1B (`GPT-6-Luna (max)`) — 8 Custom-Logic Primitives & `<FoglampLinkProvider>`**:
+- **Subagent 1B (`GPT-6-Luna (max)`) — 8 Custom-Logic Primitives, `<FoglampLinkProvider>` & `@foglamp/prompts` Diff/Slot Engine**:
   - Extract and verify `button.tsx` (7 variants, 8 sizes, `<span>` child wrapping, `nativeButton` heuristic), `badge.tsx` (14 variants + `<span>` wrapping), `button-styles.ts` (`DRAWER_BUTTON_CLASS`), `select.tsx` (recursive `collectSelectItemLabels`), `sheet.tsx` (`variant="floating"`), `table.tsx` (`ResizeObserver` overflow + `interactive` row hover border suppression), `tooltip.tsx` (non-inverted `bg-popover`), and `sonner.tsx`.
   - Create `packages/design-system/src/lib/link-context.tsx` (`<FoglampLinkProvider>`, `<FoglampLink>`).
+  - Extract `packages/prompts/src/{diff,normalize,infer,slots,index}.ts` (+ unit tests) into `packages/design-system/src/lib/prompts/`.
 
 - **Subagent 1C (`GPT-6-Luna (medium)`) — Formatters, Time Ranges, Timeline Math, Payload Normalizer & Leaf Widgets**:
   - Extract `lib/format.ts` (14 cached formatters), `lib/range.ts` (9 presets + `customRange` + `exactRange`), `lib/trace-timeline.ts` (`toMs`, `orderSpans`, `computeWindow`), `lib/payload-messages.ts` (+ `payload-messages.test.ts`), and `hooks/use-app-hooks.ts`.
   - Extract leaf widgets: `model-logo.tsx`, `brand-mark.tsx`, `logo.tsx`, `scan/brand.tsx`, `agent-icon.tsx`, `project-icon.tsx` (`<Image>` → `<img>`), `customer-avatar.tsx`, `tool-icon.tsx`, `span-type.tsx`, `preset-meta.ts`, `copy-icon.tsx`, `copy-button.tsx`, `stat.tsx`, `relative-time.tsx`, `sunset-card.tsx`, `node-flow.tsx`.
 
-- **Subagent 1D (`GPT-6.1-Terra (medium)`) — `@foglamp/prompts` Diff/Slot Engine & Scan 2-Pass `elkjs` Layout Engine**:
-  - Extract `packages/prompts/src/{diff,normalize,infer,slots,index}.ts` (+ unit tests) into `packages/design-system/src/lib/prompts/`.
+- **Subagent 1D (`GPT-6.1-Terra (medium)`) — Scan 2-Pass `elkjs` Layout Engine & Contract Types**:
   - Extract `components/scan/{fold-graph,layout,diff,personality,favicon}.ts` and contract types (`packages/contracts/src/{scan,alerts,instrumentation,v1}.ts`) into `packages/design-system/src/lib/scan/` and `lib/types.ts`.
 
 - **Subagent 1E (`GPT-6.1-Terra (medium)`) — Custom `FoglampStoryPanel` Workbench with Creator Attribution**:
@@ -108,26 +109,26 @@ All tasks, steps, and subagent invocations MUST be executed **exclusively** usin
 
 ### WAVE 2: Application Widgets, EvilCharts & Live HUD (Launch 5 Parallel Subagents + 1 Gatekeeper)
 
-- **Subagent 2A (`GPT-6-Luna (max)`) — EvilCharts Suite (11 Files), TrendCharts, Breakdowns & Chips/Code Widgets**:
+- **Subagent 2A (`GPT-6-Luna (max)`) — EvilCharts Suite (11 Files), TrendCharts & Breakdowns**:
   - Extract all 11 `evilcharts/*` files (`EvilAreaChart` with `BufferDash`, `EvilBarChart` with `GlowFilter`, `EvilLineChart`, `EvilDonutChart`, `EvilBrush`, `ChartBackground` 11 SVG patterns, `ChartDot`, `ChartLegend`, `ChartTooltip`, `useZoomDrag`, `chart.tsx`), `trend-charts.tsx`, `<CostBreakdownView>`, and `<ToolBreakdownView>`.
-  - Extract `context-chip.tsx`, `model-chip.tsx`, `prompt-version-chip.tsx`, `code-block.tsx` (Shiki dual-theme singleton), `markdown.tsx` (`Streamdown`), and `animated-api-key.tsx` (`SlotText` chromatic roll).
 
-- **Subagent 2B (`GPT-6-Luna (high)`) — KPI StatCards, Headers, RangePicker & Context Providers**:
+- **Subagent 2B (`GPT-6-Luna (high)`) — KPI StatCards, Headers, RangePicker, Context Providers & Chips/Code Widgets**:
   - Extract `page-parts.tsx` (`PageHeader`, `StatCard` with `TickerValue` & `DeltaBadge`, `CardSparkline`, `PillMeter`, `ScrollFade`, `EmptyState`, `NoProjectView`, skeletons), `nav.ts`, `route-header.tsx`, `header-slot.tsx`, `range-picker.tsx` (with `ResizeObserver` compact width morph), `range-context.tsx`, `project-context.tsx`, `quota-card.tsx` (`QuotaCardView`), `theme-switcher.tsx`, and `user-menu.tsx` (`UserMenuView`).
+  - Extract `context-chip.tsx`, `model-chip.tsx`, `prompt-version-chip.tsx`, `code-block.tsx` (Shiki dual-theme singleton), `markdown.tsx` (`Streamdown`), and `animated-api-key.tsx` (`SlotText` chromatic roll).
 
 - **Subagent 2C (`GPT-6.1-Terra (high)`) — DataTable Portal-Lifting Toolbar, PayloadView, RunExchange, Prompts & Evals**:
   - Extract `data-table.tsx` (`Toolbar` with `ResizeObserver` + `motion.div layoutId` header portal-lifting, `useFilterGroupItem` instant sibling menu switching, `SearchInput`, `ToggleChip`, `FilterSelect` `>8` option typeahead, `SortableHead`, `PaginationFooter`) and `heat-cell.tsx`.
   - Extract `payload-view.tsx` (`PayloadView`, `ClampedBody`, `JsonBlock`, `Prose`), `run-exchange.tsx` (`DrawerRow`, `DrawerColumns`, `Conversation`, `Bubble`, `JsonBubble`, `ToolChips`), `prompt-prose.tsx` (`PromptProseView`, `SlotChip`), `prompt-versions-card.tsx` (`PromptVersionsView`, `TemplateDiff`), and `eval-scores.tsx` (`SpanScoreDots`, `TraceScorePill`, `ScoreRow`).
 
-- **Subagent 2D (`GPT-6.1-Terra (high)`) — `TraceTimeline` Multi-Phase Waterfall**:
+- **Subagent 2D (`GPT-6.1-Sol (medium)`) — `TraceTimeline` Multi-Phase Waterfall**:
   - Extract `trace-timeline.tsx` preserving the 3-column `@container` waterfall, `<SpanIconChip>`, `<TimeRuler>`, imperative hover time cursor (`moveCursor`), multi-phase LLM bars (`TtftWait`, vendor brand fill, `modelCallWidthPct`, `thinkingWidthPct`), `groupRepeatedSiblings` `×N` loop folding with vertical tick marks, and `1.2s` linear reveal animation.
 
-- **Subagent 2E (`GPT-6.1-Terra (high)`) — `FoggyLauncher` Carved SVG Notch, `FoggyWidgetView` Rubber-Band Resize & `FoglampHUD` Shadow DOM**:
+- **Subagent 2E (`GPT-6.1-Sol (medium)`) — `FoggyLauncher` Carved SVG Notch, `FoggyWidgetView` Rubber-Band Resize & `FoglampHUD` Shadow DOM**:
   - Extract `foggy/foggy-widget.tsx` (`FoggyLauncher` with `NOTCH_FILL` & `NOTCH_EDGE` 6px border-overlapping SVG corner shelf + `FoggyWidgetView` with `[320..640px]` left-edge pointer drag resize and `rubberBand(excess)` physics), `foggy/foggy-message.tsx`, and `dev-toolbar.tsx` (`DevBarView`).
   - Extract `packages/sdk/src/hud/react/*` (`FoglampHUD` Shadow DOM `<foglamp-hud>` with 240Hz fixed-substep `useSizeSpring`, 8-pixel comet `<Diamond />`, 1-min live timeline with sub-pixel `translateX` remainder, and dotted-leader waterfall, plus `HudInlinePreview` for docs).
 
-- **Gatekeeper 2 (`GPT-6.1-Terra (low)`) + Subsystem Audit (`GPT-6.1-Sol (medium)`)**:
-  - Verify all Wave 2 widget exports, run `tsc --noEmit`, and have `GPT-6.1-Sol (medium)` review `TraceTimeline` and `FoglampHUD` spring/timeline math.
+- **Gatekeeper 2 (`GPT-6.1-Terra (low)`)**:
+  - Verify all Wave 2 widget exports and run `tsc --noEmit`.
 
 ---
 
@@ -144,19 +145,19 @@ All tasks, steps, and subagent invocations MUST be executed **exclusively** usin
   - Extract `ObservabilityGuideBlock` (`observability-guide.tsx`, `observability-guide.module.css`, `chapters.ts` with sticky `Workshop` map, courier envelope, 8 station pins incl. ringing Watchtower bell, and 8 interactive chapter widgets).
   - Extract `SetupBoardBlock` (`setup-board.tsx`, `setup-summary.tsx`, `decision-list.tsx` inline sparse `PlanEdits` editor, `verification-report.tsx`).
 
-- **Subagent 3D (`GPT-6.1-Terra (high)`) — `FlowMapBlock`, `ScanBoardBlock` & `PersonalityCard`**:
+- **Subagent 3D (`GPT-6.1-Sol (medium)`) — `FlowMapBlock`, `ScanBoardBlock` & `PersonalityCard`**:
   - Extract `scan/flow-map.tsx` (preserving `<BeamPulse>` WAAPI `offsetPath` comets, imperative `hitRings` DOM flashes, `<AgentBeam>` staggered `--beam-phase`, `150ms` `will-change: auto` crisp zoom re-rasterization, `flyTo` camera flights, downstream BFS trace spotlighting), `scan-board.tsx`, `left-rail.tsx`, `changes-card.tsx`, `personality-card.tsx` (7 archetypes + `<feTurbulence>` grain), `share-bar.tsx`, `powered-by.tsx`, and `scan-landing.tsx`.
 
 - **Subagent 3E (`GPT-6.1-Sol (high)`) — `Hero3DDemoBlock` *(Apex Task #1)***:
   - Extract `landing/hero.tsx`, `hero-demo.tsx`, `demo/entrance.ts`, `demo/piece.tsx`, `demo/index.tsx`, `demo-context.tsx`, `demo-shell.tsx`, `demo-sidebar.tsx`, `demo-chrome.tsx`, all 7 `demo/tabs/*.tsx`, and all 5 `demo/detail/*.tsx` connected to `demo/mock-data.ts`.
   - Verify `transformPerspective: 2400`, unbroken `transform-3d` ancestry, Beat 0's 2-phase dark-mode 8-bit sRGB anti-flicker tween, Beat 1 & Beat 2 `<Piece>` / `<PieceRow>` staggers with `ENTRANCE_TABLE` separated cell shadows, Beat 3 `TILT` → `FLAT` swing, and `DARK_LIFT` tokens.
 
-- **Gatekeeper 3 (`GPT-6.1-Terra (low)`) + Subsystem Audit (`GPT-6.1-Sol (medium)`)**:
-  - Verify all Wave 3 block exports, run `tsc --noEmit`, and have `GPT-6.1-Sol (medium)` audit `FlowMap` WAAPI + `elkjs` port routing.
+- **Gatekeeper 3 (`GPT-6.1-Terra (low)`)**:
+  - Verify all Wave 3 block exports and run `tsc --noEmit`.
 
 ---
 
-### WAVE 4: Interactive `@fumadocs/story` Files, MDX Documentation & `shadcn` Registry (Launch 8 Parallel Subagents)
+### WAVE 4: Interactive `@fumadocs/story` Files, MDX Documentation & `shadcn` Registry (Launch 9 Parallel Subagents)
 
 - **Subagent 4A (`GPT-6-Luna (medium)`) — 56 UI Primitive `.story.tsx` Files**:
   - Generate `apps/docs/src/stories/primitives/<name>.story.tsx` for all 56 primitives in `packages/design-system/src/ui/`.
@@ -167,8 +168,11 @@ All tasks, steps, and subagent invocations MUST be executed **exclusively** usin
 - **Subagent 4C (`GPT-6-Luna (high)`) — 18 Block & 22 Figure `.story.tsx` Files**:
   - Generate `apps/docs/src/stories/blocks/*.story.tsx` covering all 18 blocks and all 22 landing figures.
 
-- **Subagent 4D (`GPT-6-Luna (high)`) — Credits, Foundations & 56 UI Primitives `.mdx` Docs**:
-  - Author `content/docs/index.mdx`, **`content/docs/credits.mdx` (prominent tribute to Gustavo Fior `@gustavo-fior`, Abdul Haidar, and Foglamp Labs embedding `<OriginalAuthorsBlock />`)**, `foundations/*.mdx`, and all 56 `primitives/*.mdx` pages.
+- **Subagent 4D-Lead (`GPT-6.1-Terra (low)`) — Flagship Narrative Prose (`index.mdx`, `credits.mdx` & `foundations/*.mdx`)**:
+  - Author `content/docs/index.mdx`, **`content/docs/credits.mdx` (prominent tribute to Gustavo Fior `@gustavo-fior`, Abdul Haidar, and Foglamp Labs embedding `<OriginalAuthorsBlock />`)**, and `foundations/*.mdx`.
+
+- **Subagent 4D-Ref (`GPT-6-Luna (high)`) — 56 UI Primitives `.mdx` Reference Docs**:
+  - Author all 56 `content/docs/primitives/*.mdx` pages.
 
 - **Subagent 4E (`GPT-6-Luna (high)`) — App Widgets, AI Inspectors & EvilCharts `.mdx` Docs**:
   - Author all `content/docs/widgets/*.mdx` and `content/docs/charts/*.mdx` pages with `<story.WithControl />`, prop tables, and attribution footers.
@@ -185,16 +189,14 @@ All tasks, steps, and subagent invocations MUST be executed **exclusively** usin
 
 ---
 
-### WAVE 5: End-to-End Verification, Build & Pixel-Parity Audit
-1. **Task 5.1 (`GPT-6-Luna (low)`) — Static & Build Verification**:
-   - Run `bun run check-types` (`tsc --noEmit`) across `packages/design-system`, `packages/registry`, and `apps/docs` until 0 errors remain.
-   - Run `bun test` / `vitest run` on all extracted unit tests (`prompts`, `payload-messages`, `format`, `range`, `scan/diff`).
-   - Verify all `/public/r/*.json` registry files are generated and valid JSON.
-   - Run `bun run build` in `apps/docs` to confirm the TanStack Start + Fumadocs MDX + `@fumadocs/story` production build succeeds cleanly.
-2. **Task 5.2 (`GPT-6.1-Sol (high)`) — Final Whole-Portal Pixel-Parity & Attribution Sign-Off *(Apex Task #2)***:
-   - Start the `apps/docs` server and inspect the rendered portal in both **Light Mode** and **Dark Mode**:
-     - Verify prominent shoutout & links to **Gustavo Fior (`@gustavo-fior`)**, **Abdul Haidar**, and **Foglamp Labs (`foglamp-labs/foglamp`)** on the homepage hero, navbar, footer, `/docs/credits`, `/docs`, and every `FoglampStoryPanel`.
-     - Verify all 18 `--custom-shadow*` tokens, `squircle:*` corner shapes, 3-Beat `Hero3DDemoBlock`, `TraceTimeline`, `EvilCharts`, `FlowMap` (`elkjs` + `BeamPulse`), `PromptVersionsView`, `FoggyLauncher` carved corner notch, `FoggyWidgetView` rubber-band resize, `ObservabilityGuideBlock`, and `FoglampHUD` work interactively with zero console or hydration errors.
+### WAVE 5: End-to-End Build, Computer-Use Browser QA & Connected Visual System Sign-Off
+1. **Task 5.1A (`GPT-6-Luna (low)`) — Static & Build Verification**:
+   - Run `bun run check-types` (`tsc --noEmit`), `bun test` / `vitest run`, `bun run build:registry`, and `bun run build` in `apps/docs`.
+2. **Task 5.1B (`GPT-6.1-Terra (high)`) — Automated Live-Browser Computer-Use Visual QA**:
+   - Drive the live `apps/docs` browser (>3× faster than `Sol`) across rendered stories and pages in Light and Dark modes, verifying zero layout shifts, console errors, or broken imports.
+3. **Task 5.2 (`GPT-6.1-Sol (high)`) — Final Whole-Portal Connected Visual System & Attribution Sign-Off *(Apex Task #2)***:
+   - Verify prominent shoutout & links to **Gustavo Fior (`@gustavo-fior`)**, **Abdul Haidar**, and **Foglamp Labs (`foglamp-labs/foglamp`)** on the homepage hero, navbar, footer, `/docs/credits`, `/docs`, and every `FoglampStoryPanel`.
+   - Verify all 18 `--custom-shadow*` tokens, `squircle:*` corner shapes, 3-Beat `Hero3DDemoBlock`, `TraceTimeline`, `EvilCharts`, `FlowMap` (`elkjs` + `BeamPulse`), `PromptVersionsView`, `FoggyLauncher` carved corner notch, `FoggyWidgetView` rubber-band resize, `ObservabilityGuideBlock`, and `FoglampHUD` work interactively with zero visual drift.
    - Only emit `<!-- GOAL_COMPLETE -->` once every single check passes.
 /goal
 ````
