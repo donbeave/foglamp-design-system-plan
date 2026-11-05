@@ -1,0 +1,254 @@
+{
+  "objective": "Execute GOAL.md, AGENT-RUNBOOK.md and task-index.json end-to-end across all waves",
+  "tasks": {
+    "W0-0.1": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_low",
+      "depends_on": [],
+      "agent_id": "/root/w0_01",
+      "verification": {
+        "source_revision": "7d7e6609108019a74902858d4b07c24825c6318b",
+        "bun_install_exit_code": 0,
+        "readme_correction": "ACCEPTED"
+      }
+    },
+    "W0-0.2": {
+      "state": "ACTIVE",
+      "profile": "foglamp_terra_medium",
+      "depends_on": [
+        "W0-0.1"
+      ],
+      "agent_id": "/root/w0_02"
+    },
+    "W1-1A": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_low",
+      "depends_on": [
+        "W0-0.2"
+      ]
+    },
+    "W1-1B": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_max",
+      "depends_on": [
+        "W0-0.2"
+      ]
+    },
+    "W1-1C": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_medium",
+      "depends_on": [
+        "W0-0.2"
+      ]
+    },
+    "W1-1D": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_medium",
+      "depends_on": [
+        "W0-0.2"
+      ]
+    },
+    "W1-1E": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_medium",
+      "depends_on": [
+        "W0-0.2"
+      ]
+    },
+    "W1-GATE": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_low",
+      "depends_on": [
+        "W1-1A",
+        "W1-1B",
+        "W1-1C",
+        "W1-1D",
+        "W1-1E"
+      ]
+    },
+    "W2-2A": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_max",
+      "depends_on": [
+        "W1-GATE"
+      ]
+    },
+    "W2-2B": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W1-GATE"
+      ]
+    },
+    "W2-2C": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_high",
+      "depends_on": [
+        "W1-GATE"
+      ]
+    },
+    "W2-2D": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_sol_medium",
+      "depends_on": [
+        "W1-GATE"
+      ]
+    },
+    "W2-2E": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_sol_medium",
+      "depends_on": [
+        "W1-GATE"
+      ]
+    },
+    "W2-GATE": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_low",
+      "depends_on": [
+        "W2-2A",
+        "W2-2B",
+        "W2-2C",
+        "W2-2D",
+        "W2-2E"
+      ]
+    },
+    "W3-3A": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_max",
+      "depends_on": [
+        "W2-GATE"
+      ]
+    },
+    "W3-3B": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_medium",
+      "depends_on": [
+        "W2-GATE"
+      ]
+    },
+    "W3-3C": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_high",
+      "depends_on": [
+        "W2-GATE"
+      ]
+    },
+    "W3-3D": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_sol_medium",
+      "depends_on": [
+        "W2-GATE"
+      ]
+    },
+    "W3-3E": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_sol_high",
+      "depends_on": [
+        "W2-GATE"
+      ]
+    },
+    "W3-GATE": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_low",
+      "depends_on": [
+        "W3-3A",
+        "W3-3B",
+        "W3-3C",
+        "W3-3D",
+        "W3-3E"
+      ]
+    },
+    "W4-4A": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_medium",
+      "depends_on": [
+        "W3-GATE"
+      ]
+    },
+    "W4-4B": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W3-GATE"
+      ]
+    },
+    "W4-4C": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W3-GATE"
+      ]
+    },
+    "W4-4D-LEAD": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_low",
+      "depends_on": [
+        "W3-GATE"
+      ]
+    },
+    "W4-4D-REF": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W4-4A"
+      ]
+    },
+    "W4-4E": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W4-4B"
+      ]
+    },
+    "W4-4F": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W4-4C"
+      ]
+    },
+    "W4-4G": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_medium",
+      "depends_on": [
+        "W3-GATE"
+      ]
+    },
+    "W4-4H": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_low",
+      "depends_on": [
+        "W4-4D-LEAD",
+        "W4-4D-REF",
+        "W4-4E",
+        "W4-4F",
+        "W4-4G"
+      ]
+    },
+    "W5-5.1A": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_luna_low",
+      "depends_on": [
+        "W4-4H"
+      ]
+    },
+    "W5-5.1B": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_terra_high",
+      "depends_on": [
+        "W5-5.1A"
+      ]
+    },
+    "W5-5.2": {
+      "state": "NOT_STARTED",
+      "profile": "foglamp_sol_high",
+      "depends_on": [
+        "W5-5.1B"
+      ]
+    }
+  },
+  "gates": {},
+  "target_path": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "target_repository": "https://github.com/donbeave/foglamp-design-system",
+  "source_revision": "7d7e6609108019a74902858d4b07c24825c6318b"
+}

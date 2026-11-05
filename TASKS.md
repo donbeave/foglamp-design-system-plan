@@ -9,15 +9,18 @@
 
 ---
 
-## Wave 0: Workspace & CSS Token Pipeline (2 Sequential Setup Tasks)
+## Wave 0: Target GitHub Repository (`donbeave/foglamp-design-system`), Workspace & CSS Token Pipeline (2 Sequential Setup Tasks)
 
-- [ ] **Task 0.1** — `GPT-6-Luna (low)`:
-  - Clone `https://github.com/foglamp-labs/foglamp` into `.reference/foglamp`.
-  - Scaffold the Bun + Turborepo workspace (`package.json`, `turbo.json`, `tsconfig.base.json`, `packages/design-system`, `packages/registry`, `apps/docs`).
+- [ ] **Task 0.1** — `GPT-6-Luna (low)` (`foglamp_luna_low`):
+  - Create the target GitHub repository **`https://github.com/donbeave/foglamp-design-system`** under the **`donbeave`** GitHub account (`gh repo view donbeave/foglamp-design-system || gh repo create donbeave/foglamp-design-system --public --description "Foglamp Design System (@foglamp/design-system) + shadcn Registry + Fumadocs/BaseUI/TanStack Start/Story Portal — Original UI & Design by Gustavo Fior (@gustavo-fior) & Foglamp Labs"`).
+  - Initialize `/Users/donbeave/Projects/donbeave/foglamp-design-system` (`git init -b main`, `git remote add origin https://github.com/donbeave/foglamp-design-system.git`) with `.gitignore` excluding `.reference/`, `node_modules/`, `dist/`, `.turbo/`, `.output/`, `.vinxi/`, `.tanstack/`.
+  - Clone `https://github.com/foglamp-labs/foglamp` into `/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp`.
+  - Scaffold the Bun + Turborepo workspace (`package.json`, `turbo.json`, `tsconfig.base.json`, `packages/design-system`, `packages/registry`, `apps/docs`, `CREDITS.md`, `README.md`).
   - Copy static assets (`InterVariable.woff2`, `InterVariable-Italic.woff2`, `public/illustrations/ai-workshop.webp`, `/avatar.jpg`, `/abdul-haidar.jpg`) and `apps/web/src/components/marketing/demo/mock-data.ts` (`2,094` lines).
-- [ ] **Task 0.2** — `GPT-6.1-Terra (medium)`:
+- [ ] **Task 0.2** — `GPT-6.1-Terra (medium)` (`foglamp_terra_medium`):
   - Configure `packages/design-system/src/styles/globals.css` and `effects.css` with all 18 `--custom-shadow*` tokens (`:root` + `.dark`), `@plugin "@toolwind/corner-shape"`, `@custom-variant squircle (@supports (corner-shape: squircle))`, keyframes, autofill neutralizer, and thin scrollbars.
   - Configure `apps/docs` (`vite.config.ts`, `source.config.ts`, `src/routes/__root.tsx`, `src/styles/app.css`) with **TanStack Start** (`@tanstack/react-start`), **Fumadocs Base UI** (`"fumadocs-ui": "npm:@fumadocs/base-ui@latest"`, `RootProvider` from `fumadocs-ui/provider/tanstack`), and **Fumadocs Story** (`@fumadocs/story/vite`), ensuring zero CSS variable collision between Fumadocs UI chrome and Foglamp surfaces.
+  - Stage, commit (`feat(wave-0): initialize monorepo, Tailwind v4 tokens, and TanStack Start + Fumadocs portal`), and **`git push -u origin main` to `https://github.com/donbeave/foglamp-design-system`**.
 
 ---
 
@@ -38,8 +41,8 @@
 - [ ] **Subagent 1E (Custom `FoglampStoryPanel` Workbench with Creator Attribution)** — `GPT-6.1-Terra (medium)`:
   - Build `apps/docs/src/components/story-panel.tsx` and `apps/docs/src/lib/story.tsx` using `defineStoryFactory({ WithControl: FoglampStoryPanel })` from `@fumadocs/story/vite/client`.
   - Include variant preset tabs, live prop controls (`useStoryArgs()`), surface background toggle (`Default`, `Muted`, `Dark Lift`, plus isolated Light/Dark preview toggle), `npx shadcn@latest add` CLI command bar, and a visible footer badge: *"Original Design by Gustavo Fior (@gustavo-fior) · foglamp-labs/foglamp"*.
-- [ ] **Gatekeeper 1** — `GPT-6.1-Terra (low)`:
-  - Verify all Wave 1 exports, run unit tests (`payload-messages`, `prompts`), and confirm zero `next/*` or `trpc` imports in `packages/design-system`.
+- [ ] **Gatekeeper 1** — `GPT-6.1-Terra (low)` (`foglamp_terra_low`):
+  - Verify all Wave 1 exports, run unit tests (`payload-messages`, `prompts`), confirm zero `next/*` or `trpc` imports in `packages/design-system`, commit all Wave 1 work, and **`git push origin main` to `https://github.com/donbeave/foglamp-design-system`**.
 
 ---
 
@@ -58,8 +61,8 @@
 - [ ] **Subagent 2E (`FoggyLauncher` Carved SVG Notch, `FoggyWidgetView` Rubber-Band Resize & `FoglampHUD` Shadow DOM)** — `GPT-6.1-Sol (medium)`:
   - Extract `foggy/foggy-widget.tsx` (`FoggyLauncher` with `NOTCH_FILL` & `NOTCH_EDGE` 6px border-overlapping SVG corner shelf + `FoggyWidgetView` with `[320..640px]` left-edge pointer drag resize and `rubberBand(excess)` physics), `foggy/foggy-message.tsx`, and `dev-toolbar.tsx` (`DevBarView`).
   - Extract `packages/sdk/src/hud/react/*` (`FoglampHUD` Shadow DOM `<foglamp-hud>` with 240Hz fixed-substep `useSizeSpring`, 8-pixel comet `<Diamond />`, 1-min live timeline with sub-pixel `translateX` remainder, and dotted-leader waterfall, plus `HudInlinePreview` for docs).
-- [ ] **Gatekeeper 2** — `GPT-6.1-Terra (low)`:
-  - Verify all Wave 2 widget exports and run `tsc --noEmit`.
+- [ ] **Gatekeeper 2** — `GPT-6.1-Terra (low)` (`foglamp_terra_low`):
+  - Verify all Wave 2 widget exports, run `tsc --noEmit`, commit all Wave 2 work, and **`git push origin main` to `https://github.com/donbeave/foglamp-design-system`**.
 
 ---
 
@@ -78,8 +81,8 @@
 - [ ] **Subagent 3E (`Hero3DDemoBlock` — *Apex Task #1*)** — **`GPT-6.1-Sol (high)`** *(Connected visual systems)*:
   - Extract `landing/hero.tsx`, `hero-demo.tsx`, `demo/entrance.ts`, `demo/piece.tsx`, `demo/index.tsx`, `demo-context.tsx`, `demo-shell.tsx`, `demo-sidebar.tsx`, `demo-chrome.tsx`, all 7 `demo/tabs/*.tsx`, and all 5 `demo/detail/*.tsx` connected to `demo/mock-data.ts`.
   - Verify `transformPerspective: 2400`, unbroken `transform-3d` ancestry, Beat 0's 2-phase dark-mode 8-bit sRGB anti-flicker tween, Beat 1 & Beat 2 `<Piece>` / `<PieceRow>` staggers with `ENTRANCE_TABLE` separated cell shadows, Beat 3 `TILT` → `FLAT` swing, and `DARK_LIFT` tokens.
-- [ ] **Gatekeeper 3** — `GPT-6.1-Terra (low)`:
-  - Verify all Wave 3 block exports and run `tsc --noEmit`.
+- [ ] **Gatekeeper 3** — `GPT-6.1-Terra (low)` (`foglamp_terra_low`):
+  - Verify all Wave 3 block exports, run `tsc --noEmit`, commit all Wave 3 work, and **`git push origin main` to `https://github.com/donbeave/foglamp-design-system`**.
 
 ---
 
@@ -101,17 +104,19 @@
   - Author all `content/docs/figures/*.mdx` and `content/docs/blocks/*.mdx` pages.
 - [ ] **Subagent 4G (`shadcn/ui` Registry Manifest & `/public/r/*.json` Builder)** — `GPT-6-Luna (medium)`:
   - Build `packages/registry/registry.json` (with `author: "Gustavo Fior (@gustavo-fior) & Foglamp Labs"`, `homepage: "https://github.com/foglamp-labs/foglamp"`) and `scripts/build-registry.ts`, emitting static `/r/<name>.json` files into `apps/docs/public/r/`.
-- [ ] **Subagent 4H (Portal Homepage with Prominent Creator Shoutout & Navigation `meta.json` Trees)** — `GPT-6-Luna (low)`:
+- [ ] **Subagent 4H (Portal Homepage with Prominent Creator Shoutout, Navigation `meta.json` Trees & Wave 4 Git Push)** — `GPT-6-Luna (low)` (`foglamp_luna_low`):
   - Build `apps/docs/src/routes/index.tsx` featuring a top attribution banner & hero callout honoring **Gustavo Fior (`@gustavo-fior` / `gustavofior.com` / `@heyimgustavo`)** and **Foglamp Labs (`foglamp-labs/foglamp`)**, the live 3-Beat `Hero3DDemoBlock`, interactive component showcase, `OriginalAuthorsBlock`, `DriftingFogCtaBlock`, and `CuttingMatFooterBlock`.
   - Generate all `meta.json` navigation files and barrel `index.ts` exports.
+  - Once all Wave 4 subagents finish, commit all Wave 4 stories, MDX docs, registry outputs, and portal routes, and **`git push origin main` to `https://github.com/donbeave/foglamp-design-system`**.
 
 ---
 
-## Wave 5: Build Verification, Computer-Use Browser QA & Final Pixel-Parity Sign-Off (3 Tasks)
+## Wave 5: Build Verification, Computer-Use Browser QA, Final Pixel-Parity Sign-Off & GitHub Release Push (3 Tasks)
 
-- [ ] **Task 5.1A (Static Typecheck, Unit Tests, Registry Build & Prod Build)** — `GPT-6-Luna (low)`:
+- [ ] **Task 5.1A (Static Typecheck, Unit Tests, Registry Build & Prod Build)** — `GPT-6-Luna (low)` (`foglamp_luna_low`):
   - Run `bun run check-types`, `bun test`, `bun run build:registry`, and `bun run build` across the workspace.
-- [ ] **Task 5.1B (Automated Live-Browser Computer-Use Visual QA)** — `GPT-6.1-Terra (high)` *(>3× faster Computer Use & MMMU-Pro visual reasoning)*:
+- [ ] **Task 5.1B (Automated Live-Browser Computer-Use Visual QA)** — `GPT-6.1-Terra (high)` (`foglamp_terra_high` — *>3× faster Computer Use & MMMU-Pro visual reasoning*):
   - Drive the live `apps/docs` browser across component stories and blocks in both Light and Dark modes, verifying zero layout shifts, broken imports, or hydration warnings.
-- [ ] **Task 5.2 (Final Whole-Portal Connected Visual System & Attribution Sign-Off — *Apex Task #2*)** — **`GPT-6.1-Sol (high)`**:
+- [ ] **Task 5.2 (Final Whole-Portal Connected Visual System, Attribution Sign-Off & Final Push to `donbeave/foglamp-design-system` — *Apex Task #2*)** — **`GPT-6.1-Sol (high)`** (`foglamp_sol_high`):
   - Final architectural sign-off on all 18 `--custom-shadow*` tokens, `squircle:*` geometry, 3-Beat `Hero3DDemoBlock`, `TraceTimeline`, `EvilCharts`, `FlowMap` (`elkjs` + `BeamPulse`), `ObservabilityGuideBlock`, `FoggyLauncher` carved corner shelf, `FoglampHUD` Shadow DOM spring morph, and prominent attribution to **Gustavo Fior (`@gustavo-fior`)** and **Foglamp Labs** across every surface.
+  - Commit any final polish, **`git push origin main` to `https://github.com/donbeave/foglamp-design-system`**, verify `git status --porcelain` is empty and `HEAD == origin/main`, and emit `<!-- GOAL_COMPLETE -->`.

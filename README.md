@@ -26,6 +26,7 @@ codex-openai-zhokhov-yolo --strict-config -m gpt-6.1-sol -c 'model_reasoning_eff
 
 - **Root Orchestrator Session**: Runs on `gpt-6.1-sol` at `low` reasoning effort (~2% of total work; `-32%` factual error reduction & `2.1%` broken-tool disclosure rate) and **never writes bulk code itself**.
 - **Default Subagent Fallback**: Configured in `.codex/config.toml` as `default_subagent_model = "gpt-6-luna"` and `default_subagent_reasoning_effort = "low"`, with up to `8` concurrent subagent threads (`max_concurrent_threads_per_session = 8`).
+- **Target GitHub Repository & Continuous Wave Push**: In Wave 0 (`W0-0.1`), Codex creates **`https://github.com/donbeave/foglamp-design-system`** under `@donbeave` (local checkout `/Users/donbeave/Projects/donbeave/foglamp-design-system`) and automatically commits + runs `git push origin main` after **every completed wave** (`W0-0.2`, `W1-GATE`, `W2-GATE`, `W3-GATE`, `W4-4H`, and `W5-5.2`) so all work is durably landed on GitHub.
 
 ---
 

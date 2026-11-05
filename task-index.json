@@ -1,5 +1,10 @@
 {
   "project": "foglamp-design-system",
+  "target_github_repository": "https://github.com/donbeave/foglamp-design-system",
+  "target_github_owner": "donbeave",
+  "target_github_repo_name": "foglamp-design-system",
+  "target_local_path": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "wave_push_policy": "Create https://github.com/donbeave/foglamp-design-system under @donbeave in W0-0.1 if not present, land all extracted code there, and commit + git push origin main at the end of every wave (W0-0.2, W1-GATE, W2-GATE, W3-GATE, W4-4H, W5-5.2).",
   "original_source_repository": "https://github.com/foglamp-labs/foglamp",
   "original_creators": {
     "lead_creator": {
@@ -32,7 +37,7 @@
     {
       "task_id": "W0-0.1",
       "wave": 0,
-      "title": "Clone foglamp-labs/foglamp, scaffold Bun + Turborepo workspace, copy fonts/assets & mock-data.ts",
+      "title": "Create donbeave/foglamp-design-system on GitHub, clone foglamp-labs/foglamp into .reference/foglamp, scaffold Bun + Turborepo workspace, copy fonts/assets & mock-data.ts",
       "profile": "foglamp_luna_low",
       "model": "gpt-6-luna",
       "reasoning_effort": "low",

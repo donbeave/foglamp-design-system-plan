@@ -88,7 +88,25 @@ Every subagent must return a concise JSON summary (preventing context pollution 
 
 ---
 
-## 6. Checkpoint & State Tracking (`results/run-state.json`)
+## 6. Target GitHub Repository Creation (`donbeave/foglamp-design-system`) & Wave-by-Wave Push Mandate
 
-The Coordinator maintains `results/run-state.json` with task states (`NOT_STARTED`, `READY`, `ACTIVE`, `REVIEW`, `CORRECTION`, `ACCEPTED`, `BLOCKED`), recorded agent IDs, and gatekeeper decisions (`ACCEPT`, `CORRECTION`, `BLOCKED`).
+All extracted design system packages, stories, registry files, and the documentation portal MUST be landed and pushed into a dedicated GitHub repository under the **`donbeave`** account: **`https://github.com/donbeave/foglamp-design-system`** (local checkout: `/Users/donbeave/Projects/donbeave/foglamp-design-system`).
+
+1. **Wave 0 (`W0-0.1` + `W0-0.2`) — Create Repository under `@donbeave` & Push Initial Scaffold**:
+   - In `W0-0.1` (`foglamp_luna_low`), create `https://github.com/donbeave/foglamp-design-system` if it does not exist:
+     ```sh
+     gh repo view donbeave/foglamp-design-system >/dev/null 2>&1 || \
+       gh repo create donbeave/foglamp-design-system --public \
+         --description "Foglamp Design System (@foglamp/design-system) + shadcn Registry + Fumadocs/BaseUI/TanStack Start/Story Portal — Original UI & Design by Gustavo Fior (@gustavo-fior) & Foglamp Labs"
+     ```
+   - Initialize `/Users/donbeave/Projects/donbeave/foglamp-design-system` (`git init -b main`), connect `origin` to `https://github.com/donbeave/foglamp-design-system.git`, configure `.gitignore` (ignoring `.reference/`, `node_modules/`, `dist/`, `.turbo/`, `.output/`, `.vinxi/`, `.tanstack/`), clone `https://github.com/foglamp-labs/foglamp` into `.reference/foglamp`, and scaffold the monorepo.
+   - At the end of `W0-0.2` (`foglamp_terra_medium`), commit the workspace & CSS token pipeline and run `git push -u origin main` to `https://github.com/donbeave/foglamp-design-system`.
+2. **After Every Wave (`W1-GATE`, `W2-GATE`, `W3-GATE`, `W4-4H`, `W5-5.2`) — Mandatory Commit & Push**:
+   - After each wave passes its gatekeeper checks, stage all files in `/Users/donbeave/Projects/donbeave/foglamp-design-system`, commit with a clear conventional commit message (`feat(wave-1): ...`, `feat(wave-2): ...`, `feat(wave-3): ...`, `feat(wave-4): ...`, `chore(wave-5): ...`), and run `git push origin main` so every wave is durably landed on GitHub under `donbeave/foglamp-design-system`.
+
+---
+
+## 7. Checkpoint & State Tracking (`results/run-state.json`)
+
+The Coordinator maintains `results/run-state.json` with task states (`NOT_STARTED`, `READY`, `ACTIVE`, `REVIEW`, `CORRECTION`, `ACCEPTED`, `BLOCKED`), recorded agent IDs, pushed commit SHAs on `donbeave/foglamp-design-system`, and gatekeeper decisions (`ACCEPT`, `CORRECTION`, `BLOCKED`).
 - If a subagent fails to resolve a bundler/type/rendering edge case after 2 attempts, escalate **one rung up** the 10-rung ladder in [MODEL-EFFORT-COST-ANALYSIS.md](MODEL-EFFORT-COST-ANALYSIS.md) and record the escalation in `results/run-state.json`.
