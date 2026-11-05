@@ -599,7 +599,7 @@
         "Resolvedmissingtypefest; documentedverifiedstrictTSconsumerflags",
         "ResolvedFigureKitstoryzero-widthusingexternalstandardframe"
       ],
-      "remaining": "Finalplanningcheckpointdeliveryverificationonly.",
+      "remaining": [],
       "verdict": "ACCEPTED",
       "evidence": "results/qa/w6-final-signoff/decision.json",
       "results": {
@@ -724,8 +724,8 @@
       "decision": "ACCEPT",
       "evidence": "results/qa/w6-final-signoff/decision.json",
       "scope": "AllW6requirements+sourceinvariants+actualCLIlegalnotices+activepublic/MDXprovenance+browser+pack",
-      "delivery": "Implementationverified; planningpushpending",
-      "goal_complete": false,
+      "delivery": "Bothimplementationandplanningcheckpointindependentlyverified;closuremetadatarecordedhere.",
+      "goal_complete": true,
       "pushed_sha": "fa5da0c04cb9275db076e2128d9feb81d4fce839"
     }
   },
@@ -1255,13 +1255,13 @@
   },
   "goal_continuation_audit": {
     "previous_goal_turn": "progress: registrycoherencerestored andall266provenancemappingsresolvedandvalidated",
-    "current_goal_turn": "progress: all37tasksaccepted, finalimplementationpushedfa5da0cwithcleanremotes/fullpost-refreshsuite/pack. Planningcheckpointready.",
+    "current_goal_turn": "All37tasksacceptedandbothrepodeliveriesverified;recordingfinalclosurewithoutproductchanges.",
     "pending_dependency": null,
     "goal_complete": false,
     "blocking_condition": null,
     "consecutive_goal_turns_with_same_blocker": 0,
     "independent_preparation_complete": true,
-    "decision": "Proceedwithfinalplanningcheckpointpushandindependentdeliveryreadback;noopenproductorpermissionblocker."
+    "decision": "Objective achieved; pushclosuremetadata,readbackcleanremotes,thencompletegoalinthread."
   },
   "final_resolution": {
     "all_tasks_accepted": 37,
@@ -1270,7 +1270,30 @@
     "wave6_requirements": "ACCEPTED finalindependentsignoff;allfullcommands0;actualCLI119noticesand8browsercases;24coldportal+4correctedFigureKitpaintcases",
     "implementation_commit": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
     "implementation_clean": true,
-    "planning_delivery": "Readyforcheckpointcommit/pushwithall37taskstatesaccepted;verifiedclosurewillberecordedafterremotereadback.",
-    "historical_gate_note": "Earlierwave-gatepending/unverifiedfieldsdescribechecksdeferredatthatwave. FinalW5/W6signoffsresolveallrequireddeferredchecks;noexplicitrequirementremainsopenexceptplanningdelivery."
-  }
+    "planning_delivery": "Independentlyverifiedcheckpoint f50affa9ac08f437cb46e16f8176efed8bee6317; finalbookkeepingrecordcommit followswithoutproductchanges.",
+    "historical_gate_note": "Earlierwave-gatepending/unverifiedfieldsdescribechecksdeferredatthatwave. FinalW5/W6signoffsresolveallrequireddeferredchecks;noexplicitrequirementremainsopenexceptplanningdelivery.",
+    "remaining_requirements": []
+  },
+  "delivery": {
+    "implementation": {
+      "commit": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+      "remote": "https://github.com/donbeave/foglamp-design-system.git",
+      "head_tracking_and_live_remote_match": true,
+      "clean": true
+    },
+    "planning": {
+      "verified_checkpoint": "f50affa9ac08f437cb46e16f8176efed8bee6317",
+      "remote": "https://github.com/donbeave/foglamp-design-system-plan.git",
+      "head_tracking_and_live_remote_match_at_checkpoint": true,
+      "clean_before_closure_record": true,
+      "closure_note": "This state and independent delivery report record the verified checkpoint. The final bookkeeping commit SHA is read back after push in the thread execution."
+    },
+    "upstream": {
+      "commit": "7d7e6609108019a74902858d4b07c24825c6318b",
+      "clean": true
+    },
+    "independent_evidence": "results/qa/w6-final-signoff/delivery.json"
+  },
+  "goal_status": "complete",
+  "goal_complete": true
 }

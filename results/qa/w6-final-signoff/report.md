@@ -44,3 +44,9 @@ Fresh consumer types were verified under TypeScript 5.9.3 with strict mode and s
 ## Reproduction
 
 From this planning checkout, run `python3 results/qa/w6-final-signoff/audit-source.py`. The shared exact source/header and corruption checks run from the implementation checkout with `python3 scripts/provenance/headers.py --check`, `python3 scripts/provenance/test-fixtures.py` and `mise exec bun@latest -- bun verify:portal`. Browser runners use an owned production preview on 4205 and owned Chrome CDP on 9361; `browser.mjs` captures the cold matrix, `consumer-final-browser.mjs` probes the helper’s actual installed consumer on 4292. `png-mask-independent.json` was reproduced with `mise exec uv@latest -- uv run --with pillow python results/qa/w6-identity-assets/verify_outside_pixels.py --impl-root ../foglamp-design-system`. Do not run the runners against stopped or unrelated servers.
+
+## Delivery checkpoint
+
+Independent readback verified implementation `fa5da0c04cb9275db076e2128d9feb81d4fce839` and planning checkpoint `f50affa9ac08f437cb46e16f8176efed8bee6317`: each local HEAD, origin/main and live GitHub main agree, with clean working trees before this evidence write. Repository URLs are the required donbeave implementation and planning repositories. The readonly source remains clean at `7d7e6609108019a74902858d4b07c24825c6318b`. Exact readback is in `delivery.json`.
+
+The planning SHA is a **VERIFIED_CHECKPOINT**. The coordinator will subsequently commit this delivery record and final run-state closure; this report does not assert the SHA of that future bookkeeping commit. The final implementation delivery is verified. No source edits, additional QA, commits, pushes or completion marker were performed by this reviewer during delivery verification.
