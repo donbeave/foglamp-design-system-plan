@@ -16,7 +16,12 @@ Run the entire multi-wave extraction from the repository root with:
 
 ```sh
 cd /Users/donbeave/Projects/donbeave/foglamp-design-system-plan
-codex --strict-config -m gpt-6.1-sol -c 'model_reasoning_effort="low"' "$(cat GOAL.md)"
+
+# Option 1: Start immediately with GOAL.md passed as the initial prompt
+codex-openai-zhokhov-yolo --strict-config -m gpt-6.1-sol -c 'model_reasoning_effort="low"' "$(cat GOAL.md)"
+
+# Option 2: Open interactive TUI first, then run `/goal Follow GOAL.md end-to-end`
+codex-openai-zhokhov-yolo --strict-config -m gpt-6.1-sol -c 'model_reasoning_effort="low"'
 ```
 
 - **Root Orchestrator Session**: Runs on `gpt-6.1-sol` at `low` reasoning effort (~2% of total work; `-32%` factual error reduction & `2.1%` broken-tool disclosure rate) and **never writes bulk code itself**.
