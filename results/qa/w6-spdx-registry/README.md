@@ -1,0 +1,7 @@
+# Wave 6 source and registry verification
+
+Pinned upstream: `7d7e6609108019a74902858d4b07c24825c6318b`. Refreshed preflight recorded 266 files: 46 copied, 200 modified and 20 Tailrocks originals. `scripts/provenance/manifest.json` retains reviewed source mappings and before-header body hashes. The generator verifies all body hashes and exact upstream comparisons, rejects inventory drift, and its second run and `--check` leave headers unchanged. Two reviewed modified files have secondary upstream links.
+
+`bun run build:registry` builds 288 self-contained items. `python3 scripts/provenance/verify.py --scoped` exits 0. `python3 scripts/provenance/test-fixtures.py` exits 0 after confirming rejection of copied-body byte changes, missing Section 4(b) notice, false source path, stripped payload attribution and false URL. `bun run check-types`, `bun test` (58 tests) and `bun run build` exit 0. Build reports CSS highlight and browser-externalization warnings. Full `bun run verify:portal` remains strict and exits 1 until W6-6D adds page-level attribution and tribute content.
+
+All Bun commands use `mise exec bun@latest -- bun`. Registry metadata fields: `provenance`, `provenanceLabel`, `upstreamCommit`, `upstreamPath` and `upstreamUrl` for upstream files; originals omit the latter two and expose `inspirationPath` and `inspirationUrl`. Every component page must reproduce the matching catalog label and pinned URL; originals state that they are not an upstream source file. FigureKit22 is an original composition, with the pinned figure-picker as inspiration.

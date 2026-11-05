@@ -1,5 +1,5 @@
 {
-  "objective": "Execute GOAL.md, AGENT-RUNBOOK.md and task-index.json end-to-end across all waves",
+  "objective": "Execute GOAL.md, AGENT-RUNBOOK.md and task-index.json through Waves0\u20136; preserve accepted extraction, complete Framerock rebrand/provenance gate, commit/pushbothrepos.",
   "tasks": {
     "W0-0.1": {
       "state": "ACCEPTED",
@@ -13,50 +13,69 @@
       }
     },
     "W0-0.2": {
-      "state": "ACTIVE",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_medium",
       "depends_on": [
         "W0-0.1"
       ],
-      "agent_id": "/root/w0_02"
+      "agent_id": "/root/w0_02",
+      "verification": {
+        "portal_build": "PASS per worker",
+        "portal_typecheck": "PASS per worker",
+        "source_globals_identical": true,
+        "effects_diff": "original globals import removed only",
+        "workspace_typecheck": "FAIL: copied mock-data depends on Wave1/Wave2 modules, no stubs permitted",
+        "push": "PASS"
+      },
+      "pushed_sha": "1fe21e96146ca737900606e9319be9074c713176"
     },
     "W1-1A": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_low",
       "depends_on": [
         "W0-0.2"
-      ]
+      ],
+      "agent_id": "/root/w1_1a",
+      "evidence": "49 upstream primitive files (matrix says 48); source comparisons pass after imports only, await gate"
     },
     "W1-1B": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_max",
       "depends_on": [
         "W0-0.2"
-      ]
+      ],
+      "agent_id": "/root/w1_1b",
+      "evidence": "prompts20 pass; link single-anchor SSR; original Sonner restored, import/header-only primitive fidelity"
     },
     "W1-1C": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_medium",
       "depends_on": [
         "W0-0.2"
-      ]
+      ],
+      "agent_id": "/root/w1_1c",
+      "evidence": "payload tests 32 pass root verified; no next/trpc aliases; NodeFlow awaits Wave2 ContextChip"
     },
     "W1-1D": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_medium",
       "depends_on": [
         "W0-0.2"
-      ]
+      ],
+      "agent_id": "/root/w1_1d",
+      "evidence": "isolated strict tsc, ELK layout/path and contracts smoke pass; full package awaits siblings"
     },
     "W1-1E": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_medium",
       "depends_on": [
         "W0-0.2"
-      ]
+      ],
+      "agent_id": "/root/w1_1e",
+      "evidence": "docs tsc pass; iframe theme/surface propagation and explicit registryItem support added"
     },
     "W1-GATE": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_low",
       "depends_on": [
         "W1-1A",
@@ -64,45 +83,57 @@
         "W1-1C",
         "W1-1D",
         "W1-1E"
-      ]
+      ],
+      "agent_id": "/root/w1_gate",
+      "mode": "read-only review while last worker finalizes"
     },
     "W2-2A": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_max",
       "depends_on": [
         "W1-GATE"
-      ]
+      ],
+      "agent_id": "/root/w2_2a",
+      "evidence": "all14 chart/widget files attribution/import checks tsc pass,11charts+trend source fidelity pass"
     },
     "W2-2B": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
       "depends_on": [
         "W1-GATE"
-      ]
+      ],
+      "agent_id": "/root/w2_2b",
+      "evidence": "16 files implemented; class literals/header audit scoped tsc pass; shared layout APIs preserved"
     },
     "W2-2C": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_high",
       "depends_on": [
         "W1-GATE"
-      ]
+      ],
+      "agent_id": "/root/w2_2c",
+      "evidence": "seven components extracted; worker SSR Toolbar/SearchInput/FilterSelect9/sort pass; scoped own no tsc errors; browser remains Wave5"
     },
     "W2-2D": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_sol_medium",
       "depends_on": [
         "W1-GATE"
-      ]
+      ],
+      "agent_id": "/root/w2_2d",
+      "evidence": "worker reports source body identical after imports; scoped dependency tsc0; real SSR phase positions folding controlled expansion reveal pass; await gate"
     },
     "W2-2E": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_sol_medium",
       "depends_on": [
         "W1-GATE"
-      ]
+      ],
+      "agent_id": "/root/w2_2e",
+      "evidence": "worker scoped tsc,3 HUD reducer tests15 assertions,SSR launcher/widget/dev/HUD,critical physics+CSS source parity;browser W5"
     },
     "W2-GATE": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_low",
       "depends_on": [
         "W2-2A",
@@ -110,45 +141,99 @@
         "W2-2C",
         "W2-2D",
         "W2-2E"
-      ]
+      ],
+      "agent_id": "/root/w1_gate",
+      "mode": "read-only preliminary"
     },
     "W3-3A": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_max",
       "depends_on": [
         "W2-GATE"
-      ]
+      ],
+      "agent_id": "/root/w3_3a",
+      "delegation": {
+        "primary": "all marketing +auth/onboarding-panel +auth index",
+        "/root/w3_3a_auth": [
+          "login-form.tsx",
+          "device-approve.tsx",
+          "instrument-empty-state.tsx",
+          "buttons-badges.tsx",
+          "uniquely prefixed helpers"
+        ]
+      },
+      "auth_support": "REVIEW fouractualblocks package+scopedtsc0,livebrowserflows and14badgevariantsPASS",
+      "evidence": "22sourcefigureIDs15cost6trace1quality,categorybarrels,typedHUDstream,visibleNavbarFooterfounderlinks,OriginalAuthorscards+Curitibaretained,tsc/SSR PASS;authsupportlivepass"
     },
     "W3-3B": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_medium",
       "depends_on": [
         "W2-GATE"
-      ]
+      ],
+      "agent_id": "/root/w3_3b",
+      "delegation": {
+        "primary": "AppShell,Session,TraceWaterfall,EvalDetail and barrel",
+        "/root/w3_3b_overview_traces": [
+          "overview-dashboard-block.tsx",
+          "traces-explorer-block.tsx",
+          "overview-/traces- prefixed helpers"
+        ],
+        "/root/w3_3b_agent_workflow": [
+          "agent-detail-inspector-block.tsx",
+          "workflow-detail-block.tsx",
+          "agent-detail-/workflow- prefixed helpers"
+        ]
+      },
+      "coverage": {
+        "primary": "Shell+Session+Trace+Eval corrected,canonical defaults derived,tsc0SSR pass",
+        "agent_workflow": "CORRECTED browser callback/defaultnative nav+rowURL+costzoom verified",
+        "overview_traces": "DONE actual real onboarding populated+empty SSR,scopedtsc0;Traces injected/empty/loading SSR+tsc0;allliteralclasses35/37 preserved"
+      },
+      "correction": "Restore omitted AppShell SunsetCard DevBar devHUD and project creation dialog; source parity false not accepted",
+      "correction_evidence": "Primary restored hostedSunset devDevBar devHUD typedstream NewProject dialog+local state platform/signout;scoped tsc0SSR pass;source hierarchy claimed awaiting gate",
+      "category_exports": "primary adding dashboard/app-shell index barrels"
     },
     "W3-3C": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_high",
       "depends_on": [
         "W2-GATE"
-      ]
+      ],
+      "agent_id": "/root/w3_3c",
+      "evidence": "all8chapters8stations source +setup,real ViteSSR pass,own tsc no errors;browser unverified"
     },
     "W3-3D": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_sol_medium",
       "depends_on": [
         "W2-GATE"
-      ]
+      ],
+      "agent_id": "/root/w3_3d",
+      "evidence": "scoped tsc0,scan3tests31assertions,10source body checks including full FlowMap;browser W5"
     },
     "W3-3E": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_sol_high",
       "depends_on": [
         "W2-GATE"
-      ]
+      ],
+      "agent_id": "/root/w3_3e",
+      "browser_evidence": {
+        "tabs": 7,
+        "details": 5,
+        "page_errors": 0,
+        "dark_entrance": "102 samples partialopacity neutral oklab.2 until opacity1,final flat/unlocked",
+        "preserve3d": "96samples36tilted locked all ancestors preserve3d overflowvisible",
+        "reduced_motion": "zero tilted/locked samples",
+        "mobile": "390px no horizontal overflow,screenshotsloaded",
+        "artifact_path": "results/qa/w3-hero/",
+        "source_fidelity": "21demo bodies+Hero imgadapter+HeroDemo/DARK_LIFT pass",
+        "full_source_types": "scoped tsc PASS"
+      }
     },
     "W3-GATE": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_low",
       "depends_on": [
         "W3-3A",
@@ -156,66 +241,103 @@
         "W3-3C",
         "W3-3D",
         "W3-3E"
-      ]
+      ],
+      "agent_id": "/root/w1_gate",
+      "mode": "final fullcurrentstate audit",
+      "preliminary_evidence": "Completed3c/3d aliases/interaction/source invariants pass;ELK loader-only diff geometry unchanged"
     },
     "W4-4A": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_medium",
       "depends_on": [
         "W3-GATE"
-      ]
+      ],
+      "agent_id": "/root/w4_4a_primitives_a",
+      "delegation": {
+        "/root/w4_4a_primitives_a": "alphabetic28accordion..input-otp",
+        "/root/w4_4a_primitives_b": "alphabetic28item..tooltip",
+        "helpers": "separate_batch-a/_batch-b only"
+      },
+      "batch_b_state": "REVIEW own28 authored,ownparse/typesclear fullotherstoryerrors remain",
+      "evidence": "56source-backedstories,28eachpartition,typecheckrootactualPASS afterArestoration;browserallpendingW5"
     },
     "W4-4B": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
       "depends_on": [
         "W3-GATE"
-      ]
+      ],
+      "agent_id": "/root/w4_4b_widgets",
+      "delegation": {
+        "/root/w4_4b_widgets": "widgets/ all49logicalandextraactualpubliccoverage",
+        "/root/w4_4b_charts": "charts/11evilmodules"
+      },
+      "evidence": "53widgets+11charts/sourceprops;11chartregistryprefixerrorsCORRECTEDstory+MDXactualcatalog/payloadaudits"
     },
     "W4-4C": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
       "depends_on": [
         "W3-GATE"
-      ]
+      ],
+      "agent_id": "/root/w4_4c_blocks_figures",
+      "required_block_exports": 25,
+      "evidence": "26block+22figurestories,tscPASS,NodeViteSSRall48pass;actualprovider/context/navigationfixtures"
     },
     "W4-4D-LEAD": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_low",
       "depends_on": [
         "W3-GATE"
-      ]
+      ],
+      "agent_id": "/root/w4_4d_lead",
+      "evidence": "8MDXpages compilerparsePASS,authorblockimport+assetsverified;fullrenderpending"
     },
     "W4-4D-REF": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
       "depends_on": [
         "W4-4A"
-      ]
+      ],
+      "agent_id": "/root/w4_4d_ref",
+      "evidence": "56referenceMDX sourceexport+story/registry/credit/TSXsyntax audits+FumaGFMcompile PASS"
     },
     "W4-4E": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
       "depends_on": [
         "W4-4B"
-      ]
+      ],
+      "agent_id": "/root/w4_4e_widgets_charts_docs",
+      "evidence": "53widgets11charts MDXcompilation typecheck/import/alias/provider/credits audit PASS"
     },
     "W4-4F": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
       "depends_on": [
         "W4-4C"
-      ]
+      ],
+      "agent_id": "/root/w4_4f_blocks_figures_docs",
+      "evidence": "26blocks22figures MDX/Fuma generation inventory API+corrected26storyregistryslugs audit PASS"
     },
     "W4-4G": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_medium",
       "depends_on": [
         "W3-GATE"
+      ],
+      "agent_id": "/root/registry_assets_fix",
+      "evidence": "Assetowner reports actualfreshCLI100files+Vite8.3.6 productionGuide/Hero/AuthorsPASS; browser7imagesloaded0errors; sixassetsbytehashesPASS; all289schema+metadataPASS; rootcurrentcheckportalPASS. Relativeintratreeimportrewrite fixesprovenCLIbasenamecollision; finalgate/artifacts pending.",
+      "registry_item_count": 289,
+      "findings": [
+        "block-guide-ai-workshop registry:file targetmissing",
+        "WebPbinaryserializedasUTF8corrupt",
+        "Auditfixedpublichero/founderimage refs forfreshconsumer404",
+        "Fresh shadcnconsumer fullHero buildfails: installedtrace-timelineutilityimport rewritten to self; correctpayloadpath observed; rootcause/integrationfix pending"
       ]
     },
     "W4-4H": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_low",
       "depends_on": [
         "W4-4D-LEAD",
@@ -223,32 +345,932 @@
         "W4-4E",
         "W4-4F",
         "W4-4G"
-      ]
+      ],
+      "agent_id": "/root/w4_4h_portal",
+      "findings": [
+        "DirectStory.Frame onhomepage initiallynull withoutpostMessage;mustdirectrenderHero3DDemoBlock andimportexistingWithControlshowcase",
+        "Bare/stories navbarlinksblankstandaloneframes;mustdocs pages",
+        "Completefooter/productlinkmap",
+        "RootbarrelmissingOnboardingPanelBlock export"
+      ],
+      "evidence": "directsingleHero7tabinteractions+generatedButtonWithControl,validdocsnav,root25canonicalBlockexports;sourcecoldruntimefixedandverified",
+      "pending": "none; W5 browser/parity pending separately",
+      "pushed_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046"
     },
     "W5-5.1A": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_low",
       "depends_on": [
         "W4-4H"
-      ]
+      ],
+      "agent_id": "/root/w5_51a",
+      "evidence": "Latestactualstate scan-adapter-final types58testsportalguard289schemasregistryrootprodbuildPASS andall291outputhashesdeterministiconrepeat; coreextractedcomponentbodyunchanged authorFaviconContextdefaultadapteronly.",
+      "artifact_path": "results/qa/w5-static/"
     },
     "W5-5.1B": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_high",
       "depends_on": [
         "W5-5.1A"
+      ],
+      "agent_id": "/root/w5_51b",
+      "evidence": "Completed708productioncases177routes*2themes*2viewports with169workbenches/config:0activeHTTP/network/console/exceptionerrors,0hydration/parentpressed/frame-theme/readinessmismatches,0documentoverflow,0broken/pendingeagerimages,0late-windowshifts. AllcriticalnativeinteractionsincludingDark/Systemchildprotocol andFoggyanticipatoryToolbarreserve tested. Source-motion/initialfontobservationsRAWretained notzero-all-phaseclaim.",
+      "delegation": {
+        "/root/w5_51b": "fullLightDarkdesktop/mobilematrices+primitives/preview/Hero/Guide",
+        "/root/w5_dash_interactions": "dashboardtable/inspectors/prompts/timeline/evals/charts",
+        "/root/w5_scan_hud_interactions": "ScanFlowMapELK/BFS/WAAPI/Foggy/HUD"
+      },
+      "physics_status": "Partialproofpersisted FlowMapWAAPI/FoggySVGopen+elasticresize/HUDlive; continuationassignedremainingBFS/hit/zoom/flyTo/spring/cometLightDark, notaccepted",
+      "findings": [
+        "ContextmenuBaseUI31fixedactualnewprodrightclickPASS",
+        "Richwidgetfixtures/timelineUTC/RunDrawer correctionsawaitnewrebuild",
+        "Initialframe0heightCLS confirmedCSSaspectratiofixpendingproductionproof",
+        "Initial28pxPfontwrapshift activeinvestigation",
+        "ScanLandingSetupfaviconactiveHTTP404providerwrapperspending"
+      ],
+      "matrix_initial": "704route/theme/viewport combinations PASS (176docs*2themes*2viewports); settledtop+iframeCLSfullmatrixpendingcorrectedbuild",
+      "settled_matrix_status": "Finalhydrated708ACTIVEafterCLIbuild, all4quickCLIplaceholder/commandstablePASS. SourceimagesproviderdefaultfreshCLIPASS, font1350pixelcomparisonPASSbounded. Currentharnessactualinstalledcommandmountsignal+Reactprops+iframeReady, ONEclick parentpressed/framealignmentrecord; oldbaselinespreserved.",
+      "interaction_update": "CurrentprodContextMenuopenPASS; alloverlaystested; TimelinevalidUTC axes/fold/phasehover,RunDrawer/clamp,Promptslothover,Filtertypeahead,EvilBrushselection/zoomreset,actualHUDLightDarkcolors+physics PASS. ToolbarliftprovedwithtestDOMresize authoraddingnativewidthcontrols beforeacceptance.",
+      "acceptance_scope": "Automated production and interaction QA execution complete. Independent source-reference pixel parity and initial movement dispositions remain mandatory W5-5.2; global goal not complete.",
+      "remaining_for_apex": [
+        "InitialButtonsattributionfontswap reproducedatIntercompletion withsource-derivedfallbacksame; sourceInheritedappearance review",
+        "InstrumentSearchwidth46.84->51.02->46.84, reverseexactreproducedsourceGeistfallbackswap, earlieroppositemovementindeterminate",
+        "AllinitialiframeSourceprogress/AnimatedAPIkey/HUDmovementsmustclassifyagainstsource,notblanketignore",
+        "Fullsource-referenceallcomponentLightDarkpixels/computedstyles/params/callbacks/attributionfinalaudit"
       ]
     },
     "W5-5.2": {
-      "state": "NOT_STARTED",
+      "state": "ACCEPTED",
       "profile": "foglamp_sol_high",
       "depends_on": [
         "W5-5.1B"
-      ]
+      ],
+      "agent_id": "/root/w5_52_apex",
+      "evidence": "results/qa/w5-apex/decision.json and report.md;312/322nativecasesexact,6authorizedcreditadditions,2CSSmoduleidentifieronlypixelsame,2boundedcaptureexceptions;64dashboardcellsrawstrictresidualspreserved. Noidentifiedproductregression. W5commit/pushpending.",
+      "pushed_commit": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+      "delivery": "HEAD=origin/main=remote; cleanworktreeverifiedbyactualpushworker; evidence results/qa/w5-static/latest-final/push.json"
+    },
+    "W6-6A": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_medium",
+      "depends_on": [
+        "W5-5.2"
+      ],
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "owned_paths": [
+        "packages/design-system/package.json",
+        "packages/design-system/LICENSE",
+        "packages/design-system/NOTICE",
+        "packages/design-system/src/lib/link-context.tsx",
+        "apps/docs/",
+        "packages/registry/package.json",
+        "tsconfig.base.json",
+        "scripts/",
+        "package.json",
+        "bun.lock",
+        "packages/design-system/src/",
+        "packages/registry/scripts/build-registry.ts",
+        "packages/registry/registry.json"
+      ],
+      "agent_id": "/root/w6_6a_rebrand",
+      "baseline": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+      "checks": {
+        "frozen_install": 0,
+        "build_registry": 0,
+        "portal": 0,
+        "types": 0,
+        "production_build": 0,
+        "npm_pack_dry_run": 0,
+        "link_alias_identity": 0
+      },
+      "note": "Exactmetadata independentlyread; actualaliasfunction/provider/hookidentitiesequal; packagepackfilelistincludesLICENSE+NOTICE. Browserbrandreviewfinalgate."
+    },
+    "W6-6B": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_medium",
+      "depends_on": [
+        "W6-6A"
+      ],
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "owned_paths": [
+        "packages/design-system/src/",
+        "apps/docs/public/",
+        "apps/docs/src/",
+        "apps/docs/content/docs/",
+        "scripts/verify-portal.ts",
+        "packages/registry/registry.json",
+        "packages/registry/scripts/build-registry.ts"
+      ],
+      "agent_id": "/root/w6_6b_identity_cleanup",
+      "progress": "Allfounderblock/files/references removed; neutralpersona/inlineSVG; noOrganizationJSONLD/legalentitydefaultsremain. UserauthorizedPythonpatch correctedhalfopenmaskbug. RootindependentRGBloopcomparedactualassetswithW5Gitblobs: light3440inside/0outside,dark3413inside/0outside;2072x1320RGBpreserved. Registrydecodedhashesmatch;portal/types/build/diff0.",
+      "pending_user_input": {
+        "question": "Authorize deterministic pixel-only avatar/name edits for two dashboard PNGs, preserving every other decoded pixel.",
+        "source_rule": "image_gen: Always use this tool for image editing unless the user explicitly requests otherwise.",
+        "plan": "results/qa/w6-identity-assets/README.md",
+        "approval_received": true,
+        "approval_text": "Use Python pixel-only editing"
+      },
+      "registry_coherence": "Rebuilt288itemsfromrestoredW5PNGs; rootdecodedbase64PNGhashesmatchcurrentassets in block-marketing-hero-index.json,block-marketing-hero-hero.json,foglamp.json; nosourcerasteredits.",
+      "independent_pixel_check": {
+        "status": "PASS",
+        "light_inside": 3440,
+        "light_outside": 0,
+        "dark_inside": 3413,
+        "dark_outside": 0,
+        "masks_half_open": [
+          [
+            32,
+            1247,
+            75,
+            1290
+          ],
+          [
+            84,
+            1247,
+            300,
+            1296
+          ]
+        ],
+        "reference_commit": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+        "color_metadata": "Rootconfirmedoriginal/current ICC,sRGB,gamma,chromaticity,transparencymetadataequalforbothPNGs."
+      }
+    },
+    "W6-6C": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_terra_medium",
+      "depends_on": [
+        "W6-6B"
+      ],
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "owned_paths": [
+        "packages/design-system/src/",
+        "packages/registry/",
+        "apps/docs/public/r/",
+        "scripts/verify-portal.ts",
+        "scripts/provenance/",
+        "package.json",
+        "THIRD-PARTY-NOTICES.md",
+        "packages/design-system/THIRD-PARTY-NOTICES.md",
+        "packages/design-system/package.json"
+      ],
+      "agent_id": "/root/w6_6c_spdx_registry",
+      "checks": {
+        "source_headers_and_bodies": 0,
+        "registry_scoped_gates": 0,
+        "five_negative_fixtures": 0,
+        "idempotence": 0,
+        "types": 0,
+        "tests58": 0,
+        "production_build": 0,
+        "font_notice_copies": 0
+      },
+      "results": {
+        "source_files": 266,
+        "copied-1-to-1": 46,
+        "modified": 200,
+        "tailrocks-original": 20,
+        "registry_items": 288,
+        "source_body_changes": 0
+      },
+      "remaining": "FullverifydefaultstrictfailssolelyexpectedDcontent563missingmarkers;allCsource/registry/identity/metadata scopedgatespass. FinalGATEindependentreviewpending.",
+      "font_notices": "FullInter/HostGrotesk/GeistMonoOFLnoticesroot+package+generatedregistryCSS;font/imagebytesunchanged.",
+      "final_gate_correction": "Resolvedcanonicalbrowserimportguard, actualCLI119legalnotices, directtypefest/rootMDXparserdeps, activeASTallMDX/publicgates. Source266bodiesunchanged."
+    },
+    "W6-6D": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_high",
+      "depends_on": [
+        "W6-6C"
+      ],
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high",
+      "owned_paths": [
+        "NOTICE",
+        "CREDITS.md",
+        "README.md",
+        "apps/docs/src/routes/index.tsx",
+        "apps/docs/src/components/story-panel.tsx",
+        "apps/docs/content/docs/",
+        "packages/design-system/NOTICE",
+        "apps/docs/src/components/provenance*",
+        "apps/docs/src/lib/provenance*",
+        "scripts/docs-provenance/"
+      ],
+      "agent_id": "/root/w6_6d_attribution_docs",
+      "checks": {
+        "verify_portal_strict": 0,
+        "check_types": 0,
+        "tests58": 0,
+        "production_build": 0,
+        "diff_check": 0,
+        "package_notice_byte_match": 0,
+        "docs_sync_idempotence": 0
+      },
+      "results": {
+        "credited_mdx": 175,
+        "component_provenance_pages": 167,
+        "metadata_rendering": "StaticSSRpackages/registry/registry.json,noasyncfetch"
+      },
+      "evidence": "results/qa/w6-attribution-docs/README.md",
+      "final_gate_correction": "Resolved: originalworkbenchnotUpstreamderivedandrendered;liveSSRfigure-kit0error/types/strict/build0."
+    },
+    "W6-GATE": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_sol_high",
+      "depends_on": [
+        "W6-6D"
+      ],
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "owned_paths": [
+        "scripts/verify-portal.ts",
+        "package.json"
+      ],
+      "agent_id": "/root/w5_52_apex",
+      "note": "Extendedexistingfinalwholeportalsignoffrole; implementationreadonly; W6requirementsaudits+livebrowserpending.",
+      "findings": [
+        "ResolvedoriginalCworkbenchthrow",
+        "Resolvedbrowserimportnegativeguardnamespace",
+        "ResolvedactualCLIlegalcommentloss",
+        "ResolvedactiveMDX/public/foundationcommentandfencedfalsepasses",
+        "Resolvedmissingtypefest; documentedverifiedstrictTSconsumerflags",
+        "ResolvedFigureKitstoryzero-widthusingexternalstandardframe"
+      ],
+      "remaining": "Finalplanningcheckpointdeliveryverificationonly.",
+      "verdict": "ACCEPTED",
+      "evidence": "results/qa/w6-final-signoff/decision.json",
+      "results": {
+        "source_headers": 266,
+        "copied": 46,
+        "modified": 200,
+        "tailrocks_original": 20,
+        "active_mdx_credits": 175,
+        "component_provenance": 167,
+        "public_surfaces": 6,
+        "cold_browser_cases": 24,
+        "cold_errors": 0,
+        "cold_overflow": 0,
+        "cold_cls": 0,
+        "fresh_cli_files_with_notices": 119,
+        "fresh_cli_browser_cases": 8,
+        "fresh_cli_browser_errors": 0,
+        "api_requests": 0
+      },
+      "pushed_commit": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+      "implementation_delivery": "HEAD=origin/main=live remote main; clean tree; actualpostcommitfullsuiteandNPMpackchecked."
     }
   },
-  "gates": {},
+  "gates": {
+    "W1-GATE": {
+      "decision": "ACCEPT",
+      "findings": [
+        "Four export mapping extension/index errors",
+        "Missing source attribution headers",
+        "Sonner theme adapter diverges from source"
+      ],
+      "tests_passed": 52,
+      "cross_wave_typecheck_pending": true,
+      "corrections": {
+        "exports": "actual Bun resolver verified PASS from apps/docs",
+        "sonner": "restored source useTheme",
+        "headers": "implemented 88 files; script provenance and idempotence checked; gate re-audit ACTIVE"
+      },
+      "scope": "Wave1 scoped artifacts; full workspace tsc remains explicitly pending crosswave dependencies",
+      "pushed_sha": "fd506b8b3fcaededff0edb27d7282ba3597c1c94"
+    },
+    "W2-GATE": {
+      "decision": "ACCEPT",
+      "full_root_typecheck": "PASS",
+      "tests_passed": 55,
+      "findings": [
+        "Docs build CSS export wildcard appends .css twice; metadata worker correcting"
+      ],
+      "corrections": {
+        "CSS export": "worker actual production client+SSR build pass",
+        "nav export": "exact .ts export added",
+        "full_check_types": "PASS",
+        "tests": "55 pass"
+      },
+      "docs_production_build": "PASS client+SSR",
+      "all_actual_subpaths_resolve": true,
+      "headers_audited": 68,
+      "source_parity": "11 EvilCharts source bodies match excluding imports/comments",
+      "browser_parity": "UNVERIFIED until Wave5",
+      "pushed_sha": "6e29fc0865240d1ddfc952d290b14070f91806c2"
+    },
+    "W3-GATE": {
+      "decision": "ACCEPT",
+      "completed_review": [
+        "guide/setup/scan checked interactions and loader-only ELK diff",
+        "shell restored source projectdialog SunsetCard DevBar HUD",
+        "Session/Eval loading+empty and localedit states retained"
+      ],
+      "findings": [
+        "CTA agent-prompt.ts exact export corrected actual Bunresolver PASS"
+      ],
+      "full_source_interaction_parity": "UNVERIFIED",
+      "pending": [
+        "3a marketing/auth",
+        "3e full hero checks",
+        "overview real onboarding integration",
+        "final exports/typecheck/build"
+      ],
+      "full_root_typecheck": "PASS",
+      "tests_passed": 58,
+      "docs_production_build": "PASS",
+      "figures_actual": 22,
+      "canonical_named_blocks_actual": 25,
+      "attribution": "headers+navbar/footer/authors reviewed",
+      "whole_portal_pixelparity": "UNVERIFIED W5",
+      "pushed_sha": "1aa947ef5ae872767c27ddaa60539283dc30c4f5",
+      "final_correction": "agentprompt exact.ts exportverified"
+    },
+    "W4-PREFLIGHT": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w1_gate",
+      "decision": "ACCEPT",
+      "fixes": [
+        "chartregistry11aliases/docs",
+        "canonicaldeps+CSSscanpath/fonts",
+        "nativeframeisolation/rootbrowserSafe",
+        "ColdLucidefloodprebundle+indexedsearchAPI"
+      ],
+      "whole_portal_pixel": "UNVERIFIED pendingW5",
+      "evidence": "terra_low scopedW4gateACCEPT; final289schema+metadata,168stories176MDX7nav; freshactualshadcnCLI100files+GuideHeroAuthorsVitebuild+browser7loadedimages0errors; persistedresults/qa/w4-registry-assets; W5visualparityunverified",
+      "pushed_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046"
+    },
+    "W5-5.1B": {
+      "decision": "ACCEPT",
+      "scope": "Production QA execution and functional interactions; final source fidelity disposition is W5-5.2",
+      "artifact_path": "results/qa/w5-browser/",
+      "source_pixel_parity": "UNVERIFIED until W5-5.2",
+      "goal_complete": false
+    },
+    "W5-5.2": {
+      "decision": "ACCEPT",
+      "artifact_path": "results/qa/w5-apex/",
+      "scope": "Sourcefidelity/connectedvisualbehavior/attribution; boundedrasterlimitationsrecorded",
+      "native_cases": 322,
+      "native_pixel_style_exact": 312,
+      "dashboard_state_theme_cells": 64,
+      "open_identified_product_regressions": [],
+      "pushed_sha": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+      "goal_complete": false
+    },
+    "W6-GATE": {
+      "decision": "ACCEPT",
+      "evidence": "results/qa/w6-final-signoff/decision.json",
+      "scope": "AllW6requirements+sourceinvariants+actualCLIlegalnotices+activepublic/MDXprovenance+browser+pack",
+      "delivery": "Implementationverified; planningpushpending",
+      "goal_complete": false,
+      "pushed_sha": "fa5da0c04cb9275db076e2128d9feb81d4fce839"
+    }
+  },
   "target_path": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
   "target_repository": "https://github.com/donbeave/foglamp-design-system",
-  "source_revision": "7d7e6609108019a74902858d4b07c24825c6318b"
+  "source_revision": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "wave_pushes": {
+    "0": "1fe21e96146ca737900606e9319be9074c713176",
+    "1": "fd506b8b3fcaededff0edb27d7282ba3597c1c94",
+    "2": "6e29fc0865240d1ddfc952d290b14070f91806c2",
+    "3": "1aa947ef5ae872767c27ddaa60539283dc30c4f5",
+    "4": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+    "5": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+    "6": "fa5da0c04cb9275db076e2128d9feb81d4fce839"
+  },
+  "support_tasks": {
+    "wave1_metadata": {
+      "state": "REVIEW",
+      "agent_id": "/root/w0_01"
+    },
+    "wave2_metadata_mock_imports": {
+      "state": "REVIEW",
+      "agent_id": "/root/w0_01"
+    },
+    "requirements_audit": {
+      "state": "REVIEW",
+      "path": "results/requirements-audit.json",
+      "task_requirements": 32,
+      "evidence": "terra_low refreshed current bounded directevidence; fullrenderedparity/finaldelivery remainUNVERIFIED"
+    },
+    "wave3_metadata": {
+      "state": "REVIEW",
+      "agent_id": "/root/w0_01",
+      "evidence": "94 current block subpaths resolve; border-beam/react-form installed; three marketing asset source hashes equal;prompt safe imports browser verified"
+    },
+    "scan_elk_runtime": {
+      "state": "REVIEW",
+      "agent_id": "/root/scan_elk_fix",
+      "owned_paths": [
+        "packages/design-system/src/lib/scan/layout.ts"
+      ],
+      "finding": "real Bun getElk worker module shape not recognized",
+      "evidence": "Bun real3tests31assertions;ViteChromium actualgroup+routing PASS;nonBun docs-config before TS2868+TS2339 nowPASS typedfeatureguards;geometry unchanged"
+    },
+    "prompt_browser_imports": {
+      "state": "REVIEW",
+      "agent_id": "/root/w0_01",
+      "finding": "Vite browser blank because @foglamp/prompts barrel eagerly imports node:crypto",
+      "fix": "direct existing infer/diff leaf imports only",
+      "evidence": "3e real Vite browser7tabs5details success0errors;all prompts callers direct safe leaves"
+    },
+    "story_theme_isolation": {
+      "state": "REVIEW",
+      "agent_id": "/root/story_theme_check",
+      "hypothesis": "iframe CSS theme may disagree with source hooks parentdocument/context;must prove via actual browser before fix",
+      "owned_paths": [
+        "apps/docs/src/components/story-panel.tsx",
+        "apps/docs/src/lib/story.tsx",
+        "packages/design-system/src/hooks/use-app-hooks.ts if necessary"
+      ],
+      "finding": "LIVE PROVEN CSS previewDark/useThemeLight and inverse;nested nextThemes providerignored;iframe initial load event missed",
+      "fix": "Native Fumadocs Story.Frame sameorigin route, isolated theme provider storage+typed message synchronization;no extracted hook rewrites",
+      "extended_owned_paths": [
+        "story-panel.tsx",
+        "lib/story.tsx",
+        "routes/stories/$.tsx",
+        "routes/__root.tsx",
+        "lib/story-frame.tsx",
+        "generated routeTree"
+      ],
+      "evidence": "nativeframe livebothopposingthemes CSS/useTheme agree,parentclass/storage unchanged;argscontrols Reset and realreloadrestore;dialog ownerDocumentiframe;1280x800scale;no syntheticload;docspkgtsc+productionbuildPASS;temporaryprobesremoved",
+      "future_contract": "src/stories/<category>/<name>.story.tsx export const story=defineStory({id:'<category>/<name>',Component,...});argsserializable wrappersowncallbacks optionalframewidthheight",
+      "style_evidence": "FoglampCard/Button/NativeSelect/Input/Checkbox controls,liveToolIconpresettextresetthemeCLIcopy+ModelChipboolean PASS,tempsessionsstopped"
+    },
+    "wave4_metadata": {
+      "state": "REVIEW",
+      "agent_id": "/root/w0_01",
+      "evidence": "root build:registry command added;builderverificationpending4G"
+    },
+    "sunset_portability": {
+      "state": "REVIEW",
+      "agent_id": "/root/sunset_portability",
+      "finding": "legacyLeafSunsetCard directprocess env browsercoupling;actualbrowserprobe+propsadapterassigned",
+      "evidence": "optionalserverUrl hostfallback/sourceJSXsame,DOM+Viteonlytsc0,actualstoryhosted/selfhosted0errors"
+    },
+    "appshell_portability": {
+      "state": "REVIEW",
+      "agent_id": "/root/w3_3b",
+      "finding": "rawTypeScriptAppShell directprocessreferences requireNodeambient;featureguardcorrectionassigned",
+      "evidence": "typedglobalThisenv guard,DOM-onlytsc0,SSRdevhosted+prodselfhosted PASS"
+    },
+    "css_scan_paths": {
+      "state": "REVIEW",
+      "agent_id": "/root/css_scan_paths",
+      "evidence": "oldpathmissing;newpackage-local Streamdowndist exists;realViteCSSsdm-tbg0->4;only@source linechanged;registryconsumerrewritecoordinated"
+    },
+    "source_dependency_pins": {
+      "state": "REVIEW",
+      "agent_id": "/root/w0_01",
+      "audit_path": "results/dependency-parity.json",
+      "evidence": "canonicalexactsourceDSdirectruntime+types,ReactDOM19.2.5docs,FumaownBaseUI1.9separate;Tailwindcore+Vite4.3.1pairPASS;fulltsc58testsproductionbuildPASS;compatibleFloatingtransitivesdocumentednoblobaloverrides"
+    },
+    "root_package_export": {
+      "state": "REVIEW",
+      "evidence": "metadata . ->src/index.ts actualBunroot769exports/all25canonicalBlocknames present"
+    },
+    "vite_cold_load": {
+      "state": "REVIEW",
+      "agent_id": "/root/vite_cold_load",
+      "finding": "browsermissing useSyncExternalStoreWithSelector shim namedexport aftersourcepin;needsreal colddev configinterop correction",
+      "evidence": "escalatedCDPproved1735activeERR_INSUFFICIENT_RESOURCESfromrawLucide;prebundlefumadocs-ui>lucide-react fixed;2freshcoldhard+actualSPA navruns0consoleexceptions/errors;remainingcanceledrequests tiedframeDetach<=4ms",
+      "escalated_agent": "/root/cold_navigation_escalated",
+      "artifacts": "results/qa/w4-cold/"
+    },
+    "docs_search": {
+      "state": "REVIEW",
+      "agent_id": "/root/cold_navigation_escalated",
+      "evidence": "GET/api/searchwas404,addedFumaindexedGETendpoint;dev+prod200JSONandCtrlKButtonresultnavigatesdocs,tsc/buildPASS"
+    },
+    "portal_contract_guard": {
+      "state": "REVIEW",
+      "agent_id": "/root/portal_contract_check",
+      "path": "scripts/verify-portal.ts",
+      "command": "bun run check:portal",
+      "evidence": "actual168stories/290items/7nav PASS;historicalchartalias in-memoryfixture expectedFAILspecificmissingaliasdiff"
+    },
+    "css_provenance": {
+      "state": "REVIEW",
+      "evidence": "globals/effects/appCSS truthfulheaders,bodiesbyteidentical,registryresynced"
+    },
+    "registry_schema_dependency": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w0_01",
+      "evidence": "Exact @shadcn/registry0.2.1 devDependency installed; schema subpath safeParse resolves"
+    },
+    "wave4_delivery": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w4_delivery",
+      "pushed_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+      "clean_status": true
+    },
+    "w5_story_state_coverage": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_story_state_coverage",
+      "owned_paths": [
+        "apps/docs/src/stories/widgets/filter-select.story.tsx",
+        "apps/docs/src/stories/widgets/toolbar.story.tsx",
+        "apps/docs/src/stories/widgets/data-table.story.tsx",
+        "apps/docs/src/stories/widgets/payload-view.story.tsx",
+        "apps/docs/src/stories/widgets/run-exchange.story.tsx",
+        "apps/docs/src/stories/widgets/eval-scores.story.tsx",
+        "apps/docs/src/stories/widgets/_interaction-fixtures.tsx",
+        "apps/docs/src/stories/widgets/prompt-prose.story.tsx",
+        "apps/docs/src/stories/charts/evil-brush.story.tsx",
+        "apps/docs/src/stories/widgets/trace-timeline.story.tsx",
+        "apps/docs/src/stories/widgets/foglamp-hud.story.tsx"
+      ],
+      "reason": "Richpresetsmissingnamedsourcebehaviors; promptslotgrammarwrong; brushinitialreadoutmismatch. Allcorrectionsstoryfixturesonly sourcecomponentsimmutable.",
+      "evidence": "Actuallatestprod allcorrectedwidgetbehaviorsPASS includingnative950\u2192656\u2192950ToolbarpresetsLightDark withoutDOMmutation; relevantreportsdashboard-interactions andscan-hud-interactions"
+    },
+    "w5_primitive_context_fix": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_primitive_context_fix",
+      "owned_paths": [
+        "apps/docs/src/stories/primitives/context-menu.story.tsx"
+      ],
+      "finding": "Realrightclickcontextmenu crashesnativeiframe BaseUI31 reproducibletwice",
+      "evidence": "InstalledBaseUI1.4.1error31confirmedmissingMenu.Group; fixtureContextMenuGroupadded. Browserrightclickretestpendingbuild."
+    },
+    "w5_browser_import_guard": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_browser_import_guard",
+      "owned_paths": [
+        "scripts/verify-portal.ts"
+      ],
+      "finding": "RepeatNodecrypto runtimebarrel inbrowserstory (buildpasses) fixedsafeinfer/slotsleaves; addingASTboundarycheck+inmemorynegativeproof",
+      "evidence": "CurrentportalguardPASS,historicalbadbarrelnegativefixtureFAILexpected; rootstandalonetscPASSwith--typeRoots apps/docs/node_modules/@types"
+    },
+    "w5_post_correction_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/post-correction/",
+      "evidence": "All5commandsPASS including58tests/browserguard; acceptedbuildnodecryptoabsent; furtherCLS/favicon/runtimefixturecorrectionsnowpendingnextbuild"
+    },
+    "w5_frame_layout_fix": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_frame_layout_fix",
+      "owned_paths": [
+        "apps/docs/src/components/story-panel.tsx",
+        "apps/docs/src/routes/__root.tsx",
+        "apps/docs/src/styles/app.css"
+      ],
+      "evidence": "All3sourceNext16.2.4exactfallbackmetrics/fontsStacks+4canonicalpreloads implemented appCSS/root; sourceGooglemetricsderivednotguessed typesPASS. Appnewproductionthrottledprobe pending coordinatedbuild."
+    },
+    "w5_favicon_story_fix": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_favicon_story_fix",
+      "owned_paths": [
+        "apps/docs/src/stories/blocks/scan-landing-block.story.tsx",
+        "apps/docs/src/stories/blocks/setup-board-block.story.tsx"
+      ],
+      "evidence": "SharedresolveStoryFavicon nowactualsourcegetGoogleFavicon size256; typesportalPASS, portalrebuiltfullmatrixpending whileindependentfreshconsumerexactsourceiconsPASS"
+    },
+    "w5_layout_correction_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/layout-correction/",
+      "evidence": "Actualtypes58testsportalguardregistrybuildrootprodbuildPASS; DSsourceunchanged/registrydeterministic. Furthertoolbarfixturewidthcontrols pending beforefinalfullmatrix"
+    },
+    "w5_host_toolbar_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/host-toolbar-correction/",
+      "evidence": "LatestHostLatinpreload+nativeToolbar950/656 actualall5commandsPASS58tests/289items; registrydeterministic DSsourceunchanged; productionrestartedmain."
+    },
+    "w5_registry_font_fallback": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_registry_font_fallback",
+      "owned_paths": [
+        "packages/registry/scripts/build-registry.ts",
+        "packages/registry/registry.json",
+        "apps/docs/public/r/"
+      ],
+      "evidence": "FontscompletepreviousactualCLI/CSSOMPASS; nowownsregenerationdependencyclosurefornewsourceScanFavicondefaulthelper andactualfreshconsumerSetup/Scan coordination withSolmedium."
+    },
+    "w5_connected_shell_fixture": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_story_state_coverage",
+      "owned_paths": [
+        "apps/docs/src/stories/blocks/app-shell-block.story.tsx"
+      ],
+      "evidence": "NativeFoggyopenrAFbothLightDarkfirstsamplepanel0px,target354px,ToolbarRangealreadyheaderlifted; pointerresize504px retainslift sourcewrapexpected narrow. ActualsourceusePendingShrink+reporttargetmatchesobservables; reportreservation/report.json."
+    },
+    "w5_requirements_audit": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_requirements_audit",
+      "evidence": "Namedinventoryall32tasks/56primitives25logos53widgetstories11charts25canonicalblocks22figures111headerpaths168importtargets/27callbackinterfacefiles+378decllocators mappingcomplete. Sourceplan4stalenames reconciledactualwholefileparity; runtime/fullpixelparityseparate. Artifactresults/qa/w5-requirements/named-inventory.json+inventory.py"
+    },
+    "w5_source_font_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/source-font-fallback/",
+      "evidence": "Actualcurrenttypes58testsportalguard289itemsschemaregistryrootprodbuildPASS; noDScomponentsedits expectedstyleglobalsfontsetupdiff. MainQAowned4178restartassigned final708+AppShellreserve."
+    },
+    "w5_scan_default_adapter": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_scan_default_adapter",
+      "owned_paths": [
+        "packages/design-system/src/blocks/scan/favicon-context.tsx"
+      ],
+      "evidence": "ActualfreshCLIScan+Setup30files/styles3 independentViteprod+no-providerbrowserPASS sourceT3iconswidth32/35/35 Setup35,0api/0failed/0errors; source10fileparity/types/overridelegacyhelpersPASS. Onlyauthoredcontextdefault2linechange, nooriginalvisualDOM/motion changes."
+    },
+    "w5_scan_adapter_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/scan-adapter-final/",
+      "evidence": "All5commandsPASS58tests/289schemas. Repeatall291rJSONSHAstable sourcecontext2lineadapteronlynooriginalUIclasses/motionedits; total35changedpathsrecorded."
+    },
+    "w5_font_source_identity": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_frame_layout_fix",
+      "artifact_path": "results/qa/w5-font-source-identity/",
+      "evidence": "ExactNext16.2.4UAcurrentGoogleLatin sourcefetch vsFontSource differentcompressedhashes; allcodepointoutlines/advanceatdiscretesourceweightsmatch; HarfBuzz9025ASCIIpairsperweightmatch; actualChrome157Canvas675casesDPR1+675DPR2 zero differingpixels. ScopeLatin/currentdownloads/weights/sizes/strings only nothistoricalbytes/universalraster."
+    },
+    "w5_cli_layout_fix": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_frame_layout_fix",
+      "owned_paths": [
+        "apps/docs/src/components/story-panel.tsx"
+      ],
+      "evidence": "ActualfreshmobileSSRplaceholder->fullURL panel/code/Copy/footer rectsUNCHANGED, all4combos0top/lateerrors, code32pxno-wrapscrollWidth576/client276scrollLeft0->300; sourcecommandCopyshowsCopied, scrolledscreenshots glyphsnotclipped. Readbackclipboardpermissiondenied bounded."
+    },
+    "w5_cli_final_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/cli-layout-final/",
+      "evidence": "Actualall5commandsPASS58tests/289schemasrootprodbuild; current35paths frozen. QAownedpreviewrestartcurrentnewCLI build."
+    },
+    "w5_theme_bridge_fix": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_frame_layout_fix",
+      "owned_paths": [
+        "apps/docs/src/components/story-panel.tsx",
+        "apps/docs/src/lib/story-frame.tsx"
+      ],
+      "evidence": "Realproductionpointer childDark/Systempersist, parentresolvedcontrols,OSchange,Systemsurface/reload,explicitLightforcesLight,globalLightisolated,argsreload/reset/presetsPASS. Full708newprotocol0theme/readinesserrors."
+    },
+    "w5_theme_bridge_static": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_51a",
+      "artifact_path": "results/qa/w5-static/theme-bridge-final/",
+      "evidence": "Actualtypes58testsportalguard289schemasregistryrootprodbuildPASS, sourceonlyauthoredfaviconcontextadapter; gitignorecachemetadatafollowupdoesnotaffectruntime."
+    },
+    "w6_plan_extension": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w6_plan_extension",
+      "changed_paths": [
+        "AGENTS.md",
+        "GOAL.md",
+        "PLAN.md",
+        "TASKS.md",
+        "CREDITS.md",
+        "task-index.json"
+      ],
+      "contract": "GOAL-WAVE-6-FRAMEROCK.md",
+      "evidence": "Appended exact Wave6 dependency/profile chain and explicit superseding rules; historical W0\u20135 preserved. Implementation not started."
+    },
+    "w5_apex_helpers": {
+      "state": "ACTIVE",
+      "agents": {
+        "/root/w5_apex_static": "Full source AST/class/style invariant evidence, QA-only",
+        "/root/w5_apex_attribution": "Visible attribution/link audit, QA-only",
+        "/root/w5_apex_callbacks": "Public callback/state and RangePicker behavior evidence, QA-only",
+        "/root/w5_dashboard_reference": "All seven original query-bound dashboard views plus AppShell reference harness, QA-only"
+      }
+    },
+    "w5_auth_hud_fidelity_fix": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_auth_hud_fidelity_fix",
+      "evidence": "Removed invented login success card, preserved host onSignedIn/default password navigation and Google pending; restored actual source HUD down catch (no original down UI exists), injectable onStorm/defaultlocaltypedstream, exact8sec successidle. Types/portal PASS; Apex rerender pending."
+    },
+    "w5_foggy_markdown_routing": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_scan_default_adapter",
+      "evidence": "Native provider-spy internal / and // anchors nowinvokeFoglampLinkProvider; external/hash/mailto/bare/empty preserve original rawa targetblank+noreferrer. Classes/nonanchorRendererexact; types/portal PASS; registry regeneration pending."
+    },
+    "w5_source_surface_css_fix": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_source_surface_css_fix",
+      "evidence": "Confirmed Fuma later base overrides source body fg251->235/defaultborder. Added scoped postFuma source base for story/home bodies/direct source surfaces andcredits, utility layer stillwins. Types/portal PASS, independentpixel/productionproofpending."
+    },
+    "W6-PROVENANCE-PREFLIGHT": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w6_provenance_preflight",
+      "scope": "Read-onlyplanningpreparationonly,notdependent6Cexecution",
+      "evidence": "results/qa/w6-provenance-preflight/manifest.json",
+      "candidate_counts": {
+        "source_files": 266,
+        "copied-1-to-1": 46,
+        "modified": 200,
+        "tailrocks-original": 20,
+        "unknown_primary_mappings": 0
+      },
+      "limits": "Planningpreparationonly;notW6-6Cimplementation/acceptance. Two knownmulti-sourcecasesreviewed;genericsharedlineleadsnonclaims. Refreshmanifestafteranysourcechanges.",
+      "independent_checks": "Rootverifiedall266currentfilehashes,copiedbodyhashes,actualupstreamfiles,pinnedcommit,andnegativecomparatorfixtures."
+    },
+    "W6-FINAL-STATIC": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_final_static_batch",
+      "scope": "Fullrequiredcommands, actualNPMtarballlicensefiles, freshshadcnCLIconsumer;generatedr+ownQAonly",
+      "evidence": "results/qa/w6-final-static/final-record.json",
+      "fresh_cli": {
+        "version": "shadcn4.23.0",
+        "installed_files": 119,
+        "legal_markers_passed": 119,
+        "consumer_build": 0,
+        "consumer_types_strict_skip_lib_check": 0,
+        "unconfigured_types": 2,
+        "browser_cases": 8,
+        "browser_errors": 0,
+        "api_calls": 0
+      },
+      "progress": "Postfreezefullrequiredsuite0;NPMpack274entries1820608byteslegalcopiesexactandidentityclean;actualfreshCLI4.23legal119/119+8browsercases0errors; strictsource-matchingTSconfig0.",
+      "postcommit_refresh": "fa5da0c fontnoticecommentEOFcoherenceonly;allcommands0, actualfreshpack274entries currentnoticesexact. SourceUI/assetbytesunchanged."
+    },
+    "W6-MDX-ACTIVE-GATE": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w6_mdx_active_gate_fix",
+      "scope": "ActiveMDXASTimport+JSX+literalprops verificationandnegativecomments/fencesfixtures; no sourcecomponentchanges",
+      "evidence": "results/qa/w6-mdx-gate-fix/",
+      "progress": "ASTstrictpositive175MDXactivecredits/167typedprovenance+6visiblepublicsurfaces0; componentcomment/fence/import/label/URL, publiccomment/fence andfoundationcomment/removal/fence/frontmatter negatives rejected. No content/sourcechanges."
+    },
+    "W6-FIGURE-FRAME": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w6_6a_rebrand",
+      "scope": "Externalstory1280x800andstandardwrapperonly;sourcecomponentunchanged",
+      "evidence": "results/qa/w6-figure-frame/fixture-review.json",
+      "checks": "Final4desktop/mobileLightDarkactualpaintPASS: nativewrapper1024px/chartSVG721px;0errors/overflow/CLS;sourcecomponentunchanged."
+    }
+  },
+  "integration_requirements": {
+    "scan_favicons": "Wave4 story/homepage wrap ScanFaviconProvider configured resolver to avoid /api/favicon404",
+    "hud_simulator": "W3 HudSimulator emits typed events via HudStream prop",
+    "leaf_favicon_provenance": "CORRECTED source path lib/favicon.ts; runtime source SHA identical",
+    "workbench_navigation": "Wave4 interactive block stories must supply host navigation callbacks/adapters for canonical app links so portal demo interactions do not navigate to nonexistent backend/app routes",
+    "react_singleton": "3e temporary Vite harness needed resolve.dedupe react/react-dom for late border-beam import; verify actual docs runtime singleton inW5",
+    "wave4_story_contract": "Native frame defineStory stable id category/name, serializable args;fixturewrappercallbacks defined internally;frame route dynamic loads story.Frame",
+    "root_barrel_browser_safe": "W4H index exports allpublicUI components but NO runtimeNode-onlyprompts normalize/index/createHash orQA/testhelpers;those remainexplicitsubpath. OtherwiseVitebrowserbarrelblank regressions."
+  },
+  "wave4_navigation_lead_files": [
+    "index",
+    "credits",
+    "foundations/architecture",
+    "foundations/installation",
+    "foundations/tokens",
+    "foundations/geometry",
+    "foundations/typography",
+    "foundations/motion"
+  ],
+  "ownership_incidents": [
+    {
+      "wave": 4,
+      "task": "W4-4A batchB",
+      "cause": "broad primitivefolder glob mutation violated explicit28fileallowlist",
+      "affected_batch_a_files": [
+        "accordion",
+        "alert-dialog",
+        "alert",
+        "aspect-ratio",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button-group",
+        "button",
+        "calendar",
+        "card",
+        "carousel",
+        "chart",
+        "checkbox",
+        "collapsible"
+      ],
+      "response": "interruptedB,exclusiveauthorArestoredown28,BonownpathsONLY,semanticauditpending",
+      "prevention": "mutatingloops explicitownedallowlist;remainingreferenceworkers eachownwhole separate dirs"
+    }
+  ],
+  "escalations": [
+    {
+      "task_id": "W0-0.2-runtime",
+      "from": "foglamp_terra_medium",
+      "to": "foglamp_terra_high",
+      "agent_id": "/root/cold_navigation_escalated",
+      "reason": "two coldrapidnavigation runs failed lazysearch fetch despiteoptimizerchanges;slowercold+prodpassesnotsufficient",
+      "premise_test": "trace failingrequest requesterFrame/importer/statusabortreason;RootProvidersearchunnecessarilyenabledinstoryframes;verifyrealoutersearchAPI",
+      "owned_paths": [
+        "apps/docs/vite.config.ts",
+        "apps/docs/src/routes/__root.tsx",
+        "apps/docs/src/routes/api/search.ts",
+        "generatedrouteTree/helperifneeded"
+      ],
+      "result": "premisedisproved,activeChromeiconrequestresourcefloodfoundandfixed1prebundle;real404searchAPIimplemented;rapidcoldtestsPASS",
+      "state": "REVIEW"
+    },
+    {
+      "task_id": "W4-4G-assets",
+      "from": "foglamp_luna_medium",
+      "to": "foglamp_luna_high",
+      "agent_id": "/root/registry_assets_fix",
+      "reason": "secondassetfidelity/schemafailureafterfontdeliveryfix;generictextserializerreadbinarywebpasUTF8",
+      "owned_paths": [
+        "packages/registry/scripts/build-registry.ts",
+        "packages/registry/registry.json",
+        "apps/docs/public/r/"
+      ],
+      "state": "ACCEPTED"
+    }
+  ],
+  "goal_extension": {
+    "objective": "Execute GOAL.md, AGENT-RUNBOOK.md, and task-index.json through Waves 0\u20136, including the Framerock rebrand and provenance/legal gate.",
+    "wave6_contract": "GOAL-WAVE-6-FRAMEROCK.md",
+    "sequence": "Finish and commit all Wave5 repairs before starting Wave6 implementation. Do not emit GOAL_COMPLETE until Wave6 gate and both repository pushes are verified.",
+    "visual_rule": "Preserve extracted source visuals/behavior; only explicit Wave6 branding, identity removal, neutral identity defaults, metadata, licensing and documentation changes supersede earlier requirements."
+  },
+  "wave5_final_repairs": {
+    "agent_detail_loading": {
+      "agent_id": "/root/w5_agent_loading_fix",
+      "state": "REVIEW",
+      "scope": "Propagate upstream loading/updating states to cost/tool cards; independent original-reference rerun required.",
+      "evidence": "Both isLoading/isUpdating forwarded; original-reference loading source/target537nodes and0differingpixels inLight/Dark. Final static batch running."
+    },
+    "search_keycap": {
+      "state": "REVIEW",
+      "agent_id": "/root/w5_source_surface_css_fix",
+      "scope": "Reserve authored Fuma search keycap width across font phases without changing extracted components.",
+      "evidence": "Actual loaded+forcedfallback group46.84375px, keycaps22.4375/22.40625, nooverflow; independent cold production proofpending."
+    },
+    "dashboard_reference": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_dashboard_reference",
+      "evidence": "results/qa/w5-apex-dashboard-reference/coverage.json",
+      "coverage": "Eight original-reference dashboard/AppShell views, default/loading/empty/selected and native controls, both themes. Agent loading propagation defect fixed. Dark icon raster residuals68/11/19/8pixels and offscreen animationopacity~0.000006 remain for independentApexdisposition; no allzero claim.",
+      "disposition": "Apexindependentlyacceptedboundedrenderer/phaseexceptions; rawstrictmismatchesretained,no componentclassesmasked/thresholdrelaxed."
+    },
+    "shiki_boundary": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_source_surface_css_fix",
+      "scope": "Authoredintegrationboundary excludes Fuma linepadding/position rules from extracted Shiki output.",
+      "evidence": "Independent affected rerun pixel+styleexact after authoredFumaexclusion; finalstaticbatchall0."
+    },
+    "badge_variants": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_auth_hud_fidelity_fix",
+      "scope": "Restore exact original11variantarray/order includingoutline; primitive14variantsuntouched.",
+      "evidence": "Exactpinned11variantarray; independent affected rerun pixel+styleexact; finalstaticbatchall0."
+    },
+    "dark_variant_specificity": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_source_surface_css_fix",
+      "scope": "Restore original dark variant &:is(.dark *) after Fuma imports; Fuma &:where specificity wrongly changes dark Collapsible expandedbackground.",
+      "evidence": "Independent14cases Collapsible/Button/Toggle/Tabs/Accordion/Select/Combobox bothmodes pixel+styleexact after originalspecificityrestored."
+    },
+    "final_production_credits": {
+      "state": "ACCEPTED",
+      "agent_id": "/root/w5_final_credit_probe",
+      "evidence": "results/qa/w5-final-credit-probe/report.md",
+      "scope": "Renderedhomehero/navbar/footer/storyfooter/credits directlinks andexacttitle; mobileLight/Dark visibility/errors checked. Observationreportpersisted; no rawsnapshotsretained."
+    }
+  },
+  "wave5_final_static_batch": {
+    "state": "ACCEPTED",
+    "agent_id": "/root/w5_final_static_batch",
+    "evidence": "results/qa/w5-static/latest-final",
+    "results": {
+      "build_registry": 0,
+      "portal_contract": 0,
+      "check_types": 0,
+      "tests": 0,
+      "test_count": 58,
+      "build_after_last_repairs": 0,
+      "diff_check": 0
+    },
+    "note": "Postdarkvariant portal/types/58tests/build/diff all0; registry289unchangedfresh. Final independentreport/attributionlinks pending."
+  },
+  "plan_extension_push": {
+    "commit": "39c59556903e0c3f00779326f4011e3e5ff5c226",
+    "remote": "origin/main",
+    "scope": "Wave6planningdocsandQAevidencepolicy only; active states/evidence finalcommitpending"
+  },
+  "goal_continuation_audit": {
+    "previous_goal_turn": "progress: registrycoherencerestored andall266provenancemappingsresolvedandvalidated",
+    "current_goal_turn": "progress: all37tasksaccepted, finalimplementationpushedfa5da0cwithcleanremotes/fullpost-refreshsuite/pack. Planningcheckpointready.",
+    "pending_dependency": null,
+    "goal_complete": false,
+    "blocking_condition": null,
+    "consecutive_goal_turns_with_same_blocker": 0,
+    "independent_preparation_complete": true,
+    "decision": "Proceedwithfinalplanningcheckpointpushandindependentdeliveryreadback;noopenproductorpermissionblocker."
+  },
+  "final_resolution": {
+    "all_tasks_accepted": 37,
+    "task_index_entries": 37,
+    "final_source_and_behavior_review": "W5-5.2 acceptedwithdocumentedboundedrendererlimits;preservedandreauditedW6-GATE",
+    "wave6_requirements": "ACCEPTED finalindependentsignoff;allfullcommands0;actualCLI119noticesand8browsercases;24coldportal+4correctedFigureKitpaintcases",
+    "implementation_commit": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+    "implementation_clean": true,
+    "planning_delivery": "Readyforcheckpointcommit/pushwithall37taskstatesaccepted;verifiedclosurewillberecordedafterremotereadback.",
+    "historical_gate_note": "Earlierwave-gatepending/unverifiedfieldsdescribechecksdeferredatthatwave. FinalW5/W6signoffsresolveallrequireddeferredchecks;noexplicitrequirementremainsopenexceptplanningdelivery."
+  }
 }

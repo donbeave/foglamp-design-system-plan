@@ -1,0 +1,16 @@
+--- .reference/foglamp/apps/web/src/components/marketing/feature/product-hero.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/figures/product-hero.tsx	2026-11-05 19:02:54
+@@ -15,11 +15,11 @@
+ 					{sub}
+ 				</p>
+ 				<div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+-					<Button size="lg" render={<Link href="/login"/>}>
++					<Button size="lg" render={<FoglampLink href="/login"/>}>
+ 						Start free
+ 						<IconArrowRight className="size-4"/>
+ 					</Button>
+-					<Button size="lg" variant="outline" render={<Link href="/pricing"/>}>
++					<Button size="lg" variant="outline" render={<FoglampLink href="/pricing"/>}>
+ 						See pricing
+ 					</Button>
+ 				</div>

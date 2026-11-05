@@ -1,0 +1,19 @@
+{
+  "rows": 10,
+  "exact": 8,
+  "different": [
+    [
+      "blocks/setup-board-block",
+      "light",
+      188,
+      6
+    ],
+    [
+      "blocks/setup-board-block",
+      "dark",
+      186,
+      6
+    ]
+  ],
+  "unrendered": []
+}

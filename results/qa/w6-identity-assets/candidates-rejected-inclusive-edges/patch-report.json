@@ -1,0 +1,65 @@
+{
+  "authorization": {
+    "user_exception_ref": "2026-11-05 user method exception: Python pixel-only editing",
+    "root_go": "2026-11-05 W6-6B root GO"
+  },
+  "dimensions": [
+    2072,
+    1320
+  ],
+  "masks": {
+    "avatar": [
+      32,
+      1247,
+      75,
+      1290
+    ],
+    "name": [
+      84,
+      1247,
+      300,
+      1296
+    ]
+  },
+  "font": "/tmp/InterVariable.ttf",
+  "font_size_px": 28,
+  "text": "Alex Morgan",
+  "files": [
+    {
+      "source": "/Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/public/demo-overview-dark.png",
+      "source_sha256": "636abd2f22708bfd94d76e37725a5d02988ef49da7bbd34398ea3baf1123a0c9",
+      "output": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w6-identity-assets/candidates/demo-overview-dark.png",
+      "output_sha256": "89106e734218cf1ee28612f0fd654e3a36937ec90e96c25b76713c71cf7ce1e1",
+      "dimensions": [
+        2072,
+        1320
+      ],
+      "changed_pixel_count": 3471,
+      "changed_pixel_bounds": [
+        32,
+        1254,
+        251,
+        1291
+      ],
+      "outside_masks_equal": true
+    },
+    {
+      "source": "/Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/public/demo-overview-light.png",
+      "source_sha256": "411cb1dcbacf603c9b94c785b32b8229ecddeeaa4dc40aa1d10671fa80e1c981",
+      "output": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w6-identity-assets/candidates/demo-overview-light.png",
+      "output_sha256": "442ff4e5d71e70b15fc254be4d4e98c5d69fcb2a7ea6cde934c3bc75f8c1225b",
+      "dimensions": [
+        2072,
+        1320
+      ],
+      "changed_pixel_count": 3468,
+      "changed_pixel_bounds": [
+        32,
+        1252,
+        251,
+        1291
+      ],
+      "outside_masks_equal": true
+    }
+  ]
+}

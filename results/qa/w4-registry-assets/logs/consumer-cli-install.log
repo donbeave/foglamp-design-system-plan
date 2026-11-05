@@ -1,0 +1,5 @@
+Command:
+node /Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/shadcn@4.23.0/node_modules/shadcn/dist/index.js add @foglamp/block-guide-observability-guide @foglamp/block-marketing-hero-hero @foglamp/block-marketing-original-authors --yes --cwd /tmp/foglamp-registry-consumer-fresh
+
+Exit code: 0
+Result: shadcn 4.23.0 resolved the local registry and created 100 files. Fresh consumer package installed exact registry dependency versions.

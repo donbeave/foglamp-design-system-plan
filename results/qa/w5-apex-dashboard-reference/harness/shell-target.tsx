@@ -1,0 +1,4 @@
+import { AppShellBlock } from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/app-shell/app-shell-block';
+import { TracesExplorerBlock } from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/traces-explorer-block';
+const projects = [{id:'demo',name:'Acme Production',slug:'acme-production',url:null,orgId:'org-demo',orgName:'Acme',orgSlug:'acme'}];
+export function Page() { return <div className="mx-auto w-full max-w-6xl p-6"><div className="h-[760px] overflow-hidden rounded-lg"><AppShellBlock pathname="/traces" projects={new URLSearchParams(location.search).get('state') ? [] : projects} isLoading={new URLSearchParams(location.search).get('state')==='loading'} user={{name:'Alex Rivera',email:'alex@example.com'}}><TracesExplorerBlock /></AppShellBlock></div></div>; }

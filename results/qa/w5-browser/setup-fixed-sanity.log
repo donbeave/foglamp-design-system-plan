@@ -1,0 +1,4 @@
+1 desktop light /docs/blocks/setup-board-block late 0 1 events 2
+0 desktop dark /docs/blocks/setup-board-block late 0 1 events 2
+2 mobile light /docs/blocks/setup-board-block late 0 1 events 2
+3 mobile dark /docs/blocks/setup-board-block late 0 1 events 2

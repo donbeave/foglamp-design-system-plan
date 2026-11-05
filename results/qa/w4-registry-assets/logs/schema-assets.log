@@ -1,0 +1,8 @@
+packages/design-system/src/blocks/guide/ai-workshop.webp sha256=b2c7772de96f7c8d8dcf45dac334771743cc16f081f09f16556ed03e24b255a2
+apps/docs/public/avatar.jpg sha256=4277270bf9bcd2234a9231dbf611bd05a0f50b50cabeb9843438fb5faf61e154
+apps/docs/public/abdul-haidar.jpg sha256=531a69250973e75720368f00e439f3cea22cdf27d1c680fc4115168555ecf492
+apps/docs/public/ai-sdk-logo.png sha256=298f77f10ce01e05171a8637cb57028897dee9de3d15cf9503af193cd54237e2
+apps/docs/public/demo-overview-dark.png sha256=636abd2f22708bfd94d76e37725a5d02988ef49da7bbd34398ea3baf1123a0c9
+apps/docs/public/demo-overview-light.png sha256=411cb1dcbacf603c9b94c785b32b8229ecddeeaa4dc40aa1d10671fa80e1c981
+actual @shadcn/registry 0.2.1 schema passed for 289 item payloads + registry index
+Guide, Hero, Authors payloads contain data URIs and no unresolved local asset paths

@@ -1,0 +1,361 @@
+[
+  {
+    "name": "dialog",
+    "target": {
+      "x": 719,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "New evaluation",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "  - cell \"Backdrop behind the dialog popup.\" [ref=e6098]",
+      "  - cell \"DialogPortal\" [ref=e6099]",
+      "  - cell \"DialogPrimitive.Portal.Props\" [ref=e6100]",
+      "  - cell \"DialogTitle\" [ref=e6102]",
+      "  - cell \"DialogPrimitive.Title.Props\" [ref=e6103]",
+      "  - cell \"DialogTrigger\" [ref=e6105]",
+      "  - cell \"DialogPrimitive.Trigger.Props\" [ref=e6106]",
+      "- generic \"PropTypeDescriptionDialogContent.showCloseButtonbooleanDefaults to true.DialogFooter.showCloseButton\" [ref=e5966] focusable [tabindex]",
+      "  - cell \"DialogContent.showCloseButton\" [ref=e6108]",
+      "  - cell \"DialogFooter.showCloseButton\" [ref=e6111]",
+      "- generic \"import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogF\" [ref=e5994] focusable [tabindex]",
+      "- link \"Dialog\" [ref=e6005]"
+    ]
+  },
+  {
+    "name": "alert-dialog",
+    "target": {
+      "x": 718.9921875,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "Remove evaluation",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "  - cell \"Backdrop behind the confirmation dialog.\" [ref=e6279]",
+      "  - cell \"AlertDialogPortal\" [ref=e6280]",
+      "  - cell \"AlertDialogPrimitive.Portal.Props\" [ref=e6281]",
+      "  - cell \"Renders the confirmation dialog in a portal.\" [ref=e6282]",
+      "  - cell \"AlertDialogTitle\" [ref=e6283]",
+      "  - cell \"React.ComponentProps<typeof AlertDialogPrimitive.Title>\" [ref=e6284]",
+      "  - cell \"Confirmation dialog title.\" [ref=e6285]",
+      "  - cell \"AlertDialogTrigger\" [ref=e6286]",
+      "  - cell \"AlertDialogPrimitive.Trigger.Props\" [ref=e6287]",
+      "  - cell \"Opens the confirmation dialog.\" [ref=e6288]",
+      "- generic \"import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, A\" [ref=e6169] focusable [tabindex]",
+      "- link \"Alert Dialog\" [ref=e6180]"
+    ]
+  },
+  {
+    "name": "drawer",
+    "target": {
+      "x": 719,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "Inspect trace",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "- button \"Collapse Sidebar\" [expanded=true, ref=e6300]",
+      "- generic \"Foglamp Design SystemCreditsFoundationsPrimitivesAccordionAlertAlert DialogAspect RatioAvatarBadgeBr\" [ref=e6302] focusable [tabindex]",
+      "  - button \"Primitives\" [expanded=true, ref=e6319]",
+      "  - link \"Alert Dialog\" [ref=e6358]",
+      "  - link \"Dialog\" [ref=e6374]",
+      "  - link \"Tooltip\" [ref=e6411]",
+      "      - option \"Default\" [selected, ref=e6455]",
+      "      - option \"Muted\" [ref=e6456]",
+      "      - option \"Dark Lift\" [ref=e6457]",
+      "    - button \"Inspect trace\" [expanded=true, ref=e6458]"
+    ]
+  },
+  {
+    "name": "sheet",
+    "target": {
+      "x": 661.703125,
+      "y": 442.96875,
+      "tag": "BUTTON",
+      "text": "Inspect trace",
+      "frame": {
+        "x": 314,
+        "y": 283.96875,
+        "width": 812,
+        "height": 320,
+        "top": 283.96875,
+        "right": 1126,
+        "bottom": 603.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "- button \"Collapse Sidebar\" [expanded=true, ref=e6464]",
+      "- generic \"Foglamp Design SystemCreditsFoundationsPrimitivesAccordionAlertAlert DialogAspect RatioAvatarBadgeBr\" [ref=e6466] focusable [tabindex]",
+      "  - button \"Primitives\" [expanded=true, ref=e6484]",
+      "  - link \"Alert Dialog\" [ref=e6522]",
+      "  - link \"Dialog\" [ref=e6538]",
+      "  - link \"Tooltip\" [ref=e6575]",
+      "      - option \"Default\" [selected, ref=e6624]",
+      "      - option \"Muted\" [ref=e6625]",
+      "      - option \"Dark Lift\" [ref=e6626]",
+      "- generic \"ExportDeclared props or typeRoleSheetSheetPrimitive.Root.PropsDialog-based side panel root.SheetClos\" [ref=e6473] focusable [tabindex]",
+      "  - cell \"Dialog-based side panel root.\" [ref=e6587]"
+    ]
+  },
+  {
+    "name": "popover",
+    "target": {
+      "x": 719,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "Filter traces",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "- button \"Collapse Sidebar\" [expanded=true, ref=e6631]",
+      "- generic \"Foglamp Design SystemCreditsFoundationsPrimitivesAccordionAlertAlert DialogAspect RatioAvatarBadgeBr\" [ref=e6633] focusable [tabindex]",
+      "  - button \"Primitives\" [expanded=true, ref=e6651]",
+      "  - link \"Alert Dialog\" [ref=e6689]",
+      "  - link \"Dialog\" [ref=e6705]",
+      "  - link \"Tooltip\" [ref=e6742]",
+      "      - option \"Default\" [selected, ref=e6788]",
+      "      - option \"Muted\" [ref=e6789]",
+      "      - option \"Dark Lift\" [ref=e6790]",
+      "    - button \"Filter traces\" [expanded=true, ref=e6791]"
+    ]
+  },
+  {
+    "name": "dropdown-menu",
+    "target": {
+      "x": 718.9921875,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "Run actions",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "      - option \"Muted\" [ref=e6987]",
+      "      - option \"Dark Lift\" [ref=e6988]",
+      "    - button \"Run actions\" [expanded=true, ref=e6989]",
+      "    - menuitem \"Open report ↵\" [ref=e6990]",
+      "    - menuitem \"Duplicate run\" [ref=e6991]",
+      "    - menuitemcheckbox \"Pin to workspace\" [checked=true, ref=e6992]",
+      "    - menuitem \"Delete run\" [ref=e6993]",
+      "  - cell \"DropdownMenuItem\" [ref=e6932]",
+      "- generic \"PropTypeDescriptionDropdownMenuItem.insetbooleanIndent the item.DropdownMenuItem.variantdefault | de\" [ref=e6808] focusable [tabindex]",
+      "  - cell \"DropdownMenuItem.inset\" [ref=e6965]",
+      "  - cell \"DropdownMenuItem.variant\" [ref=e6968]",
+      "- generic \"import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuItem\" [ref=e6836] focusable [tabindex]"
+    ]
+  },
+  {
+    "name": "combobox",
+    "target": {
+      "x": 704,
+      "y": 470.96875,
+      "tag": "INPUT",
+      "text": "",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "      - option \"Claude 3.7 Sonnet\" [ref=e7198]",
+      "      - option \"GPT-4.1\" [selected, ref=e7199]",
+      "      - option \"Gemini 2.5 Pro\" [ref=e7200]",
+      "  - cell \"Selected value chip with an optional remove control.\" [ref=e7124]",
+      "  - cell \"Renders the active option collection.\" [ref=e7133]",
+      "  - cell \"Content displayed when the combobox has no matching options.\" [ref=e7139]",
+      "  - cell \"Groups related combobox options.\" [ref=e7142]",
+      "  - cell \"One selectable combobox option.\" [ref=e7148]",
+      "  - cell \"Label for a combobox option group.\" [ref=e7151]",
+      "  - cell \"List of combobox options.\" [ref=e7154]",
+      "  - cell \"Visual divider between combobox options.\" [ref=e7157]",
+      "- link \"Command Command menu composition built on cmdk, with an optional dialog wrapper, search input, groups, options, empty state, and shortcut label.\" [ref=e7012]"
+    ]
+  },
+  {
+    "name": "select",
+    "target": {
+      "x": 718.9453125,
+      "y": 469.96875,
+      "tag": "BUTTON",
+      "text": "GPT-4.1▼",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "  - link \"Dialog\" [ref=e7277]",
+      "  - link \"Tooltip\" [ref=e7314]",
+      "      - option \"Default\" [selected, ref=e7384]",
+      "      - option \"Muted\" [ref=e7385]",
+      "      - option \"Dark Lift\" [ref=e7386]",
+      "    - combobox [expanded=true, ref=e7387]: GPT-4.1",
+      "      - option \"GPT-4.1\" [selected, ref=e7389]",
+      "      - option \"o4-mini\" [ref=e7390]",
+      "      - option \"Claude Sonnet\" [ref=e7391]",
+      "  - cell \"One selectable option in the select list.\" [ref=e7335]",
+      "- generic \"PropTypeDescriptionSelect.itemsBase UI select itemsOptional item mapping or list. If omitted, the ro\" [ref=e7214] focusable [tabindex]",
+      "  - cell \"Optional item mapping or list. If omitted, the root collects SelectItem labels from nested children.\" [ref=e7356]"
+    ]
+  },
+  {
+    "name": "menubar",
+    "target": {
+      "x": 692.46875,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "File",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "  - link \"Dialog\" [ref=e7467]",
+      "  - link \"Tooltip\" [ref=e7504]",
+      "      - option \"Default\" [selected, ref=e7565]",
+      "      - option \"Muted\" [ref=e7566]",
+      "      - option \"Dark Lift\" [ref=e7567]",
+      "    - menuitem \"File\" [expanded=true, ref=e7568]",
+      "    - menuitem \"New workspace ⌘N\" [ref=e7570]",
+      "    - menuitem \"Open trace ⌘O\" [ref=e7571]",
+      "    - menuitem \"Export report\" [ref=e7572]",
+      "    - menuitem \"View\" [expanded=false, ref=e7569]",
+      "  - cell \"React.ComponentProps<typeof DropdownMenuItem>\" [ref=e7527]",
+      "- link \"Native Select Styled native select with option and option-group exports. The select supports default and compact sizes.\" [ref=e7409]"
+    ]
+  },
+  {
+    "name": "tooltip",
+    "target": {
+      "x": 768.5,
+      "y": 470.96875,
+      "tag": "BUTTON",
+      "text": "ⓘ",
+      "frame": {
+        "x": 314,
+        "y": 311.96875,
+        "width": 812,
+        "height": 320,
+        "top": 311.96875,
+        "right": 1126,
+        "bottom": 631.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "  - cell \"Provider for tooltip delay and shared state.\" [ref=e7704]",
+      "  - cell \"TooltipTrigger\" [ref=e7705]",
+      "  - cell \"TooltipPrimitive.Trigger.Props\" [ref=e7706]",
+      "  - cell \"Element that triggers the tooltip.\" [ref=e7707]",
+      "- generic \"PropTypeDescriptionTooltipProvider.delaynumberOpen delay in milliseconds. Defaults to 0.TooltipConte\" [ref=e7586] focusable [tabindex]",
+      "  - cell \"TooltipProvider.delay\" [ref=e7708]",
+      "  - cell \"TooltipContent.side\" [ref=e7711]",
+      "  - cell \"TooltipContent.sideOffset\" [ref=e7714]",
+      "  - cell \"TooltipContent.align\" [ref=e7717]",
+      "  - cell \"TooltipContent.alignOffset\" [ref=e7720]",
+      "- generic \"import { useState } from \\\"react\\\";\\n\\nimport { TooltipProvider, Tooltip, TooltipTrigger, TooltipContent\" [ref=e7613] focusable [tabindex]",
+      "- link \"Tooltip\" [ref=e7624]"
+    ]
+  },
+  {
+    "name": "hover-card",
+    "target": {
+      "x": 718.9921875,
+      "y": 442.96875,
+      "tag": "A",
+      "text": "checkout-api",
+      "frame": {
+        "x": 314,
+        "y": 283.96875,
+        "width": 812,
+        "height": 320,
+        "top": 283.96875,
+        "right": 1126,
+        "bottom": 603.96875,
+        "left": 314
+      }
+    },
+    "visible": [
+      "- button \"Collapse Sidebar\" [expanded=true, ref=e7735]",
+      "- generic \"Foglamp Design SystemCreditsFoundationsPrimitivesAccordionAlertAlert DialogAspect RatioAvatarBadgeBr\" [ref=e7737] focusable [tabindex]",
+      "  - button \"Primitives\" [expanded=true, ref=e7754]",
+      "  - link \"Alert Dialog\" [ref=e7793]",
+      "  - link \"Dialog\" [ref=e7809]",
+      "  - link \"Tooltip\" [ref=e7846]",
+      "      - option \"Default\" [selected, ref=e7869]",
+      "      - option \"Muted\" [ref=e7870]",
+      "      - option \"Dark Lift\" [ref=e7871]"
+    ]
+  },
+  {
+    "name": "context-menu",
+    "error": "Error: no target"
+  }
+]

@@ -1,0 +1,4 @@
+import { ProjectProvider } from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/widgets/project-context';
+import { RangeProvider } from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/widgets/range-context';
+import { EvalDetailBlock } from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/eval-detail-block';
+export function Page() { return <ProjectProvider><RangeProvider><EvalDetailBlock focusedScoreId={new URLSearchParams(location.search).get('score')} definition={new URLSearchParams(location.search).get('state')==='empty'?null:undefined} scores={new URLSearchParams(location.search).get('state')==='empty'?[]:undefined} isLoading={new URLSearchParams(location.search).get('state') === 'loading'} /></RangeProvider></ProjectProvider>; }

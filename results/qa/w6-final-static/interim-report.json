@@ -1,0 +1,68 @@
+{
+  "static_suite_before_current_owner_fixes": {
+    "build_registry": 0,
+    "verify_portal": 0,
+    "check_types": 0,
+    "test": 0,
+    "build": 0,
+    "diff_check": 0,
+    "details": "Initial final-gate suite predates later owner fixes; exact logs/exits in top-level files. Do not treat this as post-fix final suite."
+  },
+  "actual_cli": {
+    "cli": "shadcn@latest 4.23.0",
+    "registry_url": "http://127.0.0.1:4290/r/{name}.json",
+    "items": [
+      "@framerock/ui-button",
+      "@framerock/block-marketing-hero-hero",
+      "@framerock/block-scan-scan-board",
+      "@framerock/block-setup-setup-board",
+      "@framerock/style-globals"
+    ],
+    "consumer": "fresh-consumer-2",
+    "files_installed": 119,
+    "all_required_headers_pass": true,
+    "copied_payloads_missing_4b": 0,
+    "typescript_ast_body_mismatches_after_comments_removed": 0,
+    "typescript_payload_file_occurrences_compared": 143,
+    "css_body_mismatches_after_lightningcss_minify": 0,
+    "css_files_compared": 3,
+    "vite_build_exit": 0,
+    "typescript_check_exit": 2,
+    "typescript_strict_skiplib_exit": 0,
+    "typescript_errors": [
+      "@tabler/icons-react d.ts imports missing ReactSVG",
+      "unused @ts-expect-error at installed lib/scan/layout.ts:52"
+    ],
+    "type_fest": "4.41.0 auto-installed from registry package metadata; earlier missing type-fest error resolved"
+  },
+  "npm_pack": {
+    "tarball": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w6-final-static/pack-final/tailrocks-framerock-0.1.0.tgz",
+    "filename": "tailrocks-framerock-0.1.0.tgz",
+    "size": 1820608,
+    "unpacked_size": 3635061,
+    "entries": 274,
+    "included_notices_byte_identical": true,
+    "metadata_ok": true,
+    "excluded_founder_files_env_nodes_modules_tmp": true,
+    "errors": []
+  },
+  "active_servers": {
+    "registry": {
+      "port": 4290,
+      "session_id": 57339
+    },
+    "consumer_previous": {
+      "port": 4291,
+      "session_id": 87286
+    },
+    "consumer_current": {
+      "port": 4292,
+      "session_id": 73680
+    }
+  },
+  "unresolved_limits": [
+    "Await final rebuild/full suite after active source and verifier owners finish fixes.",
+    "Await Apex browser inspection on port 4292.",
+    "Determine whether copied unused helper /api/favicon is acceptable when actual rendered default uses T3 faviconV2/256."
+  ]
+}

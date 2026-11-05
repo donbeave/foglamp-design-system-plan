@@ -1,0 +1,360 @@
+{
+  "upstream_head": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "pairs": {
+    "overview": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/overview/overview-client.tsx",
+        "sha256": "baa7137e310984800dd6e08b057e23552a6ca76337b730d000cae6e06b023de2"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/overview-dashboard-block.tsx",
+        "sha256": "e625878356cfcab04404cea41f56e21c3b06619d8d63ea33b2240c7fa2ed6735"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "metrics.summary",
+          "operation": "queryOptions",
+          "line": 370
+        },
+        {
+          "endpoint": "metrics.timeseries",
+          "operation": "queryOptions",
+          "line": 375
+        },
+        {
+          "endpoint": "metrics.models",
+          "operation": "queryOptions",
+          "line": 380
+        },
+        {
+          "endpoint": "metrics.costByModel",
+          "operation": "queryOptions",
+          "line": 385
+        },
+        {
+          "endpoint": "agents.list",
+          "operation": "queryOptions",
+          "line": 391
+        },
+        {
+          "endpoint": "workflows.list",
+          "operation": "queryOptions",
+          "line": 398
+        },
+        {
+          "endpoint": "customers.list",
+          "operation": "queryOptions",
+          "line": 408
+        },
+        {
+          "endpoint": "traces.list",
+          "operation": "queryOptions",
+          "line": 419
+        },
+        {
+          "endpoint": "alerts.list",
+          "operation": "queryOptions",
+          "line": 424
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "traces": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/traces/traces-client.tsx",
+        "sha256": "e698ec264cc53c4e2c57ddc5957aa4ee3d891e9226377c2e61082d65ea0b5855"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/traces-explorer-block.tsx",
+        "sha256": "79911fa9922ada7105500575a42d632f824bf20875b8cf5ac161b046de46de4d"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "agents.names",
+          "operation": "queryOptions",
+          "line": 292
+        },
+        {
+          "endpoint": "agents.promptVersions",
+          "operation": "queryOptions",
+          "line": 304
+        },
+        {
+          "endpoint": "workflows.names",
+          "operation": "queryOptions",
+          "line": 329
+        },
+        {
+          "endpoint": "customers.list",
+          "operation": "queryOptions",
+          "line": 339
+        },
+        {
+          "endpoint": "metrics.models",
+          "operation": "queryOptions",
+          "line": 349
+        },
+        {
+          "endpoint": "traces.metadataKeys",
+          "operation": "queryOptions",
+          "line": 359
+        },
+        {
+          "endpoint": "traces.metadataValues",
+          "operation": "queryOptions",
+          "line": 370
+        },
+        {
+          "endpoint": "traces.list",
+          "operation": "queryOptions",
+          "line": 380
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "trace": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+        "sha256": "f7ea992c23aef3d6e7f580b840005bd456fb79077634b503b8f09a10635114fe"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/trace-waterfall-inspector-block.tsx",
+        "sha256": "64183945378f8f02157257ac10a4f8fc805d4ceec0809476a788656d812e1511"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "traces.get",
+          "operation": "queryOptions",
+          "line": 126
+        },
+        {
+          "endpoint": "evals.traceScores",
+          "operation": "queryOptions",
+          "line": 136
+        },
+        {
+          "endpoint": "evals.list",
+          "operation": "queryOptions",
+          "line": 142
+        },
+        {
+          "endpoint": "evals.presets",
+          "operation": "queryOptions",
+          "line": 151
+        },
+        {
+          "endpoint": "traces.sessionNeighbors",
+          "operation": "queryOptions",
+          "line": 159
+        },
+        {
+          "endpoint": "traces.comparison",
+          "operation": "queryOptions",
+          "line": 172
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "agent": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+        "sha256": "d14c95d7d6a7359678bae714a991e53a53be2a8d402c7062fbe04b9156c9d271"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/agent-detail-inspector-block.tsx",
+        "sha256": "1f85758bbd658a421e01ca1ce842ad56cdd0a4d0d1e8c604816bd65587f91023"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "agents.get",
+          "operation": "queryOptions",
+          "line": 195
+        },
+        {
+          "endpoint": "metrics.timeseries",
+          "operation": "queryOptions",
+          "line": 206
+        },
+        {
+          "endpoint": "alerts.list",
+          "operation": "queryOptions",
+          "line": 220
+        },
+        {
+          "endpoint": "traces.list",
+          "operation": "queryOptions",
+          "line": 242
+        },
+        {
+          "endpoint": "traces.get",
+          "operation": "queryOptions",
+          "line": 824
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "workflow": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+        "sha256": "64654a68d1c89971f5a1d0e40585430055dd51521366b8243708084914f4432c"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/workflow-detail-block.tsx",
+        "sha256": "aaff3130921db4ba6718e74a3bd2b3b96ce4594f09e447e70951f064c97eabc7"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "workflowRuns.list",
+          "operation": "queryOptions",
+          "line": 163
+        },
+        {
+          "endpoint": "workflowRuns.summary",
+          "operation": "queryOptions",
+          "line": 185
+        },
+        {
+          "endpoint": "workflowRuns.timeseries",
+          "operation": "queryOptions",
+          "line": 196
+        },
+        {
+          "endpoint": "workflowRuns.list",
+          "operation": "queryOptions",
+          "line": 207
+        },
+        {
+          "endpoint": "workflowRuns.get",
+          "operation": "queryOptions",
+          "line": 801
+        },
+        {
+          "endpoint": "traces.get",
+          "operation": "queryOptions",
+          "line": 812
+        },
+        {
+          "endpoint": "traces.get",
+          "operation": "queryOptions",
+          "line": 816
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "session": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+        "sha256": "59b42ce0b3450196164b47dd67333262b043e64f067163e8407caab425513ef1"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/session-conversation-inspector-block.tsx",
+        "sha256": "756f9581bdae754c9d3f6bca92b26482c84396fce18f1faaf74a01320d3c3db0"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "sessions.get",
+          "operation": "queryOptions",
+          "line": 88
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "eval": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/app/(app)/evals/[id]/eval-detail-client.tsx",
+        "sha256": "8164101d5a088e14f7a814f346569e35d2735fe9537b23f783a6ce2693f0fa6f"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/dashboard/eval-detail-block.tsx",
+        "sha256": "22d2c0142db9ee28839913364975f6d28681d4ff852af67720af5ff0c27288b2"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "evals.list",
+          "operation": "queryOptions",
+          "line": 188
+        },
+        {
+          "endpoint": "evals.presets",
+          "operation": "queryOptions",
+          "line": 191
+        },
+        {
+          "endpoint": "providerKeys.list",
+          "operation": "queryOptions",
+          "line": 193
+        },
+        {
+          "endpoint": "evals.timeseries",
+          "operation": "queryOptions",
+          "line": 197
+        },
+        {
+          "endpoint": "evals.recentScores",
+          "operation": "queryOptions",
+          "line": 208
+        },
+        {
+          "endpoint": "evals.score",
+          "operation": "queryOptions",
+          "line": 229
+        },
+        {
+          "endpoint": "evals.update",
+          "operation": "mutationOptions",
+          "line": 251
+        },
+        {
+          "endpoint": "evals.list",
+          "operation": "queryKey",
+          "line": 253
+        },
+        {
+          "endpoint": "traces.get",
+          "operation": "queryOptions",
+          "line": 805
+        },
+        {
+          "endpoint": "evals.judgeInput",
+          "operation": "queryOptions",
+          "line": 851
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    },
+    "shell": {
+      "source": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/app/app-shell.tsx",
+        "sha256": "37044828abe8d2a377d5cc9171fa16f4fe320c50d8d9850c8423fafca2138022"
+      },
+      "target": {
+        "path": "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/app-shell/app-shell-block.tsx",
+        "sha256": "5789cbf86abf6d47df7f7abdb6ea97468bd7617bd8705374c1c9998916ee443f"
+      },
+      "direct_trpc_calls": [
+        {
+          "endpoint": "platform.isAdmin",
+          "operation": "queryOptions",
+          "line": 136
+        }
+      ],
+      "light": "unverified",
+      "dark": "unverified",
+      "states": "unverified"
+    }
+  }
+}

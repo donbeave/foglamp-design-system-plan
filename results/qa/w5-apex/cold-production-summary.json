@@ -1,0 +1,104 @@
+[
+  {
+    "device": "desktop",
+    "theme": "light",
+    "visible_samples": 312,
+    "group_widths": [
+      46.8125
+    ],
+    "key_widths": [
+      [
+        22.421875,
+        22.390625
+      ]
+    ],
+    "saw_font_loading": true,
+    "saw_font_loaded": true,
+    "shifts": 0,
+    "search_shifts": 0,
+    "events": 0,
+    "fonts": "loaded",
+    "overflow": false,
+    "frames": [
+      {
+        "theme": "light",
+        "background": "oklch(0.99 0 0)",
+        "color": "oklch(0.145 0 0)",
+        "sourceSurface": true
+      }
+    ]
+  },
+  {
+    "device": "desktop",
+    "theme": "dark",
+    "visible_samples": 304,
+    "group_widths": [
+      46.8125
+    ],
+    "key_widths": [
+      [
+        22.421875,
+        22.390625
+      ]
+    ],
+    "saw_font_loading": true,
+    "saw_font_loaded": true,
+    "shifts": 0,
+    "search_shifts": 0,
+    "events": 0,
+    "fonts": "loaded",
+    "overflow": false,
+    "frames": [
+      {
+        "theme": "light",
+        "background": "oklch(0.99 0 0)",
+        "color": "oklch(0.145 0 0)",
+        "sourceSurface": true
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "theme": "light",
+    "visible_samples": 0,
+    "group_widths": [],
+    "key_widths": [],
+    "saw_font_loading": true,
+    "saw_font_loaded": true,
+    "shifts": 0,
+    "search_shifts": 0,
+    "events": 0,
+    "fonts": "loaded",
+    "overflow": false,
+    "frames": [
+      {
+        "theme": "light",
+        "background": "oklch(0.99 0 0)",
+        "color": "oklch(0.145 0 0)",
+        "sourceSurface": true
+      }
+    ]
+  },
+  {
+    "device": "mobile",
+    "theme": "dark",
+    "visible_samples": 0,
+    "group_widths": [],
+    "key_widths": [],
+    "saw_font_loading": true,
+    "saw_font_loaded": true,
+    "shifts": 0,
+    "search_shifts": 0,
+    "events": 0,
+    "fonts": "loaded",
+    "overflow": false,
+    "frames": [
+      {
+        "theme": "light",
+        "background": "oklch(0.99 0 0)",
+        "color": "oklch(0.145 0 0)",
+        "sourceSurface": true
+      }
+    ]
+  }
+]

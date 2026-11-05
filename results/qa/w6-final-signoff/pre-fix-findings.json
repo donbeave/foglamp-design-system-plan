@@ -1,0 +1,7 @@
+{
+  "production": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block",
+  "C_workbench": {"text":"Something went wrong!", "expandedError":"Story provenance metadata for \"block-marketing-figures-figure-kit-22\" has no pinned source URL", "cause":"Workbench omitted notUpstream prop required for Tailrocks-original catalog items"},
+  "browser_prompts_negative": {"exit":0,"expected":"nonzero rejecting @tailrocks/framerock/lib/prompts runtime import", "log":"browser-prompts-negative.log"},
+  "comment_only_provenance": {"exit":0,"expected":"nonzero rejecting Button provenance JSX replaced with MDX comment", "evidence":"verifier-comment-fixture.json"},
+  "status":"reported to root; awaiting proper owners and rebuild"
+}

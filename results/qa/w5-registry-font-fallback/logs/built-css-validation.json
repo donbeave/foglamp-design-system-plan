@@ -1,0 +1,11 @@
+{
+  "interFallbackFace": true,
+  "geistMonoFallbackFace": true,
+  "hostGroteskFallbackFace": true,
+  "fallbackMetrics": true,
+  "interStack": true,
+  "geistStack": true,
+  "hostStack": true,
+  "embeddedInterFonts": true,
+  "builtCssBytes": 1070458
+}

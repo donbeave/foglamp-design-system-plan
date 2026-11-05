@@ -1,0 +1,342 @@
+[
+  {
+    "id": "primitives/dialog",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/table",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      24,
+      24
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/button",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/input",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/toggle",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/cost-breakdown",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      403,
+      403
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/prompt-versions-view",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      71,
+      71
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/hud-inline-preview",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      94,
+      45,
+      106,
+      57
+    ],
+    "differing_pixels": 74,
+    "mean_abs_channel_error": 0.00026765046296296297,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "widgets/tool-breakdown",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      39,
+      39
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/foglamp-hud",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      761,
+      716,
+      849,
+      855
+    ],
+    "differing_pixels": 371,
+    "mean_abs_channel_error": 0.0005465856481481481,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/onboarding-panel-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      120,
+      56,
+      632,
+      172
+    ],
+    "differing_pixels": 14350,
+    "mean_abs_channel_error": 0.08980150462962963,
+    "pixel_total": 1152000,
+    "element_counts": [
+      33,
+      33
+    ],
+    "computed_differing_elements": 1,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/device-approve-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      18,
+      18
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "blocks/setup-board-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      1036,
+      481,
+      1051,
+      497
+    ],
+    "differing_pixels": 188,
+    "mean_abs_channel_error": 0.012217592592592592,
+    "pixel_total": 1152000,
+    "element_counts": [
+      126,
+      117
+    ],
+    "computed_differing_elements": 6,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/observability-guide-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      363,
+      363
+    ],
+    "computed_differing_elements": 1,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/hero-3d-demo-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      535,
+      535
+    ],
+    "computed_differing_elements": 66,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "primitives/dialog",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/table",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      24,
+      24
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/button",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/input",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "primitives/toggle",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  }
+]

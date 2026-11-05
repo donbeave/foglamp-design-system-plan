@@ -1,0 +1,45 @@
+{
+  "task": "W6-GATE (extended final Task5.2 role)",
+  "verdict": "ACCEPTED",
+  "report": "results/qa/w6-final-signoff/report.md",
+  "original_pin": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "W5_baseline": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+  "requirement_matrix": "report.md",
+  "cold_production": {
+    "valid_cases": 24,
+    "ready_theme_matched_source_frames": 16,
+    "errors": 0,
+    "overflow": 0,
+    "CLS": 0
+  },
+  "fresh_actual_shadcn_consumer": {
+    "CLI": "4.23.0",
+    "mounted_theme_cases": 8,
+    "errors": 0,
+    "broken_images": 0,
+    "backend_api_requests": 0,
+    "installed_notice_files": 119
+  },
+  "source_provenance": {
+    "files": 266,
+    "copied_exact_bytes": 46,
+    "modified": 200,
+    "Tailrocks_original": 20
+  },
+  "active_verification": {
+    "MDX": 175,
+    "typed_component_mappings": 167,
+    "public_surfaces": 6,
+    "comments_fences_false_metadata_negatives_rejected": true
+  },
+  "resolved_findings": [
+    "Tailrocks-original Workbench crash",
+    "old-scope browser-barrel checker",
+    "comment/fence-only active attribution verifier gap",
+    "shadcn leading-notice stripping",
+    "FigureKit width-zero external story geometry"
+  ],
+  "W5_bounded_renderer_limits_retained": true,
+  "delivery": "PENDING root implementation+planning commits/pushes; no goal marker emitted by this reviewer",
+  "cleanup": "Complete: owned4205 preview,CDP9361browser,andw6-apexagent-browserclosed; no unrelated process touched"
+}

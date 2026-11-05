@@ -1,0 +1,50 @@
+[
+  {
+    "traceId": "tr_01",
+    "userMessage": "How can I track my order?",
+    "traceName": null,
+    "agentName": "Support agent",
+    "workflowName": "Customer support",
+    "sessionId": "session_01",
+    "customerId": "customer_01",
+    "customerName": "Alex Morgan",
+    "customerImageUrl": null,
+    "models": [
+      "gpt-4o"
+    ],
+    "errorCount": 0,
+    "abortedCount": 0,
+    "spanCount": 8,
+    "totalTokens": 3421,
+    "durationMs": 1640,
+    "totalCost": 0.0124,
+    "startTime": "2026-01-15T12:00:00Z",
+    "metadata": {
+      "environment": "production"
+    }
+  },
+  {
+    "traceId": "tr_02",
+    "userMessage": "Summarize this document",
+    "traceName": null,
+    "agentName": "Research agent",
+    "workflowName": "Summarization",
+    "sessionId": null,
+    "customerId": "customer_02",
+    "customerName": "Taylor Lee",
+    "customerImageUrl": null,
+    "models": [
+      "claude-sonnet-4"
+    ],
+    "errorCount": 1,
+    "abortedCount": 0,
+    "spanCount": 5,
+    "totalTokens": 2180,
+    "durationMs": 2800,
+    "totalCost": 0.0086,
+    "startTime": "2026-01-15T11:30:00Z",
+    "metadata": {
+      "environment": "staging"
+    }
+  }
+]

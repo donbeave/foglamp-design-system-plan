@@ -1,0 +1,15 @@
+{
+  "activeErrorOverlay": false,
+  "apiRequests": [],
+  "body": "Foglamp found 1 agent, and 1 model call.\nReject\nApprove\nAgents 1\nSupport agent\nAgent loop\n\nHandles incoming customer support requests.\n\nsrc/agents/support.ts:42\n\nCustomer attribution 1\nNot recommended\n\nThis example serves a single workspace.\n\nIncoming webhook\nSupport agent\nGPT-4o\nConversation store\nSlack",
+  "failedSameOriginRequests": [],
+  "images": [
+    {
+      "complete": true,
+      "naturalHeight": 34,
+      "naturalWidth": 35,
+      "src": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://slack.com&size=256"
+    }
+  ],
+  "url": "http://127.0.0.1:4195/?setup"
+}

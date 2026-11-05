@@ -1,0 +1,29 @@
+{
+  "browser": "Chrome/157.0.8103.39",
+  "valid_cold_cases": 24,
+  "ready_correct_source_frames": 16,
+  "errors": 0,
+  "overflow": 0,
+  "top_document_layout_shifts": 0,
+  "footer_layout_shifts": 0,
+  "native_C_widths": {
+    "wrapper": 1024,
+    "chart": 721
+  },
+  "C_frame_fonts": "loaded 4/4",
+  "all_three_provenance_cases_pinned_links": "PASS",
+  "tribute_runtime_links_3routes_x4configurations": "PASS",
+  "startup_race_and_width_zero_raw_preserved": "browser.json / screenshots; corrected startup-rerun.json and c-width-rerun.json authoritative for those cases",
+  "frame_colors": [
+    [
+      "dark",
+      "oklch(0.17 0 0)",
+      "oklch(0.985 0 0)"
+    ],
+    [
+      "light",
+      "oklch(0.99 0 0)",
+      "oklch(0.145 0 0)"
+    ]
+  ]
+}

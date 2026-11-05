@@ -1,0 +1,1244 @@
+{
+  "schema_version": "1.0.0",
+  "audit_name": "Foglamp Design System and Documentation Portal Final Requirements Audit",
+  "scope": {
+    "plan_workspace": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan",
+    "target_workspace": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+    "waves": "0-5",
+    "task_count": 32,
+    "policy": "Partial statuses reflect bounded evidence only; static artifacts and browser smoke tests do not establish source-reference rendered parity. No final sign-off or delivery is asserted."
+  },
+  "sources_of_truth": [
+    "GOAL.md",
+    "TASKS.md",
+    "COMPONENT-MATRIX.md",
+    "task-index.json",
+    "CREDITS.md",
+    "AGENT-RUNBOOK.md",
+    "PLAN.md"
+  ],
+  "global_requirements": [
+    {
+      "id": "G-01",
+      "category": "Original attribution",
+      "requirement": "Prominently credit Gustavo Fior (@gustavo-fior), Abdul Haidar, and Foglamp Labs across required surfaces.",
+      "required_surfaces": [
+        "root README.md and CREDITS.md",
+        "apps/docs/src/routes/index.tsx hero plus OriginalAuthorsBlock",
+        "MarketingNavbar",
+        "CuttingMatFooterBlock",
+        "FoglampStoryPanel footer",
+        "apps/docs/content/docs/credits.mdx and index.mdx navigation/callout",
+        "packages/design-system/package.json and packages/registry/registry.json metadata",
+        "source headers for extracted files"
+      ],
+      "evidence_required": [
+        "Presence/content/link audit for each surface",
+        "Metadata values and source provenance paths resolve",
+        "Rendered check for visibility on homepage/navbar/footer/story panel"
+      ],
+      "status": "PARTIAL"
+    },
+    {
+      "id": "G-02",
+      "category": "License/provenance",
+      "requirement": "Apache-2.0 licensing and accurate provenance for extracted versus newly authored glue; source clone excluded from shipped repository.",
+      "evidence_required": [
+        "LICENSE/NOTICE and package metadata",
+        "registry metadata",
+        "header provenance path existence checks",
+        "git check-ignore .reference/foglamp"
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "111 .reference/foglamp source-path mentions resolve; design-system and registry manifest metadata name creators, repository and Apache-2.0. Generated registry metadata correction remains in progress."
+      ]
+    },
+    {
+      "id": "G-03",
+      "category": "Visual invariants",
+      "requirement": "Preserve Foglamp visual system AS-IS in Light and Dark modes.",
+      "invariants": [
+        "18 --custom-shadow* token definitions in :root and .dark",
+        "@plugin \"@toolwind/corner-shape\" and squircle progressive custom variant/classes",
+        "shadow-as-border; no token replacement by CSS borders",
+        "dual-mode form control shadow/border recipes",
+        "DRAWER_BUTTON_CLASS light/dark recipe",
+        "Button/Badge/ SearchInput/Menubar circular-pill radii where specified",
+        "animations and motion parameters",
+        "typography/assets: Inter Variable, Geist Mono, Host Grotesk",
+        "@tabler/icons-react with *Filled icon variants where source specifies"
+      ],
+      "evidence_required": [
+        "Exact token/class/source comparison",
+        "Static invariant scans",
+        "Light/Dark browser screenshots and interaction checks against source/reference for representative surfaces and all portal routes"
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "globals.css matches pinned upstream after comments are removed; 17 --custom-shadow* names plus outline shadow; corner-shape plugin present. Both packaged Inter variable WOFF2 files match upstream SHA-256 bytes. Docs imports Geist Mono and Host Grotesk via Fontsource. Rendered parity remains Wave 5."
+      ]
+    },
+    {
+      "id": "G-04",
+      "category": "Framework/decoupling",
+      "requirement": "Use Base UI render-prop polymorphism; no Radix UI/asChild; no next/* or trpc leakage in extracted package.",
+      "evidence_required": [
+        "Static import scans",
+        "Typecheck/build",
+        "Representative render-prop behavior checks"
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Static scan found no next/*, trpc, @/ or @radix-ui imports or asChild references in design-system source; representative runtime/render parity remains unverified."
+      ]
+    },
+    {
+      "id": "G-05",
+      "category": "Package and registry",
+      "requirement": "Reusable @foglamp/design-system and shadcn/ui-compatible registry install and build.",
+      "evidence_required": [
+        "Package exports/dependency review",
+        "registry.json metadata and generated /r JSON",
+        "shadcn registry build/install validation"
+      ],
+      "status": "PARTIAL"
+    },
+    {
+      "id": "G-06",
+      "category": "Delivery",
+      "requirement": "Land all work in donbeave/foglamp-design-system; commit and push after each mandated wave gate; finish at origin/main with clean worktree.",
+      "required_push_points": [
+        "W0-0.2",
+        "W1-GATE",
+        "W2-GATE",
+        "W3-GATE",
+        "W4-4H",
+        "W5-5.2"
+      ],
+      "evidence_required": [
+        "git status --short",
+        "git rev-parse HEAD and origin/main",
+        "git log commit records",
+        "git push output or remote verification"
+      ],
+      "status": "PARTIAL"
+    }
+  ],
+  "quantitative_requirements": [
+    {
+      "id": "Q-01",
+      "requirement": "56 UI primitives",
+      "expected_count": 56,
+      "status": "PARTIAL",
+      "evidence": "56 UI component files currently exist. Matrix says 48 pure primitives, but its named inventory and task exclusions produce 49 non-custom files; reconcile before final sign-off."
+    },
+    {
+      "id": "Q-02",
+      "requirement": "25 BrandLogos SVGs",
+      "expected_count": 25,
+      "status": "UNVERIFIED",
+      "evidence_required": [
+        "Export/member count and rendered logo inspection"
+      ]
+    },
+    {
+      "id": "Q-03",
+      "requirement": "11 EvilCharts source files",
+      "expected_count": 11,
+      "status": "PARTIAL",
+      "evidence_required": [
+        "File inventory and chart stories/render"
+      ]
+    },
+    {
+      "id": "Q-04",
+      "requirement": "22 Landing Figures",
+      "expected_count": 22,
+      "status": "PARTIAL",
+      "evidence_required": [
+        "Figure export/story/docs inventory and visual inspection"
+      ],
+      "evidence": "Runtime root import FIGURES has 22 entries; rendered figures remain unverified."
+    },
+    {
+      "id": "Q-05",
+      "requirement": "18 Blocks",
+      "expected_count": 18,
+      "status": "PARTIAL",
+      "evidence_required": [
+        "Block export/story/docs inventory and visual inspection"
+      ],
+      "evidence": "Runtime root import exposes all 25 canonical block exports; three additional helper names also end in Block; rendered parity remains unverified."
+    },
+    {
+      "id": "Q-06",
+      "requirement": "56 primitive stories and reference docs",
+      "expected_count": 56,
+      "status": "PARTIAL",
+      "evidence_required": [
+        "Story and MDX path/count audit"
+      ]
+    },
+    {
+      "id": "Q-07",
+      "requirement": "49 widget stories + 11 chart stories",
+      "expected_counts": {
+        "widgets": 49,
+        "charts": 11
+      },
+      "status": "PARTIAL",
+      "evidence_required": [
+        "Story path/count audit"
+      ]
+    },
+    {
+      "id": "Q-08",
+      "requirement": "18 block stories + 22 figure stories",
+      "expected_counts": {
+        "blocks": 18,
+        "figures": 22
+      },
+      "status": "PARTIAL",
+      "evidence_required": [
+        "Story path/count audit"
+      ]
+    },
+    {
+      "id": "Q-09",
+      "requirement": "18 shadow tokens present in each color mode",
+      "expected_count_per_mode": 18,
+      "status": "PARTIAL",
+      "evidence_required": [
+        "Parse :root and .dark token definitions; compare source"
+      ],
+      "evidence": "Static parse of globals.css found 18 shadow-like custom properties in both :root and .dark with matching names; CSS compilation/rendering unverified."
+    }
+  ],
+  "task_requirements": [
+    {
+      "task_id": "W0-0.1",
+      "wave": 0,
+      "title": "Create donbeave/foglamp-design-system on GitHub, clone foglamp-labs/foglamp into .reference/foglamp, scaffold Bun + Turborepo workspace, copy fonts/assets & mock-data.ts",
+      "profile": "foglamp_luna_low",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "depends_on": [],
+      "owned_paths": [
+        "package.json",
+        "turbo.json",
+        "tsconfig.base.json",
+        "packages/design-system/package.json",
+        "packages/design-system/tsconfig.json",
+        "packages/design-system/src/assets/",
+        "packages/design-system/src/blocks/marketing/demo/mock-data.ts",
+        "packages/registry/package.json",
+        "apps/docs/package.json",
+        "apps/docs/public/"
+      ],
+      "acceptance": [
+        "GitHub target repository exists and local `main` checkout uses origin URL.",
+        "`.reference/foglamp` source clone and scaffold/assets/mock-data/package manifests exist.",
+        "`.gitignore` excludes source clone and generated build/install directories.",
+        "Required Geist Mono/Host Grotesk assets and all .gitignore exclusions require explicit verification; Inter files alone are insufficient."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Inspected target checkout: branch is main and origin fetch/push URL is https://github.com/donbeave/foglamp-design-system.git.",
+        "`.reference/foglamp`, workspace package manifests, LICENSE/NOTICE, and InterVariable regular/italic assets exist.",
+        "The local remote configuration and files do not independently prove GitHub repository existence, source clone freshness, mock-data fidelity, or a successful commit/push."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W0-0.2",
+      "wave": 0,
+      "title": "Configure Tailwind v4 CSS tokens (18 --custom-shadow* tokens + squircles) & TanStack Start + @fumadocs/base-ui + @fumadocs/story",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "depends_on": [
+        "W0-0.1"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/styles/globals.css",
+        "packages/design-system/src/styles/effects.css",
+        "apps/docs/vite.config.ts",
+        "apps/docs/source.config.ts",
+        "apps/docs/src/routes/__root.tsx",
+        "apps/docs/src/routes/docs/$.tsx",
+        "apps/docs/src/styles/app.css"
+      ],
+      "acceptance": [
+        "TanStack Start + Fumadocs Base UI/Story routes and Vite/source configs are wired.",
+        "Tailwind v4 CSS includes all 18 `--custom-shadow*` tokens in `:root` and `.dark`, squircle plugin/variant, and effects."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Inspected packages/design-system/src/styles/globals.css: both :root and .dark contain the same 18 shadow-like custom properties, including --custom-shadow, --custom-outline-shadow and 16 chromatic/semantic variants.",
+        "The file contains @plugin \"@toolwind/corner-shape\" and @custom-variant squircle. Static inspection does not prove CSS compilation or visual rendering."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W1-1A",
+      "wave": 1,
+      "title": "Copy 48 zero-coupling Base UI primitives, 25 BrandLogos, use-mobile, use-copied & cn()",
+      "profile": "foglamp_luna_low",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "depends_on": [
+        "W0-0.2"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/ui/",
+        "packages/design-system/src/icons/brand-logos.tsx",
+        "packages/design-system/src/hooks/use-mobile.ts",
+        "packages/design-system/src/hooks/use-copied.ts",
+        "packages/design-system/src/lib/utils.ts"
+      ],
+      "acceptance": [
+        "All named non-custom UI primitives, 25 BrandLogos, use-mobile, use-copied, and cn utility exist with approved alias-only rewrites.",
+        "No next/* or trpc import leakage."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Observed 56 UI component files in the target. The 49 non-custom copies were compared against upstream with only approved @foglamp/ui alias rewrites; W1-1B owns the seven custom component files plus button-styles.",
+        "Observed logo/hooks/utils artifacts. Static scans had no next/*, trpc, or stale @foglamp/ui imports in W1-1A paths.",
+        "Count discrepancy remains: task title says 48 base primitives but its named list and actual non-custom inventory yield 49."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W1-1B",
+      "wave": 1,
+      "title": "Extract 8 custom-logic primitives (Button, Badge, DRAWER_BUTTON_CLASS, Select, Sheet, Table, Tooltip, Sonner), <FoglampLinkProvider> & @foglamp/prompts engine",
+      "profile": "foglamp_luna_max",
+      "model": "gpt-6-luna",
+      "effort": "max",
+      "depends_on": [
+        "W0-0.2"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/ui/button.tsx",
+        "packages/design-system/src/ui/button-styles.ts",
+        "packages/design-system/src/ui/badge.tsx",
+        "packages/design-system/src/ui/select.tsx",
+        "packages/design-system/src/ui/sheet.tsx",
+        "packages/design-system/src/ui/table.tsx",
+        "packages/design-system/src/ui/tooltip.tsx",
+        "packages/design-system/src/ui/sonner.tsx",
+        "packages/design-system/src/lib/link-context.tsx",
+        "packages/design-system/src/lib/prompts/"
+      ],
+      "acceptance": [
+        "Custom Button/Badge/button-styles/DRAWER_BUTTON_CLASS/Select/Sheet/Table/Tooltip/Sonner, link context, and prompts engine match the specified behavior.",
+        "Prompt LCS/slot cases have unit evidence; no Radix/asChild substitutions."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Target contains files in the assigned Wave 1 paths; gate-level command/test evidence is not attached to this requirements inventory.",
+        "Do not infer runtime or rendered parity from file presence or source headers."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W1-1C",
+      "wave": 1,
+      "title": "Extract formatters, range presets, trace-timeline math, payload-messages normalizer, app hooks & 15 simple leaf widgets",
+      "profile": "foglamp_luna_medium",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "depends_on": [
+        "W0-0.2"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/lib/format.ts",
+        "packages/design-system/src/lib/range.ts",
+        "packages/design-system/src/lib/trace-timeline.ts",
+        "packages/design-system/src/lib/payload-messages.ts",
+        "packages/design-system/src/lib/payload-messages.test.ts",
+        "packages/design-system/src/hooks/use-app-hooks.ts",
+        "packages/design-system/src/icons/model-logo.tsx",
+        "packages/design-system/src/icons/brand-mark.tsx",
+        "packages/design-system/src/icons/logo.tsx",
+        "packages/design-system/src/widgets/leaf/"
+      ],
+      "acceptance": [
+        "Pure format/range/trace-timeline/payload normalizers, app hooks, and 15 leaf widgets are present and framework-decoupled.",
+        "Payload normalization tests pass."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Target contains files in the assigned Wave 1 paths; gate-level command/test evidence is not attached to this requirements inventory.",
+        "Do not infer runtime or rendered parity from file presence or source headers."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W1-1D",
+      "wave": 1,
+      "title": "Extract Scan 2-pass elkjs orthogonal layout engine, fold-graph, diff, personality & contract types",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "depends_on": [
+        "W0-0.2"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/lib/scan/",
+        "packages/design-system/src/lib/types.ts"
+      ],
+      "acceptance": [
+        "Scan library has 2-pass elkjs layout, fold graph, diff, personality, and contract types; preserve specified layout invariants."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Target contains files in the assigned Wave 1 paths; gate-level command/test evidence is not attached to this requirements inventory.",
+        "Do not infer runtime or rendered parity from file presence or source headers."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W1-1E",
+      "wave": 1,
+      "title": "Build custom FoglampStoryPanel workbench with Gustavo Fior (@gustavo-fior) attribution badge",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "depends_on": [
+        "W0-0.2"
+      ],
+      "owned_paths": [
+        "apps/docs/src/components/story-panel.tsx",
+        "apps/docs/src/lib/story.tsx"
+      ],
+      "acceptance": [
+        "FoglampStoryPanel and story integration work in portal with visible Gustavo Fior attribution; source-origin claims are accurate."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Target contains files in the assigned Wave 1 paths; gate-level command/test evidence is not attached to this requirements inventory.",
+        "Do not infer runtime or rendered parity from file presence or source headers."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W1-GATE",
+      "wave": 1,
+      "title": "Wave 1 Gatekeeper: verify UI & lib exports, run prompts/payload unit tests, confirm zero next/* or trpc imports",
+      "profile": "foglamp_terra_low",
+      "model": "gpt-6.1-terra",
+      "effort": "low",
+      "depends_on": [
+        "W1-1A",
+        "W1-1B",
+        "W1-1C",
+        "W1-1D",
+        "W1-1E"
+      ],
+      "owned_paths": [],
+      "acceptance": [
+        "Verify UI/lib exports, run prompts and payload unit tests, and find zero next/* or trpc imports."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Target static inventory and source-header checks observed during Wave 1. This does not establish runtime/rendered parity; gate test results must be attached separately."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W2-2A",
+      "wave": 2,
+      "title": "Extract EvilCharts suite (11 files), TrendCharts, CostBreakdownView & ToolBreakdownView",
+      "profile": "foglamp_luna_max",
+      "model": "gpt-6-luna",
+      "effort": "max",
+      "depends_on": [
+        "W1-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/charts/",
+        "packages/design-system/src/widgets/trend-charts.tsx",
+        "packages/design-system/src/widgets/cost-breakdown.tsx",
+        "packages/design-system/src/widgets/tool-breakdown.tsx"
+      ],
+      "acceptance": [
+        "11 EvilCharts source files and TrendCharts/CostBreakdownView/ToolBreakdownView are exported and preserve chart behavior."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W2-2B",
+      "wave": 2,
+      "title": "Decouple KPI StatCards, PageHeader, RangePicker, Context Providers, Chips, CodeBlock, Markdown & AnimatedApiKey",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "depends_on": [
+        "W1-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/widgets/page-parts.tsx",
+        "packages/design-system/src/widgets/nav.ts",
+        "packages/design-system/src/widgets/route-header.tsx",
+        "packages/design-system/src/widgets/header-slot.tsx",
+        "packages/design-system/src/widgets/range-picker.tsx",
+        "packages/design-system/src/widgets/range-context.tsx",
+        "packages/design-system/src/widgets/project-context.tsx",
+        "packages/design-system/src/widgets/quota-card.tsx",
+        "packages/design-system/src/widgets/theme-switcher.tsx",
+        "packages/design-system/src/widgets/user-menu.tsx",
+        "packages/design-system/src/widgets/context-chip.tsx",
+        "packages/design-system/src/widgets/model-chip.tsx",
+        "packages/design-system/src/widgets/prompt-version-chip.tsx",
+        "packages/design-system/src/widgets/code-block.tsx",
+        "packages/design-system/src/widgets/markdown.tsx",
+        "packages/design-system/src/widgets/animated-api-key.tsx"
+      ],
+      "acceptance": [
+        "All named KPI/page parts, range/context providers, chips, code/markdown, and AnimatedApiKey are decoupled and exported."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W2-2C",
+      "wave": 2,
+      "title": "Extract DataTable + Portal-Lifting Toolbar, HeatCell, PayloadView, RunExchange, PromptProse/Versions & EvalScores",
+      "profile": "foglamp_terra_high",
+      "model": "gpt-6.1-terra",
+      "effort": "high",
+      "depends_on": [
+        "W1-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/widgets/data-table.tsx",
+        "packages/design-system/src/widgets/heat-cell.tsx",
+        "packages/design-system/src/widgets/payload-view.tsx",
+        "packages/design-system/src/widgets/run-exchange.tsx",
+        "packages/design-system/src/widgets/prompt-prose.tsx",
+        "packages/design-system/src/widgets/prompt-versions-card.tsx",
+        "packages/design-system/src/widgets/eval-scores.tsx"
+      ],
+      "acceptance": [
+        "DataTable/Toolbar, HeatCell, PayloadView, RunExchange, PromptProse/Versions, EvalScores preserve required interactions and are exported."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W2-2D",
+      "wave": 2,
+      "title": "Extract TraceTimeline 3-column multi-phase waterfall & xN sibling loop folding",
+      "profile": "foglamp_sol_medium",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "depends_on": [
+        "W1-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/widgets/trace-timeline.tsx"
+      ],
+      "acceptance": [
+        "TraceTimeline preserves 3-column multi-phase waterfall and repeated-sibling folding."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W2-2E",
+      "wave": 2,
+      "title": "Extract FoggyLauncher 6px SVG corner shelf, FoggyWidgetView rubber-band resize, DevBarView & FoglampHUD Shadow DOM 240Hz spring",
+      "profile": "foglamp_sol_medium",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "depends_on": [
+        "W1-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/widgets/foggy/",
+        "packages/design-system/src/widgets/dev-toolbar.tsx",
+        "packages/design-system/src/hud/"
+      ],
+      "acceptance": [
+        "Foggy launcher/widget, dev toolbar, and HUD preserve SVG shelf, rubber-band resize, Shadow DOM, and 240Hz spring behavior."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W2-GATE",
+      "wave": 2,
+      "title": "Wave 2 Gatekeeper: verify all widget/chart/HUD exports and run tsc --noEmit",
+      "profile": "foglamp_terra_low",
+      "model": "gpt-6.1-terra",
+      "effort": "low",
+      "depends_on": [
+        "W2-2A",
+        "W2-2B",
+        "W2-2C",
+        "W2-2D",
+        "W2-2E"
+      ],
+      "owned_paths": [],
+      "acceptance": [
+        "All widget/chart/HUD barrels verify and design-system tsc --noEmit passes."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W3-3A",
+      "wave": 3,
+      "title": "Extract FigureKit22Block (22 Figures), DriftingFogCtaBlock, CuttingMatFooterBlock, HudSimulatorBlock, Auth/Onboarding & OriginalAuthorsBlock",
+      "profile": "foglamp_luna_max",
+      "model": "gpt-6-luna",
+      "effort": "max",
+      "depends_on": [
+        "W2-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/blocks/marketing/figures/",
+        "packages/design-system/src/blocks/marketing/cta/",
+        "packages/design-system/src/blocks/marketing/chrome/",
+        "packages/design-system/src/blocks/marketing/hud-landing.tsx",
+        "packages/design-system/src/blocks/marketing/original-authors-block.tsx",
+        "packages/design-system/src/blocks/auth/"
+      ],
+      "acceptance": [
+        "22 figures and named CTA/footer/HUD/auth/onboarding/original-authors blocks exist and preserve source appearance/behavior."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W3-3B",
+      "wave": 3,
+      "title": "Extract AppShellBlock & 7 Canonical Dashboard Page Blocks with pre-wired mock data",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "depends_on": [
+        "W2-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/blocks/app-shell/",
+        "packages/design-system/src/blocks/dashboard/"
+      ],
+      "acceptance": [
+        "AppShellBlock and 7 dashboard page blocks use prewired mock data."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W3-3C",
+      "wave": 3,
+      "title": "Extract ObservabilityGuideBlock ('Warm Paper Field Guide' scrollytelling) & SetupBoardBlock (inline sparse PlanEdits editor)",
+      "profile": "foglamp_terra_high",
+      "model": "gpt-6.1-terra",
+      "effort": "high",
+      "depends_on": [
+        "W2-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/blocks/guide/",
+        "packages/design-system/src/blocks/setup/"
+      ],
+      "acceptance": [
+        "Observability guide preserves sticky scrollytelling and SetupBoard preserves sparse PlanEdits editing."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W3-3D",
+      "wave": 3,
+      "title": "Extract FlowMapBlock, ScanBoardBlock (WAAPI BeamPulse comets + crisp zoom + BFS trace) & PersonalityCard",
+      "profile": "foglamp_sol_medium",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "depends_on": [
+        "W2-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/blocks/scan/"
+      ],
+      "acceptance": [
+        "FlowMap/ScanBoard preserve WAAPI comets, crisp zoom, BFS trace, and PersonalityCard."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W3-3E",
+      "wave": 3,
+      "title": "APEX TASK #1: Extract Hero3DDemoBlock (3-Beat transform-3d perspective assembly + Beat 0 dark anti-flicker + 7-tab/5-detail DashboardDemo)",
+      "profile": "foglamp_sol_high",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "depends_on": [
+        "W2-GATE"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/blocks/marketing/hero/",
+        "packages/design-system/src/blocks/marketing/demo/"
+      ],
+      "acceptance": [
+        "Hero3DDemo has 3-beat transform-3d, dark anti-flicker Beat 0, 7 tabs and 5 detail states."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W3-GATE",
+      "wave": 3,
+      "title": "Wave 3 Gatekeeper: verify all 18 blocks & 22 figures exports and run tsc --noEmit",
+      "profile": "foglamp_terra_low",
+      "model": "gpt-6.1-terra",
+      "effort": "low",
+      "depends_on": [
+        "W3-3A",
+        "W3-3B",
+        "W3-3C",
+        "W3-3D",
+        "W3-3E"
+      ],
+      "owned_paths": [],
+      "acceptance": [
+        "All 18 blocks and 22 figures are exported and tsc --noEmit passes."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4A",
+      "wave": 4,
+      "title": "Generate 56 UI Primitive .story.tsx files",
+      "profile": "foglamp_luna_medium",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "depends_on": [
+        "W3-GATE"
+      ],
+      "owned_paths": [
+        "apps/docs/src/stories/primitives/"
+      ],
+      "acceptance": [
+        "56 UI primitive stories exist and render in FoglampStoryPanel."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "56 primitive stories and 56 matching MDX names inventoried."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4B",
+      "wave": 4,
+      "title": "Generate 49 App Widget & 11 EvilCharts .story.tsx files",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "depends_on": [
+        "W3-GATE"
+      ],
+      "owned_paths": [
+        "apps/docs/src/stories/widgets/",
+        "apps/docs/src/stories/charts/"
+      ],
+      "acceptance": [
+        "49 widget and 11 chart stories exist and render."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "53 widget and 11 chart stories inventoried; chart registry slug correction present; rendered behavior remains for Wave 5."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4C",
+      "wave": 4,
+      "title": "Generate 18 Block & 22 Figure .story.tsx files",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "depends_on": [
+        "W3-GATE"
+      ],
+      "owned_paths": [
+        "apps/docs/src/stories/blocks/",
+        "apps/docs/src/stories/figures/"
+      ],
+      "acceptance": [
+        "18 block and 22 figure stories exist and render."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "26 block and 22 figure stories inventoried; runtime FIGURES count 22; rendered parity remains for Wave 5."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4D-LEAD",
+      "wave": 4,
+      "title": "Author flagship narrative prose: index.mdx, credits.mdx (honoring Gustavo Fior @gustavo-fior & Abdul Haidar) & foundations/*.mdx",
+      "profile": "foglamp_terra_low",
+      "model": "gpt-6.1-terra",
+      "effort": "low",
+      "depends_on": [
+        "W3-GATE"
+      ],
+      "owned_paths": [
+        "apps/docs/content/docs/index.mdx",
+        "apps/docs/content/docs/credits.mdx",
+        "apps/docs/content/docs/foundations/"
+      ],
+      "acceptance": [
+        "index.mdx, credits.mdx and foundations docs accurately credit Gustavo Fior, Abdul Haidar and Foglamp Labs."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "index, credits and six foundation MDX pages exist; credits embeds OriginalAuthorsBlock and names both founders and Foglamp Labs."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4D-REF",
+      "wave": 4,
+      "title": "Author 56 UI Primitives .mdx reference docs",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "depends_on": [
+        "W4-4A"
+      ],
+      "owned_paths": [
+        "apps/docs/content/docs/primitives/"
+      ],
+      "acceptance": [
+        "Reference MDX docs exist for all 56 UI primitives."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "56 primitive MDX files match story filenames."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4E",
+      "wave": 4,
+      "title": "Author App Widgets, AI Inspectors & EvilCharts .mdx docs",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "depends_on": [
+        "W4-4B"
+      ],
+      "owned_paths": [
+        "apps/docs/content/docs/widgets/",
+        "apps/docs/content/docs/charts/"
+      ],
+      "acceptance": [
+        "Reference MDX docs exist for app widgets, inspectors and all 11 EvilCharts."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "53 widget and 11 chart MDX files match story filenames; all contain WithControl, prop-table and creator markers."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4F",
+      "wave": 4,
+      "title": "Author 22 Figures, 18 Blocks, Scan/Setup, Scrollytelling & HUD .mdx docs",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "effort": "high",
+      "depends_on": [
+        "W4-4C"
+      ],
+      "owned_paths": [
+        "apps/docs/content/docs/figures/",
+        "apps/docs/content/docs/blocks/"
+      ],
+      "acceptance": [
+        "Reference MDX docs exist for 22 figures, 18 blocks, Scan/Setup, scrollytelling and HUD."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "26 block and 22 figure MDX files match story filenames."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4G",
+      "wave": 4,
+      "title": "Build shadcn/ui registry.json manifest & /public/r/*.json static registry files",
+      "profile": "foglamp_luna_medium",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "depends_on": [
+        "W3-GATE"
+      ],
+      "owned_paths": [
+        "packages/registry/registry.json",
+        "packages/registry/scripts/build-registry.ts",
+        "apps/docs/public/r/"
+      ],
+      "acceptance": [
+        "Registry manifest/build script and generated public/r JSON files install correctly and preserve attribution metadata."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "289 payloads and index passed installed shadcn schemas; registry data URI bytes match source; captured fresh shadcn CLI install created 100 files and consumer Vite build/browser image checks passed (results/qa/w4-registry-assets/logs)."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W4-4H",
+      "wave": 4,
+      "title": "Build Portal Homepage (routes/index.tsx) with prominent Gustavo Fior shoutout, meta.json trees & barrel index.ts exports",
+      "profile": "foglamp_luna_low",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "depends_on": [
+        "W4-4D-LEAD",
+        "W4-4D-REF",
+        "W4-4E",
+        "W4-4F",
+        "W4-4G"
+      ],
+      "owned_paths": [
+        "apps/docs/src/routes/index.tsx",
+        "apps/docs/content/docs/meta.json",
+        "packages/design-system/src/index.ts"
+      ],
+      "acceptance": [
+        "Homepage has prominent creator attribution and OriginalAuthorsBlock; docs navigation trees and package barrel exports are complete."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Homepage and navigation artifacts present; Wave 4 pushed ce01e3aa72515a8c557336ac174d9428e17c7046. Final rendered parity remains Wave 5."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W5-5.1A",
+      "wave": 5,
+      "title": "Static Typecheck (tsc --noEmit), Unit Tests (vitest), Registry Build & TanStack Start Production Build",
+      "profile": "foglamp_luna_low",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "depends_on": [
+        "W4-4H"
+      ],
+      "owned_paths": [],
+      "acceptance": [
+        "Static typecheck, unit tests, registry build and TanStack Start production build all pass."
+      ],
+      "status": "PARTIAL",
+      "evidence": [
+        "Captured exit 0 for check-types, bun test (58 pass), check:portal, build:registry and root build at ce01e3aa72515a8c557336ac174d9428e17c7046; see results/qa/w5-static/report.json."
+      ],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W5-5.1B",
+      "wave": 5,
+      "title": "Automated Live-Browser Computer-Use Visual QA across Light & Dark modes",
+      "profile": "foglamp_terra_high",
+      "model": "gpt-6.1-terra",
+      "effort": "high",
+      "depends_on": [
+        "W5-5.1A"
+      ],
+      "owned_paths": [],
+      "acceptance": [
+        "Live browser QA covers portal key flows and Light/Dark appearance with recorded evidence."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    },
+    {
+      "task_id": "W5-5.2",
+      "wave": 5,
+      "title": "APEX TASK #2: Final Whole-Portal Connected Visual System, Light/Dark Pixel-Parity & Attribution Sign-Off",
+      "profile": "foglamp_sol_high",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "depends_on": [
+        "W5-5.1B"
+      ],
+      "owned_paths": [],
+      "acceptance": [
+        "Apex sign-off confirms whole-portal Light/Dark parity and attribution; clean tree and HEAD pushed to origin/main."
+      ],
+      "status": "UNVERIFIED",
+      "evidence": [],
+      "authoritative_evidence_required": [
+        "Named artifact inventory / export validation",
+        "Task-specific command output or test report",
+        "Visual/browser evidence for appearance or interaction claims where applicable"
+      ]
+    }
+  ],
+  "final_verification_plan": [
+    {
+      "id": "V-01",
+      "command": "bun run check-types",
+      "purpose": "Workspace TypeScript verification",
+      "status": "PARTIAL",
+      "evidence_required": "Exit code 0 and captured output",
+      "evidence": [
+        "results/qa/w5-static/host-toolbar-correction/report.json records passing command for current correction set; final delivery pending."
+      ]
+    },
+    {
+      "id": "V-02",
+      "command": "bun run test",
+      "purpose": "Unit tests including prompts and payload normalizers",
+      "status": "PARTIAL",
+      "evidence_required": "Exit code 0 and captured test summary",
+      "evidence": [
+        "results/qa/w5-static/host-toolbar-correction/report.json records passing command for current correction set; final delivery pending."
+      ]
+    },
+    {
+      "id": "V-03",
+      "command": "bun run build",
+      "purpose": "Registry and TanStack Start production build",
+      "status": "PARTIAL",
+      "evidence_required": "Exit code 0 and generated artifacts",
+      "evidence": [
+        "results/qa/w5-static/host-toolbar-correction/report.json records passing command for current correction set; final delivery pending."
+      ]
+    },
+    {
+      "id": "V-04",
+      "command": "Static scans for next/*, trpc, Radix, asChild and visual token invariants",
+      "purpose": "Decoupling and source-preservation checks",
+      "status": "PARTIAL",
+      "evidence_required": "Captured scan output and exact counts",
+      "evidence": [
+        "Read-only scan of packages/design-system/src found no next/*, trpc, @radix-ui imports or asChild references. Token comparisons and browser shadows have separate earlier evidence; not an exhaustive invariant proof."
+      ]
+    },
+    {
+      "id": "V-05",
+      "command": "Live browser QA in Light and Dark",
+      "purpose": "Rendered visual parity, route, story, controls and key interactive behaviors",
+      "status": "PARTIAL",
+      "evidence_required": "Screenshots/video or structured browser QA artifact; static code does not satisfy",
+      "evidence": [
+        "results/qa/w5-browser/report.md and interaction shards; corrected settled matrix remains in progress and source parity unverified."
+      ]
+    },
+    {
+      "id": "V-06",
+      "command": "git status --short && git rev-parse HEAD && git rev-parse origin/main",
+      "purpose": "Clean final delivery at remote head",
+      "status": "UNVERIFIED",
+      "evidence_required": "Clean status and matching pushed HEAD",
+      "evidence": [
+        "Target HEAD, origin/main and remote main match ce01e3aa72515a8c557336ac174d9428e17c7046; 16 modified files; final W5 push pending."
+      ]
+    }
+  ],
+  "open_issues": [
+    "The settled 708-configuration browser matrix is running; its partial JSONL is not a completed result.",
+    "Whole-portal source-reference Light/Dark rendered and behavioral parity, including all animation parameters and attribution visibility, remains W5-5.2 work.",
+    "49 versus 48 zero-coupling primitive count and 25 canonical block names versus 18 block wording are planning inventory discrepancies; named coverage must be checked rather than reduced.",
+    "Final W5 commit, remote push and clean worktree remain pending.",
+    "Toolbar reserve proof should exercise first-frame header lifting as Foggy opens near the fit threshold; no scroll-specific contract was found. See results/qa/w5-requirements/named-inventory.json reservation_contract.",
+    "Font source fallback/metrics correction is ongoing; prior static report predates the latest target changes and must be rerun on the final correction set.",
+    "Matrix names useIsDark, extractMessages, parseStructured and scorePersonality do not exist in pinned source; complete source bodies match extracted versions after attribution and documented import adaptation. Actual exports are recorded in the named inventory."
+  ],
+  "target_snapshot": {
+    "observed_at": "2026-11-05, Wave 5 in progress",
+    "workspace": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+    "observations": [
+      {
+        "id": "S-01",
+        "status": "PARTIAL",
+        "finding": "Local Wave 0\u20134 commits are 1fe21e9, fd506b8, 6e29fc0, 1aa947e and ce01e3a; target HEAD, origin/main and ls-remote origin main matched ce01e3a when checked. Wave 5 modifications are in progress.",
+        "limits": "Not final delivery."
+      },
+      {
+        "id": "S-02",
+        "status": "PARTIAL",
+        "finding": "Current correction-set static report records typecheck, 58 tests, portal check (168 stories, 289 registry items), registry build and production build exit 0.",
+        "limits": "The report covers an earlier 16-file correction set. Subsequent font correction files are in progress; rerun checks on final state."
+      },
+      {
+        "id": "S-03",
+        "status": "PARTIAL",
+        "finding": "Static scan in packages/design-system/src found no next/*, trpc or @radix-ui import or asChild reference; LICENSE, NOTICE and .reference ignore exist; design-system metadata credits named creators.",
+        "limits": "Scan does not establish every export or rendered behavior."
+      },
+      {
+        "id": "S-04",
+        "status": "PARTIAL",
+        "finding": "Browser report and interaction shards document representative Light/Dark flows, 18 computed shadows, hero tabs, timeline, FlowMap, launcher and HUD interaction evidence.",
+        "limits": "Settled matrix running; source-reference comparison and comprehensive motion/interaction review remain open."
+      }
+    ],
+    "not_verified": [
+      "Final whole-portal source-reference Light/Dark parity and attribution sign-off",
+      "All named interfaces, callback defaults, motion parameters and scroll reservation at runtime",
+      "Final clean worktree, matching remote HEAD and Wave 5 push"
+    ]
+  },
+  "latest_delivery": {
+    "wave": 4,
+    "commit": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+    "final_delivery_complete": false,
+    "remote_observed_main": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+    "remote_observation": "git -C target ls-remote origin refs/heads/main and rev-parse HEAD origin/main match ce01e3aa72515a8c557336ac174d9428e17c7046; target worktree has 16 modifications.",
+    "remaining": [
+      "W5-5.1B",
+      "W5-5.2",
+      "final Wave 5 commit and push"
+    ]
+  },
+  "named_static_inventory": "results/qa/w5-requirements/named-inventory.json"
+}

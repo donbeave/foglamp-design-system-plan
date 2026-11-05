@@ -1,0 +1,7 @@
+--- .reference/foglamp/apps/web/src/components/scan/embed-board.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/scan/embed-board.tsx	2026-11-05 19:02:55
+@@ -7,3 +7,4 @@
+ 			</a>
+ 		</div>);
+ }
++export { EmbedBoard as EmbedBoardBlock };

@@ -1,0 +1,872 @@
+{
+  "registry_items": [
+    "ui-button",
+    "block-marketing-hero-hero",
+    "block-scan-scan-board",
+    "block-setup-setup-board",
+    "style-globals"
+  ],
+  "payload_file_count": 119,
+  "missing_installed_paths": [],
+  "exact_content_mismatches": [
+    {
+      "path": "src/components/framerock/lib/utils.ts",
+      "raw_len": 1823,
+      "installed_len": 924,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/button.tsx",
+      "raw_len": 7066,
+      "installed_len": 6003,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/chrome/demo-link.ts",
+      "raw_len": 3051,
+      "installed_len": 1578,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/cta/agent-prompt.ts",
+      "raw_len": 4782,
+      "installed_len": 3729,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/cta/copy-prompt-button.tsx",
+      "raw_len": 6167,
+      "installed_len": 5050,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/demo-chrome.tsx",
+      "raw_len": 9831,
+      "installed_len": 8734,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/demo-context.tsx",
+      "raw_len": 3275,
+      "installed_len": 2322,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/demo-shell.tsx",
+      "raw_len": 5856,
+      "installed_len": 4761,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/demo-sidebar.tsx",
+      "raw_len": 8676,
+      "installed_len": 7577,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/detail/agent-detail.tsx",
+      "raw_len": 24213,
+      "installed_len": 23100,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/detail/breakdown-cards.tsx",
+      "raw_len": 9936,
+      "installed_len": 8817,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/detail/eval-detail.tsx",
+      "raw_len": 17601,
+      "installed_len": 16490,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/detail/session-detail.tsx",
+      "raw_len": 14815,
+      "installed_len": 13698,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/detail/trace-detail.tsx",
+      "raw_len": 19020,
+      "installed_len": 17907,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/detail/workflow-detail.tsx",
+      "raw_len": 18811,
+      "installed_len": 17692,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/entrance.ts",
+      "raw_len": 7306,
+      "installed_len": 6363,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/index.tsx",
+      "raw_len": 6964,
+      "installed_len": 5879,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/mock-data.ts",
+      "raw_len": 57240,
+      "installed_len": 56149,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/piece.tsx",
+      "raw_len": 4268,
+      "installed_len": 3183,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/agents-tab.tsx",
+      "raw_len": 7677,
+      "installed_len": 6572,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/alerts-tab.tsx",
+      "raw_len": 9221,
+      "installed_len": 8116,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/evals-tab.tsx",
+      "raw_len": 10915,
+      "installed_len": 9812,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/overview-tab.tsx",
+      "raw_len": 18315,
+      "installed_len": 17206,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/sessions-tab.tsx",
+      "raw_len": 11252,
+      "installed_len": 10143,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/traces-tab.tsx",
+      "raw_len": 24947,
+      "installed_len": 23842,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/demo/tabs/workflows-tab.tsx",
+      "raw_len": 7627,
+      "installed_len": 6516,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/hero/hero-demo.tsx",
+      "raw_len": 6715,
+      "installed_len": 5616,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/marketing/hero/hero.tsx",
+      "raw_len": 517068,
+      "installed_len": 515979,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/charts/area-chart.tsx",
+      "raw_len": 44336,
+      "installed_len": 43235,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/charts/bar-chart.tsx",
+      "raw_len": 45427,
+      "installed_len": 44328,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/background.tsx",
+      "raw_len": 9819,
+      "installed_len": 8872,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/chart.tsx",
+      "raw_len": 12148,
+      "installed_len": 11065,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/dot.tsx",
+      "raw_len": 6284,
+      "installed_len": 5205,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/evil-brush.tsx",
+      "raw_len": 23235,
+      "installed_len": 22142,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/legend.tsx",
+      "raw_len": 8032,
+      "installed_len": 6947,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/tooltip.tsx",
+      "raw_len": 9215,
+      "installed_len": 8128,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/charts/evilcharts/ui/zoom.tsx",
+      "raw_len": 7445,
+      "installed_len": 6510,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/hooks/use-copied.ts",
+      "raw_len": 2844,
+      "installed_len": 1919,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/icons/brand-logos.tsx",
+      "raw_len": 47436,
+      "installed_len": 46515,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/icons/model-logo.tsx",
+      "raw_len": 10633,
+      "installed_len": 9568,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/format.ts",
+      "raw_len": 7930,
+      "installed_len": 7035,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/link-context.tsx",
+      "raw_len": 3482,
+      "installed_len": 2912,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/payload-messages.ts",
+      "raw_len": 7911,
+      "installed_len": 6974,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/prompts/diff.ts",
+      "raw_len": 5950,
+      "installed_len": 4684,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/prompts/infer.ts",
+      "raw_len": 12589,
+      "installed_len": 11688,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/range.ts",
+      "raw_len": 5603,
+      "installed_len": 4710,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/alerts.ts",
+      "raw_len": 5487,
+      "installed_len": 4580,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/instrumentation.ts",
+      "raw_len": 22575,
+      "installed_len": 21650,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/scan.ts",
+      "raw_len": 7948,
+      "installed_len": 7045,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/v1.ts",
+      "raw_len": 12414,
+      "installed_len": 11515,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/trace-timeline.ts",
+      "raw_len": 3622,
+      "installed_len": 2565,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/types.ts",
+      "raw_len": 4400,
+      "installed_len": 3116,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/alert.tsx",
+      "raw_len": 4122,
+      "installed_len": 3061,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/avatar.tsx",
+      "raw_len": 5303,
+      "installed_len": 4240,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/badge.tsx",
+      "raw_len": 6738,
+      "installed_len": 5677,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/button-styles.ts",
+      "raw_len": 2219,
+      "installed_len": 1288,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/calendar.tsx",
+      "raw_len": 9802,
+      "installed_len": 8735,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/card.tsx",
+      "raw_len": 4691,
+      "installed_len": 3632,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/dropdown-menu.tsx",
+      "raw_len": 10767,
+      "installed_len": 9690,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/empty.tsx",
+      "raw_len": 4513,
+      "installed_len": 3452,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/hover-card.tsx",
+      "raw_len": 4180,
+      "installed_len": 3109,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/input-group.tsx",
+      "raw_len": 7292,
+      "installed_len": 6219,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/input.tsx",
+      "raw_len": 3254,
+      "installed_len": 2193,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/popover.tsx",
+      "raw_len": 4829,
+      "installed_len": 3764,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/select.tsx",
+      "raw_len": 10039,
+      "installed_len": 8976,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/skeleton.tsx",
+      "raw_len": 2449,
+      "installed_len": 1382,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/switch.tsx",
+      "raw_len": 4124,
+      "installed_len": 3061,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/table.tsx",
+      "raw_len": 10179,
+      "installed_len": 9118,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/textarea.tsx",
+      "raw_len": 3061,
+      "installed_len": 1994,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/tooltip.tsx",
+      "raw_len": 5302,
+      "installed_len": 4237,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/code-block.tsx",
+      "raw_len": 6142,
+      "installed_len": 5069,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/context-chip.tsx",
+      "raw_len": 6223,
+      "installed_len": 5146,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/data-table.tsx",
+      "raw_len": 33018,
+      "installed_len": 31945,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/eval-scores.tsx",
+      "raw_len": 10339,
+      "installed_len": 9264,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/header-slot.tsx",
+      "raw_len": 4906,
+      "installed_len": 3977,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/heat-cell.tsx",
+      "raw_len": 5396,
+      "installed_len": 4325,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/agent-icon.tsx",
+      "raw_len": 4675,
+      "installed_len": 3602,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/copy-button.tsx",
+      "raw_len": 3639,
+      "installed_len": 2564,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/copy-icon.tsx",
+      "raw_len": 4102,
+      "installed_len": 3031,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/customer-avatar.tsx",
+      "raw_len": 3914,
+      "installed_len": 2831,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/node-flow.tsx",
+      "raw_len": 7085,
+      "installed_len": 6014,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/preset-meta.ts",
+      "raw_len": 8385,
+      "installed_len": 7456,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/relative-time.tsx",
+      "raw_len": 3032,
+      "installed_len": 1953,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/span-type.tsx",
+      "raw_len": 6428,
+      "installed_len": 5357,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/tool-icon.tsx",
+      "raw_len": 3087,
+      "installed_len": 2016,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/markdown.tsx",
+      "raw_len": 4716,
+      "installed_len": 3647,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/nav.ts",
+      "raw_len": 6076,
+      "installed_len": 5019,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/page-parts.tsx",
+      "raw_len": 29067,
+      "installed_len": 27994,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/payload-view.tsx",
+      "raw_len": 17488,
+      "installed_len": 16411,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/prompt-prose.tsx",
+      "raw_len": 12790,
+      "installed_len": 11713,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/prompt-versions-card.tsx",
+      "raw_len": 17158,
+      "installed_len": 16065,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/range-context.tsx",
+      "raw_len": 4055,
+      "installed_len": 2976,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/range-picker.tsx",
+      "raw_len": 10252,
+      "installed_len": 9175,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/run-exchange.tsx",
+      "raw_len": 21981,
+      "installed_len": 20904,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/trace-timeline.tsx",
+      "raw_len": 44542,
+      "installed_len": 43461,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/trend-charts.tsx",
+      "raw_len": 14543,
+      "installed_len": 13466,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/brand.tsx",
+      "raw_len": 4711,
+      "installed_len": 3646,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/changes-card.tsx",
+      "raw_len": 5786,
+      "installed_len": 4707,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/favicon-context.tsx",
+      "raw_len": 1829,
+      "installed_len": 1259,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/flow-map.tsx",
+      "raw_len": 44403,
+      "installed_len": 43332,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/kinds.tsx",
+      "raw_len": 5670,
+      "installed_len": 4605,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/left-rail.tsx",
+      "raw_len": 6051,
+      "installed_len": 4978,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/powered-by.tsx",
+      "raw_len": 2917,
+      "installed_len": 1842,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/scan-board.tsx",
+      "raw_len": 3921,
+      "installed_len": 2846,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/scan/share-bar.tsx",
+      "raw_len": 6273,
+      "installed_len": 5200,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/icons/brand-mark.tsx",
+      "raw_len": 2293,
+      "installed_len": 1354,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/diff.ts",
+      "raw_len": 3451,
+      "installed_len": 2390,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/favicon.ts",
+      "raw_len": 2542,
+      "installed_len": 1621,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/fold-graph.ts",
+      "raw_len": 3894,
+      "installed_len": 2821,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/lib/scan/layout.ts",
+      "raw_len": 23493,
+      "installed_len": 22428,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/widgets/leaf/favicon.ts",
+      "raw_len": 2184,
+      "installed_len": 1287,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/setup/decision-list.tsx",
+      "raw_len": 23807,
+      "installed_len": 22724,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/setup/setup-board.tsx",
+      "raw_len": 11200,
+      "installed_len": 10121,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/setup/setup-summary.tsx",
+      "raw_len": 10894,
+      "installed_len": 9811,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/blocks/setup/verification-report.tsx",
+      "raw_len": 9832,
+      "installed_len": 8737,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/ui/spinner.tsx",
+      "raw_len": 2452,
+      "installed_len": 1387,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/styles/effects.css",
+      "raw_len": 6769,
+      "installed_len": 5509,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/styles/globals.css",
+      "raw_len": 15335,
+      "installed_len": 14424,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    },
+    {
+      "path": "src/components/framerock/styles/font-setup.css",
+      "raw_len": 1017129,
+      "installed_len": 1002631,
+      "same_spdx": true,
+      "same_packaging_notice": true
+    }
+  ],
+  "registry_packaging_notice_expected": [
+    "src/components/framerock/lib/utils.ts",
+    "src/components/framerock/blocks/marketing/demo/demo-context.tsx",
+    "src/components/framerock/blocks/marketing/demo/entrance.ts",
+    "src/components/framerock/charts/evilcharts/ui/background.tsx",
+    "src/components/framerock/charts/evilcharts/ui/zoom.tsx",
+    "src/components/framerock/hooks/use-copied.ts",
+    "src/components/framerock/icons/brand-logos.tsx",
+    "src/components/framerock/lib/format.ts",
+    "src/components/framerock/lib/payload-messages.ts",
+    "src/components/framerock/lib/prompts/diff.ts",
+    "src/components/framerock/lib/prompts/infer.ts",
+    "src/components/framerock/lib/range.ts",
+    "src/components/framerock/lib/scan/alerts.ts",
+    "src/components/framerock/lib/scan/instrumentation.ts",
+    "src/components/framerock/lib/scan/scan.ts",
+    "src/components/framerock/lib/scan/v1.ts",
+    "src/components/framerock/ui/button-styles.ts",
+    "src/components/framerock/widgets/header-slot.tsx",
+    "src/components/framerock/widgets/leaf/preset-meta.ts",
+    "src/components/framerock/icons/brand-mark.tsx",
+    "src/components/framerock/lib/scan/favicon.ts",
+    "src/components/framerock/widgets/leaf/favicon.ts",
+    "src/components/framerock/styles/globals.css"
+  ],
+  "registry_packaging_notice_missing_after_cli": []
+}

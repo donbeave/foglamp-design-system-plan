@@ -1,0 +1,10 @@
+@import "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/index.css";
+@import "./source-fonts.css";
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/src/stories";
+/* Source framework adapter: Vite outside upstream root needs explicit scan paths. */
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src";
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/packages/ui/src";
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/packages/sdk/src/hud/react";
+/* Same pinned upstream Streamdown 2.5.0 dist, installed in the extracted workspace. */
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/node_modules/streamdown/dist/*.js";
+@source "./all-logos.story.tsx";

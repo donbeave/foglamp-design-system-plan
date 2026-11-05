@@ -1,0 +1,58 @@
+[
+  {
+    "x": 438.1336290951638,
+    "y": 527.5451443057723,
+    "label": "Explore A request: The front door",
+    "hash": "#request",
+    "scroll": 313
+  },
+  {
+    "x": 685.1835998439938,
+    "y": 371.4696762870515,
+    "label": "Explore Traces: The order lookup",
+    "hash": "#traces",
+    "scroll": 1003
+  },
+  {
+    "x": 526.6987129485179,
+    "y": 377.6847698907957,
+    "label": "Explore Agents: The agent’s desk",
+    "hash": "#agents",
+    "scroll": 1718
+  },
+  {
+    "x": 591.9571957878316,
+    "y": 324.85647425897037,
+    "label": "Explore Workflows: The connecting paths",
+    "hash": "#workflows",
+    "scroll": 2502
+  },
+  {
+    "x": 442.7949492979719,
+    "y": 442.94325273010924,
+    "label": "Explore Sessions: The message trail",
+    "hash": "#sessions",
+    "scroll": 3204
+  },
+  {
+    "x": 461.4402301092044,
+    "y": 282.35081903276136,
+    "label": "Explore Costs: The counting room",
+    "hash": "#costs",
+    "scroll": 3938
+  },
+  {
+    "x": 629.2477574102963,
+    "y": 278.24327223088926,
+    "label": "Explore Evals: The inspection bench",
+    "hash": "#evals",
+    "scroll": 4658
+  },
+  {
+    "x": 727.1354816692667,
+    "y": 219.19988299531983,
+    "label": "Explore Alerts: The watchtower",
+    "hash": "#alerts",
+    "scroll": 5429
+  }
+]

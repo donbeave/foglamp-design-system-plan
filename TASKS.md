@@ -123,8 +123,22 @@
 
 ## Wave 6 extension — superseding earlier instructions
 
-The complete, controlling Wave 6 task contract and exact attribution/header templates are in [GOAL-WAVE-6-FRAMEROCK.md](GOAL-WAVE-6-FRAMEROCK.md). Preserve Waves 0–5 and finish and commit all Wave 5 fixes and W5-5.2 before beginning W6-6A. Wave 5 no longer completes the extended goal. Execute W6-6A → W6-6B → W6-6C → W6-6D → W6-GATE in order; each task has exclusive ownership during its sequential turn, as recorded in task-index.json. The earlier two-task reservation for foglamp_sol_high is superseded solely to authorize W6-GATE as a third task.
+The complete, controlling Wave 6 task contract and exact attribution/header templates are in [GOAL-WAVE-6-FRAMEROCK.md](GOAL-WAVE-6-FRAMEROCK.md). Preserve Waves 0–5 and finish and commit all Wave 5 fixes and W5-5.2 before beginning W6-6A. Wave 5 no longer completes the extended goal. Execute W6-6A → W6-6B → W6-6C → W6-6D → W6-GATE in order; each task has exclusive ownership during its sequential turn, as recorded in task-index.json. The existing foglamp_sol_high final whole-portal sign-off role continues through W6-GATE; this does not authorize unrelated Apex work.
 
 Framerock (`@tailrocks/framerock`) is Tailrocks’ Web UI sibling to Termrock. Supersede earlier package/portal branding, registry publisher/homepage, and OriginalAuthorsBlock/photo requirements as specified in the contract. Preserve all other extracted visual and behavioral work, including all 18 shadows, corner-squircle and corner-bevel, DRAWER_BUTTON_CLASS, Hero 3-beat choreography, TraceTimeline, FlowMap and HUD physics. Maintain prominent truthful credit and Apache-2.0 compliance. Founder photo/file checks apply to project files and generated assets; the ignored, read-only `.reference/foglamp` upstream checkout remains intact. Tailrocks package metadata does not authorize moving or renaming the existing implementation GitHub remote.
 
 W6-GATE verifies provenance against pinned upstream bodies, registry payload notices, public attribution, anti-impersonation and the full build/test suite. The coordinator records accepted task states, commits and pushes both repositories, verifies implementation HEAD equals origin/main and the working tree is clean, then alone emits `<!-- GOAL_COMPLETE -->`.
+
+
+### Wave 6 execution checks
+
+- W6-6A migrates internal link callers to canonical Framerock names while deprecated Foglamp aliases share the same provider/context and exported function identities.
+- W6-6B removes generated registry remnants as well as source/story/navigation references; the read-only upstream checkout is excluded from project-identity scans.
+- W6-6C uses a rerunnable pinned-source classifier. Only the leading attribution header and client directive are excluded for copied-body comparison; interior content is compared byte for byte. Original Tailrocks files must not receive invented upstream paths. Preserve third-party notices supplied with redistributed assets.
+- W6-6D resynchronizes the package NOTICE after updating root NOTICE. Public provenance links must resolve to actual files at the pinned commit, and docs must distinguish original Tailrocks work honestly.
+- The final gate checks npm pack contents for LICENSE and NOTICE, stale founder assets/generated payloads, backward-compatible link aliases, and the complete required build/test commands. It records exact source and remote commit identities.
+
+
+### Honest provenance for new compositions
+
+For `tailrocks-original` files, keep upstream-file fields absent/null rather than inventing an extracted source. A new composition such as FigureKit22 must display “Newly Added by Tailrocks” and explicitly identify pinned upstream files as design inspiration, with separate inspiration metadata. Copied/modified files display their actual extracted upstream file. The verifier must validate the distinction and the pinned paths.

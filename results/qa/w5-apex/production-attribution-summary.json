@@ -1,0 +1,80 @@
+[
+  {
+    "route": "/",
+    "h1": [
+      "Know what your agents are doing",
+      "Traces",
+      "Helping builders see what their AI is doing."
+    ],
+    "homepage_gustavo_site": true,
+    "github_creator": true,
+    "x_creator": true,
+    "source_repo": true,
+    "abdul": true,
+    "foglamp_site": true,
+    "credits_nav_label": [
+      "Credits & Original Creator"
+    ],
+    "footers": 1,
+    "sourceBody": true,
+    "bodyClass": "not-fumadocs-codeblock"
+  },
+  {
+    "route": "/docs",
+    "h1": [
+      "Foglamp Design System"
+    ],
+    "homepage_gustavo_site": true,
+    "github_creator": true,
+    "x_creator": true,
+    "source_repo": true,
+    "abdul": true,
+    "foglamp_site": true,
+    "credits_nav_label": [
+      "Credits & Original Creator",
+      "Credits & Original CreatorThe people and project behind the Foglamp Design System.",
+      "credits"
+    ],
+    "footers": 0,
+    "sourceBody": false,
+    "bodyClass": ""
+  },
+  {
+    "route": "/docs/credits",
+    "h1": [
+      "Credits & Original Creator",
+      "Helping builders see what their AI is doing."
+    ],
+    "homepage_gustavo_site": true,
+    "github_creator": true,
+    "x_creator": true,
+    "source_repo": true,
+    "abdul": true,
+    "foglamp_site": true,
+    "credits_nav_label": [
+      "Credits & Original Creator"
+    ],
+    "footers": 0,
+    "sourceBody": false,
+    "bodyClass": ""
+  },
+  {
+    "route": "/docs/primitives/button",
+    "h1": [
+      "Button",
+      "ButtonCopy Anchor Link"
+    ],
+    "homepage_gustavo_site": true,
+    "github_creator": true,
+    "x_creator": true,
+    "source_repo": true,
+    "abdul": true,
+    "foglamp_site": true,
+    "credits_nav_label": [
+      "Credits & Original Creator"
+    ],
+    "footers": 1,
+    "sourceBody": false,
+    "bodyClass": ""
+  }
+]

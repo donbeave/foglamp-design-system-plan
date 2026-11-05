@@ -1,0 +1,13 @@
+{
+  "tarball": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w6-final-static/pack-postcommit/tailrocks-framerock-0.1.0.tgz",
+  "name": "@tailrocks/framerock",
+  "version": "0.1.0",
+  "filename": "tailrocks-framerock-0.1.0.tgz",
+  "size": 1820608,
+  "unpackedSize": 3635060,
+  "entryCount": 274,
+  "root_notice_byte_matches": true,
+  "identity_license_author_contributors_and_type_fest_valid": true,
+  "no_founder_asset_env_node_modules_or_tmp": true,
+  "errors": []
+}

@@ -1,0 +1,12 @@
+light widgets/dev-bar true true
+light widgets/project-provider true true
+light widgets/user-menu true true
+light widgets/foglamp-hud true true
+light blocks/original-authors-block true [object Object]
+light blocks/setup-board-block true true
+dark widgets/dev-bar true true
+dark widgets/project-provider true true
+dark widgets/user-menu true true
+dark widgets/foglamp-hud true true
+dark blocks/original-authors-block true true
+dark blocks/setup-board-block true true

@@ -1,0 +1,2 @@
+$ bun packages/registry/scripts/build-registry.ts
+Built 288 shadcn registry items and 288 story catalog entries with full source/import closure.

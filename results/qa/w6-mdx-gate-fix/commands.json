@@ -1,0 +1,65 @@
+{
+  "working_directory": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "commands": [
+    {
+      "command": "python3 scripts/provenance/verify.py",
+      "exit_code": 0,
+      "log": "positive.log",
+      "result": "167 pages; 0 issues"
+    },
+    {
+      "command": "python3 scripts/provenance/verify.py --fixture-mdx-comment",
+      "exit_code": 1,
+      "log": "comment.log",
+      "result": "expected rejection; 167 pages; 1 issue"
+    },
+    {
+      "command": "python3 scripts/provenance/verify.py --fixture-mdx-fence",
+      "exit_code": 1,
+      "log": "fence.log",
+      "result": "expected rejection; 167 pages; 1 issue"
+    },
+    {
+      "command": "node scripts/provenance/verify-mdx-fixtures.mjs",
+      "exit_code": 0,
+      "log": "fixtures.log",
+      "result": "8 cases passed"
+    },
+    {
+      "command": "python3 scripts/provenance/test-fixtures.py",
+      "exit_code": 0,
+      "log": "all-fixtures.log",
+      "result": "existing and MDX fixtures passed"
+    },
+    {
+      "command": "python3 scripts/provenance/verify.py",
+      "exit_code": 0,
+      "log": "public-positive.log",
+      "result": "six surfaces and 167 pages pass"
+    },
+    {
+      "command": "python3 scripts/provenance/verify.py --fixture-public-comment",
+      "exit_code": 1,
+      "log": "public-comment.log",
+      "result": "expected rejection"
+    },
+    {
+      "command": "python3 scripts/provenance/verify.py --fixture-public-fence",
+      "exit_code": 1,
+      "log": "public-fence.log",
+      "result": "expected rejection"
+    },
+    {
+      "command": "node scripts/provenance/verify-public-fixtures.mjs",
+      "exit_code": 0,
+      "log": "public-fixtures.log",
+      "result": "25 cases pass"
+    },
+    {
+      "command": "python3 scripts/provenance/test-fixtures.py",
+      "exit_code": 0,
+      "log": "all-fixtures.log",
+      "result": "all fixtures pass"
+    }
+  ]
+}

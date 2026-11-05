@@ -1,0 +1,11 @@
+--- .reference/foglamp/apps/web/src/components/setup/setup-board.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/setup/setup-board.tsx	2026-11-05 19:02:55
+@@ -5,7 +5,7 @@
+     return entries.length ? Object.fromEntries(entries) : undefined;
+ }
+ const MAP_PADDING = { left: 452, right: 48 };
+-export function SetupBoard({ plan, approved, applied, status, firstTraceId, approvedAt, agentResumedAt, spanCount, secondsToFirstTrace, failureStage, onApprove, onReject, approving, }) {
++export function SetupBoardBlock({ plan, approved, applied, status, firstTraceId, approvedAt, agentResumedAt, spanCount, secondsToFirstTrace, failureStage, onApprove, onReject, approving, }) {
+     const [focus, setFocusState] = useState(null);
+     const focusTimer = useRef(null);
+     const setFocus = useCallback((focus) => {

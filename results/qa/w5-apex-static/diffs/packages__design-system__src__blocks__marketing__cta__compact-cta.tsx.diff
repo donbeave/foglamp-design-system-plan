@@ -1,0 +1,19 @@
+--- .reference/foglamp/apps/web/src/components/marketing/landing/compact-cta.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/cta/compact-cta.tsx	2026-11-05 19:02:54
+@@ -1,4 +1,4 @@
+-export function CompactCtaSection() {
++export function CompactCtaSection({ prompt, startFreeHref = "/login", onPromptCopied, } = {}) {
+     return (<section className="mx-auto mb-24 w-full max-w-7xl px-5 sm:mb-52 sm:px-8">
+       <div className="flex flex-col items-center gap-12 py-14 text-center sm:py-20 sm:pt-0">
+         <h2 className="font-display text-5xl font-[450] tracking-tight text-balance sm:text-6xl">
+@@ -7,8 +7,8 @@
+         </h2>
+         
+         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+-          <CopyPromptButton className="text-base h-11 px-5"/>
+-          <Button render={<Link href="/login"/>} size="lg" className="text-base h-11 px-5" variant="secondary">
++          <CopyPromptButton className="text-base h-11 px-5" prompt={prompt} onCopied={onPromptCopied}/>
++          <Button render={<FoglampLink href={startFreeHref}/>} size="lg" className="text-base h-11 px-5" variant="secondary">
+             Start free
+           </Button>
+         </div>

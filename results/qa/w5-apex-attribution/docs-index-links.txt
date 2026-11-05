@@ -1,0 +1,7 @@
+- link "Gustavo Fior (@gustavo-fior)" [ref=e23, url=https://github.com/gustavo-fior]
+- link "Abdul Haidar" [ref=e24, url=https://www.linkedin.com/in/abdulhdr/]
+- link "Foglamp Labs" [ref=e25, url=https://foglamp.dev/]
+- link "Foglamp" [ref=e19, url=https://github.com/foglamp-labs/foglamp]
+- link "gustavofior.com" [ref=e20, url=https://gustavofior.com/]
+- link "@heyimgustavo" [ref=e21, url=https://x.com/heyimgustavo]
+- link "LinkedIn" [ref=e22, url=https://www.linkedin.com/in/gustavofior]

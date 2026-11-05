@@ -1,0 +1,172 @@
+[
+  {
+    "id": "widgets/hud-inline-preview",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/foglamp-hud",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "blocks/onboarding-panel-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      33,
+      33
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "blocks/setup-board-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      1036,
+      481,
+      1051,
+      497
+    ],
+    "differing_pixels": 188,
+    "mean_abs_channel_error": 0.012217592592592592,
+    "pixel_total": 1152000,
+    "element_counts": [
+      126,
+      117
+    ],
+    "computed_differing_elements": 6,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/hero-3d-demo-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      535,
+      535
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/hud-inline-preview",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "widgets/foglamp-hud",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "blocks/onboarding-panel-block",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      33,
+      33
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "blocks/setup-board-block",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      1035,
+      480,
+      1050,
+      496
+    ],
+    "differing_pixels": 186,
+    "mean_abs_channel_error": 0.012289351851851852,
+    "pixel_total": 1152000,
+    "element_counts": [
+      126,
+      117
+    ],
+    "computed_differing_elements": 6,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/hero-3d-demo-block",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      535,
+      535
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  }
+]

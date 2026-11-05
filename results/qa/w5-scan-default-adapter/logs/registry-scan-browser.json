@@ -1,0 +1,27 @@
+{
+  "activeErrorOverlay": false,
+  "apiRequests": [],
+  "body": "Powered by\nFoglamp\nModels\nGPT-4o\nClaude Sonnet\nTools\nSearch\nDatabase\nIntegrations\nSlack\nCopy link\nIncoming webhook\nSupport agent\nGPT-4o\nConversation store\nSlack\nTRIGGERS\nAGENTS\nSTORES\nEXTERNAL",
+  "failedSameOriginRequests": [],
+  "images": [
+    {
+      "complete": true,
+      "naturalHeight": 32,
+      "naturalWidth": 32,
+      "src": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://exa.ai&size=256"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 34,
+      "naturalWidth": 35,
+      "src": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://slack.com&size=256"
+    },
+    {
+      "complete": true,
+      "naturalHeight": 34,
+      "naturalWidth": 35,
+      "src": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://slack.com&size=256"
+    }
+  ],
+  "url": "http://127.0.0.1:4195/"
+}

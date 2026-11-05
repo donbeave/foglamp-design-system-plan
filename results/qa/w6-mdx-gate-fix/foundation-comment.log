@@ -1,0 +1,8 @@
+Verified 266 headers; body hashes unchanged
+ERROR /Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/content/docs/foundations/architecture.mdx: missing visible credit Gustavo Fior
+ERROR /Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/content/docs/foundations/architecture.mdx: missing visible credit foglamp.dev
+ERROR /Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/content/docs/foundations/architecture.mdx: missing visible credit foglamp-labs/foglamp
+MDX provenance: 175 page(s), 3 issue(s)
+Public attribution: 6 surface(s), 0 issue(s)
+ERROR active MDX provenance validation failed
+Provenance gates: 1 issue(s)

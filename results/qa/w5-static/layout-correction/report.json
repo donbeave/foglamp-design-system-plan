@@ -1,0 +1,50 @@
+{
+  "task": "W5-5.1A-layout-correction-build",
+  "state": "REVIEW",
+  "target_head_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "commands": [
+    {"command": "mise exec bun@latest -- bun run check-types", "exit_code": 0},
+    {"command": "mise exec bun@latest -- bun test", "exit_code": 0, "tests_pass": 58, "tests_fail": 0},
+    {"command": "mise exec bun@latest -- bun run check:portal", "exit_code": 0, "stories": 168, "registry_items": 289, "browser_import_guard": "passed"},
+    {"command": "mise exec bun@latest -- bun run build:registry", "exit_code": 0, "registry_items_built": 289, "story_catalog_entries": 289},
+    {"command": "mise exec bun@latest -- bun run build", "exit_code": 0}
+  ],
+  "diff_state": {
+    "changed_paths": [
+      "apps/docs/src/components/story-panel.tsx",
+      "apps/docs/src/routes/__root.tsx",
+      "apps/docs/src/stories/blocks/scan-landing-block.story.tsx",
+      "apps/docs/src/stories/blocks/setup-board-block.story.tsx",
+      "apps/docs/src/stories/charts/evil-brush.story.tsx",
+      "apps/docs/src/stories/primitives/context-menu.story.tsx",
+      "apps/docs/src/stories/widgets/data-table.story.tsx",
+      "apps/docs/src/stories/widgets/eval-scores.story.tsx",
+      "apps/docs/src/stories/widgets/filter-select.story.tsx",
+      "apps/docs/src/stories/widgets/foglamp-hud.story.tsx",
+      "apps/docs/src/stories/widgets/payload-view.story.tsx",
+      "apps/docs/src/stories/widgets/prompt-prose.story.tsx",
+      "apps/docs/src/stories/widgets/run-exchange.story.tsx",
+      "apps/docs/src/stories/widgets/toolbar.story.tsx",
+      "apps/docs/src/stories/widgets/trace-timeline.story.tsx",
+      "scripts/verify-portal.ts"
+    ],
+    "registry_generated_diff": "empty",
+    "design_system_source_modified": false
+  },
+  "build_observations": {
+    "node_crypto_externalization": false,
+    "fumadocs_mdX_node_fs_promises_externalization_notice": true,
+    "css_optimizer_warnings": 2,
+    "build_tasks_successful": 1
+  },
+  "unresolved_limits": [
+    "Static/build checks do not prove visual parity or complete interaction coverage; the requested browser matrix remains required."
+  ],
+  "artifacts": [
+    "results/qa/w5-static/layout-correction/check-types.log",
+    "results/qa/w5-static/layout-correction/bun-test.log",
+    "results/qa/w5-static/layout-correction/check-portal.log",
+    "results/qa/w5-static/layout-correction/build-registry.log",
+    "results/qa/w5-static/layout-correction/build.log"
+  ]
+}

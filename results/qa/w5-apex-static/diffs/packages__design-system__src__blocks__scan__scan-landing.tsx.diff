@@ -1,0 +1,31 @@
+--- .reference/foglamp/apps/web/src/app/scan/scan-landing.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/scan/scan-landing.tsx	2026-11-05 19:02:55
+@@ -178,7 +178,7 @@
+         { from: "notify", to: "resend", kind: "calls" },
+     ],
+ };
+-export function ScanLanding() {
++export function ScanLanding({ prompt, onCopy, tryFoglampHref = "/homepage" } = {}) {
+     const reduce = useReducedMotion() ?? false;
+     const rise = (delay) => reduce
+         ? {}
+@@ -218,7 +218,7 @@
+ 
+ 			
+ 			<div className="absolute top-8 right-8 z-10 sm:top-10 sm:right-10">
+-				<Button variant="outline" render={<Link href="/homepage"/>} className="px-3.5 has-[>svg:first-child]:pl-3 gap-2">
++				<Button variant="outline" render={<Link href={tryFoglampHref}/>} className="px-3.5 has-[>svg:first-child]:pl-3 gap-2">
+ 					<BrandMark className="h-3! w-auto!"/>
+ 					Try Foglamp
+ 				</Button>
+@@ -234,8 +234,9 @@
+ 					install, no account.
+ 				</motion.p>
+ 				<motion.div {...rise(0.39)} className="mt-7 flex flex-wrap items-center gap-3">
+-					<CopyScanPromptButton />
++					<CopyScanPromptButton prompt={prompt} onCopy={onCopy}/>
+ 				</motion.div>
+ 			</div>
+ 		</div>);
+ }
++export { ScanLanding as ScanLandingBlock };

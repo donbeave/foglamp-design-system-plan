@@ -1,0 +1,40 @@
+Resolving dependencies
+Resolved, downloaded and extracted [198]
+Saved lockfile
+- Checking registry.
+✔ Checking registry.
+- Installing dependencies.
+- Installing dependencies.
+✔ Installing dependencies.
+- Updating files.
+✔ Created 30 files:
+  - src/components/foglamp/blocks/scan/brand.tsx
+  - src/components/foglamp/blocks/scan/changes-card.tsx
+  - src/components/foglamp/blocks/scan/favicon-context.tsx
+  - src/components/foglamp/blocks/scan/flow-map.tsx
+  - src/components/foglamp/blocks/scan/kinds.tsx
+  - src/components/foglamp/blocks/scan/left-rail.tsx
+  - src/components/foglamp/blocks/scan/powered-by.tsx
+  - src/components/foglamp/blocks/scan/scan-board.tsx
+  - src/components/foglamp/blocks/scan/share-bar.tsx
+  - src/components/foglamp/icons/brand-logos.tsx
+  - src/components/foglamp/icons/brand-mark.tsx
+  - src/components/foglamp/lib/link-context.tsx
+  - src/components/foglamp/lib/scan/diff.ts
+  - src/components/foglamp/lib/scan/favicon.ts
+  - src/components/foglamp/lib/scan/fold-graph.ts
+  - src/components/foglamp/lib/scan/layout.ts
+  - src/components/foglamp/lib/scan/scan.ts
+  - src/components/foglamp/lib/utils.ts
+  - src/components/foglamp/ui/button.tsx
+  - src/components/foglamp/ui/card.tsx
+  - src/components/foglamp/widgets/leaf/favicon.ts
+  - src/components/foglamp/blocks/setup/decision-list.tsx
+  - src/components/foglamp/blocks/setup/setup-board.tsx
+  - src/components/foglamp/blocks/setup/setup-summary.tsx
+  - src/components/foglamp/blocks/setup/verification-report.tsx
+  - src/components/foglamp/lib/scan/instrumentation.ts
+  - src/components/foglamp/ui/input.tsx
+  - src/components/foglamp/ui/spinner.tsx
+  - src/components/foglamp/ui/switch.tsx
+  - src/components/foglamp/ui/textarea.tsx

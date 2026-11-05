@@ -1,0 +1,3 @@
+node_modules/@tabler/icons-react/dist/tabler-icons-react.d.ts(2,10): error TS2305: Module '"react"' has no exported member 'ReactSVG'.
+node_modules/mermaid/dist/diagram-api/types.d.ts(2,47): error TS2307: Cannot find module 'type-fest' or its corresponding type declarations.
+src/components/framerock/lib/scan/layout.ts(34,4): error TS2578: Unused '@ts-expect-error' directive.

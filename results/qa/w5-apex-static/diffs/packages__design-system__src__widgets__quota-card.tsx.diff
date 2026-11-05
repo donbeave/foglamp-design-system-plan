@@ -1,0 +1,29 @@
+--- .reference/foglamp/apps/web/src/components/app/quota-card.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/quota-card.tsx	2026-11-05 19:02:56
+@@ -1,13 +1,6 @@
+ "use client";
+-export function QuotaCard() {
+-    const { project } = useProject();
+-    const orgId = project?.orgId;
+-    const usage = useQuery({
+-        ...trpc.orgs.usage.queryOptions({ orgId: orgId }),
+-        enabled: !!orgId,
+-        refetchInterval: 60_000,
+-    });
+-    const pct = usage.data?.spans.pct;
++export function QuotaCardView({ usage = null, billingHref = "/settings/org?tab=billing", }) {
++    const pct = usage?.spans.pct;
+     if (pct == null || pct < 0.9)
+         return null;
+     const over = pct >= 1;
+@@ -29,8 +22,9 @@
+       {!over && (<span className="text-muted-foreground">
+           Resets at the start of next month.
+         </span>)}
+-      <Button variant="ghost-destructive" size="sm" className="mt-1 w-full" render={<Link href="/settings/org?tab=billing"/>}>
++      <Button variant="ghost-destructive" size="sm" className="mt-1 w-full" render={<FoglampLink href={billingHref}/>}>
+         {over ? "Upgrade now" : "Review billing"}
+       </Button>
+     </div>);
+ }
++export const QuotaCard = QuotaCardView;

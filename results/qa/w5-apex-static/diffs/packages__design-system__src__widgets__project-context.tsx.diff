@@ -1,0 +1,76 @@
+--- .reference/foglamp/apps/web/src/components/app/project-context.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/project-context.tsx	2026-11-05 19:02:56
+@@ -1,57 +1,24 @@
+ "use client";
++const MOCK_PROJECTS = [
++    {
++        id: "project_demo",
++        name: "Acme Production",
++        slug: "acme-production",
++        url: null,
++        orgId: "org_demo",
++        orgName: "Acme",
++        orgSlug: "acme",
++    },
++];
+ const ProjectContext = createContext(null);
+-export const PROJECT_STORAGE_KEY = "foglamp.projectId";
+-const STORAGE_KEY = PROJECT_STORAGE_KEY;
+-const PROJECT_SCOPED_SECTIONS = new Set([
+-    "traces",
+-    "sessions",
+-    "agents",
+-    "workflows",
+-    "evals",
+-    "alerts",
+-    "settings",
+-]);
+-const ORG_SCOPED_PATHS = new Set(["/settings/org"]);
+-export function ProjectProvider({ children }) {
+-    const pathname = usePathname();
+-    const router = useRouter();
+-    const { data, isLoading } = useQuery(trpc.projects.list.queryOptions());
+-    const projects = (data ?? []);
+-    const [selected, setSelected] = useState(null);
+-    useEffect(() => {
+-        if (projects.length === 0)
+-            return;
+-        if (selected && projects.some((p) => p.id === selected))
+-            return;
+-        const linked = typeof window !== "undefined"
+-            ? new URLSearchParams(window.location.search).get("project")
+-            : null;
+-        const stored = typeof window !== "undefined" ? localStorage.getItem(STORAGE_KEY) : null;
+-        const next = linked && projects.some((p) => p.id === linked)
+-            ? linked
+-            : stored && projects.some((p) => p.id === stored)
+-                ? stored
+-                : projects[0].id;
+-        setSelected(next);
+-        if (typeof window !== "undefined")
+-            localStorage.setItem(STORAGE_KEY, next);
+-    }, [projects, selected]);
++export function ProjectProvider({ children, projects = MOCK_PROJECTS, initialProjectId, isLoading = false, onProjectChange, }) {
++    const [selected, setSelected] = useState(initialProjectId ?? projects[0]?.id ?? null);
+     const setProjectId = useCallback((id) => {
+-        if (id === selected)
+-            return;
+         setSelected(id);
+-        if (typeof window !== "undefined")
+-            localStorage.setItem(STORAGE_KEY, id);
+-        const [section, ...rest] = pathname.split("/").filter(Boolean);
+-        if (section &&
+-            rest.length > 0 &&
+-            PROJECT_SCOPED_SECTIONS.has(section) &&
+-            !ORG_SCOPED_PATHS.has(pathname)) {
+-            router.push(`/${section}`);
+-        }
+-    }, [selected, pathname, router]);
++        onProjectChange?.(id);
++    }, [onProjectChange]);
+     const value = useMemo(() => {
+-        const project = projects.find((p) => p.id === selected) ?? null;
++        const project = projects.find((item) => item.id === selected) ?? null;
+         return {
+             projects,
+             project,

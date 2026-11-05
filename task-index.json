@@ -610,7 +610,8 @@
         "apps/docs/src/",
         "apps/docs/content/docs/",
         "scripts/verify-portal.ts",
-        "packages/registry/registry.json"
+        "packages/registry/registry.json",
+        "packages/registry/scripts/build-registry.ts"
       ],
       "contract": "GOAL-WAVE-6-FRAMEROCK.md"
     },
@@ -630,7 +631,10 @@
         "apps/docs/public/r/",
         "scripts/verify-portal.ts",
         "scripts/provenance/",
-        "package.json"
+        "package.json",
+        "THIRD-PARTY-NOTICES.md",
+        "packages/design-system/THIRD-PARTY-NOTICES.md",
+        "packages/design-system/package.json"
       ],
       "contract": "GOAL-WAVE-6-FRAMEROCK.md"
     },
@@ -651,7 +655,10 @@
         "apps/docs/src/routes/index.tsx",
         "apps/docs/src/components/story-panel.tsx",
         "apps/docs/content/docs/",
-        "packages/design-system/NOTICE"
+        "packages/design-system/NOTICE",
+        "apps/docs/src/components/provenance*",
+        "apps/docs/src/lib/provenance*",
+        "scripts/docs-provenance/"
       ],
       "contract": "GOAL-WAVE-6-FRAMEROCK.md"
     },

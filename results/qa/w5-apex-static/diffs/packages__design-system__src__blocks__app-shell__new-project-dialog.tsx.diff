@@ -1,0 +1,81 @@
+--- .reference/foglamp/apps/web/src/components/app/new-project-dialog.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/app-shell/new-project-dialog.tsx	2026-11-05 19:02:54
+@@ -1,51 +1,36 @@
+ "use client";
+-export function NewProjectDialog({ open, onOpenChange, }) {
++export function NewProjectDialog({ open, onOpenChange, onCreate }) {
+     const { project, setProjectId } = useProject();
+-    const qc = useQueryClient();
+     const [name, setName] = useState("");
+     const [url, setUrl] = useState("");
+-    const createProject = useMutation(trpc.projects.create.mutationOptions({
+-        onSuccess: async (data) => {
+-            await qc.invalidateQueries({ queryKey: trpc.projects.list.queryKey() });
+-            setProjectId(data.id);
++    const [pending, setPending] = useState(false);
++    async function create() {
++        if (!name.trim() || !project?.orgId || pending)
++            return;
++        setPending(true);
++        try {
++            const input = { orgId: project.orgId, name: name.trim(), url: url.trim() || undefined };
++            const created = { ...project, id: `project_${globalThis.crypto.randomUUID()}`, name: input.name, slug: input.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""), url: input.url ?? null };
++            const result = await onCreate(input, created);
++            setProjectId(result.id);
+             onOpenChange(false);
+             setName("");
+             setUrl("");
+             toast.success("Project created");
+-        },
+-        onError: (e) => toast.error(e.message),
+-    }));
+-    return (<Dialog open={open} onOpenChange={onOpenChange}>
+-			<DialogContent>
+-				<DialogHeader>
+-					<DialogTitle>New project</DialogTitle>
+-				</DialogHeader>
+-				<Field>
+-					<FieldLabel>Name</FieldLabel>
+-					<Input autoFocus placeholder="My project" value={name} onChange={(e) => setName(e.target.value)}/>
+-				</Field>
+-				<Field>
+-					<FieldLabel className="gap-1.5">
+-						URL
+-						<span className="text-muted-foreground font-normal">
+-							(optional)
+-						</span>
+-					</FieldLabel>
+-					<Input placeholder="example.com" value={url} onChange={(e) => setUrl(e.target.value)}/>
+-				</Field>
+-				<DialogFooter>
+-					<Button disabled={!name.trim() || !project?.orgId || createProject.isPending} onClick={() => {
+-            if (!name.trim() || !project?.orgId)
+-                return;
+-            createProject.mutate({
+-                orgId: project.orgId,
+-                name: name.trim(),
+-                url: url.trim() || undefined,
+-            });
+-        }}>
+-						Create
+-					</Button>
+-				</DialogFooter>
+-			</DialogContent>
+-		</Dialog>);
++        }
++        catch (error) {
++            toast.error(error instanceof Error ? error.message : "Unable to create project");
++        }
++        finally {
++            setPending(false);
++        }
++    }
++    return <Dialog open={open} onOpenChange={onOpenChange}>
++    <DialogContent>
++      <DialogHeader><DialogTitle>New project</DialogTitle></DialogHeader>
++      <Field><FieldLabel>Name</FieldLabel><Input autoFocus placeholder="My project" value={name} onChange={(e) => setName(e.target.value)}/></Field>
++      <Field><FieldLabel className="gap-1.5">URL<span className="text-muted-foreground font-normal">(optional)</span></FieldLabel><Input placeholder="example.com" value={url} onChange={(e) => setUrl(e.target.value)}/></Field>
++      <DialogFooter><Button disabled={!name.trim() || !project?.orgId || pending} onClick={create}>Create</Button></DialogFooter>
++    </DialogContent>
++  </Dialog>;
+ }

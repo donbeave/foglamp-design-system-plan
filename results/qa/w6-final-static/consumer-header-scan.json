@@ -1,0 +1,1324 @@
+{
+  "files_scanned": 119,
+  "files_missing_one_or_more_required_markers": 119,
+  "marker_failure_examples": [
+    {
+      "path": "ui/button-styles.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export const DRAWER_BUTTON_CLASS ="
+    },
+    {
+      "path": "hooks/use-copied.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "lib/payload-messages.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export type Part ="
+    },
+    {
+      "path": "lib/trace-timeline.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { TraceSpan } from \"./types\";"
+    },
+    {
+      "path": "lib/utils.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export { cn } from \"cn\";"
+    },
+    {
+      "path": "lib/types.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export interface TraceSpan {"
+    },
+    {
+      "path": "lib/format.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "const usdFormatters = new Map<string, Intl.NumberFormat>();"
+    },
+    {
+      "path": "lib/range.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/nav.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/leaf/preset-meta.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/leaf/favicon.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export const getGoogleFavicon = (domain: string) => {"
+    },
+    {
+      "path": "lib/scan/scan.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { z } from \"zod\";"
+    },
+    {
+      "path": "lib/scan/diff.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { GraphNode, ScanData } from \"./scan\";"
+    },
+    {
+      "path": "lib/scan/favicon.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export function faviconUrl(domain: string): string {"
+    },
+    {
+      "path": "lib/scan/layout.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { GraphEdge } from \"./scan\";"
+    },
+    {
+      "path": "lib/scan/fold-graph.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { GraphEdge, NodeKind, ScanData } from \"./scan\";"
+    },
+    {
+      "path": "lib/scan/v1.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { z } from \"zod\";"
+    },
+    {
+      "path": "lib/scan/instrumentation.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { z } from \"zod\";"
+    },
+    {
+      "path": "lib/scan/alerts.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export const ALERT_METRICS = ["
+    },
+    {
+      "path": "lib/prompts/infer.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { diffLines, sequenceSimilarity } from \"./diff\";"
+    },
+    {
+      "path": "lib/prompts/diff.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export type DiffOp = { type: \"same\" | \"add\" | \"del\"; line: string };"
+    },
+    {
+      "path": "blocks/marketing/demo/entrance.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { type MotionProps, type Variants, stagger } from \"motion/react\";"
+    },
+    {
+      "path": "blocks/marketing/demo/mock-data.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { SLOT_LINE } from \"../../../lib/prompts/infer\";"
+    },
+    {
+      "path": "blocks/marketing/cta/agent-prompt.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs"
+      ],
+      "first_line": "const DOCS_URL = \"https://docs.foglamp.dev/quickstart\";"
+    },
+    {
+      "path": "blocks/marketing/chrome/demo-link.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { DemoTab } from \"../demo/mock-data\";"
+    }
+  ],
+  "all_files_missing": [
+    {
+      "path": "ui/button-styles.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export const DRAWER_BUTTON_CLASS ="
+    },
+    {
+      "path": "hooks/use-copied.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "lib/payload-messages.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export type Part ="
+    },
+    {
+      "path": "lib/trace-timeline.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { TraceSpan } from \"./types\";"
+    },
+    {
+      "path": "lib/utils.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export { cn } from \"cn\";"
+    },
+    {
+      "path": "lib/types.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export interface TraceSpan {"
+    },
+    {
+      "path": "lib/format.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "const usdFormatters = new Map<string, Intl.NumberFormat>();"
+    },
+    {
+      "path": "lib/range.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/nav.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/leaf/preset-meta.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/leaf/favicon.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export const getGoogleFavicon = (domain: string) => {"
+    },
+    {
+      "path": "lib/scan/scan.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { z } from \"zod\";"
+    },
+    {
+      "path": "lib/scan/diff.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { GraphNode, ScanData } from \"./scan\";"
+    },
+    {
+      "path": "lib/scan/favicon.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export function faviconUrl(domain: string): string {"
+    },
+    {
+      "path": "lib/scan/layout.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { GraphEdge } from \"./scan\";"
+    },
+    {
+      "path": "lib/scan/fold-graph.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { GraphEdge, NodeKind, ScanData } from \"./scan\";"
+    },
+    {
+      "path": "lib/scan/v1.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { z } from \"zod\";"
+    },
+    {
+      "path": "lib/scan/instrumentation.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { z } from \"zod\";"
+    },
+    {
+      "path": "lib/scan/alerts.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export const ALERT_METRICS = ["
+    },
+    {
+      "path": "lib/prompts/infer.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { diffLines, sequenceSimilarity } from \"./diff\";"
+    },
+    {
+      "path": "lib/prompts/diff.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export type DiffOp = { type: \"same\" | \"add\" | \"del\"; line: string };"
+    },
+    {
+      "path": "blocks/marketing/demo/entrance.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { type MotionProps, type Variants, stagger } from \"motion/react\";"
+    },
+    {
+      "path": "blocks/marketing/demo/mock-data.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { SLOT_LINE } from \"../../../lib/prompts/infer\";"
+    },
+    {
+      "path": "blocks/marketing/cta/agent-prompt.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs"
+      ],
+      "first_line": "const DOCS_URL = \"https://docs.foglamp.dev/quickstart\";"
+    },
+    {
+      "path": "blocks/marketing/chrome/demo-link.ts",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { DemoTab } from \"../demo/mock-data\";"
+    },
+    {
+      "path": "ui/card.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type * as React from \"react\";"
+    },
+    {
+      "path": "ui/input-group.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/popover.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/hover-card.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/empty.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { type VariantProps, cva } from \"class-variance-authority\";"
+    },
+    {
+      "path": "ui/tooltip.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/alert.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { type VariantProps, cva } from \"class-variance-authority\";"
+    },
+    {
+      "path": "ui/switch.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/calendar.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/avatar.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/badge.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { mergeProps } from \"@base-ui/react/merge-props\";"
+    },
+    {
+      "path": "ui/table.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/button.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { Button as ButtonPrimitive } from \"@base-ui/react/button\";"
+    },
+    {
+      "path": "ui/spinner.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { cn } from \"../lib/utils\";"
+    },
+    {
+      "path": "ui/dropdown-menu.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/select.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "ui/textarea.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type * as React from \"react\";"
+    },
+    {
+      "path": "ui/input.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { Input as InputPrimitive } from \"@base-ui/react/input\";"
+    },
+    {
+      "path": "ui/skeleton.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { cn } from \"../lib/utils\";"
+    },
+    {
+      "path": "icons/brand-mark.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "export function BrandMark({ className }: { className?: string }) {"
+    },
+    {
+      "path": "icons/model-logo.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { cn } from \"../lib/utils\";"
+    },
+    {
+      "path": "icons/brand-logos.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { SVGProps } from \"react\";"
+    },
+    {
+      "path": "lib/link-context.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/data-table.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/trend-charts.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/header-slot.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/context-chip.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { Button } from \"../ui/button\";"
+    },
+    {
+      "path": "widgets/markdown.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { FramerockLink } from \"../lib/link-context\";"
+    },
+    {
+      "path": "widgets/trace-timeline.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/prompt-prose.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/prompt-versions-card.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/eval-scores.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/page-parts.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/heat-cell.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/range-context.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/code-block.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/run-exchange.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/range-picker.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/payload-view.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/leaf/relative-time.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/leaf/agent-icon.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/leaf/customer-avatar.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/leaf/copy-button.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/leaf/copy-icon.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "widgets/leaf/span-type.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { Badge } from \"../../ui/badge\";"
+    },
+    {
+      "path": "widgets/leaf/tool-icon.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "widgets/leaf/node-flow.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "charts/evilcharts/ui/dot.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { cn } from \"../../../lib/utils\";"
+    },
+    {
+      "path": "charts/evilcharts/ui/legend.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "charts/evilcharts/ui/zoom.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "charts/evilcharts/ui/chart.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "charts/evilcharts/ui/background.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "charts/evilcharts/ui/tooltip.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import {"
+    },
+    {
+      "path": "charts/evilcharts/ui/evil-brush.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "charts/evilcharts/charts/area-chart.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "charts/evilcharts/charts/bar-chart.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/setup/verification-report.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/setup/setup-board.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/setup/setup-summary.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/setup/decision-list.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/left-rail.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/changes-card.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/favicon-context.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/powered-by.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import { FramerockLink as Link } from \"../../lib/link-context\";"
+    },
+    {
+      "path": "blocks/scan/scan-board.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/share-bar.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/kinds.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "import type { NodeKind } from \"../../lib/scan/scan\";"
+    },
+    {
+      "path": "blocks/scan/brand.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/scan/flow-map.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/index.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/demo-context.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/demo-sidebar.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/demo-shell.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/demo-chrome.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/piece.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/cta/copy-prompt-button.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/hero/hero.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/hero/hero-demo.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/sessions-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/traces-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/alerts-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/overview-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/agents-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/workflows-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/tabs/evals-tab.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/detail/session-detail.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/detail/trace-detail.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/detail/workflow-detail.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/detail/agent-detail.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/detail/breakdown-cards.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "blocks/marketing/demo/detail/eval-detail.tsx",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "https://foglamp.dev"
+      ],
+      "first_line": "\"use client\";"
+    },
+    {
+      "path": "styles/effects.css",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "@source \"../../../../node_modules/streamdown/dist/*.js\";"
+    },
+    {
+      "path": "styles/font-setup.css",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "@import \"@fontsource-variable/geist-mono\";"
+    },
+    {
+      "path": "styles/globals.css",
+      "missing": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Gustavo Fior",
+        "Foglamp Labs",
+        "https://foglamp.dev"
+      ],
+      "first_line": "@import \"tailwindcss\";"
+    }
+  ]
+}

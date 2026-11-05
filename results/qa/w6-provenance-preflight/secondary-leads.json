@@ -1,0 +1,230 @@
+[
+  {
+    "path": "packages/design-system/src/blocks/auth/login-form.tsx",
+    "file_sha256": "f7b9ccf92e1833709ca171946fa66188648c00ae0fcad32d022b3a1c886e6033",
+    "primary": "apps/web/src/components/login-form.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/reset-password/reset-password-form.tsx",
+        "shared_long_lines": 4
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/agent-detail-inspector-block.tsx",
+    "file_sha256": "de1dc4866a4f41e94e6889eda88f1a2306723d4d28729df3af8cc0baecebd019",
+    "primary": "apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+        "shared_long_lines": 6
+      },
+      {
+        "path": "apps/web/src/components/marketing/demo/detail/agent-detail.tsx",
+        "shared_long_lines": 5
+      },
+      {
+        "path": "apps/web/src/app/(app)/overview/overview-client.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/app/(app)/traces/traces-client.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/components/marketing/demo/detail/workflow-detail.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/eval-chip-placeholders.tsx",
+    "file_sha256": "ec0d7805894a7e938956afa7ae16ab5bb82891f76c9bb7066ab79aa39843a19d",
+    "primary": "apps/web/src/app/(app)/evals/[id]/chip-placeholders.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/eval-detail-block.tsx",
+    "file_sha256": "5bc6518f0fe4341d66b757f1b64e7f66bca3b3572a3af2d819110f916bab5b04",
+    "primary": "apps/web/src/app/(app)/evals/[id]/eval-detail-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/components/app/run-exchange.tsx",
+        "shared_long_lines": 6
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/overview-dashboard-block.tsx",
+    "file_sha256": "410b5510fd8b9be5e097d902b4211c58c7d40bcea45efb39f974c3deae51307a",
+    "primary": "apps/web/src/app/(app)/overview/overview-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/components/marketing/demo/tabs/overview-tab.tsx",
+        "shared_long_lines": 11
+      },
+      {
+        "path": "apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+        "shared_long_lines": 3
+      },
+      {
+        "path": "apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/components/app/cost-breakdown-card.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/session-conversation-inspector-block.tsx",
+    "file_sha256": "803ca2f116a11d74828194be050206137dbced8f3a94a6a70e7c88b35c003d05",
+    "primary": "apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/components/marketing/demo/detail/session-detail.tsx",
+        "shared_long_lines": 26
+      },
+      {
+        "path": "apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+        "shared_long_lines": 5
+      },
+      {
+        "path": "apps/web/src/components/app/run-exchange.tsx",
+        "shared_long_lines": 5
+      },
+      {
+        "path": "apps/web/src/app/(app)/evals/[id]/chip-placeholders.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/trace-waterfall-inspector-block.tsx",
+    "file_sha256": "2c4375e01f0bdbbd07300842fcadf7b6e10761659fa7706cc1d7658c185ad32c",
+    "primary": "apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/components/marketing/demo/detail/trace-detail.tsx",
+        "shared_long_lines": 20
+      },
+      {
+        "path": "apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+        "shared_long_lines": 5
+      },
+      {
+        "path": "apps/web/src/components/app/trace-timeline.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/app/(app)/evals/[id]/chip-placeholders.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/traces-explorer-block.tsx",
+    "file_sha256": "b2328dc0a9c31f46b8c8ebd94e4b69b9c4dd22515057b437e41160d76f3c6551",
+    "primary": "apps/web/src/app/(app)/traces/traces-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/(app)/sessions/sessions-client.tsx",
+        "shared_long_lines": 16
+      },
+      {
+        "path": "apps/web/src/components/marketing/demo/tabs/traces-tab.tsx",
+        "shared_long_lines": 16
+      },
+      {
+        "path": "apps/web/src/app/(app)/workflows/workflows-client.tsx",
+        "shared_long_lines": 10
+      },
+      {
+        "path": "apps/web/src/app/(app)/agents/agents-client.tsx",
+        "shared_long_lines": 10
+      },
+      {
+        "path": "apps/web/src/components/marketing/demo/tabs/sessions-tab.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+        "shared_long_lines": 2
+      },
+      {
+        "path": "apps/web/src/app/(app)/evals/evals-client.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/dashboard/workflow-detail-block.tsx",
+    "file_sha256": "bef34bd887f99e662d58200934a0f569d98495bb2c9203e2b0f0fcfc29fba629",
+    "primary": "apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+        "shared_long_lines": 6
+      },
+      {
+        "path": "apps/web/src/components/marketing/demo/detail/workflow-detail.tsx",
+        "shared_long_lines": 4
+      },
+      {
+        "path": "apps/web/src/app/(app)/overview/overview-client.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/blocks/marketing/hud-landing.tsx",
+    "file_sha256": "8bbccbddc1587d968b69f480c74f768de75f762ac271798339f455f8e93403dd",
+    "primary": "apps/web/src/app/hud/hud-landing.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/scan/scan-landing.tsx",
+        "shared_long_lines": 7
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/widgets/cost-breakdown.tsx",
+    "file_sha256": "7f7d83f7a2f1280bf2ba6ffb403382fec0a33c3be62dca26d6df3eb83b3d382a",
+    "primary": "apps/web/src/components/app/cost-breakdown-card.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/app/(app)/overview/overview-client.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  },
+  {
+    "path": "packages/design-system/src/widgets/tool-breakdown.tsx",
+    "file_sha256": "7ccc497b0833db016b427a6d382dbf4157cd6d6947864b358cb174020b7615df",
+    "primary": "apps/web/src/components/app/tool-breakdown-card.tsx",
+    "leads": [
+      {
+        "path": "apps/web/src/components/app/page-parts.tsx",
+        "shared_long_lines": 5
+      },
+      {
+        "path": "apps/web/src/components/marketing/demo/detail/breakdown-cards.tsx",
+        "shared_long_lines": 5
+      },
+      {
+        "path": "apps/web/src/components/app/prompt-versions-card.tsx",
+        "shared_long_lines": 2
+      }
+    ]
+  }
+]

@@ -9,3 +9,5 @@ Keep QA evidence reviewable and reproducible without committing generated captur
 - Do not stage all of `results/qa` by default. Stage the report and reproduction material needed for the specific gate.
 
 The planning runbook requires task/gate state in `results/run-state.json`, verification commands, and wave commits/pushes; it does not require raw QA captures to be versioned. The implementation repository should apply an equivalent policy to its own QA outputs.
+
+The copied upstream code and asset evidence is accompanied by its Apache-2.0 license, attribution notice, and font notices in `results/qa/LICENSE`, `results/qa/NOTICE`, and `results/qa/THIRD-PARTY-NOTICES.md`.

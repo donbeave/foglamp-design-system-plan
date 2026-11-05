@@ -1,0 +1,33 @@
+{
+  "count": 708,
+  "by": {
+    "desktop-light": {
+      "rows": 177,
+      "workbench": 169,
+      "initialTop": 1,
+      "initialFrame": 12
+    },
+    "desktop-dark": {
+      "rows": 177,
+      "workbench": 169,
+      "initialTop": 1,
+      "initialFrame": 12
+    },
+    "mobile-light": {
+      "rows": 177,
+      "workbench": 169,
+      "initialTop": 0,
+      "initialFrame": 12
+    },
+    "mobile-dark": {
+      "rows": 177,
+      "workbench": 169,
+      "initialTop": 0,
+      "initialFrame": 12
+    }
+  },
+  "errors": [],
+  "mismatch": [],
+  "late": [],
+  "images": []
+}

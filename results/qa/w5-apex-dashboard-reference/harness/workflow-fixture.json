@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "totalCost": 0.0042,
+    "totalTokens": 842,
+    "errorRate": 0,
+    "erroredRunCount": 0,
+    "durationMs": {
+      "p50": 1200,
+      "p95": 1800,
+      "p99": 2000
+    },
+    "runCount": 1,
+    "traceCount": 1,
+    "costQuantiles": [],
+    "durationQuantiles": []
+  },
+  "series": [],
+  "runs": [
+    {
+      "workflowRunId": "run_demo",
+      "userMessage": "How can I track my order?",
+      "agentNames": [
+        "Support agent"
+      ],
+      "startTime": "2026-01-01T12:00:00Z",
+      "endTime": "2026-01-01T12:00:02Z",
+      "durationMs": 1800,
+      "totalCost": 0.0042,
+      "totalTokens": 842,
+      "traceCount": 1,
+      "errorCount": 0,
+      "firstTraceId": "trace_demo",
+      "lastTraceId": "trace_demo"
+    }
+  ],
+  "runDetails": {
+    "run_demo": {
+      "traces": [
+        {
+          "traceId": "trace_demo",
+          "traceName": "Support request",
+          "agentName": "Support agent",
+          "startTime": "2026-01-01T12:00:00Z",
+          "durationMs": 1800,
+          "errorCount": 0,
+          "abortedCount": 0,
+          "customerId": null,
+          "customerName": null,
+          "customerImageUrl": null,
+          "sessionId": null,
+          "models": [
+            "gpt-4o"
+          ]
+        }
+      ]
+    }
+  },
+  "traceDetails": {
+    "trace_demo": {
+      "spans": [
+        {
+          "parentSpanId": null,
+          "spanType": "agent",
+          "input": "How can I track my order?",
+          "output": "Please share your order number."
+        }
+      ]
+    }
+  }
+}

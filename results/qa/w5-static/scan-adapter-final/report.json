@@ -1,0 +1,37 @@
+{
+  "task": "W5-5.1A-scan-adapter-final",
+  "state": "REVIEW",
+  "target_head_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "commands": [
+    {"command": "mise exec bun@latest -- bun run check-types", "exit_code": 0},
+    {"command": "mise exec bun@latest -- bun test", "exit_code": 0, "tests_pass": 58, "tests_fail": 0},
+    {"command": "mise exec bun@latest -- bun run check:portal", "exit_code": 0, "stories": 168, "registry_items": 289, "browser_import_guard": "passed"},
+    {"command": "mise exec bun@latest -- bun run build:registry", "exit_code": 0, "registry_items_validated_and_built": 289, "story_catalog_entries": 289},
+    {"command": "mise exec bun@latest -- bun run build", "exit_code": 0, "build_tasks_successful": 1},
+    {"command": "Repeat registry build plus SHA-256 comparison for public/r JSON outputs", "exit_code": 0, "result": "all 291 JSON output hashes unchanged on repeat"}
+  ],
+  "diff_state": {
+    "changed_paths_count": 35,
+    "source_adapter_change": "packages/design-system/src/blocks/scan/favicon-context.tsx",
+    "source_components_modified_other_than_adapter": false,
+    "generated_outputs": "13 Scan/Setup dependency closure payloads, foglamp.json, and style-globals.json updated; all 289 items pass builder validation",
+    "untracked_tooling_artifacts": false
+  },
+  "build_observations": {
+    "node_crypto_externalization": false,
+    "fumadocs_mdX_node_fs_promises_externalization_notice": true,
+    "css_optimizer_warnings": 2
+  },
+  "unresolved_limits": [
+    "Static/build verification does not prove final visual or interaction parity; final browser sweep remains required."
+  ],
+  "artifacts": [
+    "results/qa/w5-static/scan-adapter-final/check-types.log",
+    "results/qa/w5-static/scan-adapter-final/bun-test.log",
+    "results/qa/w5-static/scan-adapter-final/check-portal.log",
+    "results/qa/w5-static/scan-adapter-final/build-registry.log",
+    "results/qa/w5-static/scan-adapter-final/build-registry-repeat.log",
+    "results/qa/w5-static/scan-adapter-final/build.log",
+    "results/qa/w5-static/scan-adapter-final/public-registry.sha256"
+  ]
+}

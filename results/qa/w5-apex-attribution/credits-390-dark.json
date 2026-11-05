@@ -1,0 +1,94 @@
+{
+  "links": [
+    {
+      "display": "inline",
+      "href": "https://github.com/gustavo-fior",
+      "opacity": "1",
+      "rect": {
+        "height": 48,
+        "width": 348.046875
+      },
+      "text": "Gustavo Fior (@gustavo-fior)",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://www.linkedin.com/in/abdulhdr/",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 98.4375
+      },
+      "text": "Abdul Haidar",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://foglamp.dev/",
+      "opacity": "1",
+      "rect": {
+        "height": 48,
+        "width": 343.890625
+      },
+      "text": "Foglamp Labs",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "block",
+      "href": "https://github.com/gustavo-fior",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 195.09375
+      },
+      "text": "Gustavo Fior (@gustavo-fior)",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "block",
+      "href": "https://www.linkedin.com/in/abdulhdr/",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 86.84375
+      },
+      "text": "Abdul Haidar",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "block",
+      "href": "https://foglamp.dev/",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 93.25
+      },
+      "text": "Foglamp Labs",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "block",
+      "href": "https://github.com/foglamp-labs/foglamp",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 148.609375
+      },
+      "text": "foglamp-labs/foglamp",
+      "visibility": "visible",
+      "visible": true
+    }
+  ],
+  "mode": "dark",
+  "url": "http://127.0.0.1:4203/docs/credits",
+  "viewport": [
+    390,
+    844
+  ]
+}

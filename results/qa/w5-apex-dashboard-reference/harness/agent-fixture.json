@@ -1,0 +1,62 @@
+{
+  "stats": {
+    "totalCost": 0.0042,
+    "totalTokens": 842,
+    "errorCount": 0,
+    "spanCount": 3,
+    "llmSpanCount": 1,
+    "latencyMs": {
+      "p50": 1200,
+      "p95": 1800,
+      "p99": 2000
+    }
+  },
+  "series": [],
+  "traces": [
+    {
+      "traceId": "trace_demo",
+      "traceName": "Support request",
+      "userMessage": "How can I track my order?",
+      "workflowName": "Support",
+      "spanCount": 3,
+      "durationMs": 1800,
+      "totalCost": 0.0042,
+      "startTime": "2026-01-01T12:00:00Z",
+      "errorCount": 0,
+      "totalTokens": 842,
+      "customerId": null,
+      "customerName": null,
+      "customerImageUrl": null,
+      "models": [
+        "gpt-4o"
+      ],
+      "sessionId": null
+    }
+  ],
+  "costQuantiles": [],
+  "durationQuantiles": [],
+  "totalTraces": 1,
+  "traceDetails": {
+    "trace_demo": {
+      "spans": [
+        {
+          "spanId": "span_demo",
+          "parentSpanId": null,
+          "spanType": "agent",
+          "modelId": null,
+          "name": "Support agent",
+          "status": "ok",
+          "startTime": "2026-01-01T12:00:00Z",
+          "durationMs": 1800,
+          "systemPrompt": "Help customers with their orders.",
+          "input": "How can I track my order?",
+          "output": "Please share your order number."
+        }
+      ]
+    }
+  },
+  "alerts": [],
+  "costs": [],
+  "tools": [],
+  "versions": []
+}

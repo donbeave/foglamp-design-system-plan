@@ -1,0 +1,2824 @@
+{
+  "source_revision": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "target_base_head": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "target_has_uncommitted_changes": true,
+  "prior_residuals": {
+    "body": 47,
+    "import_binding": 6
+  },
+  "current_disposition": {
+    "prior_body_pairs": 47,
+    "body_now_exact_all_prior_residuals": 7,
+    "prior_body_now_exact": 1,
+    "prior_body_still_different": 46,
+    "prior_import_pairs": 6
+  },
+  "classification_counts": {
+    "typed_fixture_api_boundary": 4,
+    "view_api_boundary": 3,
+    "standalone_auth_showcase_composition": 1,
+    "auth_api_boundary": 2,
+    "component_export_api_boundary": 1,
+    "host_auth_callback_boundary": 1,
+    "content_model_boundary": 1,
+    "content_asset_boundary": 1,
+    "authorized_attribution_addition": 2,
+    "cta_props_boundary": 2,
+    "callback_api_boundary": 2,
+    "component_extraction": 1,
+    "approved_import_boundary": 7,
+    "react_lazy_suspense_adapter": 2,
+    "typed_fixture_and_host_callback_boundary": 1,
+    "wave6_superseded_removal": 1,
+    "scan_data_api_boundary": 3,
+    "component_export_boundary": 1,
+    "callback_and_link_api_boundary": 1,
+    "setup_action_api_boundary": 1,
+    "hud_transport_api_boundary": 2,
+    "browser_worker_adapter": 1,
+    "query_to_view_api_boundary": 2,
+    "table_data_api_boundary": 1,
+    "dev_tool_api_boundary": 1,
+    "widget_stream_api_boundary": 1,
+    "approved_native_image_adapter": 1,
+    "shared_helper_extraction": 1,
+    "project_context_api_boundary": 1,
+    "prompt_data_api_boundary": 2,
+    "verified_shared_helper_composition": 1,
+    "session_api_boundary": 1
+  },
+  "method": "Re-read current target and pinned source; TypeScript 5.9.3 transpileModule erases types/comments, JSX preserved, imports omitted only for body hash. No class/text/math/logic normalization. Exact platform transforms are not applied in this refreshed disposition except locating the prior pair; files classify as current body-equal only when no-import emitted JS is identical. Class literals and animation/motion properties compared separately.",
+  "resolved_pairs": [
+    "packages/design-system/src/blocks/marketing/demo/demo-chrome.tsx",
+    "packages/design-system/src/blocks/marketing/figures/figures-traces.tsx",
+    "packages/design-system/src/blocks/setup/setup-summary.tsx",
+    "packages/design-system/src/widgets/eval-scores.tsx",
+    "packages/design-system/src/widgets/foggy/foggy-message.tsx",
+    "packages/design-system/src/widgets/foggy/markdown.tsx",
+    "packages/design-system/src/widgets/trace-timeline.tsx"
+  ],
+  "records": [
+    {
+      "target": "packages/design-system/src/blocks/app-shell/app-shell-block.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/app-shell.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "typed_fixture_api_boundary",
+      "reason": "Data/context hooks are replaced with caller-supplied view state and callbacks; output class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 6
+        },
+        {
+          "source_line": 22,
+          "target_line": 40
+        },
+        {
+          "source_line": 47,
+          "target_line": 61
+        },
+        {
+          "source_line": 76,
+          "target_line": 68
+        },
+        {
+          "source_line": 78,
+          "target_line": 70
+        },
+        {
+          "source_line": 80,
+          "target_line": 83
+        },
+        {
+          "source_line": 130,
+          "target_line": 100
+        }
+      ],
+      "body_sha256": {
+        "source": "21c8adf8a7b41c84d5f49a32f2a41a3a72d9a6e81f4217377208ed648e35221e",
+        "target": "8709b5e36ae512834d2719d03767894cdb0243b9fcbea949098adc2a43ecfbdc"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [
+          "120",
+          "1",
+          "1040",
+          "1",
+          "142"
+        ],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/app-shell/new-project-dialog.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/new-project-dialog.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "typed_fixture_api_boundary",
+      "reason": "Project creation is delegated to host props/callbacks; visual class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 5
+        },
+        {
+          "source_line": 15,
+          "target_line": 8
+        },
+        {
+          "source_line": 17,
+          "target_line": 14
+        }
+      ],
+      "body_sha256": {
+        "source": "9e01557aaaa70c5e14907f395654f4ec93f4ae44007d0038bf6648917b80b0df",
+        "target": "e6de56a21e60510d37a27f797239037ce777487fc6dc4eb64d4a65c30a515e95"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/app-shell/sunset-card.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/sunset-card.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "view_api_boundary",
+      "reason": "Standalone card extracts reusable display props; visual class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 2,
+          "target_line": 4
+        },
+        {
+          "source_line": 5,
+          "target_line": 7
+        }
+      ],
+      "body_sha256": {
+        "source": "0437b08199e7f02e5ed5472a68df75de926d2321c77f2aec9eaa3440a24cf80d",
+        "target": "6218e3c2be1deb58dc33fb6262a7da19878d6264adf66a58084905f20b284716"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/buttons-badges.tsx",
+      "source": ".reference/foglamp/apps/web/src/app/buttons/page.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "standalone_auth_showcase_composition",
+      "reason": "A source route page is packaged as an isolated reusable showcase block; class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 49,
+          "target_line": 54
+        },
+        {
+          "source_line": 55,
+          "target_line": 60
+        },
+        {
+          "source_line": 81,
+          "target_line": 89
+        },
+        {
+          "source_line": 108,
+          "target_line": 116
+        },
+        {
+          "source_line": 179,
+          "target_line": 187
+        }
+      ],
+      "body_sha256": {
+        "source": "b345db751d143dc2ed7e9ad01e572dbebb4dd640ae261454deec6660a764bc65",
+        "target": "7b16a5abeda35c28c51fc60f9b3975dda31e7da3007325964fa32fc4d9361ead"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/device-approve.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/device-approve-client.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "auth_api_boundary",
+      "reason": "Device approval actions are host supplied; presentation class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 9,
+          "target_line": 13
+        },
+        {
+          "source_line": 13,
+          "target_line": 17
+        },
+        {
+          "source_line": 31,
+          "target_line": 33
+        },
+        {
+          "source_line": 53,
+          "target_line": 78
+        },
+        {
+          "source_line": 56,
+          "target_line": 81
+        },
+        {
+          "source_line": 73,
+          "target_line": 98
+        }
+      ],
+      "body_sha256": {
+        "source": "5136633b559de18ef1fa93ecfa80b45a8972a01479edfa85239aaca5aa88f280",
+        "target": "206b1c5a6f10cae25b4e6fe61f51ea7a2842c459b7dbbff8f0fa707127dc9eda"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/instrument-empty-state.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/instrument-empty-state.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "component_export_api_boundary",
+      "reason": "The reusable block export/props differ from route-level component naming; class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 11,
+          "target_line": 16
+        },
+        {
+          "source_line": 16,
+          "target_line": 21
+        },
+        {
+          "source_line": 79,
+          "target_line": 84
+        },
+        {
+          "source_line": 81,
+          "target_line": 86
+        },
+        {
+          "source_line": 163,
+          "target_line": 168
+        },
+        {
+          "source_line": 168,
+          "target_line": 180
+        }
+      ],
+      "body_sha256": {
+        "source": "ce4fb4f177187d083afe16226db2af087fa8fed6ca0c90fd8ac2a0c0a7b1f31d",
+        "target": "bfa42b4a62ae3de6587c4104b8c2222512f6235279ce1ac0ed9a5332c954681d"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/login-form.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/login-form.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "host_auth_callback_boundary",
+      "reason": "Current target delegates sign-in/reset to optional host callbacks and redirects after success; this is behaviorally different at the host boundary, while class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 12,
+          "target_line": 16
+        },
+        {
+          "source_line": 16,
+          "target_line": 19
+        },
+        {
+          "source_line": 25,
+          "target_line": 27
+        },
+        {
+          "source_line": 33,
+          "target_line": 39
+        },
+        {
+          "source_line": 51,
+          "target_line": 99
+        },
+        {
+          "source_line": 65,
+          "target_line": 123
+        }
+      ],
+      "body_sha256": {
+        "source": "79fe0192fe9c93ccfec5738e04f691212cd161bdb44d182449ad39c1977b6b16",
+        "target": "377524fb673ac431903bc8f4a8c34b35a8965176080c83724313e9a7a1278579"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Classes and inspected motion properties match. Auth side effects are intentionally host callbacks, so runtime auth behavior is not identical absent host handlers.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/onboarding-panel.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/onboarding-panel.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "auth_api_boundary",
+      "reason": "Onboarding host actions are callback/prop based; class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 10,
+          "target_line": 15
+        },
+        {
+          "source_line": 16,
+          "target_line": 20
+        },
+        {
+          "source_line": 18,
+          "target_line": 21
+        },
+        {
+          "source_line": 20,
+          "target_line": 23
+        },
+        {
+          "source_line": 27,
+          "target_line": 27
+        },
+        {
+          "source_line": 29,
+          "target_line": 36
+        }
+      ],
+      "body_sha256": {
+        "source": "d6dd3bebb6d12a7a92cbc61da23d23f51f310229a0d90324d7c1f3f8f0376ad4",
+        "target": "d5cbe4074c56899987b04cdc44f34ae8bda116aa56f815795d5258b13267e67b"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/guide/chapters.ts",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/how-it-works/chapters.ts",
+      "current_status": "emitted_body_difference",
+      "classification": "content_model_boundary",
+      "reason": "Guide chapter data is extracted as a reusable module; any literal differences are disclosed in the report; no class or inspected motion props apply.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        }
+      ],
+      "body_sha256": {
+        "source": "2828eab0494151bd5231554ab77c5e571f475806549dccd4745614ee3bdbe7cd",
+        "target": "d332ba80c9220dded781c7f822f9e53e84b9c6f337ba94d9e0ea0d1949ade620"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/guide/observability-guide.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/how-it-works/observability-guide.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "content_asset_boundary",
+      "reason": "The scrollytelling component is extracted with local asset/module paths; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 13,
+          "target_line": 16
+        },
+        {
+          "source_line": 352,
+          "target_line": 353
+        },
+        {
+          "source_line": 358,
+          "target_line": 359
+        },
+        {
+          "source_line": 441,
+          "target_line": 442
+        },
+        {
+          "source_line": 600,
+          "target_line": 601
+        }
+      ],
+      "body_sha256": {
+        "source": "1f81e4e355baa333c1d1221bd05dba4a0eca57d62942fa5d473cc908b2bf76ef",
+        "target": "faceabc009102aa4bcba1fe661073c097a638270c032c221140b9192eda5c92b"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/footer.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/footer.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "authorized_attribution_addition",
+      "reason": "Creator/project links are required public attribution. New class literals belong to the added credit region; original footer classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 4,
+          "target_line": 8
+        },
+        {
+          "source_line": 10,
+          "target_line": 13
+        },
+        {
+          "source_line": 69,
+          "target_line": 74
+        },
+        {
+          "source_line": 71,
+          "target_line": 76
+        },
+        {
+          "source_line": 123,
+          "target_line": 128
+        },
+        {
+          "source_line": 149,
+          "target_line": 155
+        },
+        {
+          "source_line": 153,
+          "target_line": 182
+        }
+      ],
+      "body_sha256": {
+        "source": "b278d8bce52c882336db477ed6fbd162f362b4394fab9e2183d42e1c4baf2e13",
+        "target": "3a524c7d1c03bcdb0ce0cf119e6890d55af0fc567343b1931c571674aba856bd"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": [
+          "relative z-10 mx-auto max-w-7xl px-5 pb-5 text-center sm:px-8",
+          "text-xs text-muted-foreground",
+          "underline underline-offset-4 hover:text-foreground",
+          "underline underline-offset-4 hover:text-foreground",
+          "underline underline-offset-4 hover:text-foreground",
+          "underline underline-offset-4 hover:text-foreground",
+          "underline underline-offset-4 hover:text-foreground"
+        ]
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "New attribution-region class literals are intentional additions; original design classes and motion properties are retained.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/navbar.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/navbar.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "authorized_attribution_addition",
+      "reason": "Creator/project links are required public attribution. New class literals belong to the added credit region; original navigation classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 10,
+          "target_line": 12
+        },
+        {
+          "source_line": 19,
+          "target_line": 20
+        },
+        {
+          "source_line": 26,
+          "target_line": 27
+        },
+        {
+          "source_line": 30,
+          "target_line": 36
+        },
+        {
+          "source_line": 44,
+          "target_line": 50
+        },
+        {
+          "source_line": 46,
+          "target_line": 52
+        }
+      ],
+      "body_sha256": {
+        "source": "0deb0e8f98119c7cdf0984f2aadc2c751b5862c17a381c594f191ac14b870ac1",
+        "target": "a1e9197f88297433e82541ad2543e22a4170371ee2da3df654d568264722c70a"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": [
+          "hidden min-w-0 flex-col text-[10px] leading-tight text-muted-foreground sm:flex",
+          "flex items-center gap-1 whitespace-nowrap",
+          "hover:text-foreground",
+          "hover:text-foreground",
+          "hover:text-foreground",
+          "hover:text-foreground",
+          "flex flex-wrap items-center justify-center gap-x-1 gap-y-0.5 border-t border-border/40 px-3 py-1 text-[9px] leading-tight text-muted-foreground sm:hidden",
+          "underline underline-offset-2",
+          "underline underline-offset-2",
+          "underline underline-offset-2",
+          "underline underline-offset-2",
+          "underline underline-offset-2"
+        ]
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "New attribution-region class literals are intentional additions; original design classes and motion properties are retained.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/agent-prompt.ts",
+      "source": ".reference/foglamp/apps/web/src/lib/agent-prompt.ts",
+      "current_status": "emitted_body_difference",
+      "classification": "view_api_boundary",
+      "reason": "Prompt action is exposed for host integration; no class or inspected motion changes.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 10
+        },
+        {
+          "source_line": 46,
+          "target_line": 35
+        },
+        {
+          "source_line": 56,
+          "target_line": 43
+        },
+        {
+          "source_line": 66,
+          "target_line": 53
+        }
+      ],
+      "body_sha256": {
+        "source": "bd132b060d58b29a5f3d38b0f0a9cdcb6169c08dcb5dd2b3dd5999cda7a4d7d0",
+        "target": "06aea01366ca41fabbe29578981290c55144bab64fc2a8c5fe9c995d0babd2b5"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/ask-foggy.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/ask-foggy.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "typed_fixture_api_boundary",
+      "reason": "Chat/demo actions and fixtures are passed through the extracted block boundary; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 8,
+          "target_line": 11
+        },
+        {
+          "source_line": 12,
+          "target_line": 14
+        },
+        {
+          "source_line": 16,
+          "target_line": 17
+        },
+        {
+          "source_line": 18,
+          "target_line": 19
+        },
+        {
+          "source_line": 24,
+          "target_line": 22
+        },
+        {
+          "source_line": 34,
+          "target_line": 50
+        }
+      ],
+      "body_sha256": {
+        "source": "5bbe890dc00fb73bb66fe6e7776996cb5cb579073be3dfa3ea8f63f263c3a418",
+        "target": "c068f966b8f5559b5f514b5034bb1e6e89f93cb7f277780bfe10585efde898ae"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/compact-cta.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/compact-cta.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "cta_props_boundary",
+      "reason": "Link and copied-prompt callbacks are configurable props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 6,
+          "target_line": 11
+        },
+        {
+          "source_line": 17,
+          "target_line": 32
+        },
+        {
+          "source_line": 19,
+          "target_line": 38
+        }
+      ],
+      "body_sha256": {
+        "source": "4c97f7641314b64ad4f4d78f052f9e24594b2732e0d73e4c1a7ec84fa9d8f1a7",
+        "target": "86fb3509f60296a0f3ea9b46a4bc6eec8b89ecab5e15de3efddbc0e9284d9d4a"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/copy-prompt-button.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/copy-prompt-button.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "callback_api_boundary",
+      "reason": "Copy result is surfaced to the host; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 9,
+          "target_line": 14
+        },
+        {
+          "source_line": 53,
+          "target_line": 58
+        },
+        {
+          "source_line": 57,
+          "target_line": 68
+        },
+        {
+          "source_line": 69,
+          "target_line": 79
+        }
+      ],
+      "body_sha256": {
+        "source": "8f6ab143507dce5afb82787fad3c2ada768bd0458a5d54740cc4aa1f883708e4",
+        "target": "cd4ead423e939ff2a7cd3bf52e8ce58362825de4ac8105fa374a7c1f217b43e5"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/cta.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/cta.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "cta_props_boundary",
+      "reason": "Link/prompt handlers are configurable props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 11,
+          "target_line": 15
+        },
+        {
+          "source_line": 14,
+          "target_line": 18
+        },
+        {
+          "source_line": 85,
+          "target_line": 90
+        },
+        {
+          "source_line": 177,
+          "target_line": 192
+        },
+        {
+          "source_line": 179,
+          "target_line": 194
+        },
+        {
+          "source_line": 201,
+          "target_line": 217
+        }
+      ],
+      "body_sha256": {
+        "source": "d3c0d06af38cd264cb2004c0ce2fb16d8786722e8a042a6c9397bdd19d36ab62",
+        "target": "1217c535adfdf4186de6a5972e7f0b8b2521ed05ab065d71e2d26c68d27f410d"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/faq.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/faq.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "component_extraction",
+      "reason": "FAQ content is kept in a reusable component boundary; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 6,
+          "target_line": 11
+        },
+        {
+          "source_line": 8,
+          "target_line": 12
+        },
+        {
+          "source_line": 12,
+          "target_line": 14
+        },
+        {
+          "source_line": 13,
+          "target_line": 17
+        },
+        {
+          "source_line": 63,
+          "target_line": 69
+        },
+        {
+          "source_line": 69,
+          "target_line": 75
+        },
+        {
+          "source_line": 113,
+          "target_line": 124
+        }
+      ],
+      "body_sha256": {
+        "source": "5d7a94778cb925b97d580d6cfa6b21fa4c371deccba9dd4af93cf1f4ec5c0eca",
+        "target": "54b32891a9a145801391c0afe2a2204957d86bd8bac897001139800f7ca7fd52"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/demo-chrome.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/demo/demo-chrome.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Body now equals source after TS type erasure; internal workspace imports replace monorepo aliases. Source-only `Route` import is type-only and erased.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 12,
+          "target_line": 18
+        },
+        {
+          "source_line": 15,
+          "target_line": 21
+        },
+        {
+          "source_line": 23,
+          "target_line": 29
+        },
+        {
+          "source_line": 76,
+          "target_line": 82
+        },
+        {
+          "source_line": 110,
+          "target_line": 116
+        }
+      ],
+      "body_sha256": {
+        "source": "079572aca453f6d2240ec5cf1956f446b2e6cf7ac3f39a58d13ab04abff34a1d",
+        "target": "079572aca453f6d2240ec5cf1956f446b2e6cf7ac3f39a58d13ab04abff34a1d"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_import_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figure-picker.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/figure-picker.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "react_lazy_suspense_adapter",
+      "reason": "The h-112 w-full fallback moved from Next dynamic() loading in source figures.tsx:23 to Suspense fallback here:37. This preserves the fallback markup at the lazy boundary; verify connected composition if changing its parent.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 4,
+          "target_line": 10
+        },
+        {
+          "source_line": 6,
+          "target_line": 11
+        },
+        {
+          "source_line": 16,
+          "target_line": 20
+        },
+        {
+          "source_line": 19,
+          "target_line": 33
+        },
+        {
+          "source_line": 23,
+          "target_line": 37
+        }
+      ],
+      "body_sha256": {
+        "source": "989ca1da41c7e5494c867ad8cf31bc7e4a1eca9516551172d2fa08aacb3113df",
+        "target": "2f0667f58c0515382361bb6e036973553454e27b72fc2973b18ba68b892f7e1d"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": [
+          "h-112 w-full"
+        ],
+        "effective_composition_note": "The h-112 w-full fallback is moved into Suspense at FigurePicker; exact class retained at target figure-picker.tsx:37."
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Exact fallback class `h-112 w-full` is moved to the new Suspense boundary; animation properties unchanged.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figures-traces.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/figures-traces.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Body now equals source after TS type erasure; package import paths and type-only imports are adapted.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 8,
+          "target_line": 13
+        },
+        {
+          "source_line": 26,
+          "target_line": 31
+        },
+        {
+          "source_line": 31,
+          "target_line": 36
+        },
+        {
+          "source_line": 35,
+          "target_line": 40
+        },
+        {
+          "source_line": 40,
+          "target_line": 45
+        }
+      ],
+      "body_sha256": {
+        "source": "0e9601b08786d66122d62cdda1c77d756b8ec65b55add61f68bbcc73b137ad90",
+        "target": "0e9601b08786d66122d62cdda1c77d756b8ec65b55add61f68bbcc73b137ad90"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": [],
+        "effective_composition_note": "The h-112 w-full fallback is moved into Suspense at FigurePicker; exact class retained at target figure-picker.tsx:37."
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_import_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figures.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/figures.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "react_lazy_suspense_adapter",
+      "reason": "Next dynamic() loading fallback is moved to FigurePicker Suspense at figure-picker.tsx:37. The exact h-112 w-full class is retained there; no animation props changed.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 16,
+          "target_line": 24
+        },
+        {
+          "source_line": 23,
+          "target_line": 30
+        },
+        {
+          "source_line": 26,
+          "target_line": 32
+        },
+        {
+          "source_line": 31,
+          "target_line": 34
+        },
+        {
+          "source_line": 36,
+          "target_line": 36
+        }
+      ],
+      "body_sha256": {
+        "source": "f4c43990a76bfa5cc0d3505b163b31875d720c7932ca0389933686997870585e",
+        "target": "b7e9ff39bd08acc07bae8ecd724b14b94dc504fc8ac379722f1dfd070eb27240"
+      },
+      "class_literals": {
+        "source_only": [
+          "h-112 w-full"
+        ],
+        "target_only": [],
+        "effective_composition_note": "The h-112 w-full fallback is moved into Suspense at FigurePicker; exact class retained at target figure-picker.tsx:37."
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Exact fallback class `h-112 w-full` is moved to the new Suspense boundary; animation properties unchanged.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/hero/hero-demo.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/hero-demo.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "typed_fixture_api_boundary",
+      "reason": "Dashboard demo interactions/data are extracted behind props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 5,
+          "target_line": 12
+        },
+        {
+          "source_line": 7,
+          "target_line": 14
+        },
+        {
+          "source_line": 16,
+          "target_line": 23
+        },
+        {
+          "source_line": 23,
+          "target_line": 25
+        }
+      ],
+      "body_sha256": {
+        "source": "14bc76e14d1b6c5b819b09918b0f115f2674545396dba1bf1fe2e4ed2d8fc319",
+        "target": "d2bce136a8f3db94b194db97375ec62a368cac347172c1e6bc77f543a342123d"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/hud-landing.tsx",
+      "source": ".reference/foglamp/apps/web/src/app/hud/hud-landing.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "typed_fixture_and_host_callback_boundary",
+      "reason": "Target retains local typed HUD event data and optional onStorm callback; source invokes the hosted storm endpoint. The UI class/motion transition values match, but simulated event timing/data differ from live upstream behavior.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 6,
+          "target_line": 11
+        },
+        {
+          "source_line": 10,
+          "target_line": 13
+        },
+        {
+          "source_line": 15,
+          "target_line": 22
+        },
+        {
+          "source_line": 24,
+          "target_line": 28
+        },
+        {
+          "source_line": 28,
+          "target_line": 34
+        },
+        {
+          "source_line": 31,
+          "target_line": 38
+        }
+      ],
+      "body_sha256": {
+        "source": "8cc91ad1888c153a96357020f7d6f1ba5bf6cac7ea4b82ae7df683130f6b8e4e",
+        "target": "b72b4b6f0362ee65adda564d12be639d05a889f91811610eb4e8ce0888aefab7"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": false,
+      "visual_animation_disposition": "No class or motion transition change; local mock trace event timing/data differs from live upstream request.",
+      "numeric_literals": {
+        "target_only": [
+          "2840",
+          "45",
+          "2885",
+          "4",
+          "3190",
+          "79",
+          "3269",
+          "4700",
+          "240",
+          "3000",
+          "340",
+          "1760",
+          "1200",
+          "2100",
+          "3100",
+          "4500",
+          "220",
+          "940",
+          "240",
+          "240",
+          "580",
+          "580",
+          "340",
+          "1000",
+          "1000",
+          "22",
+          "2",
+          "52",
+          "1200",
+          "1200",
+          "2100",
+          "2100",
+          "900",
+          "2500",
+          "2500",
+          "45",
+          "4",
+          "44",
+          "3000",
+          "3000",
+          "340",
+          "2760",
+          "16.3",
+          "1760",
+          "3100",
+          "3100",
+          "2",
+          "3320",
+          "3320",
+          "2",
+          "220",
+          "3900",
+          "3900",
+          "2",
+          "48",
+          "7",
+          "48",
+          "4500",
+          "4500",
+          "2",
+          "220",
+          "1400",
+          "56.4",
+          "940",
+          "4700",
+          "4700",
+          "6030",
+          "124",
+          "6154",
+          "4700",
+          "0.0048"
+        ],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/original-authors-block.tsx",
+      "source": ".reference/foglamp/apps/web/src/app/(marketing)/about/page.tsx",
+      "current_status": "emitted_body_difference",
+  "classification": "w5_mandatory_attribution_and_image_fill_adapter",
+  "reason": "At W5 baseline 5b1d9f423647a92fce0d0c15d7e69f6ed54848d1, the original founder data/cards and source visual classes are retained. Added creator-credit paragraph/link classes satisfy the W5 attribution requirement. The `absolute inset-0 h-full w-full` addition adapts Next/Image fill geometry to a native image and preserves the source full-cover layout. Animation and timing properties match. The later W6-6B deletion is a separate, superseding follow-up and does not waive this W5 source-parity evidence.",
+  "w5_disposition_basis": {
+    "target_baseline": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+    "preserved": ["original founder data and cards", "remaining source classes", "animation and timing values"],
+    "authorized_changes": ["mandatory W5 attribution paragraph and links", "Next/Image fill to native img full-cover geometry adapter"]
+  },
+  "future_wave6_action": "W6-6B separately requires deletion of OriginalAuthorsBlock and personal founder photographs. That future cleanup does not retroactively waive W5 parity verification.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 2,
+          "target_line": 6
+        },
+        {
+          "source_line": 5,
+          "target_line": 7
+        },
+        {
+          "source_line": 27,
+          "target_line": 27
+        },
+        {
+          "source_line": 38,
+          "target_line": 32
+        },
+        {
+          "source_line": 56,
+          "target_line": 50
+        },
+        {
+          "source_line": 83,
+          "target_line": 78
+        },
+        {
+          "source_line": 137,
+          "target_line": 141
+        }
+      ],
+      "body_sha256": {
+        "source": "ab009a86f3a21e4b4294b4dd60c8cee52bd8317e9ef913dce203447de4fa4e79",
+        "target": "eccad5faf13add1eb19a2adfb1b2ee96222f7e10a598caf31556add9db2f0ed7"
+      },
+      "class_literals": {
+        "source_only": [
+          "object-cover grayscale transition duration-500 group-hover:grayscale-0"
+        ],
+        "target_only": [
+          "mt-6 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground",
+          "text-foreground underline underline-offset-4",
+          "text-foreground underline underline-offset-4",
+          "text-foreground underline underline-offset-4",
+          "text-foreground underline underline-offset-4",
+          "absolute inset-0 h-full w-full object-cover grayscale transition duration-500 group-hover:grayscale-0"
+        ]
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+  "visual_animation_disposition": "W5 attribution classes are authorized additions. The founder image's absolute inset-0 h-full w-full classes preserve Next/Image fill geometry on native img. Original founder cards and remaining source classes are preserved; motion and timing values match. W6-6B deletion is a later separate action.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/brand.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/scan/brand.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "scan_data_api_boundary",
+      "reason": "Scan favicon/model data is injected through reusable props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 7,
+          "target_line": 14
+        },
+        {
+          "source_line": 41,
+          "target_line": 50
+        }
+      ],
+      "body_sha256": {
+        "source": "09a9bada488698aa6cdf345a0c75e14f3790f38e8c5c3a7060964736b4354a2d",
+        "target": "f6cb96f3c3d1b9cfa5df15fd2eb48d476a0c3ad46ff6188ae249c5ef194b7086"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/copy-scan-prompt-button.tsx",
+      "source": ".reference/foglamp/apps/web/src/app/scan/copy-scan-prompt-button.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "callback_api_boundary",
+      "reason": "Copy action is delegated to callback props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 9,
+          "target_line": 16
+        },
+        {
+          "source_line": 48,
+          "target_line": 54
+        },
+        {
+          "source_line": 65,
+          "target_line": 71
+        }
+      ],
+      "body_sha256": {
+        "source": "79ad8211211e7194af05ffadc6e6afe9c42968e7ef50c3ada1df81699b00ddf5",
+        "target": "4df8d7a077f8a19adb5cfe4c99fd9c074d41c58fb34c8eb020456bbd042df3f0"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/embed-board.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/scan/embed-board.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "component_export_boundary",
+      "reason": "Extracted board export aliases the source view into a public block; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 4,
+          "target_line": 9
+        },
+        {
+          "source_line": 23,
+          "target_line": 31
+        }
+      ],
+      "body_sha256": {
+        "source": "26ed21214b6f52325f2cd18959c90d0fff793010ee090db638f8b5b8a545fcfa",
+        "target": "f72739e06bfa2fdf424a575989d458b34d3729860a17be338a8f63664df7c5d6"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/flow-map.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/scan/flow-map.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "scan_data_api_boundary",
+      "reason": "Flow map is decoupled from route data and exported as a block; classes and inspected motion props match.",
+      "source_target_file_hunks": [],
+      "body_sha256": {
+        "source": "392db3ab51d03a70be408f3a4accc2fc84c9f576670b98df84f106825526b5de",
+        "target": "2b4c9ef203e3a2442f938891aa8d6edee550b0b544ec43549549630f32b20395"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/scan-board.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/scan/scan-board.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "scan_data_api_boundary",
+      "reason": "Scan board is decoupled from route data and exported as a block; classes and inspected motion props match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 47,
+          "target_line": 55
+        }
+      ],
+      "body_sha256": {
+        "source": "d0ff65062bc4aea1ac4cd65d85d4169a55e821896c4c1a0523f0f231b2b61854",
+        "target": "5850d69be0355a6f00516156d39c5f418aecdedb025192cc178703923af52aca"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/scan-landing.tsx",
+      "source": ".reference/foglamp/apps/web/src/app/scan/scan-landing.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "callback_and_link_api_boundary",
+      "reason": "Copy and navigation actions are configurable props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 7,
+          "target_line": 14
+        },
+        {
+          "source_line": 9,
+          "target_line": 16
+        },
+        {
+          "source_line": 201,
+          "target_line": 208
+        },
+        {
+          "source_line": 271,
+          "target_line": 278
+        },
+        {
+          "source_line": 298,
+          "target_line": 305
+        },
+        {
+          "source_line": 303,
+          "target_line": 311
+        }
+      ],
+      "body_sha256": {
+        "source": "e9b853586f785acc31aa8c6ab3e3326e96fafd49732fcda149f26361c013946c",
+        "target": "f0a5c2011db6dd6db25c5ecc7ca3413608480570bc9f14df450920b819145b84"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/setup/setup-board.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/setup/setup-board.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "setup_action_api_boundary",
+      "reason": "Setup state and approve/reject handlers are caller-provided props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 9,
+          "target_line": 12
+        },
+        {
+          "source_line": 19,
+          "target_line": 22
+        },
+        {
+          "source_line": 62,
+          "target_line": 65
+        }
+      ],
+      "body_sha256": {
+        "source": "64bc1dba0ecf3b7d65b563ec4bbe2e6e123047788034ce03928998f713ac44e8",
+        "target": "ecc29a1343dcdec2b0d5aabe0b83b413042de986b4b7fbab0e4752d3080441bc"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/blocks/setup/setup-summary.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/setup/setup-summary.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Body now equals source after TS type erasure; Next Link becomes FoglampLink and internal UI paths are local.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 6,
+          "target_line": 9
+        },
+        {
+          "source_line": 12,
+          "target_line": 15
+        },
+        {
+          "source_line": 226,
+          "target_line": 228
+        }
+      ],
+      "body_sha256": {
+        "source": "44b6c3146c70b79657ba99c2bbea90ebc6d5bc64315024c606836fb19c437b83",
+        "target": "44b6c3146c70b79657ba99c2bbea90ebc6d5bc64315024c606836fb19c437b83"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_import_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/hud/FoglampHUD.tsx",
+      "source": ".reference/foglamp/packages/sdk/src/hud/react/FoglampHUD.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "hud_transport_api_boundary",
+      "reason": "SSE port/url transport is replaced by an injectable HudStream; HUD render tree and motion/spring literals match. Target also adds a scoped inline docs preview wrapper.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 24,
+          "target_line": 28
+        },
+        {
+          "source_line": 27,
+          "target_line": 31
+        },
+        {
+          "source_line": 47,
+          "target_line": 43
+        },
+        {
+          "source_line": 301,
+          "target_line": 297
+        },
+        {
+          "source_line": 1456,
+          "target_line": 1452
+        }
+      ],
+      "body_sha256": {
+        "source": "a402e292411bb535821c3f0a7898660c35f701c323e5303bee902a1ea677ca20",
+        "target": "a8fdb9cdcb8fec19447c075394e83644c0f8d3be1066dc2bc0e67428572e2c0e"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": [
+          "8517"
+        ]
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/hud/useHudStream.ts",
+      "source": ".reference/foglamp/packages/sdk/src/hud/react/useHudStream.ts",
+      "current_status": "emitted_body_difference",
+      "classification": "hud_transport_api_boundary",
+      "reason": "Connection-owning SSE hook is adapted to subscribe to an injected HudStream; transport lifecycle differs by design, HUD presentation/physics is separately unchanged.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 2,
+          "target_line": 5
+        },
+        {
+          "source_line": 4,
+          "target_line": 7
+        },
+        {
+          "source_line": 7,
+          "target_line": 8
+        },
+        {
+          "source_line": 9,
+          "target_line": 10
+        },
+        {
+          "source_line": 25,
+          "target_line": 34
+        },
+        {
+          "source_line": 27,
+          "target_line": 35
+        },
+        {
+          "source_line": 29,
+          "target_line": 37
+        }
+      ],
+      "body_sha256": {
+        "source": "5b8c7e50699ad9c7ec820ddfb0ef18e86b271805428440f8f20f10dc379ecdfd",
+        "target": "4cac3bfa1435a687cccac7e228e08d70877fcb36e89a0828e01f4faf42be32ee"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/lib/scan/layout.ts",
+      "source": ".reference/foglamp/apps/web/src/components/scan/layout.ts",
+      "current_status": "emitted_body_difference",
+      "classification": "browser_worker_adapter",
+      "reason": "ELK worker resolution is adapted for a packaged/browser environment; layout thresholds/coordinates are checked separately and this file has no visual class/motion props.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 11,
+          "target_line": 14
+        },
+        {
+          "source_line": 14,
+          "target_line": 38
+        }
+      ],
+      "body_sha256": {
+        "source": "5734345f1da2a74849bb044bd6a1b4785420c43ce6797d5a1d810688e04240e4",
+        "target": "3028c3a899d2eae3b36c6a038126c6ea6a58a1b2311118053af3b8a1059a47e9"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No classes/motion props; source/target layout algorithm residuals remain for Apex to review.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/cost-breakdown.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/cost-breakdown-card.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "query_to_view_api_boundary",
+      "reason": "Query/project/range context is replaced by supplied metric data; class and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 2,
+          "target_line": 6
+        },
+        {
+          "source_line": 8,
+          "target_line": 13
+        },
+        {
+          "source_line": 14,
+          "target_line": 15
+        },
+        {
+          "source_line": 22,
+          "target_line": 31
+        },
+        {
+          "source_line": 34,
+          "target_line": 41
+        },
+        {
+          "source_line": 46,
+          "target_line": 54
+        },
+        {
+          "source_line": 56,
+          "target_line": 73
+        }
+      ],
+      "body_sha256": {
+        "source": "9d6915bccbf0c072f5005af8a0b514ada0a79d246f38a56f08a3b40e7cdacbfd",
+        "target": "77e0f28cf83aeba16d04ae6ec0166da5236e78bebbbc1177ec9869db2886aa30"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/data-table.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/data-table.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "table_data_api_boundary",
+      "reason": "Table data and event handlers cross the reusable component boundary; class and inspected motion prop literals match, though runtime table behavior is not asserted equal.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 7,
+          "target_line": 10
+        },
+        {
+          "source_line": 15,
+          "target_line": 18
+        },
+        {
+          "source_line": 22,
+          "target_line": 25
+        },
+        {
+          "source_line": 36,
+          "target_line": 38
+        },
+        {
+          "source_line": 67,
+          "target_line": 68
+        },
+        {
+          "source_line": 69,
+          "target_line": 71
+        },
+        {
+          "source_line": 107,
+          "target_line": 117
+        }
+      ],
+      "body_sha256": {
+        "source": "1280999155a7aed9106412ea9252a507846e5f9fe5af2d9160bd90dad2656a02",
+        "target": "e1beb94da6de28da9fcc05b1740c51bd8493328ff53a0dc0766e85f0b2183703"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/dev-toolbar.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/dev-toolbar.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "dev_tool_api_boundary",
+      "reason": "Store/query mutations are replaced by host callbacks and values. Delay constants are sourced from upstream dev-network configuration; classes and animation props match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 7
+        },
+        {
+          "source_line": 15,
+          "target_line": 19
+        },
+        {
+          "source_line": 21,
+          "target_line": 25
+        },
+        {
+          "source_line": 49,
+          "target_line": 52
+        },
+        {
+          "source_line": 51,
+          "target_line": 54
+        },
+        {
+          "source_line": 54,
+          "target_line": 56
+        },
+        {
+          "source_line": 88,
+          "target_line": 73
+        }
+      ],
+      "body_sha256": {
+        "source": "57867acc1af2134dcbba9409489d2cc0bf777c4574a77b0f927fef79a01eecd3",
+        "target": "6969f015b897efadc3abf3570b00dae651251bb34d46fca6a462410f918a29b3"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [
+          "200",
+          "500",
+          "2000",
+          "5000",
+          "0.3"
+        ],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/eval-scores.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/eval-scores.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Body now equals source after TS type erasure; Next Link becomes FoglampLink and app UI imports become package imports.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 11,
+          "target_line": 14
+        },
+        {
+          "source_line": 13,
+          "target_line": 16
+        },
+        {
+          "source_line": 16,
+          "target_line": 19
+        },
+        {
+          "source_line": 131,
+          "target_line": 132
+        },
+        {
+          "source_line": 220,
+          "target_line": 221
+        }
+      ],
+      "body_sha256": {
+        "source": "7af325ab4afcd1f80ac0e40d585ad4d71810c14cdaa4d0aa8a01851ebaa6a323",
+        "target": "7af325ab4afcd1f80ac0e40d585ad4d71810c14cdaa4d0aa8a01851ebaa6a323"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_import_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/foggy/foggy-message.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/foggy/foggy-message.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Body now equals source after TS type erasure; app alias imports become package-local module paths.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 4,
+          "target_line": 8
+        },
+        {
+          "source_line": 7,
+          "target_line": 11
+        },
+        {
+          "source_line": 9,
+          "target_line": 13
+        },
+        {
+          "source_line": 36,
+          "target_line": 40
+        },
+        {
+          "source_line": 74,
+          "target_line": 78
+        }
+      ],
+      "body_sha256": {
+        "source": "b5a4e76d6e3df478d93095dc6f2602a408fdd1d722c0b4e9b1288a6bcdc5451c",
+        "target": "b5a4e76d6e3df478d93095dc6f2602a408fdd1d722c0b4e9b1288a6bcdc5451c"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_import_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/foggy/foggy-widget.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/foggy/foggy-widget.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "widget_stream_api_boundary",
+      "reason": "Foggy widget interaction/stream is provided through props rather than app-specific context; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 6
+        },
+        {
+          "source_line": 14,
+          "target_line": 17
+        },
+        {
+          "source_line": 16,
+          "target_line": 19
+        },
+        {
+          "source_line": 18,
+          "target_line": 21
+        },
+        {
+          "source_line": 25,
+          "target_line": 27
+        },
+        {
+          "source_line": 33,
+          "target_line": 35
+        },
+        {
+          "source_line": 225,
+          "target_line": 227
+        }
+      ],
+      "body_sha256": {
+        "source": "dfd61c36a07808d67694abec3ffb7c0444a1d12bbdaa561d305820834333857d",
+        "target": "1e2aabf8c7fbef3e62ebc8e7dc72e40b52e5cff5f10132f793252d36b516b55c"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/foggy/markdown.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/markdown.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Current emitted non-import body equals source; only workspace/framework imports differ.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 6
+        },
+        {
+          "source_line": 8,
+          "target_line": 11
+        },
+        {
+          "source_line": 14,
+          "target_line": 17
+        },
+        {
+          "source_line": 61,
+          "target_line": 64
+        }
+      ],
+      "body_sha256": {
+        "source": "97fd4e9c8fe691a8916ed7d257dced7473c48ecb5f3b6a8bd29bafbee8341465",
+        "target": "97fd4e9c8fe691a8916ed7d257dced7473c48ecb5f3b6a8bd29bafbee8341465"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/project-icon.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/project-icon.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "approved_native_image_adapter",
+      "reason": "Next Image is replaced by native img; exact box classes remain (`size-5`/`size-3.25`, aspect-square), source dimensions are 1080x1080 while target omits width/height. Fixed CSS sizing preserves intended box; intrinsic image reservation differs.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 2,
+          "target_line": 3
+        },
+        {
+          "source_line": 16,
+          "target_line": 19
+        },
+        {
+          "source_line": 60,
+          "target_line": 62
+        },
+        {
+          "source_line": 63,
+          "target_line": 64
+        }
+      ],
+      "body_sha256": {
+        "source": "78eb48425209965b3f743abe74e3275953ef35c1d8aca80f9537595fa930ebe6",
+        "target": "a428d3927d9a7a00b5777f7e2b68eb63c0b4a20ef70f99928fd0242dec029689"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class sizing remains square/fixed; native img omits upstream width/height hints, so intrinsic-space reservation differs but CSS box sizing is retained.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": [
+          "1080",
+          "1080"
+        ]
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/sunset-card.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/sunset-card.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "view_api_boundary",
+      "reason": "Sunset card receives display values instead of app query context; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 2,
+          "target_line": 3
+        },
+        {
+          "source_line": 10,
+          "target_line": 13
+        },
+        {
+          "source_line": 12,
+          "target_line": 15
+        }
+      ],
+      "body_sha256": {
+        "source": "0437b08199e7f02e5ed5472a68df75de926d2321c77f2aec9eaa3440a24cf80d",
+        "target": "b9221f7ec04fc94c86ecc0d617de04a8c77146336e3118755f9c38bdf2cc5587"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/page-parts.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/page-parts.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "shared_helper_extraction",
+      "reason": "Shared page helper components are extracted into a package module; mapped helper class/motion literals match their source definitions.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 6
+        },
+        {
+          "source_line": 13,
+          "target_line": 15
+        },
+        {
+          "source_line": 15,
+          "target_line": 17
+        },
+        {
+          "source_line": 25,
+          "target_line": 25
+        },
+        {
+          "source_line": 27,
+          "target_line": 27
+        },
+        {
+          "source_line": 29,
+          "target_line": 28
+        },
+        {
+          "source_line": 33,
+          "target_line": 31
+        }
+      ],
+      "body_sha256": {
+        "source": "5e15b7f93130f4ba96d778ad4852de8b3936373f6151331645aa927b78bf3168",
+        "target": "793dc4ae472e3896424a1efe0f1d74fd3f435fba850d655c1fd0ca758e1955b4"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/project-context.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/project-context.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "project_context_api_boundary",
+      "reason": "Project/org values and actions are host-supplied instead of app query/session context; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 6
+        },
+        {
+          "source_line": 15,
+          "target_line": 7
+        },
+        {
+          "source_line": 18,
+          "target_line": 9
+        },
+        {
+          "source_line": 28,
+          "target_line": 19
+        },
+        {
+          "source_line": 34,
+          "target_line": 26
+        },
+        {
+          "source_line": 37,
+          "target_line": 40
+        },
+        {
+          "source_line": 43,
+          "target_line": 78
+        }
+      ],
+      "body_sha256": {
+        "source": "b942a8f11758a22916fc3bb129e86db750961fbfc6beae51d77f5c2f81073b1c",
+        "target": "a0c01b97643c993b5e3074ecdc3809f71536403f5c2ac7f9a132406b59108077"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/prompt-prose.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/prompt-prose.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "prompt_data_api_boundary",
+      "reason": "Slot examples/loading are passed to the pure view instead of useProject/tRPC; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 8,
+          "target_line": 11
+        },
+        {
+          "source_line": 10,
+          "target_line": 12
+        },
+        {
+          "source_line": 13,
+          "target_line": 15
+        },
+        {
+          "source_line": 169,
+          "target_line": 168
+        },
+        {
+          "source_line": 243,
+          "target_line": 230
+        },
+        {
+          "source_line": 254,
+          "target_line": 234
+        }
+      ],
+      "body_sha256": {
+        "source": "449849acb232acbba87e52094378ec52b473ff5c501ebda9f2ba0cc4d8040321",
+        "target": "7a840dfa84ec4bf59d97c993eef3913e0fec9bc967f6a153559b0a6b74801491"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": [
+          "5",
+          "60",
+          "1000"
+        ]
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/prompt-versions-card.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/prompt-versions-card.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "prompt_data_api_boundary",
+      "reason": "Query wrapper is split from PromptVersionsView and the view takes data props; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 3,
+          "target_line": 3
+        },
+        {
+          "source_line": 11,
+          "target_line": 15
+        },
+        {
+          "source_line": 18,
+          "target_line": 21
+        },
+        {
+          "source_line": 21,
+          "target_line": 24
+        },
+        {
+          "source_line": 51,
+          "target_line": 51
+        }
+      ],
+      "body_sha256": {
+        "source": "f3d9c33c004f0f3fab18d290a27b600830c1b8af958d4137b9bfeb586c707344",
+        "target": "e75ca6b57ac2f09c79da82c23de50a4ca8405875cd76c83e6bb955748713b23e"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/quota-card.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/quota-card.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "query_to_view_api_boundary",
+      "reason": "Quota values are supplied by the host instead of project query context; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 6
+        },
+        {
+          "source_line": 6,
+          "target_line": 9
+        },
+        {
+          "source_line": 9,
+          "target_line": 10
+        },
+        {
+          "source_line": 15,
+          "target_line": 14
+        },
+        {
+          "source_line": 24,
+          "target_line": 16
+        },
+        {
+          "source_line": 69,
+          "target_line": 69
+        },
+        {
+          "source_line": 75,
+          "target_line": 76
+        }
+      ],
+      "body_sha256": {
+        "source": "c74065c48a6f5ad8c7c9e66257e61bcfad580068f7d70a9f2868410a459907c8",
+        "target": "bcac194c2a39400fb4ecbac3fc48ddaea6b366aae604ff160739109e5bdaecb9"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": [
+          "60000"
+        ]
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/tool-breakdown.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/tool-breakdown-card.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "verified_shared_helper_composition",
+      "reason": "Target inlines source PageParts ScrollFade and EmptyState. ScrollFade source is page-parts.tsx:542-604 and EmptyState is :687-715; target inlines at tool-breakdown.tsx:156-229. Caller composition matches source tool-breakdown-card.tsx:75-92, including default `border border-dashed` + caller `mb-12 h-full border-none` and icon `opacity-40` + `fill-current stroke-1`. Scroll edge math and class output are the same; query values are props.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 4,
+          "target_line": 7
+        },
+        {
+          "source_line": 10,
+          "target_line": 12
+        },
+        {
+          "source_line": 12,
+          "target_line": 14
+        },
+        {
+          "source_line": 14,
+          "target_line": 34
+        },
+        {
+          "source_line": 24,
+          "target_line": 48
+        },
+        {
+          "source_line": 28,
+          "target_line": 52
+        },
+        {
+          "source_line": 34,
+          "target_line": 59
+        }
+      ],
+      "body_sha256": {
+        "source": "d8dec9ffcd95cf8c5e100925d08d627e413b36969a295704fd893162bd723940",
+        "target": "16abd89e29f23b26f3f70650e474147a5baa556236b60b56808fe92a1981cdbe"
+      },
+      "class_literals": {
+        "source_only": [
+          "mb-12 h-full border-none"
+        ],
+        "target_only": [
+          "border border-dashed mb-12 h-full border-none",
+          "opacity-40 fill-current stroke-1",
+          "relative no-scrollbar",
+          "overflow-y-auto no-scrollbar",
+          "pointer-events-none absolute inset-x-0 top-0 h-10 bg-linear-to-b to-transparent transition-opacity duration-150",
+          "from-card",
+          "from-card",
+          "opacity-100",
+          "opacity-0",
+          "opacity-0",
+          "pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-linear-to-t to-transparent transition-opacity duration-150",
+          "opacity-75"
+        ],
+        "effective_composition_note": "Compare source shared helper composition, documented above."
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Direct class literal multiset differs due to inlining; effective classes and ScrollFade math match source helper composition. No animation/geometry change found.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/trace-timeline.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/app/trace-timeline.tsx",
+      "current_status": "non_import_body_exact",
+      "classification": "approved_import_boundary",
+      "reason": "Body now equals source after TS type erasure; UI and utility imports become package-local paths.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 3,
+          "target_line": 8
+        },
+        {
+          "source_line": 9,
+          "target_line": 14
+        },
+        {
+          "source_line": 25,
+          "target_line": 30
+        },
+        {
+          "source_line": 30,
+          "target_line": 35
+        },
+        {
+          "source_line": 38,
+          "target_line": 43
+        },
+        {
+          "source_line": 40,
+          "target_line": 44
+        },
+        {
+          "source_line": 44,
+          "target_line": 48
+        }
+      ],
+      "body_sha256": {
+        "source": "c65c7e3d9faf148297c987b1dc772fbd6f49cae0406fdcf74b988cf87608a446",
+        "target": "c65c7e3d9faf148297c987b1dc772fbd6f49cae0406fdcf74b988cf87608a446"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "No class or animation-body delta.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_import_residual_refreshed"
+    },
+    {
+      "target": "packages/design-system/src/widgets/user-menu.tsx",
+      "source": ".reference/foglamp/apps/web/src/components/user-menu.tsx",
+      "current_status": "emitted_body_difference",
+      "classification": "session_api_boundary",
+      "reason": "Session/user state and actions are caller supplied instead of auth/session context; classes and inspected motion values match.",
+      "source_target_file_hunks": [
+        {
+          "source_line": 1,
+          "target_line": 1
+        },
+        {
+          "source_line": 15,
+          "target_line": 6
+        },
+        {
+          "source_line": 18,
+          "target_line": 20
+        },
+        {
+          "source_line": 22,
+          "target_line": 22
+        },
+        {
+          "source_line": 26,
+          "target_line": 41
+        },
+        {
+          "source_line": 34,
+          "target_line": 49
+        },
+        {
+          "source_line": 66,
+          "target_line": 71
+        }
+      ],
+      "body_sha256": {
+        "source": "d9d6927216c8299772b0a55d5d56c4b835f446ab318ba629af626f504ca68be7",
+        "target": "363fcf6168a5526e175dbbe569a91781afafea92ff7bbafa4e226554fd04592b"
+      },
+      "class_literals": {
+        "source_only": [],
+        "target_only": []
+      },
+      "motion_props_equal": true,
+      "timing_property_lists_equal": true,
+      "visual_animation_disposition": "Class literals match by multiset; inspected motion/animation properties match. API/data/logic behavior is not proven equal by this static check.",
+      "numeric_literals": {
+        "target_only": [],
+        "source_only": []
+      },
+      "record_type": "prior_body_residual_refreshed"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+--- .reference/foglamp/apps/web/src/app/hud/hud-landing.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/marketing/hud-landing.tsx	2026-11-05 19:02:55
+@@ -1,14 +1,15 @@
+ "use client";
+ const EASE = [0.22, 1, 0.36, 1];
+-const FoglampHUD = dynamic(() => import("foglamp/hud").then((m) => m.FoglampHUD), { ssr: false, loading: () => null });
+-const DEMO_ORIGIN = "https://hud.foglamp.dev";
+-export function HudLanding() {
++export function HudSimulatorBlock({ homeHref = "/homepage" } = {}) {
+     const reduce = useReducedMotion() ?? false;
+     const [state, setState] = useState("idle");
++    const stream = useMemo(() => createMockHudStream(), []);
++    const timers = useRef([]);
+     const [openWide, setOpenWide] = useState(null);
+     useEffect(() => {
+         setOpenWide(window.matchMedia("(min-width: 1024px)").matches);
+     }, []);
++    useEffect(() => () => timers.current.forEach((timer) => window.clearTimeout(timer)), []);
+     const rise = (delay) => reduce
+         ? {}
+         : {
+@@ -16,20 +17,44 @@
+             animate: { opacity: 1, y: 0, filter: "blur(0px)" },
+             transition: { duration: 0.7, ease: EASE, delay },
+         };
+-    async function runStorm() {
++    function runStorm() {
++        timers.current.forEach((timer) => window.clearTimeout(timer));
++        timers.current = [];
+         setState("running");
+-        try {
+-            const res = await fetch(`${DEMO_ORIGIN}/api/storm`, {
+-                method: "POST",
+-                mode: "cors",
+-            });
+-            if (!res.ok)
+-                throw new Error(String(res.status));
+-            setTimeout(() => setState("idle"), 8000);
+-        }
+-        catch {
+-            setState("down");
+-        }
++        const startedAt = Date.now();
++        const traceId = "demo-" + startedAt;
++        const usageOne = { inputTokens: 2840, outputTokens: 45, totalTokens: 2885, reasoningTokens: 4 };
++        const usageTwo = { inputTokens: 3190, outputTokens: 79, totalTokens: 3269, reasoningTokens: 12 };
++        const trace = {
++            traceId,
++            traceName: "Support research",
++            agentName: "Foggy",
++            spans: [
++                { spanId: "trace-root", spanType: "agent", name: "supportResearch", startTime: startedAt, endTime: startedAt + 4700, status: "ok", systemPrompt: "Find the relevant docs and answer clearly." },
++                { spanId: "model-call-1", parentSpanId: "trace-root", spanType: "llm", name: "generateText", startTime: startedAt + 240, endTime: startedAt + 3000, status: "ok", provider: "openai", modelId: "gpt-4o", usage: usageOne, ttftMs: 340, modelCallMs: 1760, input: "Search the SDK docs for device authorization.", output: "The terminal login flow uses a short-lived device code." },
++                { spanId: "docs-search", parentSpanId: "trace-root", spanType: "tool", name: "searchDocs", startTime: startedAt + 1200, endTime: startedAt + 2100, status: "ok", input: "{\"query\":\"device authorization\"}", output: "Found the device authorization guide." },
++                { spanId: "model-call-2", parentSpanId: "trace-root", spanType: "llm", name: "generateText", startTime: startedAt + 3100, endTime: startedAt + 4500, status: "ok", provider: "openai", modelId: "gpt-4o", usage: usageTwo, ttftMs: 220, modelCallMs: 940, input: "Summarize the authorization guide for the user.", output: "Run foglamp login, open the printed URL, and approve the code." },
++            ],
++        };
++        const events = [
++            { delay: 0, event: { type: "trace.start", traceId, ts: startedAt, name: "Support research", agentName: "Foggy", provider: "openai", model: "gpt-4o", toolCatalog: "{\"searchDocs\":{}}" } },
++            { delay: 240, event: { type: "step.start", traceId, ts: startedAt + 240, stepNumber: 1, provider: "openai", model: "gpt-4o" } },
++            { delay: 580, event: { type: "step.firstToken", traceId, ts: startedAt + 580, stepNumber: 1, ttftMs: 340 } },
++            { delay: 1000, event: { type: "step.tokens", traceId, ts: startedAt + 1000, stepNumber: 1, outputTokens: 22, reasoningTokens: 2, tps: 52 } },
++            { delay: 1200, event: { type: "tool.start", traceId, ts: startedAt + 1200, toolCallId: "docs-1", toolName: "searchDocs", input: "{\"query\":\"device authorization\"}" } },
++            { delay: 2100, event: { type: "tool.end", traceId, ts: startedAt + 2100, toolCallId: "docs-1", toolName: "searchDocs", status: "ok", output: "Found the device authorization guide.", durationMs: 900 } },
++            { delay: 2500, event: { type: "step.tokens", traceId, ts: startedAt + 2500, stepNumber: 1, outputTokens: 45, reasoningTokens: 4, tps: 44 } },
++            { delay: 3000, event: { type: "step.end", traceId, ts: startedAt + 3000, stepNumber: 1, status: "ok", usage: usageOne, ttftMs: 340, durationMs: 2760, outputTps: 16.3, modelCallMs: 1760 } },
++            { delay: 3100, event: { type: "step.start", traceId, ts: startedAt + 3100, stepNumber: 2, provider: "openai", model: "gpt-4o" } },
++            { delay: 3320, event: { type: "step.firstToken", traceId, ts: startedAt + 3320, stepNumber: 2, ttftMs: 220 } },
++            { delay: 3900, event: { type: "step.tokens", traceId, ts: startedAt + 3900, stepNumber: 2, outputTokens: 48, reasoningTokens: 7, tps: 48 } },
++            { delay: 4500, event: { type: "step.end", traceId, ts: startedAt + 4500, stepNumber: 2, status: "ok", usage: usageTwo, ttftMs: 220, durationMs: 1400, outputTps: 56.4, modelCallMs: 940 } },
++            { delay: 4700, event: { type: "trace.end", traceId, ts: startedAt + 4700, status: "ok", trace, totals: { inputTokens: 6030, outputTokens: 124, totalTokens: 6154, durationMs: 4700, costUsd: 0.0048 } } },
++        ];
++        events.forEach(({ delay, event }) => {
++            timers.current.push(window.setTimeout(() => stream.emit({ ...event, ts: Date.now() }), delay));
++        });
++        timers.current.push(window.setTimeout(() => setState("idle"), 8000));
+     }
+     return (<div className="fixed inset-0 isolate overflow-hidden bg-background">
+ 			
+@@ -54,7 +79,7 @@
+           foglamp-hud { bottom: 24%; }
+         }
+       `}</style>
+-			{openWide !== null && (<FoglampHUD url={`${DEMO_ORIGIN}/hud/events`} defaultOpen={openWide}/>)}
++			{openWide !== null && (<FoglampHUD stream={stream} defaultOpen={openWide}/>)}
+ 
+ 			
+ 			<div className="absolute top-8 left-8 z-10 sm:top-14 sm:left-14">
+@@ -66,7 +91,7 @@
+ 
+ 			
+ 			<div className="absolute top-8 right-8 z-10 sm:top-10 sm:right-10">
+-				<Button variant="outline" render={<Link href="/homepage"/>} className="px-3.5 has-[>svg:first-child]:pl-3 gap-2">
++				<Button variant="outline" render={<FoglampLink href={homeHref}/>} className="px-3.5 has-[>svg:first-child]:pl-3 gap-2">
+ 					<BrandMark className="h-3! w-auto!"/>
+ 					Try Foglamp
+ 				</Button>
+@@ -82,11 +107,12 @@
+ 					See every agent working before they reach production.
+ 				</motion.p>
+ 				<motion.div {...rise(0.39)} className="md:mt-7 mt-6 flex flex-wrap items-center gap-3">
+-					<Button size="lg" className="text-base" onClick={runStorm}>
++					<Button size="lg" className="text-base" onClick={runStorm} disabled={state === "running"}>
+ 						<IconBoltFilled className="size-4"/>
+-						Run an agent storm
++						{state === "running" ? "Running agent storm…" : "Run an agent storm"}
+ 					</Button>
+ 				</motion.div>
+ 			</div>
+ 		</div>);
+ }
++export const HudLanding = HudSimulatorBlock;

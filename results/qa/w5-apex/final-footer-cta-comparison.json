@@ -1,0 +1,76 @@
+[
+  {
+    "id": "blocks/cutting-mat-footer-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      156,
+      415,
+      1125,
+      737
+    ],
+    "differing_pixels": 9312,
+    "mean_abs_channel_error": 0.3570173611111111,
+    "pixel_total": 1152000,
+    "element_counts": [
+      82,
+      89
+    ],
+    "computed_differing_elements": 13,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/drifting-fog-cta-block",
+    "theme": "light",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      118,
+      118
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  },
+  {
+    "id": "blocks/cutting-mat-footer-block",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      156,
+      415,
+      1125,
+      737
+    ],
+    "differing_pixels": 9311,
+    "mean_abs_channel_error": 0.39365625,
+    "pixel_total": 1152000,
+    "element_counts": [
+      82,
+      89
+    ],
+    "computed_differing_elements": 13,
+    "status": "DIFFERENT"
+  },
+  {
+    "id": "blocks/drifting-fog-cta-block",
+    "theme": "dark",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      118,
+      118
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT"
+  }
+]

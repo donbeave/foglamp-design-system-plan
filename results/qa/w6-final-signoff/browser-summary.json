@@ -1,0 +1,159 @@
+{
+  "browser": "Chrome/157.0.8103.39",
+  "valid_rows": 24,
+  "startup_invalid_case_retained": "browser.json rows[0] (preview-start connection refused; rerun valid)",
+  "errors": 0,
+  "layout_shifts": 0,
+  "document_overflow": 0,
+  "frame_count": 16,
+  "frame_theme_mismatches": 0,
+  "frame_not_ready": 0,
+  "source_surface_missing": 0,
+  "frame_document_overflow": 0,
+  "provenance_counts": [
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/",
+      "count": 1
+    },
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/docs",
+      "count": 0
+    },
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/docs/credits",
+      "count": 0
+    },
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/docs/primitives/collapsible",
+      "count": 2
+    },
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/docs/primitives/button",
+      "count": 2
+    },
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "count": 2
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/",
+      "count": 1
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/docs",
+      "count": 0
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/docs/credits",
+      "count": 0
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/docs/primitives/collapsible",
+      "count": 2
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/docs/primitives/button",
+      "count": 2
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "count": 2
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/",
+      "count": 1
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/docs",
+      "count": 0
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/docs/credits",
+      "count": 0
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/docs/primitives/collapsible",
+      "count": 2
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/docs/primitives/button",
+      "count": 2
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "count": 2
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/",
+      "count": 1
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/docs",
+      "count": 0
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/docs/credits",
+      "count": 0
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/docs/primitives/collapsible",
+      "count": 2
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/docs/primitives/button",
+      "count": 2
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "count": 2
+    }
+  ]
+}

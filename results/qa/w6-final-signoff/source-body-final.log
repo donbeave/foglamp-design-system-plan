@@ -1,0 +1,28 @@
+{
+  "base": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1",
+  "pin": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "equal_after_explicit_namespace_linkname_adapter": 261,
+  "reviewed_residuals": [
+    "packages/design-system/src/blocks/marketing/chrome/logo.tsx",
+    "packages/design-system/src/blocks/marketing/chrome/navbar.tsx",
+    "packages/design-system/src/blocks/marketing/demo/demo-sidebar.tsx",
+    "packages/design-system/src/index.ts",
+    "packages/design-system/src/lib/link-context.tsx"
+  ],
+  "styles": [
+    {
+      "path": "packages/design-system/src/styles/effects.css",
+      "baseline_body_sha256": "a1cde65c3484ff1a978aa080763303f39b5d637a079f48e5c74c6597180d1bbf",
+      "body_sha256": "a1cde65c3484ff1a978aa080763303f39b5d637a079f48e5c74c6597180d1bbf",
+      "equal_after_explicit_namespace_linkname_adapter": true
+    },
+    {
+      "path": "packages/design-system/src/styles/globals.css",
+      "baseline_body_sha256": "b80c8b7aaa6d6b9679c2bb79ba687571843cfe20514fe6b2e1d7c8c3be07a606",
+      "body_sha256": "b80c8b7aaa6d6b9679c2bb79ba687571843cfe20514fe6b2e1d7c8c3be07a606",
+      "equal_after_explicit_namespace_linkname_adapter": true
+    }
+  ],
+  "font_bytes_equal_W5": true,
+  "deleted_original_author_file": true
+}

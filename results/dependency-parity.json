@@ -1,0 +1,1180 @@
+{
+  "task_id": "W4-DEPENDENCY-PARITY-AUDIT",
+  "profile": "foglamp_luna_low",
+  "model": "gpt-6-luna",
+  "effort": "low",
+  "audit_scope": "Initial lockfile comparison followed by coordinator-approved source fidelity pinning. Package and lock mutations were applied only in the target workspace; this report records the resulting direct and nested dependency graphs.",
+  "provenance": {
+    "original_repository": "https://github.com/foglamp-labs/foglamp",
+    "source_commit": "7d7e6609108019a74902858d4b07c24825c6318b",
+    "source_lockfile": "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/bun.lock",
+    "target_commit": "1aa947ef5ae872767c27ddaa60539283dc30c4f5",
+    "target_lockfile": "/Users/donbeave/Projects/donbeave/foglamp-design-system/bun.lock (post-pin working tree)",
+    "target_commit_before_pins": "1aa947ef5ae872767c27ddaa60539283dc30c4f5"
+  },
+  "method": {
+    "lock_parsing": "Bun.JSONC.parse; compared package-lock entries by package name and resolved version.",
+    "source_manifests": [
+      "packages/ui/package.json",
+      "apps/web/package.json"
+    ],
+    "target_manifests": [
+      "packages/design-system/package.json",
+      "apps/docs/package.json"
+    ],
+    "catalog_ranges": "Resolved upstream catalog entries through the upstream root bun.lock catalog before comparison."
+  },
+  "summary": {
+    "unique_source_direct_dependencies": 58,
+    "unique_target_direct_dependencies": 53,
+    "shared_dependencies": 33,
+    "source_version_match_in_design_system_context": 33,
+    "source_version_drift_in_design_system_context": 0,
+    "source_only_dependencies": 25,
+    "target_only_dependencies": 20
+  },
+  "comparisons": [
+    {
+      "name": "@base-ui/react",
+      "sourceRanges": {
+        "packages/ui": "^1.4.0"
+      },
+      "sourceLocked": "1.4.1",
+      "targetRanges": {
+        "packages/design-system": "1.4.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.4.1"
+      },
+      "targetLockEntry": "1.4.1",
+      "canonicalTarget": "1.4.1",
+      "lockMatches": true
+    },
+    {
+      "name": "@tabler/icons-react",
+      "sourceRanges": {
+        "packages/ui": "^3.41.1",
+        "apps/web": "^3.41.1"
+      },
+      "sourceLocked": "3.41.1",
+      "targetRanges": {
+        "packages/design-system": "3.41.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "3.41.1"
+      },
+      "targetLockEntry": "3.41.1",
+      "canonicalTarget": "3.41.1",
+      "lockMatches": true
+    },
+    {
+      "name": "@tanstack/react-form",
+      "sourceRanges": {
+        "apps/web": "^1.28.0"
+      },
+      "sourceLocked": "1.29.1",
+      "targetRanges": {
+        "packages/design-system": "1.29.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.29.1"
+      },
+      "targetLockEntry": "1.29.1",
+      "canonicalTarget": "1.29.1",
+      "lockMatches": true
+    },
+    {
+      "name": "@toolwind/corner-shape",
+      "sourceRanges": {
+        "packages/ui": "^0.0.8-3"
+      },
+      "sourceLocked": "0.0.8-3",
+      "targetRanges": {
+        "packages/design-system": "0.0.8-3"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "0.0.8-3"
+      },
+      "targetLockEntry": "0.0.8-3",
+      "canonicalTarget": "0.0.8-3",
+      "lockMatches": true
+    },
+    {
+      "name": "@types/node",
+      "sourceRanges": {
+        "apps/web": "^20"
+      },
+      "sourceLocked": "20.19.39",
+      "targetRanges": {
+        "packages/design-system": "20.19.39",
+        "apps/docs": "20.19.39"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "20.19.39",
+        "apps/docs": "20.19.39"
+      },
+      "targetLockEntry": "20.19.39",
+      "canonicalTarget": "20.19.39",
+      "lockMatches": true
+    },
+    {
+      "name": "@types/react",
+      "sourceRanges": {
+        "packages/ui": "^19.2.10",
+        "apps/web": "^19.2.10"
+      },
+      "sourceLocked": "19.2.14",
+      "targetRanges": {
+        "packages/design-system": "19.2.14",
+        "apps/docs": "19.2.14"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "19.2.14",
+        "apps/docs": "19.2.14"
+      },
+      "targetLockEntry": "19.2.14",
+      "canonicalTarget": "19.2.14",
+      "lockMatches": true
+    },
+    {
+      "name": "@types/react-dom",
+      "sourceRanges": {
+        "packages/ui": "^19.2.3",
+        "apps/web": "^19.2.3"
+      },
+      "sourceLocked": "19.2.3",
+      "targetRanges": {
+        "packages/design-system": "19.2.3",
+        "apps/docs": "19.2.3"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "19.2.3",
+        "apps/docs": "19.2.3"
+      },
+      "targetLockEntry": "19.2.3",
+      "canonicalTarget": "19.2.3",
+      "lockMatches": true
+    },
+    {
+      "name": "border-beam",
+      "sourceRanges": {
+        "apps/web": "^1.2.0"
+      },
+      "sourceLocked": "1.2.0",
+      "targetRanges": {
+        "packages/design-system": "1.2.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.2.0"
+      },
+      "targetLockEntry": "1.2.0",
+      "canonicalTarget": "1.2.0",
+      "lockMatches": true
+    },
+    {
+      "name": "class-variance-authority",
+      "sourceRanges": {
+        "packages/ui": "^0.7.1"
+      },
+      "sourceLocked": "0.7.1",
+      "targetRanges": {
+        "packages/design-system": "0.7.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "0.7.1"
+      },
+      "targetLockEntry": "0.7.1",
+      "canonicalTarget": "0.7.1",
+      "lockMatches": true
+    },
+    {
+      "name": "clsx",
+      "sourceRanges": {
+        "packages/ui": "^2.1.1"
+      },
+      "sourceLocked": "2.1.1",
+      "targetRanges": {
+        "packages/design-system": "2.1.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "2.1.1"
+      },
+      "targetLockEntry": "2.1.1",
+      "canonicalTarget": "2.1.1",
+      "lockMatches": true
+    },
+    {
+      "name": "cmdk",
+      "sourceRanges": {
+        "packages/ui": "^1.1.1"
+      },
+      "sourceLocked": "1.1.1",
+      "targetRanges": {
+        "packages/design-system": "1.1.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.1.1"
+      },
+      "targetLockEntry": "1.1.1",
+      "canonicalTarget": "1.1.1",
+      "lockMatches": true
+    },
+    {
+      "name": "date-fns",
+      "sourceRanges": {
+        "packages/ui": "^4.1.0",
+        "apps/web": "^4.1.0"
+      },
+      "sourceLocked": "4.1.0",
+      "targetRanges": {
+        "packages/design-system": "4.1.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "4.1.0"
+      },
+      "targetLockEntry": "4.1.0",
+      "canonicalTarget": "4.1.0",
+      "lockMatches": true
+    },
+    {
+      "name": "elkjs",
+      "sourceRanges": {
+        "apps/web": "^0.11.1"
+      },
+      "sourceLocked": "0.11.1",
+      "targetRanges": {
+        "packages/design-system": "0.11.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "0.11.1"
+      },
+      "targetLockEntry": "0.11.1",
+      "canonicalTarget": "0.11.1",
+      "lockMatches": true
+    },
+    {
+      "name": "embla-carousel-react",
+      "sourceRanges": {
+        "packages/ui": "^8.6.0"
+      },
+      "sourceLocked": "8.6.0",
+      "targetRanges": {
+        "packages/design-system": "8.6.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "8.6.0"
+      },
+      "targetLockEntry": "8.6.0",
+      "canonicalTarget": "8.6.0",
+      "lockMatches": true
+    },
+    {
+      "name": "input-otp",
+      "sourceRanges": {
+        "packages/ui": "^1.4.2"
+      },
+      "sourceLocked": "1.4.2",
+      "targetRanges": {
+        "packages/design-system": "1.4.2"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.4.2"
+      },
+      "targetLockEntry": "1.4.2",
+      "canonicalTarget": "1.4.2",
+      "lockMatches": true
+    },
+    {
+      "name": "motion",
+      "sourceRanges": {
+        "packages/ui": "^12.40.0",
+        "apps/web": "^12.40.0"
+      },
+      "sourceLocked": "12.40.0",
+      "targetRanges": {
+        "packages/design-system": "12.40.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "12.40.0"
+      },
+      "targetLockEntry": "12.40.0",
+      "canonicalTarget": "12.40.0",
+      "lockMatches": true
+    },
+    {
+      "name": "next-themes",
+      "sourceRanges": {
+        "packages/ui": "^0.4.6",
+        "apps/web": "^0.4.6"
+      },
+      "sourceLocked": "0.4.6",
+      "targetRanges": {
+        "packages/design-system": "0.4.6"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "0.4.6"
+      },
+      "targetLockEntry": "0.4.6",
+      "canonicalTarget": "0.4.6",
+      "lockMatches": true
+    },
+    {
+      "name": "react",
+      "sourceRanges": {
+        "packages/ui": "^19.2.3",
+        "apps/web": "^19.2.3"
+      },
+      "sourceLocked": "19.2.5",
+      "targetRanges": {
+        "packages/design-system": "19.2.5",
+        "apps/docs": "19.2.5"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "19.2.5",
+        "apps/docs": "19.2.5"
+      },
+      "targetLockEntry": "19.2.5",
+      "canonicalTarget": "19.2.5",
+      "lockMatches": true
+    },
+    {
+      "name": "react-day-picker",
+      "sourceRanges": {
+        "packages/ui": "^9.14.0"
+      },
+      "sourceLocked": "9.14.0",
+      "targetRanges": {
+        "packages/design-system": "9.14.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "9.14.0"
+      },
+      "targetLockEntry": "9.14.0",
+      "canonicalTarget": "9.14.0",
+      "lockMatches": true
+    },
+    {
+      "name": "react-dom",
+      "sourceRanges": {
+        "packages/ui": "^19.2.3",
+        "apps/web": "^19.2.3"
+      },
+      "sourceLocked": "19.2.5",
+      "targetRanges": {
+        "packages/design-system": "19.2.5",
+        "apps/docs": "19.2.5"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "19.2.5",
+        "apps/docs": "19.2.5"
+      },
+      "targetLockEntry": "19.2.5",
+      "canonicalTarget": "19.2.5",
+      "lockMatches": true
+    },
+    {
+      "name": "react-resizable-panels",
+      "sourceRanges": {
+        "packages/ui": "^4.10.0"
+      },
+      "sourceLocked": "4.10.0",
+      "targetRanges": {
+        "packages/design-system": "4.10.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "4.10.0"
+      },
+      "targetLockEntry": "4.10.0",
+      "canonicalTarget": "4.10.0",
+      "lockMatches": true
+    },
+    {
+      "name": "recharts",
+      "sourceRanges": {
+        "packages/ui": "^3.8.1"
+      },
+      "sourceLocked": "3.8.1",
+      "targetRanges": {
+        "packages/design-system": "3.8.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "3.8.1"
+      },
+      "targetLockEntry": "3.8.1",
+      "canonicalTarget": "3.8.1",
+      "lockMatches": true
+    },
+    {
+      "name": "shadcn",
+      "sourceRanges": {
+        "packages/ui": "^4.12.0"
+      },
+      "sourceLocked": "4.12.0",
+      "targetRanges": {
+        "packages/design-system": "4.12.0",
+        "apps/docs": "^4.23.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "4.12.0",
+        "apps/docs": "4.23.0"
+      },
+      "targetLockEntry": "4.12.0",
+      "canonicalTarget": "4.12.0",
+      "lockMatches": true
+    },
+    {
+      "name": "shiki",
+      "sourceRanges": {
+        "apps/web": "^4.1.0"
+      },
+      "sourceLocked": "4.1.0",
+      "targetRanges": {
+        "packages/design-system": "4.1.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "4.1.0"
+      },
+      "targetLockEntry": "4.1.0",
+      "canonicalTarget": "4.1.0",
+      "lockMatches": true
+    },
+    {
+      "name": "slot-text",
+      "sourceRanges": {
+        "apps/web": "^0.2.2"
+      },
+      "sourceLocked": "0.2.2",
+      "targetRanges": {
+        "packages/design-system": "0.2.2"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "0.2.2"
+      },
+      "targetLockEntry": "0.2.2",
+      "canonicalTarget": "0.2.2",
+      "lockMatches": true
+    },
+    {
+      "name": "sonner",
+      "sourceRanges": {
+        "packages/ui": "^2.0.7",
+        "apps/web": "^2.0.5"
+      },
+      "sourceLocked": "2.0.7",
+      "targetRanges": {
+        "packages/design-system": "2.0.7"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "2.0.7"
+      },
+      "targetLockEntry": "2.0.7",
+      "canonicalTarget": "2.0.7",
+      "lockMatches": true
+    },
+    {
+      "name": "streamdown",
+      "sourceRanges": {
+        "apps/web": "^2.5.0"
+      },
+      "sourceLocked": "2.5.0",
+      "targetRanges": {
+        "packages/design-system": "2.5.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "2.5.0"
+      },
+      "targetLockEntry": "2.5.0",
+      "canonicalTarget": "2.5.0",
+      "lockMatches": true
+    },
+    {
+      "name": "tailwind-merge",
+      "sourceRanges": {
+        "packages/ui": "^3.5.0"
+      },
+      "sourceLocked": "3.5.0",
+      "targetRanges": {
+        "packages/design-system": "3.5.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "3.5.0"
+      },
+      "targetLockEntry": "3.5.0",
+      "canonicalTarget": "3.5.0",
+      "lockMatches": true
+    },
+    {
+      "name": "tailwindcss",
+      "sourceRanges": {
+        "packages/ui": "^4.1.18",
+        "apps/web": "^4.1.18"
+      },
+      "sourceLocked": "4.3.1",
+      "targetRanges": {
+        "packages/design-system": "4.3.1",
+        "apps/docs": "4.3.1"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "4.3.1",
+        "apps/docs": "4.3.1"
+      },
+      "targetLockEntry": "4.3.1",
+      "canonicalTarget": "4.3.1",
+      "lockMatches": true
+    },
+    {
+      "name": "tw-animate-css",
+      "sourceRanges": {
+        "packages/ui": "^1.4.0"
+      },
+      "sourceLocked": "1.4.0",
+      "targetRanges": {
+        "packages/design-system": "1.4.0",
+        "apps/docs": "^1.4.0"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.4.0",
+        "apps/docs": "1.4.0"
+      },
+      "targetLockEntry": "1.4.0",
+      "canonicalTarget": "1.4.0",
+      "lockMatches": true
+    },
+    {
+      "name": "typescript",
+      "sourceRanges": {
+        "packages/ui": "^5.9.3",
+        "apps/web": "^5"
+      },
+      "sourceLocked": "5.9.3",
+      "targetRanges": {
+        "packages/design-system": "5.9.3",
+        "apps/docs": "5.9.3"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "5.9.3",
+        "apps/docs": "5.9.3"
+      },
+      "targetLockEntry": "5.9.3",
+      "canonicalTarget": "5.9.3",
+      "lockMatches": true
+    },
+    {
+      "name": "vaul",
+      "sourceRanges": {
+        "packages/ui": "^1.1.2"
+      },
+      "sourceLocked": "1.1.2",
+      "targetRanges": {
+        "packages/design-system": "1.1.2"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "1.1.2"
+      },
+      "targetLockEntry": "1.1.2",
+      "canonicalTarget": "1.1.2",
+      "lockMatches": true
+    },
+    {
+      "name": "zod",
+      "sourceRanges": {
+        "apps/web": "^4.1.13"
+      },
+      "sourceLocked": "4.3.6",
+      "targetRanges": {
+        "packages/design-system": "4.3.6"
+      },
+      "targetResolvedByWorkspace": {
+        "packages/design-system": "4.3.6"
+      },
+      "targetLockEntry": "4.3.6",
+      "canonicalTarget": "4.3.6",
+      "lockMatches": true
+    }
+  ],
+  "source_only_dependencies": [
+    {
+      "name": "@ai-sdk/react",
+      "sourceRanges": {
+        "apps/web": "4.0.0"
+      },
+      "sourceLocked": "4.0.0"
+    },
+    {
+      "name": "@better-auth/stripe",
+      "sourceRanges": {
+        "apps/web": "1.6.12"
+      },
+      "sourceLocked": "1.6.12"
+    },
+    {
+      "name": "@foglamp/api",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/api"
+    },
+    {
+      "name": "@foglamp/auth",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/auth"
+    },
+    {
+      "name": "@foglamp/config",
+      "sourceRanges": {
+        "packages/ui": "workspace:*",
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/config"
+    },
+    {
+      "name": "@foglamp/contracts",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/contracts"
+    },
+    {
+      "name": "@foglamp/env",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/env"
+    },
+    {
+      "name": "@foglamp/prompts",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/prompts"
+    },
+    {
+      "name": "@foglamp/ui",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/ui"
+    },
+    {
+      "name": "@number-flow/react",
+      "sourceRanges": {
+        "apps/web": "^0.6.0"
+      },
+      "sourceLocked": "0.6.0"
+    },
+    {
+      "name": "@tailwindcss/postcss",
+      "sourceRanges": {
+        "apps/web": "^4.1.18"
+      },
+      "sourceLocked": "4.2.4"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "sourceRanges": {
+        "apps/web": "^5.90.12"
+      },
+      "sourceLocked": "5.100.5"
+    },
+    {
+      "name": "@tanstack/react-query-devtools",
+      "sourceRanges": {
+        "apps/web": "^5.91.1"
+      },
+      "sourceLocked": "5.100.5"
+    },
+    {
+      "name": "@trpc/client",
+      "sourceRanges": {
+        "apps/web": "^11.13.4"
+      },
+      "sourceLocked": "11.16.0"
+    },
+    {
+      "name": "@trpc/server",
+      "sourceRanges": {
+        "apps/web": "^11.13.4"
+      },
+      "sourceLocked": "11.16.0"
+    },
+    {
+      "name": "@trpc/tanstack-react-query",
+      "sourceRanges": {
+        "apps/web": "^11.13.4"
+      },
+      "sourceLocked": "11.16.0"
+    },
+    {
+      "name": "@vercel/analytics",
+      "sourceRanges": {
+        "apps/web": "^2.0.1"
+      },
+      "sourceLocked": "2.0.1"
+    },
+    {
+      "name": "ai",
+      "sourceRanges": {
+        "apps/web": "7.0.0"
+      },
+      "sourceLocked": "7.0.0"
+    },
+    {
+      "name": "babel-plugin-react-compiler",
+      "sourceRanges": {
+        "apps/web": "^1.0.0"
+      },
+      "sourceLocked": "1.0.0"
+    },
+    {
+      "name": "better-auth",
+      "sourceRanges": {
+        "apps/web": "1.6.12"
+      },
+      "sourceLocked": "1.6.12"
+    },
+    {
+      "name": "dotenv",
+      "sourceRanges": {
+        "apps/web": "^17.2.2"
+      },
+      "sourceLocked": "17.4.2"
+    },
+    {
+      "name": "foglamp",
+      "sourceRanges": {
+        "apps/web": "workspace:*"
+      },
+      "sourceLocked": "workspace:packages/sdk"
+    },
+    {
+      "name": "next",
+      "sourceRanges": {
+        "apps/web": "^16.2.0"
+      },
+      "sourceLocked": "16.2.4"
+    },
+    {
+      "name": "ogl",
+      "sourceRanges": {
+        "apps/web": "^1.0.11"
+      },
+      "sourceLocked": "1.0.11"
+    },
+    {
+      "name": "posthog-js",
+      "sourceRanges": {
+        "apps/web": "^1.376.6"
+      },
+      "sourceLocked": "1.376.6"
+    }
+  ],
+  "target_only_dependencies": [
+    {
+      "name": "@foglamp/design-system",
+      "targetRanges": {
+        "apps/docs": "workspace:*"
+      },
+      "targetLocked": "workspace:packages/design-system"
+    },
+    {
+      "name": "@fontsource-variable/geist-mono",
+      "targetRanges": {
+        "apps/docs": "^5.3.0"
+      },
+      "targetLocked": "5.3.0"
+    },
+    {
+      "name": "@fontsource-variable/host-grotesk",
+      "targetRanges": {
+        "apps/docs": "^5.3.0"
+      },
+      "targetLocked": "5.3.0"
+    },
+    {
+      "name": "@fumadocs/story",
+      "targetRanges": {
+        "apps/docs": "^1.5.3"
+      },
+      "targetLocked": "1.5.3"
+    },
+    {
+      "name": "@fumari/stf",
+      "targetRanges": {
+        "apps/docs": "^1.1.2"
+      },
+      "targetLocked": "1.1.2"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "targetRanges": {
+        "apps/docs": "^4.3.4"
+      },
+      "targetLocked": "4.3.4"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "targetRanges": {
+        "apps/docs": "^1.170.46"
+      },
+      "targetLocked": "1.170.46"
+    },
+    {
+      "name": "@tanstack/react-start",
+      "targetRanges": {
+        "apps/docs": "^1.169.4"
+      },
+      "targetLocked": "1.169.4"
+    },
+    {
+      "name": "@types/bun",
+      "targetRanges": {
+        "packages/design-system": "^1.3.4"
+      },
+      "targetLocked": "1.4.4"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "targetRanges": {
+        "apps/docs": "^6.2.1"
+      },
+      "targetLocked": "6.2.1"
+    },
+    {
+      "name": "cn",
+      "targetRanges": {
+        "packages/design-system": "^0.2.4"
+      },
+      "targetLocked": "0.2.6"
+    },
+    {
+      "name": "fumadocs-core",
+      "targetRanges": {
+        "apps/docs": "^16.17.10"
+      },
+      "targetLocked": "16.17.10"
+    },
+    {
+      "name": "fumadocs-mdx",
+      "targetRanges": {
+        "apps/docs": "^15.4.10"
+      },
+      "targetLocked": "15.4.10"
+    },
+    {
+      "name": "fumadocs-ui",
+      "targetRanges": {
+        "apps/docs": "npm:@fumadocs/base-ui@^16.17.10"
+      },
+      "targetLocked": "se-ui@16.17.10"
+    },
+    {
+      "name": "vite",
+      "targetRanges": {
+        "apps/docs": "^8"
+      },
+      "targetLocked": "8.3.6"
+    }
+  ],
+  "pin_proposal": {
+    "policy": "Exact-pin source-derived design-system dependencies to upstream resolved versions. Keep portal-only Fumadocs versions in separate compatible contexts; avoid root-wide overrides.",
+    "exact_design_system_pins": {
+      "@base-ui/react": "1.4.1",
+      "@tabler/icons-react": "3.41.1",
+      "@tanstack/react-form": "1.29.1",
+      "border-beam": "1.2.0",
+      "date-fns": "4.1.0",
+      "input-otp": "1.4.2",
+      "motion": "12.40.0",
+      "react": "19.2.5",
+      "react-dom": "19.2.5",
+      "react-resizable-panels": "4.10.0",
+      "recharts": "3.8.1",
+      "shadcn": "4.12.0",
+      "shiki": "4.1.0",
+      "sonner": "2.0.7",
+      "streamdown": "2.5.0",
+      "tailwind-merge": "3.5.0",
+      "zod": "4.3.6"
+    },
+    "key_separation": [
+      {
+        "package": "@base-ui/react",
+        "design_system": "1.4.1",
+        "portal_fumadocs": "1.9.0",
+        "method": "Separate resolved package contexts; no global override."
+      },
+      {
+        "package": "react and react-dom",
+        "design_system_and_docs": "19.2.5",
+        "portal_constraint": "Fumadocs Base UI and Story peers ^19.2.0 accept 19.2.5."
+      },
+      {
+        "package": "React types",
+        "design_system_and_docs": "@types/react 19.2.14 and @types/react-dom 19.2.3",
+        "source_lock": "Canonical upstream versions."
+      },
+      {
+        "package": "Tailwind",
+        "design_system_and_docs": "tailwindcss 4.3.1; @tailwindcss/vite 4.3.1",
+        "source_lock": "Tailwind core matches the upstream resolved lock and the matched docs adapter builds successfully."
+      }
+    ],
+    "unchanged_shared_versions": [
+      {
+        "name": "@toolwind/corner-shape",
+        "version": "0.0.8-3"
+      },
+      {
+        "name": "class-variance-authority",
+        "version": "0.7.1"
+      },
+      {
+        "name": "clsx",
+        "version": "2.1.1"
+      },
+      {
+        "name": "cmdk",
+        "version": "1.1.1"
+      },
+      {
+        "name": "elkjs",
+        "version": "0.11.1"
+      },
+      {
+        "name": "embla-carousel-react",
+        "version": "8.6.0"
+      },
+      {
+        "name": "next-themes",
+        "version": "0.4.6"
+      },
+      {
+        "name": "react-day-picker",
+        "version": "9.14.0"
+      },
+      {
+        "name": "slot-text",
+        "version": "0.2.2"
+      },
+      {
+        "name": "tw-animate-css",
+        "version": "1.4.0"
+      },
+      {
+        "name": "typescript",
+        "version": "5.9.3"
+      },
+      {
+        "name": "vaul",
+        "version": "1.1.2"
+      }
+    ],
+    "status": "Applied to package manifests and bun.lock after coordinator authorization; current direct resolved versions appear in applied_pins."
+  },
+  "portal_peer_constraints": {
+    "fumadocs_base_ui": {
+      "installed": "16.17.10",
+      "base_ui_dependency": "^1.9.0",
+      "react_peer": "^19.2.0",
+      "react_dom_peer": "^19.2.0"
+    },
+    "fumadocs_story": {
+      "installed": "1.5.3",
+      "base_ui_dependency": "^1.9.0",
+      "react_peer": "^19.2.0",
+      "react_dom_peer": "^19.2.0",
+      "vite_peer": "^8",
+      "fumadocs_core_peer": "^16.10.0",
+      "fumadocs_ui_peer": "^16.10.0"
+    },
+    "current_compatibility": "Docs React 19.3.1 and Vite 8 satisfy these peers. React 19.2.5 also satisfies them; Base UI is the component-specific split requiring separate versions.",
+    "compiler_types": {
+      "source_typescript": "5.9.3",
+      "target_typescript": "5.9.3",
+      "source_react_types": "19.2.14 / 19.2.3",
+      "target_react_types": "19.3.0 / 19.3.0",
+      "note": "TypeScript itself matches; React type packages drift and can be aligned independently per workspace."
+    }
+  },
+  "registry_dependency_versions": {
+    "current_registry_items": 289,
+    "current_items_with_dependency_arrays": 0,
+    "builder_behavior": "packages/registry/scripts/build-registry.ts currently extracts external import names without version suffixes.",
+    "canonical_source_lock_versions_for_candidate_registry_deps": {
+      "@base-ui/react": "1.4.1",
+      "@floating-ui/core": "1.7.5",
+      "@floating-ui/dom": "1.7.6",
+      "@floating-ui/react-dom": "2.1.8",
+      "@floating-ui/utils": "0.2.11",
+      "@tabler/icons-react": "3.41.1",
+      "@tanstack/react-form": "1.29.1",
+      "@toolwind/corner-shape": "0.0.8-3",
+      "border-beam": "1.2.0",
+      "class-variance-authority": "0.7.1",
+      "clsx": "2.1.1",
+      "cmdk": "1.1.1",
+      "cn": "0.2.4",
+      "date-fns": "4.1.0",
+      "elkjs": "0.11.1",
+      "embla-carousel-react": "8.6.0",
+      "input-otp": "1.4.2",
+      "motion": "12.40.0",
+      "next-themes": "0.4.6",
+      "react": "19.2.5",
+      "react-day-picker": "9.14.0",
+      "react-dom": "19.2.5",
+      "react-resizable-panels": "4.10.0",
+      "recharts": "3.8.1",
+      "shadcn": "4.12.0",
+      "shiki": "4.1.0",
+      "slot-text": "0.2.2",
+      "sonner": "2.0.7",
+      "streamdown": "2.5.0",
+      "tailwind-merge": "3.5.0",
+      "tailwindcss": "4.3.1",
+      "tw-animate-css": "1.4.0",
+      "use-sync-external-store": "1.6.0",
+      "vaul": "1.1.2",
+      "zod": "4.3.6"
+    },
+    "recommendation": "Registry items should emit source-derived direct deps as name@version from the now exact design-system package metadata. Keep portal-only dependencies out of item closures unless imported by that closure.",
+    "status": "Canonical direct package versions supplied to the registry worker; versioned regeneration is in progress."
+  },
+  "limits": [
+    "Direct source-derived package pins match upstream versions, but Bun retains compatible newer nested Floating UI/use-sync versions in the Base UI 1.4.1 graph; listed separately rather than claimed as exact.",
+    "Fumadocs Base UI/Story uses Base UI 1.9.0 and its compatible newer transitive packages separately.",
+    "No global dependency overrides were applied."
+  ],
+  "state": "REVIEW",
+  "applied_pins": {
+    "design_system_runtime": {
+      "@base-ui/react": "1.4.1",
+      "@floating-ui/core": "1.7.5",
+      "@floating-ui/dom": "1.7.6",
+      "@floating-ui/react-dom": "2.1.8",
+      "@floating-ui/utils": "0.2.11",
+      "@tabler/icons-react": "3.41.1",
+      "@tanstack/react-form": "1.29.1",
+      "@toolwind/corner-shape": "0.0.8-3",
+      "border-beam": "1.2.0",
+      "class-variance-authority": "0.7.1",
+      "clsx": "2.1.1",
+      "cmdk": "1.1.1",
+      "cn": "0.2.4",
+      "date-fns": "4.1.0",
+      "elkjs": "0.11.1",
+      "embla-carousel-react": "8.6.0",
+      "input-otp": "1.4.2",
+      "motion": "12.40.0",
+      "next-themes": "0.4.6",
+      "react": "19.2.5",
+      "react-day-picker": "9.14.0",
+      "react-dom": "19.2.5",
+      "react-resizable-panels": "4.10.0",
+      "recharts": "3.8.1",
+      "shadcn": "4.12.0",
+      "shiki": "4.1.0",
+      "slot-text": "0.2.2",
+      "sonner": "2.0.7",
+      "streamdown": "2.5.0",
+      "tailwind-merge": "3.5.0",
+      "tailwindcss": "4.3.1",
+      "tw-animate-css": "1.4.0",
+      "use-sync-external-store": "1.6.0",
+      "vaul": "1.1.2",
+      "zod": "4.3.6"
+    },
+    "design_system_types": {
+      "@types/bun": "1.3.13",
+      "@types/node": "20.19.39",
+      "@types/react": "19.2.14",
+      "@types/react-dom": "19.2.3",
+      "typescript": "5.9.3"
+    },
+    "docs_runtime": {
+      "@fumadocs/story": "1.5.3",
+      "fumadocs-core": "16.17.10",
+      "fumadocs-ui": "16.17.10",
+      "react": "19.2.5",
+      "react-dom": "19.2.5"
+    },
+    "docs_types_and_css_toolchain": {
+      "@tailwindcss/vite": "4.3.1",
+      "@types/node": "20.19.39",
+      "@types/react": "19.2.14",
+      "@types/react-dom": "19.2.3",
+      "tailwindcss": "4.3.1",
+      "typescript": "5.9.3"
+    },
+    "docs_cli_shadcn": {
+      "version": "4.23.0",
+      "reason": "Retained newer portal validation CLI separately from the source CSS dependency shadcn 4.12.0 in @foglamp/design-system."
+    }
+  },
+  "actual_dependency_contexts": {
+    "source_base_ui": {
+      "base_ui": "1.4.1",
+      "floating_ui": {
+        "@floating-ui/react-dom": "2.1.9",
+        "@floating-ui/dom": "1.8.0",
+        "@floating-ui/core": "1.8.0",
+        "@floating-ui/utils": "0.2.12",
+        "use-sync-external-store": "1.7.0"
+      },
+      "note": "These are Bun's nested selections for Base UI 1.4.1 from compatible semver ranges after exact direct pins; they are newer than the upstream nested lock versions."
+    },
+    "fumadocs_context": {
+      "base_ui": "1.9.0",
+      "floating_ui": {
+        "@floating-ui/react-dom": "2.1.9",
+        "@floating-ui/dom": "1.8.0",
+        "@floating-ui/core": "1.8.0",
+        "@floating-ui/utils": "0.2.12",
+        "use-sync-external-store": "1.7.0"
+      },
+      "react": "19.2.5",
+      "reactPeer": "^19.2.0",
+      "reactDom": "19.2.5",
+      "reactDomPeer": "^19.2.0",
+      "vite": "8.3.6",
+      "vitePeer": "^8",
+      "note": "Fumadocs package dependencies remain isolated from the @foglamp/design-system Base UI direct pin. No global overrides."
+    },
+    "style_merge_context": {
+      "designSystem": {
+        "cn": "0.2.4",
+        "tailwindMerge": "3.5.0"
+      },
+      "fumadocs": {
+        "cn": "0.5.2",
+        "tailwindMerge": "3.7.0"
+      },
+      "note": "Separate package graphs; no global override."
+    },
+    "compiler": {
+      "typescript": "5.9.3",
+      "tailwindCss": "4.3.1",
+      "tailwindVite": "4.3.1",
+      "note": "Matched 4.3.1 docs compiler/adapter pair passed production build."
+    }
+  },
+  "verification": {
+    "bun_install_exit_code": 0,
+    "full_typecheck_exit_code": 0,
+    "bun_test_exit_code": 0,
+    "bun_test_passed": 58,
+    "bun_test_failed": 0,
+    "production_build_exit_code": 0,
+    "runtime_root_import": {
+      "package": "@foglamp/design-system",
+      "bun_export_count": 769,
+      "checked_source_block_exports": 25,
+      "missing_exports": []
+    },
+    "unresolved_transitive_fidelity": {
+      "@base-ui/react@1.4.1": "Floating UI and use-sync compatible semver selections remain newer than source nested lock; no global override used."
+    }
+  }
+}

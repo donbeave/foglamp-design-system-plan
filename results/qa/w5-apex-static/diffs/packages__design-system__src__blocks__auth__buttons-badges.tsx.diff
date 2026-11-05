@@ -1,0 +1,39 @@
+--- .reference/foglamp/apps/web/src/app/buttons/page.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/auth/buttons-badges.tsx	2026-11-05 19:02:54
+@@ -47,7 +47,7 @@
+ function pick(i) {
+     const filled = i % 2 === 1;
+     const pool = filled ? FILLED : OUTLINED;
+-    const Icon = pool[(i * 7 + 3) % pool.length];
++    const Icon = pool[(i * 7 + 3) % pool.length] ?? pool[0];
+     const leading = i % 3 !== 1;
+     return { Icon, leading };
+ }
+@@ -65,14 +65,17 @@
+     "default",
+     "secondary",
+     "destructive",
++    "outline",
+     "green",
+     "blue",
+     "amber",
+     "orange",
+     "emerald",
+     "rose",
++    "red",
+     "violet",
+-    "outline",
++    "fuchsia",
++    "sky",
+ ];
+ const BADGE_SIZES = ["md", "lg"];
+ function useThemeHotkey() {
+@@ -100,7 +103,7 @@
+ 			<div className="flex flex-wrap items-center gap-2">{children}</div>
+ 		</div>);
+ }
+-export default function ButtonsPage() {
++export function ButtonsBadgesPlaygroundBlock() {
+     useThemeHotkey();
+     let slot = 0;
+     return (<main className="mx-auto max-w-4xl space-y-12 px-6 py-12">

@@ -1,0 +1,367 @@
+{
+  "packages/design-system/src/blocks/dashboard/overview-dashboard-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/overview/overview-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: overview; corresponding source and target harness",
+    "reviewed_file_sha256": "410b5510fd8b9be5e097d902b4211c58c7d40bcea45efb39f974c3deae51307a"
+  },
+  "packages/design-system/src/blocks/dashboard/traces-explorer-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/traces/traces-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: traces; corresponding source and target harness",
+    "reviewed_file_sha256": "b2328dc0a9c31f46b8c8ebd94e4b69b9c4dd22515057b437e41160d76f3c6551"
+  },
+  "packages/design-system/src/blocks/dashboard/trace-waterfall-inspector-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: trace; corresponding source and target harness",
+    "reviewed_file_sha256": "2c4375e01f0bdbbd07300842fcadf7b6e10761659fa7706cc1d7658c185ad32c"
+  },
+  "packages/design-system/src/blocks/dashboard/agent-detail-inspector-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: agent; corresponding source and target harness",
+    "reviewed_file_sha256": "de1dc4866a4f41e94e6889eda88f1a2306723d4d28729df3af8cc0baecebd019"
+  },
+  "packages/design-system/src/blocks/dashboard/workflow-detail-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: workflow; corresponding source and target harness",
+    "reviewed_file_sha256": "bef34bd887f99e662d58200934a0f569d98495bb2c9203e2b0f0fcfc29fba629"
+  },
+  "packages/design-system/src/blocks/dashboard/session-conversation-inspector-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: session; corresponding source and target harness",
+    "reviewed_file_sha256": "803ca2f116a11d74828194be050206137dbced8f3a94a6a70e7c88b35c003d05"
+  },
+  "packages/design-system/src/blocks/dashboard/eval-detail-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/evals/[id]/eval-detail-client.tsx",
+    "secondary": [],
+    "evidence": "W5 dashboard query-bound client inventory: eval; corresponding source and target harness",
+    "reviewed_file_sha256": "5bc6518f0fe4341d66b757f1b64e7f66bca3b3572a3af2d819110f916bab5b04"
+  },
+  "packages/design-system/src/blocks/app-shell/app-shell-block.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/app-shell.tsx",
+    "secondary": [],
+    "evidence": "ShellBody, ProjectSwitcher and NavUser correspond; query and host data are replaced by supplied state.",
+    "reviewed_file_sha256": "38db2d32601cc0491b986a86f91743f80c16dae3102bdc9974e5851fcccb38b0"
+  },
+  "packages/design-system/src/blocks/dashboard/eval-chip-placeholders.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/(app)/evals/[id]/chip-placeholders.tsx",
+    "secondary": [],
+    "evidence": "Identical exported function and JSX in pinned upstream; exact body comparison decides copied status.",
+    "reviewed_file_sha256": "ec0d7805894a7e938956afa7ae16ab5bb82891f76c9bb7066ab79aa39843a19d"
+  },
+  "packages/design-system/src/blocks/app-shell/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "406da737d85d07056592915da1b6f1a005dbd285ca61628601af7908e355e862"
+  },
+  "packages/design-system/src/blocks/auth/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "c40422ddd85bd555f4f6cfa87f5eb6255b455117e7190c2e4b78c54c65ca45ae"
+  },
+  "packages/design-system/src/blocks/dashboard/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "20842d3db1cf88abca07c12824ce5f290f79daa91042e7f9c2452a3a39da112f"
+  },
+  "packages/design-system/src/blocks/guide/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "a6974e6a5169c5f80c0d6771b1f7fcc24e3742141608481dec236c534f39d752"
+  },
+  "packages/design-system/src/blocks/marketing/chrome/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "c92b653e29237c888ed477ea177483a157c145716c7c6104dfc744c9dbe97d00"
+  },
+  "packages/design-system/src/blocks/marketing/cta/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "b0bc945d6fc6c6d4cfd3fc010e17bce4e94c834cdda98107bf5f961524eaf9c0"
+  },
+  "packages/design-system/src/blocks/marketing/figures/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "0a112ebe0495f34af6f5b19b433a7437700ee59c85b2f8d0a4f52d4170dc3f12"
+  },
+  "packages/design-system/src/blocks/marketing/hero/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "8b94b06dc43e7eb175fea2f187538b1b814a012c63b23a619e394a776dabaa77"
+  },
+  "packages/design-system/src/blocks/scan/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "c516b0ecd82d457507d984b183668297ee192c962f87f67271e5b2d782f4e1e7"
+  },
+  "packages/design-system/src/blocks/setup/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "18727aea955378c74c9e9f2e1a0b1b468a753400162559cf1a605cbae3a1d2b0"
+  },
+  "packages/design-system/src/hud/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "04941916bc95fae8c10f61ac791accdb79b9e72fd61e30f0ef04433e2993e1bf"
+  },
+  "packages/design-system/src/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "6f4081c43bc2b251ee78369f8ba942f88664eb87a29522bf4fce27fa7cb4f2ea"
+  },
+  "packages/design-system/src/widgets/foggy/index.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration export barrel assembling local extracted modules; no upstream counterpart at this integration boundary. Review imported modules separately.",
+    "reviewed_file_sha256": "c4365f9759726b9d7d73e52f79d0e06c40fc932fe5fe479cb1950da4f0b002ab"
+  },
+  "packages/design-system/src/blocks/guide/css-modules.d.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Standalone ambient CSS module declaration for extraction build; no corresponding named upstream file.",
+    "reviewed_file_sha256": "c27f6f86c320f225f2ad697d029320839b159956ddb747ec7bb5d5f732339a41"
+  },
+  "packages/design-system/src/blocks/marketing/figures/figure-kit-22-block.tsx": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "New prop-driven composition of local FigureVariant; implementation calls imported component and does not inline source figure bodies.",
+    "reviewed_file_sha256": "12df9c6cac3062e3815dbe77db9d1ffe5da0099f3fc2ee558526e4bbca1b3c04"
+  },
+  "packages/design-system/src/blocks/scan/favicon-context.tsx": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "New React context/provider injection adapter around local favicon resolver; not the upstream scan brand implementation.",
+    "reviewed_file_sha256": "16e1101264d7340d0c27ad957db9831ce09a00a1ea6087816f0d951270d055eb"
+  },
+  "packages/design-system/src/blocks/scan/scan.test.tsx": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Standalone bun test fixture and render assertions for extracted scan components.",
+    "reviewed_file_sha256": "9ceb9b0e55ca12593920eeb5f55ee4ce15f749ca4784a2d41da2fceb526121d6"
+  },
+  "packages/design-system/src/blocks/scan/verify-source.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [
+      "apps/web/src/components/scan/flow-map.tsx",
+      "apps/web/src/components/scan/scan-board.tsx",
+      "apps/web/src/components/scan/embed-board.tsx",
+      "apps/web/src/components/scan/personality-card.tsx",
+      "apps/web/src/components/scan/left-rail.tsx",
+      "apps/web/src/components/scan/changes-card.tsx",
+      "apps/web/src/components/scan/kinds.tsx",
+      "apps/web/src/components/scan/brand.tsx",
+      "apps/web/src/components/scan/share-bar.tsx",
+      "apps/web/src/components/scan/powered-by.tsx"
+    ],
+    "evidence": "New repository audit script reads these ten upstream components as test inputs; none is the source of the script body. W5 directory mapping is not a valid source-file mapping.",
+    "reviewed_file_sha256": "a3ca98ae0f1e4f6d051e44612338a4226540fd6259e31684631797d6a5f72d96"
+  },
+  "packages/design-system/src/lib/link-context.tsx": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Integration-authored generic React provider and polymorphic link adapter, replacing host router coupling; no matching upstream integration file.",
+    "reviewed_file_sha256": "9176cf9009335d2363e45b922b302c6b59f3d46ff77caabc04ae018216e0e800"
+  },
+  "packages/design-system/src/widgets/foggy/types.ts": {
+    "classification": "tailrocks-original",
+    "primary": null,
+    "secondary": [],
+    "evidence": "Standalone adapter message shape introduced for decoupling; upstream foggy-message uses AI SDK UIMessage rather than this definition.",
+    "reviewed_file_sha256": "d3ec3be912c5ed22cce4f1a13335e4089dd7f2052b43afb881c8f01aad770a11"
+  },
+  "packages/design-system/src/lib/types.ts": {
+    "classification": "modified",
+    "primary": "apps/web/src/lib/trace-timeline.ts",
+    "secondary": [
+      "packages/api/src/services/traces.ts"
+    ],
+    "evidence": "TraceSpan adapts the upstream trace-timeline RouterOutputs trace span; upstream traces service constructs returned fields. Manual field-level review remains necessary.",
+    "reviewed_file_sha256": "463725212cf5f78b159a817d2b25202c2a432c2b1e978b9b6a3a61a7b06ec11c"
+  },
+  "packages/design-system/src/blocks/app-shell/new-project-dialog.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/new-project-dialog.tsx",
+    "secondary": [],
+    "evidence": "NewProjectDialog form and project action adapted to callback.",
+    "reviewed_file_sha256": "a3a9bd6b601f75347cb2e670c0e1221456f73ad73c7043c5add7ee363355519e"
+  },
+  "packages/design-system/src/blocks/app-shell/sunset-card.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/sunset-card.tsx",
+    "secondary": [],
+    "evidence": "SunsetCard hosted-service message and markup adapted to a serverUrl prop.",
+    "reviewed_file_sha256": "cebfae5d750ecd088ac8ab7af2f39b907e11ca60d60b014625f48a386325cc78"
+  },
+  "packages/design-system/src/blocks/auth/device-approve.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/device-approve-client.tsx",
+    "secondary": [],
+    "evidence": "DeviceShell and phase/claim/decision flow retained; callbacks replace request-bound operations.",
+    "reviewed_file_sha256": "939eca0c44560eaf6478c725968424f122e8d484def0c307c3981f9b1debbc05"
+  },
+  "packages/design-system/src/blocks/auth/login-form.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/login-form.tsx",
+    "secondary": [],
+    "evidence": "AuthMethods and password, magic-link, forgot-password forms retained; host actions replace auth calls.",
+    "reviewed_file_sha256": "f7b9ccf92e1833709ca171946fa66188648c00ae0fcad32d022b3a1c886e6033"
+  },
+  "packages/design-system/src/blocks/auth/onboarding-panel.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/onboarding-panel.tsx",
+    "secondary": [],
+    "evidence": "OnboardingPanel prompt and copy flow retained; host action interface adapted.",
+    "reviewed_file_sha256": "507ab4161e1d3a6aef2b0852a902b2d66ecf20003bb00812c41ee5a5736a4f56"
+  },
+  "packages/design-system/src/blocks/marketing/chrome/navbar.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/marketing/navbar.tsx",
+    "secondary": [],
+    "evidence": "MarketingNavbar, LINK_CLASS and scroll/key behavior retained with host links and attribution additions.",
+    "reviewed_file_sha256": "4f2ae3d273b663d067828627e8d738b4e45f962d28eff5b25ff07766a2efffbb"
+  },
+  "packages/design-system/src/blocks/marketing/cta/agent-prompt.ts": {
+    "classification": "modified",
+    "primary": "apps/web/src/lib/agent-prompt.ts",
+    "secondary": [],
+    "evidence": "buildKeyedPrompt, buildLandingPrompt and instrumentationBody retained with decoupled endpoint configuration.",
+    "reviewed_file_sha256": "9a5c3c4b79594185509e14286499cf4ef6a4ada41fb4c1f4ab537a0290ff976b"
+  },
+  "packages/design-system/src/blocks/marketing/cta/ask-foggy.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/marketing/landing/ask-foggy.tsx",
+    "secondary": [],
+    "evidence": "AskFoggy rendering and streaming state adapted to caller-supplied async request.",
+    "reviewed_file_sha256": "9c61bca630f736a4e144946468a08ce78a601e2bdeacaf5020ef472a515c1b75"
+  },
+  "packages/design-system/src/blocks/marketing/cta/compact-cta.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/marketing/landing/compact-cta.tsx",
+    "secondary": [],
+    "evidence": "CompactCtaSection rendering retained with host-facing props.",
+    "reviewed_file_sha256": "fcbb21e9dce269f591ab059cfc58b8405c4b8419a3c810a22ec5872260047271"
+  },
+  "packages/design-system/src/blocks/marketing/figures/figure-picker.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/marketing/landing/figure-picker.tsx",
+    "secondary": [],
+    "evidence": "CHOSEN variant picker retained with lazy host wrapper.",
+    "reviewed_file_sha256": "6df0847e2076c459f26549a08c2064ae19db729b71b7ee2fcb99973a8b59f41f"
+  },
+  "packages/design-system/src/blocks/marketing/figures/figures.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/marketing/landing/figures.tsx",
+    "secondary": [],
+    "evidence": "FIGURES section/variant catalog retained, with lazy component type adaptation.",
+    "reviewed_file_sha256": "1b9a83974afe43182f7e49f11db1b0d58675a905f30e4b7e694fd71cc62c7e45"
+  },
+  "packages/design-system/src/blocks/marketing/hud-landing.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/app/hud/hud-landing.tsx",
+    "secondary": [],
+    "evidence": "HudLanding motion, runStorm and simulator structure retained with injected demo stream.",
+    "reviewed_file_sha256": "8bbccbddc1587d968b69f480c74f768de75f762ac271798339f455f8e93403dd"
+  },
+  "packages/design-system/src/hud/useHudStream.ts": {
+    "classification": "modified",
+    "primary": "packages/sdk/src/hud/react/useHudStream.ts",
+    "secondary": [],
+    "evidence": "ConnStatus, reducer/clear and useHudStream adapted from EventSource to injected local stream.",
+    "reviewed_file_sha256": "ab7bcb8efa3257c405ef011d2acf776615652f13f5e24b0d9b29fa0fefa32419"
+  },
+  "packages/design-system/src/lib/utils.ts": {
+    "classification": "modified",
+    "primary": "packages/ui/src/lib/utils.ts",
+    "secondary": [],
+    "evidence": "Body is the same single cn re-export; competing candidates can also have this generic one-line body.",
+    "reviewed_file_sha256": "7b232b6a6187bcf3edc33dbe9473d8c2f57987460a0d633a1ff3d28745e01087"
+  },
+  "packages/design-system/src/widgets/cost-breakdown.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/cost-breakdown-card.tsx",
+    "secondary": [],
+    "evidence": "CATEGORIES, chart bucket and view rendering retained with supplied row data.",
+    "reviewed_file_sha256": "7f7d83f7a2f1280bf2ba6ffb403382fec0a33c3be62dca26d6df3eb83b3d382a"
+  },
+  "packages/design-system/src/widgets/leaf/sunset-card.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/sunset-card.tsx",
+    "secondary": [],
+    "evidence": "HOSTED_SERVER_URL, SHUTDOWN_DATE and SunsetCard retained with host server URL prop.",
+    "reviewed_file_sha256": "48180ea9884c0b9344f842bc0c45ce0b786fd6375a2121516b5607ff329ca5d9"
+  },
+  "packages/design-system/src/widgets/project-context.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/project-context.tsx",
+    "secondary": [],
+    "evidence": "Project, ProjectContext, ProjectProvider and useProject adapt query state to supplied/mock projects.",
+    "reviewed_file_sha256": "9cd19c131afed2f717c63d729a006e6d557b4fc353a8b26d1242fe009bff72ce"
+  },
+  "packages/design-system/src/widgets/quota-card.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/quota-card.tsx",
+    "secondary": [],
+    "evidence": "QuotaCard and percentage/over-quota presentation adapted to host usage props.",
+    "reviewed_file_sha256": "e5ee3b2ba18e3696a88c7a64b7a127cd175cb83c04c4981a94d7ef35eb4df722"
+  },
+  "packages/design-system/src/widgets/tool-breakdown.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/app/tool-breakdown-card.tsx",
+    "secondary": [
+      "apps/web/src/components/app/page-parts.tsx"
+    ],
+    "evidence": "Tool card rows and ToolRowsSkeleton adapted to host data; ScrollFade is inlined and adapted from page-parts.",
+    "reviewed_file_sha256": "7ccc497b0833db016b427a6d382dbf4157cd6d6947864b358cb174020b7615df"
+  },
+  "packages/design-system/src/widgets/user-menu.tsx": {
+    "classification": "modified",
+    "primary": "apps/web/src/components/user-menu.tsx",
+    "secondary": [],
+    "evidence": "UserMenu presentation adapted to host session and sign-out props.",
+    "reviewed_file_sha256": "90cdd50ad9a547555740915c472a330c5e6608eb5fdd1471751810cef87bb66f"
+  }
+}

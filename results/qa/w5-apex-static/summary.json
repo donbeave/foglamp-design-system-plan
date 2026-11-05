@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-11-05T12:02:56.454Z",
+  "source_revision": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "target_head": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "method": "TypeScript 5.9.3 transpileModule erases TS-only syntax and comments, preserves JSX and runtime code, then hashes emitted JS. Exact bodies include imports; import-only differences are separated. No whitespace/class/literal/logic normalization.",
+  "apex_source_map_entries": 231,
+  "mapped_pairs": 233,
+  "status_counts": {
+    "unexplained_body_difference": 47,
+    "approved_import_symbol_adapter": 3,
+    "non_ts_pair": 3,
+    "exact_after_type_erasure_and_comment_removal": 49,
+    "approved_import_path_adapter": 118,
+    "unexplained_import_binding_difference": 6,
+    "approved_platform_runtime_adapter": 6,
+    "missing_or_directory": 1
+  },
+  "classification_counts": {
+    "unexplained_runtime_text_numeric_or_api_literal_delta": 29,
+    "unexplained_structure_or_identifier_delta": 10,
+    "unexplained_visual_class_literal_delta": 8,
+    "approved_import_symbol_adapter": 3,
+    "non_ts_pair_requires_file_specific_review": 3,
+    "exact_after_type_erasure_and_comment_removal": 49,
+    "approved_import_path_adapter": 118,
+    "unexplained_import_symbol_or_binding_delta": 6,
+    "approved_platform_runtime_adapter": 6,
+    "invalid_or_stale_source_mapping": 1
+  },
+  "shadow_declarations": {
+    "target": {
+      ":root": 18,
+      ".dark": 18
+    },
+    "source": {
+      ":root": 18,
+      ".dark": 18
+    },
+    "diffs": []
+  },
+  "unmapped_target_paths": [
+    "index.ts",
+    "lib/types.ts",
+    "lib/link-context.tsx",
+    "hud/index.ts",
+    "widgets/foggy/types.ts",
+    "widgets/foggy/index.ts",
+    "lib/scan/scan.ts",
+    "lib/scan/favicon.ts",
+    "lib/scan/instrumentation.ts",
+    "lib/scan/alerts.ts",
+    "lib/prompts/diff.ts",
+    "lib/prompts/normalize.ts",
+    "lib/prompts/index.ts",
+    "blocks/guide/css-modules.d.ts",
+    "blocks/guide/index.ts",
+    "blocks/auth/index.ts",
+    "blocks/setup/index.ts",
+    "blocks/scan/favicon-context.tsx",
+    "blocks/scan/scan.test.tsx",
+    "blocks/scan/index.ts",
+    "blocks/scan/verify-source.ts",
+    "blocks/dashboard/session-conversation-inspector-block.tsx",
+    "blocks/dashboard/workflow-detail-block.tsx",
+    "blocks/dashboard/trace-waterfall-inspector-block.tsx",
+    "blocks/dashboard/agent-detail-inspector-block.tsx",
+    "blocks/dashboard/overview-dashboard-block.tsx",
+    "blocks/dashboard/traces-explorer-block.tsx",
+    "blocks/dashboard/eval-detail-block.tsx",
+    "blocks/dashboard/eval-chip-placeholders.tsx",
+    "blocks/dashboard/index.ts",
+    "blocks/app-shell/index.ts",
+    "blocks/marketing/cta/index.ts",
+    "blocks/marketing/figures/figure-kit-22-block.tsx",
+    "blocks/marketing/figures/index.ts",
+    "blocks/marketing/chrome/index.ts",
+    "blocks/marketing/hero/index.ts"
+  ],
+  "not_proven": [
+    "Runtime behavior/rendering and browser pixel parity are not proven by static AST comparison.",
+    "Non-TS/CSS mappings are hashed or declaration-compared, not semantically parsed.",
+    "Only mapped source/target pairs are adjudicated; target-authored wrappers and portal files require separate visual QA."
+  ]
+}

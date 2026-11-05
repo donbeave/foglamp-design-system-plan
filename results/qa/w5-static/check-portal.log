@@ -1,0 +1,4 @@
+$ bun scripts/verify-portal.ts
+Portal contract: 168 stories (blocks=26, charts=11, primitives=56, figures=22, widgets=53), 289 registry items, 7 navigation manifests.
+Coverage: story IDs and uniqueness, registry/catalog membership, story MDX imports and WithControl previews, docs navigation coverage, required attribution markers, registry source-path aliases.
+Portal contract passed.

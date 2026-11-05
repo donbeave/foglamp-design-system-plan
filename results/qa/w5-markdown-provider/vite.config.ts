@@ -1,0 +1,2 @@
+import {fileURLToPath} from 'node:url';
+import {defineConfig} from 'vite'; import react from '@vitejs/plugin-react'; export default defineConfig({cacheDir:fileURLToPath(new URL('./vite-cache',import.meta.url)),plugins:[react()],resolve:{dedupe:['react','react-dom']},server:{port:4196,strictPort:true,fs:{allow:[fileURLToPath(new URL('.',import.meta.url)),'/Users/donbeave/Projects/donbeave/foglamp-design-system']}}});

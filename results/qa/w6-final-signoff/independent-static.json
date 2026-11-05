@@ -1,0 +1,2213 @@
+{
+  "pin": "7d7e6609108019a74902858d4b07c24825c6318b",
+  "header_counts": {
+    "modified": 200,
+    "tailrocks-original": 20,
+    "copied-1-to-1": 46
+  },
+  "MDX": [
+    {
+      "path": "apps/docs/content/docs/blocks/login-form-block.mdx",
+      "item": "block-auth-login-form",
+      "props": {
+        "registryItem": "block-auth-login-form",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/login-form.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/scan-board-block.mdx",
+      "item": "block-scan-scan-board",
+      "props": {
+        "registryItem": "block-scan-scan-board",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/scan-board.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/onboarding-panel-block.mdx",
+      "item": "block-auth-onboarding-panel",
+      "props": {
+        "registryItem": "block-auth-onboarding-panel",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/onboarding-panel.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/device-approve-block.mdx",
+      "item": "block-auth-device-approve",
+      "props": {
+        "registryItem": "block-auth-device-approve",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/device-approve-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/figure-kit-22-block.mdx",
+      "item": "block-marketing-figures-figure-kit-22",
+      "props": {
+        "registryItem": "block-marketing-figures-figure-kit-22",
+        "provenanceLabel": "Newly Added by Tailrocks",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com",
+        "notUpstream": "This is not an upstream Foglamp source file."
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/agent-detail-inspector-block.mdx",
+      "item": "block-dashboard-agent-detail-inspector",
+      "props": {
+        "registryItem": "block-dashboard-agent-detail-inspector",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/traces-explorer-block.mdx",
+      "item": "block-dashboard-traces-explorer",
+      "props": {
+        "registryItem": "block-dashboard-traces-explorer",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/traces/traces-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/marketing-navbar.mdx",
+      "item": "block-marketing-chrome-navbar",
+      "props": {
+        "registryItem": "block-marketing-chrome-navbar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/navbar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/cutting-mat-footer-block.mdx",
+      "item": "block-marketing-chrome-footer",
+      "props": {
+        "registryItem": "block-marketing-chrome-footer",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/footer.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/app-shell-block.mdx",
+      "item": "block-app-shell-app-shell",
+      "props": {
+        "registryItem": "block-app-shell-app-shell",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/app-shell.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/drifting-fog-cta-block.mdx",
+      "item": "block-marketing-cta-cta",
+      "props": {
+        "registryItem": "block-marketing-cta-cta",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/cta.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/workflow-detail-block.mdx",
+      "item": "block-dashboard-workflow-detail",
+      "props": {
+        "registryItem": "block-dashboard-workflow-detail",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/setup-board-block.mdx",
+      "item": "block-setup-setup-board",
+      "props": {
+        "registryItem": "block-setup-setup-board",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/setup/setup-board.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/overview-dashboard-block.mdx",
+      "item": "block-dashboard-overview-dashboard",
+      "props": {
+        "registryItem": "block-dashboard-overview-dashboard",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/overview/overview-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/scan-landing-block.mdx",
+      "item": "block-scan-scan-landing",
+      "props": {
+        "registryItem": "block-scan-scan-landing",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/scan/scan-landing.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/buttons-badges-playground-block.mdx",
+      "item": "block-auth-buttons-badges",
+      "props": {
+        "registryItem": "block-auth-buttons-badges",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/buttons/page.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/eval-detail-block.mdx",
+      "item": "block-dashboard-eval-detail",
+      "props": {
+        "registryItem": "block-dashboard-eval-detail",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/evals/[id]/eval-detail-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/observability-guide-block.mdx",
+      "item": "block-guide-observability-guide",
+      "props": {
+        "registryItem": "block-guide-observability-guide",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/how-it-works/observability-guide.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/flow-map-block.mdx",
+      "item": "block-scan-flow-map",
+      "props": {
+        "registryItem": "block-scan-flow-map",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/flow-map.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/hero-3d-demo-block.mdx",
+      "item": "block-marketing-hero-hero",
+      "props": {
+        "registryItem": "block-marketing-hero-hero",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/hero.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/hud-simulator-block.mdx",
+      "item": "block-marketing-hud-landing",
+      "props": {
+        "registryItem": "block-marketing-hud-landing",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/hud/hud-landing.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/trace-waterfall-inspector-block.mdx",
+      "item": "block-dashboard-trace-waterfall-inspector",
+      "props": {
+        "registryItem": "block-dashboard-trace-waterfall-inspector",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/instrument-empty-state-block.mdx",
+      "item": "block-auth-instrument-empty-state",
+      "props": {
+        "registryItem": "block-auth-instrument-empty-state",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/instrument-empty-state.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/session-conversation-inspector-block.mdx",
+      "item": "block-dashboard-session-conversation-inspector",
+      "props": {
+        "registryItem": "block-dashboard-session-conversation-inspector",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/blocks/embed-board-block.mdx",
+      "item": "block-scan-embed-board",
+      "props": {
+        "registryItem": "block-scan-embed-board",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/embed-board.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/evil-brush.mdx",
+      "item": "chart-evilcharts-ui-evil-brush",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-evil-brush",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/evil-brush.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/zoom.mdx",
+      "item": "chart-evilcharts-ui-zoom",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-zoom",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/zoom.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/tooltip.mdx",
+      "item": "chart-evilcharts-ui-tooltip",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-tooltip",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/tooltip.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/area-chart.mdx",
+      "item": "chart-evilcharts-charts-area-chart",
+      "props": {
+        "registryItem": "chart-evilcharts-charts-area-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/area-chart.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/chart.mdx",
+      "item": "chart-evilcharts-ui-chart",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/chart.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/dot.mdx",
+      "item": "chart-evilcharts-ui-dot",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-dot",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/dot.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/background.mdx",
+      "item": "chart-evilcharts-ui-background",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-background",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/background.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/bar-chart.mdx",
+      "item": "chart-evilcharts-charts-bar-chart",
+      "props": {
+        "registryItem": "chart-evilcharts-charts-bar-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/bar-chart.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/donut-chart.mdx",
+      "item": "chart-evilcharts-charts-donut-chart",
+      "props": {
+        "registryItem": "chart-evilcharts-charts-donut-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/donut-chart.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/line-chart.mdx",
+      "item": "chart-evilcharts-charts-line-chart",
+      "props": {
+        "registryItem": "chart-evilcharts-charts-line-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/line-chart.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/charts/legend.mdx",
+      "item": "chart-evilcharts-ui-legend",
+      "props": {
+        "registryItem": "chart-evilcharts-ui-legend",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/legend.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/alert.mdx",
+      "item": "ui-alert",
+      "props": {
+        "registryItem": "ui-alert",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/alert.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/radio-group.mdx",
+      "item": "ui-radio-group",
+      "props": {
+        "registryItem": "ui-radio-group",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/radio-group.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/avatar.mdx",
+      "item": "ui-avatar",
+      "props": {
+        "registryItem": "ui-avatar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/avatar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/slider.mdx",
+      "item": "ui-slider",
+      "props": {
+        "registryItem": "ui-slider",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/slider.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/dialog.mdx",
+      "item": "ui-dialog",
+      "props": {
+        "registryItem": "ui-dialog",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/dialog.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/kbd.mdx",
+      "item": "ui-kbd",
+      "props": {
+        "registryItem": "ui-kbd",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/kbd.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/native-select.mdx",
+      "item": "ui-native-select",
+      "props": {
+        "registryItem": "ui-native-select",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/native-select.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/loader.mdx",
+      "item": "ui-loader",
+      "props": {
+        "registryItem": "ui-loader",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/loader.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/dropdown-menu.mdx",
+      "item": "ui-dropdown-menu",
+      "props": {
+        "registryItem": "ui-dropdown-menu",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/dropdown-menu.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/command.mdx",
+      "item": "ui-command",
+      "props": {
+        "registryItem": "ui-command",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/command.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/alert-dialog.mdx",
+      "item": "ui-alert-dialog",
+      "props": {
+        "registryItem": "ui-alert-dialog",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/alert-dialog.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/breadcrumb.mdx",
+      "item": "ui-breadcrumb",
+      "props": {
+        "registryItem": "ui-breadcrumb",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/breadcrumb.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/table.mdx",
+      "item": "ui-table",
+      "props": {
+        "registryItem": "ui-table",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/field.mdx",
+      "item": "ui-field",
+      "props": {
+        "registryItem": "ui-field",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/field.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/button-group.mdx",
+      "item": "ui-button-group",
+      "props": {
+        "registryItem": "ui-button-group",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button-group.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/tooltip.mdx",
+      "item": "ui-tooltip",
+      "props": {
+        "registryItem": "ui-tooltip",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/tooltip.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/button.mdx",
+      "item": "ui-button",
+      "props": {
+        "registryItem": "ui-button",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/calendar.mdx",
+      "item": "ui-calendar",
+      "props": {
+        "registryItem": "ui-calendar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/calendar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/sonner.mdx",
+      "item": "ui-sonner",
+      "props": {
+        "registryItem": "ui-sonner",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/sonner.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/label.mdx",
+      "item": "ui-label",
+      "props": {
+        "registryItem": "ui-label",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/label.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/accordion.mdx",
+      "item": "ui-accordion",
+      "props": {
+        "registryItem": "ui-accordion",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/accordion.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/input.mdx",
+      "item": "ui-input",
+      "props": {
+        "registryItem": "ui-input",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/input.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/sheet.mdx",
+      "item": "ui-sheet",
+      "props": {
+        "registryItem": "ui-sheet",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/sheet.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/tabs.mdx",
+      "item": "ui-tabs",
+      "props": {
+        "registryItem": "ui-tabs",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/tabs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/direction.mdx",
+      "item": "ui-direction",
+      "props": {
+        "registryItem": "ui-direction",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/direction.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/input-otp.mdx",
+      "item": "ui-input-otp",
+      "props": {
+        "registryItem": "ui-input-otp",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/input-otp.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/switch.mdx",
+      "item": "ui-switch",
+      "props": {
+        "registryItem": "ui-switch",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/switch.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/carousel.mdx",
+      "item": "ui-carousel",
+      "props": {
+        "registryItem": "ui-carousel",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/carousel.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/drawer.mdx",
+      "item": "ui-drawer",
+      "props": {
+        "registryItem": "ui-drawer",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/drawer.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/popover.mdx",
+      "item": "ui-popover",
+      "props": {
+        "registryItem": "ui-popover",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/popover.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/empty.mdx",
+      "item": "ui-empty",
+      "props": {
+        "registryItem": "ui-empty",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/empty.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/card.mdx",
+      "item": "ui-card",
+      "props": {
+        "registryItem": "ui-card",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/badge.mdx",
+      "item": "ui-badge",
+      "props": {
+        "registryItem": "ui-badge",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/badge.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/chart.mdx",
+      "item": "ui-chart",
+      "props": {
+        "registryItem": "ui-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/chart.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/resizable.mdx",
+      "item": "ui-resizable",
+      "props": {
+        "registryItem": "ui-resizable",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/resizable.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/context-menu.mdx",
+      "item": "ui-context-menu",
+      "props": {
+        "registryItem": "ui-context-menu",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/context-menu.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/aspect-ratio.mdx",
+      "item": "ui-aspect-ratio",
+      "props": {
+        "registryItem": "ui-aspect-ratio",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/aspect-ratio.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/toggle-group.mdx",
+      "item": "ui-toggle-group",
+      "props": {
+        "registryItem": "ui-toggle-group",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/toggle-group.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/skeleton.mdx",
+      "item": "ui-skeleton",
+      "props": {
+        "registryItem": "ui-skeleton",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/skeleton.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/input-group.mdx",
+      "item": "ui-input-group",
+      "props": {
+        "registryItem": "ui-input-group",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/input-group.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/item.mdx",
+      "item": "ui-item",
+      "props": {
+        "registryItem": "ui-item",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/item.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/textarea.mdx",
+      "item": "ui-textarea",
+      "props": {
+        "registryItem": "ui-textarea",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/textarea.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/sidebar.mdx",
+      "item": "ui-sidebar",
+      "props": {
+        "registryItem": "ui-sidebar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/sidebar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/combobox.mdx",
+      "item": "ui-combobox",
+      "props": {
+        "registryItem": "ui-combobox",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/combobox.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/scroll-area.mdx",
+      "item": "ui-scroll-area",
+      "props": {
+        "registryItem": "ui-scroll-area",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/scroll-area.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/checkbox.mdx",
+      "item": "ui-checkbox",
+      "props": {
+        "registryItem": "ui-checkbox",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/checkbox.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/navigation-menu.mdx",
+      "item": "ui-navigation-menu",
+      "props": {
+        "registryItem": "ui-navigation-menu",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/navigation-menu.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/select.mdx",
+      "item": "ui-select",
+      "props": {
+        "registryItem": "ui-select",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/select.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/progress.mdx",
+      "item": "ui-progress",
+      "props": {
+        "registryItem": "ui-progress",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/progress.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/menubar.mdx",
+      "item": "ui-menubar",
+      "props": {
+        "registryItem": "ui-menubar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/menubar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/toggle.mdx",
+      "item": "ui-toggle",
+      "props": {
+        "registryItem": "ui-toggle",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/toggle.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/pagination.mdx",
+      "item": "ui-pagination",
+      "props": {
+        "registryItem": "ui-pagination",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/pagination.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/collapsible.mdx",
+      "item": "ui-collapsible",
+      "props": {
+        "registryItem": "ui-collapsible",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/collapsible.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/spinner.mdx",
+      "item": "ui-spinner",
+      "props": {
+        "registryItem": "ui-spinner",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/spinner.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/hover-card.mdx",
+      "item": "ui-hover-card",
+      "props": {
+        "registryItem": "ui-hover-card",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/hover-card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/primitives/separator.mdx",
+      "item": "ui-separator",
+      "props": {
+        "registryItem": "ui-separator",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/separator.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-backdrop.mdx",
+      "item": "figure-costs-backdrop",
+      "props": {
+        "registryItem": "figure-costs-backdrop",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-cards.mdx",
+      "item": "figure-costs-cards",
+      "props": {
+        "registryItem": "figure-costs-cards",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-scenes.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/traces-chat.mdx",
+      "item": "figure-traces-chat",
+      "props": {
+        "registryItem": "figure-traces-chat",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-shares.mdx",
+      "item": "figure-costs-shares",
+      "props": {
+        "registryItem": "figure-costs-shares",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-alert.mdx",
+      "item": "figure-costs-alert",
+      "props": {
+        "registryItem": "figure-costs-alert",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-table.mdx",
+      "item": "figure-costs-table",
+      "props": {
+        "registryItem": "figure-costs-table",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/traces-graph.mdx",
+      "item": "figure-traces-graph",
+      "props": {
+        "registryItem": "figure-traces-graph",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-total.mdx",
+      "item": "figure-costs-total",
+      "props": {
+        "registryItem": "figure-costs-total",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/quality-review.mdx",
+      "item": "figure-quality-review",
+      "props": {
+        "registryItem": "figure-quality-review",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-scenes.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/traces-inspector.mdx",
+      "item": "figure-traces-inspector",
+      "props": {
+        "registryItem": "figure-traces-inspector",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-tabs.mdx",
+      "item": "figure-costs-tabs",
+      "props": {
+        "registryItem": "figure-costs-tabs",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/traces-story.mdx",
+      "item": "figure-traces-story",
+      "props": {
+        "registryItem": "figure-traces-story",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-scenes.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-small.mdx",
+      "item": "figure-costs-small",
+      "props": {
+        "registryItem": "figure-costs-small",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-chart.mdx",
+      "item": "figure-costs-chart",
+      "props": {
+        "registryItem": "figure-costs-chart",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-shelf.mdx",
+      "item": "figure-costs-shelf",
+      "props": {
+        "registryItem": "figure-costs-shelf",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-donut.mdx",
+      "item": "figure-costs-donut",
+      "props": {
+        "registryItem": "figure-costs-donut",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/traces-steps.mdx",
+      "item": "figure-traces-steps",
+      "props": {
+        "registryItem": "figure-traces-steps",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/traces-xray.mdx",
+      "item": "figure-traces-xray",
+      "props": {
+        "registryItem": "figure-traces-xray",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-flow.mdx",
+      "item": "figure-costs-flow",
+      "props": {
+        "registryItem": "figure-costs-flow",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-area.mdx",
+      "item": "figure-costs-area",
+      "props": {
+        "registryItem": "figure-costs-area",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-fan.mdx",
+      "item": "figure-costs-fan",
+      "props": {
+        "registryItem": "figure-costs-fan",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/figures/costs-stair.mdx",
+      "item": "figure-costs-stair",
+      "props": {
+        "registryItem": "figure-costs-stair",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/copy-icon.mdx",
+      "item": "widget-leaf-copy-icon",
+      "props": {
+        "registryItem": "widget-leaf-copy-icon",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/copy-icon.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/prompt-prose.mdx",
+      "item": "widget-prompt-prose",
+      "props": {
+        "registryItem": "widget-prompt-prose",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/prompt-prose.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/model-logo.mdx",
+      "item": "icon-model-logo",
+      "props": {
+        "registryItem": "icon-model-logo",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/model-logo.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/dev-bar.mdx",
+      "item": "widget-dev-toolbar",
+      "props": {
+        "registryItem": "widget-dev-toolbar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/dev-toolbar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/run-exchange.mdx",
+      "item": "widget-run-exchange",
+      "props": {
+        "registryItem": "widget-run-exchange",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/run-exchange.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/context-chip.mdx",
+      "item": "widget-context-chip",
+      "props": {
+        "registryItem": "widget-context-chip",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/context-chip.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/logo.mdx",
+      "item": "icon-logo",
+      "props": {
+        "registryItem": "icon-logo",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/logo.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/scan-brand.mdx",
+      "item": "widget-leaf-scan-brand",
+      "props": {
+        "registryItem": "widget-leaf-scan-brand",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/brand.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/eval-scores.mdx",
+      "item": "widget-eval-scores",
+      "props": {
+        "registryItem": "widget-eval-scores",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/eval-scores.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/range-provider.mdx",
+      "item": "widget-range-context",
+      "props": {
+        "registryItem": "widget-range-context",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/range-context.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/prompt-version-chip.mdx",
+      "item": "widget-prompt-version-chip",
+      "props": {
+        "registryItem": "widget-prompt-version-chip",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/prompt-version-chip.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/foggy-launcher.mdx",
+      "item": "widget-foggy-foggy-widget",
+      "props": {
+        "registryItem": "widget-foggy-foggy-widget",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/foggy/foggy-widget.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/data-table.mdx",
+      "item": "widget-data-table",
+      "props": {
+        "registryItem": "widget-data-table",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/page-header.mdx",
+      "item": "widget-page-header",
+      "props": {
+        "registryItem": "widget-page-header",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/page-parts.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/animated-api-key.mdx",
+      "item": "widget-animated-api-key",
+      "props": {
+        "registryItem": "widget-animated-api-key",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/animated-api-key.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/quota-card.mdx",
+      "item": "widget-quota-card-view",
+      "props": {
+        "registryItem": "widget-quota-card-view",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/quota-card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/project-icon.mdx",
+      "item": "widget-leaf-project-icon",
+      "props": {
+        "registryItem": "widget-leaf-project-icon",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/project-icon.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/brand-logos.mdx",
+      "item": "icon-brand-logos",
+      "props": {
+        "registryItem": "icon-brand-logos",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/brand-logos.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/heat-cell.mdx",
+      "item": "widget-heat-cell",
+      "props": {
+        "registryItem": "widget-heat-cell",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/heat-cell.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/theme-switcher.mdx",
+      "item": "widget-theme-switcher",
+      "props": {
+        "registryItem": "widget-theme-switcher",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/theme-switcher.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/stat-card.mdx",
+      "item": "widget-stat-card",
+      "props": {
+        "registryItem": "widget-stat-card",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/page-parts.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/copy-button.mdx",
+      "item": "widget-leaf-copy-button",
+      "props": {
+        "registryItem": "widget-leaf-copy-button",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/copy-button.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/search-input.mdx",
+      "item": "widget-search-input",
+      "props": {
+        "registryItem": "widget-search-input",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/trend-charts.mdx",
+      "item": "widget-trend-charts",
+      "props": {
+        "registryItem": "widget-trend-charts",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/trend-charts.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/filter-select.mdx",
+      "item": "widget-filter-select",
+      "props": {
+        "registryItem": "widget-filter-select",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/relative-time.mdx",
+      "item": "widget-leaf-relative-time",
+      "props": {
+        "registryItem": "widget-leaf-relative-time",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/relative-time.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/project-provider.mdx",
+      "item": "widget-project-context",
+      "props": {
+        "registryItem": "widget-project-context",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/project-context.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/foggy-message.mdx",
+      "item": "widget-foggy-foggy-message",
+      "props": {
+        "registryItem": "widget-foggy-foggy-message",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/foggy/foggy-message.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/stat.mdx",
+      "item": "widget-leaf-stat",
+      "props": {
+        "registryItem": "widget-leaf-stat",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/stat.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/toggle-chip.mdx",
+      "item": "widget-toggle-chip",
+      "props": {
+        "registryItem": "widget-toggle-chip",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/trace-timeline.mdx",
+      "item": "widget-trace-timeline",
+      "props": {
+        "registryItem": "widget-trace-timeline",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/trace-timeline.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/user-menu.mdx",
+      "item": "widget-user-menu-view",
+      "props": {
+        "registryItem": "widget-user-menu-view",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/user-menu.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/cost-breakdown.mdx",
+      "item": "widget-cost-breakdown",
+      "props": {
+        "registryItem": "widget-cost-breakdown",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/cost-breakdown-card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/prompt-versions-view.mdx",
+      "item": "widget-prompt-versions-card",
+      "props": {
+        "registryItem": "widget-prompt-versions-card",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/prompt-versions-card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/span-type.mdx",
+      "item": "widget-leaf-span-type",
+      "props": {
+        "registryItem": "widget-leaf-span-type",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/span-type.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/payload-view.mdx",
+      "item": "widget-payload-view",
+      "props": {
+        "registryItem": "widget-payload-view",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/payload-view.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/foggy-widget.mdx",
+      "item": "widget-foggy-foggy-widget",
+      "props": {
+        "registryItem": "widget-foggy-foggy-widget",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/foggy/foggy-widget.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/node-flow.mdx",
+      "item": "widget-leaf-node-flow",
+      "props": {
+        "registryItem": "widget-leaf-node-flow",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/node-flow.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/customer-avatar.mdx",
+      "item": "widget-leaf-customer-avatar",
+      "props": {
+        "registryItem": "widget-leaf-customer-avatar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/customer-avatar.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/tool-icon.mdx",
+      "item": "widget-leaf-tool-icon",
+      "props": {
+        "registryItem": "widget-leaf-tool-icon",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/tool-icon.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/hud-inline-preview.mdx",
+      "item": "hud-foglamphud",
+      "props": {
+        "registryItem": "hud-foglamphud",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/sdk/src/hud/react/FoglampHUD.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/tool-breakdown.mdx",
+      "item": "widget-tool-breakdown",
+      "props": {
+        "registryItem": "widget-tool-breakdown",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/tool-breakdown-card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/pagination-footer.mdx",
+      "item": "widget-pagination-footer",
+      "props": {
+        "registryItem": "widget-pagination-footer",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/agent-icon.mdx",
+      "item": "widget-leaf-agent-icon",
+      "props": {
+        "registryItem": "widget-leaf-agent-icon",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/agent-icon.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/foglamp-hud.mdx",
+      "item": "hud-foglamphud",
+      "props": {
+        "registryItem": "hud-foglamphud",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/sdk/src/hud/react/FoglampHUD.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/sortable-head.mdx",
+      "item": "widget-sortable-head",
+      "props": {
+        "registryItem": "widget-sortable-head",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/code-block.mdx",
+      "item": "widget-code-block",
+      "props": {
+        "registryItem": "widget-code-block",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/code-block.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/sunset-card.mdx",
+      "item": "widget-leaf-sunset-card",
+      "props": {
+        "registryItem": "widget-leaf-sunset-card",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/sunset-card.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/brand-mark.mdx",
+      "item": "icon-brand-mark",
+      "props": {
+        "registryItem": "icon-brand-mark",
+        "provenanceLabel": "1:1 Copied",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/brand-mark.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/model-chip.mdx",
+      "item": "widget-model-chip",
+      "props": {
+        "registryItem": "widget-model-chip",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/model-chip.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/markdown.mdx",
+      "item": "widget-markdown",
+      "props": {
+        "registryItem": "widget-markdown",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/markdown.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/toolbar.mdx",
+      "item": "widget-toolbar",
+      "props": {
+        "registryItem": "widget-toolbar",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/range-picker.mdx",
+      "item": "widget-range-picker",
+      "props": {
+        "registryItem": "widget-range-picker",
+        "provenanceLabel": "Modified (Import/Prop Decoupled)",
+        "sourceUrl": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/range-picker.tsx",
+        "repositoryUrl": "https://github.com/foglamp-labs/foglamp",
+        "foglampWebsite": "https://foglamp.dev",
+        "creatorWebsite": "https://gustavofior.com"
+      },
+      "pass": true
+    }
+  ],
+  "tributes": [
+    {
+      "path": "NOTICE",
+      "missing": []
+    },
+    {
+      "path": "CREDITS.md",
+      "missing": []
+    },
+    {
+      "path": "README.md",
+      "missing": []
+    },
+    {
+      "path": "apps/docs/src/routes/index.tsx",
+      "missing": []
+    },
+    {
+      "path": "apps/docs/content/docs/index.mdx",
+      "missing": []
+    },
+    {
+      "path": "apps/docs/content/docs/credits.mdx",
+      "missing": []
+    }
+  ],
+  "notice_byte_equal": true,
+  "license_byte_equal": true,
+  "OFL_byte_equal": true,
+  "failures": [],
+  "mdx_total": 175
+}

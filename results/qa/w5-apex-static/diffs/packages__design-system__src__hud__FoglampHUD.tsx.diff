@@ -1,0 +1,47 @@
+--- .reference/foglamp/packages/sdk/src/hud/react/FoglampHUD.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/hud/FoglampHUD.tsx	2026-11-05 19:02:55
+@@ -1,5 +1,4 @@
+ "use client";
+-const DEFAULT_PORT = 8517;
+ const useIsoLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
+ const SPRING_PILL = { stiffness: 620, damping: 42 };
+ const SPRING_VIEW = { stiffness: 540, damping: 44 };
+@@ -196,8 +195,7 @@
+ }
+ const HIDE_KEY = "foglamp-hud-hidden";
+ function HudApp(props) {
+-    const port = props.port ?? DEFAULT_PORT;
+-    const { state, conn } = useHudStream(port, props.url);
++    const { state, conn } = useHudStream(props.stream);
+     const [mode, setMode] = useState(props.defaultOpen ? "expanded" : "pill");
+     const [hidden, setHidden] = useState(() => {
+         try {
+@@ -815,4 +813,28 @@
+       <circle cx="12" cy="12" r="9"/>
+       <path d="M12 7.4V12l3 2" fill="none" stroke="var(--fl-bg)" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+     </svg>);
++}
++export function HudInlinePreview(props) {
++    const containerRef = useRef(null);
++    const [mount, setMount] = useState(null);
++    const theme = useResolvedTheme(props.theme ?? "system");
++    useEffect(() => {
++        const container = containerRef.current;
++        if (!container)
++            return;
++        const host = document.createElement("foglamp-hud");
++        const shadow = host.attachShadow({ mode: "open" });
++        const style = document.createElement("style");
++        style.textContent = HUD_CSS + "\n:host { position: relative !important; inset: auto !important; transform: none !important; display: block; } .fl-root { position: relative !important; inset: auto !important; }";
++        shadow.appendChild(style);
++        const mountEl = document.createElement("div");
++        shadow.appendChild(mountEl);
++        container.appendChild(host);
++        setMount(mountEl);
++        return () => { host.remove(); };
++    }, []);
++    useEffect(() => {
++        containerRef.current?.querySelector("foglamp-hud")?.setAttribute("data-theme", theme);
++    }, [theme, mount]);
++    return <div ref={containerRef}>{mount && createPortal(<HudApp {...props}/>, mount)}</div>;
+ }

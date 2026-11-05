@@ -1,0 +1,82 @@
+{
+  "links": [
+    {
+      "display": "inline",
+      "href": "https://github.com/gustavo-fior",
+      "opacity": "1",
+      "rect": {
+        "height": 15,
+        "width": 165.0625
+      },
+      "text": "Gustavo Fior (@gustavo-fior)",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://www.linkedin.com/in/abdulhdr/",
+      "opacity": "1",
+      "rect": {
+        "height": 31,
+        "width": 315.3125
+      },
+      "text": "Abdul Haidar",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://github.com/foglamp-labs/foglamp",
+      "opacity": "1",
+      "rect": {
+        "height": 15,
+        "width": 216.71875
+      },
+      "text": "Foglamp Labs (foglamp-labs/foglamp)",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://github.com/gustavo-fior",
+      "opacity": "1",
+      "rect": {
+        "height": 48,
+        "width": 329.21875
+      },
+      "text": "Gustavo Fior (@gustavo-fior)",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://www.linkedin.com/in/abdulhdr/",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 98.4375
+      },
+      "text": "Abdul Haidar",
+      "visibility": "visible",
+      "visible": true
+    },
+    {
+      "display": "inline",
+      "href": "https://foglamp.dev/",
+      "opacity": "1",
+      "rect": {
+        "height": 20,
+        "width": 105.828125
+      },
+      "text": "Foglamp Labs",
+      "visibility": "visible",
+      "visible": true
+    }
+  ],
+  "mode": "dark",
+  "url": "http://127.0.0.1:4203/docs/primitives/button",
+  "viewport": [
+    390,
+    844
+  ]
+}

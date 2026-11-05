@@ -1,0 +1,105 @@
+{
+  "scope": "Manual review notes for material residuals found by audit.cjs. Paths are relative to /Users/donbeave/Projects/donbeave/foglamp-design-system unless prefixed .reference/foglamp/.",
+  "approved_runtime_adapters": [
+    {
+      "kind": "Next Link to FoglampLink provider",
+      "pairs": [
+        "packages/design-system/src/blocks/marketing/figures/feature-section.tsx",
+        "packages/design-system/src/blocks/marketing/figures/product-hero.tsx",
+        "packages/design-system/src/blocks/marketing/cta/compact-cta.tsx",
+        "packages/design-system/src/blocks/marketing/cta/cta.tsx",
+        "packages/design-system/src/widgets/context-chip.tsx",
+        "packages/design-system/src/widgets/markdown.tsx",
+        "packages/design-system/src/widgets/prompt-version-chip.tsx"
+      ],
+      "rule": "Only emitted JSX tag identifier <FoglampLink> to <Link> normalized; no classes, text, props, expressions, or timing normalized. Six bodies compare equal with this adapter. Remaining one is API-boundary residual (see full report)."
+    },
+    {
+      "kind": "Next Image to native img",
+      "pairs": ["packages/design-system/src/blocks/marketing/hero/hero.tsx"],
+      "rule": "Only emitted JSX tag identifier <img> to <Image> normalized; attributes and literals remain unchanged."
+    },
+    {
+      "kind": "Import path remapping",
+      "pairs": "118 pairs listed as approved_import_path_adapter in full-report.json",
+      "rule": "Import binding symbols/types match and non-import emitted bodies hash equal. Runtime dependency graph may differ; equality is body-only."
+    }
+  ],
+  "material_residuals": [
+    {
+      "id": "hud-down-error-state-removed-and-live-network-replaced",
+      "classification": "unexplained behavior/data-source difference; visual parity not established",
+      "source": ".reference/foglamp/apps/web/src/app/hud/hud-landing.tsx",
+      "source_lines": [19, 24, 28, 46, 56],
+      "target": "packages/design-system/src/blocks/marketing/hud-landing.tsx",
+      "target_lines": [27, 29, 30, 52, 55, 56, 100],
+      "evidence": "Source uses dynamic foglamp/hud, a `down` state, fetches https://hud.foglamp.dev/api/storm, and displays down on catch. Target removes the down state/network request and emits a deterministic local mock event stream into FoglampHUD. This is a material data/behavior adapter with UI/state coverage changes."
+    },
+    {
+      "id": "login-form-becomes-callback-driven-local-demo",
+      "classification": "unexplained behavior/API and visual-state difference; extraction adapter, not byte-for-byte source parity",
+      "source": ".reference/foglamp/apps/web/src/components/login-form.tsx",
+      "source_lines": [28, 46, 100],
+      "target": "packages/design-system/src/blocks/auth/login-form.tsx",
+      "target_lines": [27, 35, 60, 66, 72, 92, 102, 124],
+      "evidence": "Target replaces authClient calls with optional host callbacks, defaults all sign-in methods on, uses a local-success fallback, and introduces signInComplete state. Target adds seven class literals at lines 218-242."
+    },
+    {
+      "id": "tool-breakdown-new-scroll-fades-and-chart-classes",
+      "classification": "unexplained visual-class delta; likely view extraction plus added scroll behavior, parity unproven",
+      "source": ".reference/foglamp/apps/web/src/components/app/tool-breakdown-card.tsx",
+      "source_lines": [80, 81],
+      "target": "packages/design-system/src/widgets/tool-breakdown.tsx",
+      "target_lines": [159, 162, 205, 209, 215, 216, 217, 222, 224],
+      "evidence": "Target adds border/dashed styling, scrolling containers, top/bottom fade overlays, and opacity classes absent from source."
+    },
+    {
+      "id": "foggy-markdown-link-class-removed",
+      "classification": "unexplained visual-class delta",
+      "source": ".reference/foglamp/apps/web/src/components/app/foggy/markdown.tsx",
+      "source_lines": [15],
+      "target": "packages/design-system/src/widgets/foggy/markdown.tsx",
+      "target_lines": [4],
+      "evidence": "Source link class `font-medium text-primary underline underline-offset-2` is absent from target class literals."
+    },
+    {
+      "id": "figure-height-class-moved-between-modules",
+      "classification": "unexplained module-boundary/class delta",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/landing/figures.tsx",
+      "source_lines": [23],
+      "target": "packages/design-system/src/blocks/marketing/figures/figures.tsx",
+      "target_lines": [],
+      "related_target": "packages/design-system/src/blocks/marketing/figures/figure-picker.tsx",
+      "related_target_lines": [37],
+      "evidence": "`h-112 w-full` source literal is absent from target figures.tsx and added to figure-picker.tsx. Requires connected composition review."
+    },
+    {
+      "id": "original-authors-image-cover-class-expanded",
+      "classification": "mandatory attribution additions plus unreviewed visual image sizing change",
+      "source": ".reference/foglamp/apps/web/src/app/(marketing)/about/page.tsx",
+      "source_lines": [142],
+      "target": "packages/design-system/src/blocks/marketing/original-authors-block.tsx",
+      "target_lines": [78, 80, 144],
+      "evidence": "Creator/team credit link classes are mandatory additions. Founder image class adds `absolute inset-0 h-full w-full` to the original image classes and needs visual parity inspection."
+    },
+    {
+      "id": "login-form-new-class-literals",
+      "classification": "new UI classes in changed login state/view",
+      "source": ".reference/foglamp/apps/web/src/components/login-form.tsx",
+      "source_lines": [],
+      "target": "packages/design-system/src/blocks/auth/login-form.tsx",
+      "target_lines": [218, 219, 220, 222, 223, 230, 242],
+      "evidence": "Seven target class literals have no matching source class literals; see full-report.json for their exact values."
+    },
+    {
+      "id": "marketing-footer-and-navbar-credit-regions-added",
+      "classification": "mandatory attribution additions; visual additions isolated to new credit regions",
+      "source": ".reference/foglamp/apps/web/src/components/marketing/footer.tsx and navbar.tsx",
+      "source_lines": [],
+      "target": "packages/design-system/src/blocks/marketing/chrome/footer.tsx and navbar.tsx",
+      "target_lines": ["footer:155-158", "navbar:131-133,186-189"],
+      "evidence": "New creator/team link regions, external-link attributes, and associated class literals implement the required attribution."
+    }
+  ],
+  "remaining_residuals": "Other body/import deltas remain individually listed with exact paths, hashes, import statements, changed literal/class sets, and first emitted-body difference evidence in full-report.json. No unresolved residual is counted as parity."
+}

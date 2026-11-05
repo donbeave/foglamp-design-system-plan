@@ -1,0 +1,22 @@
+--- .reference/foglamp/apps/web/src/components/marketing/landing/hero.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/hero/hero.tsx	2026-11-05 19:02:54
+@@ -103,7 +103,7 @@
+ 
+         <motion.div {...rise(5)} className="hidden items-center gap-2 text-[13px] tracking-wide text-muted-foreground md:flex border-l pl-3">
+           Built for the
+-          <Image src="/ai-sdk-logo.png" alt="Vercel AI SDK" className="w-12 invert dark:invert-0" width={1080} height={1080}/>
++          <img src="/ai-sdk-logo.png" alt="Vercel AI SDK" className="w-12 invert dark:invert-0" width={1080} height={1080}/>
+         </motion.div>
+       </div>
+ 
+@@ -124,8 +124,8 @@
+       
+       <motion.div {...rise(0.6)} className="mt-12 w-[150%] pl-5 sm:pl-8 md:hidden">
+         <DemoFrame clip>
+-          <Image src="/demo-overview-dark.png" alt="The Foglamp overview dashboard" width={2072} height={1320} className="hidden w-full dark:block"/>
+-          <Image src="/demo-overview-light.png" alt="The Foglamp overview dashboard" width={2072} height={1320} className="w-full dark:hidden"/>
++          <img src="/demo-overview-dark.png" alt="The Foglamp overview dashboard" width={2072} height={1320} className="hidden w-full dark:block"/>
++          <img src="/demo-overview-light.png" alt="The Foglamp overview dashboard" width={2072} height={1320} className="w-full dark:hidden"/>
+         </DemoFrame>
+       </motion.div>
+ 

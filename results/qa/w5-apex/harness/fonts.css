@@ -1,0 +1,45 @@
+@import "@fontsource-variable/geist-mono";
+@import "@fontsource-variable/host-grotesk";
+@font-face {
+  font-family: Inter;
+  src: url("/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/assets/InterVariable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: Inter;
+  src: url("/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/assets/InterVariable-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+/* Next 16.2.4 localFont fallback metrics for the canonical InterVariable.woff2
+ * (SHA-256 693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3). */
+@font-face {
+  font-family: "Inter Fallback";
+  src: local("Arial");
+  ascent-override: 89.79%;
+  descent-override: 22.36%;
+  line-gap-override: 0.00%;
+  size-adjust: 107.89%;
+}
+/* Next 16.2.4 Google font fallback metrics for the source Latin families. */
+@font-face {
+  font-family: "Geist Mono Fallback";
+  src: local("Arial");
+  ascent-override: 74.67%;
+  descent-override: 21.92%;
+  line-gap-override: 0.00%;
+  size-adjust: 134.59%;
+}
+@font-face {
+  font-family: "Host Grotesk Fallback";
+  src: local("Arial");
+  ascent-override: 96.69%;
+  descent-override: 30.01%;
+  line-gap-override: 0.00%;
+  size-adjust: 104.98%;
+}
+:root { --font-sans: Inter, "Inter Fallback", sans-serif; --font-geist-mono: "Geist Mono Variable", "Geist Mono Fallback", monospace; --font-host-grotesk: "Host Grotesk Variable", "Host Grotesk Fallback", sans-serif; }
+@theme inline { --font-mono: var(--font-geist-mono); }

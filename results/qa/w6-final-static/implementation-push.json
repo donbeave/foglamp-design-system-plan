@@ -1,0 +1,9 @@
+{
+  "commit": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+  "origin_main_tracking": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+  "remote_main": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+  "working_tree_clean": true,
+  "push_verified": true,
+  "commit_message": "feat(wave-6): rebrand Framerock and preserve upstream provenance",
+  "latest_registry_refresh_commit": "fa5da0c"
+}

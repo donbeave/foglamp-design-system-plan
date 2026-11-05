@@ -1,0 +1,105 @@
+--- .reference/foglamp/apps/web/src/components/app/cost-breakdown-card.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/widgets/cost-breakdown.tsx	2026-11-05 19:02:55
+@@ -12,31 +12,19 @@
+     currency: "USD",
+     maximumFractionDigits: 3,
+ });
+-export function CostBreakdownCard({ agentName, workflowName, title = "Cost breakdown", className, syncId, }) {
+-    const { projectId } = useProject();
+-    const { range } = useRange();
+-    const zoom = useZoomRange();
++export function CostBreakdownView({ data, range, isLoading = false, isUpdating = false, title = "Cost breakdown", className, syncId, onZoomSelect, onZoomReset, }) {
+     const from = range.from.toISOString();
+     const to = range.to.toISOString();
+     const [selected, setSelected] = useState(null);
+     useEffect(() => setSelected(null), [from, to]);
+-    const query = useQuery({
+-        ...trpc.metrics.costByCategory.queryOptions({
+-            projectId: projectId,
+-            from,
+-            to,
+-            agentName,
+-            workflowName,
+-        }),
+-        enabled: !!projectId,
+-        placeholderData: (prev) => prev,
+-    });
+-    const chartsStale = query.isPlaceholderData;
+-    const chartView = useFrozen({ rows: query.data, windowMs: range.to.getTime() - range.from.getTime() }, chartsStale);
++    const chartView = useFrozen({
++        rows: data,
++        windowMs: range.to.getTime() - range.from.getTime(),
++    }, isUpdating);
+     const bucketLabel = useMemo(() => makeBucketLabel(chartView.windowMs), [chartView.windowMs]);
+     const edgeTick = useMemo(() => makeEdgeTick(bucketLabel), [bucketLabel]);
+-    const { data, config, keys, ticks, empty } = useMemo(() => {
+-        const rows = chartView.rows ?? [];
++    const { chartData, config, keys, ticks, empty } = useMemo(() => {
++        const rows = chartView.rows;
+         const totals = {
+             input: 0,
+             output: 0,
+@@ -45,7 +33,7 @@
+             reasoning: 0,
+             other: 0,
+         };
+-        const data = rows.map((r) => {
++        const chartData = rows.map((r) => {
+             const row = { bucket: r.bucket };
+             row.input = r.inputCost;
+             row.output = r.outputCost;
+@@ -62,23 +50,23 @@
+         for (const c of active)
+             config[c.key] = { label: c.label, colors: themed(c.color) };
+         return {
+-            data,
++            chartData,
+             config,
+             keys: active.map((c) => c.key),
+             ticks: thinTicks(rows.map((r) => r.bucket), bucketLabel),
+-            empty: !query.isLoading && active.length === 0,
++            empty: !isLoading && active.length === 0,
+         };
+-    }, [chartView, query.isLoading, bucketLabel]);
++    }, [chartView, isLoading, bucketLabel]);
+     const lastBucketLive = useMemo(() => {
+-        if (data.length < 2)
++        if (chartData.length < 2)
+             return false;
+         const ms = (b) => new Date(`${b.replace(" ", "T")}Z`).getTime();
+-        const last = ms(String(data[data.length - 1].bucket));
+-        const prev = ms(String(data[data.length - 2].bucket));
++        const last = ms(String(chartData[chartData.length - 1].bucket));
++        const prev = ms(String(chartData[chartData.length - 2].bucket));
+         if (Number.isNaN(last) || Number.isNaN(prev))
+             return false;
+         return Date.now() < last + (last - prev);
+-    }, [data]);
++    }, [chartData]);
+     return (<Card size="sm" className={className}>
+ 			<CardHeader className="flex flex-row items-center justify-between gap-4">
+ 				<CardTitle>{title}</CardTitle>
+@@ -86,16 +74,16 @@
+ 			</CardHeader>
+ 			<CardContent className="mt-3">
+ 				<div className="relative">
+-					<BarChart.EvilBarChart config={config} data={data} stackType="stacked" xDataKey="bucket" syncId={syncId} onZoomSelect={empty ? undefined : zoom.zoomTo} onZoomReset={zoom.reset} selectedDataKey={selected} onSelectionChange={setSelected} isLoading={query.isLoading} isUpdating={!empty && chartsStale} className={cn("h-[260px] w-full", empty && "opacity-40")} chartProps={{
++					<EvilBarChart config={config} data={chartData} stackType="stacked" xDataKey="bucket" syncId={syncId} onZoomSelect={empty ? undefined : onZoomSelect} onZoomReset={onZoomReset} selectedDataKey={selected} onSelectionChange={setSelected} isLoading={isLoading} isUpdating={!empty && isUpdating} className={cn("h-[260px] w-full", empty && "opacity-40")} chartProps={{
+             margin: { top: 5, right: 5, bottom: 5, left: 2 },
+             barCategoryGap: "40%",
+         }}>
+-						<BarChart.Grid />
+-						<BarChart.XAxis dataKey="bucket" ticks={ticks} tickFormatter={bucketLabel} interval={0} tick={edgeTick}/>
+-						<BarChart.YAxis tickFormatter={(v) => costAxisUsd.format(Number(v))}/>
+-						<BarChart.Tooltip labelFormatter={(v) => formatBucketFull(String(v))} valueFormatter={(v) => formatCost(Number(v))} reverse/>
+-						{keys.map((k) => (<BarChart.Bar key={k} dataKey={k} isClickable bufferBar={lastBucketLive}/>))}
+-					</BarChart.EvilBarChart>
++						<Grid />
++						<XAxis dataKey="bucket" ticks={ticks} tickFormatter={bucketLabel} interval={0} tick={edgeTick}/>
++						<YAxis tickFormatter={(v) => costAxisUsd.format(Number(v))}/>
++						<Tooltip labelFormatter={(v) => formatBucketFull(String(v))} valueFormatter={(v) => formatCost(Number(v))} reverse/>
++						{keys.map((k) => (<Bar key={k} dataKey={k} isClickable bufferBar={lastBucketLive}/>))}
++					</EvilBarChart>
+ 					{empty && (<p className="text-muted-foreground absolute inset-0 flex items-center justify-center text-sm">
+ 							No cost recorded in this range.
+ 						</p>)}

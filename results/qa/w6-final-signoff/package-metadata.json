@@ -1,0 +1,36 @@
+{
+  "name": "@tailrocks/framerock",
+  "author": {
+    "name": "Tailrocks",
+    "url": "https://github.com/tailrocks"
+  },
+  "contributors": [
+    {
+      "name": "Gustavo Fior",
+      "url": "https://gustavofior.com",
+      "role": "Original Creator & Principal Design Engineer of Foglamp UI (https://github.com/foglamp-labs/foglamp)"
+    },
+    {
+      "name": "Abdul Haidar",
+      "url": "https://www.linkedin.com/in/abdulhdr/",
+      "role": "Co-Founder & Original Author of Foglamp (https://foglamp.dev)"
+    },
+    {
+      "name": "Foglamp Labs",
+      "url": "https://foglamp.dev",
+      "role": "Original Upstream Project (https://github.com/foglamp-labs/foglamp)"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tailrocks/framerock.git"
+  },
+  "homepage": "https://github.com/tailrocks/framerock",
+  "license": "Apache-2.0",
+  "files": [
+    "src",
+    "LICENSE",
+    "NOTICE",
+    "THIRD-PARTY-NOTICES.md"
+  ]
+}

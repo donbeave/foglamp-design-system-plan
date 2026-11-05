@@ -1,0 +1,127 @@
+--- .reference/foglamp/apps/web/src/components/device-approve-client.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/auth/device-approve.tsx	2026-11-05 19:02:54
+@@ -1,10 +1,8 @@
+ "use client";
+-function errMessage(error, fallback) {
+-    if (error && typeof error === "object") {
+-        const e = error;
+-        return e.error_description ?? e.message ?? fallback;
+-    }
+-    return fallback;
++const LOCAL_PENDING_CLAIM = { kind: "pending" };
++const LOCAL_SUCCESSFUL_DECISION = { kind: "success" };
++function getErrorMessage(error, fallback) {
++    return error instanceof Error && error.message ? error.message : fallback;
+ }
+ function DeviceShell({ children }) {
+     return (<div className="mx-auto flex w-full max-w-lg flex-col p-6">
+@@ -14,7 +12,7 @@
+ 			{children}
+ 		</div>);
+ }
+-export function DeviceApprove({ initialUserCode, userEmail, }) {
++export function DeviceApproveBlock({ initialUserCode, userEmail, onClaim, onDecision, onApproved, }) {
+     const [code, setCode] = useState(initialUserCode.trim());
+     const [phase, setPhase] = useState(initialUserCode.trim() ? "claiming" : "needCode");
+     const [message, setMessage] = useState(null);
+@@ -22,22 +20,35 @@
+     const claim = useCallback(async (userCode) => {
+         setPhase("claiming");
+         setMessage(null);
+-        const { data, error } = await authClient.$fetch("/device", { method: "GET", query: { user_code: userCode } });
+-        if (error) {
++        try {
++            const result = onClaim
++                ? await onClaim({ userCode, userEmail })
++                : LOCAL_PENDING_CLAIM;
++            switch (result.kind) {
++                case "approved":
++                    setPhase("approved");
++                    break;
++                case "denied":
++                    setPhase("denied");
++                    break;
++                case "error":
++                    setPhase("error");
++                    setMessage(result.message);
++                    break;
++                case "pending":
++                    setPhase("ready");
++                    break;
++                default: {
++                    const exhaustive = result;
++                    return exhaustive;
++                }
++            }
++        }
++        catch (error) {
+             setPhase("error");
+-            setMessage(errMessage(error, "That code is invalid or has expired."));
+-            return;
++            setMessage(getErrorMessage(error, "That code is invalid or has expired."));
+         }
+-        if (data?.status === "approved") {
+-            setPhase("approved");
+-        }
+-        else if (data?.status === "denied") {
+-            setPhase("denied");
+-        }
+-        else {
+-            setPhase("ready");
+-        }
+-    }, []);
++    }, [onClaim, userEmail]);
+     const claimedFor = useRef(null);
+     useEffect(() => {
+         const c = initialUserCode.trim();
+@@ -48,20 +59,27 @@
+     }, [initialUserCode, claim]);
+     const decide = async (action) => {
+         setBusy(true);
+-        const { error } = await authClient.$fetch(`/device/${action}`, {
+-            method: "POST",
+-            body: { userCode: code },
+-        });
+-        setBusy(false);
+-        if (error) {
++        try {
++            const result = onDecision
++                ? await onDecision({ userCode: code, action })
++                : LOCAL_SUCCESSFUL_DECISION;
++            if (result.kind === "error") {
++                setPhase("error");
++                setMessage(result.message);
++                return;
++            }
++            if (action === "approve") {
++                onApproved?.({ userCode: code });
++            }
++            setPhase(action === "approve" ? "approved" : "denied");
++        }
++        catch (error) {
+             setPhase("error");
+-            setMessage(errMessage(error, `Could not ${action} the request.`));
+-            return;
++            setMessage(getErrorMessage(error, `Could not ${action} the request.`));
+         }
+-        if (action === "approve") {
+-            captureActivationEvent("device_authorization_approved");
++        finally {
++            setBusy(false);
+         }
+-        setPhase(action === "approve" ? "approved" : "denied");
+     };
+     if (phase === "approved") {
+         return (<DeviceShell>
+@@ -70,8 +88,9 @@
+ 					<h1 className="text-lg font-medium">Terminal connected</h1>
+ 				</div>
+ 				<p className="mt-2 text-sm text-muted-foreground text-balance">
+-					You can return to your terminal. Foglamp will finish setting up and
+-					write your API key. You can close this tab.
++					{onDecision
++                ? "You can return to your terminal. Foglamp will finish setting up and write your API key. You can close this tab."
++                : "Local demo approval complete. Connect an onDecision callback to authorize a real terminal."}
+ 				</p>
+ 			</DeviceShell>);
+     }

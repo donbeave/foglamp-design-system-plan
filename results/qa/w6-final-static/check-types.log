@@ -1,0 +1,16 @@
+$ turbo check-types
+
+   • turbo 2.11.10
+   • Packages in scope: @tailrocks/docs, @tailrocks/framerock, @tailrocks/registry
+   • Running check-types in 3 packages
+   • Remote caching disabled
+
+@tailrocks/framerock:check-types: cache hit, replaying logs 52e591e16b749164
+@tailrocks/framerock:check-types: $ tsc --noEmit
+@tailrocks/docs:check-types: cache hit, replaying logs 648b8c879b6393f1
+@tailrocks/docs:check-types: $ tsc --noEmit
+
+ Tasks:    2 successful, 2 total
+Cached:    2 cached, 2 total
+  Time:    64ms >>> FULL TURBO
+

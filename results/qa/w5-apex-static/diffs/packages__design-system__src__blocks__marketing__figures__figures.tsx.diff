@@ -1,0 +1,23 @@
+--- .reference/foglamp/apps/web/src/components/marketing/landing/figures.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/figures/figures.tsx	2026-11-05 19:02:54
+@@ -1,17 +1,7 @@
+ "use client";
+-const gap = () => <div className="h-112 w-full"/>;
+-const scene = (pick) => dynamic(() => import("./figures-scenes").then(pick), {
+-    ssr: false,
+-    loading: gap,
+-});
+-const costs = (pick) => dynamic(() => import("./figures-costs").then(pick), {
+-    ssr: false,
+-    loading: gap,
+-});
+-const traces = (pick) => dynamic(() => import("./figures-traces").then(pick), {
+-    ssr: false,
+-    loading: gap,
+-});
++const scene = (pick) => lazy(() => import("./figures-scenes").then((module) => ({ default: pick(module) })));
++const costs = (pick) => lazy(() => import("./figures-costs").then((module) => ({ default: pick(module) })));
++const traces = (pick) => lazy(() => import("./figures-traces").then((module) => ({ default: pick(module) })));
+ export const FIGURES = {
+     costs: [
+         { id: "cards", label: "Cards", component: scene((m) => m.CostCards) },

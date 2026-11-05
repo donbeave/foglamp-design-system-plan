@@ -1,0 +1,4 @@
+Bun: 1.4.4 (mise exec bun@latest)
+Node: v26.13.0
+npm: 11.20.0
+Date: 2026-11-05

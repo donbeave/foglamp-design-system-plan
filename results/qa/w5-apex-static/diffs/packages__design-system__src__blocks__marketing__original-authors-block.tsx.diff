@@ -1,0 +1,55 @@
+--- .reference/foglamp/apps/web/src/app/(marketing)/about/page.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/marketing/original-authors-block.tsx	2026-11-05 19:02:55
+@@ -16,16 +16,11 @@
+         bio: "Abdul is a co-founder of Foglamp, working alongside Gustavo to build clearer infrastructure for AI products.",
+     },
+ ];
+-export const metadata = {
+-    title: "About",
+-    description: "The story behind Foglamp and the people building observability for AI agents.",
+-    alternates: { canonical: "/about" },
+-};
+ const organizationJsonLd = {
+     "@context": "https://schema.org",
+     "@type": "Organization",
+     name: "Foglamp",
+-    url: SITE_URL,
++    url: "https://foglamp.dev",
+     foundingDate: "2026",
+     foundingLocation: {
+         "@type": "Place",
+@@ -42,7 +37,7 @@
+         "https://github.com/foglamp-labs/foglamp",
+     ],
+ };
+-export default function AboutPage() {
++export function OriginalAuthorsBlock() {
+     return (<>
+ 			<script type="application/ld+json" dangerouslySetInnerHTML={{
+             __html: JSON.stringify(organizationJsonLd).replace(/</g, "\\u003c"),
+@@ -63,6 +58,16 @@
+ 						<h1 className="font-display text-5xl font-medium tracking-[-0.045em] text-foreground sm:text-7xl">
+ 							Helping builders see what their AI is doing.
+ 						</h1>
++						<div className="mt-6 flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
++							<span>Original design & engineering by</span>
++							<a href="https://github.com/gustavo-fior" target="_blank" rel="noreferrer noopener" className="text-foreground underline underline-offset-4">Gustavo Fior (@gustavo-fior)</a>
++							<span aria-hidden="true">·</span>
++							<a href="https://www.linkedin.com/in/abdulhdr/" target="_blank" rel="noreferrer noopener" className="text-foreground underline underline-offset-4">Abdul Haidar</a>
++							<span aria-hidden="true">·</span>
++							<a href="https://foglamp.dev" target="_blank" rel="noreferrer noopener" className="text-foreground underline underline-offset-4">Foglamp Labs</a>
++							<span aria-hidden="true">·</span>
++							<a href="https://github.com/foglamp-labs/foglamp" target="_blank" rel="noreferrer noopener" className="text-foreground underline underline-offset-4">foglamp-labs/foglamp</a>
++						</div>
+ 					</header>
+ 
+ 					<section aria-labelledby="our-story" className="mt-20 grid gap-8 border-t border-border pt-10 sm:mt-28 sm:grid-cols-[1fr_2fr] sm:gap-16 sm:pt-14">
+@@ -103,7 +108,7 @@
+ 						<div className="divide-y divide-border">
+ 							{founders.map((founder, index) => (<article key={founder.name} className="group grid items-center gap-7 py-9 first:pt-0 last:pb-0 sm:grid-cols-[11rem_1fr_auto] sm:gap-10 sm:py-12">
+ 									<div className="relative aspect-square overflow-hidden rounded-2xl bg-muted shadow-(--custom-shadow) squircle:rounded-4xl corner-squircle">
+-										<Image src={founder.image} alt={`${founder.name}, co-founder of Foglamp`} fill sizes="(max-width: 640px) 100vw, 176px" className="object-cover grayscale transition duration-500 group-hover:grayscale-0" priority={index === 0}/>
++											<img src={founder.image} alt={`${founder.name}, co-founder of Foglamp`} className="absolute inset-0 h-full w-full object-cover grayscale transition duration-500 group-hover:grayscale-0" loading={index === 0 ? "eager" : "lazy"} fetchPriority={index === 0 ? "high" : "auto"}/>
+ 									</div>
+ 
+ 									<div>

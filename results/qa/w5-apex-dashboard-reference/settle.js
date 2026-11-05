@@ -1,0 +1,7 @@
+(async()=>{
+ const r=await window.__advanceReferenceFrames(8000);
+ const roots=[document];
+ for(let i=0;i<roots.length;i++) for(const e of roots[i].querySelectorAll('*')) if(e.shadowRoot) roots.push(e.shadowRoot);
+ for(const root of roots) for(const a of root.getAnimations({subtree:true})){a.pause();a.currentTime=8000;}
+ return JSON.stringify({...r,roots:roots.length});
+})()

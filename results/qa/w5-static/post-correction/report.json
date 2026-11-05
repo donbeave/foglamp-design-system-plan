@@ -1,0 +1,34 @@
+{
+  "task": "W5-5.1A-post-correction",
+  "state": "REVIEW",
+  "target_head_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "commands": [
+    {"command": "mise exec bun@latest -- bun run check-types", "exit_code": 0},
+    {"command": "mise exec bun@latest -- bun test", "exit_code": 0, "tests_pass": 58, "tests_fail": 0},
+    {"command": "mise exec bun@latest -- bun run check:portal", "exit_code": 0, "stories": 168, "registry_items": 289, "browser_import_guard": "included and passed"},
+    {"command": "mise exec bun@latest -- bun run build:registry", "exit_code": 0, "registry_items_built": 289, "story_catalog_entries": 289},
+    {"command": "mise exec bun@latest -- bun run build", "exit_code": 0}
+  ],
+  "target_diff": {
+    "authorized_story_files_changed": 11,
+    "design_system_source_changed": false,
+    "generated_registry_diff": "empty; deterministic regeneration",
+    "other_concurrent_owned_change": "scripts/verify-portal.ts browser-import guard; authored by separate guard worker"
+  },
+  "build_observations": {
+    "node_crypto_externalization": false,
+    "fumadocs_mdX_node_fs_promises_externalization_notice": true,
+    "css_optimizer_warnings": 2,
+    "build_tasks_successful": 1
+  },
+  "unresolved_limits": [
+    "Static/build checks do not prove visual parity or complete interactive coverage; browser QA remains required."
+  ],
+  "artifacts": [
+    "results/qa/w5-static/post-correction/check-types.log",
+    "results/qa/w5-static/post-correction/bun-test.log",
+    "results/qa/w5-static/post-correction/check-portal.log",
+    "results/qa/w5-static/post-correction/build-registry.log",
+    "results/qa/w5-static/post-correction/build.log"
+  ]
+}

@@ -1,0 +1,1333 @@
+[
+  {
+    "route": "/",
+    "h1": [
+      "Know what your agents are doing",
+      "Traces",
+      "Helping builders see what their AI is doing."
+    ],
+    "links": [
+      {
+        "text": "Foglamp",
+        "href": "http://127.0.0.1:4203/",
+        "display": "flex",
+        "rect": {
+          "x": 112,
+          "y": 18,
+          "width": 103.609375,
+          "height": 28,
+          "top": 18,
+          "right": 215.609375,
+          "bottom": 46,
+          "left": 112
+        }
+      },
+      {
+        "text": "Gustavo Fior",
+        "href": "https://gustavofior.com/",
+        "display": "inline",
+        "rect": {
+          "x": 283.53125,
+          "y": 32,
+          "width": 59.765625,
+          "height": 12,
+          "top": 32,
+          "right": 343.296875,
+          "bottom": 44,
+          "left": 283.53125
+        }
+      },
+      {
+        "text": "(@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 346.109375,
+          "y": 32,
+          "width": 74.984375,
+          "height": 12,
+          "top": 32,
+          "right": 421.09375,
+          "bottom": 44,
+          "left": 346.109375
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "block",
+        "rect": {
+          "x": 431.984375,
+          "y": 32,
+          "width": 61.265625,
+          "height": 12.5,
+          "top": 32,
+          "right": 493.25,
+          "bottom": 44.5,
+          "left": 431.984375
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "block",
+        "rect": {
+          "x": 504.140625,
+          "y": 32,
+          "width": 66.046875,
+          "height": 12.5,
+          "top": 32,
+          "right": 570.1875,
+          "bottom": 44.5,
+          "left": 504.140625
+        }
+      },
+      {
+        "text": "Credits & Original Creator",
+        "href": "http://127.0.0.1:4203/docs/credits",
+        "display": "block",
+        "rect": {
+          "x": 933.796875,
+          "y": 22,
+          "width": 168.59375,
+          "height": 20,
+          "top": 22,
+          "right": 1102.390625,
+          "bottom": 42,
+          "left": 933.796875
+        }
+      },
+      {
+        "text": "",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "flex",
+        "rect": {
+          "x": 1122.390625,
+          "y": 16,
+          "width": 32,
+          "height": 32,
+          "top": 16,
+          "right": 1154.390625,
+          "bottom": 48,
+          "left": 1122.390625
+        }
+      },
+      {
+        "text": "Gustavo Fior",
+        "href": "https://gustavofior.com/",
+        "display": "inline",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "(@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "inline",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "foglamp-labs/foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Gustavo Fior",
+        "href": "https://gustavofior.com/",
+        "display": "block",
+        "rect": {
+          "x": 253.421875,
+          "y": 105,
+          "width": 84.625,
+          "height": 20,
+          "top": 105,
+          "right": 338.046875,
+          "bottom": 125,
+          "left": 253.421875
+        }
+      },
+      {
+        "text": "@gustavo-fior",
+        "href": "https://github.com/gustavo-fior",
+        "display": "block",
+        "rect": {
+          "x": 355.15625,
+          "y": 105,
+          "width": 94.75,
+          "height": 20,
+          "top": 105,
+          "right": 449.90625,
+          "bottom": 125,
+          "left": 355.15625
+        }
+      },
+      {
+        "text": "@heyimgustavo",
+        "href": "https://x.com/heyimgustavo",
+        "display": "block",
+        "rect": {
+          "x": 465.953125,
+          "y": 105,
+          "width": 105.765625,
+          "height": 20,
+          "top": 105,
+          "right": 571.71875,
+          "bottom": 125,
+          "left": 465.953125
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "block",
+        "rect": {
+          "x": 671.359375,
+          "y": 105,
+          "width": 85.78125,
+          "height": 20,
+          "top": 105,
+          "right": 757.140625,
+          "bottom": 125,
+          "left": 671.359375
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "block",
+        "rect": {
+          "x": 801.828125,
+          "y": 105,
+          "width": 92.46875,
+          "height": 20,
+          "top": 105,
+          "right": 894.296875,
+          "bottom": 125,
+          "left": 801.828125
+        }
+      },
+      {
+        "text": "foglamp-labs/foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "block",
+        "rect": {
+          "x": 1053.5,
+          "y": 105,
+          "width": 146.390625,
+          "height": 20,
+          "top": 105,
+          "right": 1199.890625,
+          "bottom": 125,
+          "left": 1053.5
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 231.046875,
+          "y": 2209,
+          "width": 165.0625,
+          "height": 15,
+          "top": 2209,
+          "right": 396.109375,
+          "bottom": 2224,
+          "left": 231.046875
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 406.328125,
+          "y": 2209,
+          "width": 73.53125,
+          "height": 15,
+          "top": 2209,
+          "right": 479.859375,
+          "bottom": 2224,
+          "left": 406.328125
+        }
+      },
+      {
+        "text": "Foglamp Labs (foglamp-labs/foglamp)",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 490.078125,
+          "y": 2209,
+          "width": 216.71875,
+          "height": 15,
+          "top": 2209,
+          "right": 706.796875,
+          "bottom": 2224,
+          "left": 490.078125
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "block",
+        "rect": {
+          "x": 462.984375,
+          "y": 2869.5,
+          "width": 192.5625,
+          "height": 20,
+          "top": 2869.5,
+          "right": 655.546875,
+          "bottom": 2889.5,
+          "left": 462.984375
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "block",
+        "rect": {
+          "x": 675.59375,
+          "y": 2869.5,
+          "width": 85.78125,
+          "height": 20,
+          "top": 2869.5,
+          "right": 761.375,
+          "bottom": 2889.5,
+          "left": 675.59375
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "block",
+        "rect": {
+          "x": 781.421875,
+          "y": 2869.5,
+          "width": 92.46875,
+          "height": 20,
+          "top": 2869.5,
+          "right": 873.890625,
+          "bottom": 2889.5,
+          "left": 781.421875
+        }
+      },
+      {
+        "text": "foglamp-labs/foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "block",
+        "rect": {
+          "x": 240,
+          "y": 2893.5,
+          "width": 146.390625,
+          "height": 20,
+          "top": 2893.5,
+          "right": 386.390625,
+          "bottom": 2913.5,
+          "left": 240
+        }
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gustavofior",
+        "display": "flex",
+        "rect": {
+          "x": 1063.5,
+          "y": 3881.5,
+          "width": 136.5,
+          "height": 42,
+          "top": 3881.5,
+          "right": 1200,
+          "bottom": 3923.5,
+          "left": 1063.5
+        }
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "flex",
+        "rect": {
+          "x": 1063.5,
+          "y": 4154.5,
+          "width": 136.5,
+          "height": 42,
+          "top": 4154.5,
+          "right": 1200,
+          "bottom": 4196.5,
+          "left": 1063.5
+        }
+      },
+      {
+        "text": "Docs",
+        "href": "https://docs.foglamp.dev/",
+        "display": "inline",
+        "rect": {
+          "x": 811.46875,
+          "y": 5317.5,
+          "width": 33.890625,
+          "height": 17,
+          "top": 5317.5,
+          "right": 845.359375,
+          "bottom": 5334.5,
+          "left": 811.46875
+        }
+      },
+      {
+        "text": "Quickstart",
+        "href": "https://docs.foglamp.dev/quickstart",
+        "display": "inline",
+        "rect": {
+          "x": 811.46875,
+          "y": 5351.5,
+          "width": 68.03125,
+          "height": 17,
+          "top": 5351.5,
+          "right": 879.5,
+          "bottom": 5368.5,
+          "left": 811.46875
+        }
+      },
+      {
+        "text": "Self-hosting",
+        "href": "https://docs.foglamp.dev/self-hosting",
+        "display": "inline",
+        "rect": {
+          "x": 811.46875,
+          "y": 5385.5,
+          "width": 80.65625,
+          "height": 17,
+          "top": 5385.5,
+          "right": 892.125,
+          "bottom": 5402.5,
+          "left": 811.46875
+        }
+      },
+      {
+        "text": "Changelog",
+        "href": "https://docs.foglamp.dev/changelog",
+        "display": "inline",
+        "rect": {
+          "x": 811.46875,
+          "y": 5419.5,
+          "width": 71.765625,
+          "height": 17,
+          "top": 5419.5,
+          "right": 883.234375,
+          "bottom": 5436.5,
+          "left": 811.46875
+        }
+      },
+      {
+        "text": "GitHub",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 811.46875,
+          "y": 5453.5,
+          "width": 45.671875,
+          "height": 17,
+          "top": 5453.5,
+          "right": 857.140625,
+          "bottom": 5470.5,
+          "left": 811.46875
+        }
+      },
+      {
+        "text": "HUD",
+        "href": "http://127.0.0.1:4203/docs/widgets/foglamp-hud",
+        "display": "inline",
+        "rect": {
+          "x": 1089.734375,
+          "y": 5351.5,
+          "width": 30.9375,
+          "height": 17,
+          "top": 5351.5,
+          "right": 1120.671875,
+          "bottom": 5368.5,
+          "left": 1089.734375
+        }
+      },
+      {
+        "text": "Privacy",
+        "href": "https://foglamp.dev/privacy",
+        "display": "inline",
+        "rect": {
+          "x": 1089.734375,
+          "y": 5447.5,
+          "width": 49,
+          "height": 17,
+          "top": 5447.5,
+          "right": 1138.734375,
+          "bottom": 5464.5,
+          "left": 1089.734375
+        }
+      },
+      {
+        "text": "Terms",
+        "href": "https://foglamp.dev/terms",
+        "display": "inline",
+        "rect": {
+          "x": 1089.734375,
+          "y": 5481.5,
+          "width": 41.25,
+          "height": 17,
+          "top": 5481.5,
+          "right": 1130.984375,
+          "bottom": 5498.5,
+          "left": 1089.734375
+        }
+      },
+      {
+        "text": "Gustavo Fior",
+        "href": "https://gustavofior.com/",
+        "display": "inline",
+        "rect": {
+          "x": 535.875,
+          "y": 5581.5,
+          "width": 71.71875,
+          "height": 15,
+          "top": 5581.5,
+          "right": 607.59375,
+          "bottom": 5596.5,
+          "left": 535.875
+        }
+      },
+      {
+        "text": "(@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 610.96875,
+          "y": 5581.5,
+          "width": 89.96875,
+          "height": 15,
+          "top": 5581.5,
+          "right": 700.9375,
+          "bottom": 5596.5,
+          "left": 610.96875
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 711.15625,
+          "y": 5581.5,
+          "width": 73.53125,
+          "height": 15,
+          "top": 5581.5,
+          "right": 784.6875,
+          "bottom": 5596.5,
+          "left": 711.15625
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "inline",
+        "rect": {
+          "x": 794.90625,
+          "y": 5581.5,
+          "width": 79.25,
+          "height": 15,
+          "top": 5581.5,
+          "right": 874.15625,
+          "bottom": 5596.5,
+          "left": 794.90625
+        }
+      },
+      {
+        "text": "foglamp-labs/foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 884.375,
+          "y": 5581.5,
+          "width": 125.46875,
+          "height": 15,
+          "top": 5581.5,
+          "right": 1009.84375,
+          "bottom": 5596.5,
+          "left": 884.375
+        }
+      }
+    ],
+    "panelFooters": [
+      "Button\nPrimary\nOutline\nDestructive\nDisabled\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nvariant\nSelect\n\"default\"\n\"destructive\"\n\"ghost\"\n\"link\"\n\"outline\"\n\"secondary\"\nsize\nSelect\n\"default\"\n\"lg\"\n\"sm\"\ndisabled\nnpx shadcn@latest add http://127.0.0.1:4203/r/ui-button.json\nCopy\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp)"
+    ],
+    "bodySource": true,
+    "sourceClass": "not-fumadocs-codeblock",
+    "fonts": "loaded"
+  },
+  {
+    "route": "/docs",
+    "h1": [
+      "Foglamp Design System"
+    ],
+    "links": [
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/",
+        "display": "inline-flex",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 16,
+          "width": 172.234375,
+          "height": 30,
+          "top": 16,
+          "right": 187.234375,
+          "bottom": 46,
+          "left": 15
+        }
+      },
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/docs",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 118,
+          "width": 236,
+          "height": 36,
+          "top": 118,
+          "right": 251,
+          "bottom": 154,
+          "left": 15
+        }
+      },
+      {
+        "text": "Credits & Original Creator",
+        "href": "http://127.0.0.1:4203/docs/credits",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 156,
+          "width": 236,
+          "height": 36,
+          "top": 156,
+          "right": 251,
+          "bottom": 192,
+          "left": 15
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 599.609375,
+          "y": 194,
+          "width": 222.390625,
+          "height": 20,
+          "top": 194,
+          "right": 822,
+          "bottom": 214,
+          "left": 599.609375
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 920.609375,
+          "y": 194,
+          "width": 99.109375,
+          "height": 20,
+          "top": 194,
+          "right": 1019.71875,
+          "bottom": 214,
+          "left": 920.609375
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "inline",
+        "rect": {
+          "x": 322,
+          "y": 194,
+          "width": 805.96875,
+          "height": 48,
+          "top": 194,
+          "right": 1127.96875,
+          "bottom": 242,
+          "left": 322
+        }
+      },
+      {
+        "text": "Foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 699.75,
+          "y": 222,
+          "width": 66.0625,
+          "height": 20,
+          "top": 222,
+          "right": 765.8125,
+          "bottom": 242,
+          "left": 699.75
+        }
+      },
+      {
+        "text": "gustavofior.com",
+        "href": "https://gustavofior.com/",
+        "display": "inline",
+        "rect": {
+          "x": 898.515625,
+          "y": 222,
+          "width": 123.59375,
+          "height": 20,
+          "top": 222,
+          "right": 1022.109375,
+          "bottom": 242,
+          "left": 898.515625
+        }
+      },
+      {
+        "text": "@heyimgustavo",
+        "href": "https://x.com/heyimgustavo",
+        "display": "inline",
+        "rect": {
+          "x": 322,
+          "y": 250,
+          "width": 122.609375,
+          "height": 20,
+          "top": 250,
+          "right": 444.609375,
+          "bottom": 270,
+          "left": 322
+        }
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gustavofior",
+        "display": "inline",
+        "rect": {
+          "x": 486.796875,
+          "y": 250,
+          "width": 63.96875,
+          "height": 20,
+          "top": 250,
+          "right": 550.765625,
+          "bottom": 270,
+          "left": 486.796875
+        }
+      },
+      {
+        "text": "credits",
+        "href": "http://127.0.0.1:4203/docs/credits",
+        "display": "inline",
+        "rect": {
+          "x": 966.34375,
+          "y": 513.59375,
+          "width": 51.921875,
+          "height": 20,
+          "top": 513.59375,
+          "right": 1018.265625,
+          "bottom": 533.59375,
+          "left": 966.34375
+        }
+      },
+      {
+        "text": "Credits & Original CreatorThe people and project behind the Foglamp Design System.",
+        "href": "http://127.0.0.1:4203/docs/credits",
+        "display": "flex",
+        "rect": {
+          "x": 302,
+          "y": 794,
+          "width": 836,
+          "height": 82,
+          "top": 794,
+          "right": 1138,
+          "bottom": 876,
+          "left": 302
+        }
+      }
+    ],
+    "panelFooters": [],
+    "bodySource": false,
+    "sourceClass": "",
+    "fonts": "loaded"
+  },
+  {
+    "route": "/docs/credits",
+    "h1": [
+      "Credits & Original Creator",
+      "Helping builders see what their AI is doing."
+    ],
+    "links": [
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/",
+        "display": "inline-flex",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 16,
+          "width": 172.234375,
+          "height": 30,
+          "top": 16,
+          "right": 187.234375,
+          "bottom": 46,
+          "left": 15
+        }
+      },
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/docs",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 118,
+          "width": 236,
+          "height": 36,
+          "top": 118,
+          "right": 251,
+          "bottom": 154,
+          "left": 15
+        }
+      },
+      {
+        "text": "Credits & Original Creator",
+        "href": "http://127.0.0.1:4203/docs/credits",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 156,
+          "width": 236,
+          "height": 36,
+          "top": 156,
+          "right": 251,
+          "bottom": 192,
+          "left": 15
+        }
+      },
+      {
+        "text": "Foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 629.921875,
+          "y": 194,
+          "width": 65.234375,
+          "height": 20,
+          "top": 194,
+          "right": 695.15625,
+          "bottom": 214,
+          "left": 629.921875
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 788.328125,
+          "y": 194,
+          "width": 221.125,
+          "height": 20,
+          "top": 194,
+          "right": 1009.453125,
+          "bottom": 214,
+          "left": 788.328125
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 302,
+          "y": 222,
+          "width": 98.4375,
+          "height": 20,
+          "top": 222,
+          "right": 400.4375,
+          "bottom": 242,
+          "left": 302
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "inline",
+        "rect": {
+          "x": 423.453125,
+          "y": 222,
+          "width": 105.828125,
+          "height": 20,
+          "top": 222,
+          "right": 529.28125,
+          "bottom": 242,
+          "left": 423.453125
+        }
+      },
+      {
+        "text": "his website",
+        "href": "https://gustavofior.com/",
+        "display": "inline",
+        "rect": {
+          "x": 473.375,
+          "y": 298,
+          "width": 85.421875,
+          "height": 20,
+          "top": 298,
+          "right": 558.796875,
+          "bottom": 318,
+          "left": 473.375
+        }
+      },
+      {
+        "text": "@heyimgustavo",
+        "href": "https://x.com/heyimgustavo",
+        "display": "inline",
+        "rect": {
+          "x": 567.734375,
+          "y": 298,
+          "width": 122.140625,
+          "height": 20,
+          "top": 298,
+          "right": 689.875,
+          "bottom": 318,
+          "left": 567.734375
+        }
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gustavofior",
+        "display": "inline",
+        "rect": {
+          "x": 731.25,
+          "y": 298,
+          "width": 64.046875,
+          "height": 20,
+          "top": 298,
+          "right": 795.296875,
+          "bottom": 318,
+          "left": 731.25
+        }
+      },
+      {
+        "text": "Foglamp repository",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 571.734375,
+          "y": 326,
+          "width": 146.828125,
+          "height": 20,
+          "top": 326,
+          "right": 718.5625,
+          "bottom": 346,
+          "left": 571.734375
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "block",
+        "rect": {
+          "x": 556.984375,
+          "y": 767.75,
+          "width": 195.09375,
+          "height": 20,
+          "top": 767.75,
+          "right": 752.078125,
+          "bottom": 787.75,
+          "left": 556.984375
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "block",
+        "rect": {
+          "x": 772.125,
+          "y": 767.75,
+          "width": 86.84375,
+          "height": 20,
+          "top": 767.75,
+          "right": 858.96875,
+          "bottom": 787.75,
+          "left": 772.125
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "block",
+        "rect": {
+          "x": 879.015625,
+          "y": 767.75,
+          "width": 93.25,
+          "height": 20,
+          "top": 767.75,
+          "right": 972.265625,
+          "bottom": 787.75,
+          "left": 879.015625
+        }
+      },
+      {
+        "text": "foglamp-labs/foglamp",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "block",
+        "rect": {
+          "x": 334,
+          "y": 791.75,
+          "width": 148.609375,
+          "height": 20,
+          "top": 791.75,
+          "right": 482.609375,
+          "bottom": 811.75,
+          "left": 334
+        }
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gustavofior",
+        "display": "flex",
+        "rect": {
+          "x": 969.5,
+          "y": 2081.75,
+          "width": 136.5,
+          "height": 42,
+          "top": 2081.75,
+          "right": 1106,
+          "bottom": 2123.75,
+          "left": 969.5
+        }
+      },
+      {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "flex",
+        "rect": {
+          "x": 969.5,
+          "y": 2424.75,
+          "width": 136.5,
+          "height": 42,
+          "top": 2424.75,
+          "right": 1106,
+          "bottom": 2466.75,
+          "left": 969.5
+        }
+      },
+      {
+        "text": "Foglamp Design SystemThe original Foglamp interface, available as a reusable design system.",
+        "href": "http://127.0.0.1:4203/docs",
+        "display": "flex",
+        "rect": {
+          "x": 302,
+          "y": 2626.75,
+          "width": 410,
+          "height": 102,
+          "top": 2626.75,
+          "right": 712,
+          "bottom": 2728.75,
+          "left": 302
+        }
+      }
+    ],
+    "panelFooters": [],
+    "bodySource": false,
+    "sourceClass": "",
+    "fonts": "loaded"
+  },
+  {
+    "route": "/docs/primitives/button",
+    "h1": [
+      "Button",
+      "ButtonCopy Anchor Link"
+    ],
+    "links": [
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/",
+        "display": "inline-flex",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 16,
+          "width": 172.234375,
+          "height": 30,
+          "top": 16,
+          "right": 187.234375,
+          "bottom": 46,
+          "left": 15
+        }
+      },
+      {
+        "text": "Foglamp Design System",
+        "href": "http://127.0.0.1:4203/docs",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 118,
+          "width": 236,
+          "height": 36,
+          "top": 118,
+          "right": 251,
+          "bottom": 154,
+          "left": 15
+        }
+      },
+      {
+        "text": "Credits & Original Creator",
+        "href": "http://127.0.0.1:4203/docs/credits",
+        "display": "flex",
+        "rect": {
+          "x": 15,
+          "y": 156,
+          "width": 236,
+          "height": 36,
+          "top": 156,
+          "right": 251,
+          "bottom": 192,
+          "left": 15
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 421.046875,
+          "y": 1197.96875,
+          "width": 165.0625,
+          "height": 15,
+          "top": 1197.96875,
+          "right": 586.109375,
+          "bottom": 1212.96875,
+          "left": 421.046875
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 596.328125,
+          "y": 1197.96875,
+          "width": 73.53125,
+          "height": 15,
+          "top": 1197.96875,
+          "right": 669.859375,
+          "bottom": 1212.96875,
+          "left": 596.328125
+        }
+      },
+      {
+        "text": "Foglamp Labs (foglamp-labs/foglamp)",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 680.078125,
+          "y": 1197.96875,
+          "width": 216.71875,
+          "height": 15,
+          "top": 1197.96875,
+          "right": 896.796875,
+          "bottom": 1212.96875,
+          "left": 680.078125
+        }
+      },
+      {
+        "text": "Gustavo Fior (@gustavo-fior)",
+        "href": "https://github.com/gustavo-fior",
+        "display": "inline",
+        "rect": {
+          "x": 441.578125,
+          "y": 2623.109375,
+          "width": 221.125,
+          "height": 20,
+          "top": 2623.109375,
+          "right": 662.703125,
+          "bottom": 2643.109375,
+          "left": 441.578125
+        }
+      },
+      {
+        "text": "gustavofior.com",
+        "href": "https://gustavofior.com/",
+        "display": "inline",
+        "rect": {
+          "x": 671.640625,
+          "y": 2623.109375,
+          "width": 122.890625,
+          "height": 20,
+          "top": 2623.109375,
+          "right": 794.53125,
+          "bottom": 2643.109375,
+          "left": 671.640625
+        }
+      },
+      {
+        "text": "@heyimgustavo",
+        "href": "https://x.com/heyimgustavo",
+        "display": "inline",
+        "rect": {
+          "x": 835.90625,
+          "y": 2623.109375,
+          "width": 122.140625,
+          "height": 20,
+          "top": 2623.109375,
+          "right": 958.046875,
+          "bottom": 2643.109375,
+          "left": 835.90625
+        }
+      },
+      {
+        "text": "Abdul Haidar",
+        "href": "https://www.linkedin.com/in/abdulhdr/",
+        "display": "inline",
+        "rect": {
+          "x": 302,
+          "y": 2623.109375,
+          "width": 834.109375,
+          "height": 48,
+          "top": 2623.109375,
+          "right": 1136.109375,
+          "bottom": 2671.109375,
+          "left": 302
+        }
+      },
+      {
+        "text": "Foglamp Labs",
+        "href": "https://foglamp.dev/",
+        "display": "inline",
+        "rect": {
+          "x": 374.796875,
+          "y": 2651.109375,
+          "width": 105.828125,
+          "height": 20,
+          "top": 2651.109375,
+          "right": 480.625,
+          "bottom": 2671.109375,
+          "left": 374.796875
+        }
+      },
+      {
+        "text": "Foglamp source repository",
+        "href": "https://github.com/foglamp-labs/foglamp",
+        "display": "inline",
+        "rect": {
+          "x": 633.28125,
+          "y": 2651.109375,
+          "width": 203,
+          "height": 20,
+          "top": 2651.109375,
+          "right": 836.28125,
+          "bottom": 2671.109375,
+          "left": 633.28125
+        }
+      }
+    ],
+    "panelFooters": [
+      "Button\nPrimary\nOutline\nDestructive\nDisabled\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nvariant\nSelect\n\"default\"\n\"destructive\"\n\"ghost\"\n\"link\"\n\"outline\"\n\"secondary\"\nsize\nSelect\n\"default\"\n\"lg\"\n\"sm\"\ndisabled\nnpx shadcn@latest add http://127.0.0.1:4203/r/ui-button.json\nCopy\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp)"
+    ],
+    "bodySource": false,
+    "sourceClass": "",
+    "fonts": "loaded"
+  }
+]

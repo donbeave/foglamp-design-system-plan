@@ -1,0 +1,33 @@
+{
+  "task": "W5-5.1A-cli-layout-final",
+  "state": "REVIEW",
+  "target_head_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "commands": [
+    {"command": "mise exec bun@latest -- bun run check-types", "exit_code": 0},
+    {"command": "mise exec bun@latest -- bun test", "exit_code": 0, "tests_pass": 58, "tests_fail": 0},
+    {"command": "mise exec bun@latest -- bun run check:portal", "exit_code": 0, "stories": 168, "registry_items": 289, "browser_import_guard": "passed"},
+    {"command": "mise exec bun@latest -- bun run build:registry", "exit_code": 0, "registry_items_validated_and_built": 289},
+    {"command": "mise exec bun@latest -- bun run build", "exit_code": 0, "build_tasks_successful": 1}
+  ],
+  "diff_snapshot": {
+    "changed_paths_count": 35,
+    "new_change_since_prior_build": "apps/docs/src/components/story-panel.tsx: CLI command bar whitespace-nowrap and fixed-width scroll container",
+    "generated_registry_outputs": "14 expected public/r payloads (13 Scan/Setup closures plus foglamp.json and style-globals.json), included in the frozen source-font and scan-adapter changes",
+    "untracked_paths": 0
+  },
+  "build_observations": {
+    "node_crypto_externalization": false,
+    "fumadocs_mdX_node_fs_promises_externalization_notice": true,
+    "css_optimizer_warnings": 2
+  },
+  "unresolved_limits": [
+    "The CLI layout and final 708-row hydrated matrix require browser verification."
+  ],
+  "artifacts": [
+    "results/qa/w5-static/cli-layout-final/check-types.log",
+    "results/qa/w5-static/cli-layout-final/bun-test.log",
+    "results/qa/w5-static/cli-layout-final/check-portal.log",
+    "results/qa/w5-static/cli-layout-final/build-registry.log",
+    "results/qa/w5-static/cli-layout-final/build.log"
+  ]
+}

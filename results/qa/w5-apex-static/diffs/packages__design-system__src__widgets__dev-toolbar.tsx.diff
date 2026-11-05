@@ -1,0 +1,192 @@
+--- .reference/foglamp/apps/web/src/components/app/dev-toolbar.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/widgets/dev-toolbar.tsx	2026-11-05 19:02:55
+@@ -1,14 +1,7 @@
+ "use client";
+-const DEV = process.env.NODE_ENV === "development";
+-function useDevNetworkDelay() {
+-    return useSyncExternalStore(subscribeDevNetwork, readDevNetworkDelay, () => 0);
+-}
+-function useDevNetworkFail() {
+-    return useSyncExternalStore(subscribeDevNetwork, readDevNetworkFail, () => false);
+-}
+-function useDevForceLoading() {
+-    return useSyncExternalStore(subscribeDevNetwork, readDevForceLoading, () => false);
+-}
++const DEV_NETWORK_DELAYS = [0, 200, 500, 1000, 2000, 5000];
++const DEV_NETWORK_FAIL_RATE = 0.3;
++const noop = () => { };
+ function formatDelay(delay) {
+     if (delay === 0)
+         return "Off";
+@@ -61,11 +54,7 @@
+         ],
+     },
+ ];
+-function TestEmailsMenu() {
+-    const sendTest = useMutation(trpc.testEmails.send.mutationOptions({
+-        onSuccess: (data) => toast.success(`Test email sent to ${data.to}`),
+-        onError: (error) => toast.error(error.message),
+-    }));
++function TestEmailsMenu({ onSendTestEmail = noop, sendingTestEmail = false }) {
+     return (<DropdownMenu>
+       <DropdownMenuTrigger>
+         <div className="group flex cursor-pointer items-center gap-1.25 text-xs text-foreground transition-all">
+@@ -77,7 +66,7 @@
+         {TEST_EMAIL_GROUPS.map((group, index) => (<DropdownMenuGroup key={group.label}>
+             {index > 0 && <DropdownMenuSeparator />}
+             <DropdownMenuLabel>{group.label}</DropdownMenuLabel>
+-            {group.items.map((item) => (<DropdownMenuItem key={item.variant} className={MENU_ITEM} disabled={sendTest.isPending} onClick={() => sendTest.mutate({ variant: item.variant })}>
++            {group.items.map((item) => (<DropdownMenuItem key={item.variant} className={MENU_ITEM} disabled={sendingTestEmail} onClick={() => onSendTestEmail(item.variant)}>
+                 <item.icon className={MENU_ICON}/>
+                 {item.label}
+               </DropdownMenuItem>))}
+@@ -114,68 +103,6 @@
+         };
+     }, []);
+     return fps;
+-}
+-function formatQueryLabel(queryKey) {
+-    const path = queryKey[0];
+-    if (Array.isArray(path) && path.every((part) => typeof part === "string")) {
+-        return path.join(".");
+-    }
+-    if (typeof path === "string")
+-        return path;
+-    try {
+-        return JSON.stringify(queryKey);
+-    }
+-    catch {
+-        return "Unknown query";
+-    }
+-}
+-function useQueryDiagnostics() {
+-    const queryClient = useQueryClient();
+-    const [diagnostics, setDiagnostics] = useState({ fetching: [], stale: [], staleInactive: 0 });
+-    useEffect(() => {
+-        const queryCache = queryClient.getQueryCache();
+-        function update() {
+-            const queries = queryCache.getAll();
+-            const summarize = (query) => ({
+-                hash: query.queryHash,
+-                label: formatQueryLabel(query.queryKey),
+-            });
+-            const allStale = queries.filter((query) => query.state.data !== undefined && query.isStale());
+-            const observedStale = allStale.filter((query) => query.getObserversCount() > 0);
+-            const next = {
+-                fetching: queries
+-                    .filter((query) => query.state.fetchStatus === "fetching")
+-                    .map(summarize),
+-                stale: observedStale.map(summarize),
+-                staleInactive: allStale.length - observedStale.length,
+-            };
+-            setDiagnostics((prev) => prev.fetching.length === next.fetching.length &&
+-                prev.stale.length === next.stale.length &&
+-                prev.staleInactive === next.staleInactive &&
+-                prev.fetching.every((q, i) => q.hash === next.fetching[i]?.hash) &&
+-                prev.stale.every((q, i) => q.hash === next.stale[i]?.hash)
+-                ? prev
+-                : next);
+-        }
+-        let frame = 0;
+-        function scheduleUpdate() {
+-            if (frame)
+-                return;
+-            frame = window.requestAnimationFrame(() => {
+-                frame = 0;
+-                update();
+-            });
+-        }
+-        update();
+-        const unsubscribe = queryCache.subscribe(scheduleUpdate);
+-        const interval = window.setInterval(update, 1_000);
+-        return () => {
+-            window.cancelAnimationFrame(frame);
+-            window.clearInterval(interval);
+-            unsubscribe();
+-        };
+-    }, [queryClient]);
+-    return diagnostics;
+ }
+ function groupQueriesByLabel(queries) {
+     const counts = new Map();
+@@ -206,14 +133,9 @@
+       </TooltipContent>
+     </Tooltip>);
+ }
+-export function DevBar() {
+-    if (!DEV)
+-        return null;
+-    return <DevBarInner />;
+-}
+ const FADE_S = 0.1;
+ const COLLAPSE_S = 0.25;
+-function DevBarInner() {
++export function DevBarView(props) {
+     const [hidden, setHidden] = useState(false);
+     return (<AnimatePresence>
+       {!hidden && (<motion.div key="dev-bar" initial={false} exit={{
+@@ -226,18 +148,14 @@
+                 },
+             }} className="h-8 shrink-0 overflow-hidden">
+           <motion.div exit={{ opacity: 0, transition: { duration: FADE_S } }} className="h-full">
+-            <DevBarContent onHide={() => setHidden(true)}/>
++            <DevBarContent {...props} onHide={() => setHidden(true)}/>
+           </motion.div>
+         </motion.div>)}
+     </AnimatePresence>);
+ }
+-function DevBarContent({ onHide }) {
+-    const fps = useFramesPerSecond();
+-    const queries = useQueryDiagnostics();
+-    const queryClient = useQueryClient();
+-    const netDelay = useDevNetworkDelay();
+-    const netFail = useDevNetworkFail();
+-    const forceLoading = useDevForceLoading();
++function DevBarContent({ onHide, fps: fpsOverride, queries = { fetching: [], stale: [], staleInactive: 0 }, netDelay = 0, netFail = false, forceLoading = false, onNetworkDelayChange: setDevNetworkDelay = noop, onNetworkFailChange: setDevNetworkFail = noop, onForceLoadingChange: setDevForceLoading = noop, onInvalidateQueries = noop, onClearQueries = noop, onSendTestEmail, sendingTestEmail, }) {
++    const measuredFps = useFramesPerSecond();
++    const fps = fpsOverride ?? measuredFps;
+     const netActive = netDelay > 0 || netFail || forceLoading;
+     const lowFps = fps > 0 && fps < 30;
+     return (<div role="toolbar" aria-label="Development controls" aria-orientation="horizontal" className="flex h-8 shrink-0 items-center justify-end gap-4 px-1">
+@@ -269,7 +187,7 @@
+         </TooltipProvider>
+       </div>
+ 
+-      <TestEmailsMenu />
++      <TestEmailsMenu onSendTestEmail={onSendTestEmail} sendingTestEmail={sendingTestEmail}/>
+ 
+       <DropdownMenu>
+         <DropdownMenuTrigger>
+@@ -299,11 +217,6 @@
+             </DropdownMenuCheckboxItem>
+             <DropdownMenuCheckboxItem checked={forceLoading} onCheckedChange={(checked) => {
+             setDevForceLoading(checked);
+-            if (!checked) {
+-                void queryClient
+-                    .cancelQueries()
+-                    .then(() => queryClient.invalidateQueries());
+-            }
+         }} className={MENU_ITEM}>
+               <IconLoader className={MENU_ICON}/>
+               Force loading state
+@@ -315,13 +228,13 @@
+       <TooltipProvider delay={0}>
+         <div className="flex items-center -ml-1.5 gap-1">
+           <Tooltip>
+-            <TooltipTrigger render={<Button variant="ghost" size="icon-xs" onClick={() => queryClient.invalidateQueries()} aria-label="Invalidate all queries" className="text-muted-foreground opacity-80"/>}>
++            <TooltipTrigger render={<Button variant="ghost" size="icon-xs" onClick={() => onInvalidateQueries()} aria-label="Invalidate all queries" className="text-muted-foreground opacity-80"/>}>
+               <IconRefresh className="size-3.25"/>
+             </TooltipTrigger>
+             <TooltipContent>Invalidate all queries</TooltipContent>
+           </Tooltip>
+           <Tooltip>
+-            <TooltipTrigger render={<Button variant="ghost" size="icon-xs" onClick={() => queryClient.clear()} aria-label="Clear query cache" className="text-muted-foreground opacity-80"/>}>
++            <TooltipTrigger render={<Button variant="ghost" size="icon-xs" onClick={() => onClearQueries()} aria-label="Clear query cache" className="text-muted-foreground opacity-80"/>}>
+               <IconTrash className="size-3.25"/>
+             </TooltipTrigger>
+             <TooltipContent>Clear query cache</TooltipContent>
+@@ -337,3 +250,4 @@
+       </TooltipProvider>
+     </div>);
+ }
++export const DevBar = DevBarView;

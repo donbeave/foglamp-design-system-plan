@@ -1,0 +1,6 @@
+Before the builder import rewrite fix, actual shadcn CLI installation succeeded (98 files created), but the full Vite consumer build failed with three missing exports: computeWindow, orderSpans, and toMs. The installed widgets/trace-timeline.tsx imported those names from itself instead of ../lib/trace-timeline.
+
+Reproduction fixture: /tmp/foglamp-registry-consumer
+Vite build command: node node_modules/vite/bin/vite.js build --config vite.config.ts
+Exit code: 1
+The installer-alias output is preserved at fixtures/failing/trace-timeline-self-import.tsx.

@@ -1,0 +1,63 @@
+{
+  "task_id": "W3-3D-scan-default-adapter",
+  "profile": "foglamp_sol_medium",
+  "model": "gpt-6.1-sol",
+  "effort": "medium",
+  "changed_paths": [
+    "packages/design-system/src/blocks/scan/favicon-context.tsx",
+    "results/qa/w5-scan-default-adapter/"
+  ],
+  "commands": [
+    {
+      "command": "design-system tsc --noEmit",
+      "exit_code": 0
+    },
+    {
+      "command": "docs tsc --noEmit",
+      "exit_code": 0
+    },
+    {
+      "command": "bun packages/design-system/src/blocks/scan/verify-source.ts",
+      "exit_code": 0
+    },
+    {
+      "command": "bun run check:portal",
+      "exit_code": 0
+    },
+    {
+      "command": "bun verify-adapter.tsx",
+      "exit_code": 0
+    },
+    {
+      "command": "bun install (new temporary consumer)",
+      "exit_code": 0
+    },
+    {
+      "command": "bun x shadcn@4.23.0 add @foglamp/block-scan-scan-board @foglamp/block-setup-setup-board --yes --overwrite",
+      "exit_code": 0
+    },
+    {
+      "command": "bun x shadcn@4.23.0 add @foglamp/style-globals --yes --overwrite",
+      "exit_code": 0
+    },
+    {
+      "command": "bun x vite build",
+      "exit_code": 0
+    },
+    {
+      "command": "agent-browser production Scan and Setup no-provider image/network/error assertions",
+      "exit_code": 0
+    },
+    {
+      "command": "agent-browser close and owned server cleanup",
+      "exit_code": 0
+    }
+  ],
+  "attribution_verified": true,
+  "visual_parity_preserved": true,
+  "registry_fresh_consumer_verified": true,
+  "limits": [
+    "Vite reports advisory large chunks for ELK/combined board bundle; production build succeeds."
+  ],
+  "state": "REVIEW"
+}

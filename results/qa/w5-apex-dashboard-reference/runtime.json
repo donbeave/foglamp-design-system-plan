@@ -1,0 +1,10 @@
+{
+  "bunVersionFile": "bun-version.txt",
+  "browser": "HeadlessChrome/156.0.0.0",
+  "runtimeDependencies": {"react":"19.2.5","react-dom":"19.2.5","vite":"8.3.6","tailwindcss":"4.3.1","streamdown":"2.5.0","recharts":"3.8.1","motion":"12.40.0","@tabler/icons-react":"3.41.1"},
+  "sourceInputs": "inventory.json",
+  "frontendDependencies": "harness/node_modules links into the implementation lockfile installation",
+  "fonts": "harness/source-fonts.css and target app.css; source font equivalence reference at results/qa/w5-font-source-identity",
+  "sourceAdapters": ["Next Link to anchor", "Next Image to native image", "Next navigation deterministic pathname and real search parameters", "development analytics no-op without PostHog key", "per-query deterministic tRPC backend", "ProjectGate mirroring source AppShell", "HUD SSE source boundary with same three mock events"],
+  "comparison": "coverage.json and computed-style-report.json; portal ShadowRoot styles not part of DOM-order report"
+}

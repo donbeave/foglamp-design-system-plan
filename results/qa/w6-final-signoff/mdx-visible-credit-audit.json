@@ -1,0 +1,1052 @@
+[
+  {
+    "path": "apps/docs/content/docs/index.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/credits.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/marketing-navbar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/observability-guide-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/scan-board-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/traces-explorer-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/trace-waterfall-inspector-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/workflow-detail-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/buttons-badges-playground-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/login-form-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/session-conversation-inspector-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/overview-dashboard-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/setup-board-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/agent-detail-inspector-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/embed-board-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/drifting-fog-cta-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/scan-landing-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/flow-map-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/onboarding-panel-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/device-approve-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/hero-3d-demo-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/hud-simulator-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/instrument-empty-state-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/cutting-mat-footer-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/app-shell-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/figure-kit-22-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/blocks/eval-detail-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/background.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/tooltip.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/legend.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/bar-chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/dot.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/zoom.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/area-chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/line-chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/donut-chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/charts/evil-brush.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/foundations/typography.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/foundations/tokens.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/foundations/architecture.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/foundations/geometry.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/foundations/motion.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/foundations/installation.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/sheet.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/field.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/hover-card.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/combobox.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/alert.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/tooltip.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/sonner.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/label.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/scroll-area.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/resizable.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/empty.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/drawer.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/accordion.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/navigation-menu.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/pagination.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/alert-dialog.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/aspect-ratio.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/progress.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/input-otp.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/button-group.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/tabs.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/direction.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/loader.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/popover.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/slider.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/input-group.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/card.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/button.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/toggle.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/sidebar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/badge.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/separator.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/table.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/skeleton.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/carousel.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/context-menu.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/collapsible.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/spinner.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/checkbox.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/textarea.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/input.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/select.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/dropdown-menu.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/item.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/command.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/radio-group.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/toggle-group.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/calendar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/switch.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/breadcrumb.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/native-select.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/dialog.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/kbd.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/menubar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/primitives/avatar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-shares.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-total.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/traces-graph.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-flow.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-cards.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-small.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-table.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/traces-xray.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/traces-story.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/traces-chat.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-donut.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-shelf.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/quality-review.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-backdrop.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/traces-steps.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-fan.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-stair.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-tabs.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-chart.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-area.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/traces-inspector.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/figures/costs-alert.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/eval-scores.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/copy-icon.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/trace-timeline.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/sortable-head.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/toolbar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/prompt-prose.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/model-chip.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/project-icon.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/prompt-version-chip.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/search-input.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/data-table.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/sunset-card.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/scan-brand.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/pagination-footer.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/agent-icon.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/project-provider.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/relative-time.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/brand-mark.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/markdown.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/context-chip.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/copy-button.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/customer-avatar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/trend-charts.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/quota-card.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/stat.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/run-exchange.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/range-provider.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/page-header.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/code-block.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/stat-card.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/prompt-versions-view.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/node-flow.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/foglamp-hud.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/range-picker.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/foggy-widget.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/brand-logos.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/payload-view.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/tool-breakdown.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/user-menu.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/cost-breakdown.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/animated-api-key.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/dev-bar.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/foggy-message.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/logo.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/foggy-launcher.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/model-logo.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/toggle-chip.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/heat-cell.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/hud-inline-preview.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/span-type.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/theme-switcher.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/filter-select.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  },
+  {
+    "path": "apps/docs/content/docs/widgets/tool-icon.mdx",
+    "Gustavo": true,
+    "Labs": true,
+    "upstream_repository": true
+  }
+]

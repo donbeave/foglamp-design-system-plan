@@ -1,0 +1,22 @@
+--- .reference/foglamp/apps/web/src/app/scan/copy-scan-prompt-button.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/scan/copy-scan-prompt-button.tsx	2026-11-05 19:02:55
+@@ -27,16 +27,14 @@
+     }, [active, reduce]);
+     return strength;
+ }
+-export function CopyScanPromptButton({ className }) {
++export function CopyScanPromptButton({ className, prompt = SCAN_PROMPT, onCopy }) {
+     const reduce = useReducedMotion() ?? false;
+     const { copied, markCopied } = useCopied(2000);
+     const strength = useCopyBeam(copied, reduce);
+     return (<BorderBeam size="pulse-inner" colorVariant="colorful" strength={strength} borderRadius={18} className="inline-flex rounded-full">
+ 			<Button size="lg" className={cn("text-base h-[37px] pl-4", className)} onClick={() => {
+-            void navigator.clipboard.writeText(SCAN_PROMPT);
+-            captureActivationEvent("scan_prompt_copied", {
+-                surface: "scan_landing",
+-            });
++            void navigator.clipboard.writeText(prompt);
++            onCopy?.();
+             markCopied();
+         }} aria-label="Copy the scan prompt">
+ 				<CopyIcon copied={copied} className="size-4 mb-px" checkClassName="size-4 mb-px text-green-400 dark:text-green-600"/>

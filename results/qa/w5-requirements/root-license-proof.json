@@ -1,0 +1,20 @@
+{
+  "target": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "license": {
+    "source_path": ".reference/foglamp/LICENSE",
+    "target_path": "LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "byte_identity_verified": true,
+    "bytes": 11358
+  },
+  "notice": {
+    "path": "NOTICE",
+    "verified_names": [
+      "Gustavo Fior (@gustavo-fior)",
+      "Abdul Haidar",
+      "Foglamp Labs"
+    ],
+    "source_repository": "https://github.com/foglamp-labs/foglamp",
+    "copyright_preserved_notice": true
+  }
+}

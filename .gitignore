@@ -53,3 +53,12 @@ results/qa/**/installed-consumer/node_modules/
 # Large diagnostic captures are reproducible and are summarized by reports.
 results/qa/**/font-fallback-investigation/*-slow.json
 results/qa/**/browser-cssom-raw.json
+
+# Reproducible Wave 6 consumer installs, package archives and Python caches.
+**/__pycache__/
+**/*.py[cod]
+results/qa/**/*.tgz
+results/qa/**/*.tar.gz
+results/qa/**/*.zip
+results/qa/**/src/components/framerock/
+results/qa/**/src/components/foglamp/

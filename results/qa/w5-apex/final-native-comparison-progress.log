@@ -1,0 +1,13 @@
+{
+  "rows": 90,
+  "exact": 89,
+  "different": [
+    [
+      "widgets/animated-api-key",
+      "light",
+      276,
+      3
+    ]
+  ],
+  "unrendered": []
+}

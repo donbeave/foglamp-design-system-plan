@@ -1,0 +1,887 @@
+{
+  "routes": 176,
+  "panels": 168,
+  "errors": [],
+  "rows": [
+    {
+      "url": "http://127.0.0.1:4203/docs",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/credits",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/marketing-navbar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/observability-guide-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/scan-board-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/traces-explorer-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/trace-waterfall-inspector-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/workflow-detail-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/buttons-badges-playground-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/login-form-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/session-conversation-inspector-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/overview-dashboard-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/setup-board-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/agent-detail-inspector-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/embed-board-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/drifting-fog-cta-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/original-authors-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/scan-landing-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/flow-map-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/onboarding-panel-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/device-approve-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/hero-3d-demo-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/hud-simulator-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/instrument-empty-state-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/cutting-mat-footer-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/app-shell-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/figure-kit-22-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/blocks/eval-detail-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/background",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/tooltip",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/legend",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/bar-chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/dot",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/zoom",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/area-chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/line-chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/donut-chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/charts/evil-brush",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/foundations/typography",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/foundations/tokens",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/foundations/architecture",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/foundations/geometry",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/foundations/motion",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/foundations/installation",
+      "panels": 0,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/sheet",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/field",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/hover-card",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/combobox",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/alert",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/tooltip",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/sonner",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/label",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/scroll-area",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/resizable",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/empty",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/drawer",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/accordion",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/navigation-menu",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/pagination",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/alert-dialog",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/aspect-ratio",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/progress",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/input-otp",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/button-group",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/tabs",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/direction",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/loader",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/popover",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/slider",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/input-group",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/card",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/button",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/toggle",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/sidebar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/badge",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/separator",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/table",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/skeleton",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/carousel",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/context-menu",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/collapsible",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/spinner",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/checkbox",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/textarea",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/input",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/select",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/dropdown-menu",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/item",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/command",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/radio-group",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/toggle-group",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/calendar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/switch",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/breadcrumb",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/native-select",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/dialog",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/kbd",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/menubar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/primitives/avatar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-shares",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-total",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/traces-graph",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-flow",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-cards",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-small",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-table",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/traces-xray",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/traces-story",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/traces-chat",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-donut",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-shelf",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/quality-review",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-backdrop",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/traces-steps",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-fan",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-stair",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-tabs",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-chart",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-area",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/traces-inspector",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/figures/costs-alert",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/eval-scores",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/copy-icon",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/trace-timeline",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/sortable-head",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/toolbar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/prompt-prose",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/model-chip",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/project-icon",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/prompt-version-chip",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/search-input",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/data-table",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/sunset-card",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/scan-brand",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/pagination-footer",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/agent-icon",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/project-provider",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/relative-time",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/brand-mark",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/markdown",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/context-chip",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/copy-button",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/customer-avatar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/trend-charts",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/quota-card",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/stat",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/run-exchange",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/range-provider",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/page-header",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/code-block",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/stat-card",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/prompt-versions-view",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/node-flow",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/foglamp-hud",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/range-picker",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/foggy-widget",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/brand-logos",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/payload-view",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/tool-breakdown",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/user-menu",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/cost-breakdown",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/animated-api-key",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/dev-bar",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/foggy-message",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/logo",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/foggy-launcher",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/model-logo",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/toggle-chip",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/heat-cell",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/hud-inline-preview",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/span-type",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/theme-switcher",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/filter-select",
+      "panels": 1,
+      "bad": 0
+    },
+    {
+      "url": "http://127.0.0.1:4203/docs/widgets/tool-icon",
+      "panels": 1,
+      "bad": 0
+    }
+  ]
+}

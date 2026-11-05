@@ -1,0 +1,20 @@
+--- .reference/foglamp/apps/web/src/components/app/context-chip.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/widgets/context-chip.tsx	2026-11-05 19:02:55
+@@ -12,7 +12,7 @@
+     const interactive = Boolean(href || onClick);
+     const cls = cn("max-w-64 justify-start", CHIP_SURFACE, "dark:bg-muted-foreground/10 dark:hover:bg-muted-foreground/20", tone === "error" && CHIP_ERROR, tone === "aborted" && CHIP_ABORTED, !interactive && "pointer-events-none", className);
+     if (href) {
+-        return (<Button variant="outline" size="xs" className={cls} title={title} render={<Link href={href}/>}>
++        return (<Button variant="outline" size="xs" className={cls} title={title} render={<FoglampLink href={href}/>}>
+         {content}
+       </Button>);
+     }
+@@ -32,7 +32,7 @@
+         {content}
+       </Button>);
+     }
+-    return (<Button variant="outline" className={className} render={<Link href={href}/>}>
++    return (<Button variant="outline" className={className} render={<FoglampLink href={href}/>}>
+       {content}
+     </Button>);
+ }

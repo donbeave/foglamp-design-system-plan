@@ -1,0 +1,72 @@
+--- .reference/foglamp/apps/web/src/components/app/onboarding-panel.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/auth/onboarding-panel.tsx	2026-11-05 19:02:54
+@@ -1,52 +1,13 @@
+ "use client";
+-const KEY_NAME = "Onboarding";
+-export function OnboardingPanel() {
+-    const { projectId } = useProject();
+-    const qc = useQueryClient();
+-    const [revealedKey, setRevealedKey] = useState(null);
++export function OnboardingPanelBlock({ apiKey, prompt: promptOverride, docsUrl = DOCS_URL, onPromptCopied, } = {}) {
+     const { copied, markCopied } = useCopied(2000);
+-    const mintedRef = useRef(false);
+-    const keys = useQuery({
+-        ...trpc.projects.keys.list.queryOptions({ projectId: projectId }),
+-        enabled: !!projectId,
+-    });
+-    const createKey = useMutation(trpc.projects.keys.create.mutationOptions({
+-        onSuccess: () => void qc.invalidateQueries({
+-            queryKey: trpc.projects.keys.list.queryKey(),
+-        }),
+-    }));
+-    useEffect(() => {
+-        if (!projectId || keys.isLoading || mintedRef.current)
+-            return;
+-        mintedRef.current = true;
+-        const cacheKey = `foglamp:onboarding-key:${projectId}`;
+-        void (async () => {
+-            try {
+-                const cached = JSON.parse(localStorage.getItem(cacheKey) ?? "null");
+-                if (cached &&
+-                    (keys.data ?? []).some((k) => k.id === cached.id && !k.revokedAt)) {
+-                    setRevealedKey(cached.key);
+-                    return;
+-                }
+-            }
+-            catch {
+-            }
+-            const res = await createKey.mutateAsync({ projectId, name: KEY_NAME });
+-            try {
+-                localStorage.setItem(cacheKey, JSON.stringify({ id: res.id, key: res.key }));
+-            }
+-            catch {
+-            }
+-            setRevealedKey(res.key);
+-        })();
+-    }, [projectId, keys.isLoading, keys.data, createKey]);
+-    const prompt = revealedKey ? buildKeyedPrompt(revealedKey) : null;
++    const prompt = promptOverride ?? (apiKey ? buildKeyedPrompt(apiKey) : null);
+     const copy = () => {
+         if (!prompt)
+             return;
+         void navigator.clipboard.writeText(prompt);
+-        captureActivationEvent("onboarding_prompt_copied", { project_id: projectId });
+         markCopied();
++        onPromptCopied?.();
+     };
+     return (<div className="grid gap-4 sm:grid-cols-2 px-8">
+       <BorderBeam size="pulse-inner" colorVariant="colorful" strength={0.6} borderRadius={16}>
+@@ -83,7 +44,7 @@
+             Prefer to wire it up by hand? Follow the full instrumentation guide.
+           </CardDescription>
+           <CardAction className="self-center">
+-            <Button size="sm" variant="secondary" render={<a href={DOCS_URL} target="_blank" rel="noreferrer"/>}>
++            <Button size="sm" variant="secondary" render={<a href={docsUrl} target="_blank" rel="noreferrer"/>}>
+               <IconExternalLink />
+               View the docs
+             </Button>
+@@ -92,3 +53,4 @@
+       </Card>
+     </div>);
+ }
++export const OnboardingPanel = OnboardingPanelBlock;

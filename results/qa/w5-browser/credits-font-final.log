@@ -1,0 +1,26 @@
+[
+  {
+    t: 506.39999997615814,
+    panel: null,
+    iframe: null,
+    body: 0,
+    fonts: { status: 'loaded', inter: false, faces: [Array] },
+    headings: []
+  },
+  {
+    t: 518.5999999940395,
+    panel: null,
+    iframe: null,
+    body: 2753,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [ [Object] ]
+  },
+  {
+    t: 618.7999999821186,
+    panel: null,
+    iframe: null,
+    body: 2753,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [ [Object] ]
+  }
+]

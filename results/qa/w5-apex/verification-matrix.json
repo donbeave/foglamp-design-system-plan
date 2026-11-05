@@ -1,0 +1,5838 @@
+[
+  {
+    "id": "primitives/alert",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/radio-group",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/avatar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/slider",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/dialog",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/kbd",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/native-select",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/loader",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/dropdown-menu",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/command",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      36,
+      36
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/alert-dialog",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/breadcrumb",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      15,
+      15
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/table",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      24,
+      24
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/field",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/button-group",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/tooltip",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/button",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/calendar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      134,
+      134
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/sonner",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/label",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/accordion",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      20,
+      20
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/input",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/sheet",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/tabs",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/direction",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/input-otp",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      19,
+      19
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/switch",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/carousel",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      28,
+      28
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/drawer",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/popover",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/empty",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/card",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      17,
+      17
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/badge",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/resizable",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/context-menu",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/aspect-ratio",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/toggle-group",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/skeleton",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/input-group",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/item",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/textarea",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/sidebar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      27,
+      27
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/combobox",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/scroll-area",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      45,
+      45
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/checkbox",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/navigation-menu",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/select",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/progress",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/menubar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/toggle",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/pagination",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      25,
+      25
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/collapsible",
+    "theme": "light",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/spinner",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/hover-card",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/separator",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/evil-brush",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      91,
+      91
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/zoom",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      198,
+      198
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/tooltip",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      172,
+      172
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/area-chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      294,
+      294
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      144,
+      144
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/dot",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      388,
+      388
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/background",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      144,
+      144
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/bar-chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      319,
+      319
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/donut-chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      51,
+      51
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/line-chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      251,
+      251
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/legend",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      159,
+      159
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/copy-icon",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/prompt-prose",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      17,
+      17
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/model-logo",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/dev-bar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      57,
+      57
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/run-exchange",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      127,
+      127
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/context-chip",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/logo",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/scan-brand",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/eval-scores",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      99,
+      99
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/range-provider",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/prompt-version-chip",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foggy-launcher",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/data-table",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      121,
+      121
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/page-header",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/animated-api-key",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      75,
+      75
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/quota-card",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/project-icon",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/brand-logos",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      121,
+      121
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/heat-cell",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/theme-switcher",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/stat-card",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/copy-button",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/search-input",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/trend-charts",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      23,
+      23
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/filter-select",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/relative-time",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/project-provider",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foggy-message",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/stat",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/toggle-chip",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/trace-timeline",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      99,
+      99
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/user-menu",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/cost-breakdown",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      403,
+      403
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/prompt-versions-view",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      71,
+      71
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/span-type",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/payload-view",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      90,
+      90
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foggy-widget",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      38,
+      38
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/node-flow",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      23,
+      23
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/customer-avatar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/tool-icon",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/hud-inline-preview",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      24,
+      24
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/tool-breakdown",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      39,
+      39
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/pagination-footer",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      17,
+      17
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/agent-icon",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foglamp-hud",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      78,
+      78
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/sortable-head",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/code-block",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      23,
+      23
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/sunset-card",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      15,
+      15
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/brand-mark",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/model-chip",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/markdown",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/toolbar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      32,
+      32
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/range-picker",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/login-form-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      119,
+      119
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/scan-board-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      168,
+      168
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/original-authors-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      160,
+      369,
+      1120,
+      900
+    ],
+    "differing_pixels": 64555,
+    "mean_abs_channel_error": 5.746663194444444,
+    "pixel_total": 1152000,
+    "element_counts": [
+      56,
+      65
+    ],
+    "computed_differing_elements": 48,
+    "status": "DIFFERENT",
+    "disposition": "AUTHORIZED_REQUIRED_ATTRIBUTION_ADDITION_AND_IMAGE_FILL_ADAPTER"
+  },
+  {
+    "id": "blocks/onboarding-panel-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      33,
+      33
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/device-approve-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      18,
+      18
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/figure-kit-22-block",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      625,
+      625
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/marketing-navbar",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      322,
+      53,
+      608,
+      77
+    ],
+    "differing_pixels": 1889,
+    "mean_abs_channel_error": 0.11646701388888889,
+    "pixel_total": 1152000,
+    "element_counts": [
+      25,
+      46
+    ],
+    "computed_differing_elements": 14,
+    "status": "DIFFERENT",
+    "disposition": "AUTHORIZED_REQUIRED_ATTRIBUTION_ADDITION_AND_IMAGE_FILL_ADAPTER"
+  },
+  {
+    "id": "blocks/cutting-mat-footer-block",
+    "theme": "light",
+    "evidence": "final-footer-cta.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      156,
+      415,
+      1125,
+      737
+    ],
+    "differing_pixels": 9312,
+    "mean_abs_channel_error": 0.3570173611111111,
+    "pixel_total": 1152000,
+    "element_counts": [
+      82,
+      89
+    ],
+    "computed_differing_elements": 13,
+    "status": "DIFFERENT",
+    "disposition": "AUTHORIZED_REQUIRED_ATTRIBUTION_ADDITION_AND_IMAGE_FILL_ADAPTER"
+  },
+  {
+    "id": "blocks/drifting-fog-cta-block",
+    "theme": "light",
+    "evidence": "final-footer-cta.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      118,
+      118
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/setup-board-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      117,
+      117
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/scan-landing-block",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      1063,
+      484,
+      1067,
+      486
+    ],
+    "differing_pixels": 4,
+    "mean_abs_channel_error": 6.0763888888888885e-06,
+    "pixel_total": 1152000,
+    "element_counts": [
+      391,
+      391
+    ],
+    "computed_differing_elements": 0,
+    "status": "DIFFERENT",
+    "disposition": "BOUNDED_RENDERER_OR_TRANSPORT_INITIALIZATION_CAPTURE_LIMITATION"
+  },
+  {
+    "id": "blocks/buttons-badges-playground-block",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      296,
+      296
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/observability-guide-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      363,
+      363
+    ],
+    "computed_differing_elements": 4,
+    "status": "DIFFERENT",
+    "disposition": "PIXELS_EXACT_CSS_MODULE_GENERATED_ANIMATION_IDENTIFIER"
+  },
+  {
+    "id": "blocks/flow-map-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      70,
+      70
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/hero-3d-demo-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      535,
+      535
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/hud-simulator-block",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      694,
+      599,
+      950,
+      704
+    ],
+    "differing_pixels": 950,
+    "mean_abs_channel_error": 0.040503472222222225,
+    "pixel_total": 1152000,
+    "element_counts": [
+      71,
+      71
+    ],
+    "computed_differing_elements": 0,
+    "status": "DIFFERENT",
+    "disposition": "BOUNDED_RENDERER_OR_TRANSPORT_INITIALIZATION_CAPTURE_LIMITATION"
+  },
+  {
+    "id": "blocks/instrument-empty-state-block",
+    "theme": "light",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      104,
+      104
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/embed-board-block",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      72,
+      72
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-backdrop",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      203,
+      203
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-cards",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-chat",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      203,
+      203
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-shares",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      98,
+      98
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-alert",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      272,
+      272
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-table",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      74,
+      74
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-graph",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      102,
+      102
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-total",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      110,
+      110
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/quality-review",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      110,
+      110
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-inspector",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      75,
+      75
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-tabs",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      53,
+      53
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-story",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      177,
+      177
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-small",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      61,
+      61
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-chart",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      626,
+      626
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-shelf",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-donut",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      123,
+      123
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-steps",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      96,
+      96
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-xray",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      203,
+      203
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-flow",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      90,
+      90
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-area",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      200,
+      200
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-fan",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-stair",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "audit/all-logos",
+    "theme": "light",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      265,
+      265
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/alert",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/radio-group",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/avatar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/slider",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/dialog",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/kbd",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/native-select",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/loader",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/dropdown-menu",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/command",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      36,
+      36
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/alert-dialog",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/breadcrumb",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      15,
+      15
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/table",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      24,
+      24
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/field",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/button-group",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/tooltip",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/button",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/calendar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      134,
+      134
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/sonner",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/label",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/accordion",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      20,
+      20
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/input",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/sheet",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/tabs",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/direction",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/input-otp",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      19,
+      19
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/switch",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/carousel",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      28,
+      28
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/drawer",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/popover",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/empty",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/card",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      17,
+      17
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/badge",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/resizable",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/context-menu",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/aspect-ratio",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/toggle-group",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/skeleton",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/input-group",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/item",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/textarea",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/sidebar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      27,
+      27
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/combobox",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/scroll-area",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      45,
+      45
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/checkbox",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/navigation-menu",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      8,
+      8
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/select",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/progress",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/menubar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/toggle",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/pagination",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      25,
+      25
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/collapsible",
+    "theme": "dark",
+    "evidence": "final-dark-variant-aliases.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/spinner",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/hover-card",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "primitives/separator",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      13,
+      13
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/evil-brush",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      91,
+      91
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/zoom",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      198,
+      198
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/tooltip",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      172,
+      172
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/area-chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      294,
+      294
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      144,
+      144
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/dot",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      388,
+      388
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/background",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      144,
+      144
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/bar-chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      319,
+      319
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/donut-chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      51,
+      51
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/line-chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      251,
+      251
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "charts/legend",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      159,
+      159
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/copy-icon",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/prompt-prose",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      17,
+      17
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/model-logo",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/dev-bar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      57,
+      57
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/run-exchange",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      127,
+      127
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/context-chip",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      11,
+      11
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/logo",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/scan-brand",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/eval-scores",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      99,
+      99
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/range-provider",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/prompt-version-chip",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foggy-launcher",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      16,
+      16
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/data-table",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      121,
+      121
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/page-header",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/animated-api-key",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      75,
+      75
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/quota-card",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/project-icon",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/brand-logos",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      121,
+      121
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/heat-cell",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/theme-switcher",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/stat-card",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      14,
+      14
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/copy-button",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/search-input",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/trend-charts",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      23,
+      23
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/filter-select",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      7,
+      7
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/relative-time",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      2,
+      2
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/project-provider",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foggy-message",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/stat",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      4,
+      4
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/toggle-chip",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      3,
+      3
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/trace-timeline",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      99,
+      99
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/user-menu",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/cost-breakdown",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      403,
+      403
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/prompt-versions-view",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      71,
+      71
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/span-type",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/payload-view",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      90,
+      90
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foggy-widget",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      38,
+      38
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/node-flow",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      23,
+      23
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/customer-avatar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/tool-icon",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      6,
+      6
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/hud-inline-preview",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      24,
+      24
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/tool-breakdown",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      39,
+      39
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/pagination-footer",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      17,
+      17
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/agent-icon",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/foglamp-hud",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      78,
+      78
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/sortable-head",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      12,
+      12
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/code-block",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      23,
+      23
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/sunset-card",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      15,
+      15
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/brand-mark",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/model-chip",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      5,
+      5
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/markdown",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      10,
+      10
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/toolbar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      32,
+      32
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "widgets/range-picker",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      9,
+      9
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/login-form-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      119,
+      119
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/scan-board-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      169,
+      169
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/original-authors-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      160,
+      369,
+      1120,
+      900
+    ],
+    "differing_pixels": 64046,
+    "mean_abs_channel_error": 6.406497974537037,
+    "pixel_total": 1152000,
+    "element_counts": [
+      56,
+      65
+    ],
+    "computed_differing_elements": 48,
+    "status": "DIFFERENT",
+    "disposition": "AUTHORIZED_REQUIRED_ATTRIBUTION_ADDITION_AND_IMAGE_FILL_ADAPTER"
+  },
+  {
+    "id": "blocks/onboarding-panel-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      33,
+      33
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/device-approve-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      18,
+      18
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/figure-kit-22-block",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      625,
+      625
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/marketing-navbar",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      322,
+      53,
+      608,
+      77
+    ],
+    "differing_pixels": 1845,
+    "mean_abs_channel_error": 0.13379774305555556,
+    "pixel_total": 1152000,
+    "element_counts": [
+      25,
+      46
+    ],
+    "computed_differing_elements": 14,
+    "status": "DIFFERENT",
+    "disposition": "AUTHORIZED_REQUIRED_ATTRIBUTION_ADDITION_AND_IMAGE_FILL_ADAPTER"
+  },
+  {
+    "id": "blocks/cutting-mat-footer-block",
+    "theme": "dark",
+    "evidence": "final-footer-cta.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": [
+      156,
+      415,
+      1125,
+      737
+    ],
+    "differing_pixels": 9311,
+    "mean_abs_channel_error": 0.39365625,
+    "pixel_total": 1152000,
+    "element_counts": [
+      82,
+      89
+    ],
+    "computed_differing_elements": 13,
+    "status": "DIFFERENT",
+    "disposition": "AUTHORIZED_REQUIRED_ATTRIBUTION_ADDITION_AND_IMAGE_FILL_ADAPTER"
+  },
+  {
+    "id": "blocks/drifting-fog-cta-block",
+    "theme": "dark",
+    "evidence": "final-footer-cta.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      118,
+      118
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/setup-board-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      117,
+      117
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/scan-landing-block",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      391,
+      391
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/buttons-badges-playground-block",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      296,
+      296
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/observability-guide-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      363,
+      363
+    ],
+    "computed_differing_elements": 1,
+    "status": "DIFFERENT",
+    "disposition": "PIXELS_EXACT_CSS_MODULE_GENERATED_ANIMATION_IDENTIFIER"
+  },
+  {
+    "id": "blocks/flow-map-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      70,
+      70
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/hero-3d-demo-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      535,
+      535
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/hud-simulator-block",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      71,
+      71
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/instrument-empty-state-block",
+    "theme": "dark",
+    "evidence": "final-affected-rerun.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      104,
+      104
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "blocks/embed-board-block",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      72,
+      72
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-backdrop",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      203,
+      203
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-cards",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-chat",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      203,
+      203
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-shares",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      98,
+      98
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-alert",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      272,
+      272
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-table",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      74,
+      74
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-graph",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      102,
+      102
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-total",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      110,
+      110
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/quality-review",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      110,
+      110
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-inspector",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      75,
+      75
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-tabs",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      53,
+      53
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-story",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      177,
+      177
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-small",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      61,
+      61
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-chart",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      626,
+      626
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-shelf",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-donut",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      123,
+      123
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-steps",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      96,
+      96
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/traces-xray",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      203,
+      203
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-flow",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      90,
+      90
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-area",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      200,
+      200
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-fan",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "figures/costs-stair",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      129,
+      129
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  },
+  {
+    "id": "audit/all-logos",
+    "theme": "dark",
+    "evidence": "final-native-matrix.jsonl",
+    "source_ready": true,
+    "target_ready": true,
+    "pixel_bbox": null,
+    "differing_pixels": 0,
+    "mean_abs_channel_error": 0.0,
+    "pixel_total": 1152000,
+    "element_counts": [
+      265,
+      265
+    ],
+    "computed_differing_elements": 0,
+    "status": "EXACT",
+    "disposition": "SOURCE_RENDER_EXACT"
+  }
+]

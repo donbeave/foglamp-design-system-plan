@@ -1,0 +1,20 @@
+--- .reference/foglamp/apps/web/src/lib/agent-prompt.ts	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/cta/agent-prompt.ts	2026-11-05 19:02:54
+@@ -1,8 +1,7 @@
+-export const DOCS_URL = "https://docs.foglamp.dev/quickstart";
+-export const AGENT_DOCS_URL = "https://docs.foglamp.dev/ai-instrument.md";
+-export const LLMS_INDEX_URL = "https://docs.foglamp.dev/llms.txt";
+-export const HUD_DOCS_URL = "https://docs.foglamp.dev/sdk/hud";
+-export const SETUP_PROMPT_URL = `${SITE_URL}/setup/prompt`;
++const DOCS_URL = "https://docs.foglamp.dev/quickstart";
++const AGENT_DOCS_URL = "https://docs.foglamp.dev/ai-instrument.md";
++const LLMS_INDEX_URL = "https://docs.foglamp.dev/llms.txt";
++const SETUP_PROMPT_URL = "https://foglamp.dev/setup/prompt";
+ function instrumentationBody(startStep) {
+     return `${startStep}. Fetch ${SETUP_PROMPT_URL} (written for coding agents), read it, then follow it.
+    It has you read my codebase first, upload a plan of what you'd instrument, and
+@@ -43,3 +42,4 @@
+ 2. Install the \`foglamp\` package with this repo's package manager (npm/pnpm/yarn/bun).
+ ${instrumentationBody(3)}`;
+ }
++export { DOCS_URL };

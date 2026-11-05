@@ -1,0 +1,71 @@
+{
+  "task": "W5-5.1A",
+  "state": "REVIEW",
+  "target_repo": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "head_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "working_tree_clean_after_checks": true,
+  "commands": [
+    {
+      "command": "mise exec bun@latest -- bun run check-types",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- bun test",
+      "exit_code": 0,
+      "tests_pass": 58,
+      "tests_fail": 0
+    },
+    {
+      "command": "mise exec bun@latest -- bun run check:portal",
+      "exit_code": 0,
+      "stories": 168,
+      "registry_items": 289
+    },
+    {
+      "command": "mise exec bun@latest -- bun run build:registry",
+      "exit_code": 0,
+      "registry_items_built": 289,
+      "story_catalog_entries": 289
+    },
+    {
+      "command": "mise exec bun@latest -- bun run build",
+      "exit_code": 0
+    }
+  ],
+  "observations": {
+    "story_files": 168,
+    "docs_mdx_files": 176,
+    "public_registry_json_files": 291,
+    "forbidden_next_or_trpc_source_imports": 0,
+    "reference_directory_ignored": true,
+    "target_git_diff_after_builds": "empty",
+    "attribution_markers": [
+      "Gustavo Fior / @gustavo-fior",
+      "Abdul Haidar",
+      "Foglamp Labs"
+    ],
+    "shadow_token_definitions": 18,
+    "public_registry_contents": {
+      "item_payloads": 289,
+      "index_files": [
+        "registry.json",
+        "story-items.json"
+      ]
+    },
+    "shadow_token_declarations": 36,
+    "shadow_token_declaration_breakdown": "18 declarations in :root and 18 in .dark"
+  },
+  "warnings": [
+    "Production build emitted 2 CSS optimizer warnings about generated ::highlight(fd-search) selectors and one browser compatibility notice for node:fs/promises externalization from fumadocs-mdx; build exited successfully."
+  ],
+  "unresolved_limits": [
+    "Static/build verification does not prove visual parity; W5 browser QA remains required."
+  ],
+  "artifacts": [
+    "results/qa/w5-static/check-types.log",
+    "results/qa/w5-static/bun-test.log",
+    "results/qa/w5-static/check-portal.log",
+    "results/qa/w5-static/build-registry.log",
+    "results/qa/w5-static/build.log"
+  ]
+}

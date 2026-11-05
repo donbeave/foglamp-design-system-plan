@@ -1,0 +1,11 @@
+--- .reference/foglamp/apps/web/src/components/app/prompt-version-chip.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/prompt-version-chip.tsx	2026-11-05 19:02:56
+@@ -12,7 +12,7 @@
+         {label}
+       </Badge>);
+     }
+-    return (<Badge variant="sky" size="sm" className={classes} title="Prompt version — see all versions" render={<Link href={promptVersionsHref(agentName)}/>}>
++    return (<Badge variant="sky" size="sm" className={classes} title="Prompt version — see all versions" render={<FoglampLink href={promptVersionsHref(agentName)}/>}>
+       {label}
+     </Badge>);
+ }

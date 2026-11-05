@@ -1,0 +1,10 @@
+- Checking registry.
+✔ Checking registry.
+- Installing dependencies.
+- Installing dependencies.
+✔ Installing dependencies.
+- Updating files.
+✔ Created 3 files:
+  - src/components/framerock/styles/effects.css
+  - src/components/framerock/styles/globals.css
+  - src/components/framerock/styles/font-setup.css

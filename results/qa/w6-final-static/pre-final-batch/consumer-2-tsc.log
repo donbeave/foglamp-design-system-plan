@@ -1,0 +1,2 @@
+node_modules/@tabler/icons-react/dist/tabler-icons-react.d.ts(2,10): error TS2305: Module '"react"' has no exported member 'ReactSVG'.
+src/components/framerock/lib/scan/layout.ts(52,4): error TS2578: Unused '@ts-expect-error' directive.

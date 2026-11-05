@@ -1,0 +1,548 @@
+{
+  "protocol": {
+    "viewport": [
+      1280,
+      800
+    ],
+    "pixelThreshold": 0,
+    "clockMs": 8000,
+    "randomSeed": "0x12345678",
+    "initialStorage": "cleared per case",
+    "computedStyleCoverage": "18 recorded computed-style properties plus tag, text and geometry per DOM node; shadow tree styles not included in DOM-order comparison",
+    "selectionNote": "Overview legend, Session turn and Shell account-menu clicks use 16000ms after interaction; trace, agent, workflow, eval use source route deep links; traces uses agent filter. Shell menu comparison includes body portal."
+  },
+  "cases": {
+    "overview": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 1305,
+          "targetNodes": 1305
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 1305,
+          "targetNodes": 1305
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 628,
+          "targetNodes": 628
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 628,
+          "targetNodes": 628
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 912,
+          "targetNodes": 912
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 912,
+          "targetNodes": 912
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 1305,
+          "targetNodes": 1305
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 1305,
+          "targetNodes": 1305
+        }
+      }
+    },
+    "traces": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 200,
+          "targetNodes": 200
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 200,
+          "targetNodes": 200
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 174,
+          "targetNodes": 174
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 174,
+          "targetNodes": 174
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 80,
+          "targetNodes": 80
+        },
+        "dark": {
+          "status": "FAIL",
+          "differentPixels": 68,
+          "styleDifferences": {},
+          "sourceNodes": 80,
+          "targetNodes": 80
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 166,
+          "targetNodes": 166
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 166,
+          "targetNodes": 166
+        }
+      }
+    },
+    "trace": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 350,
+          "targetNodes": 350
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 350,
+          "targetNodes": 350
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 200,
+          "targetNodes": 200
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 200,
+          "targetNodes": 200
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 38,
+          "targetNodes": 38
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 38,
+          "targetNodes": 38
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 324,
+          "targetNodes": 324
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 324,
+          "targetNodes": 324
+        }
+      }
+    },
+    "agent": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 236,
+          "targetNodes": 236
+        },
+        "dark": {
+          "status": "FAIL",
+          "differentPixels": 11,
+          "styleDifferences": {},
+          "sourceNodes": 236,
+          "targetNodes": 236
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "FAIL",
+          "differentPixels": 0,
+          "styleDifferences": {
+            "opacity": 21
+          },
+          "sourceNodes": 537,
+          "targetNodes": 537
+        },
+        "dark": {
+          "status": "FAIL",
+          "differentPixels": 0,
+          "styleDifferences": {
+            "opacity": 21
+          },
+          "sourceNodes": 537,
+          "targetNodes": 537
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 44,
+          "targetNodes": 44
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 44,
+          "targetNodes": 44
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 345,
+          "targetNodes": 345
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 345,
+          "targetNodes": 345
+        }
+      }
+    },
+    "workflow": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 172,
+          "targetNodes": 172
+        },
+        "dark": {
+          "status": "FAIL",
+          "differentPixels": 19,
+          "styleDifferences": {},
+          "sourceNodes": 172,
+          "targetNodes": 172
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 298,
+          "targetNodes": 298
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 298,
+          "targetNodes": 298
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 43,
+          "targetNodes": 43
+        },
+        "dark": {
+          "status": "FAIL",
+          "differentPixels": 8,
+          "styleDifferences": {},
+          "sourceNodes": 43,
+          "targetNodes": 43
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 257,
+          "targetNodes": 257
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 257,
+          "targetNodes": 257
+        }
+      }
+    },
+    "session": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 317,
+          "targetNodes": 317
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 317,
+          "targetNodes": 317
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 119,
+          "targetNodes": 119
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 119,
+          "targetNodes": 119
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 32,
+          "targetNodes": 32
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 32,
+          "targetNodes": 32
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 317,
+          "targetNodes": 317
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 317,
+          "targetNodes": 317
+        }
+      }
+    },
+    "eval": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 192,
+          "targetNodes": 192
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 192,
+          "targetNodes": 192
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 169,
+          "targetNodes": 169
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 169,
+          "targetNodes": 169
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 93,
+          "targetNodes": 93
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 93,
+          "targetNodes": 93
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 231,
+          "targetNodes": 231
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 231,
+          "targetNodes": 231
+        }
+      }
+    },
+    "shell": {
+      "default": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 442,
+          "targetNodes": 442
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 442,
+          "targetNodes": 442
+        }
+      },
+      "loading": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 206,
+          "targetNodes": 206
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 206,
+          "targetNodes": 206
+        }
+      },
+      "empty": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 211,
+          "targetNodes": 211
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 211,
+          "targetNodes": 211
+        }
+      },
+      "selection": {
+        "light": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 473,
+          "targetNodes": 473
+        },
+        "dark": {
+          "status": "PASS",
+          "differentPixels": 0,
+          "styleDifferences": {},
+          "sourceNodes": 473,
+          "targetNodes": 473
+        }
+      }
+    }
+  }
+}

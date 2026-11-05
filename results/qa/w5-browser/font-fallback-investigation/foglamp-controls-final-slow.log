@@ -1,0 +1,34 @@
+[
+  {
+    t: 1173.0999999940395,
+    panel: [ 302, 274, 836, 580 ],
+    iframe: [ 314, 412, 812, 320 ],
+    body: 1665,
+    fonts: { status: 'loading', inter: false, faces: [Array] },
+    headings: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    t: 2539,
+    panel: [ 302, 274, 836, 580 ],
+    iframe: [ 314, 412, 812, 320 ],
+    body: 1667,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    t: 3040.4000000059605,
+    panel: [ 302, 274, 836, 580 ],
+    iframe: [ 314, 412, 812, 320 ],
+    body: 1667,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  },
+  {
+    t: 3074.0999999940395,
+    panel: [ 302, 274, 836, 580 ],
+    iframe: [ 314, 412, 812, 320 ],
+    body: 1667,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  }
+]

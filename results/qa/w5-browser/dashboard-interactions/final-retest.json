@@ -1,0 +1,10 @@
+{
+  "target": "http://127.0.0.1:4178",
+  "results": [
+    {"case":"Trace timeline", "result":"pass", "observed":"0s–2.40s axis and colored LLM phase bars render; ×3 expands to three 300ms calls; hover shows 634ms and 5:00:00.634 PM", "evidence":["final-timeline-light.png","final-timeline-hover.png","final-timeline-dark.png"]},
+    {"case":"Run drawer and body expansion", "result":"pass", "observed":"Expanded drawer contains conversation and metadata; both 240px clamped input and output Show more buttons change to Show less; run button collapses drawer", "evidence":["final-drawer-expanded.png","final-drawer-dark.png"]},
+    {"case":"Toolbar portal lifting", "result":"pass with harness limitation", "observed":"950px iframe with max-width removed places trailing count inline; reducing iframe to 656px moves it into header. DOM style changes were necessary because no native preview resize control exists.", "evidence":["final-toolbar-wide.png","final-toolbar-narrow.png","final-toolbar-narrow-dark.png"]}
+  ],
+  "limits":["Toolbar reservation during scrolling was not verified", "No comprehensive zero-layout-shift or pixel-parity conclusion"],
+  "console":"Earlier Recharts width(-1)/height(-1) warnings remain in session buffer; checked errors buffer empty."
+}

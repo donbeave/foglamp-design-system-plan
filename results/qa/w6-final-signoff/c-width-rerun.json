@@ -1,0 +1,2043 @@
+{
+  "browser": "Chrome/157.0.8103.39",
+  "rows": [
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "title": "Framerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs",
+      "text": "Framerock\nSearch\n⌘\nK\nFramerock\nOrigin & Credits\nFoundations\nPrimitives\nWidgets\nCharts\nFigures\nBlocks\nAgent Detail Inspector\nApp Shell Block\nButtons & Badges Playground\nCutting Mat Footer\nDevice Approval\nDrifting Fog CTA\nEmbedded Scan Board\nEval Detail\nFigure Kit · 22 Source Figures\nFlow Map\nHero 3D Demo\nHUD Simulator\nInstrument Empty State\nLogin Form\nMarketing Navbar\nObservability Guide\nOnboarding Panel\nOverview Dashboard\nScan Board\nScan Landing\nSession Conversation Inspector\nSetup Board · Plan Edits\nTrace Waterfall Inspector\nTraces Explorer\nWorkflow Detail\nBlocks\nFigure Kit · 22 Source Figures\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures\nCost chart\nTrace X-ray\nQuality review\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nsection\nSelect\n\"costs\"\n\"quality\"\n\"traces\"\nvariantId\nnpx shadcn@latest add http://127.0.0.1:4205/r/block-marketing-figures-figure-kit-22.json\nCopy\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp) · foglamp.dev\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nPackage entry\nCopy Anchor Link\n\n@tailrocks/framerock/blocks/marketing/figures/figure-kit-22-block exports this block. The interactive preview above comes from apps/docs/src/stories/blocks/figure-kit-22-block.story.tsx.\n\nAPI reference\nCopy Anchor Link\nEntry\tContract\nStory arguments\t`section: 'costs'\nFixture and callback wiring\tThe story exposes section (costs, traces, or quality) and variantId. The component selects one of the 22 source figures for that pair. The workbench offers three presets: costs with chart, traces with xray, and quality with review.\nRegistry item\tblock-marketing-figures-figure-kit-22. The portal payload is /r/block-marketing-figures-figure-kit-22.json.\n\nOriginal design by Gustavo Fior (@gustavo-fior), gustavofior.com, and @heyimgustavo, with co-founder Abdul Haidar at Foglamp Labs (foglamp-labs/foglamp). The source project is licensed under Apache-2.0.\n\nEval Detail\n\nEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.\n\nFlow Map\n\nFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.\n\nOn this page\nPackage entry\nAPI reference",
+      "links": [
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": false
+        },
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": true
+        },
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/docs",
+          "visible": true
+        },
+        {
+          "text": "Origin & Credits",
+          "href": "http://127.0.0.1:4205/docs/credits",
+          "visible": true
+        },
+        {
+          "text": "Agent Detail Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/agent-detail-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "App Shell Block",
+          "href": "http://127.0.0.1:4205/docs/blocks/app-shell-block",
+          "visible": true
+        },
+        {
+          "text": "Buttons & Badges Playground",
+          "href": "http://127.0.0.1:4205/docs/blocks/buttons-badges-playground-block",
+          "visible": true
+        },
+        {
+          "text": "Cutting Mat Footer",
+          "href": "http://127.0.0.1:4205/docs/blocks/cutting-mat-footer-block",
+          "visible": true
+        },
+        {
+          "text": "Device Approval",
+          "href": "http://127.0.0.1:4205/docs/blocks/device-approve-block",
+          "visible": true
+        },
+        {
+          "text": "Drifting Fog CTA",
+          "href": "http://127.0.0.1:4205/docs/blocks/drifting-fog-cta-block",
+          "visible": true
+        },
+        {
+          "text": "Embedded Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/embed-board-block",
+          "visible": true
+        },
+        {
+          "text": "Eval Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Figure Kit · 22 Source Figures",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block",
+          "visible": true
+        },
+        {
+          "text": "Flow Map",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Hero 3D Demo",
+          "href": "http://127.0.0.1:4205/docs/blocks/hero-3d-demo-block",
+          "visible": true
+        },
+        {
+          "text": "HUD Simulator",
+          "href": "http://127.0.0.1:4205/docs/blocks/hud-simulator-block",
+          "visible": true
+        },
+        {
+          "text": "Instrument Empty State",
+          "href": "http://127.0.0.1:4205/docs/blocks/instrument-empty-state-block",
+          "visible": true
+        },
+        {
+          "text": "Login Form",
+          "href": "http://127.0.0.1:4205/docs/blocks/login-form-block",
+          "visible": true
+        },
+        {
+          "text": "Marketing Navbar",
+          "href": "http://127.0.0.1:4205/docs/blocks/marketing-navbar",
+          "visible": true
+        },
+        {
+          "text": "Observability Guide",
+          "href": "http://127.0.0.1:4205/docs/blocks/observability-guide-block",
+          "visible": true
+        },
+        {
+          "text": "Onboarding Panel",
+          "href": "http://127.0.0.1:4205/docs/blocks/onboarding-panel-block",
+          "visible": true
+        },
+        {
+          "text": "Overview Dashboard",
+          "href": "http://127.0.0.1:4205/docs/blocks/overview-dashboard-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-board-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Landing",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-landing-block",
+          "visible": true
+        },
+        {
+          "text": "Session Conversation Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/session-conversation-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Setup Board · Plan Edits",
+          "href": "http://127.0.0.1:4205/docs/blocks/setup-board-block",
+          "visible": true
+        },
+        {
+          "text": "Trace Waterfall Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/trace-waterfall-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Traces Explorer",
+          "href": "http://127.0.0.1:4205/docs/blocks/traces-explorer-block",
+          "visible": true
+        },
+        {
+          "text": "Workflow Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/workflow-detail-block",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": true
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "gustavofior.com",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "@heyimgustavo",
+          "href": "https://x.com/heyimgustavo",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Apache-2.0",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/main/LICENSE",
+          "visible": true
+        },
+        {
+          "text": "Eval DetailEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Flow MapFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": true
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": true
+        }
+      ],
+      "provenance": [
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 314,
+            "y": 1232.96875,
+            "width": 812,
+            "height": 131,
+            "top": 1232.96875,
+            "right": 1126,
+            "bottom": 1363.96875,
+            "left": 314
+          }
+        },
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 302,
+            "y": 1480.96875,
+            "width": 836,
+            "height": 131,
+            "top": 1480.96875,
+            "right": 1138,
+            "bottom": 1611.96875,
+            "left": 302
+          }
+        }
+      ],
+      "shifts": [],
+      "overflow": false,
+      "workbenches": 1,
+      "frames": [
+        {
+          "title": "Figure Kit · 22 Source Figures",
+          "ready": "complete",
+          "theme": "light",
+          "text": "Cost over time\ngpt-5.6-sol\nclaude-fable-5\ngemini-3.5-flash\n23:00\n03:00\n07:00\n11:00\n15:00\n21:00\n$0\n$1",
+          "fonts": "loaded",
+          "nativeRects": [
+            {
+              "tag": "DIV",
+              "classes": "mx-auto w-full max-w-5xl p-6",
+              "rect": {
+                "x": 128,
+                "y": 0,
+                "width": 1024,
+                "height": 576,
+                "top": 0,
+                "right": 1152,
+                "bottom": 576,
+                "left": 128
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 760.640625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 772.640625,
+                "bottom": 204.5,
+                "left": 760.640625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 867.90625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 879.90625,
+                "bottom": 204.5,
+                "left": 867.90625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 996.25,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 1008.25,
+                "bottom": 204.5,
+                "left": 996.25
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "recharts-surface",
+              "rect": {
+                "x": 386.734375,
+                "y": 229,
+                "width": 721,
+                "height": 208,
+                "top": 229,
+                "right": 1107.734375,
+                "bottom": 437,
+                "left": 386.734375
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 83,
+                "width": 14,
+                "height": 14,
+                "top": 83,
+                "right": 903.171875,
+                "bottom": 97,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 136,
+                "width": 14,
+                "height": 14,
+                "top": 136,
+                "right": 903.171875,
+                "bottom": 150,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 189,
+                "width": 14,
+                "height": 14,
+                "top": 189,
+                "right": 903.171875,
+                "bottom": 203,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 415.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 415.09375,
+                "right": 794.5,
+                "bottom": 424.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 468.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 468.09375,
+                "right": 794.5,
+                "bottom": 477.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 521.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 521.09375,
+                "right": 794.5,
+                "bottom": 530.890625,
+                "left": 784.703125
+              }
+            }
+          ],
+          "sourceSurface": true,
+          "boundary": "not-fumadocs-codeblock",
+          "bg": "oklch(0.99 0 0)",
+          "fg": "oklch(0.145 0 0)",
+          "overflow": false
+        }
+      ],
+      "events": []
+    },
+    {
+      "device": "desktop",
+      "theme": "dark",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "title": "Framerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs",
+      "text": "Framerock\nSearch\n⌘\nK\nFramerock\nOrigin & Credits\nFoundations\nPrimitives\nWidgets\nCharts\nFigures\nBlocks\nAgent Detail Inspector\nApp Shell Block\nButtons & Badges Playground\nCutting Mat Footer\nDevice Approval\nDrifting Fog CTA\nEmbedded Scan Board\nEval Detail\nFigure Kit · 22 Source Figures\nFlow Map\nHero 3D Demo\nHUD Simulator\nInstrument Empty State\nLogin Form\nMarketing Navbar\nObservability Guide\nOnboarding Panel\nOverview Dashboard\nScan Board\nScan Landing\nSession Conversation Inspector\nSetup Board · Plan Edits\nTrace Waterfall Inspector\nTraces Explorer\nWorkflow Detail\nBlocks\nFigure Kit · 22 Source Figures\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures\nCost chart\nTrace X-ray\nQuality review\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nsection\nSelect\n\"costs\"\n\"quality\"\n\"traces\"\nvariantId\nnpx shadcn@latest add http://127.0.0.1:4205/r/block-marketing-figures-figure-kit-22.json\nCopy\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp) · foglamp.dev\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nPackage entry\nCopy Anchor Link\n\n@tailrocks/framerock/blocks/marketing/figures/figure-kit-22-block exports this block. The interactive preview above comes from apps/docs/src/stories/blocks/figure-kit-22-block.story.tsx.\n\nAPI reference\nCopy Anchor Link\nEntry\tContract\nStory arguments\t`section: 'costs'\nFixture and callback wiring\tThe story exposes section (costs, traces, or quality) and variantId. The component selects one of the 22 source figures for that pair. The workbench offers three presets: costs with chart, traces with xray, and quality with review.\nRegistry item\tblock-marketing-figures-figure-kit-22. The portal payload is /r/block-marketing-figures-figure-kit-22.json.\n\nOriginal design by Gustavo Fior (@gustavo-fior), gustavofior.com, and @heyimgustavo, with co-founder Abdul Haidar at Foglamp Labs (foglamp-labs/foglamp). The source project is licensed under Apache-2.0.\n\nEval Detail\n\nEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.\n\nFlow Map\n\nFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.\n\nOn this page\nPackage entry\nAPI reference",
+      "links": [
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": false
+        },
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": true
+        },
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/docs",
+          "visible": true
+        },
+        {
+          "text": "Origin & Credits",
+          "href": "http://127.0.0.1:4205/docs/credits",
+          "visible": true
+        },
+        {
+          "text": "Agent Detail Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/agent-detail-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "App Shell Block",
+          "href": "http://127.0.0.1:4205/docs/blocks/app-shell-block",
+          "visible": true
+        },
+        {
+          "text": "Buttons & Badges Playground",
+          "href": "http://127.0.0.1:4205/docs/blocks/buttons-badges-playground-block",
+          "visible": true
+        },
+        {
+          "text": "Cutting Mat Footer",
+          "href": "http://127.0.0.1:4205/docs/blocks/cutting-mat-footer-block",
+          "visible": true
+        },
+        {
+          "text": "Device Approval",
+          "href": "http://127.0.0.1:4205/docs/blocks/device-approve-block",
+          "visible": true
+        },
+        {
+          "text": "Drifting Fog CTA",
+          "href": "http://127.0.0.1:4205/docs/blocks/drifting-fog-cta-block",
+          "visible": true
+        },
+        {
+          "text": "Embedded Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/embed-board-block",
+          "visible": true
+        },
+        {
+          "text": "Eval Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Figure Kit · 22 Source Figures",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block",
+          "visible": true
+        },
+        {
+          "text": "Flow Map",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Hero 3D Demo",
+          "href": "http://127.0.0.1:4205/docs/blocks/hero-3d-demo-block",
+          "visible": true
+        },
+        {
+          "text": "HUD Simulator",
+          "href": "http://127.0.0.1:4205/docs/blocks/hud-simulator-block",
+          "visible": true
+        },
+        {
+          "text": "Instrument Empty State",
+          "href": "http://127.0.0.1:4205/docs/blocks/instrument-empty-state-block",
+          "visible": true
+        },
+        {
+          "text": "Login Form",
+          "href": "http://127.0.0.1:4205/docs/blocks/login-form-block",
+          "visible": true
+        },
+        {
+          "text": "Marketing Navbar",
+          "href": "http://127.0.0.1:4205/docs/blocks/marketing-navbar",
+          "visible": true
+        },
+        {
+          "text": "Observability Guide",
+          "href": "http://127.0.0.1:4205/docs/blocks/observability-guide-block",
+          "visible": true
+        },
+        {
+          "text": "Onboarding Panel",
+          "href": "http://127.0.0.1:4205/docs/blocks/onboarding-panel-block",
+          "visible": true
+        },
+        {
+          "text": "Overview Dashboard",
+          "href": "http://127.0.0.1:4205/docs/blocks/overview-dashboard-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-board-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Landing",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-landing-block",
+          "visible": true
+        },
+        {
+          "text": "Session Conversation Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/session-conversation-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Setup Board · Plan Edits",
+          "href": "http://127.0.0.1:4205/docs/blocks/setup-board-block",
+          "visible": true
+        },
+        {
+          "text": "Trace Waterfall Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/trace-waterfall-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Traces Explorer",
+          "href": "http://127.0.0.1:4205/docs/blocks/traces-explorer-block",
+          "visible": true
+        },
+        {
+          "text": "Workflow Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/workflow-detail-block",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": true
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "gustavofior.com",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "@heyimgustavo",
+          "href": "https://x.com/heyimgustavo",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Apache-2.0",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/main/LICENSE",
+          "visible": true
+        },
+        {
+          "text": "Eval DetailEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Flow MapFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": true
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": true
+        }
+      ],
+      "provenance": [
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 314,
+            "y": 1232.96875,
+            "width": 812,
+            "height": 131,
+            "top": 1232.96875,
+            "right": 1126,
+            "bottom": 1363.96875,
+            "left": 314
+          }
+        },
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 302,
+            "y": 1480.96875,
+            "width": 836,
+            "height": 131,
+            "top": 1480.96875,
+            "right": 1138,
+            "bottom": 1611.96875,
+            "left": 302
+          }
+        }
+      ],
+      "shifts": [],
+      "overflow": false,
+      "workbenches": 1,
+      "frames": [
+        {
+          "title": "Figure Kit · 22 Source Figures",
+          "ready": "complete",
+          "theme": "dark",
+          "text": "Cost over time\ngpt-5.6-sol\nclaude-fable-5\ngemini-3.5-flash\n23:00\n03:00\n07:00\n11:00\n15:00\n21:00\n$0\n$1",
+          "fonts": "loaded",
+          "nativeRects": [
+            {
+              "tag": "DIV",
+              "classes": "mx-auto w-full max-w-5xl p-6",
+              "rect": {
+                "x": 128,
+                "y": 0,
+                "width": 1024,
+                "height": 576,
+                "top": 0,
+                "right": 1152,
+                "bottom": 576,
+                "left": 128
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 760.640625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 772.640625,
+                "bottom": 204.5,
+                "left": 760.640625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 867.90625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 879.90625,
+                "bottom": 204.5,
+                "left": 867.90625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 996.25,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 1008.25,
+                "bottom": 204.5,
+                "left": 996.25
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "recharts-surface",
+              "rect": {
+                "x": 386.734375,
+                "y": 229,
+                "width": 721,
+                "height": 208,
+                "top": 229,
+                "right": 1107.734375,
+                "bottom": 437,
+                "left": 386.734375
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 83,
+                "width": 14,
+                "height": 14,
+                "top": 83,
+                "right": 903.171875,
+                "bottom": 97,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 136,
+                "width": 14,
+                "height": 14,
+                "top": 136,
+                "right": 903.171875,
+                "bottom": 150,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 189,
+                "width": 14,
+                "height": 14,
+                "top": 189,
+                "right": 903.171875,
+                "bottom": 203,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 415.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 415.09375,
+                "right": 794.5,
+                "bottom": 424.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 468.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 468.09375,
+                "right": 794.5,
+                "bottom": 477.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 521.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 521.09375,
+                "right": 794.5,
+                "bottom": 530.890625,
+                "left": 784.703125
+              }
+            }
+          ],
+          "sourceSurface": true,
+          "boundary": "not-fumadocs-codeblock",
+          "bg": "oklch(0.17 0 0)",
+          "fg": "oklch(0.985 0 0)",
+          "overflow": false
+        }
+      ],
+      "events": []
+    },
+    {
+      "device": "mobile",
+      "theme": "light",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "title": "Framerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs",
+      "text": "Framerock\nFigure Kit · 22 Source Figures\nPackage entry\nBlocks\nFigure Kit · 22 Source Figures\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures\nCost chart\nTrace X-ray\nQuality review\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nsection\nSelect\n\"costs\"\n\"quality\"\n\"traces\"\nvariantId\nnpx shadcn@latest add http://127.0.0.1:4205/r/block-marketing-figures-figure-kit-22.json\nCopy\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp) · foglamp.dev\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nPackage entry\nCopy Anchor Link\n\n@tailrocks/framerock/blocks/marketing/figures/figure-kit-22-block exports this block. The interactive preview above comes from apps/docs/src/stories/blocks/figure-kit-22-block.story.tsx.\n\nAPI reference\nCopy Anchor Link\nEntry\tContract\nStory arguments\t`section: 'costs'\nFixture and callback wiring\tThe story exposes section (costs, traces, or quality) and variantId. The component selects one of the 22 source figures for that pair. The workbench offers three presets: costs with chart, traces with xray, and quality with review.\nRegistry item\tblock-marketing-figures-figure-kit-22. The portal payload is /r/block-marketing-figures-figure-kit-22.json.\n\nOriginal design by Gustavo Fior (@gustavo-fior), gustavofior.com, and @heyimgustavo, with co-founder Abdul Haidar at Foglamp Labs (foglamp-labs/foglamp). The source project is licensed under Apache-2.0.\n\nEval Detail\n\nEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.\n\nFlow Map\n\nFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.",
+      "links": [
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": true
+        },
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/docs",
+          "visible": true
+        },
+        {
+          "text": "Origin & Credits",
+          "href": "http://127.0.0.1:4205/docs/credits",
+          "visible": true
+        },
+        {
+          "text": "Agent Detail Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/agent-detail-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "App Shell Block",
+          "href": "http://127.0.0.1:4205/docs/blocks/app-shell-block",
+          "visible": true
+        },
+        {
+          "text": "Buttons & Badges Playground",
+          "href": "http://127.0.0.1:4205/docs/blocks/buttons-badges-playground-block",
+          "visible": true
+        },
+        {
+          "text": "Cutting Mat Footer",
+          "href": "http://127.0.0.1:4205/docs/blocks/cutting-mat-footer-block",
+          "visible": true
+        },
+        {
+          "text": "Device Approval",
+          "href": "http://127.0.0.1:4205/docs/blocks/device-approve-block",
+          "visible": true
+        },
+        {
+          "text": "Drifting Fog CTA",
+          "href": "http://127.0.0.1:4205/docs/blocks/drifting-fog-cta-block",
+          "visible": true
+        },
+        {
+          "text": "Embedded Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/embed-board-block",
+          "visible": true
+        },
+        {
+          "text": "Eval Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Figure Kit · 22 Source Figures",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block",
+          "visible": true
+        },
+        {
+          "text": "Flow Map",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Hero 3D Demo",
+          "href": "http://127.0.0.1:4205/docs/blocks/hero-3d-demo-block",
+          "visible": true
+        },
+        {
+          "text": "HUD Simulator",
+          "href": "http://127.0.0.1:4205/docs/blocks/hud-simulator-block",
+          "visible": true
+        },
+        {
+          "text": "Instrument Empty State",
+          "href": "http://127.0.0.1:4205/docs/blocks/instrument-empty-state-block",
+          "visible": true
+        },
+        {
+          "text": "Login Form",
+          "href": "http://127.0.0.1:4205/docs/blocks/login-form-block",
+          "visible": true
+        },
+        {
+          "text": "Marketing Navbar",
+          "href": "http://127.0.0.1:4205/docs/blocks/marketing-navbar",
+          "visible": true
+        },
+        {
+          "text": "Observability Guide",
+          "href": "http://127.0.0.1:4205/docs/blocks/observability-guide-block",
+          "visible": true
+        },
+        {
+          "text": "Onboarding Panel",
+          "href": "http://127.0.0.1:4205/docs/blocks/onboarding-panel-block",
+          "visible": true
+        },
+        {
+          "text": "Overview Dashboard",
+          "href": "http://127.0.0.1:4205/docs/blocks/overview-dashboard-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-board-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Landing",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-landing-block",
+          "visible": true
+        },
+        {
+          "text": "Session Conversation Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/session-conversation-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Setup Board · Plan Edits",
+          "href": "http://127.0.0.1:4205/docs/blocks/setup-board-block",
+          "visible": true
+        },
+        {
+          "text": "Trace Waterfall Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/trace-waterfall-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Traces Explorer",
+          "href": "http://127.0.0.1:4205/docs/blocks/traces-explorer-block",
+          "visible": true
+        },
+        {
+          "text": "Workflow Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/workflow-detail-block",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": true
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "gustavofior.com",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "@heyimgustavo",
+          "href": "https://x.com/heyimgustavo",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Apache-2.0",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/main/LICENSE",
+          "visible": true
+        },
+        {
+          "text": "Eval DetailEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Flow MapFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": false
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": false
+        }
+      ],
+      "provenance": [
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 28,
+            "y": 1147.9375,
+            "width": 334,
+            "height": 191,
+            "top": 1147.9375,
+            "right": 362,
+            "bottom": 1338.9375,
+            "left": 28
+          }
+        },
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 16,
+            "y": 1487.9375,
+            "width": 358,
+            "height": 191,
+            "top": 1487.9375,
+            "right": 374,
+            "bottom": 1678.9375,
+            "left": 16
+          }
+        }
+      ],
+      "shifts": [],
+      "overflow": false,
+      "workbenches": 1,
+      "frames": [
+        {
+          "title": "Figure Kit · 22 Source Figures",
+          "ready": "complete",
+          "theme": "light",
+          "text": "Cost over time\ngpt-5.6-sol\nclaude-fable-5\ngemini-3.5-flash\n23:00\n03:00\n07:00\n11:00\n15:00\n21:00\n$0\n$1",
+          "fonts": "loaded",
+          "nativeRects": [
+            {
+              "tag": "DIV",
+              "classes": "mx-auto w-full max-w-5xl p-6",
+              "rect": {
+                "x": 128,
+                "y": 0,
+                "width": 1024,
+                "height": 576,
+                "top": 0,
+                "right": 1152,
+                "bottom": 576,
+                "left": 128
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 760.640625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 772.640625,
+                "bottom": 204.5,
+                "left": 760.640625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 867.90625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 879.90625,
+                "bottom": 204.5,
+                "left": 867.90625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 996.25,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 1008.25,
+                "bottom": 204.5,
+                "left": 996.25
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "recharts-surface",
+              "rect": {
+                "x": 386.734375,
+                "y": 229,
+                "width": 721,
+                "height": 208,
+                "top": 229,
+                "right": 1107.734375,
+                "bottom": 437,
+                "left": 386.734375
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 83,
+                "width": 14,
+                "height": 14,
+                "top": 83,
+                "right": 903.171875,
+                "bottom": 97,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 136,
+                "width": 14,
+                "height": 14,
+                "top": 136,
+                "right": 903.171875,
+                "bottom": 150,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 189,
+                "width": 14,
+                "height": 14,
+                "top": 189,
+                "right": 903.171875,
+                "bottom": 203,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 415.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 415.09375,
+                "right": 794.5,
+                "bottom": 424.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 468.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 468.09375,
+                "right": 794.5,
+                "bottom": 477.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 521.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 521.09375,
+                "right": 794.5,
+                "bottom": 530.890625,
+                "left": 784.703125
+              }
+            }
+          ],
+          "sourceSurface": true,
+          "boundary": "not-fumadocs-codeblock",
+          "bg": "oklch(0.99 0 0)",
+          "fg": "oklch(0.145 0 0)",
+          "overflow": false
+        }
+      ],
+      "events": []
+    },
+    {
+      "device": "mobile",
+      "theme": "dark",
+      "path": "/docs/blocks/figure-kit-22-block",
+      "title": "Framerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs",
+      "text": "Framerock\nFigure Kit · 22 Source Figures\nPackage entry\nBlocks\nFigure Kit · 22 Source Figures\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures selects a figure by section and variant ID. The presets show a cost chart, trace X-ray, and quality review.\n\nFigure Kit · 22 Source Figures\nCost chart\nTrace X-ray\nQuality review\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nsection\nSelect\n\"costs\"\n\"quality\"\n\"traces\"\nvariantId\nnpx shadcn@latest add http://127.0.0.1:4205/r/block-marketing-figures-figure-kit-22.json\nCopy\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp) · foglamp.dev\n\nProvenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nPackage entry\nCopy Anchor Link\n\n@tailrocks/framerock/blocks/marketing/figures/figure-kit-22-block exports this block. The interactive preview above comes from apps/docs/src/stories/blocks/figure-kit-22-block.story.tsx.\n\nAPI reference\nCopy Anchor Link\nEntry\tContract\nStory arguments\t`section: 'costs'\nFixture and callback wiring\tThe story exposes section (costs, traces, or quality) and variantId. The component selects one of the 22 source figures for that pair. The workbench offers three presets: costs with chart, traces with xray, and quality with review.\nRegistry item\tblock-marketing-figures-figure-kit-22. The portal payload is /r/block-marketing-figures-figure-kit-22.json.\n\nOriginal design by Gustavo Fior (@gustavo-fior), gustavofior.com, and @heyimgustavo, with co-founder Abdul Haidar at Foglamp Labs (foglamp-labs/foglamp). The source project is licensed under Apache-2.0.\n\nEval Detail\n\nEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.\n\nFlow Map\n\nFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.",
+      "links": [
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": true
+        },
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/docs",
+          "visible": true
+        },
+        {
+          "text": "Origin & Credits",
+          "href": "http://127.0.0.1:4205/docs/credits",
+          "visible": true
+        },
+        {
+          "text": "Agent Detail Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/agent-detail-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "App Shell Block",
+          "href": "http://127.0.0.1:4205/docs/blocks/app-shell-block",
+          "visible": true
+        },
+        {
+          "text": "Buttons & Badges Playground",
+          "href": "http://127.0.0.1:4205/docs/blocks/buttons-badges-playground-block",
+          "visible": true
+        },
+        {
+          "text": "Cutting Mat Footer",
+          "href": "http://127.0.0.1:4205/docs/blocks/cutting-mat-footer-block",
+          "visible": true
+        },
+        {
+          "text": "Device Approval",
+          "href": "http://127.0.0.1:4205/docs/blocks/device-approve-block",
+          "visible": true
+        },
+        {
+          "text": "Drifting Fog CTA",
+          "href": "http://127.0.0.1:4205/docs/blocks/drifting-fog-cta-block",
+          "visible": true
+        },
+        {
+          "text": "Embedded Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/embed-board-block",
+          "visible": true
+        },
+        {
+          "text": "Eval Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Figure Kit · 22 Source Figures",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block",
+          "visible": true
+        },
+        {
+          "text": "Flow Map",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Hero 3D Demo",
+          "href": "http://127.0.0.1:4205/docs/blocks/hero-3d-demo-block",
+          "visible": true
+        },
+        {
+          "text": "HUD Simulator",
+          "href": "http://127.0.0.1:4205/docs/blocks/hud-simulator-block",
+          "visible": true
+        },
+        {
+          "text": "Instrument Empty State",
+          "href": "http://127.0.0.1:4205/docs/blocks/instrument-empty-state-block",
+          "visible": true
+        },
+        {
+          "text": "Login Form",
+          "href": "http://127.0.0.1:4205/docs/blocks/login-form-block",
+          "visible": true
+        },
+        {
+          "text": "Marketing Navbar",
+          "href": "http://127.0.0.1:4205/docs/blocks/marketing-navbar",
+          "visible": true
+        },
+        {
+          "text": "Observability Guide",
+          "href": "http://127.0.0.1:4205/docs/blocks/observability-guide-block",
+          "visible": true
+        },
+        {
+          "text": "Onboarding Panel",
+          "href": "http://127.0.0.1:4205/docs/blocks/onboarding-panel-block",
+          "visible": true
+        },
+        {
+          "text": "Overview Dashboard",
+          "href": "http://127.0.0.1:4205/docs/blocks/overview-dashboard-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Board",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-board-block",
+          "visible": true
+        },
+        {
+          "text": "Scan Landing",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-landing-block",
+          "visible": true
+        },
+        {
+          "text": "Session Conversation Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/session-conversation-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Setup Board · Plan Edits",
+          "href": "http://127.0.0.1:4205/docs/blocks/setup-board-block",
+          "visible": true
+        },
+        {
+          "text": "Trace Waterfall Inspector",
+          "href": "http://127.0.0.1:4205/docs/blocks/trace-waterfall-inspector-block",
+          "visible": true
+        },
+        {
+          "text": "Traces Explorer",
+          "href": "http://127.0.0.1:4205/docs/blocks/traces-explorer-block",
+          "visible": true
+        },
+        {
+          "text": "Workflow Detail",
+          "href": "http://127.0.0.1:4205/docs/blocks/workflow-detail-block",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "this pinned Foglamp inspiration file",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": true
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "gustavofior.com",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "@heyimgustavo",
+          "href": "https://x.com/heyimgustavo",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Apache-2.0",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/main/LICENSE",
+          "visible": true
+        },
+        {
+          "text": "Eval DetailEval Detail presents an evaluation definition, scores, and related trace information in the dashboard shell. The story selects the support-quality evaluation fixture.",
+          "href": "http://127.0.0.1:4205/docs/blocks/eval-detail-block",
+          "visible": true
+        },
+        {
+          "text": "Flow MapFlow Map lays out the scan graph in a chosen direction. The story supplies the scan graph fixture and resolves its favicons through ScanFaviconProvider.",
+          "href": "http://127.0.0.1:4205/docs/blocks/flow-map-block",
+          "visible": true
+        },
+        {
+          "text": "Package entry",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#package-entry",
+          "visible": false
+        },
+        {
+          "text": "API reference",
+          "href": "http://127.0.0.1:4205/docs/blocks/figure-kit-22-block#api-reference",
+          "visible": false
+        }
+      ],
+      "provenance": [
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 28,
+            "y": 1147.9375,
+            "width": 334,
+            "height": 191,
+            "top": 1147.9375,
+            "right": 362,
+            "bottom": 1338.9375,
+            "left": 28
+          }
+        },
+        {
+          "text": "Provenance: Newly Added by Tailrocks\n\nThis is not an upstream Foglamp source file. It is a new Tailrocks composition inspired by this pinned Foglamp inspiration file.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "this pinned Foglamp inspiration file",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 16,
+            "y": 1487.9375,
+            "width": 358,
+            "height": 191,
+            "top": 1487.9375,
+            "right": 374,
+            "bottom": 1678.9375,
+            "left": 16
+          }
+        }
+      ],
+      "shifts": [],
+      "overflow": false,
+      "workbenches": 1,
+      "frames": [
+        {
+          "title": "Figure Kit · 22 Source Figures",
+          "ready": "complete",
+          "theme": "dark",
+          "text": "Cost over time\ngpt-5.6-sol\nclaude-fable-5\ngemini-3.5-flash\n23:00\n03:00\n07:00\n11:00\n15:00\n21:00\n$0\n$1",
+          "fonts": "loaded",
+          "nativeRects": [
+            {
+              "tag": "DIV",
+              "classes": "mx-auto w-full max-w-5xl p-6",
+              "rect": {
+                "x": 128,
+                "y": 0,
+                "width": 1024,
+                "height": 576,
+                "top": 0,
+                "right": 1152,
+                "bottom": 576,
+                "left": 128
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 760.640625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 772.640625,
+                "bottom": 204.5,
+                "left": 760.640625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 867.90625,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 879.90625,
+                "bottom": 204.5,
+                "left": 867.90625
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-3",
+              "rect": {
+                "x": 996.25,
+                "y": 192.5,
+                "width": 12,
+                "height": 12,
+                "top": 192.5,
+                "right": 1008.25,
+                "bottom": 204.5,
+                "left": 996.25
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "recharts-surface",
+              "rect": {
+                "x": 386.734375,
+                "y": 229,
+                "width": 721,
+                "height": 208,
+                "top": 229,
+                "right": 1107.734375,
+                "bottom": 437,
+                "left": 386.734375
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 83,
+                "width": 14,
+                "height": 14,
+                "top": 83,
+                "right": 903.171875,
+                "bottom": 97,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 136,
+                "width": 14,
+                "height": 14,
+                "top": 136,
+                "right": 903.171875,
+                "bottom": 150,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "tabler-icon tabler-icon-ghost-filled size-3.5 shrink-0",
+              "rect": {
+                "x": 889.171875,
+                "y": 189,
+                "width": 14,
+                "height": 14,
+                "top": 189,
+                "right": 903.171875,
+                "bottom": 203,
+                "left": 889.171875
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 415.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 415.09375,
+                "right": 794.5,
+                "bottom": 424.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 468.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 468.09375,
+                "right": 794.5,
+                "bottom": 477.890625,
+                "left": 784.703125
+              }
+            },
+            {
+              "tag": "svg",
+              "classes": "size-[70%] fill-white",
+              "rect": {
+                "x": 784.703125,
+                "y": 521.09375,
+                "width": 9.796875,
+                "height": 9.796875,
+                "top": 521.09375,
+                "right": 794.5,
+                "bottom": 530.890625,
+                "left": 784.703125
+              }
+            }
+          ],
+          "sourceSurface": true,
+          "boundary": "not-fumadocs-codeblock",
+          "bg": "oklch(0.17 0 0)",
+          "fg": "oklch(0.985 0 0)",
+          "overflow": false
+        }
+      ],
+      "events": []
+    }
+  ]
+}

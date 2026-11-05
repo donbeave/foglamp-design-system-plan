@@ -1,0 +1,176 @@
+dark /docs/blocks/agent-detail-inspector-block Agent Detail Inspector 1 0
+dark /docs/blocks/app-shell-block App Shell Block 1 0
+dark /docs/blocks/buttons-badges-playground-block Buttons & Badges Playground 1 0
+dark /docs/blocks/cutting-mat-footer-block Cutting Mat Footer 1 0
+dark /docs/blocks/device-approve-block Device Approval 1 0
+dark /docs/blocks/drifting-fog-cta-block Drifting Fog CTA 1 0
+dark /docs/blocks/embed-board-block Embedded Scan Board 1 0
+dark /docs/blocks/eval-detail-block Eval Detail 1 0
+dark /docs/blocks/figure-kit-22-block Figure Kit · 22 Source Figures 1 0
+dark /docs/blocks/flow-map-block Flow Map 1 0
+dark /docs/blocks/hero-3d-demo-block Hero 3D Demo 1 0
+dark /docs/blocks/hud-simulator-block HUD Simulator 1 0
+dark /docs/blocks/instrument-empty-state-block Instrument Empty State 1 0
+dark /docs/blocks/login-form-block Login Form 1 0
+dark /docs/blocks/marketing-navbar Marketing Navbar 1 0
+dark /docs/blocks/observability-guide-block Observability Guide 1 0
+dark /docs/blocks/onboarding-panel-block Onboarding Panel 1 0
+dark /docs/blocks/original-authors-block Original Authors 1 0
+dark /docs/blocks/overview-dashboard-block Overview Dashboard 1 0
+dark /docs/blocks/scan-board-block Scan Board 1 0
+dark /docs/blocks/scan-landing-block Scan Landing 1 0
+dark /docs/blocks/session-conversation-inspector-block Session Conversation Inspector 1 0
+dark /docs/blocks/setup-board-block Setup Board · Plan Edits 1 0
+dark /docs/blocks/trace-waterfall-inspector-block Trace Waterfall Inspector 1 0
+dark /docs/blocks/traces-explorer-block Traces Explorer 1 0
+dark /docs/blocks/workflow-detail-block Workflow Detail 1 0
+dark /docs/charts/area-chart Evil Area Chart 1 0
+dark /docs/charts/background Chart SVG Background Patterns 1 0
+dark /docs/charts/bar-chart Evil Bar Chart 1 0
+dark /docs/charts/chart Chart Container and Context 1 0
+dark /docs/charts/donut-chart Evil Donut Chart 1 0
+dark /docs/charts/dot Chart Dots 1 0
+dark /docs/charts/evil-brush Evil Brush Range Selector 1 0
+dark /docs/charts/legend Chart Legend 1 0
+dark /docs/charts/line-chart Evil Line Chart 1 0
+dark /docs/charts/tooltip Chart Tooltip 1 0
+dark /docs/charts/zoom Drag-to-Zoom Selection 1 0
+dark /docs/credits Credits 0 0
+dark /docs/figures/costs-alert Costs Alert 1 0
+dark /docs/figures/costs-area Costs Area 1 0
+dark /docs/figures/costs-backdrop Costs Backdrop 1 0
+dark /docs/figures/costs-cards Costs Cards 1 0
+dark /docs/figures/costs-chart Costs Chart 1 0
+dark /docs/figures/costs-donut Costs Donut 1 0
+dark /docs/figures/costs-fan Costs Fan 1 0
+dark /docs/figures/costs-flow Costs Flow 1 0
+dark /docs/figures/costs-shares Costs Shares 1 0
+dark /docs/figures/costs-shelf Costs Shelf 1 0
+dark /docs/figures/costs-small Costs Small 1 0
+dark /docs/figures/costs-stair Costs Stair 1 0
+dark /docs/figures/costs-table Costs Table 1 0
+dark /docs/figures/costs-tabs Costs Tabs 1 0
+dark /docs/figures/costs-total Costs Total 1 0
+dark /docs/figures/quality-review Quality Review 1 0
+dark /docs/figures/traces-chat Traces Chat 1 0
+dark /docs/figures/traces-graph Traces Graph 1 0
+dark /docs/figures/traces-inspector Traces Inspector 1 0
+dark /docs/figures/traces-steps Traces Steps 1 0
+dark /docs/figures/traces-story Traces Story 1 0
+dark /docs/figures/traces-xray Traces Xray 1 0
+dark /docs/foundations/architecture Package architecture 0 0
+dark /docs/foundations/geometry Geometry and controls 0 0
+dark /docs/foundations/installation Installation and usage 0 0
+dark /docs/foundations/motion Motion and accessibility 0 0
+dark /docs/foundations/tokens Color and shadows 0 0
+dark /docs/foundations/typography Typography and icons 0 0
+dark /docs Foglamp Design System 0 0
+dark /docs/primitives/accordion Accordion 1 0
+dark /docs/primitives/alert-dialog Alert Dialog 1 0
+dark /docs/primitives/alert Alert 1 0
+dark /docs/primitives/aspect-ratio Aspect Ratio 1 0
+dark /docs/primitives/avatar Avatar 1 0
+dark /docs/primitives/badge Badge 1 0
+dark /docs/primitives/breadcrumb Breadcrumb 1 0
+dark /docs/primitives/button-group Button Group 1 0
+dark /docs/primitives/button Button 1 0
+dark /docs/primitives/calendar Calendar 1 0
+dark /docs/primitives/card Card 1 0
+dark /docs/primitives/carousel Carousel 1 0
+dark /docs/primitives/chart Chart 1 0
+dark /docs/primitives/checkbox Checkbox 1 0
+dark /docs/primitives/collapsible Collapsible 1 0
+dark /docs/primitives/combobox Combobox 1 0
+dark /docs/primitives/command Command 1 0
+dark /docs/primitives/context-menu Context Menu 1 0
+dark /docs/primitives/dialog Dialog 1 0
+dark /docs/primitives/direction Direction 1 0
+dark /docs/primitives/drawer Drawer 1 0
+dark /docs/primitives/dropdown-menu Dropdown Menu 1 0
+dark /docs/primitives/empty Empty 1 0
+dark /docs/primitives/field Field 1 0
+dark /docs/primitives/hover-card Hover Card 1 0
+dark /docs/primitives/input-group Input Group 1 0
+dark /docs/primitives/input-otp Input Otp 1 0
+dark /docs/primitives/input Input 1 0
+dark /docs/primitives/item Item 1 0
+dark /docs/primitives/kbd Kbd 1 0
+dark /docs/primitives/label Label 1 0
+dark /docs/primitives/loader Loader 1 0
+dark /docs/primitives/menubar Menubar 1 0
+dark /docs/primitives/native-select Native Select 1 0
+dark /docs/primitives/navigation-menu Navigation Menu 1 0
+dark /docs/primitives/pagination Pagination 1 0
+dark /docs/primitives/popover Popover 1 0
+dark /docs/primitives/progress Progress 1 0
+dark /docs/primitives/radio-group Radio Group 1 0
+dark /docs/primitives/resizable Resizable 1 0
+dark /docs/primitives/scroll-area Scroll Area 1 0
+dark /docs/primitives/select Select 1 0
+dark /docs/primitives/separator Separator 1 0
+dark /docs/primitives/sheet Sheet 1 0
+dark /docs/primitives/sidebar Sidebar 1 0
+dark /docs/primitives/skeleton Skeleton 1 0
+dark /docs/primitives/slider Slider 1 0
+dark /docs/primitives/sonner Sonner 1 0
+dark /docs/primitives/spinner Spinner 1 0
+dark /docs/primitives/switch Switch 1 0
+dark /docs/primitives/table Table 1 0
+dark /docs/primitives/tabs Tabs 1 0
+dark /docs/primitives/textarea Textarea 1 0
+dark /docs/primitives/toggle-group Toggle Group 1 0
+dark /docs/primitives/toggle Toggle 1 0
+dark /docs/primitives/tooltip Tooltip 1 0
+dark /docs/widgets/agent-icon AgentIcon 1 0
+dark /docs/widgets/animated-api-key AnimatedApiKey 1 0
+dark /docs/widgets/brand-logos BrandLogos 1 0
+dark /docs/widgets/brand-mark BrandMark 1 0
+dark /docs/widgets/code-block CodeBlock 1 0
+dark /docs/widgets/context-chip ContextChip 1 0
+dark /docs/widgets/copy-button CopyButton 1 0
+dark /docs/widgets/copy-icon CopyIcon 1 0
+dark /docs/widgets/cost-breakdown CostBreakdown 1 0
+dark /docs/widgets/customer-avatar CustomerAvatar 1 0
+dark /docs/widgets/data-table DataTable 1 0
+dark /docs/widgets/dev-bar DevBar 1 0
+dark /docs/widgets/eval-scores EvalScores 1 0
+dark /docs/widgets/filter-select FilterSelect 1 0
+dark /docs/widgets/foggy-launcher FoggyLauncher 1 0
+dark /docs/widgets/foggy-message FoggyMessage 1 0
+dark /docs/widgets/foggy-widget FoggyWidget 1 0
+dark /docs/widgets/foglamp-hud FoglampHUD 1 0
+dark /docs/widgets/heat-cell HeatCell 1 0
+dark /docs/widgets/hud-inline-preview HudInlinePreview 1 0
+dark /docs/widgets/logo Logo 1 0
+dark /docs/widgets/markdown Markdown 1 0
+dark /docs/widgets/model-chip ModelChip 1 0
+dark /docs/widgets/model-logo ModelLogo 1 0
+dark /docs/widgets/node-flow NodeFlow 1 0
+dark /docs/widgets/page-header PageHeader 1 0
+dark /docs/widgets/pagination-footer PaginationFooter 1 0
+dark /docs/widgets/payload-view PayloadView 1 0
+dark /docs/widgets/project-icon ProjectIcon 1 0
+dark /docs/widgets/project-provider ProjectProvider 1 0
+dark /docs/widgets/prompt-prose PromptProse 1 0
+dark /docs/widgets/prompt-version-chip PromptVersionChip 1 0
+dark /docs/widgets/prompt-versions-view PromptVersionsView 1 0
+dark /docs/widgets/quota-card QuotaCard 1 0
+dark /docs/widgets/range-picker RangePicker 1 0
+dark /docs/widgets/range-provider RangeProvider 1 0
+dark /docs/widgets/relative-time RelativeTime 1 0
+dark /docs/widgets/run-exchange RunExchange 1 0
+dark /docs/widgets/scan-brand ScanBrand 1 0
+dark /docs/widgets/search-input SearchInput 1 0
+dark /docs/widgets/sortable-head SortableHead 1 0
+dark /docs/widgets/span-type SpanType 1 0
+dark /docs/widgets/stat-card StatCard 1 0
+dark /docs/widgets/stat Stat 1 0
+dark /docs/widgets/sunset-card SunsetCard 1 0
+dark /docs/widgets/theme-switcher ThemeSwitcher 1 0
+dark /docs/widgets/toggle-chip ToggleChip 1 0
+dark /docs/widgets/tool-breakdown ToolBreakdown 1 0
+dark /docs/widgets/tool-icon ToolIcon 1 0
+dark /docs/widgets/toolbar Toolbar 1 0
+dark /docs/widgets/trace-timeline TraceTimeline 1 0
+dark /docs/widgets/trend-charts TrendCharts 1 0
+dark /docs/widgets/user-menu UserMenu 1 0

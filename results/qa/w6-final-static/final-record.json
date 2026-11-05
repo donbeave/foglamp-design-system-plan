@@ -1,0 +1,85 @@
+{
+  "task_id": "W6-GATE static+pack+freshCLI",
+  "changed_paths": [
+    "/Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/public/r/**",
+    "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w6-final-static/**"
+  ],
+  "commands": [
+    {
+      "command": "mise exec bun@latest -- bun run build:registry",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- bun run verify:portal",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- bun run check-types",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- bun test",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- bun run build",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- git diff --check",
+      "exit_code": 0
+    },
+    {
+      "command": "npm pack ./packages/design-system --json --pack-destination results/qa/w6-final-static/pack-post-freeze",
+      "exit_code": 0
+    },
+    {
+      "command": "npm exec --yes --package=shadcn@latest -- shadcn --version",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- npm exec --yes --package=shadcn@latest -- shadcn add --yes @framerock/ui-button @framerock/block-marketing-hero-hero @framerock/block-scan-scan-board @framerock/block-setup-setup-board",
+      "exit_code": 0
+    },
+    {
+      "command": "mise exec bun@latest -- npm exec --yes --package=shadcn@latest -- shadcn add --yes @framerock/style-globals",
+      "exit_code": 0
+    },
+    {
+      "command": "Fresh consumer Vite production build",
+      "exit_code": 0
+    },
+    {
+      "command": "Fresh consumer tsc --noEmit",
+      "exit_code": 2,
+      "note": "@tabler/icons-react ReactSVG declaration and unused @ts-expect-error at imported scan/layout.ts:52"
+    },
+    {
+      "command": "Fresh consumer tsc --noEmit --strict --skipLibCheck",
+      "exit_code": 0
+    }
+  ],
+  "results": {
+    "registry_items": 288,
+    "verify_portal": "266 source headers/body hashes unchanged; 175 MDX pages zero issues; 6 public surfaces zero issues; provenance gates zero issues; 167 stories; 7 navigation manifests",
+    "unit_tests": "58 passed, 0 failed",
+    "fresh_consumer": "119 installed TS/TSX/CSS files retained required legal/provenance markers; 0 copied-1-to-1 missing packaging notice; 143 TypeScript payload occurrences have 0 AST mismatches after comments removed; 3 CSS files have 0 Lightning CSS normalized mismatches",
+    "browser_qa": "8 light/dark view cases (Button, Hero, Scan, Setup), zero events/errors, zero local /api requests, fonts loaded in all; native T3 favicons loaded for Scan (3) and Setup (1)",
+    "npm_pack": {
+      "tarball": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w6-final-static/pack-post-freeze/tailrocks-framerock-0.1.0.tgz",
+      "filename": "tailrocks-framerock-0.1.0.tgz",
+      "size": 1820608,
+      "unpacked_size": 3635061,
+      "entries": 274,
+      "root_notices_byte_identical": true,
+      "identity_and_type_fest_metadata_valid": true,
+      "no_founder_files_env_node_modules_or_tmp": true,
+      "errors": []
+    }
+  },
+  "unresolved_limits": [
+    "Fresh consumer plain non-strict tsc reports the Tabler ReactSVG declaration and unused @ts-expect-error; strict+skipLibCheck passes.",
+    "No implementation source changes, commits, or pushes made by this task; final gate decision/push remains coordinator-owned."
+  ],
+  "state": "REVIEW"
+}

@@ -1,0 +1,16 @@
+$ turbo check-types
+
+   • turbo 2.11.10
+   • Packages in scope: @foglamp/design-system, @foglamp/docs, @foglamp/registry
+   • Running check-types in 3 packages
+   • Remote caching disabled
+
+@foglamp/design-system:check-types: cache hit, replaying logs 619bfa829ee507b0
+@foglamp/design-system:check-types: $ tsc --noEmit
+@foglamp/docs:check-types: cache miss, executing e5c8704ee9610d5a
+@foglamp/docs:check-types: $ tsc --noEmit
+
+ Tasks:    2 successful, 2 total
+Cached:    1 cached, 2 total
+  Time:    8.382s 
+

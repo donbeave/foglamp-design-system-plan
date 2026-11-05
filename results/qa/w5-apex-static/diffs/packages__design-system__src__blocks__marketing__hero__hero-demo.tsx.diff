@@ -1,0 +1,19 @@
+--- .reference/foglamp/apps/web/src/components/marketing/landing/hero-demo.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/hero/hero-demo.tsx	2026-11-05 19:02:54
+@@ -1,8 +1,12 @@
+ "use client";
+-const DashboardDemo = dynamic(() => import("@/components/marketing/demo").then((m) => m.DashboardDemo), {
+-    ssr: false,
+-    loading: () => null,
+-});
++const LazyDashboardDemo = lazy(() => import("../demo"));
++function DashboardDemo(props) {
++    const [mounted, setMounted] = useState(false);
++    useEffect(() => setMounted(true), []);
++    return mounted ? (<Suspense fallback={null}>
++      <LazyDashboardDemo {...props}/>
++    </Suspense>) : null;
++}
+ const DARK_LIFT = "[--sidebar:oklch(0.96_0_0)] dark:[--sidebar:oklch(0.2_0_0)] dark:[--background:oklch(0.215_0_0)] dark:[--card:oklch(0.25_0_0)] dark:[--popover:oklch(0.25_0_0)] dark:[--muted:oklch(0.31_0_0)] dark:[--accent:oklch(0.31_0_0)] dark:[--secondary:oklch(0.31_0_0)] dark:[--sidebar-accent:oklch(0.31_0_0)]";
+ export function HeroDemo({ settled, interactive, onSettled, }) {
+     const reduce = useReducedMotion() ?? false;

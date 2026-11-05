@@ -1,0 +1,24 @@
+[
+  { t: 54, panel: null, iframe: null, body: 0, headings: [] },
+  {
+    t: 78.5,
+    panel: [ 302, 330, 836, 391 ],
+    iframe: [ 314, 468, 0, 0 ],
+    body: 1576,
+    headings: [ [Object], [Object], [Object] ]
+  },
+  {
+    t: 91,
+    panel: [ 302, 358, 836, 391 ],
+    iframe: [ 314, 496, 0, 0 ],
+    body: 1606,
+    headings: [ [Object], [Object], [Object] ]
+  },
+  {
+    t: 497.40000000596046,
+    panel: [ 302, 358, 836, 898.96875 ],
+    iframe: [ 314, 496, 812, 507.97509765625 ],
+    body: 2114,
+    headings: [ [Object], [Object], [Object] ]
+  }
+]

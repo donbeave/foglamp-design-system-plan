@@ -1,0 +1,6 @@
+{
+  "fixture": "Button provenance JSX replaced by nonrendered MDX comment, required strings retained",
+  "exit": 0,
+  "stdout": "Verified 266 headers; body hashes unchanged\nProvenance gates: 0 issue(s)\n",
+  "stderr": ""
+}

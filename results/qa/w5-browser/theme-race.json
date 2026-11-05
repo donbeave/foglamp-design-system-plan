@@ -1,0 +1,92 @@
+[
+  {
+    "route": "/docs/figures/costs-donut",
+    "samples": [
+      {
+        "time": 1320.6000000238419,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 127,
+        "frameText": "Cost by model\n$840\n24 hours\ngpt-5.6-sol\n61%\nclaude-fable-5\n34%\ngemini-3.5-flash\n"
+      },
+      {
+        "time": 1321.2000000178814,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 127,
+        "frameText": "Cost by model\n$840\n24 hours\ngpt-5.6-sol\n61%\nclaude-fable-5\n34%\ngemini-3.5-flash\n"
+      },
+      {
+        "time": 1571.800000011921,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 127,
+        "frameText": "Cost by model\n$840\n24 hours\ngpt-5.6-sol\n61%\nclaude-fable-5\n34%\ngemini-3.5-flash\n"
+      },
+      {
+        "time": 2327.300000011921,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 127,
+        "frameText": "Cost by model\n$840\n24 hours\ngpt-5.6-sol\n61%\nclaude-fable-5\n34%\ngemini-3.5-flash\n"
+      },
+      {
+        "time": 3331.300000011921,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 127,
+        "frameText": "Cost by model\n$840\n24 hours\ngpt-5.6-sol\n61%\nclaude-fable-5\n34%\ngemini-3.5-flash\n"
+      }
+    ]
+  },
+  {
+    "route": "/docs/figures/costs-shelf",
+    "samples": [
+      {
+        "time": 1317.2000000178814,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 133,
+        "frameText": "Agents\nresearch-planner\n$318.20\nsupport-triage\n$214.80\ncode-reviewer\n$196.40\nema"
+      },
+      {
+        "time": 1318.0999999940395,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 133,
+        "frameText": "Agents\nresearch-planner\n$318.20\nsupport-triage\n$214.80\ncode-reviewer\n$196.40\nema"
+      },
+      {
+        "time": 1569.800000011921,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 133,
+        "frameText": "Agents\nresearch-planner\n$318.20\nsupport-triage\n$214.80\ncode-reviewer\n$196.40\nema"
+      },
+      {
+        "time": 2326,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 133,
+        "frameText": "Agents\nresearch-planner\n$318.20\nsupport-triage\n$214.80\ncode-reviewer\n$196.40\nema"
+      },
+      {
+        "time": 3327.0999999940395,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 133,
+        "frameText": "Agents\nresearch-planner\n$318.20\nsupport-triage\n$214.80\ncode-reviewer\n$196.40\nema"
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "target": "http://127.0.0.1:4178",
+  "sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "checks": [
+    {
+      "name": "FlowMap fixture and WAAPI beams",
+      "status": "pass",
+      "evidence": "Five named nodes, SVG paths and three offset-path beam elements; running animations observed. Dark iframe class dark."
+    },
+    {
+      "name": "FoggyLauncher notch and action",
+      "status": "pass",
+      "evidence": "Two carved shelf SVG paths inspected; button changes Assistant closed to Assistant opened."
+    },
+    {
+      "name": "FoggyWidget pointer resize",
+      "status": "pass",
+      "evidence": "Real mouse drags yielded 292.531px during lower overshoot and 319.14px on release; 649.096px during upper overshoot and 640.392px immediately after release (spring settling)."
+    },
+    {
+      "name": "HUD stream and simulator",
+      "status": "partial",
+      "evidence": "Shadow root contains running Support assistant trace, running timeline animations and subpixel coordinates. Simulator agent storm produced Foggy trace and timeline bar."
+    },
+    {
+      "name": "Console/page errors",
+      "status": "pass-observed",
+      "evidence": "agent-browser errors and console commands returned no entries in sessions checked; no blanket filters."
+    }
+  ],
+  "limits": [
+    "Direct edge clicking is not applicable: source SVG is pointer-events-none; node selection highlights downstream edges.",
+    "Synthetic pointer and wheel events drove FlowMap and setup camera; Foggy resize used real mouse input.",
+    "Source-reference pixel comparison and comprehensive layout-shift audit belong to final visual sign-off."
+  ],
+  "followup_checks": [
+    {
+      "name": "BFS spotlight and node selection",
+      "status": "pass-fixture",
+      "evidence": "Synthetic pointerup on Support agent in light and dark: incoming edge opacity .15, two downstream edges 1; webhook dimmed, downstream nodes active, agent detail rendered. SVG edge group pointer-events-none; independent edge selection is not exposed."
+    },
+    {
+      "name": "ScanBoard legend hover",
+      "status": "pass-fixture",
+      "evidence": "Agents hover dims webhook, store, Slack and retains Support agent."
+    },
+    {
+      "name": "Beam target hit rings",
+      "status": "pass",
+      "evidence": "MutationObserver recorded two natural arrivals opacity .55 and rgb(249,115,22); later ring opacity 0."
+    },
+    {
+      "name": "zoom and cleanup",
+      "status": "pass",
+      "evidence": "Synthetic ctrl-wheel scale .8 to 1.4577; will-change transform immediately, auto after 220ms."
+    },
+    {
+      "name": "Setup camera and label focus",
+      "status": "pass-fixture",
+      "evidence": "Support agent decision click animated camera scale .934132 through intermediate values to 1, will-change auto; hover dims unrelated nodes."
+    },
+    {
+      "name": "HUD timeline, comet and spring",
+      "status": "pass",
+      "evidence": "Over 1 second bar left 438.431 to 431.075px, width 1.569 to 8.925px, grid left 17.71 to 10.355px; 8-pixel opacity chase changed. Collapse 440x190 to 87.07x37.60 overshoot and settled 88x38."
+    },
+    {
+      "name": "Foggy resize settling",
+      "status": "pass",
+      "evidence": "Real pointer release settled to exactly 320px and 640px by 200ms after respective overshoot."
+    },
+    {
+      "name": "Dark FlowMap zoom cleanup",
+      "status": "pass",
+      "evidence": "Dark iframe ctrl-wheel .8\u21921.4577; will-change transform immediately and auto after 220ms."
+    },
+    {
+      "name": "Dark Setup camera",
+      "status": "pass",
+      "evidence": "Dark iframe camera animated .934132\u21921 and will-change settled auto."
+    },
+    {
+      "name": "HUD on dark story surface",
+      "status": "pass",
+      "evidence": "Dark iframe: timeline bar and grid positions moved and pixel opacity chased; shell 440x190 overshot 87.10x37.61 and settled 88x38."
+    }
+  ],
+  "post_rebuild_hud": {
+    "target": "http://127.0.0.1:4178",
+    "source_state": "ce01e3aa72515a8c557336ac174d9428e17c7046 plus uncommitted coordinated story changes",
+    "light": {
+      "preset": "Live mock stream \u00b7 light theme",
+      "data_theme": "light",
+      "computed_background": "oklch(1 0 0)",
+      "computed_foreground": "oklch(0.205 0 0)",
+      "timeline": "bar left 361.665\u2192355.843px, width 78.335\u219284.157px; grid 94.541\u219288.719px; pixel opacities changed",
+      "spring": "440\u00d7190px \u2192 87.073\u00d737.600px overshoot \u2192 88\u00d738px settled"
+    },
+    "dark": {
+      "preset": "Live mock stream \u00b7 dark theme",
+      "data_theme": "dark",
+      "computed_background": "oklch(0.205 0 0)",
+      "computed_foreground": "oklch(0.97 0 0)",
+      "timeline": "bar left 438.46\u2192432.975px, width 1.54\u21927.025px; grid 25.183\u219219.697px; pixel opacities changed",
+      "spring": "440\u00d7190px \u2192 87.073\u00d737.600px overshoot \u2192 88\u00d738px settled"
+    },
+    "console_page_errors": "No entries observed"
+  }
+}

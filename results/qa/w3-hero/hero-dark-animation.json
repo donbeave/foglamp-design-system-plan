@@ -1,0 +1,157 @@
+{
+  "firstTint": {
+    "at": 1273.1,
+    "chain": [
+      {
+        "overflow": "visible",
+        "slot": "table-row",
+        "style": "flat",
+        "tag": "TR"
+      },
+      {
+        "overflow": "visible",
+        "slot": "table-body",
+        "style": "preserve-3d",
+        "tag": "TBODY"
+      },
+      {
+        "overflow": "visible",
+        "slot": "table",
+        "style": "preserve-3d",
+        "tag": "TABLE"
+      },
+      {
+        "overflow": "visible",
+        "slot": "table-container",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      }
+    ],
+    "locked": true,
+    "plate": {
+      "color": "oklab(0.200455 0 0)",
+      "opacity": "1"
+    },
+    "transform": "perspective(2400px) translateX(40px) translateY(60px) scale(1.15) rotateX(8deg) rotateZ(-6deg)"
+  },
+  "last": {
+    "at": 11906.1,
+    "chain": [
+      {
+        "overflow": "visible",
+        "slot": "table-row",
+        "style": "flat",
+        "tag": "TR"
+      },
+      {
+        "overflow": "visible",
+        "slot": "table-body",
+        "style": "flat",
+        "tag": "TBODY"
+      },
+      {
+        "overflow": "visible",
+        "slot": "table",
+        "style": "flat",
+        "tag": "TABLE"
+      },
+      {
+        "overflow": "auto",
+        "slot": "table-container",
+        "style": "flat",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "flat",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "flat",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "flat",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "auto",
+        "style": "flat",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "hidden",
+        "style": "flat",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "hidden",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "hidden",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      },
+      {
+        "overflow": "visible",
+        "style": "preserve-3d",
+        "tag": "DIV"
+      }
+    ],
+    "locked": false,
+    "plate": {
+      "color": "oklch(0.215 0 0)",
+      "opacity": "1"
+    },
+    "transform": "perspective(2400px)"
+  },
+  "mode": "dark",
+  "partialColors": [
+    "oklab(0.2 0 0)"
+  ],
+  "samples": 102
+}

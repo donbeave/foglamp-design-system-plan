@@ -1,0 +1,6 @@
+# Preserve captured QA output bytes; these are evidence, not editable product code.
+results/qa/**/*.log -whitespace
+results/qa/**/*.diff -whitespace
+results/qa/**/*.txt -whitespace
+results/qa/w5-scan-default-adapter/fixture/src/fixtures.ts -whitespace
+results/qa/w5-scan-default-adapter/installed-consumer/src/fixtures.ts -whitespace

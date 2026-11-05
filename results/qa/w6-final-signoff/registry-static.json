@@ -1,0 +1,1756 @@
+{
+  "registry": {
+    "name": "framerock",
+    "homepage": "https://github.com/tailrocks/framerock",
+    "author": "Tailrocks (https://github.com/tailrocks) \u2014 Original UI design & implementation by Gustavo Fior (@gustavo-fior), Abdul Haidar & Foglamp Labs (https://foglamp.dev)",
+    "license": "Apache-2.0"
+  },
+  "items": [
+    {
+      "name": "block-app-shell-app-shell",
+      "provenance": "modified",
+      "files": 48,
+      "errors": []
+    },
+    {
+      "name": "block-app-shell-index",
+      "provenance": "tailrocks-original",
+      "files": 49,
+      "errors": []
+    },
+    {
+      "name": "block-app-shell-new-project-dialog",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "block-app-shell-sunset-card",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-auth-buttons-badges",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "block-auth-device-approve",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "block-auth-index",
+      "provenance": "tailrocks-original",
+      "files": 19,
+      "errors": []
+    },
+    {
+      "name": "block-auth-instrument-empty-state",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "block-auth-login-form",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "block-auth-onboarding-panel",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-agent-detail-inspector",
+      "provenance": "modified",
+      "files": 63,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-eval-chip-placeholders",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-eval-detail",
+      "provenance": "modified",
+      "files": 56,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-eval-settings-fields",
+      "provenance": "modified",
+      "files": 12,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-index",
+      "provenance": "tailrocks-original",
+      "files": 92,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-overview-dashboard",
+      "provenance": "modified",
+      "files": 38,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-session-conversation-inspector",
+      "provenance": "modified",
+      "files": 34,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-trace-waterfall-inspector",
+      "provenance": "modified",
+      "files": 41,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-traces-explorer",
+      "provenance": "modified",
+      "files": 33,
+      "errors": []
+    },
+    {
+      "name": "block-dashboard-workflow-detail",
+      "provenance": "modified",
+      "files": 51,
+      "errors": []
+    },
+    {
+      "name": "block-guide-chapters",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-guide-css-modules-d",
+      "provenance": "tailrocks-original",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-guide-index",
+      "provenance": "tailrocks-original",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "block-guide-observability-guide-module",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-guide-observability-guide",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-brand-mark",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-code",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-copy-button",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-cutting-mat",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-demo-link",
+      "provenance": "modified",
+      "files": 22,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-footer",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-github-logo",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-index",
+      "provenance": "tailrocks-original",
+      "files": 35,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-logo",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-navbar",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-noise-overlay",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-chrome-products",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-agent-prompt",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-ask-foggy",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-compact-cta",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-copy-prompt-button",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-cta-agent-details",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-cta",
+      "provenance": "modified",
+      "files": 11,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-faq",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-cta-index",
+      "provenance": "tailrocks-original",
+      "files": 18,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-demo-chrome",
+      "provenance": "modified",
+      "files": 22,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-demo-context",
+      "provenance": "copied-1-to-1",
+      "files": 22,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-demo-shell",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-demo-sidebar",
+      "provenance": "modified",
+      "files": 27,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-detail-agent-detail",
+      "provenance": "modified",
+      "files": 64,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-detail-breakdown-cards",
+      "provenance": "modified",
+      "files": 32,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-detail-eval-detail",
+      "provenance": "modified",
+      "files": 52,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-detail-session-detail",
+      "provenance": "modified",
+      "files": 40,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-detail-trace-detail",
+      "provenance": "modified",
+      "files": 48,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-detail-workflow-detail",
+      "provenance": "modified",
+      "files": 59,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-entrance",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-index",
+      "provenance": "modified",
+      "files": 92,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-mock-data",
+      "provenance": "modified",
+      "files": 21,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-piece",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-agents-tab",
+      "provenance": "modified",
+      "files": 40,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-alerts-tab",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-evals-tab",
+      "provenance": "modified",
+      "files": 42,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-overview-tab",
+      "provenance": "modified",
+      "files": 44,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-sessions-tab",
+      "provenance": "modified",
+      "files": 41,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-traces-tab",
+      "provenance": "modified",
+      "files": 42,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-demo-tabs-workflows-tab",
+      "provenance": "modified",
+      "files": 40,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-feature-section",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-features",
+      "provenance": "modified",
+      "files": 24,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figure-kit-22",
+      "provenance": "tailrocks-original",
+      "files": 57,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figure-kit",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figure-picker",
+      "provenance": "modified",
+      "files": 56,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figure-reveal",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figures-costs",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figures-scenes",
+      "provenance": "modified",
+      "files": 38,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figures-traces",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-figures",
+      "provenance": "modified",
+      "files": 55,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-index",
+      "provenance": "tailrocks-original",
+      "files": 65,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-product-hero",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-figures-visuals",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-hero-hero-demo",
+      "provenance": "modified",
+      "files": 93,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-hero-hero",
+      "provenance": "modified",
+      "files": 96,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-hero-index",
+      "provenance": "tailrocks-original",
+      "files": 97,
+      "errors": []
+    },
+    {
+      "name": "block-marketing-hud-landing",
+      "provenance": "modified",
+      "files": 14,
+      "errors": []
+    },
+    {
+      "name": "block-scan-brand",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "block-scan-changes-card",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "block-scan-copy-scan-prompt-button",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "block-scan-embed-board",
+      "provenance": "modified",
+      "files": 12,
+      "errors": []
+    },
+    {
+      "name": "block-scan-favicon-context",
+      "provenance": "tailrocks-original",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "block-scan-flow-map",
+      "provenance": "modified",
+      "files": 11,
+      "errors": []
+    },
+    {
+      "name": "block-scan-index",
+      "provenance": "tailrocks-original",
+      "files": 31,
+      "errors": []
+    },
+    {
+      "name": "block-scan-kinds",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "block-scan-left-rail",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "block-scan-noise-overlay",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "block-scan-personality-card",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "block-scan-powered-by",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "block-scan-scan-board",
+      "provenance": "modified",
+      "files": 21,
+      "errors": []
+    },
+    {
+      "name": "block-scan-scan-landing",
+      "provenance": "modified",
+      "files": 20,
+      "errors": []
+    },
+    {
+      "name": "block-scan-scan-prompt",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "block-scan-share-bar",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "block-setup-decision-list",
+      "provenance": "modified",
+      "files": 24,
+      "errors": []
+    },
+    {
+      "name": "block-setup-index",
+      "provenance": "tailrocks-original",
+      "files": 25,
+      "errors": []
+    },
+    {
+      "name": "block-setup-setup-board",
+      "provenance": "modified",
+      "files": 24,
+      "errors": []
+    },
+    {
+      "name": "block-setup-setup-summary",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "block-setup-verification-report",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-charts-area-chart",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-charts-bar-chart",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-charts-donut-chart",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-charts-line-chart",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-background",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-chart",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-dot",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-evil-brush",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-legend",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-tooltip",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "chart-evilcharts-ui-zoom",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-alert",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-area",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-backdrop",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-cards",
+      "provenance": "modified",
+      "files": 38,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-chart",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-donut",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-fan",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-flow",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-shares",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-shelf",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-small",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-stair",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-table",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-tabs",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-costs-total",
+      "provenance": "modified",
+      "files": 53,
+      "errors": []
+    },
+    {
+      "name": "figure-quality-review",
+      "provenance": "modified",
+      "files": 38,
+      "errors": []
+    },
+    {
+      "name": "figure-traces-chat",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "figure-traces-graph",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "figure-traces-inspector",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "figure-traces-steps",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "figure-traces-story",
+      "provenance": "modified",
+      "files": 38,
+      "errors": []
+    },
+    {
+      "name": "figure-traces-xray",
+      "provenance": "modified",
+      "files": 39,
+      "errors": []
+    },
+    {
+      "name": "framerock-source",
+      "provenance": "tailrocks-original",
+      "files": 252,
+      "errors": []
+    },
+    {
+      "name": "hook-use-app-hooks",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "hook-use-copied",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "hook-use-mobile",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "hud-events",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "hud-foglamphud",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "hud-format",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "hud-index",
+      "provenance": "tailrocks-original",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "hud-model-logo",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "hud-model",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "hud-styles",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "hud-usehudstream",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "hud-wire",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "icon-brand-logos",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "icon-brand-mark",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "icon-logo",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "icon-model-logo",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "style-effects",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "style-globals",
+      "provenance": "copied-1-to-1",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-accordion",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-alert-dialog",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-alert",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-aspect-ratio",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-avatar",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-badge",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-breadcrumb",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-button-group",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-button",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-calendar",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-card",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-carousel",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-chart",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-checkbox",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-collapsible",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "ui-combobox",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "ui-command",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "ui-context-menu",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-dialog",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-direction",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "ui-drawer",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-dropdown-menu",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-empty",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-field",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "ui-hover-card",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-input-group",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "ui-input-otp",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-input",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-item",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-kbd",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-label",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-loader",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-menubar",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-native-select",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-navigation-menu",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-pagination",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-popover",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-progress",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-radio-group",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-resizable",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-scroll-area",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-select",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-separator",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-sheet",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-sidebar",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "ui-skeleton",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-slider",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-sonner",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "ui-spinner",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-switch",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-table",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-tabs",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-textarea",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-toggle-group",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "ui-toggle",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "ui-tooltip",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-format",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-link-context",
+      "provenance": "tailrocks-original",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-payload-messages",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-prompts-diff",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-prompts-infer",
+      "provenance": "copied-1-to-1",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-prompts-slots",
+      "provenance": "copied-1-to-1",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "utility-range",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-alerts",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-diff",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-favicon",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-fold-graph",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-instrumentation",
+      "provenance": "copied-1-to-1",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-layout",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-personality",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-scan",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-scan-v1",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "utility-trace-timeline",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "utility-types",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "utility-utils",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-animated-api-key",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-code-block",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "widget-context-chip",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-cost-breakdown",
+      "provenance": "modified",
+      "files": 14,
+      "errors": []
+    },
+    {
+      "name": "widget-data-table",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-dev-toolbar",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "widget-eval-scores",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "widget-filter-select",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-foggy-foggy-message",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "widget-foggy-foggy-widget",
+      "provenance": "modified",
+      "files": 12,
+      "errors": []
+    },
+    {
+      "name": "widget-foggy-index",
+      "provenance": "tailrocks-original",
+      "files": 13,
+      "errors": []
+    },
+    {
+      "name": "widget-foggy-markdown",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-foggy-types",
+      "provenance": "tailrocks-original",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-header-slot",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-heat-cell",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-agent-icon",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-copy-button",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-copy-icon",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-customer-avatar",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-favicon",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-node-flow",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-preset-meta",
+      "provenance": "copied-1-to-1",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-project-icon",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-relative-time",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-scan-brand",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-span-type",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-stat",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-sunset-card",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-leaf-tool-icon",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-markdown",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-model-chip",
+      "provenance": "modified",
+      "files": 7,
+      "errors": []
+    },
+    {
+      "name": "widget-nav",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-page-header",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-page-parts",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-pagination-footer",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-payload-view",
+      "provenance": "modified",
+      "files": 9,
+      "errors": []
+    },
+    {
+      "name": "widget-project-context",
+      "provenance": "modified",
+      "files": 1,
+      "errors": []
+    },
+    {
+      "name": "widget-prompt-prose",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "widget-prompt-version-chip",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-prompt-versions-card",
+      "provenance": "modified",
+      "files": 18,
+      "errors": []
+    },
+    {
+      "name": "widget-quota-card-view",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-quota-card",
+      "provenance": "modified",
+      "files": 4,
+      "errors": []
+    },
+    {
+      "name": "widget-range-context",
+      "provenance": "modified",
+      "files": 2,
+      "errors": []
+    },
+    {
+      "name": "widget-range-picker",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "widget-route-header",
+      "provenance": "modified",
+      "files": 17,
+      "errors": []
+    },
+    {
+      "name": "widget-run-exchange",
+      "provenance": "modified",
+      "files": 19,
+      "errors": []
+    },
+    {
+      "name": "widget-search-input",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-sortable-head",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-stat-card",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-theme-switcher",
+      "provenance": "modified",
+      "files": 3,
+      "errors": []
+    },
+    {
+      "name": "widget-toggle-chip",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-tool-breakdown",
+      "provenance": "modified",
+      "files": 8,
+      "errors": []
+    },
+    {
+      "name": "widget-toolbar",
+      "provenance": "modified",
+      "files": 10,
+      "errors": []
+    },
+    {
+      "name": "widget-trace-timeline",
+      "provenance": "modified",
+      "files": 18,
+      "errors": []
+    },
+    {
+      "name": "widget-trend-charts",
+      "provenance": "modified",
+      "files": 5,
+      "errors": []
+    },
+    {
+      "name": "widget-user-menu-view",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    },
+    {
+      "name": "widget-user-menu",
+      "provenance": "modified",
+      "files": 6,
+      "errors": []
+    }
+  ],
+  "count": 288,
+  "issues": [],
+  "styles": [
+    {
+      "path": "packages/design-system/src/styles/effects.css",
+      "body_equal": true
+    },
+    {
+      "path": "packages/design-system/src/styles/globals.css",
+      "body_equal": true
+    }
+  ],
+  "indexes": {
+    "framerock.json": true,
+    "framerock-source.json": true,
+    "foglamp.json": false,
+    "foglamp-source.json": false
+  }
+}

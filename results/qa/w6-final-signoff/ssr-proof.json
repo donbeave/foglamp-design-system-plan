@@ -1,0 +1,94 @@
+[
+  {
+    "route": "/",
+    "SSR_provenance_asides": 1,
+    "SSR_labels": [
+      [
+        "Modified (Import/Prop Decoupled)"
+      ]
+    ],
+    "honest_original": false,
+    "pinned_sources": [
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx"
+      ]
+    ]
+  },
+  {
+    "route": "/docs",
+    "SSR_provenance_asides": 0,
+    "SSR_labels": [],
+    "honest_original": false,
+    "pinned_sources": []
+  },
+  {
+    "route": "/docs/credits",
+    "SSR_provenance_asides": 0,
+    "SSR_labels": [],
+    "honest_original": false,
+    "pinned_sources": []
+  },
+  {
+    "route": "/docs/primitives/collapsible",
+    "SSR_provenance_asides": 2,
+    "SSR_labels": [
+      [
+        "1:1 Copied"
+      ],
+      [
+        "1:1 Copied"
+      ]
+    ],
+    "honest_original": false,
+    "pinned_sources": [
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/collapsible.tsx"
+      ],
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/collapsible.tsx"
+      ]
+    ]
+  },
+  {
+    "route": "/docs/primitives/button",
+    "SSR_provenance_asides": 2,
+    "SSR_labels": [
+      [
+        "Modified (Import/Prop Decoupled)"
+      ],
+      [
+        "Modified (Import/Prop Decoupled)"
+      ]
+    ],
+    "honest_original": false,
+    "pinned_sources": [
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx"
+      ],
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx"
+      ]
+    ]
+  },
+  {
+    "route": "/docs/blocks/figure-kit-22-block",
+    "SSR_provenance_asides": 2,
+    "SSR_labels": [
+      [
+        "Newly Added by Tailrocks"
+      ],
+      [
+        "Newly Added by Tailrocks"
+      ]
+    ],
+    "honest_original": true,
+    "pinned_sources": [
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+      ],
+      [
+        "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx"
+      ]
+    ]
+  }
+]

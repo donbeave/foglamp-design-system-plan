@@ -1,0 +1,45 @@
+/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w5-apex/compare.py:11: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  stem=row['id'].replace('/','--')+'--'+row['theme'];a=Image.open(R/'renders'/(stem+'--source.png')).convert('RGB');b=Image.open(R/'renders'/(stem+'--target.png')).convert('RGB');delta=ImageChops.difference(a,b);hist=delta.histogram();item['pixel_bbox']=delta.getbbox();item['differing_pixels']=sum(any(c) for c in delta.getdata());item['mean_abs_channel_error']=sum((i%256)*n for i,n in enumerate(hist))/(a.width*a.height*3);item['pixel_total']=a.width*a.height
+{
+  "rows": 20,
+  "exact": 14,
+  "different": [
+    [
+      "widgets/hud-inline-preview",
+      "light",
+      74,
+      0
+    ],
+    [
+      "widgets/foglamp-hud",
+      "light",
+      371,
+      0
+    ],
+    [
+      "blocks/onboarding-panel-block",
+      "light",
+      14350,
+      1
+    ],
+    [
+      "blocks/setup-board-block",
+      "light",
+      188,
+      6
+    ],
+    [
+      "blocks/observability-guide-block",
+      "light",
+      0,
+      1
+    ],
+    [
+      "blocks/hero-3d-demo-block",
+      "light",
+      0,
+      66
+    ]
+  ],
+  "unrendered": []
+}

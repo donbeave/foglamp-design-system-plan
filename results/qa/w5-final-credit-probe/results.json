@@ -1,0 +1,26 @@
+{
+  "target": "http://localhost:4203",
+  "scope": "bounded read-only Wave 5 attribution probe",
+  "pages": [
+    {"path": "/", "viewport": "desktop; dimensions not recorded", "theme": "initial; not recorded", "observations": ["navbar, hero, story footer and footer links exposed in accessibility snapshot", "primary navigation Credits & Original Creator links to /docs/credits"]},
+    {"path": "/docs/credits", "viewport": "desktop; dimensions not recorded", "theme": "initial; not recorded", "observations": ["sidebar title and H1: Credits & Original Creator", "all six direct links exposed in body"]},
+    {"path": "/", "viewport": "390x844 CSS pixels", "themes": ["light", "dark"], "observations": ["navbar, hero, story footer and footer links exposed in accessibility snapshots", "dark documentElement class was dark"]},
+    {"path": "/docs/credits", "viewport": "390x844 CSS pixels", "theme": "dark", "observations": ["H1 Credits & Original Creator and six direct body links exposed", "sidebar collapsed"]}
+  ],
+  "hrefs": {
+    "gustavo_website": "https://gustavofior.com/",
+    "gustavo_github": "https://github.com/gustavo-fior",
+    "gustavo_x": "https://x.com/heyimgustavo",
+    "abdul_linkedin": "https://www.linkedin.com/in/abdulhdr/",
+    "foglamp_labs": "https://foglamp.dev/",
+    "foglamp_repository": "https://github.com/foglamp-labs/foglamp"
+  },
+  "story_footer": [
+    {"label": "Gustavo Fior (@gustavo-fior)", "href": "https://github.com/gustavo-fior"},
+    {"label": "Abdul Haidar", "href": "https://www.linkedin.com/in/abdulhdr/"},
+    {"label": "Foglamp Labs (foglamp-labs/foglamp)", "href": "https://github.com/foglamp-labs/foglamp"}
+  ],
+  "errors": "Browser errors and console commands returned empty output during bounded checks.",
+  "limitations": ["Accessibility snapshots include rendered non-hidden elements outside the current viewport.", "Desktop dimensions and initial theme were not recorded.", "Raw snapshots were not retained locally; observations are transcribed from tool output.", "Not a full-portal, layout-shift, pixel-parity or accessibility audit."],
+  "cleanup": "Isolated agent-browser session w5-credit-probe closed; production server left running."
+}

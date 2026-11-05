@@ -1,0 +1,20 @@
+--- .reference/foglamp/apps/web/src/components/marketing/landing/figure-picker.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/marketing/figures/figure-picker.tsx	2026-11-05 19:02:54
+@@ -5,10 +5,15 @@
+     quality: "review",
+ };
+ export function Figure({ section }) {
++    return <FigureVariant section={section} variantId={CHOSEN[section]}/>;
++}
++export function FigureVariant({ section, variantId, }) {
+     const variants = FIGURES[section];
+-    const variant = variants.find((v) => v.id === CHOSEN[section]) ?? variants[0];
++    const variant = variants.find((v) => v.id === variantId) ?? variants[0];
+     const Component = variant.component;
+     return (<FigureReveal>
+-      <Component />
++      <Suspense fallback={<div className="h-112 w-full"/>}>
++        <Component />
++      </Suspense>
+     </FigureReveal>);
+ }

@@ -1,0 +1,706 @@
+[
+  {
+    "route": "/docs/blocks/agent-detail-inspector-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/app-shell-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/buttons-badges-playground-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/cutting-mat-footer-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/device-approve-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/drifting-fog-cta-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/embed-board-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/eval-detail-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/figure-kit-22-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/flow-map-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/hero-3d-demo-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/hud-simulator-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/instrument-empty-state-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/login-form-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/marketing-navbar",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/observability-guide-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/onboarding-panel-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/original-authors-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/overview-dashboard-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/scan-board-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/scan-landing-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/session-conversation-inspector-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/setup-board-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/trace-waterfall-inspector-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/traces-explorer-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/blocks/workflow-detail-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/area-chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/background",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/bar-chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/donut-chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/dot",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/evil-brush",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/legend",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/line-chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/tooltip",
+    "status": 200
+  },
+  {
+    "route": "/docs/charts/zoom",
+    "status": 200
+  },
+  {
+    "route": "/docs/credits",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-alert",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-area",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-backdrop",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-cards",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-donut",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-fan",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-flow",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-shares",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-shelf",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-small",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-stair",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-table",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-tabs",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/costs-total",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/quality-review",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/traces-chat",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/traces-graph",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/traces-inspector",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/traces-steps",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/traces-story",
+    "status": 200
+  },
+  {
+    "route": "/docs/figures/traces-xray",
+    "status": 200
+  },
+  {
+    "route": "/docs/foundations/architecture",
+    "status": 200
+  },
+  {
+    "route": "/docs/foundations/geometry",
+    "status": 200
+  },
+  {
+    "route": "/docs/foundations/installation",
+    "status": 200
+  },
+  {
+    "route": "/docs/foundations/motion",
+    "status": 200
+  },
+  {
+    "route": "/docs/foundations/tokens",
+    "status": 200
+  },
+  {
+    "route": "/docs/foundations/typography",
+    "status": 200
+  },
+  {
+    "route": "/docs",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/accordion",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/alert-dialog",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/alert",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/aspect-ratio",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/avatar",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/badge",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/breadcrumb",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/button-group",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/button",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/calendar",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/card",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/carousel",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/chart",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/checkbox",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/collapsible",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/combobox",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/command",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/context-menu",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/dialog",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/direction",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/drawer",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/dropdown-menu",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/empty",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/field",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/hover-card",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/input-group",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/input-otp",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/input",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/item",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/kbd",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/label",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/loader",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/menubar",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/native-select",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/navigation-menu",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/pagination",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/popover",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/progress",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/radio-group",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/resizable",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/scroll-area",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/select",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/separator",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/sheet",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/sidebar",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/skeleton",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/slider",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/sonner",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/spinner",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/switch",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/table",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/tabs",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/textarea",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/toggle-group",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/toggle",
+    "status": 200
+  },
+  {
+    "route": "/docs/primitives/tooltip",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/agent-icon",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/animated-api-key",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/brand-logos",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/brand-mark",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/code-block",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/context-chip",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/copy-button",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/copy-icon",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/cost-breakdown",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/customer-avatar",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/data-table",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/dev-bar",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/eval-scores",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/filter-select",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/foggy-launcher",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/foggy-message",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/foggy-widget",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/foglamp-hud",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/heat-cell",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/hud-inline-preview",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/logo",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/markdown",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/model-chip",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/model-logo",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/node-flow",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/page-header",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/pagination-footer",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/payload-view",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/project-icon",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/project-provider",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/prompt-prose",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/prompt-version-chip",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/prompt-versions-view",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/quota-card",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/range-picker",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/range-provider",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/relative-time",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/run-exchange",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/scan-brand",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/search-input",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/sortable-head",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/span-type",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/stat-card",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/stat",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/sunset-card",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/theme-switcher",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/toggle-chip",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/tool-breakdown",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/tool-icon",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/toolbar",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/trace-timeline",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/trend-charts",
+    "status": 200
+  },
+  {
+    "route": "/docs/widgets/user-menu",
+    "status": 200
+  }
+]

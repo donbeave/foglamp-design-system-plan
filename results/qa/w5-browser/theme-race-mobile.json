@@ -1,0 +1,92 @@
+[
+  {
+    "route": "/docs/figures/costs-total",
+    "samples": [
+      {
+        "time": 1309.4000000059605,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 114,
+        "frameText": "Total cost\n12%\n$840.40\nModels\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemini-"
+      },
+      {
+        "time": 1309.800000011921,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 114,
+        "frameText": "Total cost\n12%\n$840.40\nModels\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemini-"
+      },
+      {
+        "time": 1561.300000011921,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 114,
+        "frameText": "Total cost\n12%\n$840.40\nModels\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemini-"
+      },
+      {
+        "time": 2317.0999999940395,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 114,
+        "frameText": "Total cost\n12%\n$840.40\nModels\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemini-"
+      },
+      {
+        "time": 3322.7000000178814,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 114,
+        "frameText": "Total cost\n12%\n$840.40\nModels\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemini-"
+      }
+    ]
+  },
+  {
+    "route": "/docs/figures/costs-tabs",
+    "samples": [
+      {
+        "time": 1319.5999999940395,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 57,
+        "frameText": "Cost by\nModels\nAgents\nCustomers\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemin"
+      },
+      {
+        "time": 1320,
+        "darkPressed": "false",
+        "frame": "light",
+        "frameReady": "complete",
+        "frameElements": 57,
+        "frameText": "Cost by\nModels\nAgents\nCustomers\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemin"
+      },
+      {
+        "time": 1572.199999988079,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 57,
+        "frameText": "Cost by\nModels\nAgents\nCustomers\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemin"
+      },
+      {
+        "time": 2328,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 57,
+        "frameText": "Cost by\nModels\nAgents\nCustomers\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemin"
+      },
+      {
+        "time": 3329.5,
+        "darkPressed": "true",
+        "frame": "dark",
+        "frameReady": "complete",
+        "frameElements": 57,
+        "frameText": "Cost by\nModels\nAgents\nCustomers\ngpt-5.6-sol\n$512.40\nclaude-fable-5\n$284.10\ngemin"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "target": "http://127.0.0.1:4178",
+  "scope": "corrected production fixture retest",
+  "results": [
+    {"case":"FilterSelect >8 typeahead", "result":"pass", "observation":"Search textbox appears for nine statuses; timed narrows list to Any status and Timed out", "evidence":"retest-typeahead.png"},
+    {"case":"Toolbar header portal", "result":"partial", "observation":"Trailing 1,284 runs · Last 7 days is rendered inside header actions host. Dark sibling menu hover switches from Failed to Production.", "evidence":["retest-toolbar.png","retest-toolbar-dark.png"], "limit":"Fixed-width fixture does not expose inline-to-lifted transition or scroll/reserve behavior"},
+    {"case":"Payload older turns", "result":"pass", "observation":"Fold older turns shows 5 earlier messages; activation reveals all five", "evidence":["retest-payload-fold.png","retest-payload-expanded.png"]},
+    {"case":"ClampedBody", "result":"pass", "observation":"Set clamp to 40, output displays Show more; click changes it to Show less", "evidence":["retest-clamp40.png","retest-clamp-expanded.png"]},
+    {"case":"RunExchange drawer", "result":"partial", "observation":"Eval Detail row expands a drawer but shows Judge input unavailable; standalone story renders Conversation only", "evidence":"retest-eval-drawer-unavailable.png"},
+    {"case":"Evaluation states", "result":"pass", "observation":"Pass, Fail, numeric 0.67 pending threshold and missing — render", "evidence":"retest-evals.png"},
+    {"case":"SlotChip hover", "result":"pass", "observation":"Hover first slot displays Slot 1 of 2 and 18-run customer-context example", "evidence":"retest-slot-hover.png"},
+    {"case":"Timeline repeated siblings", "result":"partial", "observation":"×3 expands to three individual calls; story timestamps render Invalid Date and —, preventing phase/cursor validation", "evidence":"retest-timeline-expanded.png"},
+    {"case":"Brush initial range", "result":"pass", "observation":"Buckets 3–11 matches handles", "evidence":"retest-brush.png"},
+    {"case":"Zoom reset", "result":"pass", "observation":"Drag selects Wed → Wed 2; native dblclick inside iframe restores Full reporting window; dark drag selects same range", "evidence":["retest-zoom-reset.png","retest-zoom-dark.png"]}
+  ],
+  "console": "Recharts width(-1)/height(-1) startup warnings seen; no page errors in checked buffer.",
+  "limits": ["Dark-mode interaction coverage incomplete", "Timeline fixture timestamps end in Z but toMs appends Z; correction pending", "No whole-portal layout-shift or pixel-parity claim"]
+}

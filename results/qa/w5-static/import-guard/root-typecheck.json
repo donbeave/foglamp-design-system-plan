@@ -1,0 +1,5 @@
+{
+  "command": "mise exec bun@latest -- bunx tsc --noEmit --target es2022 --module esnext --moduleResolution bundler --skipLibCheck --typeRoots apps/docs/node_modules/@types scripts/verify-portal.ts",
+  "exit_code": 0,
+  "result": "Root observed actualcommand PASS; Node declarations resolve through existingdocs typeRoots."
+}

@@ -1,0 +1,12 @@
+{
+  "url":"http://127.0.0.1:4178/docs/blocks/app-shell-block",
+  "preset":"Traces with assistant",
+  "method":"Real pointer click and drag, read-only requestAnimationFrame sampling of iframe DOM; light close used DOM click because transformed iframe made element-ref click report covered. Samples are JSON strings containing arrays.",
+  "opening":[
+    {"theme":"light","firstSampleMs":20,"panelWidth":0,"renderedInnerTargetWidth":354,"rangeInToolbar":false,"toolbarWidth":872,"toolbarHeight":32,"evidence":"light-raf.json"},
+    {"theme":"dark","firstSampleMs":30,"panelWidth":0,"renderedInnerTargetWidth":354,"rangeInToolbar":false,"toolbarWidth":872,"toolbarHeight":32,"evidence":"dark-raf.json"}
+  ],
+  "interpretation":"The range had already been portaled on the first sampled frame before panel growth. The 354px target is corroborated by the rendered panel child and source useReportLayoutReserve(open ? panelWidth : 0); React context was not directly instrumented. Samples are not a complete proof of every paint or all viewport widths.",
+  "drag":{"themes":["light","dark"],"panelFrom":354,"panelTo":504.47,"toolbarWidthAfter":367.53,"rangeInToolbar":false,"toolbarHeightFrom":32,"toolbarHeightAfter":72,"observation":"The remaining filters wrap at the narrow width; no claim of zero layout shift during this drag.","evidence":["light-drag-raf.json","dark-drag-raf.json","light-resized.png","dark-resized.png"]},
+  "limits":["Only the sampled width, transition and browser were observed", "Render context reserve target was inferred, not read directly"]
+}

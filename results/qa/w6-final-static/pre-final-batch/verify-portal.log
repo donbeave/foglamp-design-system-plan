@@ -1,0 +1,6 @@
+$ bun scripts/verify-portal.ts
+Verified 266 headers; body hashes unchanged
+Provenance gates: 0 issue(s)
+Portal contract: 167 stories (blocks=25, charts=11, primitives=56, figures=22, widgets=53), 288 registry items, 7 navigation manifests.
+Coverage: story IDs and uniqueness, registry/catalog membership, story MDX imports and WithControl previews, docs navigation coverage, required attribution markers, registry source-path aliases, browser imports of server-only prompts modules.
+Portal contract passed.

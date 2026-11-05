@@ -1,0 +1,971 @@
+{
+  "count": 193,
+  "missing": [],
+  "rows": [
+    {
+      "target": "packages/design-system/src/ui/aspect-ratio.tsx",
+      "source": "packages/ui/src/components/aspect-ratio.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/alert-dialog.tsx",
+      "source": "packages/ui/src/components/alert-dialog.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/pagination.tsx",
+      "source": "packages/ui/src/components/pagination.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/direction.tsx",
+      "source": "packages/ui/src/components/direction.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/tabs.tsx",
+      "source": "packages/ui/src/components/tabs.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/button-group.tsx",
+      "source": "packages/ui/src/components/button-group.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/card.tsx",
+      "source": "packages/ui/src/components/card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/slider.tsx",
+      "source": "packages/ui/src/components/slider.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/input-group.tsx",
+      "source": "packages/ui/src/components/input-group.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/popover.tsx",
+      "source": "packages/ui/src/components/popover.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/loader.tsx",
+      "source": "packages/ui/src/components/loader.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/progress.tsx",
+      "source": "packages/ui/src/components/progress.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/input-otp.tsx",
+      "source": "packages/ui/src/components/input-otp.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/chart.tsx",
+      "source": "packages/ui/src/components/chart.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/hover-card.tsx",
+      "source": "packages/ui/src/components/hover-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/field.tsx",
+      "source": "packages/ui/src/components/field.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/scroll-area.tsx",
+      "source": "packages/ui/src/components/scroll-area.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/resizable.tsx",
+      "source": "packages/ui/src/components/resizable.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/label.tsx",
+      "source": "packages/ui/src/components/label.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/navigation-menu.tsx",
+      "source": "packages/ui/src/components/navigation-menu.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/accordion.tsx",
+      "source": "packages/ui/src/components/accordion.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/drawer.tsx",
+      "source": "packages/ui/src/components/drawer.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/empty.tsx",
+      "source": "packages/ui/src/components/empty.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/alert.tsx",
+      "source": "packages/ui/src/components/alert.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/combobox.tsx",
+      "source": "packages/ui/src/components/combobox.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/switch.tsx",
+      "source": "packages/ui/src/components/switch.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/calendar.tsx",
+      "source": "packages/ui/src/components/calendar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/native-select.tsx",
+      "source": "packages/ui/src/components/native-select.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/breadcrumb.tsx",
+      "source": "packages/ui/src/components/breadcrumb.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/radio-group.tsx",
+      "source": "packages/ui/src/components/radio-group.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/command.tsx",
+      "source": "packages/ui/src/components/command.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/item.tsx",
+      "source": "packages/ui/src/components/item.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/toggle-group.tsx",
+      "source": "packages/ui/src/components/toggle-group.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/avatar.tsx",
+      "source": "packages/ui/src/components/avatar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/menubar.tsx",
+      "source": "packages/ui/src/components/menubar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/kbd.tsx",
+      "source": "packages/ui/src/components/kbd.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/dialog.tsx",
+      "source": "packages/ui/src/components/dialog.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/sidebar.tsx",
+      "source": "packages/ui/src/components/sidebar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/separator.tsx",
+      "source": "packages/ui/src/components/separator.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/toggle.tsx",
+      "source": "packages/ui/src/components/toggle.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/checkbox.tsx",
+      "source": "packages/ui/src/components/checkbox.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/spinner.tsx",
+      "source": "packages/ui/src/components/spinner.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/collapsible.tsx",
+      "source": "packages/ui/src/components/collapsible.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/dropdown-menu.tsx",
+      "source": "packages/ui/src/components/dropdown-menu.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/textarea.tsx",
+      "source": "packages/ui/src/components/textarea.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/input.tsx",
+      "source": "packages/ui/src/components/input.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/skeleton.tsx",
+      "source": "packages/ui/src/components/skeleton.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/context-menu.tsx",
+      "source": "packages/ui/src/components/context-menu.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/ui/carousel.tsx",
+      "source": "packages/ui/src/components/carousel.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/styles/effects.css",
+      "source": "apps/web/src/index.css",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/styles/globals.css",
+      "source": "packages/ui/src/styles/globals.css",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/hooks/use-app-hooks.ts",
+      "source": "apps/web/src/components/app/hooks.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/hooks/use-mobile.ts",
+      "source": "packages/ui/src/hooks/use-mobile.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/hooks/use-copied.ts",
+      "source": "apps/web/src/components/app/use-copied.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/icons/brand-mark.tsx",
+      "source": "apps/web/src/components/marketing/brand-mark.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/icons/logo.tsx",
+      "source": "apps/web/src/components/marketing/logo.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/icons/model-logo.tsx",
+      "source": "apps/web/src/components/model-logo.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/icons/brand-logos.tsx",
+      "source": "apps/web/src/components/brand-logos.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/payload-messages.ts",
+      "source": "apps/web/src/components/app/payload-messages.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/trace-timeline.ts",
+      "source": "apps/web/src/lib/trace-timeline.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/utils.ts",
+      "source": "packages/ui/src/lib/utils.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/payload-messages.test.ts",
+      "source": "apps/web/src/components/app/payload-messages.test.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/format.ts",
+      "source": "apps/web/src/lib/format.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/range.ts",
+      "source": "apps/web/src/lib/range.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/prompt-version-chip.tsx",
+      "source": "apps/web/src/components/app/prompt-version-chip.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/trend-charts.tsx",
+      "source": "apps/web/src/components/app/trend-charts.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/header-slot.tsx",
+      "source": "apps/web/src/components/app/header-slot.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/context-chip.tsx",
+      "source": "apps/web/src/components/app/context-chip.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/markdown.tsx",
+      "source": "apps/web/src/components/app/markdown.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/trace-timeline.tsx",
+      "source": "apps/web/src/components/app/trace-timeline.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/project-context.tsx",
+      "source": "apps/web/src/components/app/project-context.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/nav.ts",
+      "source": "apps/web/src/components/app/nav.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/route-header.tsx",
+      "source": "apps/web/src/components/app/route-header.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/model-chip.tsx",
+      "source": "apps/web/src/components/app/model-chip.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/page-parts.tsx",
+      "source": "apps/web/src/components/app/page-parts.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/animated-api-key.tsx",
+      "source": "apps/web/src/components/app/animated-api-key.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/user-menu.tsx",
+      "source": "apps/web/src/components/user-menu.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/cost-breakdown.tsx",
+      "source": "apps/web/src/components/app/cost-breakdown-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/theme-switcher.tsx",
+      "source": "apps/web/src/components/theme-switcher.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/range-context.tsx",
+      "source": "apps/web/src/components/app/range-context.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/code-block.tsx",
+      "source": "apps/web/src/components/app/code-block.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/quota-card.tsx",
+      "source": "apps/web/src/components/app/quota-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/range-picker.tsx",
+      "source": "apps/web/src/components/app/range-picker.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/tool-breakdown.tsx",
+      "source": "apps/web/src/components/app/tool-breakdown-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/relative-time.tsx",
+      "source": "apps/web/src/components/app/relative-time.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/agent-icon.tsx",
+      "source": "apps/web/src/components/app/agent-icon.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/scan-brand.tsx",
+      "source": "apps/web/src/components/scan/brand.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/sunset-card.tsx",
+      "source": "apps/web/src/components/app/sunset-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/customer-avatar.tsx",
+      "source": "apps/web/src/components/app/customer-avatar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/copy-button.tsx",
+      "source": "apps/web/src/components/app/copy-button.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/copy-icon.tsx",
+      "source": "apps/web/src/components/app/copy-icon.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/project-icon.tsx",
+      "source": "apps/web/src/components/app/project-icon.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/preset-meta.ts",
+      "source": "apps/web/src/app/",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/favicon.ts",
+      "source": "apps/web/src/lib/favicon.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/span-type.tsx",
+      "source": "apps/web/src/components/app/span-type.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/tool-icon.tsx",
+      "source": "apps/web/src/components/app/tool-icon.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/stat.tsx",
+      "source": "apps/web/src/components/app/stat.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/widgets/leaf/node-flow.tsx",
+      "source": "apps/web/src/components/app/node-flow.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/scan/diff.ts",
+      "source": "apps/web/src/components/scan/diff.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/scan/layout.ts",
+      "source": "apps/web/src/components/scan/layout.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/scan/fold-graph.ts",
+      "source": "apps/web/src/components/scan/fold-graph.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/lib/scan/personality.ts",
+      "source": "apps/web/src/components/scan/personality.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/dot.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/legend.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/zoom.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/chart.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/background.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/tooltip.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/ui/evil-brush.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/charts/area-chart.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/charts/bar-chart.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/charts/line-chart.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/charts/evilcharts/charts/donut-chart.tsx",
+      "source": "apps/web/src/components/evilcharts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/device-approve.tsx",
+      "source": "apps/web/src/components/device-approve-client.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/buttons-badges.tsx",
+      "source": "apps/web/src/app/buttons/page.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/instrument-empty-state.tsx",
+      "source": "apps/web/src/components/app/instrument-empty-state.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/onboarding-panel.tsx",
+      "source": "apps/web/src/components/app/onboarding-panel.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/auth/login-form.tsx",
+      "source": "apps/web/src/components/login-form.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/left-rail.tsx",
+      "source": "apps/web/src/components/scan/left-rail.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/left-rail.tsx",
+      "source": "packages/sdk/src/hud/react/FoglampHUD.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/changes-card.tsx",
+      "source": "apps/web/src/components/scan/changes-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/copy-scan-prompt-button.tsx",
+      "source": "apps/web/src/app/scan/copy-scan-prompt-button.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/powered-by.tsx",
+      "source": "apps/web/src/components/scan/powered-by.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/embed-board.tsx",
+      "source": "apps/web/src/components/scan/embed-board.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/scan-board.tsx",
+      "source": "apps/web/src/components/scan/scan-board.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/share-bar.tsx",
+      "source": "apps/web/src/components/scan/share-bar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/scan-landing.tsx",
+      "source": "apps/web/src/app/scan/scan-landing.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/kinds.tsx",
+      "source": "apps/web/src/components/scan/kinds.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/personality-card.tsx",
+      "source": "apps/web/src/components/scan/personality-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/verify-source.ts",
+      "source": "apps/web/src/components/scan",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/brand.tsx",
+      "source": "apps/web/src/components/scan/brand.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/flow-map.tsx",
+      "source": "apps/web/src/components/scan/flow-map.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/noise-overlay.tsx",
+      "source": "apps/web/src/components/marketing/noise-overlay.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/scan/scan-prompt.ts",
+      "source": "apps/web/src/lib/scan-prompt.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/dashboard/workflow-detail-block.tsx",
+      "source": "apps/web/src/app/",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/dashboard/agent-detail-inspector-block.tsx",
+      "source": "apps/web/src/app/",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/hud-landing.tsx",
+      "source": "apps/web/src/app/hud/hud-landing.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/original-authors-block.tsx",
+      "source": "apps/web/src/app/",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/app-shell/sunset-card.tsx",
+      "source": "apps/web/src/components/app/sunset-card.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/app-shell/new-project-dialog.tsx",
+      "source": "apps/web/src/components/app/new-project-dialog.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/app-shell/app-shell-block.tsx",
+      "source": "apps/web/src/components/app/app-shell.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/index.tsx",
+      "source": "apps/web/src/components/marketing/demo/index.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/demo-context.tsx",
+      "source": "apps/web/src/components/marketing/demo/demo-context.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/entrance.ts",
+      "source": "apps/web/src/components/marketing/demo/entrance.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/demo-sidebar.tsx",
+      "source": "apps/web/src/components/marketing/demo/demo-sidebar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/demo-shell.tsx",
+      "source": "apps/web/src/components/marketing/demo/demo-shell.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/demo-chrome.tsx",
+      "source": "apps/web/src/components/marketing/demo/demo-chrome.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/mock-data.ts",
+      "source": "apps/web/src/components/marketing/demo/mock-data.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/piece.tsx",
+      "source": "apps/web/src/components/marketing/demo/piece.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/copy-prompt-button.tsx",
+      "source": "apps/web/src/components/marketing/landing/copy-prompt-button.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/agent-prompt.ts",
+      "source": "apps/web/src/lib/agent-prompt.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/ask-foggy.tsx",
+      "source": "apps/web/src/components/marketing/landing/ask-foggy.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/compact-cta.tsx",
+      "source": "apps/web/src/components/marketing/landing/compact-cta.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/cta.tsx",
+      "source": "apps/web/src/components/marketing/landing/cta.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/cta-agent-details.tsx",
+      "source": "apps/web/src/components/marketing/landing/cta-agent-details.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/cta/faq.tsx",
+      "source": "apps/web/src/components/marketing/landing/faq.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figures-traces.tsx",
+      "source": "apps/web/src/components/marketing/landing/figures-traces.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figure-reveal.tsx",
+      "source": "apps/web/src/components/marketing/landing/figure-reveal.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/features.tsx",
+      "source": "apps/web/src/components/marketing/landing/features.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figures-scenes.tsx",
+      "source": "apps/web/src/components/marketing/landing/figures-scenes.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/product-hero.tsx",
+      "source": "apps/web/src/components/marketing/feature/product-hero.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/visuals.tsx",
+      "source": "apps/web/src/components/marketing/feature/visuals.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figure-picker.tsx",
+      "source": "apps/web/src/components/marketing/landing/figure-picker.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figure-kit.tsx",
+      "source": "apps/web/src/components/marketing/landing/figure-kit.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figures.tsx",
+      "source": "apps/web/src/components/marketing/landing/figures.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/feature-section.tsx",
+      "source": "apps/web/src/components/marketing/feature/feature-section.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/figures/figures-costs.tsx",
+      "source": "apps/web/src/components/marketing/landing/figures-costs.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/brand-mark.tsx",
+      "source": "apps/web/src/components/marketing/brand-mark.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/navbar.tsx",
+      "source": "apps/web/src/components/marketing/navbar.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/copy-button.tsx",
+      "source": "apps/web/src/components/marketing/copy-button.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/cutting-mat.tsx",
+      "source": "apps/web/src/components/marketing/cutting-mat.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/footer.tsx",
+      "source": "apps/web/src/components/marketing/footer.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/products.ts",
+      "source": "apps/web/src/components/marketing/products.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/logo.tsx",
+      "source": "apps/web/src/components/marketing/logo.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/code-block.tsx",
+      "source": "apps/web/src/components/marketing/code-block.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/github-logo.tsx",
+      "source": "apps/web/src/components/marketing/github-logo.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/demo-link.ts",
+      "source": "apps/web/src/components/marketing/landing/demo-link.ts",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/chrome/noise-overlay.tsx",
+      "source": "apps/web/src/components/marketing/noise-overlay.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/hero/hero.tsx",
+      "source": "apps/web/src/components/marketing/landing/hero.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/hero/hero-demo.tsx",
+      "source": "apps/web/src/components/marketing/landing/hero-demo.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/sessions-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/sessions-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/traces-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/traces-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/alerts-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/alerts-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/overview-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/overview-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/agents-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/agents-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/workflows-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/workflows-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/tabs/evals-tab.tsx",
+      "source": "apps/web/src/components/marketing/demo/tabs/evals-tab.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/detail/session-detail.tsx",
+      "source": "apps/web/src/components/marketing/demo/detail/session-detail.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/detail/trace-detail.tsx",
+      "source": "apps/web/src/components/marketing/demo/detail/trace-detail.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/detail/workflow-detail.tsx",
+      "source": "apps/web/src/components/marketing/demo/detail/workflow-detail.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/detail/agent-detail.tsx",
+      "source": "apps/web/src/components/marketing/demo/detail/agent-detail.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/detail/breakdown-cards.tsx",
+      "source": "apps/web/src/components/marketing/demo/detail/breakdown-cards.tsx",
+      "exists": true
+    },
+    {
+      "target": "packages/design-system/src/blocks/marketing/demo/detail/eval-detail.tsx",
+      "source": "apps/web/src/components/marketing/demo/detail/eval-detail.tsx",
+      "exists": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    t: 78,
+    panel: null,
+    iframe: null,
+    body: 0,
+    fonts: { status: 'loaded', inter: false, faces: [Array] },
+    headings: []
+  },
+  {
+    t: 104.09999999403954,
+    panel: null,
+    iframe: null,
+    body: 2753,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [ [Object] ]
+  },
+  {
+    t: 108.40000000596046,
+    panel: null,
+    iframe: null,
+    body: 2753,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [ [Object] ]
+  },
+  {
+    t: 127.69999998807907,
+    panel: null,
+    iframe: null,
+    body: 2753,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [ [Object] ]
+  }
+]

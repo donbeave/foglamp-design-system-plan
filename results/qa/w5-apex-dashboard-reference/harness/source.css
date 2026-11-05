@@ -1,0 +1,9 @@
+@import "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/index.css";
+@import "./source-fonts.css";
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/src/stories";
+/* Source framework adapter: Vite outside upstream root needs explicit scan paths. */
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src";
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/packages/ui/src";
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/packages/sdk/src/hud/react";
+
+@source "/Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/streamdown@2.5.0+21ccd8898788a04d/node_modules/streamdown/dist/*.js";

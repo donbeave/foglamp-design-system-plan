@@ -1,0 +1,19 @@
+{
+  "task": "w6-figure-kit-frame-fix",
+  "fixture": "apps/docs/src/stories/blocks/figure-kit-22-block.story.tsx",
+  "frame": {
+    "width": 1280,
+    "height": 800,
+    "basis": "Matches all 22 individual figure stories."
+  },
+  "wrapper": "mx-auto w-full max-w-5xl p-6",
+  "wrapper_basis": "Matches the existing individual FigureVariant story wrapper. The fixed frame selects the full iframe layout instead of the centered shrink-to-fit layout and retains existing mobile frame scaling.",
+  "checks": {
+    "figure_stories": 22,
+    "stories_with_matching_frame": 22,
+    "bun_run_check_types": 0,
+    "git_diff_check": 0
+  },
+  "component_source_changed": false,
+  "visual_review": "Pending Apex native DOM width and light/dark review after the upcoming production build."
+}

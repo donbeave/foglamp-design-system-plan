@@ -1,0 +1,58 @@
+{
+  "cases": 8,
+  "errors": 0,
+  "broken_images": 0,
+  "api_requests": [],
+  "fonts": [
+    "loaded",
+    "loaded",
+    "loaded",
+    "loaded",
+    "loaded",
+    "loaded",
+    "loaded",
+    "loaded"
+  ],
+  "views": [
+    {
+      "view": "Button",
+      "theme": "min-h-screen bg-background text-foreground",
+      "images": 0
+    },
+    {
+      "view": "Hero",
+      "theme": "min-h-screen bg-background text-foreground",
+      "images": 4
+    },
+    {
+      "view": "Scan",
+      "theme": "min-h-screen bg-background text-foreground",
+      "images": 3
+    },
+    {
+      "view": "Setup",
+      "theme": "min-h-screen bg-background text-foreground",
+      "images": 1
+    },
+    {
+      "view": "Button",
+      "theme": "dark min-h-screen bg-background text-foreground",
+      "images": 0
+    },
+    {
+      "view": "Hero",
+      "theme": "dark min-h-screen bg-background text-foreground",
+      "images": 4
+    },
+    {
+      "view": "Scan",
+      "theme": "dark min-h-screen bg-background text-foreground",
+      "images": 3
+    },
+    {
+      "view": "Setup",
+      "theme": "dark min-h-screen bg-background text-foreground",
+      "images": 1
+    }
+  ]
+}

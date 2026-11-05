@@ -1,0 +1,35 @@
+bun install v1.4.4 (38afee6c8)
+Resolving dependencies
+Resolved, downloaded and extracted [1471]
+Saved lockfile
+
++ @tailwindcss/vite@4.3.1 (v4.3.4 available)
++ @types/react@19.2.14 (v19.3.0 available)
++ @types/react-dom@19.2.3 (v19.3.0 available)
++ @vitejs/plugin-react@6.2.1
++ tailwindcss@4.3.1 (v4.3.4 available)
++ typescript@5.9.3 (v7.0.2 available)
++ vite@8.3.6
++ @base-ui/react@1.4.1 (v1.9.0 available)
++ @floating-ui/core@1.7.5 (v1.8.0 available)
++ @floating-ui/dom@1.7.6 (v1.8.0 available)
++ @floating-ui/react-dom@2.1.8 (v2.1.9 available)
++ @floating-ui/utils@0.2.11 (v0.2.12 available)
++ @fontsource-variable/geist-mono@5.3.0
++ @fontsource-variable/host-grotesk@5.3.0
++ @tabler/icons-react@3.41.1 (v3.50.0 available)
++ @toolwind/corner-shape@0.0.8-3
++ border-beam@1.2.0 (v1.4.1 available)
++ class-variance-authority@0.7.1
++ cn@0.2.4 (v0.5.2 available)
++ elkjs@0.11.1 (v0.12.1 available)
++ motion@12.40.0 (v14.9.1 available)
++ next-themes@0.4.6
++ react@19.2.5 (v19.3.1 available)
++ react-dom@19.2.5 (v19.3.1 available)
++ shadcn@4.12.0 (v4.23.0 available)
++ tw-animate-css@1.4.0
++ use-sync-external-store@1.6.0 (v1.7.0 available)
++ zod@4.3.6 (v4.6.7 available)
+
+364 packages installed [4.05s]

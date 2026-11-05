@@ -1,0 +1,116 @@
+{
+  "scope": "results/qa push inventory",
+  "generated_at": "2026-11-05",
+  "workspace": "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan",
+  "inventory": {
+    "filesystem_reported_directory_size": "1.2G",
+    "regular_file_count": 106483,
+    "regular_file_bytes": 934482124,
+    "git_tracked_file_count": 0,
+    "git_untracked_nonignored_file_count": 106589,
+    "gitignored": false,
+    "gitignore_present": false,
+    "files_over_github_100mb_limit": 0,
+    "largest_file_bytes": 28300452,
+    "largest_file": "results/qa/w5-apex/render-matrix.jsonl",
+    "largest_representative_paths": [
+      "results/qa/w5-apex/render-matrix.jsonl",
+      "results/qa/w5-apex/comparison.json",
+      "results/qa/w5-apex/figures-reference-rerun.jsonl",
+      "results/qa/w5-registry-font-fallback/fixture/node_modules/**",
+      "results/qa/w5-apex/harness/node_modules/.vite*/**",
+      "results/qa/w5-browser/screenshots/*.png"
+    ],
+    "by_category": {
+      "nested_node_modules_and_installed_dependencies": {
+        "files": 103669,
+        "bytes": 636718906
+      },
+      "logs_json_jsonl_text_and_reports": {
+        "files": 1272,
+        "bytes": 183484440
+      },
+      "generated_source_cache_and_other_files": {
+        "files": 535,
+        "bytes": 66883516
+      },
+      "image_artifacts_including_screenshots_and_renders": {
+        "files": 1010,
+        "bytes": 47646446
+      }
+    },
+    "by_top_level_run_directory": {
+      "w5-registry-font-fallback": {
+        "files": 102409,
+        "bytes": 489328750
+      },
+      "w5-apex": {
+        "files": 2678,
+        "bytes": 312210743
+      },
+      "w5-apex-dashboard-reference": {
+        "files": 722,
+        "bytes": 73769152
+      },
+      "w5-browser": {
+        "files": 288,
+        "bytes": 39766785
+      },
+      "w4-registry-assets": {
+        "files": 119,
+        "bytes": 12383014
+      }
+    },
+    "largest_image_examples": [
+      {
+        "path": "results/qa/w5-browser/screenshots/contact-desktop-dark.png",
+        "bytes": 2457257
+      },
+      {
+        "path": "results/qa/w5-browser/screenshots/contact-desktop-light.png",
+        "bytes": 1989566
+      },
+      {
+        "path": "results/qa/w5-browser/screenshots/contact-mobile-dark.png",
+        "bytes": 1474564
+      },
+      {
+        "path": "results/qa/w5-browser/screenshots/contact-mobile-light.png",
+        "bytes": 1293150
+      }
+    ]
+  },
+  "evidence_policy_findings": {
+    "runbook": "AGENT-RUNBOOK.md requires QA/build checks, task state and gate decisions in results/run-state.json, and wave commits/pushes. It does not require committing raw QA captures or dependency trees.",
+    "wave6_contract": "GOAL-WAVE-6-FRAMEROCK.md calls for automated provenance/legal/build checks and final commits/pushes, but does not prescribe committing raw QA artifacts.",
+    "gitignore": "No root .gitignore exists in this planning workspace. results/qa is currently untracked and not ignored."
+  },
+  "recommendations": [
+    "Keep results/qa raw captures and generated fixtures local; exclude nested node_modules, bundler caches, and generated fixture builds from version control through the owning repo's ignore policy.",
+    "Commit compact reproducible QA scripts/configuration, a concise machine-readable summary with command/exit status and provenance, and only a small curated set of review screenshots when they materially demonstrate a gate result.",
+    "Record artifact paths or checksums in the summary when needed for traceability; do not duplicate raw JSONL captures into the committed evidence report.",
+    "The largest individual file is below GitHub's 100 MB hard file limit, but the roughly 934 MB untracked tree is a practical push and repository-history blocker if staged wholesale."
+  ],
+  "commands": [
+    {
+      "command": "git status --short --ignored results/qa",
+      "exit_code": 0
+    },
+    {
+      "command": "find results/qa -type f inventory via Python (counts, extension/category bytes, largest files, top-level runs, >100MB count)",
+      "exit_code": 0
+    },
+    {
+      "command": "git ls-files results/qa and git ls-files --others --exclude-standard results/qa",
+      "exit_code": 0
+    },
+    {
+      "command": "read AGENT-RUNBOOK.md and GOAL-WAVE-6-FRAMEROCK.md evidence/push clauses; inspect .gitignore presence",
+      "exit_code": 0
+    }
+  ],
+  "unresolved_limits": [
+    "The inventory measures this planning workspace's results/qa only; it does not measure the separate implementation repository or final Git pack size.",
+    "No files over 100 MB were found individually; aggregate history/push impact depends on staged contents and Git configuration."
+  ]
+}

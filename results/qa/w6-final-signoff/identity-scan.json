@@ -1,0 +1,7 @@
+{
+  "founder_files": [],
+  "impersonating_organization": [],
+  "legacy_namespace_nonverifier": [
+    "packages/registry/scripts/build-registry.ts"
+  ]
+}

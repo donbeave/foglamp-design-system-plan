@@ -1,0 +1,43 @@
+{
+  "payload_count": 291,
+  "failed": [
+    {
+      "name": "story-items.json",
+      "author": "",
+      "homepage": null,
+      "license": null,
+      "ok": false
+    }
+  ],
+  "registry": {
+    "author": "Gustavo Fior (@gustavo-fior), Abdul Haidar & Foglamp Labs",
+    "homepage": "https://github.com/foglamp-labs/foglamp",
+    "license": "Apache-2.0"
+  },
+  "packages": [
+    {
+      "file": "package.json",
+      "author": "Gustavo Fior and Foglamp Labs (original project; co-founder Abdul Haidar)",
+      "homepage": null,
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "packages/design-system/package.json",
+      "author": "Gustavo Fior / Foglamp Labs; Abdul Haidar",
+      "homepage": "https://github.com/foglamp-labs/foglamp",
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "packages/registry/package.json",
+      "author": "Gustavo Fior / Foglamp Labs; Abdul Haidar",
+      "homepage": "https://github.com/foglamp-labs/foglamp",
+      "license": "Apache-2.0"
+    },
+    {
+      "file": "apps/docs/package.json",
+      "author": "Gustavo Fior / Foglamp Labs; Abdul Haidar",
+      "homepage": null,
+      "license": "Apache-2.0"
+    }
+  ]
+}

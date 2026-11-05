@@ -1,0 +1,77 @@
+$ bun test
+bun test v1.4.4 (38afee6c8)
+
+packages/design-system/src/lib/payload-messages.test.ts:
+(pass) toMessages — recognized shapes > ModelMessage[] with string content [0.24ms]
+(pass) toMessages — recognized shapes > ModelMessage[] with content part arrays [0.07ms]
+(pass) toMessages — recognized shapes > bare ContentPart[] becomes one roleless message [0.04ms]
+(pass) toMessages — recognized shapes > a single message object, not wrapped in an array [0.01ms]
+(pass) toMessages — recognized shapes > a JSON-encoded string is unwrapped rather than shown with its quotes [0.01ms]
+(pass) toMessages — recognized shapes > a message with no content yields no parts [0.01ms]
+(pass) toMessages — recognized shapes > an array of plain data records renders as one JSON block, not one per item [0.02ms]
+(pass) toMessages — recognized shapes > a mixed array with any typed part still maps per item [0.02ms]
+(pass) toMessages — inputs that must not be parsed > plain prose [0.04ms]
+(pass) toMessages — inputs that must not be parsed > empty string
+(pass) toMessages — inputs that must not be parsed > truncated JSON [0.02ms]
+(pass) toMessages — inputs that must not be parsed > JSON null
+(pass) toMessages — inputs that must not be parsed > JSON number
+(pass) toMessages — inputs that must not be parsed > JSON boolean
+(pass) toMessages — inputs that must not be parsed > empty array
+(pass) toMessages — inputs that must not be parsed > an array of non-objects still renders as parts, not as a crash [0.02ms]
+(pass) partFrom > tool-call falls back through the SDK's alternate key names [0.01ms]
+(pass) partFrom > tool-result
+(pass) partFrom > tool-error is its own kind, not an unlabeled JSON blob
+(pass) partFrom > an unnamed tool still gets a label
+(pass) partFrom > reasoning is distinguished from the answer text
+(pass) partFrom > file parts drop their bytes and keep only the descriptors [0.02ms]
+(pass) partFrom > an image without descriptors is still a file part
+(pass) partFrom > an unrecognized part type survives as JSON
+(pass) partFrom > a text part missing its text is not treated as text
+(pass) unchangedPrefix — the transcript delta fold > a clean append folds the whole previous input [0.04ms]
+(pass) unchangedPrefix — the transcript delta fold > an edited history returns 0 — the delta must never hide a change [0.01ms]
+(pass) unchangedPrefix — the transcript delta fold > same length is not a delta
+(pass) unchangedPrefix — the transcript delta fold > a shrunk list is not a delta
+(pass) unchangedPrefix — the transcript delta fold > an empty previous input is not a delta
+(pass) fromHumanized > rebuilds turns and tool parts from the judge's flattened transcript [0.23ms]
+(pass) fromHumanized > returns null for prose without role prefixes
+
+packages/design-system/src/hud/model.test.ts:
+(pass) hud model reducer > folds the live failing-tool sequence into one trace, snapping to spans at end [0.63ms]
+(pass) hud model reducer > step.tokens advances the live output estimate monotonically [0.05ms]
+(pass) hud model reducer > mints a stub trace when connecting mid-run (missed trace.start) [0.02ms]
+
+packages/design-system/src/blocks/scan/scan.test.tsx:
+(pass) folded model embeds and real ELK layout retain the visible connected flow [155.07ms]
+(pass) scan views render supplied project identity, embed link and personality grain [13.80ms]
+(pass) all seven personality archetypes retain their rendered identity and grain [2.51ms]
+
+packages/design-system/src/lib/prompts/normalize.test.ts:
+(pass) normalizePrompt > replaces dates, times, ids, emails, urls and numbers with placeholders [0.33ms]
+(pass) normalizePrompt > collapses whitespace so reflowed templates match [0.02ms]
+(pass) normalizePrompt > leaves ordinary words and short numbers-in-words alone [0.01ms]
+(pass) promptHash > is stable across run-varying values [0.11ms]
+(pass) promptHash > changes when the wording changes; empty prompt hashes to empty [0.02ms]
+
+packages/design-system/src/lib/prompts/slots.test.ts:
+(pass) slotValues > reads each slot's text from a member prompt [0.25ms]
+(pass) slotValues > an empty slot reads as an empty string [0.03ms]
+(pass) slotValues > no slots, no values
+(pass) slotValues > adjacent slots that collapse into one change are unattributable [0.02ms]
+(pass) slotValues > a slot whose neighbour also changed is unattributable [0.02ms]
+
+packages/design-system/src/lib/prompts/infer.test.ts:
+(pass) lineDiff > marks changed lines [0.03ms]
+(pass) inferVersions > a single prompt is one version [0.38ms]
+(pass) inferVersions > a clean edit with enough runs opens a new version [0.25ms]
+(pass) inferVersions > a clean edit without enough runs is held with the current version [0.09ms]
+(pass) inferVersions > interleaved variation is a slot, not a version [0.06ms]
+(pass) inferVersions > single-use slot values do not become versions [0.82ms]
+(pass) inferVersions > an edit to a templated prompt is a new version with the slot kept [0.42ms]
+(pass) inferVersions > consecutive edits of the same line each open a version [0.08ms]
+(pass) inferVersions > unrelated prompts under one agent are separate versions [0.04ms]
+(pass) inferVersions > a rolling deploy overlap within the grace window still cuts [0.05ms]
+
+ 58 pass
+ 0 fail
+ 118 expect() calls
+Ran 58 tests across 6 files. [362.00ms]

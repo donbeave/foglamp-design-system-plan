@@ -1,0 +1,82 @@
+[
+  {
+    "route": "/",
+    "settledAfter": 2227.5999999940395,
+    "elapsed": 4230.5,
+    "shifts": [
+      {
+        "t": 99.7999999821186,
+        "value": 0.005290497706346461,
+        "recent": false
+      }
+    ],
+    "late": []
+  },
+  {
+    "route": "/docs",
+    "settledAfter": 2206.9000000059605,
+    "elapsed": 4209.5999999940395,
+    "shifts": [
+      {
+        "t": 38.099999994039536,
+        "value": 0.013743221359130248,
+        "recent": false
+      }
+    ],
+    "late": []
+  },
+  {
+    "route": "/docs/primitives/button",
+    "settledAfter": 2210.800000011921,
+    "elapsed": 4213.800000011921,
+    "shifts": [],
+    "late": []
+  },
+  {
+    "route": "/docs/widgets/data-table",
+    "settledAfter": 2210.699999988079,
+    "elapsed": 4213.9000000059605,
+    "shifts": [
+      {
+        "t": 39,
+        "value": 0.004539892262966427,
+        "recent": false
+      }
+    ],
+    "late": []
+  },
+  {
+    "route": "/docs/charts/area-chart",
+    "settledAfter": 2212.199999988079,
+    "elapsed": 4215.0999999940395,
+    "shifts": [],
+    "late": []
+  },
+  {
+    "route": "/docs/figures/costs-chart",
+    "settledAfter": 2209.5999999940395,
+    "elapsed": 4211.9000000059605,
+    "shifts": [
+      {
+        "t": 38.900000005960464,
+        "value": 0.0041342746631429905,
+        "recent": false
+      }
+    ],
+    "late": []
+  },
+  {
+    "route": "/docs/blocks/observability-guide-block",
+    "settledAfter": 2208.4000000059605,
+    "elapsed": 4211.5999999940395,
+    "shifts": [],
+    "late": []
+  },
+  {
+    "route": "/docs/blocks/setup-board-block",
+    "settledAfter": 2212.5,
+    "elapsed": 4215.5,
+    "shifts": [],
+    "late": []
+  }
+]

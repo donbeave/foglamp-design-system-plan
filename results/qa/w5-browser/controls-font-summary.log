@@ -1,0 +1,101 @@
+[
+  {
+    t: 310.69999998807907,
+    panel: null,
+    iframe: null,
+    body: 0,
+    fonts: { status: 'loaded', inter: false, faces: [Array] },
+    headings: []
+  },
+  {
+    t: 325.19999998807907,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    t: 406.69999998807907,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    t: 740.3999999761581,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    t: 778.2999999821186,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    t: 791.0999999940395,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    t: 1194.5,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loading', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  {
+    t: 1225.7999999821186,
+    panel: [ 302, 330, 836, 678 ],
+    iframe: [ 314, 468, 812, 320 ],
+    body: 1797,
+    fonts: { status: 'loaded', inter: true, faces: [Array] },
+    headings: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  }
+]

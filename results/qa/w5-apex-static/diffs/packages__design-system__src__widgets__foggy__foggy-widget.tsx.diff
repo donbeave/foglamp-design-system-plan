@@ -1,0 +1,112 @@
+--- .reference/foglamp/apps/web/src/components/app/foggy/foggy-widget.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/foggy/foggy-widget.tsx	2026-11-05 19:02:56
+@@ -90,7 +90,8 @@
+         </motion.div>)}
+     </div>);
+ }
+-export function FoggyWidget({ projectId, pathname, range, open, onOpenChange, }) {
++const noop = () => { };
++export function FoggyWidgetView({ open, onOpenChange, messages = [], status = "ready", error, onSendMessage: sendMessage = noop, onStop: stop = noop, onRegenerate: regenerate = noop, onNewChat = noop, threads = [], threadsLoading = false, threadId, onLoadThreads: loadThreads = noop, onOpenThread: openThread = noop, onLayoutReserve, }) {
+     const [input, setInput] = useState("");
+     const [scrolled, setScrolled] = useState(false);
+     const [panelWidth, setPanelWidth] = useState(PANEL_WIDTH);
+@@ -98,6 +99,10 @@
+     const [stretch, setStretch] = useState(0);
+     const displayWidth = panelWidth + stretch;
+     const asideRef = useReportLayoutReserve(open ? panelWidth : 0);
++    useLayoutEffect(() => {
++        onLayoutReserve?.(open ? panelWidth : 0, asideRef.current);
++        return () => onLayoutReserve?.(0, null);
++    }, [open, panelWidth, onLayoutReserve]);
+     function startResize(e) {
+         e.preventDefault();
+         const startX = e.clientX;
+@@ -122,82 +127,14 @@
+         window.addEventListener("pointermove", onMove);
+         window.addEventListener("pointerup", onUp);
+     }
+-    const [threadId, setThreadId] = useState(() => crypto.randomUUID());
+-    const [seedMessages, setSeedMessages] = useState([]);
+-    const [threads, setThreads] = useState([]);
+-    const [threadsLoading, setThreadsLoading] = useState(false);
+-    const pathnameRef = useRef(pathname);
+-    pathnameRef.current = pathname;
+-    const rangeRef = useRef(range);
+-    rangeRef.current = range;
+-    const transport = useMemo(() => new DefaultChatTransport({
+-        api: `${env.NEXT_PUBLIC_SERVER_URL}/foggy`,
+-        credentials: "include",
+-        body: { projectId, threadId },
+-        prepareSendMessagesRequest: ({ body, messages, id, trigger, messageId, }) => ({
+-            body: {
+-                ...body,
+-                id,
+-                messages,
+-                trigger,
+-                messageId,
+-                pathname: pathnameRef.current,
+-                range: {
+-                    from: rangeRef.current.from.toISOString(),
+-                    to: rangeRef.current.to.toISOString(),
+-                },
+-            },
+-        }),
+-    }), [projectId, threadId]);
+-    const { messages, sendMessage, status, error, stop, regenerate } = useChat({
+-        id: threadId,
+-        messages: seedMessages,
+-        transport,
+-    });
+     const busy = status === "submitted" || status === "streaming";
+     function newChat() {
+         if (busy)
+             void stop();
+         setInput("");
+         setScrolled(false);
+-        setSeedMessages([]);
+-        setThreadId(crypto.randomUUID());
++        onNewChat();
+     }
+-    async function loadThreads() {
+-        setThreadsLoading(true);
+-        try {
+-            const res = await fetch(`${env.NEXT_PUBLIC_SERVER_URL}/foggy/threads?projectId=${encodeURIComponent(projectId)}`, { credentials: "include" });
+-            if (!res.ok)
+-                return;
+-            const data = (await res.json());
+-            setThreads(data.threads ?? []);
+-        }
+-        catch {
+-        }
+-        finally {
+-            setThreadsLoading(false);
+-        }
+-    }
+-    async function openThread(id) {
+-        if (id === threadId)
+-            return;
+-        try {
+-            const res = await fetch(`${env.NEXT_PUBLIC_SERVER_URL}/foggy/threads/${encodeURIComponent(id)}`, { credentials: "include" });
+-            if (!res.ok)
+-                return;
+-            const data = (await res.json());
+-            if (!Array.isArray(data.messages))
+-                return;
+-            if (busy)
+-                void stop();
+-            setInput("");
+-            setScrolled(false);
+-            setSeedMessages(data.messages);
+-            setThreadId(id);
+-        }
+-        catch {
+-        }
+-    }
+     const last = messages[messages.length - 1];
+     const replyStarted = last?.role === "assistant" &&
+         last.parts.some((p) => p.type === "text" && p.text.length > 0);
+@@ -343,3 +280,4 @@
+       </motion.div>
+     </motion.aside>);
+ }
++export const FoggyWidget = FoggyWidgetView;

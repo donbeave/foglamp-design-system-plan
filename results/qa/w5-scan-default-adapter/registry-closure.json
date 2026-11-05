@@ -1,0 +1,14 @@
+{
+  "block-scan-scan-board": {
+    "sha256": "206b8c3609a189ea0ea5da80f84d3f7959b43520043bd232b572b679541452ab",
+    "files": 21,
+    "directDefault": true,
+    "leafHelperIncluded": true
+  },
+  "block-setup-setup-board": {
+    "sha256": "f5aa7029d1f0ee921e80225f19913cb7ebef4f94d6a48038c91849da3898dd14",
+    "files": 24,
+    "directDefault": true,
+    "leafHelperIncluded": true
+  }
+}

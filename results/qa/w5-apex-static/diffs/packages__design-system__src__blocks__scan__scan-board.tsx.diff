@@ -1,0 +1,7 @@
+--- .reference/foglamp/apps/web/src/components/scan/scan-board.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/scan/scan-board.tsx	2026-11-05 19:02:55
+@@ -16,3 +16,4 @@
+ 			<ShareBar kinds={kinds} focusKinds={focusKinds} onFocusKinds={setFocusKinds}/>
+ 		</div>);
+ }
++export { ScanBoard as ScanBoardBlock };

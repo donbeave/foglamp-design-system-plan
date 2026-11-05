@@ -1,0 +1,34 @@
+{
+  "task": "W5-5.1A-source-font-fallback",
+  "state": "REVIEW",
+  "target_head_sha": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "commands": [
+    {"command": "mise exec bun@latest -- bun run check-types", "exit_code": 0},
+    {"command": "mise exec bun@latest -- bun test", "exit_code": 0, "tests_pass": 58, "tests_fail": 0},
+    {"command": "mise exec bun@latest -- bun run check:portal", "exit_code": 0, "stories": 168, "registry_items": 289, "browser_import_guard": "passed"},
+    {"command": "mise exec bun@latest -- bun run build:registry", "exit_code": 0, "registry_items_validated_and_built": 289, "story_catalog_entries": 289},
+    {"command": "mise exec bun@latest -- bun run build", "exit_code": 0}
+  ],
+  "diff_state": {
+    "files_changed": 20,
+    "design_system_source_components_modified": false,
+    "generated_registry_output": "apps/docs/public/r/style-globals.json changed as expected from the frozen fallback-font source and fresh CLI/Vite/CSSOM build; subsequent registry build completed successfully",
+    "other_paths_include": ["apps/docs/src/styles/app.css", "apps/docs/src/stories/blocks/app-shell-block.story.tsx", "packages/registry/scripts/build-registry.ts", "scripts/verify-portal.ts"]
+  },
+  "build_observations": {
+    "node_crypto_externalization": false,
+    "fumadocs_mdX_node_fs_promises_externalization_notice": true,
+    "css_optimizer_warnings": 2,
+    "build_tasks_successful": 1
+  },
+  "unresolved_limits": [
+    "Static/build checks do not prove visual parity; browser QA remains required."
+  ],
+  "artifacts": [
+    "results/qa/w5-static/source-font-fallback/check-types.log",
+    "results/qa/w5-static/source-font-fallback/bun-test.log",
+    "results/qa/w5-static/source-font-fallback/check-portal.log",
+    "results/qa/w5-static/source-font-fallback/build-registry.log",
+    "results/qa/w5-static/source-font-fallback/build.log"
+  ]
+}

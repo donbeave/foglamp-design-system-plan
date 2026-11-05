@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {Favicon} from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/scan/brand';
+import {ScanFaviconProvider} from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/blocks/scan/favicon-context';
+import {getGoogleFavicon} from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/widgets/leaf/favicon';
+import {faviconUrl} from '/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system/src/lib/scan/favicon';
+const root='/Users/donbeave/Projects/donbeave/foglamp-design-system/';
+const upstream=readFileSync(root+'.reference/foglamp/apps/web/src/lib/favicon.ts','utf8').trim();
+const extracted=readFileSync(root+'packages/design-system/src/widgets/leaf/favicon.ts','utf8');
+assert.equal(extracted.slice(extracted.indexOf('export const getGoogleFavicon')).trim(),upstream);
+assert.ok(renderToStaticMarkup(<Favicon domain="slack.com" fallback="fallback"/>).includes(getGoogleFavicon('slack.com').replaceAll('&','&amp;')));
+assert.ok(renderToStaticMarkup(<ScanFaviconProvider resolve={domain=>'/custom/'+domain}><Favicon domain="slack.com" fallback="fallback"/></ScanFaviconProvider>).includes('src="/custom/slack.com"'));
+assert.equal(faviconUrl('slack.com'),'/api/favicon?domain=slack.com');
+console.log('source helper byte parity, no-provider default, custom provider override, legacy proxy export: PASS');

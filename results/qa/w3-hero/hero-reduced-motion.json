@@ -1,0 +1,14 @@
+{
+  "first": {
+    "at": 229.9,
+    "chain": [],
+    "plate": {
+      "color": "oklch(0.99 0 0)",
+      "opacity": "1"
+    },
+    "transform": "perspective(2400px)"
+  },
+  "lockedSamples": 0,
+  "reduced": true,
+  "tiltedSamples": 0
+}

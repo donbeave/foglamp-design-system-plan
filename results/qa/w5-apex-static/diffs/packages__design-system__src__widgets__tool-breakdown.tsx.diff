@@ -1,0 +1,206 @@
+--- .reference/foglamp/apps/web/src/components/app/tool-breakdown-card.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/tool-breakdown.tsx	2026-11-05 19:02:56
+@@ -1,90 +1,122 @@
+ "use client";
+-export function ToolBreakdownCard({ agentName, workflowName, title = "Tools", className, }) {
+-    const { projectId } = useProject();
+-    const { range } = useRange();
+-    const query = useQuery({
+-        ...trpc.metrics.toolBreakdown.queryOptions({
+-            projectId: projectId,
+-            from: range.from.toISOString(),
+-            to: range.to.toISOString(),
+-            agentName,
+-            workflowName,
+-        }),
+-        enabled: !!projectId,
+-        placeholderData: (prev) => prev,
+-    });
+-    const tools = query.data ?? [];
+-    const skeleton = useDelayedLoading(query.isLoading);
+-    const isUpdating = query.isPlaceholderData;
++export function ToolBreakdownView({ tools, isLoading = false, isUpdating = false, title = "Tools", className, }) {
++    const skeleton = useDelayedLoading(isLoading);
+     const maxCalls = Math.max(1, ...tools.map((t) => t.callCount));
+     return (<Card size="sm" className={cn("pb-0! group-data-[size=sm]/card:pb-0!", className)}>
+-      <CardHeader>
+-        <CardTitle>{title}</CardTitle>
+-      </CardHeader>
+-      <CardContent className="mt-1">
+-        {!query.isLoading && tools.length === 0 ? (<EmptyState icon={IconTool} iconClassName="fill-current stroke-1" title="No tool calls in this range" description="Tool executions will show up here once they run." className="mb-12 h-full border-none"/>) : (<ScrollFade className="max-h-72 pr-1" containerClassName={cn("transition-opacity", isUpdating ? "opacity-50 delay-150 duration-300" : "duration-150")}>
+-            {query.isLoading ? (<ToolRowsSkeleton skeleton={skeleton}/>) : (<div className="divide-y divide-border/40 pb-6">
+-                {tools.map((t) => (<div key={t.toolName} className="flex items-center justify-between gap-6 px-0.5 py-3 first:pt-0 last:pb-0">
+-                    
+-                    <div className="min-w-0 flex-1">
+-                      <div className="flex items-center gap-1.75">
+-                        <ToolIcon name={t.toolName} className="size-3.25 shrink-0 text-blue-500"/>
+-                        <span className="truncate text-sm font-medium">
+-                          {t.toolName || "unnamed"}
+-                        </span>
+-                      </div>
+-                      <div className="mt-1 text-xs tabular-nums text-muted-foreground/70">
+-                        p50 {formatDuration(t.latencyMs.p50)} · p95{" "}
+-                        {formatDuration(t.latencyMs.p95)} · p99{" "}
+-                        {formatDuration(t.latencyMs.p99)}
+-                        {t.errorCount > 0 && (<span className="text-red-500/80">
+-                            {" "}
+-                            · {formatPercent(t.errorCount / t.callCount)} err
+-                          </span>)}
+-                      </div>
+-                    </div>
+-                    
+-                    <div className="flex shrink-0 flex-col items-end gap-1">
+-                      <span className="text-sm tabular-nums">
+-                        {formatCount(t.callCount)}
+-                        {t.callCount === 1 ? " call" : " calls"}
+-                      </span>
+-                      {t.totalRunCount > 0 && (<span className="text-xs tabular-nums text-muted-foreground/70">
+-                          {formatPercent(t.runCount / t.totalRunCount)} of runs
+-                        </span>)}
+-                      <div className="h-0.5 w-14 overflow-hidden rounded-full bg-muted-foreground/10">
+-                        <div className="ml-auto h-full rounded-full bg-blue-500" style={{
++			<CardHeader>
++				<CardTitle>{title}</CardTitle>
++			</CardHeader>
++			<CardContent className="mt-1">
++				{!isLoading && tools.length === 0 ? (<ToolEmptyState />) : (<ScrollFade className="max-h-72 pr-1" containerClassName={cn("transition-opacity", isUpdating
++                ? "opacity-50 delay-150 duration-300"
++                : "duration-150")}>
++						{isLoading ? (<ToolRowsSkeleton skeleton={skeleton}/>) : (<div className="divide-y divide-border/40 pb-6">
++								{tools.map((t) => (<div key={t.toolName} className="flex items-center justify-between gap-6 px-0.5 py-3 first:pt-0 last:pb-0">
++										
++										<div className="min-w-0 flex-1">
++											<div className="flex items-center gap-1.75">
++												<ToolIcon name={t.toolName} className="size-3.25 shrink-0 text-blue-500"/>
++												<span className="truncate text-sm font-medium">
++													{t.toolName || "unnamed"}
++												</span>
++											</div>
++											<div className="mt-1 text-xs tabular-nums text-muted-foreground/70">
++												p50 {formatDuration(t.latencyMs.p50)} · p95{" "}
++												{formatDuration(t.latencyMs.p95)} · p99{" "}
++												{formatDuration(t.latencyMs.p99)}
++												{t.errorCount > 0 && (<span className="text-red-500/80">
++														{" "}
++														· {formatPercent(t.errorCount / t.callCount)} err
++													</span>)}
++											</div>
++										</div>
++										
++										<div className="flex shrink-0 flex-col items-end gap-1">
++											<span className="text-sm tabular-nums">
++												{formatCount(t.callCount)}
++												{t.callCount === 1 ? " call" : " calls"}
++											</span>
++											{t.totalRunCount > 0 && (<span className="text-xs tabular-nums text-muted-foreground/70">
++													{formatPercent(t.runCount / t.totalRunCount)} of runs
++												</span>)}
++											<div className="h-0.5 w-14 overflow-hidden rounded-full bg-muted-foreground/10">
++												<div className="ml-auto h-full rounded-full bg-blue-500" style={{
+                         width: `${Math.max(2, (t.callCount / maxCalls) * 100)}%`,
+                     }}/>
+-                      </div>
+-                    </div>
+-                  </div>))}
+-              </div>)}
+-          </ScrollFade>)}
+-      </CardContent>
+-    </Card>);
++											</div>
++										</div>
++									</div>))}
++							</div>)}
++					</ScrollFade>)}
++			</CardContent>
++		</Card>);
+ }
++function ToolEmptyState() {
++    return (<Empty className="border border-dashed mb-12 h-full border-none">
++			<EmptyHeader>
++				<EmptyMedia variant="icon">
++					<IconTool className="opacity-40 fill-current stroke-1"/>
++				</EmptyMedia>
++				<EmptyContent>
++					<EmptyTitle>No tool calls in this range</EmptyTitle>
++					<EmptyDescription>
++						Tool executions will show up here once they run.
++					</EmptyDescription>
++				</EmptyContent>
++			</EmptyHeader>
++		</Empty>);
++}
++function ScrollFade({ children, className, containerClassName, }) {
++    const viewport = useRef(null);
++    const content = useRef(null);
++    const [edges, setEdges] = useState({ top: false, bottom: false });
++    const update = useCallback(() => {
++        const el = viewport.current;
++        if (!el)
++            return;
++        setEdges({
++            top: el.scrollTop > 1,
++            bottom: el.scrollTop + el.clientHeight < el.scrollHeight - 1,
++        });
++    }, []);
++    useLayoutEffect(() => {
++        update();
++        const el = content.current;
++        if (!el)
++            return;
++        const observer = new ResizeObserver(update);
++        observer.observe(el);
++        return () => observer.disconnect();
++    }, [update]);
++    return (<div className={cn("relative no-scrollbar", containerClassName)}>
++			<div ref={viewport} onScroll={update} className={cn("overflow-y-auto no-scrollbar", className)}>
++				<div ref={content}>{children}</div>
++			</div>
++			<div className={cn("pointer-events-none absolute inset-x-0 top-0 h-10 bg-linear-to-b to-transparent transition-opacity duration-150", "from-card", edges.top ? "opacity-100" : "opacity-0")}/>
++			<div className={cn("pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-linear-to-t to-transparent transition-opacity duration-150", "from-card", edges.bottom ? "opacity-75" : "opacity-0")}/>
++		</div>);
++}
+ function ToolRowsSkeleton({ rows = 4, skeleton, }) {
+     return (<div className={cn("divide-y divide-border/40 pb-6", !skeleton && "invisible")}>
+-      {Array.from({ length: rows }).map((_, i) => (<div key={i} className="flex items-center justify-between gap-6 px-0.5 py-3 first:pt-0 last:pb-0">
+-          <div className="min-w-0 flex-1">
+-            <div className="flex h-5 items-center gap-1.75">
+-              <Skeleton className="size-3.25 shrink-0 rounded-full squircle:rounded-full"/>
+-              <Skeleton className="h-3.5 w-28"/>
+-            </div>
+-            <div className="mt-1 flex h-4 items-center">
+-              <Skeleton className="h-3 w-40"/>
+-            </div>
+-          </div>
+-          <div className="flex shrink-0 flex-col items-end gap-1">
+-            <div className="flex h-5 items-center">
+-              <Skeleton className="h-3.5 w-14"/>
+-            </div>
+-            <div className="flex h-4 items-center">
+-              <Skeleton className="h-3 w-16"/>
+-            </div>
+-            <Skeleton className="h-0.5 w-14"/>
+-          </div>
+-        </div>))}
+-    </div>);
++			{Array.from({ length: rows }).map((_, i) => (<div key={i} className="flex items-center justify-between gap-6 px-0.5 py-3 first:pt-0 last:pb-0">
++					<div className="min-w-0 flex-1">
++						<div className="flex h-5 items-center gap-1.75">
++							<Skeleton className="size-3.25 shrink-0 rounded-full squircle:rounded-full"/>
++							<Skeleton className="h-3.5 w-28"/>
++						</div>
++						<div className="mt-1 flex h-4 items-center">
++							<Skeleton className="h-3 w-40"/>
++						</div>
++					</div>
++					<div className="flex shrink-0 flex-col items-end gap-1">
++						<div className="flex h-5 items-center">
++							<Skeleton className="h-3.5 w-14"/>
++						</div>
++						<div className="flex h-4 items-center">
++							<Skeleton className="h-3 w-16"/>
++						</div>
++						<Skeleton className="h-0.5 w-14"/>
++					</div>
++				</div>))}
++		</div>);
+ }

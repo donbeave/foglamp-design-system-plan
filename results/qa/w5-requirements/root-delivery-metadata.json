@@ -1,0 +1,13 @@
+{
+  "command": "gh repo view donbeave/foglamp-design-system --json nameWithOwner,url,visibility,isPrivate,defaultBranchRef",
+  "actual_observed": {
+    "nameWithOwner": "donbeave/foglamp-design-system",
+    "url": "https://github.com/donbeave/foglamp-design-system",
+    "visibility": "PUBLIC",
+    "isPrivate": false,
+    "defaultBranchRef": {
+      "name": "main"
+    }
+  },
+  "final_delivery_still_pending": true
+}

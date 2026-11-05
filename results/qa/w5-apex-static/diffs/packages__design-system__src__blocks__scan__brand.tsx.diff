@@ -1,0 +1,10 @@
+--- .reference/foglamp/apps/web/src/components/scan/brand.tsx	2026-11-05 19:02:55
++++ packages/design-system/src/blocks/scan/brand.tsx	2026-11-05 19:02:55
+@@ -9,6 +9,7 @@
+ }
+ export function Favicon({ domain, fallback, className, }) {
+     const [failed, setFailed] = useState(false);
++    const faviconUrl = useScanFavicon();
+     if (!domain || failed)
+         return <>{fallback}</>;
+     return (<img src={faviconUrl(domain)} alt="" className={cn("corner-squircle object-contain", className)} onError={() => setFailed(true)}/>);

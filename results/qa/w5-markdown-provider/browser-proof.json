@@ -1,0 +1,72 @@
+{
+  "clicks": [
+    "/traces/abc",
+    "//example.com/path"
+  ],
+  "links": [
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": "true",
+      "href": "/traces/abc",
+      "label": "internal",
+      "rel": null,
+      "target": null,
+      "title": null
+    },
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": "true",
+      "href": "//example.com/path",
+      "label": "protocol-relative",
+      "rel": null,
+      "target": null,
+      "title": null
+    },
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": null,
+      "href": "https://example.com/docs",
+      "label": "external",
+      "rel": "noreferrer",
+      "target": "_blank",
+      "title": "source-rest-prop"
+    },
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": null,
+      "href": "#details",
+      "label": "hash",
+      "rel": "noreferrer",
+      "target": "_blank",
+      "title": "source-rest-prop"
+    },
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": null,
+      "href": "mailto:team@example.com",
+      "label": "mailto",
+      "rel": "noreferrer",
+      "target": "_blank",
+      "title": "source-rest-prop"
+    },
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": null,
+      "href": "traces/abc",
+      "label": "bare-relative",
+      "rel": "noreferrer",
+      "target": "_blank",
+      "title": "source-rest-prop"
+    },
+    {
+      "class": "font-medium text-primary underline underline-offset-2",
+      "host": null,
+      "href": "",
+      "label": "empty",
+      "rel": "noreferrer",
+      "target": "_blank",
+      "title": "source-rest-prop"
+    }
+  ],
+  "url": "http://127.0.0.1:4196/"
+}

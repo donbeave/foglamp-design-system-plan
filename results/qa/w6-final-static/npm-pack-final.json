@@ -1,0 +1,1386 @@
+[
+  {
+    "id": "@tailrocks/framerock@0.1.0",
+    "name": "@tailrocks/framerock",
+    "version": "0.1.0",
+    "size": 1820608,
+    "unpackedSize": 3635061,
+    "shasum": "6dc6fc997b76148f1d4954dd3565495ccfa99966",
+    "integrity": "sha512-mYH6DKgZaSCCsm6Cd01mq5Px+KUdo+fnEKFxaTk/JtYbnD/+6MEF5svK16bYdTHgzsQ1LHjEN4d0vHatz5WuzA==",
+    "filename": "tailrocks-framerock-0.1.0.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 11358,
+        "mode": 420
+      },
+      {
+        "path": "NOTICE",
+        "size": 2307,
+        "mode": 420
+      },
+      {
+        "path": "THIRD-PARTY-NOTICES.md",
+        "size": 14113,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 6610,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/InterVariable-Italic.woff2",
+        "size": 387976,
+        "mode": 420
+      },
+      {
+        "path": "src/assets/InterVariable.woff2",
+        "size": 352240,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/app-shell/app-shell-block.tsx",
+        "size": 12227,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/app-shell/index.ts",
+        "size": 846,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/app-shell/new-project-dialog.tsx",
+        "size": 3411,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/app-shell/sunset-card.tsx",
+        "size": 1827,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/buttons-badges.tsx",
+        "size": 6263,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/device-approve.tsx",
+        "size": 9541,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/index.ts",
+        "size": 748,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/instrument-empty-state.tsx",
+        "size": 7556,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/login-form.tsx",
+        "size": 17765,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/auth/onboarding-panel.tsx",
+        "size": 4979,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/agent-detail-inspector-block.tsx",
+        "size": 41222,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/eval-chip-placeholders.tsx",
+        "size": 1091,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/eval-detail-block.tsx",
+        "size": 48732,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/eval-settings-fields.tsx",
+        "size": 15787,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/index.ts",
+        "size": 1373,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/overview-dashboard-block.tsx",
+        "size": 53338,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/session-conversation-inspector-block.tsx",
+        "size": 27516,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/trace-waterfall-inspector-block.tsx",
+        "size": 121549,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/traces-explorer-block.tsx",
+        "size": 39239,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/dashboard/workflow-detail-block.tsx",
+        "size": 38239,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/guide/ai-workshop.webp",
+        "size": 483498,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/guide/chapters.ts",
+        "size": 5712,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/guide/css-modules.d.ts",
+        "size": 683,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/guide/index.ts",
+        "size": 637,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/guide/observability-guide.module.css",
+        "size": 20932,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/guide/observability-guide.tsx",
+        "size": 21773,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/brand-mark.tsx",
+        "size": 1220,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/code-block.tsx",
+        "size": 4177,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/copy-button.tsx",
+        "size": 2453,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/cutting-mat.tsx",
+        "size": 4512,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/demo-link.ts",
+        "size": 1954,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/footer.tsx",
+        "size": 7260,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/github-logo.tsx",
+        "size": 1937,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/index.ts",
+        "size": 1190,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/logo.tsx",
+        "size": 1712,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/navbar.tsx",
+        "size": 8516,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/noise-overlay.tsx",
+        "size": 4518,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/chrome/products.ts",
+        "size": 5034,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/agent-prompt.ts",
+        "size": 3743,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/ask-foggy.tsx",
+        "size": 5441,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/compact-cta.tsx",
+        "size": 2484,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/copy-prompt-button.tsx",
+        "size": 5050,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/cta-agent-details.tsx",
+        "size": 4185,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/cta.tsx",
+        "size": 7403,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/faq.tsx",
+        "size": 6035,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/cta/index.ts",
+        "size": 1079,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/demo-chrome.tsx",
+        "size": 8862,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/demo-context.tsx",
+        "size": 2188,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/demo-shell.tsx",
+        "size": 4773,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/demo-sidebar.tsx",
+        "size": 7621,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/detail/agent-detail.tsx",
+        "size": 23311,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/detail/breakdown-cards.tsx",
+        "size": 8892,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/detail/eval-detail.tsx",
+        "size": 16611,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/detail/session-detail.tsx",
+        "size": 13784,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/detail/trace-detail.tsx",
+        "size": 18108,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/detail/workflow-detail.tsx",
+        "size": 17865,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/entrance.ts",
+        "size": 6229,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/index.tsx",
+        "size": 5885,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/mock-data.ts",
+        "size": 58899,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/piece.tsx",
+        "size": 3195,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/agents-tab.tsx",
+        "size": 6628,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/alerts-tab.tsx",
+        "size": 8190,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/evals-tab.tsx",
+        "size": 9899,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/overview-tab.tsx",
+        "size": 17309,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/sessions-tab.tsx",
+        "size": 10217,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/traces-tab.tsx",
+        "size": 23952,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/demo/tabs/workflows-tab.tsx",
+        "size": 6563,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/feature-section.tsx",
+        "size": 3570,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/features.tsx",
+        "size": 4336,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figure-kit-22-block.tsx",
+        "size": 1375,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figure-kit.tsx",
+        "size": 2936,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figure-picker.tsx",
+        "size": 2039,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figure-reveal.tsx",
+        "size": 2866,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figures-costs.tsx",
+        "size": 41029,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figures-scenes.tsx",
+        "size": 16713,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figures-traces.tsx",
+        "size": 15673,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/figures.tsx",
+        "size": 3974,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/index.ts",
+        "size": 1146,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/product-hero.tsx",
+        "size": 2765,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/figures/visuals.tsx",
+        "size": 8588,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/hero/hero-demo.tsx",
+        "size": 5624,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/hero/hero.tsx",
+        "size": 12108,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/hero/index.ts",
+        "size": 709,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/marketing/hud-landing.tsx",
+        "size": 10792,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/brand.tsx",
+        "size": 3654,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/changes-card.tsx",
+        "size": 4711,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/copy-scan-prompt-button.tsx",
+        "size": 3627,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/embed-board.tsx",
+        "size": 2187,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/favicon-context.tsx",
+        "size": 1261,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/flow-map.tsx",
+        "size": 43598,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/index.ts",
+        "size": 1008,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/kinds.tsx",
+        "size": 4609,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/left-rail.tsx",
+        "size": 4980,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/noise-overlay.tsx",
+        "size": 4756,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/personality-card.tsx",
+        "size": 4267,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/powered-by.tsx",
+        "size": 1844,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/scan-board.tsx",
+        "size": 2850,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/scan-landing.tsx",
+        "size": 9982,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/scan-prompt.ts",
+        "size": 7366,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/scan.test.tsx",
+        "size": 4392,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/share-bar.tsx",
+        "size": 5202,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/tsconfig.json",
+        "size": 78,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/scan/verify-source.ts",
+        "size": 2534,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/setup/decision-list.tsx",
+        "size": 22740,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/setup/index.ts",
+        "size": 732,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/setup/setup-board.tsx",
+        "size": 10137,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/setup/setup-summary.tsx",
+        "size": 9839,
+        "mode": 420
+      },
+      {
+        "path": "src/blocks/setup/verification-report.tsx",
+        "size": 8742,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/charts/area-chart.tsx",
+        "size": 45463,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/charts/bar-chart.tsx",
+        "size": 46558,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/charts/donut-chart.tsx",
+        "size": 6032,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/charts/line-chart.tsx",
+        "size": 37986,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/background.tsx",
+        "size": 9194,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/chart.tsx",
+        "size": 11074,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/dot.tsx",
+        "size": 5207,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/evil-brush.tsx",
+        "size": 23756,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/legend.tsx",
+        "size": 6951,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/tooltip.tsx",
+        "size": 8132,
+        "mode": 420
+      },
+      {
+        "path": "src/charts/evilcharts/ui/zoom.tsx",
+        "size": 6384,
+        "mode": 420
+      },
+      {
+        "path": "src/hooks/use-app-hooks.ts",
+        "size": 4032,
+        "mode": 420
+      },
+      {
+        "path": "src/hooks/use-copied.ts",
+        "size": 1785,
+        "mode": 420
+      },
+      {
+        "path": "src/hooks/use-mobile.ts",
+        "size": 1344,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/events.ts",
+        "size": 4236,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/FoglampHUD.tsx",
+        "size": 48796,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/format.ts",
+        "size": 2402,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/index.ts",
+        "size": 992,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/model-logo.tsx",
+        "size": 13156,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/model.test.ts",
+        "size": 5108,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/model.ts",
+        "size": 9578,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/styles.ts",
+        "size": 21820,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/useHudStream.ts",
+        "size": 2639,
+        "mode": 420
+      },
+      {
+        "path": "src/hud/wire.ts",
+        "size": 4081,
+        "mode": 420
+      },
+      {
+        "path": "src/icons/brand-logos.tsx",
+        "size": 46385,
+        "mode": 420
+      },
+      {
+        "path": "src/icons/brand-mark.tsx",
+        "size": 1220,
+        "mode": 420
+      },
+      {
+        "path": "src/icons/logo.tsx",
+        "size": 1659,
+        "mode": 420
+      },
+      {
+        "path": "src/icons/model-logo.tsx",
+        "size": 9598,
+        "mode": 420
+      },
+      {
+        "path": "src/index.ts",
+        "size": 10583,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/format.ts",
+        "size": 6936,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/link-context.tsx",
+        "size": 2914,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/payload-messages.test.ts",
+        "size": 8743,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/payload-messages.ts",
+        "size": 6854,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/diff.ts",
+        "size": 4920,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/index.ts",
+        "size": 1065,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/infer.test.ts",
+        "size": 5549,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/infer.ts",
+        "size": 11576,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/normalize.test.ts",
+        "size": 2524,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/normalize.ts",
+        "size": 3864,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/slots.test.ts",
+        "size": 2247,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/prompts/slots.ts",
+        "size": 2654,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/range.ts",
+        "size": 4588,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/alerts.ts",
+        "size": 4452,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/diff.ts",
+        "size": 2390,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/favicon.ts",
+        "size": 1489,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/fold-graph.ts",
+        "size": 2821,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/instrumentation.ts",
+        "size": 21582,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/layout.ts",
+        "size": 22916,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/personality.ts",
+        "size": 4089,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/scan.ts",
+        "size": 6929,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/scan/v1.ts",
+        "size": 11397,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/trace-timeline.ts",
+        "size": 2567,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/types.ts",
+        "size": 3194,
+        "mode": 420
+      },
+      {
+        "path": "src/lib/utils.ts",
+        "size": 790,
+        "mode": 420
+      },
+      {
+        "path": "src/styles/effects.css",
+        "size": 5730,
+        "mode": 420
+      },
+      {
+        "path": "src/styles/globals.css",
+        "size": 14249,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/accordion.tsx",
+        "size": 4220,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/alert-dialog.tsx",
+        "size": 6348,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/alert.tsx",
+        "size": 3079,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/aspect-ratio.tsx",
+        "size": 1463,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/avatar.tsx",
+        "size": 4258,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/badge.tsx",
+        "size": 5677,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/breadcrumb.tsx",
+        "size": 3479,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/button-group.tsx",
+        "size": 3463,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/button-styles.ts",
+        "size": 1154,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/button.tsx",
+        "size": 6007,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/calendar.tsx",
+        "size": 8775,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/card.tsx",
+        "size": 3650,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/carousel.tsx",
+        "size": 6635,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/chart.tsx",
+        "size": 10598,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/checkbox.tsx",
+        "size": 2719,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/collapsible.tsx",
+        "size": 1681,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/combobox.tsx",
+        "size": 10236,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/command.tsx",
+        "size": 6090,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/context-menu.tsx",
+        "size": 9005,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/dialog.tsx",
+        "size": 5119,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/direction.tsx",
+        "size": 1123,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/drawer.tsx",
+        "size": 5507,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/dropdown-menu.tsx",
+        "size": 9708,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/empty.tsx",
+        "size": 3470,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/field.tsx",
+        "size": 6931,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/hover-card.tsx",
+        "size": 3127,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/input-group.tsx",
+        "size": 6303,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/input-otp.tsx",
+        "size": 3878,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/input.tsx",
+        "size": 2211,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/item.tsx",
+        "size": 5615,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/kbd.tsx",
+        "size": 2006,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/label.tsx",
+        "size": 1810,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/loader.tsx",
+        "size": 2031,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/menubar.tsx",
+        "size": 9228,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/native-select.tsx",
+        "size": 3168,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/navigation-menu.tsx",
+        "size": 8338,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/pagination.tsx",
+        "size": 3613,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/popover.tsx",
+        "size": 3782,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/progress.tsx",
+        "size": 2943,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/radio-group.tsx",
+        "size": 2951,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/resizable.tsx",
+        "size": 2929,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/scroll-area.tsx",
+        "size": 2827,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/select.tsx",
+        "size": 8976,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/separator.tsx",
+        "size": 1841,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/sheet.tsx",
+        "size": 6248,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/sidebar.tsx",
+        "size": 21841,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/skeleton.tsx",
+        "size": 1400,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/slider.tsx",
+        "size": 2805,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/sonner.tsx",
+        "size": 2069,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/spinner.tsx",
+        "size": 1405,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/switch.tsx",
+        "size": 3079,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/table.tsx",
+        "size": 9122,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/tabs.tsx",
+        "size": 4931,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/textarea.tsx",
+        "size": 2012,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/toggle-group.tsx",
+        "size": 4574,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/toggle.tsx",
+        "size": 3019,
+        "mode": 420
+      },
+      {
+        "path": "src/ui/tooltip.tsx",
+        "size": 4237,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/animated-api-key.tsx",
+        "size": 2802,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/code-block.tsx",
+        "size": 5075,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/context-chip.tsx",
+        "size": 5155,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/cost-breakdown.tsx",
+        "size": 8002,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/data-table.tsx",
+        "size": 32004,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/dev-toolbar.tsx",
+        "size": 17735,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/eval-scores.tsx",
+        "size": 9275,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/foggy/foggy-message.tsx",
+        "size": 3776,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/foggy/foggy-widget.tsx",
+        "size": 26269,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/foggy/index.ts",
+        "size": 662,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/foggy/markdown.tsx",
+        "size": 3579,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/foggy/types.ts",
+        "size": 843,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/header-slot.tsx",
+        "size": 3851,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/heat-cell.tsx",
+        "size": 4347,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/agent-icon.tsx",
+        "size": 3608,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/copy-button.tsx",
+        "size": 2570,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/copy-icon.tsx",
+        "size": 3031,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/customer-avatar.tsx",
+        "size": 2831,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/favicon.ts",
+        "size": 1153,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/node-flow.tsx",
+        "size": 6027,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/preset-meta.ts",
+        "size": 7322,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/project-icon.tsx",
+        "size": 3371,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/relative-time.tsx",
+        "size": 1953,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/scan-brand.tsx",
+        "size": 3577,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/span-type.tsx",
+        "size": 5367,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/stat.tsx",
+        "size": 2028,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/sunset-card.tsx",
+        "size": 3003,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/leaf/tool-icon.tsx",
+        "size": 2020,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/markdown.tsx",
+        "size": 3653,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/model-chip.tsx",
+        "size": 2747,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/nav.ts",
+        "size": 5021,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/page-parts.tsx",
+        "size": 28045,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/payload-view.tsx",
+        "size": 16440,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/project-context.tsx",
+        "size": 3063,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/prompt-prose.tsx",
+        "size": 11764,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/prompt-version-chip.tsx",
+        "size": 2485,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/prompt-versions-card.tsx",
+        "size": 16118,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/quota-card.tsx",
+        "size": 3448,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/range-context.tsx",
+        "size": 2976,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/range-picker.tsx",
+        "size": 9185,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/route-header.tsx",
+        "size": 3072,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/run-exchange.tsx",
+        "size": 20918,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/theme-switcher.tsx",
+        "size": 5013,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/tool-breakdown.tsx",
+        "size": 8774,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/trace-timeline.tsx",
+        "size": 43527,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/trend-charts.tsx",
+        "size": 13494,
+        "mode": 420
+      },
+      {
+        "path": "src/widgets/user-menu.tsx",
+        "size": 2877,
+        "mode": 420
+      }
+    ],
+    "entryCount": 274,
+    "bundled": []
+  }
+]

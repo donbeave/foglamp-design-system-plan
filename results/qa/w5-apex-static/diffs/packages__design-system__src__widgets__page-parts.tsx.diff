@@ -1,0 +1,82 @@
+--- .reference/foglamp/apps/web/src/components/app/page-parts.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/page-parts.tsx	2026-11-05 19:02:56
+@@ -5,10 +5,10 @@
+     return (<div className="flex flex-wrap items-end justify-between gap-4 px-8 h-8">
+       <div className="flex min-w-0 flex-col gap-1.5">
+         {back && BackIcon ? (<h1 className="flex items-center gap-1.5 text-base font-medium tracking-tight">
+-            <Link href={back.href} className="flex shrink-0 items-center gap-2 text-muted-foreground transition-colors hover:text-foreground">
++            <FoglampLink href={back.href} className="flex shrink-0 items-center gap-2 text-muted-foreground transition-colors hover:text-foreground">
+               <BackIcon className={cn("size-4.5 shrink-0", back.iconClassName)}/>
+               {back.label}
+-            </Link>
++            </FoglampLink>
+             <IconChevronRight className="size-4 shrink-0 text-muted-foreground/50 stroke-[1.5px]"/>
+             {titleLeading}
+             <span className="truncate">{title}</span>
+@@ -91,9 +91,9 @@
+     </Card>);
+     if (!href)
+         return card;
+-    return (<Link href={href} className="group/stat block min-w-0">
++    return (<FoglampLink href={href} className="group/stat block min-w-0">
+       {card}
+-    </Link>);
++    </FoglampLink>);
+ }
+ function DeltaBadge({ delta, inverted }) {
+     if (delta.dir === "flat") {
+@@ -210,22 +210,18 @@
+       <div className={cn("pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-linear-to-t to-transparent transition-opacity duration-150", fromClassName, edges.bottom ? cn("opacity-75", bottomFadeClassName) : "opacity-0")}/>
+     </div>);
+ }
+-export function NoProject() {
+-    const invites = useQuery(trpc.orgs.pendingInvitations.queryOptions());
++export function NoProjectView({ invitations = [], onAcceptInvitation = () => undefined, }) {
+     const [accepting, setAccepting] = useState(null);
+     const accept = async (invitationId) => {
+         setAccepting(invitationId);
+-        const res = await authClient.organization.acceptInvitation({
+-            invitationId,
+-        });
+-        if (res.error) {
+-            toast.error(res.error.message ?? "This invitation is no longer valid.");
++        try {
++            await onAcceptInvitation(invitationId);
++        }
++        finally {
+             setAccepting(null);
+-            return;
+         }
+-        window.location.href = "/overview";
+     };
+-    if (invites.data && invites.data.length > 0) {
++    if (invitations.length > 0) {
+         return (<Empty className="mt-12">
+         <EmptyHeader>
+           <EmptyMedia variant="icon">
+@@ -239,7 +235,7 @@
+           </EmptyContent>
+         </EmptyHeader>
+         <div className="flex flex-col gap-2">
+-          {invites.data.map((invite) => (<div key={invite.id} className="flex items-center justify-between gap-6 rounded-lg border px-4 py-3 text-left">
++          {invitations.map((invite) => (<div key={invite.id} className="flex items-center justify-between gap-6 rounded-lg border px-4 py-3 text-left">
+               <div className="flex min-w-0 flex-col">
+                 <span className="truncate text-sm font-medium">
+                   {invite.orgName}
+@@ -249,7 +245,7 @@
+                   {invite.role ? ` · ${invite.role}` : ""}
+                 </span>
+               </div>
+-              <Button size="sm" disabled={accepting !== null} onClick={() => accept(invite.id)}>
++              <Button size="sm" disabled={accepting !== null} onClick={() => void accept(invite.id)}>
+                 {accepting === invite.id ? "Accepting…" : "Accept"}
+               </Button>
+             </div>))}
+@@ -270,6 +266,7 @@
+       </EmptyHeader>
+     </Empty>);
+ }
++export const NoProject = NoProjectView;
+ export function EmptyState({ icon: Icon, title, description, children, className, iconClassName, }) {
+     return (<Empty className={cn("border border-dashed", className)}>
+       <EmptyHeader>

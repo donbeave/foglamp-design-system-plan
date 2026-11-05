@@ -1,0 +1,20 @@
+{
+  "target": "http://127.0.0.1:4178",
+  "build": "ce01e3aa72515a8c557336ac174d9428e17c7046",
+  "coverage": [
+    {"case":"DataTable search", "theme":"light", "result":"pass", "observed":"Searching routing left Customer routing, Failed, $0.0018", "evidence":"table-search.png"},
+    {"case":"FilterSelect open", "theme":"light", "result":"pass", "observed":"Any status, Completed, Running, Failed displayed", "evidence":"filter-open.png"},
+    {"case":"Sibling filter hover", "theme":"light", "result":"pass", "observed":"Traces Explorer Any agent opened; hovering Any model closed agent and opened model", "evidence":"traces-hover.png"},
+    {"case":"Trace inspector", "theme":"light", "result":"partial", "observed":"Clicking first trace opened tr_01 with waterfall and selectable spans", "evidence":"trace-selected.png", "unverified":"phase geometry, hover cursor and repeated siblings"},
+    {"case":"Prompt version diff", "theme":"light", "result":"pass", "observed":"Diff vs v1 showed removed helpful line and added concise and response_policy lines", "evidence":"prompt-diff.png"},
+    {"case":"Evil Brush drag", "theme":"light", "result":"pass", "observed":"Dragging left handle from x447 to x530 changed range to Buckets 5–11; settled SVG 558x84", "evidence":"brush-drag.png"},
+    {"case":"Zoom and tooltip", "theme":"light", "result":"pass", "observed":"Native drag selected Wed → Wed 2; pointer hover displayed Sat, Requests 181, Errors 18", "evidence":"zoom-after.png"},
+    {"case":"Zoom dark", "theme":"dark", "result":"partial", "observed":"Dark preview displayed after switching theme; retained selected range", "evidence":"zoom-dark.png"}
+  ],
+  "findings": [
+    {"case":"Brush initial range label", "result":"fixture defect", "observed":"Initial output Buckets 1–14 disagrees with visibly selected handle range 3–11; interaction updates it", "evidence":"brush-visible.png", "source":"apps/docs/src/stories/charts/evil-brush.story.tsx initializes state 0..last but supplies defaults 2..10"},
+    {"case":"Prompt prose slot fixture", "result":"fixture defect", "observed":"Rendered slots story displays literal named placeholders and no slot chip; parser requires standalone {…} lines", "source":"apps/docs/src/stories/widgets/prompt-prose.story.tsx"},
+    {"case":"Browser console", "result":"warning", "observed":"Fresh Evil Brush page emitted Recharts initial width(-1)/height(-1) warning; later SVG has positive dimensions. No browser errors observed in checked buffers."}
+  ],
+  "limits": ["Portal lifting and reserve/scroll not yet exercised", ">8 option typeahead unexposed", "Long body fold/expand and run drawers unexposed by initial stories", "Eval non-passing states unexposed", "Repeated sibling fold and tooltip cursor not verified", "Dark interaction coverage incomplete", "Double-click zoom reset unverified", "No claim of overall pixel parity or zero layout shifts"]
+}

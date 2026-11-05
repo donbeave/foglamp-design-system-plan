@@ -1,0 +1,35 @@
+--- .reference/foglamp/apps/web/src/components/scan/layout.ts	2026-11-05 19:02:55
++++ packages/design-system/src/lib/scan/layout.ts	2026-11-05 19:02:55
+@@ -1,10 +1,28 @@
+ let elkInstance = null;
+ async function getElk() {
+     if (!elkInstance) {
+-        const [elkApi, worker] = (await Promise.all([
+-            import("elkjs/lib/elk-api.js"),
+-            import("elkjs/lib/elk-worker.min.js"),
+-        ]));
++        const elkApi = (await import("elkjs/lib/elk-api.js"));
++        let worker;
++        const bunRequire = import.meta.require;
++        if ("Bun" in globalThis && typeof bunRequire === "function" && typeof document === "undefined") {
++            const selfDescriptor = Object.getOwnPropertyDescriptor(globalThis, "self");
++            try {
++                Object.defineProperty(globalThis, "self", {
++                    value: undefined,
++                    configurable: true,
++                });
++                worker = bunRequire("elkjs/lib/elk-worker.min.js");
++            }
++            finally {
++                if (selfDescriptor)
++                    Object.defineProperty(globalThis, "self", selfDescriptor);
++                else
++                    Reflect.deleteProperty(globalThis, "self");
++            }
++        }
++        else {
++            worker = await import("elkjs/lib/elk-worker.min.js");
++        }
+         const ELKCtor = (typeof elkApi.default === "function"
+             ? elkApi.default
+             : elkApi.default.default);

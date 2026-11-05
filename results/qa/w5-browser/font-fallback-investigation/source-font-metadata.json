@@ -1,0 +1,11 @@
+{
+  "source": "Foglamp apps/web/src/app/layout.tsx, bun.lock next@16.2.4",
+  "loader": "localFont defaults preload and adjusted Arial fallback; Google font loader defaults preload and adjusted Arial fallback, selecting the Latin subset; postcss adds each fallback after its family in the variable.",
+  "fonts": {
+    "Inter": { "kind": "local", "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3", "ascent": "89.79%", "descent": "22.36%", "lineGap": "0.00%", "sizeAdjust": "107.89%" },
+    "Host Grotesk": { "kind": "Google", "portalLatinSha256": "ce9c9db8a488852eb7e4a52f51fd8ce0c93ef61a8d3bfa054b509ec92958dcfe", "ascent": "96.69%", "descent": "30.01%", "lineGap": "0.00%", "sizeAdjust": "104.98%" },
+    "Geist Mono": { "kind": "Google", "portalLatinSha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc", "ascent": "74.67%", "descent": "21.92%", "lineGap": "0.00%", "sizeAdjust": "134.59%" }
+  },
+  "derivation": ["derive-metrics.cjs", "derive-google-metrics.cjs"],
+  "note": "Google hashes identify current portal Fontsource files; source Google download byte identity has not been established."
+}

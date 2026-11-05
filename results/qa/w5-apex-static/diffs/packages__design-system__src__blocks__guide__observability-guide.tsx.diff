@@ -1,0 +1,20 @@
+--- .reference/foglamp/apps/web/src/components/marketing/how-it-works/observability-guide.tsx	2026-11-05 19:02:54
++++ packages/design-system/src/blocks/guide/observability-guide.tsx	2026-11-05 19:02:54
+@@ -243,7 +243,7 @@
+         </button>
+       </div>
+       <div className={styles.artwork}>
+-        <Image src="/illustrations/ai-workshop.webp" alt="A hand-drawn workshop with an agent at a desk, an order clerk, a counting room, an inspection bench, and a bell tower. Messages travel between its rooms." width={1536} height={1024} sizes="(max-width: 900px) 100vw, 65vw" preload className={styles.workshopImage}/>
++        <img src={new URL("./ai-workshop.webp", import.meta.url).href} alt="A hand-drawn workshop with an agent at a desk, an order clerk, a counting room, an inspection bench, and a bell tower. Messages travel between its rooms." width={1536} height={1024} sizes="(max-width: 900px) 100vw, 65vw" fetchPriority="high" className={styles.workshopImage}/>
+         <svg ref={routesRef} className={styles.routes} viewBox="0 0 100 66.667" fill="none" aria-hidden="true">
+           <path className={styles.routeUnderlay} d={REQUEST_PATH}/>
+           <path className={styles.requestRoute} d={REQUEST_PATH}/>
+@@ -281,7 +281,7 @@
+       </div>
+     </figure>);
+ }
+-export function ObservabilityGuide() {
++export function ObservabilityGuideBlock() {
+     const [active, setActive] = useState(0);
+     const [paused, setPaused] = useState(false);
+     const [alertFiring, setAlertFiring] = useState(false);

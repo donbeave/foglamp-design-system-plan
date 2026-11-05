@@ -1,0 +1,37 @@
+{
+  "task_id": "W5-2E-markdown-routing",
+  "archive_only": true,
+  "commands": [
+    {
+      "command": "design-system tsc --noEmit",
+      "exit_code": 0
+    },
+    {
+      "command": "bun run check:portal",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 verify-source.py",
+      "exit_code": 0
+    },
+    {
+      "command": "agent-browser native click and anchor attribute assertions",
+      "exit_code": 0
+    }
+  ],
+  "browser_errors": 0,
+  "native_provider_clicks": [
+    "/traces/abc",
+    "//example.com/path"
+  ],
+  "classes_unchanged": true,
+  "non_anchor_renderers_unchanged": true,
+  "limits": [
+    "Source-only harness; production rebuild belongs to coordinator."
+  ],
+  "state": "REVIEW"
+}

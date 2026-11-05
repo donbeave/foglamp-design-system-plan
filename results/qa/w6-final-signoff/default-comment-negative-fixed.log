@@ -1,0 +1,6 @@
+Verified 266 headers; body hashes unchanged
+ERROR /Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/content/docs/primitives/button.mdx: missing active imported StoryProvenance with matching literal props
+MDX provenance: 175 page(s), 1 issue(s)
+Public attribution: 6 surface(s), 0 issue(s)
+ERROR active MDX provenance validation failed
+Provenance gates: 1 issue(s)

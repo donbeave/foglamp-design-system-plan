@@ -1,0 +1,19 @@
+{
+  "task_id": "W5-5.2",
+  "profile": "foglamp_sol_high",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "decision": "ACCEPTED",
+  "scope": "Wave 5 original-source extraction, connected visual/behavior review and mandatory attribution",
+  "native_cases": 322,
+  "native_exact_pixel_and_recorded_styles": 312,
+  "dashboard_cases": 64,
+  "raw_strict_raster_exceptions_retained": true,
+  "product_classes_changed_to_hide_raster_differences": false,
+  "thresholds_relaxed": false,
+  "open_identified_product_regressions": [],
+  "delivery_verification": "VERIFIED",
+  "goal_complete": false,
+  "report": "results/qa/w5-apex/report.md",
+  "pushed_commit": "5b1d9f423647a92fce0d0c15d7e69f6ed54848d1"
+}

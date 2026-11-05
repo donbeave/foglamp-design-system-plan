@@ -1,0 +1,11 @@
+{
+  "source": "Foglamp layout.tsx configurations interpreted by pinned next@16.2.4 Google font loader",
+  "retrieved": "2026-11-05",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36",
+  "requests": [
+    {"family":"Host Grotesk", "css":"https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300..800&display=swap", "latin":"https://fonts.gstatic.com/s/hostgrotesk/v5/co3BmWBnlCJ3U42vbbfdwMjZpFjmw07Arg.woff2", "googleSha256":"5662dcd15d8c7dc5bf2168baa71072e509c5b97167554b861293f68e1aa6dde8", "fontsourceSha256":"ce9c9db8a488852eb7e4a52f51fd8ce0c93ef61a8d3bfa054b509ec92958dcfe"},
+    {"family":"Geist Mono", "css":"https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap", "latin":"https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmhHkjko.woff2", "googleSha256":"5f3d6ad60f29d6cb708414ec6887163d63bf197377ef5417d2483ff31ace6c3b", "fontsourceSha256":"684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc"}
+  ],
+  "license": "SIL Open Font License 1.1, per installed @fontsource-variable packages; downloaded font binaries remain in /tmp and are not included in this artifact.",
+  "limits": "Google responses are current retrievals, not verified historic build bytes; only Latin subsets and sampled discrete weights are compared."
+}

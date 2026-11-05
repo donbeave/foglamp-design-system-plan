@@ -1,0 +1,32 @@
+--- .reference/foglamp/apps/web/src/components/app/prompt-prose.tsx	2026-11-05 19:02:56
++++ packages/design-system/src/widgets/prompt-prose.tsx	2026-11-05 19:02:56
+@@ -105,17 +105,6 @@
+         })}
+     </>);
+ }
+-export function useSlotExamples(versionId, slotCount) {
+-    const { projectId } = useProject();
+-    return useQuery({
+-        ...trpc.agents.promptSlotExamples.queryOptions({
+-            projectId: projectId,
+-            versionId,
+-        }),
+-        enabled: !!projectId && slotCount > 0,
+-        staleTime: 5 * 60 * 1000,
+-    });
+-}
+ function SlotChip({ index, count, examples, loading, }) {
+     return (<HoverCard>
+       <HoverCardTrigger delay={200} render={<button type="button"/>} className="inline-flex cursor-default items-center gap-1 rounded-md bg-lime-400 px-1.5 py-0.5 text-[11px] font-medium text-lime-950 transition-colors hover:bg-lime-300 dark:bg-lime-600 dark:hover:bg-lime-500">
+@@ -145,9 +134,8 @@
+       </HoverCardContent>
+     </HoverCard>);
+ }
+-export function PromptProse({ template, versionId, slotCount, className, }) {
+-    const examples = useSlotExamples(versionId, slotCount);
+-    return (<PromptProseView template={template} slots={examples.data} loading={examples.isLoading} className={className}/>);
++export function PromptProse({ template, slots, loading, className }) {
++    return <PromptProseView template={template} slots={slots} loading={loading} className={className}/>;
+ }
+ export function PromptProseView({ template, slots, loading = false, className, }) {
+     const blocks = useMemo(() => parsePrompt(template), [template]);

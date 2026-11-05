@@ -1,0 +1,53 @@
+--- .reference/foglamp/packages/sdk/src/hud/react/useHudStream.ts	2026-11-05 19:02:55
++++ packages/design-system/src/hud/useHudStream.ts	2026-11-05 19:02:55
+@@ -1,26 +1,30 @@
+ "use client";
+-export function useHudStream(port, url) {
++export function createMockHudStream(initialEvents = []) {
++    const history = [...initialEvents];
++    const listeners = new Set();
++    return {
++        subscribe(listener) {
++            history.forEach(listener);
++            listeners.add(listener);
++            return () => { listeners.delete(listener); };
++        },
++        emit(event) {
++            history.push(event);
++            listeners.forEach(listener => listener(event));
++        },
++    };
++}
++export function useHudStream(stream) {
+     const [state, dispatch] = useReducer(reduce, initialState);
+-    const [conn, setConn] = useState("connecting");
++    const [conn, setConn] = useState("closed");
+     const clear = useCallback(() => dispatch({ type: "clear" }), []);
+     useEffect(() => {
+-        if (typeof EventSource === "undefined")
+-            return;
+-        const src = url ?? `http://127.0.0.1:${port}/events`;
+-        const es = new EventSource(src);
+-        es.onopen = () => setConn("open");
+-        es.onmessage = (e) => {
+-            try {
+-                dispatch(JSON.parse(e.data));
+-            }
+-            catch {
+-            }
+-        };
+-        es.onerror = () => setConn("connecting");
+-        return () => {
+-            es.close();
+-            setConn("closed");
+-        };
+-    }, [port, url]);
++        dispatch({ type: "clear" });
++        if (stream) {
++            setConn("open");
++            return stream.subscribe(dispatch);
++        }
++        setConn("closed");
++    }, [stream]);
+     return { state, conn, clear };
+ }

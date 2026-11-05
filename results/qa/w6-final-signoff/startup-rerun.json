@@ -1,0 +1,404 @@
+{
+  "browser": "Chrome/157.0.8103.39",
+  "rows": [
+    {
+      "device": "desktop",
+      "theme": "light",
+      "path": "/",
+      "title": "Framerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs",
+      "text": "Framerock\nOriginal design by\nGustavo Fior (@gustavo-fior)\n·\nAbdul Haidar\n·\nFoglamp Labs\nFoundations\nComponents\nStories\nCredits & Original Creator\nLog in\nStart free\n\nOriginal design by\nGustavo Fior\n(\n@gustavo-fior\n,\n@heyimgustavo\n), co-founder\nAbdul Haidar\n, and\nFoglamp Labs\n· extracted AS-IS from\nfoglamp-labs/foglamp\n\nOrigin, Inspiration & Open-Source Attribution\n\n“Good artists copy, great artists steal.” — Steve Jobs (who famously admitted that Apple has “always been shameless about stealing great ideas”)\n\nWe apply that exact principle here — openly, proudly, and in full compliance with the Apache-2.0 open-source license. Every component in Framerock is either copied 1:1 or directly inspired by Foglamp (github.com/foglamp-labs/foglamp at commit 7d7e6609108019a74902858d4b07c24825c6318b), originally designed and engineered by Gustavo Fior (@gustavo-fior) (gustavofior.com · @heyimgustavo · LinkedIn) and co-founder Abdul Haidar at Foglamp Labs.\n\nWhy we extracted this work & our honest humility: Today, we keep these components 1:1 visually and behaviorally identical to foglamp-labs/foglamp (with only framework-decoupling modifications documented under Apache-2.0 Section 4(b)). Over time, Tailrocks will extend Framerock with modified and newly authored components following this design language — though we humbly admit we don't think we can ever make our additions look quite as extraordinary as how Gustavo Fior crafted the originals. We extracted and packaged this system because we fell in love with its rare, obsessive quality and wanted to use it across Tailrocks projects (alongside Termrock for the terminal) and share it with the wider internet.\n\nNon-Affiliation Disclaimer: Framerock is an independent open-source project maintained by Tailrocks and is not affiliated with, sponsored by, or endorsed by Gustavo Fior, Abdul Haidar, or Foglamp Labs. Any modifications, decoupling changes, or newly added components are solely the responsibility of Tailrocks.\n\nFramerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs.\n\nKnow what your agents are doing\n\nCost, latency, and quality of every call your agents make. Two lines of code, built for the Vercel AI SDK.\n\nCopy agent prompt\nStart free\nBuilt for the\nAcme\nOverview\nWorkflows\nAgents\nSessions\nTraces\nEvals\nAlerts\nAPI Keys\nSettings\nAlex Morgan\nTraces\nAny agent\nAny model\nErrors only\n24h\n3d\n7d\nLast 24 hours\nTrace\t\nSpans\n\t\nTokens\n\t\nDuration\n\t\nCost\n\t\nWhen\n\n\nHey, my order #48213 still says \"processing\" after 5 days. Can you check what's going on?\nGPT-5.6 Sol\nSession\nsupport-triage\nonboard-customer\nAcme Inc\n\t8\t4.2K\t5.84s\t$0.041800\t12s ago\n\nCompare vector DB options for a 50M-embedding workload\nClaude Fable 5\nresearch-planner\nGlobex\n\t14\t12K\t9.12s\t$0.124000\t48s ago\n\nDraft a renewal reminder for dormant workspaces\nGemini 3.5 Flash\nemail-drafter\nInitech\n\t3\t1.9K\t1.58s\t$0.009400\t3m ago\n\nWhich accounts drove the Q3 revenue dip? Break it down by plan tier\n2\nClaude Fable 5\nSession\nsql-analyst\nGlobex\n\t17\t15K\t12.68s\t$0.162000\t8m ago\n\nTranslate the onboarding guide to Japanese, keep the code blocks\nGLM 5\ndoc-translator\nInitech\n\t5\t9.8K\t2.14s\t$0.012100\t14m ago\n\nReconcile the Stripe payout against invoices for July\nMiniMax M2.5\nbilling-reconciler\nweekly-digest\nHooli\n\t4\t1.4K\t920ms\t$0.003800\t19m ago\n6 traces\n/\n1 to 6\nOlwen\nM\nTIM\nOption\nLKPR\nmainline\nKA’A\nLVARGAS\n\nINTERACTIVE STORY\n\nExplore the component controls\nOpen primitive reference\nButton\nPrimary\nOutline\nDestructive\nDisabled\nSurface\nDefault\nMuted\nDark Lift\nLight\nDark\nProps\nReset\nvariant\nSelect\n\"default\"\n\"destructive\"\n\"ghost\"\n\"link\"\n\"outline\"\n\"secondary\"\nsize\nSelect\n\"default\"\n\"lg\"\n\"sm\"\ndisabled\nnpx shadcn@latest add http://127.0.0.1:4205/r/ui-button.json\nCopy\n\nProvenance: Modified (Import/Prop Decoupled)\n\nExtracted from the exact upstream file button.tsx.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)\n\nOriginal Design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs (foglamp-labs/foglamp) · foglamp.dev\nFoundations\n\nTokens, geometry, typography, and motion.\n\nComponent reference\n\nBrowse primitives, widgets, charts, and blocks.\n\nInteractive stories\n\nInspect live components with controls.\n\nSupport Agent\nClaude Fable 5\nPassed\nplan\nsearch_docs\ngenerateText\nreply\nCost\n$0.0041\nLatency\n2.3s\nTokens\n1,842\nEvals\n94%\nYour agents are running in the fog\n\nWhat they cost, when they break, what they say. One prompt turns the light on.\n\nCopy agent prompt\nStart free\nFoglamp\n\nObservability for AI agents.\n\nProduct\nCost intelligence\nEvals\nAlerts\nAgents\nDistributed traces\nSDK\nPricing\nResources\nDocs\nQuickstart\nSelf-hosting\nChangelog\nGitHub\nLabs\nScan\nHUD\nCompany\nPrivacy\nTerms\n\nOriginal design by Gustavo Fior (@gustavo-fior) · Abdul Haidar · Foglamp Labs · foglamp-labs/foglamp",
+      "links": [
+        {
+          "text": "Framerock",
+          "href": "http://127.0.0.1:4205/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "(@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Foundations",
+          "href": "http://127.0.0.1:4205/docs/foundations/tokens",
+          "visible": true
+        },
+        {
+          "text": "Components",
+          "href": "http://127.0.0.1:4205/docs/primitives/button",
+          "visible": true
+        },
+        {
+          "text": "Stories",
+          "href": "http://127.0.0.1:4205/docs/primitives/button",
+          "visible": true
+        },
+        {
+          "text": "Credits & Original Creator",
+          "href": "http://127.0.0.1:4205/docs/credits",
+          "visible": true
+        },
+        {
+          "text": "",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Log in",
+          "href": "http://127.0.0.1:4205/docs/foundations/installation",
+          "visible": true
+        },
+        {
+          "text": "Start free",
+          "href": "http://127.0.0.1:4205/docs/foundations/installation",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior",
+          "href": "https://gustavofior.com/",
+          "visible": false
+        },
+        {
+          "text": "(@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": false
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": false
+        },
+        {
+          "text": "Foglamp Labs",
+          "href": "https://foglamp.dev/",
+          "visible": false
+        },
+        {
+          "text": "foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": false
+        },
+        {
+          "text": "Gustavo Fior",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "@gustavo-fior",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "@heyimgustavo",
+          "href": "https://x.com/heyimgustavo",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Foglamp",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "7d7e6609108019a74902858d4b07c24825c6318b",
+          "href": "https://github.com/foglamp-labs/foglamp/tree/7d7e6609108019a74902858d4b07c24825c6318b",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "gustavofior.com",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "@heyimgustavo",
+          "href": "https://x.com/heyimgustavo",
+          "visible": true
+        },
+        {
+          "text": "LinkedIn",
+          "href": "https://www.linkedin.com/in/gustavofior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Tailrocks",
+          "href": "https://github.com/tailrocks",
+          "visible": true
+        },
+        {
+          "text": "Start free",
+          "href": "http://127.0.0.1:4205/docs/foundations/installation",
+          "visible": true
+        },
+        {
+          "text": "Open primitive reference",
+          "href": "http://127.0.0.1:4205/docs/primitives/button",
+          "visible": true
+        },
+        {
+          "text": "button.tsx",
+          "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx",
+          "visible": true
+        },
+        {
+          "text": "github.com/foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior (@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs (foglamp-labs/foglamp)",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "foglamp.dev",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "FoundationsTokens, geometry, typography, and motion.",
+          "href": "http://127.0.0.1:4205/docs/foundations/tokens",
+          "visible": true
+        },
+        {
+          "text": "Component referenceBrowse primitives, widgets, charts, and blocks.",
+          "href": "http://127.0.0.1:4205/docs/primitives/button",
+          "visible": true
+        },
+        {
+          "text": "Interactive storiesInspect live components with controls.",
+          "href": "http://127.0.0.1:4205/docs/primitives/button",
+          "visible": true
+        },
+        {
+          "text": "Start free",
+          "href": "http://127.0.0.1:4205/docs/foundations/installation",
+          "visible": true
+        },
+        {
+          "text": "Cost intelligence",
+          "href": "http://127.0.0.1:4205/docs/figures/costs-total",
+          "visible": true
+        },
+        {
+          "text": "Evals",
+          "href": "http://127.0.0.1:4205/docs/figures/quality-review",
+          "visible": true
+        },
+        {
+          "text": "Alerts",
+          "href": "http://127.0.0.1:4205/docs/figures/costs-alert",
+          "visible": true
+        },
+        {
+          "text": "Agents",
+          "href": "http://127.0.0.1:4205/docs/widgets/agent-icon",
+          "visible": true
+        },
+        {
+          "text": "Distributed traces",
+          "href": "http://127.0.0.1:4205/docs/widgets/trace-timeline",
+          "visible": true
+        },
+        {
+          "text": "SDK",
+          "href": "http://127.0.0.1:4205/docs/foundations/installation",
+          "visible": true
+        },
+        {
+          "text": "Pricing",
+          "href": "http://127.0.0.1:4205/docs/foundations/installation",
+          "visible": true
+        },
+        {
+          "text": "Docs",
+          "href": "https://docs.foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "Quickstart",
+          "href": "https://docs.foglamp.dev/quickstart",
+          "visible": true
+        },
+        {
+          "text": "Self-hosting",
+          "href": "https://docs.foglamp.dev/self-hosting",
+          "visible": true
+        },
+        {
+          "text": "Changelog",
+          "href": "https://docs.foglamp.dev/changelog",
+          "visible": true
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        },
+        {
+          "text": "Scan",
+          "href": "http://127.0.0.1:4205/docs/blocks/scan-landing-block",
+          "visible": true
+        },
+        {
+          "text": "HUD",
+          "href": "http://127.0.0.1:4205/docs/widgets/foglamp-hud",
+          "visible": true
+        },
+        {
+          "text": "Privacy",
+          "href": "https://foglamp.dev/privacy",
+          "visible": true
+        },
+        {
+          "text": "Terms",
+          "href": "https://foglamp.dev/terms",
+          "visible": true
+        },
+        {
+          "text": "Gustavo Fior",
+          "href": "https://gustavofior.com/",
+          "visible": true
+        },
+        {
+          "text": "(@gustavo-fior)",
+          "href": "https://github.com/gustavo-fior",
+          "visible": true
+        },
+        {
+          "text": "Abdul Haidar",
+          "href": "https://www.linkedin.com/in/abdulhdr/",
+          "visible": true
+        },
+        {
+          "text": "Foglamp Labs",
+          "href": "https://foglamp.dev/",
+          "visible": true
+        },
+        {
+          "text": "foglamp-labs/foglamp",
+          "href": "https://github.com/foglamp-labs/foglamp",
+          "visible": true
+        }
+      ],
+      "provenance": [
+        {
+          "text": "Provenance: Modified (Import/Prop Decoupled)\n\nExtracted from the exact upstream file button.tsx.\n\nUpstream: github.com/foglamp-labs/foglamp · foglamp.dev · Original design by Gustavo Fior (@gustavo-fior)",
+          "links": [
+            {
+              "text": "button.tsx",
+              "href": "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx"
+            },
+            {
+              "text": "github.com/foglamp-labs/foglamp",
+              "href": "https://github.com/foglamp-labs/foglamp"
+            },
+            {
+              "text": "foglamp.dev",
+              "href": "https://foglamp.dev/"
+            },
+            {
+              "text": "Gustavo Fior (@gustavo-fior)",
+              "href": "https://gustavofior.com/"
+            }
+          ],
+          "rect": {
+            "x": 124,
+            "y": 2695,
+            "width": 1192,
+            "height": 111,
+            "top": 2695,
+            "right": 1316,
+            "bottom": 2806,
+            "left": 124
+          }
+        }
+      ],
+      "shifts": [],
+      "overflow": false,
+      "workbenches": 1,
+      "frames": [
+        {
+          "title": "Button",
+          "ready": "complete",
+          "theme": "light",
+          "text": "Run evaluation\nView trace\nMore options",
+          "sourceSurface": true,
+          "boundary": "not-fumadocs-codeblock",
+          "bg": "oklch(0.99 0 0)",
+          "fg": "oklch(0.145 0 0)",
+          "overflow": false
+        }
+      ],
+      "events": []
+    }
+  ]
+}

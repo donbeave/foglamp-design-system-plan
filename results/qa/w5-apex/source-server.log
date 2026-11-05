@@ -1,0 +1,424 @@
+
+  VITE v8.3.6  ready in 155 ms
+
+  ➜  Local:   http://127.0.0.1:4202/
+(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error:   Failed to scan for dependencies from entries:
+  /Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w5-apex/harness/index.html
+/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w5-apex/harness/kbd-source.html
+
+  Build failed with 1 error:
+
+[31m[TSCONFIG_ERROR] [0mFailed to load tsconfig '@foglamp/config/tsconfig.base.json': Tsconfig not found
+
+    at aggregateBindingErrorsIntoJsError (/Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/rolldown@1.2.16/node_modules/rolldown/dist/shared/error-BJ9uQLIS.mjs:50:22)
+    at unwrapBindingResult (/Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/rolldown@1.2.16/node_modules/rolldown/dist/shared/error-BJ9uQLIS.mjs:20:128)
+    at <anonymous> (/Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/rolldown@1.2.16/node_modules/rolldown/dist/experimental-index.mjs:239:3)
+    at async build (/Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/vite@8.3.6+8b77c9380f5a772e/node_modules/vite/dist/node/chunks/node.js:28154:9)
+    at async scan (/Users/donbeave/Projects/donbeave/foglamp-design-system/node_modules/.bun/vite@8.3.6+8b77c9380f5a772e/node_modules/vite/dist/node/chunks/node.js:28093:18)
+7:26:32 PM [vite] (client) dependencies optimized: next-themes, react-dom/client
+7:26:32 PM [vite] (client) optimized dependencies changed. reloading
+7:26:32 PM [vite] (client) dependency optimized: motion/react
+7:26:32 PM [vite] (client) optimized dependencies changed. reloading
+7:26:33 PM [vite] (client) dependencies optimized: @base-ui/react/button, @base-ui/react/merge-props, @base-ui/react/tooltip, @base-ui/react/use-render, @tabler/icons-react, class-variance-authority, cn
+7:27:13 PM [vite] (client) dependencies optimized: @base-ui/react/dialog, @base-ui/react/input
+7:27:13 PM [vite] (client) optimized dependencies changed. reloading
+7:27:13 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:27:13 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:27:13 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useContext')
+    at exports.useContext (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-BzQ76eqs.js?v=24149dfa:736:22)
+    at useDialogRootContext (http://127.0.0.1:4202/node_modules/.vite-source/deps/@base-ui_react_dialog.js?v=e6c0d62f:13:41)
+    at DialogRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/@base-ui_react_dialog.js?v=e6c0d62f:1433:34)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:12863:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:4210:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:5566:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:6137:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:848:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:8426:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=fa166878:8322:37)
+
+The above error occurred in the <DialogRoot> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:27:21 PM [vite] (client) dependency optimized: @base-ui/react/toggle
+7:27:21 PM [vite] (client) optimized dependencies changed. reloading
+7:27:21 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:27:21 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:27:21 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useId')
+    at exports.useId (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-BzQ76eqs.js?v=4c48cb60:752:30)
+    at useId (http://127.0.0.1:4202/node_modules/.vite-source/deps/createBaseUIEventDetails-Ksl-4jWV.js?v=4c48cb60:27:19)
+    at useBaseUiId (http://127.0.0.1:4202/node_modules/.vite-source/deps/createBaseUIEventDetails-Ksl-4jWV.js?v=4c48cb60:39:9)
+    at Toggle (http://127.0.0.1:4202/node_modules/.vite-source/deps/@base-ui_react_toggle.js?v=67af38f7:152:16)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=24149dfa:12863:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=24149dfa:4210:19)
+    at updateForwardRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=24149dfa:5393:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=24149dfa:6201:21)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=24149dfa:848:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=24149dfa:8426:92)
+
+The above error occurred in the <Toggle> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:27:23 PM [vite] (client) dependencies optimized: date-fns, recharts
+7:27:23 PM [vite] (client) optimized dependencies changed. reloading
+7:27:27 PM [vite] (client) dependencies optimized: @base-ui/react/preview-card, sonner
+7:27:27 PM [vite] (client) optimized dependencies changed. reloading
+7:27:36 PM [vite] (client) dependencies optimized: @base-ui/react/avatar, @base-ui/react/menu, @base-ui/react/separator, border-beam, streamdown
+7:27:36 PM [vite] (client) optimized dependencies changed. reloading
+7:27:42 PM [vite] (client) [optimizer] bundling dependencies...
+7:27:42 PM [vite] (client) dependencies optimized: @base-ui/react/switch, elkjs/lib/elk-api.js, elkjs/lib/elk-worker.min.js
+7:27:42 PM [vite] (client) optimized dependencies changed. reloading
+7:27:42 PM [vite] (client) [Unhandled rejection] TypeError: Failed to fetch dynamically imported module: http://127.0.0.1:4202/node_modules/.vite-source/deps/elkjs_lib_elk-api__js.js?v=47cf16f7
+
+7:27:45 PM [vite] (client) [console.error] Received `true` for a non-boolean attribute `preload`.
+
+If you want to write it to the DOM, pass a string instead: preload="true" or preload={value.toString()}.
+7:27:48 PM [vite] (client) dependencies optimized: @base-ui/react/popover, @base-ui/react/select, react-day-picker, shiki/core, shiki/engine/javascript, shiki/langs/json.mjs, shiki/langs/typescript.mjs, shiki/themes/github-light.mjs, shiki/themes/vesper.mjs
+7:27:48 PM [vite] (client) optimized dependencies changed. reloading
+7:28:17 PM [vite] (client) [console.error] Received `true` for a non-boolean attribute `preload`.
+
+If you want to write it to the DOM, pass a string instead: preload="true" or preload={value.toString()}.
+7:31:42 PM [vite] (client) page reload main.tsx
+7:32:33 PM [vite] results/qa/w5-apex/harness/vite.config.ts changed, restarting server...
+7:32:33 PM [vite] server restarted.
+7:35:28 PM [vite] results/qa/w5-apex/harness/vite.config.ts changed, restarting server...
+7:35:28 PM [vite] server restarted.
+7:39:28 PM [vite] (client) page reload main.tsx
+7:48:54 PM [vite] (client) page reload wall-clock.ts
+7:48:54 PM [vite] (client) page reload frame-clock.ts
+7:48:58 PM [vite] (client) dependencies optimized: @base-ui/react/radio-group, @base-ui/react/radio
+7:48:58 PM [vite] (client) optimized dependencies changed. reloading
+7:49:03 PM [vite] (client) dependency optimized: @base-ui/react/slider
+7:49:03 PM [vite] (client) optimized dependencies changed. reloading
+7:49:16 PM [vite] (client) dependency optimized: cmdk
+7:49:16 PM [vite] (client) optimized dependencies changed. reloading
+7:49:20 PM [vite] (client) dependency optimized: @base-ui/react/alert-dialog
+7:49:20 PM [vite] (client) optimized dependencies changed. reloading
+7:49:42 PM [vite] (client) [optimizer] bundling dependencies...
+7:49:42 PM [vite] (client) dependency optimized: @base-ui/react/accordion
+7:49:42 PM [vite] (client) optimized dependencies changed. reloading
+7:49:49 PM [vite] (client) [optimizer] bundling dependencies...
+7:49:49 PM [vite] (client) dependency optimized: @base-ui/react/tabs
+7:49:49 PM [vite] (client) optimized dependencies changed. reloading
+7:49:53 PM [vite] (client) dependency optimized: @base-ui/react/direction-provider
+7:49:53 PM [vite] (client) optimized dependencies changed. reloading
+7:49:53 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:49:53 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:49:53 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useMemo')
+    at exports.useMemo (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=4f310679:736:30)
+    at DirectionProvider (http://127.0.0.1:4202/node_modules/.vite-source/deps/direction-provider-C9HZb9bk.js?v=4f310679:10:36)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=276c54c0:8307:6)
+
+The above error occurred in the <DirectionProvider> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:49:56 PM [vite] (client) dependency optimized: input-otp
+7:49:56 PM [vite] (client) optimized dependencies changed. reloading
+7:49:56 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:49:56 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:49:56 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useState')
+    at exports.useState (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=125bba35:748:30)
+    at Input (http://127.0.0.1:4202/node_modules/.vite-source/deps/input-otp.js?v=9c96836a:118:29)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:4211:19)
+    at updateForwardRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:5394:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:6202:21)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=4f310679:8307:6)
+
+The above error occurred in the <Input> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:50:01 PM [vite] (client) dependency optimized: embla-carousel-react
+7:50:04 PM [vite] (client) dependency optimized: vaul
+7:50:04 PM [vite] (client) optimized dependencies changed. reloading
+7:50:04 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:50:04 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:50:04 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useState')
+    at exports.useState (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=dd83f81b:748:30)
+    at useUncontrolledState (http://127.0.0.1:4202/node_modules/.vite-source/deps/vaul.js?v=166da17f:312:41)
+    at useControllableState (http://127.0.0.1:4202/node_modules/.vite-source/deps/vaul.js?v=166da17f:329:50)
+    at Root (http://127.0.0.1:4202/node_modules/.vite-source/deps/vaul.js?v=166da17f:635:38)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=125bba35:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=125bba35:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=125bba35:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=125bba35:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=125bba35:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=125bba35:8427:92)
+
+The above error occurred in the <Root> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:50:17 PM [vite] (client) dependency optimized: react-resizable-panels
+7:50:17 PM [vite] (client) optimized dependencies changed. reloading
+7:50:17 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:50:17 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:50:17 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useRef')
+    at exports.useRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=2ccd7e29:745:30)
+    at Ut (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-resizable-panels.js?v=2c6abe52:1144:36)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=dd83f81b:8307:6)
+
+The above error occurred in the <Group> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:50:20 PM [vite] (client) dependency optimized: @base-ui/react/context-menu
+7:50:20 PM [vite] (client) optimized dependencies changed. reloading
+7:50:25 PM [vite] (client) dependency optimized: @base-ui/react/toggle-group
+7:50:25 PM [vite] (client) optimized dependencies changed. reloading
+7:50:38 PM [vite] (client) dependency optimized: @base-ui/react
+7:50:38 PM [vite] (client) optimized dependencies changed. reloading
+7:50:42 PM [vite] (client) dependency optimized: @base-ui/react/scroll-area
+7:50:42 PM [vite] (client) optimized dependencies changed. reloading
+7:50:45 PM [vite] (client) dependency optimized: @base-ui/react/checkbox
+7:50:45 PM [vite] (client) optimized dependencies changed. reloading
+7:50:48 PM [vite] (client) dependency optimized: @base-ui/react/navigation-menu
+7:50:48 PM [vite] (client) optimized dependencies changed. reloading
+7:50:53 PM [vite] (client) dependency optimized: @base-ui/react/progress
+7:50:53 PM [vite] (client) optimized dependencies changed. reloading
+7:50:53 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:50:53 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:50:53 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useState')
+    at exports.useState (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=78366db7:748:30)
+    at ProgressRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/progress-CajxpsVh.js?v=78366db7:58:45)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:4211:19)
+    at updateForwardRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:5394:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:6202:21)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=51344cb9:8307:6)
+
+The above error occurred in the <ProgressRoot> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:50:56 PM [vite] (client) dependency optimized: @base-ui/react/menubar
+7:50:56 PM [vite] (client) optimized dependencies changed. reloading
+7:51:03 PM [vite] (client) dependency optimized: @base-ui/react/collapsible
+7:51:03 PM [vite] (client) optimized dependencies changed. reloading
+7:51:03 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:51:03 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:51:03 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useRef')
+    at exports.useRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=092ab00e:745:30)
+    at useRefWithInit (http://127.0.0.1:4202/node_modules/.vite-source/deps/useRenderElement-DHndoHmk.js?v=092ab00e:15:27)
+    at useStableCallback (http://127.0.0.1:4202/node_modules/.vite-source/deps/useStableCallback-B4k5oHih.js?v=092ab00e:19:17)
+    at CollapsibleRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/collapsible-L6Xgbz_p.js?v=092ab00e:26:23)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=bef261f8:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=bef261f8:4211:19)
+    at updateForwardRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=bef261f8:5394:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=bef261f8:6202:21)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=bef261f8:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=bef261f8:8427:92)
+
+The above error occurred in the <CollapsibleRoot> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:51:12 PM [vite] (client) [console.warn] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+7:51:14 PM [vite] (client) [console.warn] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+7:52:04 PM [vite] (client) dependencies optimized: slot-text, slot-text/react
+7:52:04 PM [vite] (client) optimized dependencies changed. reloading
+7:52:04 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:52:04 PM [vite] (client) [console.error] Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+7:52:04 PM [vite] (client) [console.error] TypeError: Cannot read properties of null (reading 'useRef')
+    at exports.useRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-C6v0fAVO.js?v=cab81fa7:745:30)
+    at SlotText (http://127.0.0.1:4202/node_modules/.vite-source/deps/slot-text_react.js?v=4a9100d5:7:45)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:4211:19)
+    at updateForwardRef (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:5394:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:6202:21)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=092ab00e:8307:6)
+
+The above error occurred in the <SlotText> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+7:53:23 PM [vite] (client) dependencies optimized: @tanstack/react-form, zod
+7:53:23 PM [vite] (client) optimized dependencies changed. reloading
+7:53:38 PM [vite] (client) [Unhandled error] SyntaxError: The requested module '/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/footer.tsx' does not provide an export named 'CuttingMatFooterBlock'
+
+7:53:41 PM [vite] (client) [Unhandled error] SyntaxError: The requested module '/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/landing/cta.tsx' does not provide an export named 'DriftingFogCtaBlock'
+
+7:56:41 PM [vite] (client) [console.warn] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+7:56:43 PM [vite] (client) [console.warn] The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+7:59:02 PM [vite] (client) [Unhandled error] SyntaxError: The requested module '/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/footer.tsx' does not provide an export named 'CuttingMatFooterBlock'
+
+7:59:04 PM [vite] (client) [Unhandled error] SyntaxError: The requested module '/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/landing/cta.tsx' does not provide an export named 'DriftingFogCtaBlock'
+
+8:08:12 PM [vite] results/qa/w5-apex/harness/vite.config.ts changed, restarting server...
+8:08:12 PM [vite] (client) page reload main.tsx
+8:08:12 PM [vite] (client) page reload frame-clock.ts
+8:08:12 PM [vite] server restarted.
+8:10:04 PM [vite] (client) [console.error] ReferenceError: Footer is not defined
+    at CuttingMatFooterBlock (http://127.0.0.1:4202/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/footer.tsx:287:28)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8307:6)
+    at performWorkOnRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:7992:27)
+
+The above error occurred in the <CuttingMatFooterBlock> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+8:10:07 PM [vite] (client) [console.error] ReferenceError: Cta is not defined
+    at DriftingFogCtaBlock (http://127.0.0.1:4202/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/landing/cta.tsx:249:28)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8307:6)
+    at performWorkOnRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:7992:27)
+
+The above error occurred in the <DriftingFogCtaBlock> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+8:10:35 PM [vite] (client) [console.error] ReferenceError: Footer is not defined
+    at CuttingMatFooterBlock (http://127.0.0.1:4202/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/footer.tsx:287:28)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8307:6)
+    at performWorkOnRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:7992:27)
+
+The above error occurred in the <CuttingMatFooterBlock> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+
+8:10:38 PM [vite] (client) [console.error] ReferenceError: Cta is not defined
+    at DriftingFogCtaBlock (http://127.0.0.1:4202/@fs/Users/donbeave/Projects/donbeave/foglamp-design-system/.reference/foglamp/apps/web/src/components/marketing/landing/cta.tsx:249:28)
+    at Object.react_stack_bottom_frame (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:12864:12)
+    at renderWithHooks (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:4211:19)
+    at updateFunctionComponent (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:5567:16)
+    at beginWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:6138:20)
+    at runWithFiberInDEV (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:849:66)
+    at performUnitOfWork (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8427:92)
+    at workLoopSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8323:37)
+    at renderRootSync (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:8307:6)
+    at performWorkOnRoot (http://127.0.0.1:4202/node_modules/.vite-source/deps/react-dom_client.js?v=68c20e48:7992:27)
+
+The above error occurred in the <DriftingFogCtaBlock> component.
+
+React will try to recreate this component tree from scratch using the error boundary you provided, Boundary.
+

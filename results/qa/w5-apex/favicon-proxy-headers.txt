@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Vary: Origin
+cache-control: public, max-age=86400, s-maxage=86400
+content-type: image/png
+Date: Thu, 05 Nov 2026 12:33:57 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
