@@ -4,7 +4,7 @@
   "target_github_owner": "donbeave",
   "target_github_repo_name": "foglamp-design-system",
   "target_local_path": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
-  "wave_push_policy": "Create https://github.com/donbeave/foglamp-design-system under @donbeave in W0-0.1 if not present, land all extracted code there, and commit + git push origin main at the end of every wave (W0-0.2, W1-GATE, W2-GATE, W3-GATE, W4-4H, W5-5.2).",
+  "wave_push_policy": "Create https://github.com/donbeave/foglamp-design-system under @donbeave in W0-0.1 if not present, land all extracted code there, and commit + git push origin main at the end of every wave (W0-0.2, W1-GATE, W2-GATE, W3-GATE, W4-4H, W5-5.2, W6-GATE).",
   "original_source_repository": "https://github.com/foglamp-labs/foglamp",
   "original_creators": {
     "lead_creator": {
@@ -62,7 +62,9 @@
       "profile": "foglamp_terra_medium",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "medium",
-      "depends_on": ["W0-0.1"],
+      "depends_on": [
+        "W0-0.1"
+      ],
       "owned_paths": [
         "packages/design-system/src/styles/globals.css",
         "packages/design-system/src/styles/effects.css",
@@ -80,7 +82,9 @@
       "profile": "foglamp_luna_low",
       "model": "gpt-6-luna",
       "reasoning_effort": "low",
-      "depends_on": ["W0-0.2"],
+      "depends_on": [
+        "W0-0.2"
+      ],
       "owned_paths": [
         "packages/design-system/src/ui/",
         "packages/design-system/src/icons/brand-logos.tsx",
@@ -96,7 +100,9 @@
       "profile": "foglamp_luna_max",
       "model": "gpt-6-luna",
       "reasoning_effort": "max",
-      "depends_on": ["W0-0.2"],
+      "depends_on": [
+        "W0-0.2"
+      ],
       "owned_paths": [
         "packages/design-system/src/ui/button.tsx",
         "packages/design-system/src/ui/button-styles.ts",
@@ -117,7 +123,9 @@
       "profile": "foglamp_luna_medium",
       "model": "gpt-6-luna",
       "reasoning_effort": "medium",
-      "depends_on": ["W0-0.2"],
+      "depends_on": [
+        "W0-0.2"
+      ],
       "owned_paths": [
         "packages/design-system/src/lib/format.ts",
         "packages/design-system/src/lib/range.ts",
@@ -138,7 +146,9 @@
       "profile": "foglamp_terra_medium",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "medium",
-      "depends_on": ["W0-0.2"],
+      "depends_on": [
+        "W0-0.2"
+      ],
       "owned_paths": [
         "packages/design-system/src/lib/scan/",
         "packages/design-system/src/lib/types.ts"
@@ -151,7 +161,9 @@
       "profile": "foglamp_terra_medium",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "medium",
-      "depends_on": ["W0-0.2"],
+      "depends_on": [
+        "W0-0.2"
+      ],
       "owned_paths": [
         "apps/docs/src/components/story-panel.tsx",
         "apps/docs/src/lib/story.tsx"
@@ -164,7 +176,13 @@
       "profile": "foglamp_terra_low",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "low",
-      "depends_on": ["W1-1A", "W1-1B", "W1-1C", "W1-1D", "W1-1E"],
+      "depends_on": [
+        "W1-1A",
+        "W1-1B",
+        "W1-1C",
+        "W1-1D",
+        "W1-1E"
+      ],
       "owned_paths": []
     },
     {
@@ -174,7 +192,9 @@
       "profile": "foglamp_luna_max",
       "model": "gpt-6-luna",
       "reasoning_effort": "max",
-      "depends_on": ["W1-GATE"],
+      "depends_on": [
+        "W1-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/charts/",
         "packages/design-system/src/widgets/trend-charts.tsx",
@@ -189,7 +209,9 @@
       "profile": "foglamp_luna_high",
       "model": "gpt-6-luna",
       "reasoning_effort": "high",
-      "depends_on": ["W1-GATE"],
+      "depends_on": [
+        "W1-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/widgets/page-parts.tsx",
         "packages/design-system/src/widgets/nav.ts",
@@ -216,7 +238,9 @@
       "profile": "foglamp_terra_high",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "high",
-      "depends_on": ["W1-GATE"],
+      "depends_on": [
+        "W1-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/widgets/data-table.tsx",
         "packages/design-system/src/widgets/heat-cell.tsx",
@@ -234,7 +258,9 @@
       "profile": "foglamp_sol_medium",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "medium",
-      "depends_on": ["W1-GATE"],
+      "depends_on": [
+        "W1-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/widgets/trace-timeline.tsx"
       ]
@@ -246,7 +272,9 @@
       "profile": "foglamp_sol_medium",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "medium",
-      "depends_on": ["W1-GATE"],
+      "depends_on": [
+        "W1-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/widgets/foggy/",
         "packages/design-system/src/widgets/dev-toolbar.tsx",
@@ -260,7 +288,13 @@
       "profile": "foglamp_terra_low",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "low",
-      "depends_on": ["W2-2A", "W2-2B", "W2-2C", "W2-2D", "W2-2E"],
+      "depends_on": [
+        "W2-2A",
+        "W2-2B",
+        "W2-2C",
+        "W2-2D",
+        "W2-2E"
+      ],
       "owned_paths": []
     },
     {
@@ -270,7 +304,9 @@
       "profile": "foglamp_luna_max",
       "model": "gpt-6-luna",
       "reasoning_effort": "max",
-      "depends_on": ["W2-GATE"],
+      "depends_on": [
+        "W2-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/blocks/marketing/figures/",
         "packages/design-system/src/blocks/marketing/cta/",
@@ -287,7 +323,9 @@
       "profile": "foglamp_terra_medium",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "medium",
-      "depends_on": ["W2-GATE"],
+      "depends_on": [
+        "W2-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/blocks/app-shell/",
         "packages/design-system/src/blocks/dashboard/"
@@ -300,7 +338,9 @@
       "profile": "foglamp_terra_high",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "high",
-      "depends_on": ["W2-GATE"],
+      "depends_on": [
+        "W2-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/blocks/guide/",
         "packages/design-system/src/blocks/setup/"
@@ -313,7 +353,9 @@
       "profile": "foglamp_sol_medium",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "medium",
-      "depends_on": ["W2-GATE"],
+      "depends_on": [
+        "W2-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/blocks/scan/"
       ]
@@ -325,7 +367,9 @@
       "profile": "foglamp_sol_high",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "depends_on": ["W2-GATE"],
+      "depends_on": [
+        "W2-GATE"
+      ],
       "owned_paths": [
         "packages/design-system/src/blocks/marketing/hero/",
         "packages/design-system/src/blocks/marketing/demo/"
@@ -338,7 +382,13 @@
       "profile": "foglamp_terra_low",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "low",
-      "depends_on": ["W3-3A", "W3-3B", "W3-3C", "W3-3D", "W3-3E"],
+      "depends_on": [
+        "W3-3A",
+        "W3-3B",
+        "W3-3C",
+        "W3-3D",
+        "W3-3E"
+      ],
       "owned_paths": []
     },
     {
@@ -348,7 +398,9 @@
       "profile": "foglamp_luna_medium",
       "model": "gpt-6-luna",
       "reasoning_effort": "medium",
-      "depends_on": ["W3-GATE"],
+      "depends_on": [
+        "W3-GATE"
+      ],
       "owned_paths": [
         "apps/docs/src/stories/primitives/"
       ]
@@ -360,7 +412,9 @@
       "profile": "foglamp_luna_high",
       "model": "gpt-6-luna",
       "reasoning_effort": "high",
-      "depends_on": ["W3-GATE"],
+      "depends_on": [
+        "W3-GATE"
+      ],
       "owned_paths": [
         "apps/docs/src/stories/widgets/",
         "apps/docs/src/stories/charts/"
@@ -373,7 +427,9 @@
       "profile": "foglamp_luna_high",
       "model": "gpt-6-luna",
       "reasoning_effort": "high",
-      "depends_on": ["W3-GATE"],
+      "depends_on": [
+        "W3-GATE"
+      ],
       "owned_paths": [
         "apps/docs/src/stories/blocks/",
         "apps/docs/src/stories/figures/"
@@ -386,7 +442,9 @@
       "profile": "foglamp_terra_low",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "low",
-      "depends_on": ["W3-GATE"],
+      "depends_on": [
+        "W3-GATE"
+      ],
       "owned_paths": [
         "apps/docs/content/docs/index.mdx",
         "apps/docs/content/docs/credits.mdx",
@@ -400,7 +458,9 @@
       "profile": "foglamp_luna_high",
       "model": "gpt-6-luna",
       "reasoning_effort": "high",
-      "depends_on": ["W4-4A"],
+      "depends_on": [
+        "W4-4A"
+      ],
       "owned_paths": [
         "apps/docs/content/docs/primitives/"
       ]
@@ -412,7 +472,9 @@
       "profile": "foglamp_luna_high",
       "model": "gpt-6-luna",
       "reasoning_effort": "high",
-      "depends_on": ["W4-4B"],
+      "depends_on": [
+        "W4-4B"
+      ],
       "owned_paths": [
         "apps/docs/content/docs/widgets/",
         "apps/docs/content/docs/charts/"
@@ -425,7 +487,9 @@
       "profile": "foglamp_luna_high",
       "model": "gpt-6-luna",
       "reasoning_effort": "high",
-      "depends_on": ["W4-4C"],
+      "depends_on": [
+        "W4-4C"
+      ],
       "owned_paths": [
         "apps/docs/content/docs/figures/",
         "apps/docs/content/docs/blocks/"
@@ -438,7 +502,9 @@
       "profile": "foglamp_luna_medium",
       "model": "gpt-6-luna",
       "reasoning_effort": "medium",
-      "depends_on": ["W3-GATE"],
+      "depends_on": [
+        "W3-GATE"
+      ],
       "owned_paths": [
         "packages/registry/registry.json",
         "packages/registry/scripts/build-registry.ts",
@@ -452,7 +518,13 @@
       "profile": "foglamp_luna_low",
       "model": "gpt-6-luna",
       "reasoning_effort": "low",
-      "depends_on": ["W4-4D-LEAD", "W4-4D-REF", "W4-4E", "W4-4F", "W4-4G"],
+      "depends_on": [
+        "W4-4D-LEAD",
+        "W4-4D-REF",
+        "W4-4E",
+        "W4-4F",
+        "W4-4G"
+      ],
       "owned_paths": [
         "apps/docs/src/routes/index.tsx",
         "apps/docs/content/docs/meta.json",
@@ -466,7 +538,9 @@
       "profile": "foglamp_luna_low",
       "model": "gpt-6-luna",
       "reasoning_effort": "low",
-      "depends_on": ["W4-4H"],
+      "depends_on": [
+        "W4-4H"
+      ],
       "owned_paths": []
     },
     {
@@ -476,7 +550,9 @@
       "profile": "foglamp_terra_high",
       "model": "gpt-6.1-terra",
       "reasoning_effort": "high",
-      "depends_on": ["W5-5.1A"],
+      "depends_on": [
+        "W5-5.1A"
+      ],
       "owned_paths": []
     },
     {
@@ -486,8 +562,117 @@
       "profile": "foglamp_sol_high",
       "model": "gpt-6.1-sol",
       "reasoning_effort": "high",
-      "depends_on": ["W5-5.1B"],
+      "depends_on": [
+        "W5-5.1B"
+      ],
       "owned_paths": []
+    },
+    {
+      "task_id": "W6-6A",
+      "wave": 6,
+      "title": "Package, scope, link-context and portal rebrand",
+      "profile": "foglamp_luna_medium",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "depends_on": [
+        "W5-5.2"
+      ],
+      "owned_paths": [
+        "packages/design-system/package.json",
+        "packages/design-system/LICENSE",
+        "packages/design-system/NOTICE",
+        "packages/design-system/src/lib/link-context.tsx",
+        "apps/docs/",
+        "packages/registry/package.json",
+        "tsconfig.base.json",
+        "scripts/",
+        "package.json",
+        "bun.lock",
+        "packages/design-system/src/",
+        "packages/registry/scripts/build-registry.ts",
+        "packages/registry/registry.json"
+      ],
+      "contract": "GOAL-WAVE-6-FRAMEROCK.md"
+    },
+    {
+      "task_id": "W6-6B",
+      "wave": 6,
+      "title": "Anti-impersonation cleanup and neutral configurable defaults",
+      "profile": "foglamp_luna_medium",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "medium",
+      "depends_on": [
+        "W6-6A"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/",
+        "apps/docs/public/",
+        "apps/docs/src/",
+        "apps/docs/content/docs/",
+        "scripts/verify-portal.ts",
+        "packages/registry/registry.json"
+      ],
+      "contract": "GOAL-WAVE-6-FRAMEROCK.md"
+    },
+    {
+      "task_id": "W6-6C",
+      "wave": 6,
+      "title": "Source provenance headers and self-contained registry payloads",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "depends_on": [
+        "W6-6B"
+      ],
+      "owned_paths": [
+        "packages/design-system/src/",
+        "packages/registry/",
+        "apps/docs/public/r/",
+        "scripts/verify-portal.ts",
+        "scripts/provenance/",
+        "package.json"
+      ],
+      "contract": "GOAL-WAVE-6-FRAMEROCK.md"
+    },
+    {
+      "task_id": "W6-6D",
+      "wave": 6,
+      "title": "Public origin tribute and per-component provenance links",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high",
+      "depends_on": [
+        "W6-6C"
+      ],
+      "owned_paths": [
+        "NOTICE",
+        "CREDITS.md",
+        "README.md",
+        "apps/docs/src/routes/index.tsx",
+        "apps/docs/src/components/story-panel.tsx",
+        "apps/docs/content/docs/",
+        "packages/design-system/NOTICE"
+      ],
+      "contract": "GOAL-WAVE-6-FRAMEROCK.md"
+    },
+    {
+      "task_id": "W6-GATE",
+      "wave": 6,
+      "title": "Legal, provenance, attribution, build and final push gate",
+      "profile": "foglamp_sol_high",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "depends_on": [
+        "W6-6D"
+      ],
+      "owned_paths": [
+        "scripts/verify-portal.ts",
+        "package.json"
+      ],
+      "contract": "GOAL-WAVE-6-FRAMEROCK.md",
+      "implementation_note": "Final gate independently reviews verifier implemented during W6-6C; no bulk authoring by reviewer."
     }
-  ]
+  ],
+  "wave_6_contract": "GOAL-WAVE-6-FRAMEROCK.md",
+  "wave_6_execution_policy": "Finish and commit W5-5.2 before W6-6A. W6 tasks run sequentially; final completion requires W6-GATE and both repositories pushed. Existing implementation origin remains donbeave/foglamp-design-system unless separately authorized."
 }

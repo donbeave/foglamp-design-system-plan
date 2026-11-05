@@ -1,0 +1,55 @@
+# Generated dependencies, bundler caches, builds, and browser profiles anywhere.
+**/node_modules/
+**/.vite/
+**/.vite-*/
+**/.cache/
+**/cache/
+**/dist/
+**/build/
+**/playwright/.cache/
+**/browser-profile*/
+**/chrome-profile*/
+**/user-data-dir*/
+
+# Raw QA captures stay local. Keep text reports, repro scripts, configs, and
+# concise summaries versionable; ignore large capture streams and media.
+results/qa/**/*.jsonl
+results/qa/**/*.png
+results/qa/**/*.jpg
+results/qa/**/*.jpeg
+results/qa/**/*.webp
+results/qa/**/*.gif
+results/qa/**/*.mp4
+results/qa/**/*.webm
+results/qa/**/*.pdf
+results/qa/**/*.woff
+results/qa/**/*.woff2
+results/qa/**/*.ttf
+results/qa/**/*.otf
+
+# Per-component render measurements and aggregate comparison/capture dumps.
+results/qa/w5-apex/renders/
+results/qa/w5-apex/comparison.json
+results/qa/w5-apex/figures-reference-rerun.jsonl
+results/qa/w5-apex/render-matrix.jsonl
+results/qa/w5-apex/render-pre-mount-ready.jsonl
+results/qa/w5-apex/corrected-surface-*.jsonl
+results/qa/w5-apex/coupled-smoke.jsonl
+results/qa/w5-apex/clock-smoke.jsonl
+results/qa/w5-apex-dashboard-reference/**/session-*.json
+
+# Generated fixture output and copied installed-consumer trees.
+results/qa/**/fixture/**/dist/
+results/qa/**/fixture-final/**/dist/
+results/qa/**/installed-consumer/node_modules/
+
+# Copied installed component snapshots duplicate implementation sources and
+# may embed upstream photographs; retain each fixture's host/config/repro files.
+**/fixture/src/components/
+**/fixture-final/src/components/
+**/fixtures/fresh/src/components/
+**/installed-consumer/src/components/
+
+# Large diagnostic captures are reproducible and are summarized by reports.
+results/qa/**/font-fallback-investigation/*-slow.json
+results/qa/**/browser-cssom-raw.json
