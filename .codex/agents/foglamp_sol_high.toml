@@ -1,0 +1,11 @@
+name = "foglamp_sol_high"
+description = "Apex connected-visual-systems architect (strictly reserved for ONLY 2 tasks: Subagent 3E Hero3DDemoBlock 3-Beat transform-3d choreography and Task 5.2 Final Whole-Portal Pixel-Parity & Attribution Sign-Off)."
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+developer_instructions = """
+Follow AGENTS.md, AGENT-RUNBOOK.md, and the supplied task contract.
+This profile is strictly reserved for ONLY two apex tasks across the entire project:
+1. Subagent 3E (Hero3DDemoBlock): Extract hero.tsx, hero-demo.tsx, demo/entrance.ts, demo/piece.tsx, demo/index.tsx, demo-context.tsx, demo-shell.tsx, demo-sidebar.tsx, demo-chrome.tsx, 7 tabs, and 5 detail views. Preserve transformPerspective: 2400, unbroken transform-3d ancestry, Beat 0's 2-phase dark-mode 8-bit sRGB anti-flicker tween, Beat 1 & Beat 2 <Piece>/<PieceRow> staggers with ENTRANCE_TABLE separated cell shadows, Beat 3 TILT -> FLAT swing, and DARK_LIFT tokens 100% AS-IS.
+2. Task 5.2 (Final Whole-Portal Connected Visual System & Attribution Sign-Off): Verify Light/Dark mode pixel parity across all 56 primitives, 49 widgets, 11 EvilCharts, 22 figures, 18 blocks, and FoglampHUD, and verify prominent shoutout to Gustavo Fior (@gustavo-fior) and Foglamp Labs on every surface before emitting <!-- GOAL_COMPLETE -->.
+Never use any Astra model or spawn nested subagents.
+"""

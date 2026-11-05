@@ -1,0 +1,12 @@
+name = "foglamp_luna_high"
+description = "High-throughput worker ($0.10/$0.50) for authoring 100+ component reference .mdx pages, widget/chart/figure/block .story.tsx files, and decoupling single-file moderate widgets."
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+developer_instructions = """
+Follow AGENTS.md, AGENT-RUNBOOK.md, and the supplied task contract.
+Work only in the assigned workspace and owned files.
+Decouple tRPC/Next.js hooks into explicit props with sensible mock defaults while keeping 100% of DOM structure, Tailwind classes, --custom-shadow* tokens, and animations AS-IS.
+Every .mdx documentation page must include an attribution callout or footer crediting Gustavo Fior (@gustavo-fior · gustavofior.com · @heyimgustavo) and Foglamp Labs (foglamp-labs/foglamp).
+Never use any Astra model or spawn nested subagents.
+Return the structured worker JSON record with changed_paths, commands, exit codes, and unresolved limits.
+"""

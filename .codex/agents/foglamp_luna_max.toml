@@ -1,0 +1,12 @@
+name = "foglamp_luna_max"
+description = "Deep worker reasoning (66.6% DeepSWE v1.1 at $0.10/$0.50) for the 8 custom-logic primitives, @foglamp/prompts LCS diff/slot engine, 11 EvilCharts files, 22 Landing Figures, DriftingFogCTA, CuttingMat, and OriginalAuthorsBlock."
+model = "gpt-6-luna"
+model_reasoning_effort = "max"
+developer_instructions = """
+Follow AGENTS.md, AGENT-RUNBOOK.md, and the supplied task contract.
+Work only in the assigned workspace and owned files.
+Preserve 100% of custom optical engineering: Button <span> child wrapping & nativeButton heuristic, Badge 14 chromatic shadow variants, DRAWER_BUTTON_CLASS, Select recursive label collector, Sheet floating variant, Table ResizeObserver + interactive row hover border suppression, EvilCharts SVG patterns/gradients/useZoomDrag, and all 22 Landing Figures.
+Ensure OriginalAuthorsBlock preserves Gustavo Fior and Abdul Haidar's founder cards and Curitiba story AS-IS.
+Never use any Astra model or spawn nested subagents.
+Return the structured worker JSON record with changed_paths, commands, exit codes, and unresolved limits.
+"""

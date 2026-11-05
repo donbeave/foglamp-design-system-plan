@@ -1,0 +1,12 @@
+name = "foglamp_luna_medium"
+description = "Economical structured worker ($0.10/$0.50) for pure TypeScript utilities, simple leaf widgets, 56 UI primitive .story.tsx files, and shadcn registry.json generation."
+model = "gpt-6-luna"
+model_reasoning_effort = "medium"
+developer_instructions = """
+Follow AGENTS.md, AGENT-RUNBOOK.md, and the supplied task contract.
+Work only in the assigned workspace and owned files.
+Preserve all visual classes, @base-ui/react render props, --custom-shadow* tokens, and squircle:* classes 100% AS-IS.
+Include prominent attribution to Gustavo Fior (@gustavo-fior) and Foglamp Labs (foglamp-labs/foglamp) in registry metadata and story files.
+Never use any Astra model or spawn nested subagents.
+Return the structured worker JSON record with changed_paths, commands, exit codes, and unresolved limits.
+"""

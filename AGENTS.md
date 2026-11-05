@@ -1,0 +1,24 @@
+# Foglamp Design System — Codex Launch & Orchestration Rules
+
+## 1. Original Creator Attribution (Mandatory on Every Surface)
+- This design system is extracted **100% AS-IS** from **[Foglamp (`foglamp-labs/foglamp`)](https://github.com/foglamp-labs/foglamp)**, created by **Gustavo Fior ([@gustavo-fior](https://github.com/gustavo-fior) · [gustavofior.com](https://gustavofior.com) · [@heyimgustavo](https://x.com/heyimgustavo) · [LinkedIn](https://www.linkedin.com/in/gustavofior))** and co-founder **Abdul Haidar ([LinkedIn](https://www.linkedin.com/in/abdulhdr/))** at **Foglamp Labs** ([foglamp.dev](https://foglamp.dev)).
+- Follow [CREDITS.md](CREDITS.md) without exception: prominently shout out **Gustavo Fior (`@gustavo-fior`)**, **Abdul Haidar**, and **Foglamp Labs** in the root `README.md`, portal homepage hero, `OriginalAuthorsBlock` (`about/page.tsx` AS-IS), `MarketingNavbar`, `CuttingMatFooterBlock`, `FoglampStoryPanel` footer, `registry.json` metadata, and `/docs/credits`.
+
+## 2. Start & Scope
+- Read [README.md](README.md), [GOAL.md](GOAL.md), [PLAN.md](PLAN.md), [MODEL-EFFORT-COST-ANALYSIS.md](MODEL-EFFORT-COST-ANALYSIS.md), [COMPONENT-MATRIX.md](COMPONENT-MATRIX.md), [TASKS.md](TASKS.md), [task-index.json](task-index.json), and [AGENT-RUNBOOK.md](AGENT-RUNBOOK.md) before dispatching any task.
+- **Visual & Behavioral Immutability ("AS-IS")**: Never break or alter visual classes, the 18 `--custom-shadow*` tokens (`:root` + `.dark`), `@toolwind/corner-shape` progressive squircles (`squircle:*`), dual-mode form controls, `DRAWER_BUTTON_CLASS`, `@base-ui/react` `render` prop polymorphism, `@tabler/icons-react` `*Filled` icons, or animations.
+
+## 3. Permitted Models, Prohibition & 10-Rung Cost Pyramid
+- **Prohibited Models**: Never use `gpt-6-astra` or any model outside the three approved families below under any circumstance (including fallbacks).
+- **Approved Models Only**:
+  1. **`gpt-6-luna` (`low`, `medium`, `high`, `max`)** — **~72% of all work** (`$0.10 / $0.50` per 1M tokens, `180M TPM`).
+  2. **`gpt-6.1-terra` (`low`, `medium`, `high`)** — **~21% of all work** (`$1.00 / $5.00` per 1M tokens, >3× faster visual reasoning, natural writing & computer use).
+  3. **`gpt-6.1-sol` (`low`, `medium`, `high`)** — **~7% of all work** (`$2.00 / $10.00` per 1M tokens).
+- **Coordinator Rule**: Run the root coordinator session on **`gpt-6.1-sol` with `model_reasoning_effort="low"`** (configured in [.codex/config.toml](.codex/config.toml)). **The coordinator never writes bulk implementation code** — it dispatches parallel subagents from [.codex/agents/](.codex/agents/), tracks state in `results/run-state.json`, and enforces gatekeeper checks.
+- **Subagent Delegation Rule**: Always set `model` and `reasoning_effort` (or select the exact custom profile from [.codex/agents/](.codex/agents/)) matching [task-index.json](task-index.json). Use `fork_turns="none"` and pass the complete task contract and owned file paths so subagents start with a clean, bounded context.
+
+## 4. Wave Gates & Completion
+- Execute **Wave 0 → Wave 1 → Wave 2 → Wave 3 → Wave 4 → Wave 5** in order according to [task-index.json](task-index.json).
+- Within each wave, spawn all ready subagents concurrently (up to `max_concurrent_threads_per_session = 8`) with strictly non-overlapping `owned_paths`.
+- Run `foglamp_terra_low` as the inter-wave gatekeeper after Waves 1, 2, and 3 to verify barrel exports, unit tests, and zero `next/*` or `trpc` leakage.
+- In Wave 5, run `Task 5.1A` (`foglamp_luna_low` static/build checks), `Task 5.1B` (`foglamp_terra_high` live-browser Computer-Use visual QA), and `Task 5.2` (`foglamp_sol_high` final whole-portal Light/Dark pixel-parity & attribution sign-off) before emitting `<!-- GOAL_COMPLETE -->`.
