@@ -142,3 +142,10 @@ W6-GATE verifies provenance against pinned upstream bodies, registry payload not
 ### Honest provenance for new compositions
 
 For `tailrocks-original` files, keep upstream-file fields absent/null rather than inventing an extracted source. A new composition such as FigureKit22 must display “Newly Added by Tailrocks” and explicitly identify pinned upstream files as design inspiration, with separate inspiration metadata. Copied/modified files display their actual extracted upstream file. The verifier must validate the distinction and the pinned paths.
+
+
+## Wave 7 additional user requirement
+- [ ] Remove the Foglamp logo and visible product branding from components, defaults, demos, portal, examples and distributed assets; use independent Framerock branding. Keep original creator/upstream/legal attribution in the designated credit surfaces.
+
+### Wave 7 execution ownership
+Antigravity implements the main checkout (source/registry, portal/stories, MDX). Codex maintains plan state and independently audits registry/provenance, component documentation, static checks, and live browser behavior. Final acceptance requires every gate in GOAL-WAVE-7-REVIEW-FIXES.md and both repositories pushed.

@@ -222,3 +222,8 @@ The complete, controlling Wave 6 task contract and exact attribution/header temp
 Framerock (`@tailrocks/framerock`) is Tailrocks’ Web UI sibling to Termrock. Supersede earlier package/portal branding, registry publisher/homepage, and OriginalAuthorsBlock/photo requirements as specified in the contract. Preserve all other extracted visual and behavioral work, including all 18 shadows, corner-squircle and corner-bevel, DRAWER_BUTTON_CLASS, Hero 3-beat choreography, TraceTimeline, FlowMap and HUD physics. Maintain prominent truthful credit and Apache-2.0 compliance. Founder photo/file checks apply to project files and generated assets; the ignored, read-only `.reference/foglamp` upstream checkout remains intact. Tailrocks package metadata does not authorize moving or renaming the existing implementation GitHub remote.
 
 W6-GATE verifies provenance against pinned upstream bodies, registry payload notices, public attribution, anti-impersonation and the full build/test suite. The coordinator records accepted task states, commits and pushes both repositories, verifies implementation HEAD equals origin/main and the working tree is clean, then alone emits `<!-- GOAL_COMPLETE -->`.
+
+
+## Wave 7 extension
+
+The active goal now includes every requirement in GOAL-WAVE-7-REVIEW-FIXES.md. The accepted Waves 0–6 remain preserved historical checkpoints, not the completion boundary for this review remediation. Complete the explicit Wave 7 consumer, purity, documentation, workbench, runtime and browser gates, then commit/push both repositories before declaring the new goal complete.

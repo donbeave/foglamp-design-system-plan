@@ -1,5 +1,5 @@
 {
-  "objective": "Execute GOAL.md, AGENT-RUNBOOK.md and task-index.json through Waves0\u20136; preserve accepted extraction, complete Framerock rebrand/provenance gate, commit/pushbothrepos.",
+  "objective": "Address everything from framerock-wave-7-review-and-prompt.md using local GOAL-WAVE-7-REVIEW-FIXES.md contract.",
   "tasks": {
     "W0-0.1": {
       "state": "ACCEPTED",
@@ -621,6 +621,48 @@
       },
       "pushed_commit": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
       "implementation_delivery": "HEAD=origin/main=live remote main; clean tree; actualpostcommitfullsuiteandNPMpackchecked."
+    },
+    "W7-ARCH-A": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "owned_paths": [
+        "results/qa/w7-architecture/a/"
+      ],
+      "depends_on": [],
+      "agent_id": "/root/w7_ground_portal"
+    },
+    "W7-ARCH-B": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_max",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "owned_paths": [
+        "results/qa/w7-architecture/b/"
+      ],
+      "depends_on": [],
+      "agent_id": "/root/w7_ground_package"
+    },
+    "W7-REGISTRY-AUDIT": {
+      "state": "ACTIVE",
+      "profile": "foglamp_terra_medium",
+      "agent_id": "/root/w7_registry_tools"
+    },
+    "W7-DOCS-AUDIT": {
+      "state": "ACTIVE",
+      "profile": "foglamp_luna_high",
+      "agent_id": "/root/w7_component_docs"
+    },
+    "W7-INTEGRATION": {
+      "state": "ACTIVE",
+      "profile": "external-collaborator",
+      "agent_id": "Antigravity"
+    },
+    "W7-GATE": {
+      "state": "PENDING",
+      "profile": "foglamp_sol_high",
+      "agent_id": null
     }
   },
   "gates": {
@@ -1294,6 +1336,24 @@
     },
     "independent_evidence": "results/qa/w6-final-signoff/delivery.json"
   },
-  "goal_status": "complete",
-  "goal_complete": true
+  "goal_status": "active",
+  "goal_complete": false,
+  "completed_runs": [
+    {
+      "wave_end": 6,
+      "implementation": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+      "planning": "44f9c848be61a8c307f92713f4a3e540bff01136",
+      "state": "ACCEPTED"
+    }
+  ],
+  "wave7": {
+    "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+    "baseline_implementation": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
+    "bun_pin_commit": "423fddb",
+    "phase": "IMPLEMENT_AND_INDEPENDENT_AUDIT",
+    "verification_root": "results/qa/w7-final-verification/",
+    "prior_goal_completion_preserved": true,
+    "branding_addendum": "RemoveFoglamplogoandvisibleproductbranding; independentFramerockmark/wordmark; retainlegal/sourcecredits.",
+    "coordination": "Antigravity exclusively implements main source/registry/portal/stories/MDX. Codex audits read-only and owns plan state; isolated writers paused to prevent overlap."
+  }
 }

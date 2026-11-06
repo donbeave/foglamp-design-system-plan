@@ -115,3 +115,10 @@ The complete, controlling Wave 6 task contract and exact attribution/header temp
 Framerock (`@tailrocks/framerock`) is Tailrocks’ Web UI sibling to Termrock. Supersede earlier package/portal branding, registry publisher/homepage, and OriginalAuthorsBlock/photo requirements as specified in the contract. Preserve all other extracted visual and behavioral work, including all 18 shadows, corner-squircle and corner-bevel, DRAWER_BUTTON_CLASS, Hero 3-beat choreography, TraceTimeline, FlowMap and HUD physics. Maintain prominent truthful credit and Apache-2.0 compliance. Founder photo/file checks apply to project files and generated assets; the ignored, read-only `.reference/foglamp` upstream checkout remains intact. Tailrocks package metadata does not authorize moving or renaming the existing implementation GitHub remote.
 
 W6-GATE verifies provenance against pinned upstream bodies, registry payload notices, public attribution, anti-impersonation and the full build/test suite. The coordinator records accepted task states, commits and pushes both repositories, verifies implementation HEAD equals origin/main and the working tree is clean, then alone emits `<!-- GOAL_COMPLETE -->`.
+
+
+## Wave 7 — Post-review remediation and polish
+
+Controlling contract: [GOAL-WAVE-7-REVIEW-FIXES.md](GOAL-WAVE-7-REVIEW-FIXES.md). Preserve Waves 0–6 and implement every listed P0/P1 correction. Begin with architecture grounding and two integration sketches, then assign exclusive component, consumer, registry, story-runtime, fixture, documentation and verification ownership. Source-header regeneration runs after source-body writers freeze. Manifest/lockfile and generated-registry writes have one owner.
+
+Completion requires source component purity, one source header and compact delivered notice, one integrated provenance footer, all 175 MDX pages repaired, all 167 workbenches functional, strict and default consumer tsc with no skipLibCheck, the specified live-browser matrix on port 3000, all required build checks, and clean pushed implementation/planning repositories. Evidence: results/qa/w7-final-verification/.

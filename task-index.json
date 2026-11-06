@@ -678,6 +678,98 @@
       ],
       "contract": "GOAL-WAVE-6-FRAMEROCK.md",
       "implementation_note": "Final gate independently reviews verifier implemented during W6-6C; no bulk authoring by reviewer."
+    },
+    {
+      "task_id": "W7-ARCH-A",
+      "wave": 7,
+      "title": "Portal/story/docs grounding and design candidate",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "depends_on": [],
+      "owned_paths": [
+        "results/qa/w7-architecture/a/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+      "implementation_readonly": true
+    },
+    {
+      "task_id": "W7-ARCH-B",
+      "wave": 7,
+      "title": "Package/registry/provenance/consumer grounding and design candidate",
+      "profile": "foglamp_luna_max",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "depends_on": [],
+      "owned_paths": [
+        "results/qa/w7-architecture/b/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+      "implementation_readonly": true
+    },
+    {
+      "task_id": "W7-REGISTRY-AUDIT",
+      "wave": 7,
+      "title": "Independent registry/provenance consumer audit",
+      "profile": "foglamp_terra_medium",
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "medium",
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/w7-registry-audit/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md"
+    },
+    {
+      "task_id": "W7-DOCS-AUDIT",
+      "wave": 7,
+      "title": "Independent component documentation audit",
+      "profile": "foglamp_luna_high",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "high",
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/w7-docs-audit/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md"
+    },
+    {
+      "task_id": "W7-INTEGRATION",
+      "wave": 7,
+      "title": "Antigravity source, registry, portal, stories and MDX implementation",
+      "profile": "external-collaborator",
+      "model": null,
+      "reasoning_effort": null,
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/w7-integration/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md"
+    },
+    {
+      "task_id": "W7-GATE",
+      "wave": 7,
+      "title": "Independent final verification and both repository push",
+      "profile": "foglamp_sol_high",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/w7-gate/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md"
     }
   ],
   "wave_6_contract": "GOAL-WAVE-6-FRAMEROCK.md",
