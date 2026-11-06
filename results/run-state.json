@@ -645,24 +645,104 @@
       "agent_id": "/root/w7_ground_package"
     },
     "W7-REGISTRY-AUDIT": {
-      "state": "ACTIVE",
+      "state": "ACCEPTED",
       "profile": "foglamp_terra_medium",
-      "agent_id": "/root/w7_registry_tools"
+      "agent_id": "/root/w7_registry_tools",
+      "verification": {
+        "fresh_http_consumer": "PASS all7;changedclosuresreinstalled",
+        "default_tsc": "PASS0 noSkipLibCheck",
+        "strict_tsc": "PASS0 noSkipLibCheck",
+        "source_headers": "268/268onefulltopSPDX",
+        "payload_headers": "3849/3849onefulltopSPDX",
+        "installed_font": "SPDXcreditsretained/OFL1",
+        "hashes": "all7HTTPdiskmatch",
+        "evidence": "results/qa/w7-final-verification/registry-final/audit.md"
+      }
     },
     "W7-DOCS-AUDIT": {
-      "state": "ACTIVE",
+      "state": "ACCEPTED",
       "profile": "foglamp_luna_high",
-      "agent_id": "/root/w7_component_docs"
+      "agent_id": "/root/w7_component_docs",
+      "verification": {
+        "tsx_examples": "169 fences /0diagnostics",
+        "api_exports": "145tables /0incorrectrows /0unresolvedtargets",
+        "package_subpaths": "147unique /411occurrences /0missingtargets",
+        "mdx_structure": "175clean /167componentusagefences /0brokenlinks",
+        "rendered_pages": "175singleH1 /167oneprovenance /0duplicateDescription",
+        "evidence": "results/qa/w7-final-verification/docs-final/audit.md"
+      }
     },
     "W7-INTEGRATION": {
-      "state": "ACTIVE",
+      "state": "ACCEPTED",
       "profile": "external-collaborator",
       "agent_id": "Antigravity"
     },
     "W7-GATE": {
-      "state": "PENDING",
+      "state": "ACCEPTED",
       "profile": "foglamp_sol_high",
-      "agent_id": null
+      "agent_id": "/root",
+      "verification": {
+        "required_suite": "PASS registry/portal/types/58tests/fixtures/freshbuild",
+        "consumer": "PASS default+strict/noSkipLibCheck",
+        "source_revision": "d7d4bf04409c751685c0d17766c1a823ac710030",
+        "source_origin_main": "d7d4bf04409c751685c0d17766c1a823ac710030",
+        "source_worktree_clean": true,
+        "report": "results/qa/w7-final-verification/SUMMARY.md"
+      }
+    },
+    "W7-STATIC-AUDIT": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_low",
+      "agent_id": "/root/w7_current_static_audit",
+      "evidence": "results/qa/w7-final-verification/static-current/",
+      "verification": {
+        "build_registry": "PASS273items",
+        "verify_portal": "PASS268headers/175MDX/6attributionsurfaces",
+        "check_types": "PASSfreshdocscheck",
+        "bun_test": "58pass/0fail",
+        "provenance_fixtures": "allPASS",
+        "build": "PASSfresh0cache",
+        "frames": "allrequiredspecifieddimensionsPASS",
+        "evidence": "results/qa/w7-final-verification/static-final/summary.md"
+      }
+    },
+    "W7-RUNTIME-AUDIT": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_luna_max",
+      "agent_id": "/root/w7_ground_package",
+      "evidence": "results/qa/w7-final-verification/runtime-current/",
+      "verification": {
+        "status": "allP1-1sourceitemsresolved",
+        "smokes": [
+          "HUDlegacyuniqueSteps",
+          "Sunsetsharedidentity",
+          "canonicalfavicondelegation"
+        ],
+        "evidence": "results/qa/w7-final-verification/runtime-final/audit.md"
+      }
+    },
+    "W7-BROWSER-AUDIT": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_sol_high",
+      "agent_id": "/root/w5_52_apex",
+      "evidence": "results/qa/w7-final-verification/browser-current/",
+      "verification": {
+        "status": "PASS final cold sessions",
+        "shared_controls_and_theme": "PASS native/Props/presets/Darkinherit/explicitoverride/DarkLift/galleryhotkey/SystemOSchanges",
+        "console": "zeroerrors/warnings/hydration",
+        "rendered_routes": "175HTTP200/singleH1;167oneprovenance",
+        "evidence": "results/qa/w7-final-verification/browser-final/report.md"
+      }
+    },
+    "W7-BROWSER-RUNTIME": {
+      "state": "ACCEPTED",
+      "profile": "foglamp_terra_high",
+      "agent_id": "/root/w7_browser_runtime_deep",
+      "verification": {
+        "deep_flows": "PASS trace/flowdirection/scan/allEvaljudges/HUDuniqueSteps/toolredaction",
+        "fixed_checkbox_retest": "PASS noerrors",
+        "evidence": "results/qa/w7-final-verification/browser-final/runtime-deep/MATRIX.md"
+      }
     }
   },
   "gates": {
@@ -1336,8 +1416,8 @@
     },
     "independent_evidence": "results/qa/w6-final-signoff/delivery.json"
   },
-  "goal_status": "active",
-  "goal_complete": false,
+  "goal_status": "complete",
+  "goal_complete": true,
   "completed_runs": [
     {
       "wave_end": 6,
@@ -1350,10 +1430,23 @@
     "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
     "baseline_implementation": "fa5da0c04cb9275db076e2128d9feb81d4fce839",
     "bun_pin_commit": "423fddb",
-    "phase": "IMPLEMENT_AND_INDEPENDENT_AUDIT",
+    "phase": "COMPLETE",
     "verification_root": "results/qa/w7-final-verification/",
     "prior_goal_completion_preserved": true,
     "branding_addendum": "RemoveFoglamplogoandvisibleproductbranding; independentFramerockmark/wordmark; retainlegal/sourcecredits.",
-    "coordination": "Antigravity exclusively implements main source/registry/portal/stories/MDX. Codex audits read-only and owns plan state; isolated writers paused to prevent overlap."
+    "coordination": "Antigravity exclusively implements main source/registry/portal/stories/MDX. Codex audits read-only and owns plan state; isolated writers paused to prevent overlap.",
+    "current_static": {
+      "bun_test": "58 pass /0 fail",
+      "check_types": "FAIL provisional React declaration errors",
+      "evidence": "results/qa/w7-final-verification/static-current/"
+    },
+    "source_freeze": "Confirmed Antigravity READY_FOR_CODEX_FINAL_VERIFICATION; independent final checks running",
+    "source_commit": "d7d4bf04409c751685c0d17766c1a823ac710030",
+    "source_pushed": true,
+    "source_worktree_clean": true,
+    "final_report": "results/qa/w7-final-verification/SUMMARY.md",
+    "completed_at": "2026-11-06T01:02:52.876095+00:00",
+    "planning_delivery": "Final acceptance and evidence committed and pushed with this run-state record.",
+    "temporary_worktree": "Removed; paused prototype patch retained locally in /tmp/framerock-w7-paused-prototype.patch."
   }
 }

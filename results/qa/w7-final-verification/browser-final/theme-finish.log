@@ -1,0 +1,10 @@
+override-preserved-on-preset dark dark
+global-Light light light
+global-Dark dark dark
+dark-lift dark dark
+default-surface-restored dark dark
+gallery-before-hotkey dark dark
+gallery-native-hotkey-Light dark light
+footer-before-System dark dark
+child-System-OS-Light dark light
+child-System-OS-Dark dark dark

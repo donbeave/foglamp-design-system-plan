@@ -1,0 +1,11 @@
+{
+  "repo": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "tsxFenceCount": 169,
+  "likelyUnboundFenceCount": 0,
+  "findings": [],
+  "typecheck": {
+    "virtualRootCount": 169,
+    "diagnosticCount": 0,
+    "diagnostics": []
+  }
+}

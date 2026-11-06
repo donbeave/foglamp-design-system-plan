@@ -1,0 +1,469 @@
+[
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Indexing traces\n68%\nx",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/progress",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "dark-progress-initial",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Indexing traces\n39%\nx",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/progress",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "number-edit",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Evaluation mode\nFast \u00b7 low latency\nBalanced \u00b7 default judge\nThorough \u00b7 multi-step rubric",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/radio-group",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "dark-radio-navigation",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "\u2726\nControlled field recheck\n\nModel evaluation completed \u00b7 2 minutes ago\n\nReview",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/item",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "string-edit",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "\u2726\nStaging trace capture\n\n12 spans indexed \u00b7 14s ago\n\nReview",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/item",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "preset-after-edit",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "dark-button-navigation",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "local-Light-override",
+    "pressed": []
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "override-preserved-on-preset",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "light",
+    "step": "global-Light",
+    "pressed": [
+      {
+        "pressed": "true",
+        "text": "Light"
+      },
+      {
+        "pressed": "false",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "global-Dark",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "rgb(23, 22, 21)",
+      "bodyFg": "rgb(245, 243, 239)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "dark-lift",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "default-surface-restored",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 760,
+      "overflow": false,
+      "text": "Buttons & badges playground\n\nPress T to toggle the theme\n\nButtons\ndefault\nButton\nButton\nButton\nButton\noutline\nButton\nButton\nButton\nButton\nsecondary\nButton\nButton\nButton\nButton\nghost\nButton\nButton\nButton\nButton\nghost-destructive\nButton\nButton\nButton\nButton\ndestructive\nButton\nButton\nButton\nButton\nlink\nButton\nButton\nButton\nButton\nBadges\ndefault\nBadge\nBadge\nsecondary\nBadge\nBadge\ndestructive\nBadge\nBadge\ngreen\nBadge\nBadge\nblue\nBadge\nBadge\namber\nBadge\nBadge\norange\nBadge\nBadge\nemerald\nBadge\nBadge\nrose\nBadge\nBadge\nviolet\nBadge\nBadge\noutline\nBadge\nBadge",
+      "theme": "dark",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/buttons-badges-playground-block",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "gallery-before-hotkey",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 760,
+      "overflow": false,
+      "text": "Buttons & badges playground\n\nPress T to toggle the theme\n\nButtons\ndefault\nButton\nButton\nButton\nButton\noutline\nButton\nButton\nButton\nButton\nsecondary\nButton\nButton\nButton\nButton\nghost\nButton\nButton\nButton\nButton\nghost-destructive\nButton\nButton\nButton\nButton\ndestructive\nButton\nButton\nButton\nButton\nlink\nButton\nButton\nButton\nButton\nBadges\ndefault\nBadge\nBadge\nsecondary\nBadge\nBadge\ndestructive\nBadge\nBadge\ngreen\nBadge\nBadge\nblue\nBadge\nBadge\namber\nBadge\nBadge\norange\nBadge\nBadge\nemerald\nBadge\nBadge\nrose\nBadge\nBadge\nviolet\nBadge\nBadge\noutline\nBadge\nBadge",
+      "theme": "light",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/buttons-badges-playground-block",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "gallery-native-hotkey-Light",
+    "pressed": [
+      {
+        "pressed": "true",
+        "text": "Light"
+      },
+      {
+        "pressed": "false",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 560,
+      "overflow": false,
+      "text": "Framerock\n\nObservability for AI agents.\n\nProduct\nCost intelligence\nEvals\nAlerts\nAgents\nDistributed traces\nSDK\nPricing\nResources\nDocs\nQuickstart\nSelf-hosting\nChangelog\nGitHub\nLabs\nScan\nHUD\nCompany\nPrivacy\nTerms\n\n\u00a9 2026 Framerock. All rights reserved.\n\nMade in",
+      "theme": "dark",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/cutting-mat-footer-block",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "footer-before-System",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 560,
+      "overflow": false,
+      "text": "Framerock\n\nObservability for AI agents.\n\nProduct\nCost intelligence\nEvals\nAlerts\nAgents\nDistributed traces\nSDK\nPricing\nResources\nDocs\nQuickstart\nSelf-hosting\nChangelog\nGitHub\nLabs\nScan\nHUD\nCompany\nPrivacy\nTerms\n\n\u00a9 2026 Framerock. All rights reserved.\n\nMade in",
+      "theme": "light",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/cutting-mat-footer-block",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "child-System-OS-Light",
+    "pressed": [
+      {
+        "pressed": "true",
+        "text": "Light"
+      },
+      {
+        "pressed": "false",
+        "text": "Dark"
+      }
+    ]
+  },
+  {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 560,
+      "overflow": false,
+      "text": "Framerock\n\nObservability for AI agents.\n\nProduct\nCost intelligence\nEvals\nAlerts\nAgents\nDistributed traces\nSDK\nPricing\nResources\nDocs\nQuickstart\nSelf-hosting\nChangelog\nGitHub\nLabs\nScan\nHUD\nCompany\nPrivacy\nTerms\n\n\u00a9 2026 Framerock. All rights reserved.\n\nMade in",
+      "theme": "dark",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/cutting-mat-footer-block",
+    "provenance": 1,
+    "theme": "dark",
+    "step": "child-System-OS-Dark",
+    "pressed": [
+      {
+        "pressed": "false",
+        "text": "Light"
+      },
+      {
+        "pressed": "true",
+        "text": "Dark"
+      }
+    ]
+  }
+]

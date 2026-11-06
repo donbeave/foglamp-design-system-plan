@@ -1,0 +1,376 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "http://localhost:3000/docs/blocks/flow-map-block",
+  "refs": {
+    "e1000": {
+      "name": "flow-map.tsx",
+      "role": "link"
+    },
+    "e1001": {
+      "name": "Gustavo Fior (@gustavo-fior)",
+      "role": "link"
+    },
+    "e1002": {
+      "name": "Abdul Haidar",
+      "role": "link"
+    },
+    "e1003": {
+      "name": "Foglamp Labs (foglamp-labs/foglamp)",
+      "role": "link"
+    },
+    "e1004": {
+      "name": "foglamp.dev",
+      "role": "link"
+    },
+    "e1005": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1006": {
+      "name": "payload JSON",
+      "role": "link"
+    },
+    "e1007": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1008": {
+      "name": "Preview surface",
+      "role": "combobox"
+    },
+    "e1009": {
+      "name": "FlowMap",
+      "role": "cell"
+    },
+    "e1010": {
+      "name": "graph",
+      "role": "cell"
+    },
+    "e1011": {
+      "name": "ScanData[\"graph\"]",
+      "role": "cell"
+    },
+    "e1012": {
+      "name": "Scan architecture graph containing nodes, edges, and groups.",
+      "role": "cell"
+    },
+    "e1013": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1014": {
+      "name": "focusKinds",
+      "role": "cell"
+    },
+    "e1015": {
+      "name": "NodeKind[] | null",
+      "role": "cell"
+    },
+    "e1016": {
+      "name": "Optional node kind filter spotlighting matching nodes on the canvas.",
+      "role": "cell"
+    },
+    "e1017": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1018": {
+      "name": "embedded?",
+      "role": "cell"
+    },
+    "e1019": {
+      "name": "boolean",
+      "role": "cell"
+    },
+    "e1020": {
+      "name": "Renders compact marketing embed mode with tight fit and no pan/zoom controls.",
+      "role": "cell"
+    },
+    "e1021": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1022": {
+      "name": "frame?",
+      "role": "cell"
+    },
+    "e1023": {
+      "name": "boolean",
+      "role": "cell"
+    },
+    "e1024": {
+      "name": "Renders interactive iframe embed mode fitted without sidebar clearance.",
+      "role": "cell"
+    },
+    "e1025": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1026": {
+      "name": "direction?",
+      "role": "cell"
+    },
+    "e1027": {
+      "name": "\"RIGHT\" | \"DOWN\"",
+      "role": "cell"
+    },
+    "e1028": {
+      "name": "ELK layout flow direction (\"RIGHT\" for landscape or \"DOWN\" for portrait).",
+      "role": "cell"
+    },
+    "e1029": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1030": {
+      "name": "padding?",
+      "role": "cell"
+    },
+    "e1031": {
+      "name": "{ left?: number; right?: number }",
+      "role": "cell"
+    },
+    "e1032": {
+      "name": "Viewport fit clearance in pixels around the laid-out graph.",
+      "role": "cell"
+    },
+    "e1033": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1034": {
+      "name": "workflowGroups?",
+      "role": "cell"
+    },
+    "e1035": {
+      "name": "string[]",
+      "role": "cell"
+    },
+    "e1036": {
+      "name": "Group labels styled with the emerald workflow badge treatment.",
+      "role": "cell"
+    },
+    "e1037": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1038": {
+      "name": "focusGroups?",
+      "role": "cell"
+    },
+    "e1039": {
+      "name": "string[] | null",
+      "role": "cell"
+    },
+    "e1040": {
+      "name": "Group labels spotlighted on the canvas while dimming other nodes.",
+      "role": "cell"
+    },
+    "e1041": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1042": {
+      "name": "focusLabels?",
+      "role": "cell"
+    },
+    "e1043": {
+      "name": "string[] | null",
+      "role": "cell"
+    },
+    "e1044": {
+      "name": "Node labels spotlighted on the canvas while dimming other nodes.",
+      "role": "cell"
+    },
+    "e1045": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1046": {
+      "name": "zoomTo?",
+      "role": "cell"
+    },
+    "e1047": {
+      "name": "MapZoomTarget | null",
+      "role": "cell"
+    },
+    "e1048": {
+      "name": "Camera target framing the specified node or group labels.",
+      "role": "cell"
+    },
+    "e1049": {
+      "name": "Select",
+      "role": "option"
+    },
+    "e1050": {
+      "name": "\"DOWN\"",
+      "role": "option"
+    },
+    "e1051": {
+      "name": "\"RIGHT\"",
+      "role": "option"
+    },
+    "e1052": {
+      "name": "Export",
+      "role": "columnheader"
+    },
+    "e1053": {
+      "name": "Prop",
+      "role": "columnheader"
+    },
+    "e1054": {
+      "name": "Type",
+      "role": "columnheader"
+    },
+    "e1055": {
+      "name": "Description",
+      "role": "columnheader"
+    },
+    "e1056": {
+      "name": "Default",
+      "role": "option"
+    },
+    "e1057": {
+      "name": "Muted",
+      "role": "option"
+    },
+    "e1058": {
+      "name": "Dark Lift",
+      "role": "option"
+    },
+    "e970": {
+      "name": "Framerock",
+      "role": "link"
+    },
+    "e971": {
+      "name": "Open Search",
+      "role": "button"
+    },
+    "e972": {
+      "name": "Open Sidebar",
+      "role": "button"
+    },
+    "e973": {
+      "name": "0.333333 Flow Map Public API",
+      "role": "button"
+    },
+    "e974": {
+      "name": "Flow Map",
+      "role": "heading"
+    },
+    "e975": {
+      "name": "Story workbench",
+      "role": "region"
+    },
+    "e976": {
+      "name": "Public API Copy Anchor Link",
+      "role": "heading"
+    },
+    "e977": {
+      "name": "",
+      "role": "generic"
+    },
+    "e978": {
+      "name": "Usage Copy Anchor Link",
+      "role": "heading"
+    },
+    "e979": {
+      "name": "Source and registry Copy Anchor Link",
+      "role": "heading"
+    },
+    "e980": {
+      "name": "Figure Kit \u00b7 22 Source Figures Interactive switcher for browsing all 22 marketing landing figures across cost, trace, and quality categories.",
+      "role": "link"
+    },
+    "e981": {
+      "name": "Hero 3D Demo Marketing hero section with blurred-rise headline, copy-prompt CTA, and 3D perspective dashboard entrance choreography.",
+      "role": "link"
+    },
+    "e982": {
+      "name": "Reset",
+      "role": "button"
+    },
+    "e983": {
+      "name": "",
+      "role": "generic"
+    },
+    "e984": {
+      "name": "Copy",
+      "role": "button"
+    },
+    "e985": {
+      "name": "Public API",
+      "role": "link"
+    },
+    "e986": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e987": {
+      "name": "Usage",
+      "role": "link"
+    },
+    "e988": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e989": {
+      "name": "",
+      "role": "generic"
+    },
+    "e990": {
+      "name": "Source and registry",
+      "role": "link"
+    },
+    "e991": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e992": {
+      "name": "",
+      "role": "generic"
+    },
+    "e993": {
+      "name": "Horizontal flow",
+      "role": "tab"
+    },
+    "e994": {
+      "name": "Vertical flow",
+      "role": "tab"
+    },
+    "e995": {
+      "name": "",
+      "role": "generic"
+    },
+    "e996": {
+      "name": "Light",
+      "role": "button"
+    },
+    "e997": {
+      "name": "Dark",
+      "role": "button"
+    },
+    "e998": {
+      "name": "Flow Map",
+      "role": "Iframe"
+    },
+    "e999": {
+      "name": "direction",
+      "role": "combobox"
+    }
+  },
+  "removedRefs": [],
+  "snapshot": "- link \"Framerock\" [ref=e970]\n- button \"Open Search\" [expanded=false, ref=e971]\n- button \"Open Sidebar\" [expanded=false, ref=e972]\n- button \"0.333333 Flow Map Public API\" [expanded=false, ref=e973]\n- heading \"Flow Map\" [level=1, ref=e974]\n- region \"Story workbench\" [ref=e975]\n  - tab \"Horizontal flow\" [selected, ref=e993]\n  - tab \"Vertical flow\" [ref=e994]\n  - generic \"DefaultMutedDark Lift\" [ref=e995] clickable [cursor:pointer]\n    - combobox \"Preview surface\" [expanded=false, ref=e1008]: Default\n      - option \"Default\" [selected, ref=e1056]\n      - option \"Muted\" [ref=e1057]\n      - option \"Dark Lift\" [ref=e1058]\n  - button \"Light\" [ref=e996]\n  - button \"Dark\" [ref=e997]\n  - Iframe \"Flow Map\" [ref=e998]\n  - button \"Reset\" [ref=e982]\n  - generic \"Select\\\"DOWN\\\"\\\"RIGHT\\\"\" [ref=e983] clickable [cursor:pointer]\n    - combobox \"direction\" [expanded=false, ref=e999]: \"RIGHT\"\n      - option \"Select\" [disabled, ref=e1049]\n      - option \"\\\"DOWN\\\"\" [ref=e1050]\n      - option \"\\\"RIGHT\\\"\" [selected, ref=e1051]\n  - button \"Copy\" [ref=e984]\n  - link \"flow-map.tsx\" [ref=e1000]\n  - link \"Gustavo Fior (@gustavo-fior)\" [ref=e1001]\n  - link \"Abdul Haidar\" [ref=e1002]\n  - link \"Foglamp Labs (foglamp-labs/foglamp)\" [ref=e1003]\n  - link \"foglamp.dev\" [ref=e1004]\n- heading \"Public API Copy Anchor Link\" [level=2, ref=e976]\n  - link \"Public API\" [ref=e985]\n  - button \"Copy Anchor Link\" [ref=e986]\n- generic \"ExportPropTypeDescriptionFlowMapgraphScanData[\\\"graph\\\"]Scan architecture graph containing nodes, edge\" [ref=e977] focusable [tabindex]\n  - columnheader \"Export\" [ref=e1052]\n  - columnheader \"Prop\" [ref=e1053]\n  - columnheader \"Type\" [ref=e1054]\n  - columnheader \"Description\" [ref=e1055]\n  - cell \"FlowMap\" [ref=e1009]\n  - cell \"graph\" [ref=e1010]\n  - cell \"ScanData[\\\"graph\\\"]\" [ref=e1011]\n  - cell \"Scan architecture graph containing nodes, edges, and groups.\" [ref=e1012]\n  - cell [ref=e1013]\n  - cell \"focusKinds\" [ref=e1014]\n  - cell \"NodeKind[] | null\" [ref=e1015]\n  - cell \"Optional node kind filter spotlighting matching nodes on the canvas.\" [ref=e1016]\n  - cell [ref=e1017]\n  - cell \"embedded?\" [ref=e1018]\n  - cell \"boolean\" [ref=e1019]\n  - cell \"Renders compact marketing embed mode with tight fit and no pan/zoom controls.\" [ref=e1020]\n  - cell [ref=e1021]\n  - cell \"frame?\" [ref=e1022]\n  - cell \"boolean\" [ref=e1023]\n  - cell \"Renders interactive iframe embed mode fitted without sidebar clearance.\" [ref=e1024]\n  - cell [ref=e1025]\n  - cell \"direction?\" [ref=e1026]\n  - cell \"\\\"RIGHT\\\" | \\\"DOWN\\\"\" [ref=e1027]\n  - cell \"ELK layout flow direction (\\\"RIGHT\\\" for landscape or \\\"DOWN\\\" for portrait).\" [ref=e1028]\n  - cell [ref=e1029]\n  - cell \"padding?\" [ref=e1030]\n  - cell \"{ left?: number; right?: number }\" [ref=e1031]\n  - cell \"Viewport fit clearance in pixels around the laid-out graph.\" [ref=e1032]\n  - cell [ref=e1033]\n  - cell \"workflowGroups?\" [ref=e1034]\n  - cell \"string[]\" [ref=e1035]\n  - cell \"Group labels styled with the emerald workflow badge treatment.\" [ref=e1036]\n  - cell [ref=e1037]\n  - cell \"focusGroups?\" [ref=e1038]\n  - cell \"string[] | null\" [ref=e1039]\n  - cell \"Group labels spotlighted on the canvas while dimming other nodes.\" [ref=e1040]\n  - cell [ref=e1041]\n  - cell \"focusLabels?\" [ref=e1042]\n  - cell \"string[] | null\" [ref=e1043]\n  - cell \"Node labels spotlighted on the canvas while dimming other nodes.\" [ref=e1044]\n  - cell [ref=e1045]\n  - cell \"zoomTo?\" [ref=e1046]\n  - cell \"MapZoomTarget | null\" [ref=e1047]\n  - cell \"Camera target framing the specified node or group labels.\" [ref=e1048]\n- heading \"Usage Copy Anchor Link\" [level=2, ref=e978]\n  - link \"Usage\" [ref=e987]\n  - button \"Copy Anchor Link\" [ref=e988]\n- button \"Copy Text\" [ref=e1005]\n- generic \"import { FlowMap } from \\\"@tailrocks/framerock/blocks/scan/flow-map\\\";\\nimport {\\n  ScanFaviconProvider,\" [ref=e989] focusable [tabindex]\n- heading \"Source and registry Copy Anchor Link\" [level=2, ref=e979]\n  - link \"Source and registry\" [ref=e990]\n  - button \"Copy Anchor Link\" [ref=e991]\n- link \"payload JSON\" [ref=e1006]\n- button \"Copy Text\" [ref=e1007]\n- generic \"npx shadcn@latest add http://localhost:3000/r/block-scan-flow-map.json\" [ref=e992] focusable [tabindex]\n- link \"Figure Kit \u00b7 22 Source Figures Interactive switcher for browsing all 22 marketing landing figures across cost, trace, and quality categories.\" [ref=e980]\n- link \"Hero 3D Demo Marketing hero section with blurred-rise headline, copy-prompt CTA, and 3D perspective dashboard entrance choreography.\" [ref=e981]"
+}

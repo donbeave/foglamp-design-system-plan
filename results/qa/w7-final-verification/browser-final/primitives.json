@@ -1,0 +1,442 @@
+[
+  {
+    "case": "progress",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Indexing traces\n25%\nx",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/progress",
+    "provenance": 1,
+    "theme": "light",
+    "before": "68",
+    "nativeAfter": {
+      "bars": [
+        "51"
+      ],
+      "range": "51"
+    },
+    "propsAfter": "25"
+  },
+  {
+    "case": "radio-group",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Evaluation mode\nFast \u00b7 low latency\nBalanced \u00b7 default judge\nThorough \u00b7 multi-step rubric",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/radio-group",
+    "provenance": 1,
+    "theme": "light",
+    "fast": [
+      "true",
+      "false",
+      "false"
+    ],
+    "keyboard": [
+      "false",
+      "true",
+      "false"
+    ],
+    "preset": [
+      "false",
+      "false",
+      "true"
+    ],
+    "disabled": [
+      {
+        "aria": "true"
+      },
+      {
+        "aria": "true"
+      },
+      {
+        "aria": "true"
+      }
+    ]
+  },
+  {
+    "case": "sheet",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 338,
+      "overflow": false,
+      "text": "Inspect trace",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/sheet",
+    "provenance": 1,
+    "theme": "light",
+    "closedButtons": [
+      "Inspect trace"
+    ],
+    "open": {
+      "closeButtons": [
+        true,
+        true
+      ],
+      "dialogs": 1
+    },
+    "left": {
+      "rect": {
+        "bottom": 338,
+        "height": 338,
+        "left": 0,
+        "right": 384,
+        "top": 0,
+        "width": 384,
+        "x": 0,
+        "y": 0
+      },
+      "side": "left"
+    },
+    "escapeClosed": true
+  },
+  {
+    "case": "sonner",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 278,
+      "overflow": false,
+      "text": "Trigger toast\nError toast\nDismiss",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/sonner",
+    "provenance": 1,
+    "theme": "light",
+    "success": [
+      {
+        "text": "Evaluation run queued\nResults will stream into the trace table.",
+        "type": "success"
+      }
+    ],
+    "error": [
+      {
+        "text": "Judge timeout\nRetrying with fallback model.",
+        "type": "error"
+      },
+      {
+        "text": "Evaluation run queued\nResults will stream into the trace table.",
+        "type": "success"
+      }
+    ],
+    "dismissed": true
+  },
+  {
+    "case": "toggle-group",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "1h\n24h\n7d\n\nShowing activity for 1h.",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/toggle-group",
+    "provenance": 1,
+    "theme": "light",
+    "native": {
+      "pressed": [
+        {
+          "pressed": "false",
+          "text": "1h"
+        },
+        {
+          "pressed": "false",
+          "text": "24h"
+        },
+        {
+          "pressed": "true",
+          "text": "7d"
+        }
+      ],
+      "text": "1h\n24h\n7d\n\nShowing activity for 7d."
+    },
+    "props": "1h\n24h\n7d\n\nShowing activity for 1h."
+  },
+  {
+    "case": "item",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "\u2726\nStaging trace capture\n\n12 spans indexed \u00b7 14s ago\n\nReview",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/item",
+    "provenance": 1,
+    "theme": "light",
+    "titleChanged": "\u2726\nFinal QA deployment\n\nModel evaluation completed \u00b7 2 minutes ago\n\nReview",
+    "preset": {
+      "text": "\u2726\nStaging trace capture\n\n12 spans indexed \u00b7 14s ago\n\nReview",
+      "variant": "muted"
+    }
+  },
+  {
+    "case": "standalone-button",
+    "frame": null,
+    "h1": 0,
+    "overflow": false,
+    "path": "/stories/primitives/button",
+    "provenance": 0,
+    "theme": "light",
+    "buttons": [
+      "Run evaluation",
+      "View trace",
+      "More options"
+    ]
+  },
+  {
+    "case": "progress",
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Indexing traces\n25%\nx",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/progress",
+    "provenance": 1,
+    "theme": "dark",
+    "before": "68",
+    "nativeAfter": {
+      "bars": [
+        "51"
+      ],
+      "range": "51"
+    },
+    "propsAfter": "25"
+  },
+  {
+    "case": "radio-group",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Evaluation mode\nFast \u00b7 low latency\nBalanced \u00b7 default judge\nThorough \u00b7 multi-step rubric",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/radio-group",
+    "provenance": 1,
+    "theme": "dark",
+    "fast": [
+      "true",
+      "false",
+      "false"
+    ],
+    "keyboard": [
+      "false",
+      "true",
+      "false"
+    ],
+    "preset": [
+      "false",
+      "false",
+      "true"
+    ],
+    "disabled": [
+      {
+        "aria": "true"
+      },
+      {
+        "aria": "true"
+      },
+      {
+        "aria": "true"
+      }
+    ]
+  },
+  {
+    "case": "sheet",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 338,
+      "overflow": false,
+      "text": "Inspect trace",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/sheet",
+    "provenance": 1,
+    "theme": "dark",
+    "closedButtons": [
+      "Inspect trace"
+    ],
+    "open": {
+      "closeButtons": [
+        true,
+        true
+      ],
+      "dialogs": 1
+    },
+    "left": {
+      "rect": {
+        "bottom": 338,
+        "height": 338,
+        "left": 0,
+        "right": 384,
+        "top": 0,
+        "width": 384,
+        "x": 0,
+        "y": 0
+      },
+      "side": "left"
+    },
+    "escapeClosed": true
+  },
+  {
+    "case": "sonner",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 278,
+      "overflow": false,
+      "text": "Trigger toast\nError toast\nDismiss",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/sonner",
+    "provenance": 1,
+    "theme": "dark",
+    "success": [
+      {
+        "text": "Evaluation run queued\nResults will stream into the trace table.",
+        "type": "success"
+      }
+    ],
+    "error": [
+      {
+        "text": "Judge timeout\nRetrying with fallback model.",
+        "type": "error"
+      },
+      {
+        "text": "Evaluation run queued\nResults will stream into the trace table.",
+        "type": "success"
+      }
+    ],
+    "dismissed": true
+  },
+  {
+    "case": "toggle-group",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "1h\n24h\n7d\n\nShowing activity for 1h.",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/toggle-group",
+    "provenance": 1,
+    "theme": "dark",
+    "native": {
+      "pressed": [
+        {
+          "pressed": "false",
+          "text": "1h"
+        },
+        {
+          "pressed": "false",
+          "text": "24h"
+        },
+        {
+          "pressed": "true",
+          "text": "7d"
+        }
+      ],
+      "text": "1h\n24h\n7d\n\nShowing activity for 7d."
+    },
+    "props": "1h\n24h\n7d\n\nShowing activity for 1h."
+  },
+  {
+    "case": "item",
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "\u2726\nStaging trace capture\n\n12 spans indexed \u00b7 14s ago\n\nReview",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/item",
+    "provenance": 1,
+    "theme": "dark",
+    "titleChanged": "\u2726\nFinal QA deployment\n\nModel evaluation completed \u00b7 2 minutes ago\n\nReview",
+    "preset": {
+      "text": "\u2726\nStaging trace capture\n\n12 spans indexed \u00b7 14s ago\n\nReview",
+      "variant": "muted"
+    }
+  },
+  {
+    "case": "standalone-button",
+    "frame": null,
+    "h1": 0,
+    "overflow": false,
+    "path": "/stories/primitives/button",
+    "provenance": 0,
+    "theme": "dark",
+    "buttons": [
+      "Run evaluation",
+      "View trace",
+      "More options"
+    ]
+  }
+]

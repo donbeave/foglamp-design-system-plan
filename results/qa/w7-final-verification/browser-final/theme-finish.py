@@ -1,0 +1,11 @@
+import common as c
+c.S='w7-apex-theme3-3b6ae246dd31'
+from common import *
+rows=json.loads((Q/'theme-final.json').read_text())
+def record(name):
+ r=info();r['step']=name;r['pressed']=ev("[...document.querySelectorAll('[role=group] button')].map(n=>({text:n.textContent,pressed:n.getAttribute('aria-pressed')}))");rows.append(r);save('theme-final.json',rows);print(name,r['theme'],r['frame']['theme'],flush=True)
+clickdom('[...d.querySelectorAll("[role=tab]")].find(n=>n.textContent==="Outline")');record('override-preserved-on-preset')
+globalbutton='[...d.querySelectorAll("button")].find(n=>(n.getAttribute("aria-label")||n.textContent)==="Toggle Theme")'
+clickdom(globalbutton);ab('wait','--fn','document.documentElement.classList.contains("light")&&document.querySelector("iframe").contentDocument.documentElement.classList.contains("light")');record('global-Light');clickdom(globalbutton);ab('wait','--fn','document.documentElement.classList.contains("dark")&&document.querySelector("iframe").contentDocument.documentElement.classList.contains("dark")');record('global-Dark');ab('select','select[aria-label="Preview surface"]','Dark Lift');record('dark-lift');ab('select','select[aria-label="Preview surface"]','Default');record('default-surface-restored')
+openpath('/docs/blocks/buttons-badges-playground-block','h1');record('gallery-before-hotkey');clickdom('d.querySelector("h1")',True);ab('press','t');ab('wait','--fn','document.querySelector("iframe").contentDocument.documentElement.classList.contains("light")');ev('new Promise(r=>setTimeout(()=>r(true),300))');record('gallery-native-hotkey-Light')
+ab('set','media','light');openpath('/docs/blocks/cutting-mat-footer-block','button');record('footer-before-System');clickdom('[...d.querySelectorAll("button")].find(n=>n.textContent.trim()==="System"||(n.getAttribute("aria-label")||"").includes("System"))',True);ev('new Promise(r=>setTimeout(()=>r(true),500))');record('child-System-OS-Light');save('system-storage-light.json',ev('({...localStorage})'));ab('set','media','dark');ab('wait','--fn','document.querySelector("iframe").contentDocument.documentElement.classList.contains("dark")');record('child-System-OS-Dark');save('system-storage-dark.json',ev('({...localStorage})'));save('theme-final-console.json',ab('console'));save('theme-final-errors.json',ab('errors'))

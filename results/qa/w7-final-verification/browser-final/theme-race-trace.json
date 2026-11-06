@@ -1,0 +1,200 @@
+[
+  {
+    "route": "progress",
+    "parent": "dark",
+    "storage": {
+      "foglamp-story-theme:_R_31t8qj6_": "dark"
+    },
+    "parentLog": [
+      {
+        "t": 545.3000000119209,
+        "data": {
+          "type": "foglamp-story:ready"
+        },
+        "html": "dark"
+      },
+      {
+        "t": 806.4000000357628,
+        "data": {
+          "type": "fumadocs-story:ready"
+        },
+        "html": "dark"
+      },
+      {
+        "t": 806.4000000357628,
+        "data": {
+          "type": "fumadocs-story:ready"
+        },
+        "html": "dark"
+      },
+      {
+        "t": 924.4000000357628,
+        "data": {
+          "type": "foglamp-story:theme-state",
+          "mode": "light",
+          "resolved": "light",
+          "sequence": 1
+        },
+        "html": "dark"
+      },
+      {
+        "t": 927.8000000119209,
+        "data": {
+          "type": "foglamp-story:theme-state",
+          "mode": "dark",
+          "resolved": "dark",
+          "sequence": 2
+        },
+        "html": "dark"
+      }
+    ],
+    "frames": [
+      {
+        "theme": "dark",
+        "log": [
+          {
+            "t": 771.0999999642372,
+            "data": {
+              "type": "fumadocs-story:args",
+              "args": {
+                "value": 68,
+                "label": "Indexing traces"
+              }
+            },
+            "html": "dark"
+          },
+          {
+            "t": 785.1999999880791,
+            "data": {
+              "type": "foglamp-story:appearance",
+              "theme": "light",
+              "surface": "Default",
+              "sequence": 1
+            },
+            "html": "dark"
+          },
+          {
+            "t": 802,
+            "data": {
+              "type": "foglamp-story:appearance",
+              "theme": "dark",
+              "surface": "Default",
+              "sequence": 2
+            },
+            "html": "light"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "route": "radio-group",
+    "parent": "dark",
+    "storage": {
+      "foglamp-story-theme:_R_31t8qj6_": "light"
+    },
+    "parentLog": [
+      {
+        "t": 426.69999998807907,
+        "data": {
+          "type": "foglamp-story:ready"
+        },
+        "html": "dark"
+      },
+      {
+        "t": 537.4000000357628,
+        "data": {
+          "type": "fumadocs-story:ready"
+        },
+        "html": "dark"
+      },
+      {
+        "t": 537.5,
+        "data": {
+          "type": "fumadocs-story:ready"
+        },
+        "html": "dark"
+      },
+      {
+        "t": 557.6000000238419,
+        "data": {
+          "type": "foglamp-story:theme-state",
+          "mode": "light",
+          "resolved": "light",
+          "sequence": 1
+        },
+        "html": "dark"
+      },
+      {
+        "t": 571.1000000238419,
+        "data": {
+          "type": "foglamp-story:theme-state",
+          "mode": "light",
+          "resolved": "light",
+          "sequence": 2
+        },
+        "html": "dark"
+      }
+    ],
+    "frames": [
+      {
+        "theme": "light",
+        "log": [
+          {
+            "t": 428.19999998807907,
+            "data": {
+              "type": "fumadocs-story:args",
+              "args": {
+                "defaultValue": "balanced",
+                "disabled": false
+              }
+            },
+            "html": "dark"
+          },
+          {
+            "t": 440.19999998807907,
+            "data": {
+              "type": "foglamp-story:appearance",
+              "theme": "light",
+              "surface": "Default",
+              "sequence": 1
+            },
+            "html": "dark"
+          },
+          {
+            "t": 440.69999998807907,
+            "data": {
+              "type": "fumadocs-story:args",
+              "args": {
+                "defaultValue": "balanced",
+                "disabled": false
+              }
+            },
+            "html": "dark"
+          },
+          {
+            "t": 443.19999998807907,
+            "data": {
+              "type": "fumadocs-story:args",
+              "args": {
+                "defaultValue": "balanced",
+                "disabled": false
+              }
+            },
+            "html": "light"
+          },
+          {
+            "t": 461.19999998807907,
+            "data": {
+              "type": "foglamp-story:appearance",
+              "theme": "light",
+              "surface": "Default",
+              "sequence": 2
+            },
+            "html": "light"
+          }
+        ]
+      }
+    ]
+  }
+]

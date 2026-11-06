@@ -7,7 +7,7 @@ Antigravity exclusively owns implementation in the main checkout across source/r
 - [x] Ground portal, package, registry and provenance flows.
 - [x] Confirm collaborator ownership directly via Rex.
 - [x] Assign independent read-only audits.
-- [ ] Receive implementation freeze and audit all explicit Wave 7 gates.
-- [ ] Resolve proven failures, then commit and push both repositories.
+- [x] Receive implementation freeze and audit all explicit Wave 7 gates.
+- [x] Resolve proven failures, then commit and push both repositories.
 
 The upstream Foglamp mark must be replaced with independent Framerock art. Truthful legal and original-author credits remain. Source classes, shadow tokens and animation constants retain parity except explicit reviewed functional fixes.

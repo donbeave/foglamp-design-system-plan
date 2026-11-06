@@ -1,0 +1,196 @@
+{
+  "trace": [
+    {
+      "columns": "240px 196px 104px",
+      "rect": {
+        "bottom": 200,
+        "height": 20,
+        "left": 256,
+        "right": 796,
+        "top": 180,
+        "width": 540,
+        "x": 256,
+        "y": 180
+      },
+      "text": "0s\n1.25s\n2.50s\n3.75s\n5.00s"
+    }
+  ],
+  "flow": {
+    "horizontal": {
+      "outer": "<svg class=\"pointer-events-none absolute inset-0 overflow-visible\" width=\"835\" height=\"170\" aria-hidden=\"true\"><g class=\"transition-opacity duration-3",
+      "parent": {
+        "bottom": 405,
+        "height": 170,
+        "left": 222.5,
+        "right": 1057.5,
+        "top": 235,
+        "width": 835,
+        "x": 222.5,
+        "y": 235
+      },
+      "svg": {
+        "bottom": 405,
+        "height": 170,
+        "left": 222.5,
+        "right": 1057.5,
+        "top": 235,
+        "width": 835,
+        "x": 222.5,
+        "y": 235
+      }
+    },
+    "vertical": {
+      "outer": "<svg class=\"pointer-events-none absolute inset-0 overflow-visible\" width=\"488\" height=\"380\" aria-hidden=\"true\"><g class=\"transition-opacity duration-3",
+      "parent": {
+        "bottom": 510,
+        "height": 380,
+        "left": 396,
+        "right": 884,
+        "top": 130,
+        "width": 488,
+        "x": 396,
+        "y": 130
+      },
+      "svg": {
+        "bottom": 510,
+        "height": 380,
+        "left": 396,
+        "right": 884,
+        "top": 130,
+        "width": 488,
+        "x": 396,
+        "y": 130
+      }
+    }
+  },
+  "scan": {
+    "parent": {
+      "bottom": 541.3140258789062,
+      "height": 314.6280517578125,
+      "left": 307.1875,
+      "right": 1216.1875,
+      "top": 226.68597412109375,
+      "width": 909,
+      "x": 307.1875,
+      "y": 226.68597412109375
+    },
+    "svg": {
+      "bottom": 541.3140258789062,
+      "height": 314.6280517578125,
+      "left": 307.1875,
+      "right": 1216.1875,
+      "top": 226.68597412109375,
+      "width": 909,
+      "x": 307.1875,
+      "y": 226.68597412109375
+    },
+    "text": "daily digest\nnightly evals\nscores\ndigest emails\nescalations\ncharges on trial end\nNext.js app\n/api/chat\nDaily cron\ndigest, evals\nResearch agent\ndeep dives\nGPT-5.5\nExa\nParallel\nSupport agent\nanswers tickets\nClaude Fable 5\nFirecrawl\nBilling service\nplans & quotas\nStripe webhook\n/webhooks/stripe\nEvals judge\nLLM-as-judge\nClaude Fable 5\nPostgres\nanswers, scores\nResend\ndigest emails\nSlack\nescalations\nStripe\n\nScan\n\nTry Framerock\nMap your project. Share it.\n\nOne prompt turns your repo into a beautiful, interactive map. No install, no account.\n\nCopy scan prompt"
+  },
+  "eval": [
+    {
+      "dialogs": [],
+      "unavailable": false,
+      "score": "tr_9f2a4c8e"
+    },
+    {
+      "dialogs": [],
+      "unavailable": false,
+      "score": "tr_3b8e1d6a"
+    },
+    {
+      "dialogs": [],
+      "unavailable": false,
+      "score": "tr_7c1f5a2b"
+    },
+    {
+      "dialogs": [],
+      "unavailable": false,
+      "score": "tr_2d9a6c3f"
+    }
+  ],
+  "hud": [
+    {
+      "html": "14px; margin: 4px 0 9px; padding-left: 30px; font-size: 11.5px; }\n.fl-kv > div { display: contents; }\n.fl-kv dt { color: var(--fl-muted); }\n.fl-kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }\n.fl-io { display: flex; flex-direction: column; gap: 8px; margin: 4px 0 9px; padding: 0 10px 0 30px; }\n.fl-io-label { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em; color: var(--fl-muted); margin-bottom: 4px; }\n.fl-io-pre { margin: 0; max-height: 150px; overflow: auto; background: var(--fl-subtle); border-radius: 8px; padding: 7px 9px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; line-height: 1.5; white-space: pre-wrap; word-break: break-word; color: var(--fl-fg); }\n.fl-io-block.err .fl-io-pre { color: var(--fl-err); background: var(--fl-err-bg); }\n\n.fl-footer { display: flex; gap: 4px; padding: 12px 22px; border-top: 1px solid var(--fl-sep); }\n.fl-stat { flex: 1; display: flex; flex-direction: column; gap: 1px; }\n.fl-stat b { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; }\n.fl-stat span { display: flex; align-items: center; gap: 4px; color: var(--fl-muted); font-size: 10px; text-transform: uppercase; letter-spacing: 0.03em; }\n.fl-stat-icon { width: 12px; height: 12px; flex: none; display: block; }\n.fl-stat.tokens .fl-stat-icon { color: #3b82f6; }\n.fl-stat.cost .fl-stat-icon { color: #eab308; }\n.fl-stat.dur .fl-stat-icon { color: #8b5cf6; }\n.fl-stat.err .fl-stat-icon { color: var(--fl-err); }\n.fl-stat.err b { color: var(--fl-err); }\n/* Empty state \u2014 a radar \"listening\" ping. */\n.fl-empty { padding: 34px 16px 36px; display: flex; flex-direction: column; align-items: center; gap: 16px; color: var(--fl-muted); font-size: 12px; }\n.fl-empty p { margin: 0; }\n.fl-listening { position: relative; width: 9px; height: 9px; }\n.fl-listening::after { content: \"\"; position: absolute; inset: 0; border-radius: 50%; background: var(--fl-ok); }\n.fl-listening span { position: absolute; inset: 0; border-radius: 50%; box-shadow: 0 0 0 1.5px var(--fl-ok); animation: fl-ping 1.9s cubic-bezier(0,0,0.2,1) infinite; }\n.fl-listening span:nth-child(2) { animation-delay: 0.95s; }\n\n/* ---- Hide-for-session confirmation \u2014 a red alert bar above the window ---- */\n.fl-hide-alert {\n  display: flex; align-items: center; gap: 8px;\n  margin-bottom: 10px; padding: 9px 12px;\n  border-radius: 14px;\n  background: var(--fl-err-bg); color: var(--fl-err);\n  border: 2px solid var(--fl-err);\n  box-shadow: var(--fl-shadow);\n  font-size: 12.5px; font-weight: 500;\n  animation:\n    fl-alert-in 0.28s cubic-bezier(0.22,1,0.36,1),\n    fl-alert-pulse 1.8s ease-in-out 0.3s infinite;\n}\n.fl-hide-alert .fl-glyph { width: 15px; height: 15px; flex: none; }\n.fl-hide-alert-text { flex: 1; min-width: 0; white-space: nowrap; }\n.fl-hide-btn { flex: none; padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600; color: var(--fl-err); transition: background 0.12s ease; }\n.fl-hide-btn:hover { background: color-mix(in oklab, var(--fl-err) 14%, transparent); }\n.fl-hide-btn.confirm { background: var(--fl-err); color: var(--fl-bg); }\n.fl-hide-btn.confirm:hover { background: color-mix(in oklab, var(--fl-err) 85%, black); }\n/* Exit: the entrance wipe in reverse. Overrides the pulse (single animation\n   list), and `forwards` holds the faded-out end state until React unmounts it\n   on animationend. */\n.fl-hide-alert.closing {\n  animation: fl-alert-out 0.28s cubic-bezier(0.22,1,0.36,1) forwards;\n  pointer-events: none;\n}\n@keyframes fl-alert-in { from { opacity: 0; transform: translateY(8px) scale(0.97); } to { opacity: 1; transform: none; } }\n@keyframes fl-alert-out { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateY(8px) scale(0.97); } }\n@keyframes fl-alert-pulse { 0%, 100% { border-color: var(--fl-err); } 50% { border-color: color-mix(in oklab, var(--fl-err) 45%, transparent); } }\n\n@keyframes fl-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }\n@keyframes fl-flash { 0% { background: var(--fl-err-bg); } 35% { background: var(--fl-err); } 100% { background: var(--fl-err-bg); } }\n@keyframes fl-ping { 0% { transform: scale(1); opacity: 0.55; } 100% { transform: scale(3.6); opacity: 0; } }\n\n@media (prefers-reduced-motion: reduce) {\n  .fl-status.run .fl-px, .fl-tl-bar.run, .fl-wf-bar.run, .fl-listening span { animation: none; }\n  .fl-status.run .fl-px { opacity: 1; }\n  .fl-shell { transition: none; }\n  .fl-mode, .fl-row-item, .fl-hide-alert { animation: none; }\n  /* No exit animation \u2192 no animationend to unmount on; just vanish. */\n  .fl-hide-alert.closing { display: none; }\n  .fl-row-detail { transition: none; }\n}\n</style><div><div class=\"fl-shell\" data-mode=\"expanded\" style=\"width: 440px; height: 190px;\"><div class=\"fl-mode\"><div class=\"fl-panel\" role=\"dialog\" aria-label=\"Framerock traces\"><div class=\"fl-header fl-header-list\"><div class=\"fl-title\"><b>Traces</b><span>1 this session</span></div><span class=\"fl-status \"><svg class=\"fl-diamond\" viewBox=\"0 0 20 20\" fill=\"currentColor\" role=\"status\" aria-label=\"Loading\"><rect class=\"fl-px fl-px-1\" x=\"8\" y=\"0\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-2\" x=\"12\" y=\"4\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-3\" x=\"16\" y=\"8\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-4\" x=\"12\" y=\"12\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-5\" x=\"8\" y=\"16\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-6\" x=\"4\" y=\"12\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-7\" x=\"0\" y=\"8\" width=\"3.5\" height=\"3.5\"></rect><rect class=\"fl-px fl-px-8\" x=\"4\" y=\"4\" width=\"3.5\" height=\"3.5\"></rect></svg></span><button type=\"button\" class=\"fl-icon-btn\" aria-label=\"Hide HUD for this session\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 10 8 10 8a13.16 13.16 0 0 1-1.67 2.68\"></path><path d=\"M6.61 6.61A13.53 13.53 0 0 0 2 12s3 8 10 8a9.74 9.74 0 0 0 5.39-1.61\"></path><path d=\"M14.12 14.12a3 3 0 1 1-4.24-4.24\"></path><path d=\"m2 2 20 20\"></path></svg></button><button type=\"button\" class=\"fl-icon-btn\" aria-label=\"Collapse\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"></path></svg></button></div><div class=\"fl-timeline\"><div class=\"fl-tl-scroll\"><div class=\"fl-tl-inner\" style=\"width: 455.4px; transform: translateX(0px);\"><div class=\"fl-tl-track\"><span class=\"fl-tl-axis\"></span><span class=\"fl-tl-grid\" style=\"left: 94.0427px;\"></span><span class=\"fl-tl-grid\" style=\"left: 204.043px;\"></span><span class=\"fl-tl-grid\" style=\"left: 314.043px;\"></span><span class=\"fl-tl-grid\" style=\"left: 424.043px;\"></span><span class=\"fl-tl-grid now\" style=\"left: 440px;\"></span><button type=\"button\" class=\"fl-tl-bar \" title=\"Foggy \u00b7 4.70s\" style=\"left: 381.289px; width: 34.4593px; background: rgb(16, 185, 129);\"><svg class=\"fl-tl-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 2.4 20.6 7.2v9.6L12 21.6 3.4 16.8V7.2z\" fill-rule=\"nonzero\"></path></svg></button></div><div class=\"fl-tl-axislabels\"><span class=\"fl-tl-tick\" style=\"left: 94.0427px;\">47s</span><span class=\"fl-tl-tick\" style=\"left: 204.043px;\">32s</span><span class=\"fl-tl-tick\" style=\"left: 314.043px;\">17s</span><span class=\"fl-tl-tick now\" style=\"left: 440px;\">now</span></div></div></div></div><div class=\"fl-list\"><button type=\"button\" class=\"fl-list-row\"><div class=\"fl-list-main\"><span class=\"fl-list-name\"><span class=\"fl-agent-badge\" style=\"background: rgb(16, 185, 129);\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 2.4 20.6 7.2v9.6L12 21.6 3.4 16.8V7.2z\"></path></svg></span><span class=\"fl-list-agent\">Foggy</span></span><span class=\"fl-list-sub\"><svg class=\"fl-model-icon\" width=\"12\" height=\"12\" fill=\"currentColor\" viewBox=\"0 0 256 260\" aria-hidden=\"true\"><path d=\"M239.184 106.203a64.716 64.716 0 0 0-5.576-53.103C219.452 28.459 191 15.784 163.213 21.74A65.586 65.586 0 0 0 52.096 45.22a64.716 64.716 0 0 0-43.23 31.36c-14.31 24.602-11.061 55.634 8.033 76.74a64.665 64.665 0 0 0 5.525 53.102c14.174 24.65 42.644 37.324 70.446 31.36a64.72 64.72 0 0 0 48.754 21.744c28.481.025 53.714-18.361 62.414-45.481a64.767 64.767 0 0 0 43.229-31.36c14.137-24.558 10.875-55.423-8.083-76.483Zm-97.56 136.338a48.397 48.397 0 0 1-31.105-11.255l1.535-.87 51.67-29.825a8.595 8.595 0 0 0 4.247-7.367v-72.85l21.845 12.636c.218.111.37.32.409.563v60.367c-.056 26.818-21.783 48.545-48.601 48.601Zm-104.466-44.61a48.345 48.345 0 0 1-5.781-32.589l1.534.921 51.722 29.826a8.339 8.339 0 0 0 8.441 0l63.181-36.425v25.221a.87.87 0 0 1-.358.665l-52.335 30.184c-23.257 13.398-52.97 5.431-66.404-17.803ZM23.549 85.38a48.499 48.499 0 0 1 25.58-21.333v61.39a8.288 8.288 0 0 0 4.195 7.316l62.874 36.272-21.845 12.636a.819.819 0 0 1-.767 0L41.353 151.53c-23.211-13.454-31.171-43.144-17.804-66.405v.256Zm179.466 41.695-63.08-36.63L161.73 77.86a.819.819 0 0 1 .768 0l52.233 30.184a48.6 48.6 0 0 1-7.316 87.635v-61.391a8.544 8.544 0 0 0-4.4-7.213Zm21.742-32.69-1.535-.922-51.619-30.081a8.39 8.39 0 0 0-8.492 0L99.98 99.808V74.587a.716.716 0 0 1 .307-.665l52.233-30.133a48.652 48.652 0 0 1 72.236 50.391v.205ZM88.061 139.097l-21.845-12.585a.87.87 0 0 1-.41-.614V65.685a48.652 48.652 0 0 1 79.757-37.346l-1.535.87-51.67 29.825a8.595 8.595 0 0 0-4.246 7.367l-.051 72.697Zm11.868-25.58 28.138-16.217 28.188 16.218v32.434l-28.086 16.218-28.188-16.218-.052-32.434Z\"></path></svg><span class=\"fl-list-model\">GPT-4o</span><span class=\"fl-list-tools\">\u00b7 1 tool</span></span></div><span class=\"fl-list-meta\"><span>$0.0048</span><span>4.70s</span></span><svg class=\"fl-list-chevron\" width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m9 18 6-6-6-6\"></path></svg></button></div></div></div></div></div>"
+    }
+  ],
+  "trace_errors": {
+    "errors": [],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    }
+  },
+  "flow_errors": {
+    "errors": [],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    }
+  },
+  "scan_errors": {
+    "errors": [],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    }
+  },
+  "runtime_errors": {
+    "errors": [],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    }
+  },
+  "hud_errors": {
+    "errors": [],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    }
+  }
+}

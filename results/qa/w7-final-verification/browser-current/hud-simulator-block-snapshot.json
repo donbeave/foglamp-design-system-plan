@@ -1,0 +1,240 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "http://localhost:3000/docs/blocks/hud-simulator-block",
+  "refs": {
+    "e1277": {
+      "name": "Framerock",
+      "role": "link"
+    },
+    "e1278": {
+      "name": "Open Search",
+      "role": "button"
+    },
+    "e1279": {
+      "name": "Open Sidebar",
+      "role": "button"
+    },
+    "e1280": {
+      "name": "0.333333 HUD Simulator Public API",
+      "role": "button"
+    },
+    "e1281": {
+      "name": "HUD Simulator",
+      "role": "heading"
+    },
+    "e1282": {
+      "name": "Story workbench",
+      "role": "region"
+    },
+    "e1283": {
+      "name": "Public API Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1284": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1285": {
+      "name": "Usage Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1286": {
+      "name": "Source and registry Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1287": {
+      "name": "Hero 3D Demo Marketing hero section with blurred-rise headline, copy-prompt CTA, and 3D perspective dashboard entrance choreography.",
+      "role": "link"
+    },
+    "e1288": {
+      "name": "Instrument Empty State Dashed empty-state card with copyable AI SDK instrumentation snippets for agents, workflows, and sessions.",
+      "role": "link"
+    },
+    "e1289": {
+      "name": "Copy",
+      "role": "button"
+    },
+    "e1290": {
+      "name": "Public API",
+      "role": "link"
+    },
+    "e1291": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1292": {
+      "name": "Usage",
+      "role": "link"
+    },
+    "e1293": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1294": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1295": {
+      "name": "Source and registry",
+      "role": "link"
+    },
+    "e1296": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1297": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1298": {
+      "name": "default",
+      "role": "tab"
+    },
+    "e1299": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1300": {
+      "name": "Light",
+      "role": "button"
+    },
+    "e1301": {
+      "name": "Dark",
+      "role": "button"
+    },
+    "e1302": {
+      "name": "HUD Simulator",
+      "role": "Iframe"
+    },
+    "e1303": {
+      "name": "hud-landing.tsx",
+      "role": "link"
+    },
+    "e1304": {
+      "name": "Gustavo Fior (@gustavo-fior)",
+      "role": "link"
+    },
+    "e1305": {
+      "name": "Abdul Haidar",
+      "role": "link"
+    },
+    "e1306": {
+      "name": "Foglamp Labs (foglamp-labs/foglamp)",
+      "role": "link"
+    },
+    "e1307": {
+      "name": "foglamp.dev",
+      "role": "link"
+    },
+    "e1308": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1309": {
+      "name": "payload JSON",
+      "role": "link"
+    },
+    "e1310": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1311": {
+      "name": "Preview surface",
+      "role": "combobox"
+    },
+    "e1312": {
+      "name": "HudSimulatorBlock",
+      "role": "cell"
+    },
+    "e1313": {
+      "name": "homeHref?",
+      "role": "cell"
+    },
+    "e1314": {
+      "name": "string",
+      "role": "cell"
+    },
+    "e1315": {
+      "name": "Destination href for the back-to-home navigation link.",
+      "role": "cell"
+    },
+    "e1316": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1317": {
+      "name": "onStorm?",
+      "role": "cell"
+    },
+    "e1318": {
+      "name": "() => Promise<void>",
+      "role": "cell"
+    },
+    "e1319": {
+      "name": "Optional async callback triggered when running a trace storm simulation.",
+      "role": "cell"
+    },
+    "e1320": {
+      "name": "Export",
+      "role": "columnheader"
+    },
+    "e1321": {
+      "name": "Prop",
+      "role": "columnheader"
+    },
+    "e1322": {
+      "name": "Type",
+      "role": "columnheader"
+    },
+    "e1323": {
+      "name": "Description",
+      "role": "columnheader"
+    },
+    "e1324": {
+      "name": "Default",
+      "role": "option"
+    },
+    "e1325": {
+      "name": "Muted",
+      "role": "option"
+    },
+    "e1326": {
+      "name": "Dark Lift",
+      "role": "option"
+    },
+    "e1327": {
+      "name": "Try Framerock",
+      "role": "button"
+    },
+    "e1328": {
+      "name": "See your agents while you build.",
+      "role": "heading"
+    },
+    "e1329": {
+      "name": "Run an agent storm",
+      "role": "button"
+    },
+    "e1330": {
+      "name": "Hide HUD for this session",
+      "role": "button"
+    },
+    "e1331": {
+      "name": "Collapse",
+      "role": "button"
+    }
+  },
+  "removedRefs": [],
+  "snapshot": "- link \"Framerock\" [ref=e1277]\n- button \"Open Search\" [expanded=false, ref=e1278]\n- button \"Open Sidebar\" [expanded=false, ref=e1279]\n- button \"0.333333 HUD Simulator Public API\" [expanded=false, ref=e1280]\n- heading \"HUD Simulator\" [level=1, ref=e1281]\n- region \"Story workbench\" [ref=e1282]\n  - tab \"default\" [selected, ref=e1298]\n  - generic \"DefaultMutedDark Lift\" [ref=e1299] clickable [cursor:pointer]\n    - combobox \"Preview surface\" [expanded=false, ref=e1311]: Default\n      - option \"Default\" [selected, ref=e1324]\n      - option \"Muted\" [ref=e1325]\n      - option \"Dark Lift\" [ref=e1326]\n  - button \"Light\" [ref=e1300]\n  - button \"Dark\" [ref=e1301]\n  - Iframe \"HUD Simulator\" [ref=e1302]\n    - button \"Try Framerock\" [ref=e1327]\n    - heading \"See your agents while you build.\" [level=1, ref=e1328]\n    - button \"Run an agent storm\" [ref=e1329]\n    - button \"Hide HUD for this session\" [ref=e1330]\n    - button \"Collapse\" [ref=e1331]\n  - button \"Copy\" [ref=e1289]\n  - link \"hud-landing.tsx\" [ref=e1303]\n  - link \"Gustavo Fior (@gustavo-fior)\" [ref=e1304]\n  - link \"Abdul Haidar\" [ref=e1305]\n  - link \"Foglamp Labs (foglamp-labs/foglamp)\" [ref=e1306]\n  - link \"foglamp.dev\" [ref=e1307]\n- heading \"Public API Copy Anchor Link\" [level=2, ref=e1283]\n  - link \"Public API\" [ref=e1290]\n  - button \"Copy Anchor Link\" [ref=e1291]\n- generic \"ExportPropTypeDescriptionHudSimulatorBlockhomeHref?stringDestination href for the back-to-home navig\" [ref=e1284] focusable [tabindex]\n  - columnheader \"Export\" [ref=e1320]\n  - columnheader \"Prop\" [ref=e1321]\n  - columnheader \"Type\" [ref=e1322]\n  - columnheader \"Description\" [ref=e1323]\n  - cell \"HudSimulatorBlock\" [ref=e1312]\n  - cell \"homeHref?\" [ref=e1313]\n  - cell \"string\" [ref=e1314]\n  - cell \"Destination href for the back-to-home navigation link.\" [ref=e1315]\n  - cell [ref=e1316]\n  - cell \"onStorm?\" [ref=e1317]\n  - cell \"() => Promise<void>\" [ref=e1318]\n  - cell \"Optional async callback triggered when running a trace storm simulation.\" [ref=e1319]\n- heading \"Usage Copy Anchor Link\" [level=2, ref=e1285]\n  - link \"Usage\" [ref=e1292]\n  - button \"Copy Anchor Link\" [ref=e1293]\n- button \"Copy Text\" [ref=e1308]\n- generic \"import {\\n  HudSimulatorBlock,\\n} from \\\"@tailrocks/framerock/blocks/marketing/hud-landing\\\";\\n\\nexport fu\" [ref=e1294] focusable [tabindex]\n- heading \"Source and registry Copy Anchor Link\" [level=2, ref=e1286]\n  - link \"Source and registry\" [ref=e1295]\n  - button \"Copy Anchor Link\" [ref=e1296]\n- link \"payload JSON\" [ref=e1309]\n- button \"Copy Text\" [ref=e1310]\n- generic \"npx shadcn@latest add http://localhost:3000/r/block-marketing-hud-landing.json\" [ref=e1297] focusable [tabindex]\n- link \"Hero 3D Demo Marketing hero section with blurred-rise headline, copy-prompt CTA, and 3D perspective dashboard entrance choreography.\" [ref=e1287]\n- link \"Instrument Empty State Dashed empty-state card with copyable AI SDK instrumentation snippets for agents, workflows, and sessions.\" [ref=e1288]"
+}

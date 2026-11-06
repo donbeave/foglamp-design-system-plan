@@ -770,6 +770,73 @@
         "results/qa/w7-final-verification/w7-gate/"
       ],
       "contract": "GOAL-WAVE-7-REVIEW-FIXES.md"
+    },
+    {
+      "task_id": "W7-STATIC-AUDIT",
+      "wave": 7,
+      "title": "Static checks and branding/legal purity audit",
+      "profile": "foglamp_luna_low",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "low",
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/static-current/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+      "implementation_readonly": true
+    },
+    {
+      "task_id": "W7-RUNTIME-AUDIT",
+      "wave": 7,
+      "title": "Independent runtime and preset synchronization audit",
+      "profile": "foglamp_luna_max",
+      "model": "gpt-6-luna",
+      "reasoning_effort": "max",
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/runtime-current/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+      "implementation_readonly": true
+    },
+    {
+      "task_id": "W7-BROWSER-AUDIT",
+      "wave": 7,
+      "title": "Independent whole-portal browser and interaction audit",
+      "profile": "foglamp_sol_high",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "depends_on": [
+        "W7-ARCH-A",
+        "W7-ARCH-B"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/browser-current/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+      "implementation_readonly": true
+    },
+    {
+      "task_id": "W7-BROWSER-RUNTIME",
+      "wave": 7,
+      "title": "Parallel final runtime browser interactions",
+      "profile": "foglamp_terra_high",
+      "model": "gpt-6.1-terra",
+      "reasoning_effort": "high",
+      "depends_on": [
+        "W7-INTEGRATION"
+      ],
+      "owned_paths": [
+        "results/qa/w7-final-verification/browser-final/runtime-deep/"
+      ],
+      "contract": "GOAL-WAVE-7-REVIEW-FIXES.md",
+      "implementation_readonly": true
     }
   ],
   "wave_6_contract": "GOAL-WAVE-6-FRAMEROCK.md",

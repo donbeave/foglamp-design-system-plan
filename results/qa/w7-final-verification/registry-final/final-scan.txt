@@ -1,0 +1,15 @@
+source 268 bad 0 []
+registry files 3849 bad 0 []
+SPDX-License-Identifier 1
+Gustavo Fior 2
+Abdul Haidar 2
+Foglamp Labs 2
+https://foglamp.dev 2
+SIL OPEN FONT LICENSE Version 1
+ui-button 29f176ec3c6603ba841c9db66627fee918793ef3186d296d1e119f5bd9bdddaa match
+block-marketing-hero-hero 4563f92c69c1a7f74e129899b2cb28872aad5c5e0c8774b9dc7ea7b256c51362 match
+block-scan-scan-board 07cee491b0ad9bde9f6206076bb28863b5fd2f79b1805565fc3879d9d3508640 match
+block-setup-setup-board fc57c35d061ee55deb4374ef65fc31ee580574f593f9f92cefeeaf9ad76e58fd match
+block-guide-observability-guide 6e56a825d34493fa5e6e56ecc7c25bf89f6038100bef3c091ed1624f3f771dd8 match
+block-auth-login-form 9b8e762882d3da999eb5a71a9551d111bcaa5d0e7f48a4f51f54a9e6543519ca match
+style-globals 97198a4e230fa1dedbd1346986eb6da92fbd414fec1b42286eb0ab63500d1e16 match

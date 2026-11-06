@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/theme-final.py", line 10, in <module>
+    openpath('/docs/primitives/button','button');record('dark-button-navigation');clickdom('[...d.querySelectorAll("[role=group] button")].find(n=>n.textContent==="Light")');ab('wait','--fn','document.querySelector("iframe").contentDocument.documentElement.classList.contains("light")');record('local-Light-override');click('tab','Outline');record('override-preserved-on-preset');click('button','Toggle Theme');ab('wait','--fn','document.documentElement.classList.contains("light")');record('global-Light');click('button','Toggle Theme');ab('wait','--fn','document.documentElement.classList.contains("dark")');record('global-Dark');ab('select',ref('combobox','Preview surface'),'Dark Lift');record('dark-lift');ab('select',ref('combobox','Preview surface'),'Default');record('default-surface-restored')
+                                                                                                                                                                                                                                                                                                                              ~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/common.py", line 25, in click
+    def click(role,name):return ab('click',ref(role,name))
+                                           ~~~^^^^^^^^^^^
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/common.py", line 23, in ref
+    if len(r)!=1:raise RuntimeError('Ambiguous/missing ref '+str((role,name,r)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Ambiguous/missing ref ('tab', 'Outline', [])

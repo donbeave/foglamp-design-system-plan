@@ -1,0 +1,35 @@
+Source: `/Users/donbeave/Projects/donbeave/foglamp-design-system/apps/docs/src/stories`; values parsed directly from the frame properties at audit time.
+
+Blocks/shells:
+agent-detail-inspector-block 1280x800 PASS
+eval-detail-block 1280x800 PASS
+overview-dashboard-block 1280x800 PASS
+session-conversation-inspector-block 1280x800 PASS
+trace-waterfall-inspector-block 1280x800 PASS
+traces-explorer-block 1280x800 PASS
+workflow-detail-block 1280x800 PASS
+flow-map-block 1280x800 PASS
+scan-landing-block 1280x800 PASS
+hero-3d-demo-block 1280x1280 PASS
+drifting-fog-cta-block 1280x900 PASS
+cutting-mat-footer-block 1280x560 PASS
+marketing-navbar 1280x360 PASS
+buttons-badges-playground-block 1280x760 PASS
+device-approve-block 1040x520 PASS (contract specifies height 520 only)
+instrument-empty-state-block 1040x580 PASS (height 580 only)
+login-form-block 1040x560 PASS (height 560 only)
+onboarding-panel-block 1040x460 PASS (height 460 only)
+app-shell-block 1280x800 PASS
+
+Charts (contract requires height 440; width not specified):
+area-chart 960x440 PASS
+background 960x440 PASS
+bar-chart 960x440 PASS
+chart 960x440 PASS
+donut-chart 960x440 PASS
+dot 960x440 PASS
+evil-brush 960x440 PASS
+legend 960x440 PASS
+line-chart 960x440 PASS
+tooltip 960x440 PASS
+zoom 960x440 PASS

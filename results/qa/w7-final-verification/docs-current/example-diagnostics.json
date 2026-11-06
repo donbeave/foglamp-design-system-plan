@@ -1,0 +1,1152 @@
+{
+  "repo": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "tsxFenceCount": 172,
+  "likelyUnboundFenceCount": 42,
+  "findings": [
+    {
+      "file": "apps/docs/content/docs/blocks/embed-board-block.mdx",
+      "fence": 1,
+      "names": [
+        "resolveStoryFavicon",
+        "scanFixture"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/blocks/flow-map-block.mdx",
+      "fence": 1,
+      "names": [
+        "resolveStoryFavicon",
+        "scanFixture"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/blocks/scan-board-block.mdx",
+      "fence": 1,
+      "names": [
+        "resolveStoryFavicon",
+        "scanFixture"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/blocks/scan-landing-block.mdx",
+      "fence": 1,
+      "names": [
+        "resolveStoryFavicon"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/blocks/setup-board-block.mdx",
+      "fence": 1,
+      "names": [
+        "planFixture",
+        "resolveStoryFavicon"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/blocks/traces-explorer-block.mdx",
+      "fence": 1,
+      "names": [
+        "DashboardStoryShell"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/area-chart.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/background.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/chart.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/donut-chart.mdx",
+      "fence": 1,
+      "names": [
+        "config",
+        "slices"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/dot.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+      "fence": 1,
+      "names": [
+        "initialRange",
+        "observabilityConfig",
+        "observabilityData",
+        "StorySurface"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/legend.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/line-chart.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/tooltip.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/charts/zoom.mdx",
+      "fence": 1,
+      "names": [
+        "observabilityConfig",
+        "observabilityData",
+        "StorySurface"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/foundations/architecture.mdx",
+      "fence": 1,
+      "names": [
+        "React",
+        "YourRouterLink"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/primitives/combobox.mdx",
+      "fence": 1,
+      "names": [
+        "models"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/primitives/direction.mdx",
+      "fence": 1,
+      "names": [
+        "DirectionContent"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/primitives/spinner.mdx",
+      "fence": 1,
+      "names": [
+        "sizeClasses"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/context-chip.mdx",
+      "fence": 1,
+      "names": [
+        "ChipMark"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/cost-breakdown.mdx",
+      "fence": 1,
+      "names": [
+        "costFixture"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/data-table.mdx",
+      "fence": 1,
+      "names": [
+        "HeaderActionsHost",
+        "projects",
+        "rows",
+        "statuses"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/eval-scores.mdx",
+      "fence": 1,
+      "names": [
+        "meta",
+        "scores"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/filter-select.mdx",
+      "fence": 1,
+      "names": [
+        "statusOptions"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/foggy-widget.mdx",
+      "fence": 1,
+      "names": [
+        "messages"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/foglamp-hud.mdx",
+      "fence": 1,
+      "names": [
+        "stream"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/hud-inline-preview.mdx",
+      "fence": 1,
+      "names": [
+        "stream"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/node-flow.mdx",
+      "fence": 1,
+      "names": [
+        "nodes"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/payload-view.mdx",
+      "fence": 1,
+      "names": [
+        "conversation",
+        "previousConversation"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/project-provider.mdx",
+      "fence": 1,
+      "names": [
+        "ProjectProviderPreview",
+        "ProjectStoryFrame"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/prompt-prose.mdx",
+      "fence": 1,
+      "names": [
+        "slots",
+        "template"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/prompt-versions-view.mdx",
+      "fence": 1,
+      "names": [
+        "promptVersionsFixture"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/range-provider.mdx",
+      "fence": 1,
+      "names": [
+        "RangeProviderPreview"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/run-exchange.mdx",
+      "fence": 1,
+      "names": [
+        "input",
+        "output"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/sunset-card.mdx",
+      "fence": 1,
+      "names": [
+        "SunsetCard"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/sunset-card.mdx",
+      "fence": 2,
+      "names": [
+        "HOSTED_SERVER_URL"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/tool-breakdown.mdx",
+      "fence": 1,
+      "names": [
+        "toolBreakdownFixture"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/toolbar.mdx",
+      "fence": 1,
+      "names": [
+        "HeaderActionsHost",
+        "projects",
+        "statuses"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/trace-timeline.mdx",
+      "fence": 1,
+      "names": [
+        "spans"
+      ]
+    },
+    {
+      "file": "apps/docs/content/docs/widgets/trend-charts.mdx",
+      "fence": 1,
+      "names": [
+        "config"
+      ]
+    }
+  ],
+  "typecheck": {
+    "virtualRootCount": 172,
+    "diagnosticCount": 102,
+    "diagnostics": [
+      {
+        "file": "apps/docs/content/docs/blocks/flow-map-block.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 35,
+        "code": 2304,
+        "message": "Cannot find name 'resolveStoryFavicon'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/flow-map-block.mdx",
+        "fence": 1,
+        "line": 15,
+        "column": 18,
+        "code": 2304,
+        "message": "Cannot find name 'scanFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/scan-board-block.mdx",
+        "fence": 1,
+        "line": 8,
+        "column": 35,
+        "code": 2304,
+        "message": "Cannot find name 'resolveStoryFavicon'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/scan-board-block.mdx",
+        "fence": 1,
+        "line": 9,
+        "column": 24,
+        "code": 2304,
+        "message": "Cannot find name 'scanFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/scan-landing-block.mdx",
+        "fence": 1,
+        "line": 9,
+        "column": 35,
+        "code": 2304,
+        "message": "Cannot find name 'resolveStoryFavicon'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/setup-board-block.mdx",
+        "fence": 1,
+        "line": 15,
+        "column": 35,
+        "code": 2304,
+        "message": "Cannot find name 'resolveStoryFavicon'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/setup-board-block.mdx",
+        "fence": 1,
+        "line": 17,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'planFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/traces-explorer-block.mdx",
+        "fence": 1,
+        "line": 14,
+        "column": 6,
+        "code": 2304,
+        "message": "Cannot find name 'DashboardStoryShell'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/traces-explorer-block.mdx",
+        "fence": 1,
+        "line": 34,
+        "column": 7,
+        "code": 2304,
+        "message": "Cannot find name 'DashboardStoryShell'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/embed-board-block.mdx",
+        "fence": 1,
+        "line": 9,
+        "column": 35,
+        "code": 2304,
+        "message": "Cannot find name 'resolveStoryFavicon'."
+      },
+      {
+        "file": "apps/docs/content/docs/blocks/embed-board-block.mdx",
+        "fence": 1,
+        "line": 11,
+        "column": 27,
+        "code": 2304,
+        "message": "Cannot find name 'scanFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/area-chart.mdx",
+        "fence": 1,
+        "line": 20,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/area-chart.mdx",
+        "fence": 1,
+        "line": 21,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/background.mdx",
+        "fence": 1,
+        "line": 20,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/background.mdx",
+        "fence": 1,
+        "line": 21,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+        "fence": 1,
+        "line": 20,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+        "fence": 1,
+        "line": 21,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+        "fence": 1,
+        "line": 30,
+        "column": 15,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"vertical\"' and '\"horizontal\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+        "fence": 1,
+        "line": 33,
+        "column": 18,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"vertical\"' and '\"horizontal\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+        "fence": 1,
+        "line": 34,
+        "column": 15,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"vertical\"' and '\"horizontal\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/bar-chart.mdx",
+        "fence": 1,
+        "line": 35,
+        "column": 16,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"vertical\"' and '\"horizontal\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/chart.mdx",
+        "fence": 1,
+        "line": 18,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/chart.mdx",
+        "fence": 1,
+        "line": 19,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/donut-chart.mdx",
+        "fence": 1,
+        "line": 12,
+        "column": 17,
+        "code": 2304,
+        "message": "Cannot find name 'config'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/donut-chart.mdx",
+        "fence": 1,
+        "line": 13,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'slices'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/dot.mdx",
+        "fence": 1,
+        "line": 15,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/dot.mdx",
+        "fence": 1,
+        "line": 16,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 54,
+        "code": 2304,
+        "message": "Cannot find name 'initialRange'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 12,
+        "column": 6,
+        "code": 2304,
+        "message": "Cannot find name 'StorySurface'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 27,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 28,
+        "column": 22,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 33,
+        "column": 28,
+        "code": 2304,
+        "message": "Cannot find name 'initialRange'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 34,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'initialRange'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/evil-brush.mdx",
+        "fence": 1,
+        "line": 38,
+        "column": 7,
+        "code": 2304,
+        "message": "Cannot find name 'StorySurface'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/legend.mdx",
+        "fence": 1,
+        "line": 19,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/legend.mdx",
+        "fence": 1,
+        "line": 20,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/line-chart.mdx",
+        "fence": 1,
+        "line": 20,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/line-chart.mdx",
+        "fence": 1,
+        "line": 21,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/tooltip.mdx",
+        "fence": 1,
+        "line": 19,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/tooltip.mdx",
+        "fence": 1,
+        "line": 20,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/zoom.mdx",
+        "fence": 1,
+        "line": 15,
+        "column": 6,
+        "code": 2304,
+        "message": "Cannot find name 'StorySurface'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/zoom.mdx",
+        "fence": 1,
+        "line": 25,
+        "column": 17,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityConfig'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/zoom.mdx",
+        "fence": 1,
+        "line": 26,
+        "column": 15,
+        "code": 2304,
+        "message": "Cannot find name 'observabilityData'."
+      },
+      {
+        "file": "apps/docs/content/docs/charts/zoom.mdx",
+        "fence": 1,
+        "line": 42,
+        "column": 7,
+        "code": 2304,
+        "message": "Cannot find name 'StorySurface'."
+      },
+      {
+        "file": "apps/docs/content/docs/foundations/architecture.mdx",
+        "fence": 1,
+        "line": 8,
+        "column": 39,
+        "code": 2304,
+        "message": "Cannot find name 'YourRouterLink'."
+      },
+      {
+        "file": "apps/docs/content/docs/foundations/installation.mdx",
+        "fence": 3,
+        "line": 1,
+        "column": 24,
+        "code": 2307,
+        "message": "Cannot find module '@/components/framerock/ui/button' or its corresponding type declarations."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/separator.mdx",
+        "fence": 1,
+        "line": 8,
+        "column": 8,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"horizontal\"' and '\"vertical\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/spinner.mdx",
+        "fence": 1,
+        "line": 8,
+        "column": 27,
+        "code": 2304,
+        "message": "Cannot find name 'sizeClasses'."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/alert.mdx",
+        "fence": 1,
+        "line": 13,
+        "column": 10,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"default\"' and '\"destructive\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/alert.mdx",
+        "fence": 1,
+        "line": 16,
+        "column": 10,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"default\"' and '\"destructive\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/combobox.mdx",
+        "fence": 1,
+        "line": 15,
+        "column": 22,
+        "code": 2304,
+        "message": "Cannot find name 'models'."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/combobox.mdx",
+        "fence": 1,
+        "line": 19,
+        "column": 12,
+        "code": 2304,
+        "message": "Cannot find name 'models'."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/combobox.mdx",
+        "fence": 1,
+        "line": 19,
+        "column": 24,
+        "code": 7006,
+        "message": "Parameter 'model' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/direction.mdx",
+        "fence": 1,
+        "line": 11,
+        "column": 8,
+        "code": 2304,
+        "message": "Cannot find name 'DirectionContent'."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/input.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 10,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"text\"' and '\"email\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/primitives/input.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 52,
+        "code": 2367,
+        "message": "This comparison appears to be unintentional because the types '\"text\"' and '\"search\"' have no overlap."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/context-chip.mdx",
+        "fence": 1,
+        "line": 7,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'ChipMark'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/context-chip.mdx",
+        "fence": 1,
+        "line": 8,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'ChipMark'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/cost-breakdown.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 13,
+        "code": 2304,
+        "message": "Cannot find name 'costFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 30,
+        "column": 20,
+        "code": 2304,
+        "message": "Cannot find name 'rows'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 31,
+        "column": 14,
+        "code": 7006,
+        "message": "Parameter 'row' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 32,
+        "column": 14,
+        "code": 7006,
+        "message": "Parameter 'row' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 33,
+        "column": 14,
+        "code": 7006,
+        "message": "Parameter 'row' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 34,
+        "column": 14,
+        "code": 7006,
+        "message": "Parameter 'row' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 35,
+        "column": 12,
+        "code": 7006,
+        "message": "Parameter 'a' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 35,
+        "column": 15,
+        "code": 7006,
+        "message": "Parameter 'b' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 40,
+        "column": 12,
+        "code": 2304,
+        "message": "Cannot find name 'HeaderActionsHost'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 57,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'statuses'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 63,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'projects'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/data-table.mdx",
+        "fence": 1,
+        "line": 90,
+        "column": 32,
+        "code": 7006,
+        "message": "Parameter 'row' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/eval-scores.mdx",
+        "fence": 1,
+        "line": 11,
+        "column": 10,
+        "code": 2739,
+        "message": "Type '{ scores: any; }' is missing the following properties from type '{ scores: TraceScore[]; evalMeta: Map<string, EvalMeta>; presetName: Map<string, string>; max?: number | undefined; className?: string | undefined; }': evalMeta, presetName"
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/eval-scores.mdx",
+        "fence": 1,
+        "line": 11,
+        "column": 32,
+        "code": 2304,
+        "message": "Cannot find name 'scores'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/eval-scores.mdx",
+        "fence": 1,
+        "line": 14,
+        "column": 10,
+        "code": 2304,
+        "message": "Cannot find name 'scores'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/eval-scores.mdx",
+        "fence": 1,
+        "line": 14,
+        "column": 22,
+        "code": 7006,
+        "message": "Parameter 'score' implicitly has an 'any' type."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/eval-scores.mdx",
+        "fence": 1,
+        "line": 18,
+        "column": 19,
+        "code": 2304,
+        "message": "Cannot find name 'meta'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/filter-select.mdx",
+        "fence": 1,
+        "line": 12,
+        "column": 16,
+        "code": 2304,
+        "message": "Cannot find name 'statusOptions'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/foggy-message.mdx",
+        "fence": 1,
+        "line": 2,
+        "column": 3,
+        "code": 2305,
+        "message": "Module '\"@tailrocks/framerock/widgets/foggy/foggy-message\"' has no exported member 'FoggyAssistantMessage'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/foggy-widget.mdx",
+        "fence": 1,
+        "line": 31,
+        "column": 21,
+        "code": 2304,
+        "message": "Cannot find name 'messages'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/foglamp-hud.mdx",
+        "fence": 1,
+        "line": 11,
+        "column": 17,
+        "code": 2304,
+        "message": "Cannot find name 'stream'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/hud-inline-preview.mdx",
+        "fence": 1,
+        "line": 9,
+        "column": 17,
+        "code": 2304,
+        "message": "Cannot find name 'stream'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/node-flow.mdx",
+        "fence": 1,
+        "line": 8,
+        "column": 24,
+        "code": 2304,
+        "message": "Cannot find name 'nodes'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/payload-view.mdx",
+        "fence": 1,
+        "line": 9,
+        "column": 16,
+        "code": 2304,
+        "message": "Cannot find name 'conversation'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/payload-view.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 43,
+        "code": 2304,
+        "message": "Cannot find name 'previousConversation'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/project-provider.mdx",
+        "fence": 1,
+        "line": 5,
+        "column": 6,
+        "code": 2304,
+        "message": "Cannot find name 'ProjectStoryFrame'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/project-provider.mdx",
+        "fence": 1,
+        "line": 6,
+        "column": 8,
+        "code": 2304,
+        "message": "Cannot find name 'ProjectProviderPreview'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/project-provider.mdx",
+        "fence": 1,
+        "line": 7,
+        "column": 7,
+        "code": 2304,
+        "message": "Cannot find name 'ProjectStoryFrame'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/prompt-prose.mdx",
+        "fence": 1,
+        "line": 17,
+        "column": 34,
+        "code": 2304,
+        "message": "Cannot find name 'template'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/prompt-prose.mdx",
+        "fence": 1,
+        "line": 17,
+        "column": 51,
+        "code": 2304,
+        "message": "Cannot find name 'slots'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/prompt-versions-view.mdx",
+        "fence": 1,
+        "line": 10,
+        "column": 19,
+        "code": 2304,
+        "message": "Cannot find name 'promptVersionsFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/range-provider.mdx",
+        "fence": 1,
+        "line": 5,
+        "column": 11,
+        "code": 2304,
+        "message": "Cannot find name 'RangeProviderPreview'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/run-exchange.mdx",
+        "fence": 1,
+        "line": 62,
+        "column": 28,
+        "code": 2304,
+        "message": "Cannot find name 'input'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/run-exchange.mdx",
+        "fence": 1,
+        "line": 63,
+        "column": 52,
+        "code": 2304,
+        "message": "Cannot find name 'output'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/sunset-card.mdx",
+        "fence": 1,
+        "line": 1,
+        "column": 1,
+        "code": 2657,
+        "message": "JSX expressions must have one parent element."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/sunset-card.mdx",
+        "fence": 1,
+        "line": 1,
+        "column": 2,
+        "code": 2304,
+        "message": "Cannot find name 'SunsetCard'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/sunset-card.mdx",
+        "fence": 1,
+        "line": 2,
+        "column": 2,
+        "code": 2304,
+        "message": "Cannot find name 'SunsetCard'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/sunset-card.mdx",
+        "fence": 2,
+        "line": 4,
+        "column": 21,
+        "code": 2304,
+        "message": "Cannot find name 'HOSTED_SERVER_URL'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/tool-breakdown.mdx",
+        "fence": 1,
+        "line": 9,
+        "column": 33,
+        "code": 2304,
+        "message": "Cannot find name 'toolBreakdownFixture'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/toolbar.mdx",
+        "fence": 1,
+        "line": 27,
+        "column": 12,
+        "code": 2304,
+        "message": "Cannot find name 'HeaderActionsHost'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/toolbar.mdx",
+        "fence": 1,
+        "line": 44,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'statuses'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/toolbar.mdx",
+        "fence": 1,
+        "line": 50,
+        "column": 26,
+        "code": 2304,
+        "message": "Cannot find name 'projects'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/trace-timeline.mdx",
+        "fence": 1,
+        "line": 11,
+        "column": 16,
+        "code": 2304,
+        "message": "Cannot find name 'spans'."
+      },
+      {
+        "file": "apps/docs/content/docs/widgets/trend-charts.mdx",
+        "fence": 1,
+        "line": 13,
+        "column": 17,
+        "code": 2304,
+        "message": "Cannot find name 'config'."
+      }
+    ]
+  }
+}

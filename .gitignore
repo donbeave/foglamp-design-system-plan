@@ -62,3 +62,8 @@ results/qa/**/*.tar.gz
 results/qa/**/*.zip
 results/qa/**/src/components/framerock/
 results/qa/**/src/components/foglamp/
+
+# Reproducible Wave 7 per-frame raw browser captures (reports/scripts remain tracked).
+results/qa/w7-final-verification/browser-final/home-cold*.json
+results/qa/w7-final-verification/browser-current/home-smoke*.json
+results/qa/w7-final-verification/browser-current/home-commands.json

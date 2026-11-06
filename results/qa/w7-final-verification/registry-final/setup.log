@@ -1,0 +1,13 @@
+warn: registry token references unset variable $NPM_TOKEN, ignoring credential
+bun install v1.4.4 (38afee6c8)
+Resolving dependencies
+Resolved, downloaded and extracted [2]
+Saved lockfile
+
++ @types/react@19.2.14
++ @types/react-dom@19.2.3
++ typescript@5.9.3
++ react@19.2.5
++ react-dom@19.2.5
+
+7 packages installed [259.00ms]

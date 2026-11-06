@@ -1,0 +1,11 @@
+[
+  {
+    route: "progress",
+    parent: "dark",
+    frame: "dark",
+  }, {
+    route: "radio-group",
+    parent: "dark",
+    frame: "light",
+  }
+]

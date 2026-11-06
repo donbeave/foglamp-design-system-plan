@@ -1,0 +1,656 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "http://localhost:3000/docs/blocks/eval-detail-block",
+  "refs": {
+    "e1118": {
+      "name": "Framerock",
+      "role": "link"
+    },
+    "e1119": {
+      "name": "Open Search",
+      "role": "button"
+    },
+    "e1120": {
+      "name": "Open Sidebar",
+      "role": "button"
+    },
+    "e1121": {
+      "name": "0.333333 Eval Detail Public API",
+      "role": "button"
+    },
+    "e1122": {
+      "name": "Eval Detail",
+      "role": "heading"
+    },
+    "e1123": {
+      "name": "Story workbench",
+      "role": "region"
+    },
+    "e1124": {
+      "name": "Public API Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1125": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1126": {
+      "name": "Usage Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1127": {
+      "name": "Source and registry Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1128": {
+      "name": "Embedded Scan Board Compact embeddable architecture scan board displaying the interactive flow map and summary header.",
+      "role": "link"
+    },
+    "e1129": {
+      "name": "Figure Kit \u00b7 22 Source Figures Interactive switcher for browsing all 22 marketing landing figures across cost, trace, and quality categories.",
+      "role": "link"
+    },
+    "e1130": {
+      "name": "Reset",
+      "role": "button"
+    },
+    "e1131": {
+      "name": "evalId",
+      "role": "textbox"
+    },
+    "e1132": {
+      "name": "isLoading",
+      "role": "checkbox"
+    },
+    "e1133": {
+      "name": "Copy",
+      "role": "button"
+    },
+    "e1134": {
+      "name": "Public API",
+      "role": "link"
+    },
+    "e1135": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1136": {
+      "name": "Usage",
+      "role": "link"
+    },
+    "e1137": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1138": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1139": {
+      "name": "Source and registry",
+      "role": "link"
+    },
+    "e1140": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1141": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1142": {
+      "name": "default",
+      "role": "tab"
+    },
+    "e1143": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1144": {
+      "name": "Light",
+      "role": "button"
+    },
+    "e1145": {
+      "name": "Dark",
+      "role": "button"
+    },
+    "e1146": {
+      "name": "Eval Detail",
+      "role": "Iframe"
+    },
+    "e1147": {
+      "name": "eval-detail-client.tsx",
+      "role": "link"
+    },
+    "e1148": {
+      "name": "Gustavo Fior (@gustavo-fior)",
+      "role": "link"
+    },
+    "e1149": {
+      "name": "Abdul Haidar",
+      "role": "link"
+    },
+    "e1150": {
+      "name": "Foglamp Labs (foglamp-labs/foglamp)",
+      "role": "link"
+    },
+    "e1151": {
+      "name": "foglamp.dev",
+      "role": "link"
+    },
+    "e1152": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1153": {
+      "name": "payload JSON",
+      "role": "link"
+    },
+    "e1154": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1155": {
+      "name": "Preview surface",
+      "role": "combobox"
+    },
+    "e1156": {
+      "name": "EvalDetailBlock",
+      "role": "cell"
+    },
+    "e1157": {
+      "name": "evalId?",
+      "role": "cell"
+    },
+    "e1158": {
+      "name": "string",
+      "role": "cell"
+    },
+    "e1159": {
+      "name": "Active evaluation identifier.",
+      "role": "cell"
+    },
+    "e1160": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1161": {
+      "name": "definition?",
+      "role": "cell"
+    },
+    "e1162": {
+      "name": "EvalDefinition | null",
+      "role": "cell"
+    },
+    "e1163": {
+      "name": "Evaluation scorer configuration, thresholds, and model settings.",
+      "role": "cell"
+    },
+    "e1164": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1165": {
+      "name": "presets?",
+      "role": "cell"
+    },
+    "e1166": {
+      "name": "{ id: string; name: string; prompt: string }[]",
+      "role": "cell"
+    },
+    "e1167": {
+      "name": "Available evaluation rubric presets.",
+      "role": "cell"
+    },
+    "e1168": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1169": {
+      "name": "providers?",
+      "role": "cell"
+    },
+    "e1170": {
+      "name": "{ provider: string }[]",
+      "role": "cell"
+    },
+    "e1171": {
+      "name": "Configured model providers available for LLM judges.",
+      "role": "cell"
+    },
+    "e1172": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1173": {
+      "name": "series?",
+      "role": "cell"
+    },
+    "e1174": {
+      "name": "EvalSeries[]",
+      "role": "cell"
+    },
+    "e1175": {
+      "name": "Time-bucketed evaluation pass rate and score series.",
+      "role": "cell"
+    },
+    "e1176": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1177": {
+      "name": "scores?",
+      "role": "cell"
+    },
+    "e1178": {
+      "name": "EvalScore[]",
+      "role": "cell"
+    },
+    "e1179": {
+      "name": "Individual evaluation score rows.",
+      "role": "cell"
+    },
+    "e1180": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1181": {
+      "name": "total?",
+      "role": "cell"
+    },
+    "e1182": {
+      "name": "number",
+      "role": "cell"
+    },
+    "e1183": {
+      "name": "Total number of matching rows across all pages.",
+      "role": "cell"
+    },
+    "e1184": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1185": {
+      "name": "isLoading?",
+      "role": "cell"
+    },
+    "e1186": {
+      "name": "boolean",
+      "role": "cell"
+    },
+    "e1187": {
+      "name": "Renders loading skeleton placeholders while data is being fetched.",
+      "role": "cell"
+    },
+    "e1188": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1189": {
+      "name": "focusedScoreId?",
+      "role": "cell"
+    },
+    "e1190": {
+      "name": "string | null",
+      "role": "cell"
+    },
+    "e1191": {
+      "name": "Currently inspected score identifier.",
+      "role": "cell"
+    },
+    "e1192": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1193": {
+      "name": "focusedScore?",
+      "role": "cell"
+    },
+    "e1194": {
+      "name": "EvalScore | null",
+      "role": "cell"
+    },
+    "e1195": {
+      "name": "Full score record for the open inspection drawer.",
+      "role": "cell"
+    },
+    "e1196": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1197": {
+      "name": "onQueryChange?",
+      "role": "cell"
+    },
+    "e1198": {
+      "name": "(query: { page: number; pageSize: number; sort: { key: \"score\"; dir: \"asc\" | \"desc\" } | null; from: Date; to: Date }) => void",
+      "role": "cell"
+    },
+    "e1199": {
+      "name": "Callback fired when pagination, sorting, or date range changes.",
+      "role": "cell"
+    },
+    "e1200": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1201": {
+      "name": "onUpdate?",
+      "role": "cell"
+    },
+    "e1202": {
+      "name": "(value: EvalUpdate) => void | Promise<void>",
+      "role": "cell"
+    },
+    "e1203": {
+      "name": "Callback fired when the evaluation configuration is saved.",
+      "role": "cell"
+    },
+    "e1204": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1205": {
+      "name": "traces?",
+      "role": "cell"
+    },
+    "e1206": {
+      "name": "Record<string, TraceSpan[]>",
+      "role": "cell"
+    },
+    "e1207": {
+      "name": "Map of trace IDs to span arrays for the trace waterfall preview.",
+      "role": "cell"
+    },
+    "e1208": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1209": {
+      "name": "judgeInputs?",
+      "role": "cell"
+    },
+    "e1210": {
+      "name": "Record<string, EvalJudgeInput>",
+      "role": "cell"
+    },
+    "e1211": {
+      "name": "Map of score IDs to rendered judge prompt inputs and segments.",
+      "role": "cell"
+    },
+    "e1212": {
+      "name": "Export",
+      "role": "columnheader"
+    },
+    "e1213": {
+      "name": "Prop",
+      "role": "columnheader"
+    },
+    "e1214": {
+      "name": "Type",
+      "role": "columnheader"
+    },
+    "e1215": {
+      "name": "Description",
+      "role": "columnheader"
+    },
+    "e1216": {
+      "name": "Default",
+      "role": "option"
+    },
+    "e1217": {
+      "name": "Muted",
+      "role": "option"
+    },
+    "e1218": {
+      "name": "Dark Lift",
+      "role": "option"
+    },
+    "e1219": {
+      "name": "Emails",
+      "role": "button"
+    },
+    "e1220": {
+      "name": "Network",
+      "role": "button"
+    },
+    "e1221": {
+      "name": "Invalidate all queries",
+      "role": "button"
+    },
+    "e1222": {
+      "name": "Clear query cache",
+      "role": "button"
+    },
+    "e1223": {
+      "name": "Hide development controls until reload",
+      "role": "button"
+    },
+    "e1224": {
+      "name": "Evals Eval",
+      "role": "heading"
+    },
+    "e1225": {
+      "name": "24h",
+      "role": "button"
+    },
+    "e1226": {
+      "name": "3d",
+      "role": "button"
+    },
+    "e1227": {
+      "name": "7d",
+      "role": "button"
+    },
+    "e1228": {
+      "name": "",
+      "role": "button"
+    },
+    "e1229": {
+      "name": "Edit",
+      "role": "button"
+    },
+    "e1230": {
+      "name": "Rows per page",
+      "role": "combobox"
+    },
+    "e1231": {
+      "name": "Previous page",
+      "role": "button"
+    },
+    "e1232": {
+      "name": "Next page",
+      "role": "button"
+    },
+    "e1233": {
+      "name": "Foggy",
+      "role": "button"
+    },
+    "e1234": {
+      "name": "Expand Framerock HUD",
+      "role": "button"
+    },
+    "e1235": {
+      "name": "Acme Production",
+      "role": "button"
+    },
+    "e1236": {
+      "name": "API Keys",
+      "role": "link"
+    },
+    "e1237": {
+      "name": "Settings",
+      "role": "link"
+    },
+    "e1238": {
+      "name": "AL Alex Rivera",
+      "role": "button"
+    },
+    "e1239": {
+      "name": "Evals",
+      "role": "link"
+    },
+    "e1240": {
+      "name": "Overview",
+      "role": "link"
+    },
+    "e1241": {
+      "name": "Workflows",
+      "role": "link"
+    },
+    "e1242": {
+      "name": "Agents",
+      "role": "link"
+    },
+    "e1243": {
+      "name": "Sessions",
+      "role": "link"
+    },
+    "e1244": {
+      "name": "Traces",
+      "role": "link"
+    },
+    "e1245": {
+      "name": "Evals",
+      "role": "link"
+    },
+    "e1246": {
+      "name": "Alerts",
+      "role": "link"
+    },
+    "e1247": {
+      "name": "tr_9f2a4c8e",
+      "role": "cell"
+    },
+    "e1248": {
+      "name": "Pass",
+      "role": "cell"
+    },
+    "e1249": {
+      "name": "0.97",
+      "role": "cell"
+    },
+    "e1250": {
+      "name": "Polite, acknowledges delay, offers remedy.",
+      "role": "cell"
+    },
+    "e1251": {
+      "name": "$0.0012",
+      "role": "cell"
+    },
+    "e1252": {
+      "name": "151d ago",
+      "role": "cell"
+    },
+    "e1253": {
+      "name": "tr_3b8e1d6a",
+      "role": "cell"
+    },
+    "e1254": {
+      "name": "Pass",
+      "role": "cell"
+    },
+    "e1255": {
+      "name": "0.91",
+      "role": "cell"
+    },
+    "e1256": {
+      "name": "Clear and courteous; slightly terse closing.",
+      "role": "cell"
+    },
+    "e1257": {
+      "name": "$0.0009",
+      "role": "cell"
+    },
+    "e1258": {
+      "name": "151d ago",
+      "role": "cell"
+    },
+    "e1259": {
+      "name": "tr_7c1f5a2b",
+      "role": "cell"
+    },
+    "e1260": {
+      "name": "Fail",
+      "role": "cell"
+    },
+    "e1261": {
+      "name": "0.42",
+      "role": "cell"
+    },
+    "e1262": {
+      "name": "Curt tone; no acknowledgement of the issue.",
+      "role": "cell"
+    },
+    "e1263": {
+      "name": "$0.0014",
+      "role": "cell"
+    },
+    "e1264": {
+      "name": "151d ago",
+      "role": "cell"
+    },
+    "e1265": {
+      "name": "tr_2d9a6c3f",
+      "role": "cell"
+    },
+    "e1266": {
+      "name": "Pass",
+      "role": "cell"
+    },
+    "e1267": {
+      "name": "0.95",
+      "role": "cell"
+    },
+    "e1268": {
+      "name": "Warm, on-brand, well-structured.",
+      "role": "cell"
+    },
+    "e1269": {
+      "name": "$0.0008",
+      "role": "cell"
+    },
+    "e1270": {
+      "name": "151d ago",
+      "role": "cell"
+    },
+    "e1271": {
+      "name": "Run",
+      "role": "columnheader"
+    },
+    "e1272": {
+      "name": "Verdict",
+      "role": "columnheader"
+    },
+    "e1273": {
+      "name": "Score",
+      "role": "columnheader"
+    },
+    "e1274": {
+      "name": "Reason",
+      "role": "columnheader"
+    },
+    "e1275": {
+      "name": "Cost",
+      "role": "columnheader"
+    },
+    "e1276": {
+      "name": "When",
+      "role": "columnheader"
+    }
+  },
+  "removedRefs": [],
+  "snapshot": "- link \"Framerock\" [ref=e1118]\n- button \"Open Search\" [expanded=false, ref=e1119]\n- button \"Open Sidebar\" [expanded=false, ref=e1120]\n- button \"0.333333 Eval Detail Public API\" [expanded=false, ref=e1121]\n- heading \"Eval Detail\" [level=1, ref=e1122]\n- region \"Story workbench\" [ref=e1123]\n  - tab \"default\" [selected, ref=e1142]\n  - generic \"DefaultMutedDark Lift\" [ref=e1143] clickable [cursor:pointer]\n    - combobox \"Preview surface\" [expanded=false, ref=e1155]: Default\n      - option \"Default\" [selected, ref=e1216]\n      - option \"Muted\" [ref=e1217]\n      - option \"Dark Lift\" [ref=e1218]\n  - button \"Light\" [ref=e1144]\n  - button \"Dark\" [ref=e1145]\n  - Iframe \"Eval Detail\" [ref=e1146]\n    - button \"Acme Production\" [expanded=false, ref=e1235]\n    - link \"Overview\" [ref=e1240]\n    - link \"Workflows\" [ref=e1241]\n    - link \"Agents\" [ref=e1242]\n    - link \"Sessions\" [ref=e1243]\n    - link \"Traces\" [ref=e1244]\n    - link \"Evals\" [ref=e1245]\n    - link \"Alerts\" [ref=e1246]\n    - link \"API Keys\" [ref=e1236]\n    - link \"Settings\" [ref=e1237]\n    - button \"AL Alex Rivera\" [expanded=false, ref=e1238]\n    - button \"Emails\" [expanded=false, ref=e1219]\n    - button \"Network\" [expanded=false, ref=e1220]\n    - button \"Invalidate all queries\" [ref=e1221]\n    - button \"Clear query cache\" [ref=e1222]\n    - button \"Hide development controls until reload\" [ref=e1223]\n    - heading \"Evals Eval\" [level=1, ref=e1224]\n      - link \"Evals\" [ref=e1239]\n    - button \"24h\" [ref=e1225]\n    - button \"3d\" [ref=e1226]\n    - button \"7d\" [ref=e1227]\n    - button [expanded=false, ref=e1228]\n    - button \"Edit\" [disabled, ref=e1229]\n    - columnheader \"Run\" [ref=e1271]\n    - columnheader \"Verdict\" [ref=e1272]\n    - columnheader \"Score\" [ref=e1273]\n    - columnheader \"Reason\" [ref=e1274]\n    - columnheader \"Cost\" [ref=e1275]\n    - columnheader \"When\" [ref=e1276]\n    - cell \"tr_9f2a4c8e\" [ref=e1247]\n    - cell \"Pass\" [ref=e1248]\n    - cell \"0.97\" [ref=e1249]\n    - cell \"Polite, acknowledges delay, offers remedy.\" [ref=e1250]\n    - cell \"$0.0012\" [ref=e1251]\n    - cell \"151d ago\" [ref=e1252]\n    - cell \"tr_3b8e1d6a\" [ref=e1253]\n    - cell \"Pass\" [ref=e1254]\n    - cell \"0.91\" [ref=e1255]\n    - cell \"Clear and courteous; slightly terse closing.\" [ref=e1256]\n    - cell \"$0.0009\" [ref=e1257]\n    - cell \"151d ago\" [ref=e1258]\n    - cell \"tr_7c1f5a2b\" [ref=e1259]\n    - cell \"Fail\" [ref=e1260]\n    - cell \"0.42\" [ref=e1261]\n    - cell \"Curt tone; no acknowledgement of the issue.\" [ref=e1262]\n    - cell \"$0.0014\" [ref=e1263]\n    - cell \"151d ago\" [ref=e1264]\n    - cell \"tr_2d9a6c3f\" [ref=e1265]\n    - cell \"Pass\" [ref=e1266]\n    - cell \"0.95\" [ref=e1267]\n    - cell \"Warm, on-brand, well-structured.\" [ref=e1268]\n    - cell \"$0.0008\" [ref=e1269]\n    - cell \"151d ago\" [ref=e1270]\n    - combobox \"Rows per page\" [expanded=false, ref=e1230]: 1 to 4\n    - button \"Previous page\" [disabled, ref=e1231]\n    - button \"Next page\" [disabled, ref=e1232]\n    - button \"Foggy\" [ref=e1233]\n    - button \"Expand Framerock HUD\" [ref=e1234]\n  - button \"Reset\" [ref=e1130]\n  - textbox \"evalId\" [ref=e1131]: eval-support-quality\n  - checkbox \"isLoading\" [checked=false, ref=e1132]\n  - button \"Copy\" [ref=e1133]\n  - link \"eval-detail-client.tsx\" [ref=e1147]\n  - link \"Gustavo Fior (@gustavo-fior)\" [ref=e1148]\n  - link \"Abdul Haidar\" [ref=e1149]\n  - link \"Foglamp Labs (foglamp-labs/foglamp)\" [ref=e1150]\n  - link \"foglamp.dev\" [ref=e1151]\n- heading \"Public API Copy Anchor Link\" [level=2, ref=e1124]\n  - link \"Public API\" [ref=e1134]\n  - button \"Copy Anchor Link\" [ref=e1135]\n- generic \"ExportPropTypeDescriptionEvalDetailBlockevalId?stringActive evaluation identifier.definition?EvalDef\" [ref=e1125] focusable [tabindex]\n  - columnheader \"Export\" [ref=e1212]\n  - columnheader \"Prop\" [ref=e1213]\n  - columnheader \"Type\" [ref=e1214]\n  - columnheader \"Description\" [ref=e1215]\n  - cell \"EvalDetailBlock\" [ref=e1156]\n  - cell \"evalId?\" [ref=e1157]\n  - cell \"string\" [ref=e1158]\n  - cell \"Active evaluation identifier.\" [ref=e1159]\n  - cell [ref=e1160]\n  - cell \"definition?\" [ref=e1161]\n  - cell \"EvalDefinition | null\" [ref=e1162]\n  - cell \"Evaluation scorer configuration, thresholds, and model settings.\" [ref=e1163]\n  - cell [ref=e1164]\n  - cell \"presets?\" [ref=e1165]\n  - cell \"{ id: string; name: string; prompt: string }[]\" [ref=e1166]\n  - cell \"Available evaluation rubric presets.\" [ref=e1167]\n  - cell [ref=e1168]\n  - cell \"providers?\" [ref=e1169]\n  - cell \"{ provider: string }[]\" [ref=e1170]\n  - cell \"Configured model providers available for LLM judges.\" [ref=e1171]\n  - cell [ref=e1172]\n  - cell \"series?\" [ref=e1173]\n  - cell \"EvalSeries[]\" [ref=e1174]\n  - cell \"Time-bucketed evaluation pass rate and score series.\" [ref=e1175]\n  - cell [ref=e1176]\n  - cell \"scores?\" [ref=e1177]\n  - cell \"EvalScore[]\" [ref=e1178]\n  - cell \"Individual evaluation score rows.\" [ref=e1179]\n  - cell [ref=e1180]\n  - cell \"total?\" [ref=e1181]\n  - cell \"number\" [ref=e1182]\n  - cell \"Total number of matching rows across all pages.\" [ref=e1183]\n  - cell [ref=e1184]\n  - cell \"isLoading?\" [ref=e1185]\n  - cell \"boolean\" [ref=e1186]\n  - cell \"Renders loading skeleton placeholders while data is being fetched.\" [ref=e1187]\n  - cell [ref=e1188]\n  - cell \"focusedScoreId?\" [ref=e1189]\n  - cell \"string | null\" [ref=e1190]\n  - cell \"Currently inspected score identifier.\" [ref=e1191]\n  - cell [ref=e1192]\n  - cell \"focusedScore?\" [ref=e1193]\n  - cell \"EvalScore | null\" [ref=e1194]\n  - cell \"Full score record for the open inspection drawer.\" [ref=e1195]\n  - cell [ref=e1196]\n  - cell \"onQueryChange?\" [ref=e1197]\n  - cell \"(query: { page: number; pageSize: number; sort: { key: \\\"score\\\"; dir: \\\"asc\\\" | \\\"desc\\\" } | null; from: Date; to: Date }) => void\" [ref=e1198]\n  - cell \"Callback fired when pagination, sorting, or date range changes.\" [ref=e1199]\n  - cell [ref=e1200]\n  - cell \"onUpdate?\" [ref=e1201]\n  - cell \"(value: EvalUpdate) => void | Promise<void>\" [ref=e1202]\n  - cell \"Callback fired when the evaluation configuration is saved.\" [ref=e1203]\n  - cell [ref=e1204]\n  - cell \"traces?\" [ref=e1205]\n  - cell \"Record<string, TraceSpan[]>\" [ref=e1206]\n  - cell \"Map of trace IDs to span arrays for the trace waterfall preview.\" [ref=e1207]\n  - cell [ref=e1208]\n  - cell \"judgeInputs?\" [ref=e1209]\n  - cell \"Record<string, EvalJudgeInput>\" [ref=e1210]\n  - cell \"Map of score IDs to rendered judge prompt inputs and segments.\" [ref=e1211]\n- heading \"Usage Copy Anchor Link\" [level=2, ref=e1126]\n  - link \"Usage\" [ref=e1136]\n  - button \"Copy Anchor Link\" [ref=e1137]\n- button \"Copy Text\" [ref=e1152]\n- generic \"import {\\n  EvalDetailBlock,\\n} from \\\"@tailrocks/framerock/blocks/dashboard/eval-detail-block\\\";\\n\\nexpor\" [ref=e1138] focusable [tabindex]\n- heading \"Source and registry Copy Anchor Link\" [level=2, ref=e1127]\n  - link \"Source and registry\" [ref=e1139]\n  - button \"Copy Anchor Link\" [ref=e1140]\n- link \"payload JSON\" [ref=e1153]\n- button \"Copy Text\" [ref=e1154]\n- generic \"npx shadcn@latest add http://localhost:3000/r/block-dashboard-eval-detail.json\" [ref=e1141] focusable [tabindex]\n- link \"Embedded Scan Board Compact embeddable architecture scan board displaying the interactive flow map and summary header.\" [ref=e1128]\n- link \"Figure Kit \u00b7 22 Source Figures Interactive switcher for browsing all 22 marketing landing figures across cost, trace, and quality categories.\" [ref=e1129]"
+}

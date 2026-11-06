@@ -1,0 +1,1029 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "messages": [
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/lib/story-frame.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/lib/story-frame.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/components/story-panel.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/components/story-panel.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/components/story-panel.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/components/story-panel.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/lib/story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/lib/story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/lib/story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/lib/story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/stories/primitives/button.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/stories/primitives/button.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/stories/primitives/button.story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/stories/primitives/button.story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/stories/primitives/button.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/stories/primitives/button.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/stories/primitives/button.story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/stories/primitives/button.story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    }
+  ]
+}

@@ -1,0 +1,4305 @@
+{
+  "browser": "Chrome/157.0.8103.39",
+  "rows": [
+    {
+      "path": "/docs/blocks/cutting-mat-footer-block",
+      "description": "Marketing footer set on an architectural cutting-mat grid with multi-column navigation links and copyright bar.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Cutting Mat Footer"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: footer.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/footer.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/buttons-badges-playground-block",
+      "description": "Interactive specimen grid showcasing button variants, sizes, icon buttons, and status badges across light and dark themes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Buttons & Badges Playground"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: page.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/buttons/page.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/agent-detail-inspector-block",
+      "description": "Agent performance inspector with latency/token charts, trace table, cost and tool breakdowns, and prompt version history.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Agent Detail Inspector"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: agent-detail-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/agents/[name]/agent-detail-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/drifting-fog-cta-block",
+      "description": "Marketing call-to-action section with copy-prompt onboarding button, drifting fog backdrop, and animated agent details preview.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Drifting Fog CTA"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: cta.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/cta.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/app-shell-block",
+      "description": "Application navigation shell with project switcher, collapsible sidebar, quota card, user menu, and nested route outlet.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "App Shell"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: app-shell.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/app-shell.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/device-approve-block",
+      "description": "CLI and SDK device authorization screen with 8-character verification code entry and approve/deny controls.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Device Approval"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: device-approve-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/device-approve-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/eval-detail-block",
+      "description": "Evaluation detail workspace with pass-rate trend charts, rubric configuration editor, score table, and judge input inspector.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Eval Detail"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: eval-detail-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/evals/[id]/eval-detail-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/embed-board-block",
+      "description": "Compact embeddable architecture scan board displaying the interactive flow map and summary header.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Embedded Scan Board"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: embed-board.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/embed-board.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/figure-kit-22-block",
+      "description": "Interactive switcher for browsing all 22 marketing landing figures across cost, trace, and quality categories.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Figure Kit · 22 Source Figures"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Newly Added by TailrocksInspired by figure-picker.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figure-picker.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/flow-map-block",
+      "description": "Interactive ELK-laid-out architecture graph with pan/zoom camera controls, group containers, and node-kind spotlight filtering.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Flow Map"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: flow-map.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/flow-map.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/hero-3d-demo-block",
+      "description": "Marketing hero section with blurred-rise headline, copy-prompt CTA, and 3D perspective dashboard entrance choreography.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Hero 3D Demo"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: hero.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/hero.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/hud-simulator-block",
+      "description": "Interactive HUD landing page simulator with live streaming trace events, step latency breakdown, and storm trigger.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "HUD Simulator"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: hud-landing.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/hud/hud-landing.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/marketing-navbar",
+      "description": "Sticky marketing navigation bar with Framerock brand lockup, section links, GitHub link, and keyboard-accessible sign-in button.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Marketing Navbar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: navbar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/navbar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/login-form-block",
+      "description": "Authentication card supporting Google OAuth, email/password sign-in, password reset, and passwordless magic links.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Login Form"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: login-form.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/login-form.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/instrument-empty-state-block",
+      "description": "Dashed empty-state card with copyable AI SDK instrumentation snippets for agents, workflows, and sessions.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Instrument Empty State"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: instrument-empty-state.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/instrument-empty-state.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/observability-guide-block",
+      "description": "Long-form interactive engineering guide to AI agent observability with live embedded traces, waterfall diagrams, and chapter navigation.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Observability Guide"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: observability-guide.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/how-it-works/observability-guide.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/onboarding-panel-block",
+      "description": "First-run onboarding card with animated API key reveal, copyable AI SDK setup prompt, and documentation link.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Onboarding Panel"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: onboarding-panel.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/onboarding-panel.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/overview-dashboard-block",
+      "description": "Top-level observability overview dashboard combining KPI stat cards, latency/token/error trend charts, and cost attribution tables.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Overview Dashboard"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: overview-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/overview/overview-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/scan-landing-block",
+      "description": "Interactive codebase scan landing hero with copyable CLI command and embedded architecture flow map preview.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Scan Landing"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: scan-landing.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/scan/scan-landing.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/scan-board-block",
+      "description": "Full-viewport codebase scan explorer pairing the floating architecture summary sidebar with the interactive flow map.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Scan Board"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: scan-board.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/scan-board.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/trace-waterfall-inspector-block",
+      "description": "Trace execution waterfall inspector with span timeline, token/cost percentiles, evaluation score pills, and payload drawer.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Trace Waterfall Inspector"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: trace-detail-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/traces/[traceId]/trace-detail-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/setup-board-block",
+      "description": "Interactive instrumentation plan review board combining detected agent/workflow decisions with live flow-map spotlighting.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Setup Board · Plan Edits"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: setup-board.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/setup/setup-board.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/session-conversation-inspector-block",
+      "description": "Multi-turn session transcript inspector displaying user messages, assistant responses, tool calls, and per-turn token/cost metrics.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Session Conversation Inspector"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: session-detail-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/sessions/[sessionId]/session-detail-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/traces-explorer-block",
+      "description": "Filterable, sortable, and paginated traces table with agent, workflow, model, customer, and error-status filters.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Explorer"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: traces-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/traces/traces-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/blocks/workflow-detail-block",
+      "description": "Workflow execution dashboard displaying run volume, error rate, duration percentiles, and expandable multi-trace run trees.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Workflow Detail"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: workflow-detail-client.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/app/(app)/workflows/[name]/workflow-detail-client.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/background",
+      "description": "Adds one of the source-defined SVG pattern backgrounds to a chart.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Chart SVG Background Patterns"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "1:1 CopiedSource: background.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/background.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/area-chart",
+      "description": "Plots configured numeric series as filled areas, with optional stacking, selection, brush, zoom, and loading states.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Evil Area Chart"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: area-chart.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/area-chart.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/bar-chart",
+      "description": "Plots configured values as vertical or horizontal bars, with optional stacking and threshold markers.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Evil Bar Chart"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: bar-chart.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/bar-chart.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/chart",
+      "description": "Provides the shared chart container, theme configuration, and loading state used by EvilCharts.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Chart Container and Context"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: chart.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/chart.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/donut-chart",
+      "description": "Plots configured slices in a donut with optional legend, center labels, and value formatting.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Evil Donut Chart"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: donut-chart.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/donut-chart.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/dot",
+      "description": "Controls the point marker treatment for line and area series.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Chart Dots"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: dot.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/dot.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/evil-brush",
+      "description": "Provides a draggable range selector over the full dataset with controlled or default indices.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Evil Brush Range Selector"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: evil-brush.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/evil-brush.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/legend",
+      "description": "Renders the chart selectable legend and its supported indicator variants.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Chart Legend"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: legend.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/legend.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/tooltip",
+      "description": "Configures tooltip appearance, corners, selected index, and formatters.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Chart Tooltip"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: tooltip.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/tooltip.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/line-chart",
+      "description": "Plots configured numeric series as lines, with optional buffered strokes, zoom, brush, and loading states.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Evil Line Chart"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: line-chart.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/charts/line-chart.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/credits",
+      "description": "Open-source attribution, provenance, and project independence.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Origin & Credits"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/charts/zoom",
+      "description": "Exports the drag-selection hook shared by EvilCharts line, area, and bar charts.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Drag-to-Zoom Selection"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "1:1 CopiedSource: zoom.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/evilcharts/ui/zoom.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-alert",
+      "description": "The alert figure in the costs section, rendered by CostAlert.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Alert"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-area",
+      "description": "The area figure in the costs section, rendered by CostArea.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Area"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-backdrop",
+      "description": "The backdrop figure in the costs section, rendered by CostBackdrop.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Backdrop"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-cards",
+      "description": "The cards figure in the costs section, rendered by CostCards.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Cards"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-scenes.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-scenes.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-chart",
+      "description": "The chart figure in the costs section, rendered by CostChart.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Chart"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-donut",
+      "description": "The donut figure in the costs section, rendered by CostDonut.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Donut"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-fan",
+      "description": "The fan figure in the costs section, rendered by CostFan.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Fan"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-flow",
+      "description": "The flow figure in the costs section, rendered by CostFlow.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Flow"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-shares",
+      "description": "The shares figure in the costs section, rendered by CostShares.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Shares"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-shelf",
+      "description": "The shelf figure in the costs section, rendered by CostShelf.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Shelf"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-small",
+      "description": "The small figure in the costs section, rendered by CostSmall.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Small"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-stair",
+      "description": "The stair figure in the costs section, rendered by CostStair.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Stair"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-total",
+      "description": "The total figure in the costs section, rendered by CostTotal.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Total"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-table",
+      "description": "The table figure in the costs section, rendered by CostTable.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Table"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/costs-tabs",
+      "description": "The tabs figure in the costs section, rendered by CostTabs.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Costs Tabs"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-costs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-costs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/quality-review",
+      "description": "The review figure in the quality section, rendered by QualityReview.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Quality Review"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-scenes.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-scenes.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/traces-chat",
+      "description": "The chat figure in the traces section, rendered by TraceChat.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Chat"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-traces.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/traces-graph",
+      "description": "The graph figure in the traces section, rendered by TraceGraph.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Graph"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-traces.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/traces-inspector",
+      "description": "The inspector figure in the traces section, rendered by TraceInspector.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Inspector"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-traces.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/traces-steps",
+      "description": "The steps figure in the traces section, rendered by TraceSteps.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Steps"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-traces.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/foundations/architecture",
+      "description": "How the Framerock package fits into an application.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Package architecture"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/traces-story",
+      "description": "The story figure in the traces section, rendered by TraceStory.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Story"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-scenes.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-scenes.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/figures/traces-xray",
+      "description": "The xray figure in the traces section, rendered by TraceXray.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Traces Xray"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: figures-traces.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/landing/figures-traces.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/foundations/geometry",
+      "description": "Squircle corners, dual-mode forms, and drawer buttons.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Geometry and controls"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/foundations/installation",
+      "description": "Run the workspace and use Framerock components via package imports or the shadcn registry.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Installation and usage"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/foundations/motion",
+      "description": "Preserve interaction states and respect reduced motion.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Motion and accessibility"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/foundations/typography",
+      "description": "Fonts and icon choices in Framerock.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Typography and icons"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/foundations/tokens",
+      "description": "The light and dark tokens used by Framerock.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Color and shadows"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs",
+      "description": "Framerock — Web UI Design System by Tailrocks, extracted from Foglamp by Gustavo Fior & Foglamp Labs.",
+      "component": false,
+      "status": 200,
+      "h1": [
+        "Framerock"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/accordion",
+      "description": "Disclosure group for showing related trace, run, or evaluation details. The root supports multiple expanded items, as used by the shipped story.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Accordion"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: accordion.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/accordion.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/alert",
+      "description": "Compact status or warning container with separate title, description, and action slots. The wrapper offers default and destructive treatments.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Alert"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: alert.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/alert.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/alert-dialog",
+      "description": "Modal confirmation flow with a backdrop, title, description, and action or cancel controls. Content size and cancel button styling are exposed by this wrapper.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Alert Dialog"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: alert-dialog.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/alert-dialog.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/aspect-ratio",
+      "description": "Container that keeps its content at a numeric width-to-height ratio. The ratio is required and passed to the underlying div wrapper.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Aspect Ratio"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: aspect-ratio.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/aspect-ratio.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/avatar",
+      "description": "Identity image with a fallback, optional badge, and grouped-avatar layout. The root accepts sizes default, sm, lg, and xs.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Avatar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: avatar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/avatar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/badge",
+      "description": "Compact status label with default, semantic color, and outline treatments. Variant and size values come from the exported variant recipe.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Badge"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: badge.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/badge.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/button",
+      "description": "Action control with seven visual variants and eight sizes. It preserves Base UI button polymorphism through the render prop and infers native-button behavior when render is absent.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Button"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: button.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/breadcrumb",
+      "description": "Navigation trail built from a nav, ordered list, items, links, current-page label, separator, and overflow marker.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Breadcrumb"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: breadcrumb.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/breadcrumb.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/button-group",
+      "description": "Grouped control row or column with optional text and separator slots. Its orientation variant changes the group layout.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Button Group"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: button-group.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/button-group.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/calendar",
+      "description": "DayPicker calendar with Framerock button styling, chevrons, and range selection states.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Calendar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: calendar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/calendar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/card",
+      "description": "Content container composed from header, title, description, action, body, and footer slots. The root offers default and compact sizes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Card"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/carousel",
+      "description": "Embla-backed, axis-aware carousel with content, item, previous, and next controls. The root accepts Embla options and plugins and can expose its API through setApi.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Carousel"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: carousel.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/carousel.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/chart",
+      "description": "Chart container, tooltip, and legend helpers for Recharts. ChartConfig maps series keys to labels and optional color or icon metadata.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Chart"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: chart.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/chart.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/checkbox",
+      "description": "Base UI checkbox root with project input-control styling and forwarded checkbox state and accessibility props.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Checkbox"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: checkbox.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/checkbox.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/collapsible",
+      "description": "Controlled or uncontrolled disclosure root with separate trigger and panel exports.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Collapsible"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "1:1 CopiedSource: collapsible.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/collapsible.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/combobox",
+      "description": "Searchable selection control with list, group, empty, chip, clear, and separator parts. The input can show a trigger or clear button.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Combobox"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: combobox.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/combobox.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/command",
+      "description": "Command menu composition built on cmdk, with an optional dialog wrapper, search input, groups, options, empty state, and shortcut label.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Command"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: command.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/command.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/context-menu",
+      "description": "Right-click menu with nested submenus, checkbox and radio items, labels, separators, and shortcut text.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Context Menu"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: context-menu.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/context-menu.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/dialog",
+      "description": "Modal dialog built from Base UI root, backdrop, popup, title, description, and close parts. The popup shows its close button by default.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Dialog"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: dialog.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/dialog.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/direction",
+      "description": "Direction provider and hook used to set or read left-to-right and right-to-left layout context.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Direction"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "1:1 CopiedSource: direction.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/direction.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/dropdown-menu",
+      "description": "Positioned menu with groups, nested submenus, checkbox and radio items, labels, separators, and keyboard shortcut text.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Dropdown Menu"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: dropdown-menu.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/dropdown-menu.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/drawer",
+      "description": "Modal drawer composition with trigger, portal, backdrop, content, heading, and footer parts, backed by the project drawer primitive.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Drawer"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: drawer.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/drawer.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/empty",
+      "description": "Structured empty state with header, media, title, description, and content slots. Media supports default and icon variants.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Empty"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: empty.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/empty.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/field",
+      "description": "Form-field composition with fieldset, legend, label, description, error, separator, and layout slots. Field orientation supports vertical, horizontal, and responsive layouts.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Field"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: field.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/field.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/hover-card",
+      "description": "Preview card opened by a trigger. Its content wrapper exposes popup placement options from Base UI.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Hover Card"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: hover-card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/hover-card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/input-group",
+      "description": "Input or textarea composition with aligned addons, buttons, and text. Addon alignment and button size and variant are configurable.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Input Group"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: input-group.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/input-group.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/item",
+      "description": "General-purpose row composition with media, content, actions, header, footer, and separator slots. The root and media slots expose independent variants.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Item"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: item.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/item.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/input-otp",
+      "description": "OTP input composition with groups, indexed slots, and separators. The root adds a class for the OTP input package container.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Input Otp"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: input-otp.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/input-otp.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/input",
+      "description": "Styled native input that keeps standard input attributes and forwards its input type and other native props.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Input"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: input.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/input.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/kbd",
+      "description": "Keyboard-key label and group wrapper for displaying one key or a sequence of keys.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Kbd"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: kbd.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/kbd.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/label",
+      "description": "Styled native label that forwards standard label attributes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Label"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: label.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/label.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/loader",
+      "description": "Text shimmer indicator with a configurable message, size, and class name.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Loader"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: loader.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/loader.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/menubar",
+      "description": "Horizontal Base UI menubar composed with menu, trigger, popup, item, submenu, radio, checkbox, separator, and shortcut parts.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Menubar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: menubar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/menubar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/native-select",
+      "description": "Styled native select with option and option-group exports. The select supports default and compact sizes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Native Select"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: native-select.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/native-select.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/progress",
+      "description": "Progress root with track, indicator, label, and value slots, backed by Base UI progress state.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Progress"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: progress.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/progress.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/navigation-menu",
+      "description": "Site-navigation menu with list, item, trigger, content, positioner, link, and indicator parts. Its link wrapper closes the menu on click by default.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Navigation Menu"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: navigation-menu.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/navigation-menu.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/pagination",
+      "description": "Navigation landmark with page list, active link, previous and next controls, and an ellipsis marker.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Pagination"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: pagination.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/pagination.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/popover",
+      "description": "Non-modal floating panel with trigger, content, header, title, and description parts. Content exposes Base UI positioner alignment and side options.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Popover"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: popover.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/popover.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/radio-group",
+      "description": "Radio-group container and radio item, backed by Base UI state and keyboard behavior.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Radio Group"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: radio-group.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/radio-group.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/resizable",
+      "description": "Panel group, panel, and resize handle composition backed by react-resizable-panels. The handle can add its visual grip.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Resizable"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: resizable.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/resizable.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/scroll-area",
+      "description": "Scroll container and scrollbar pair backed by Base UI. The scrollbar defaults to vertical orientation.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Scroll Area"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: scroll-area.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/scroll-area.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/select",
+      "description": "Base UI selection control with popup positioning and scroll controls. When items is omitted, the root collects labels from nested SelectItem children.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Select"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: select.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/select.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/separator",
+      "description": "Semantic horizontal or vertical divider backed by Base UI separator.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Separator"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: separator.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/separator.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/sheet",
+      "description": "Dialog-based side panel with configurable edge, default or floating treatment, and optional close button.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Sheet"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: sheet.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/sheet.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/sonner",
+      "description": "Toaster adapter that forwards Sonner ToasterProps and keeps the project theme and visual treatment.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Sonner"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "1:1 CopiedSource: sonner.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/sonner.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/skeleton",
+      "description": "Styled placeholder block for content that has not loaded yet.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Skeleton"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: skeleton.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/skeleton.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/sidebar",
+      "description": "Collapsible navigation layout with provider state, side and layout variants, menu rows, actions, badges, skeletons, and a useSidebar state hook.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Sidebar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: sidebar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/sidebar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/slider",
+      "description": "Base UI slider with a numeric range and controlled or default values.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Slider"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: slider.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/slider.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/spinner",
+      "description": "Inline SVG spinner that forwards SVG attributes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Spinner"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: spinner.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/spinner.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/switch",
+      "description": "Base UI switch with default and compact sizes and root state props.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Switch"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: switch.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/switch.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/table",
+      "description": "Semantic table composition with optional internal scrolling and sticky headers. Rows can opt into keyboard-accessible interaction, and cells accept start, center, or end alignment.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Table"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/toggle-group",
+      "description": "Base UI toggle group with shared variant and size choices, explicit orientation, and configurable spacing between items.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Toggle Group"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: toggle-group.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/toggle-group.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/tabs",
+      "description": "Base UI tabs composition with root orientation and default or line list variants.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Tabs"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: tabs.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/tabs.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/textarea",
+      "description": "Styled native textarea that forwards standard textarea attributes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Textarea"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: textarea.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/textarea.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/toggle",
+      "description": "Base UI toggle with default or outline treatment and default, small, or large size.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Toggle"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: toggle.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/toggle.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/primitives/tooltip",
+      "description": "Base UI tooltip root, trigger, popup, and provider. Popup placement is configurable, and provider delay defaults to zero milliseconds.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Tooltip"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: tooltip.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/ui/src/components/tooltip.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/agent-icon",
+      "description": "Renders a stable, name-derived agent mark with filled and outline treatments.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Agent Icon"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: agent-icon.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/agent-icon.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/brand-logos",
+      "description": "Exports provider brand marks as individual React components.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Brand Logos"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "1:1 CopiedSource: brand-logos.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/brand-logos.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/animated-api-key",
+      "description": "Reveals a key value in the context of the label it replaces.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Animated API Key"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: animated-api-key.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/animated-api-key.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/brand-mark",
+      "description": "Renders the Framerock three-frame architectural brand mark.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Brand Mark"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: brand-mark.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/brand-mark.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/code-block",
+      "description": "Highlights source text with Shiki and a TypeScript default language.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Code Block"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: code-block.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/code-block.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/context-chip",
+      "description": "Shows a compact context label with an optional icon and link destination.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Context Chip"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: context-chip.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/context-chip.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/copy-button",
+      "description": "Copies a supplied value and exposes the copied state through its icon.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Copy Button"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: copy-button.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/copy-button.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/copy-icon",
+      "description": "Renders the ready or copied glyph for a copy action.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Copy Icon"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: copy-icon.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/copy-icon.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/cost-breakdown",
+      "description": "Groups token cost rows into source-defined categories for a resolved reporting range.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Cost Breakdown"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: cost-breakdown-card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/cost-breakdown-card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/customer-avatar",
+      "description": "Renders the customer identity mark from customer ID and name inputs.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Customer Avatar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: customer-avatar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/customer-avatar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/data-table",
+      "description": "Composes the table toolbar, search, filter, sorting, and pagination helpers used by Framerock tables.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Data Table"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/eval-scores",
+      "description": "Renders evaluation score dots, result labels, and score rows for trace results.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Eval Scores"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: eval-scores.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/eval-scores.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/dev-bar",
+      "description": "Displays query and network diagnostics with explicit callbacks for developer actions.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Dev Bar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: dev-toolbar.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/dev-toolbar.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/filter-select",
+      "description": "Provides an option list with an explicit value and change callback.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Filter Select"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/foggy-launcher",
+      "description": "Renders the launcher control for the Foggy assistant widget.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Foggy Launcher"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: foggy-widget.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/foggy/foggy-widget.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/foggy-message",
+      "description": "Renders one Foggy conversation message from the widget message model.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Foggy Message"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: foggy-message.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/foggy/foggy-message.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/foggy-widget",
+      "description": "Renders the Foggy assistant panel from its controlled widget state and callbacks.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Foggy Widget"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: foggy-widget.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/foggy/foggy-widget.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/foglamp-hud",
+      "description": "Displays live trace, step, token, and tool events from an injected HUD stream.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Foglamp HUD"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: FoglampHUD.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/sdk/src/hud/react/FoglampHUD.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/heat-cell",
+      "description": "Maps a metric value to a percentile bucket and its corresponding table cell treatment.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Heat Cell"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: heat-cell.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/heat-cell.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/hud-inline-preview",
+      "description": "Shows the HUD in an inline preview using the HUD event stream contract.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "HUD Inline Preview"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: FoglampHUD.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/packages/sdk/src/hud/react/FoglampHUD.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/markdown",
+      "description": "Renders prose inside the payload inspector.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Markdown"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: markdown.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/markdown.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/logo",
+      "description": "Renders the product logo with optional size and class overrides.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Logo"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: logo.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/marketing/logo.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/model-chip",
+      "description": "Displays model and provider labels in a compact chip.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Model Chip"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: model-chip.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/model-chip.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/model-logo",
+      "description": "Renders a model-provider icon from its model name.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Model Logo"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: model-logo.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/model-logo.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/node-flow",
+      "description": "Groups sequential agent flow nodes into a compact flow row.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Node Flow"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: node-flow.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/node-flow.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/page-header",
+      "description": "Renders a page title, supporting copy, and optional back navigation.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Page Header"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: page-parts.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/page-parts.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/pagination-footer",
+      "description": "Reports the visible row interval and exposes page changes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Pagination Footer"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/payload-view",
+      "description": "Renders structured payload data as JSON, prose, message parts, and tool calls.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Payload View"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: payload-view.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/payload-view.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/project-icon",
+      "description": "Renders a stable project mark with a generated fallback.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Project Icon"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: project-icon.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/project-icon.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/project-provider",
+      "description": "Provides project selection state to descendants through useProject.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Project Provider"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: project-context.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/project-context.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/prompt-version-chip",
+      "description": "Links to the prompt-version view for an agent.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Prompt Version Chip"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: prompt-version-chip.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/prompt-version-chip.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/prompt-prose",
+      "description": "Parses and renders a prompt template with slot examples and token estimates.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Prompt Prose"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: prompt-prose.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/prompt-prose.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/quota-card",
+      "description": "Displays span quota usage and its current percentage.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Quota Card"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: quota-card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/quota-card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/prompt-versions-view",
+      "description": "Compares prompt versions, their templates, and slot values.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Prompt Versions View"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: prompt-versions-card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/prompt-versions-card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/range-picker",
+      "description": "Renders the shared reporting range controls and preset choices.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Range Picker"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: range-picker.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/range-picker.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/range-provider",
+      "description": "Provides shared range state and the setter returned by useRange.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Range Provider"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: range-context.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/range-context.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/relative-time",
+      "description": "Formats a timestamp as relative time.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Relative Time"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: relative-time.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/relative-time.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/run-exchange",
+      "description": "Renders the conversation and tool exchange for a run.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Run Exchange"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: run-exchange.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/run-exchange.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/scan-brand",
+      "description": "Exports the scan mark, favicon, and model icon used by scan screens.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Scan Brand"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: brand.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/scan/brand.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/search-input",
+      "description": "Provides a controlled search field for table filtering.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Search Input"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/sortable-head",
+      "description": "Renders a table header that reports the current sort direction and handles sort changes.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Sortable Head"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/span-type",
+      "description": "Maps span type names to their icon, color, and badge treatment.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Span Type"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: span-type.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/span-type.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/stat-card",
+      "description": "Composes a statistic label and value with optional delta, chart, and meter details.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Stat Card"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: page-parts.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/page-parts.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/sunset-card",
+      "description": "Shows the service sunset notice and its fixed shutdown date.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Sunset Card"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: sunset-card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/sunset-card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/theme-switcher",
+      "description": "Provides the light, dark, and system theme choices.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Theme Switcher"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: theme-switcher.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/theme-switcher.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/stat",
+      "description": "Renders a compact label and value pair.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Stat"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: stat.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/stat.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/toggle-chip",
+      "description": "Renders a controlled active/inactive filter chip.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Toggle Chip"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/tool-icon",
+      "description": "Maps a tool name to its icon, with a fallback for unknown names.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Tool Icon"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: tool-icon.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/tool-icon.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/tool-breakdown",
+      "description": "Groups tool usage rows and their costs for the supplied range data.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Tool Breakdown"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: tool-breakdown-card.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/tool-breakdown-card.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/toolbar",
+      "description": "Arranges table controls and trailing summary content.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Toolbar"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: data-table.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/data-table.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/trace-timeline",
+      "description": "Renders trace spans on a timed waterfall and reports the selected span.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Trace Timeline"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: trace-timeline.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/trace-timeline.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/trend-charts",
+      "description": "Exports the selectable chart legend and range-bucket helpers used by trend views.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "Trend Charts"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: trend-charts.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/app/trend-charts.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    },
+    {
+      "path": "/docs/widgets/user-menu",
+      "description": "Renders a user menu from an explicit session and sign-out callback.",
+      "component": true,
+      "status": 200,
+      "h1": [
+        "User Menu"
+      ],
+      "descriptionMatches": 1,
+      "provenance": [
+        {
+          "tag": "ASIDE",
+          "text": "Modified (Import/Prop Decoupled)Source: user-menu.tsxOriginal design by Gustavo Fior (@gustavo-fior)·Abdul Haidar·Foglamp Labs (foglamp-labs/foglamp)·foglamp.dev",
+          "links": [
+            "https://github.com/foglamp-labs/foglamp/blob/7d7e6609108019a74902858d4b07c24825c6318b/apps/web/src/components/user-menu.tsx",
+            "https://gustavofior.com",
+            "https://www.linkedin.com/in/abdulhdr/",
+            "https://github.com/foglamp-labs/foglamp",
+            "https://foglamp.dev"
+          ]
+        }
+      ],
+      "badRelativeLinks": [],
+      "errorPage": false
+    }
+  ],
+  "endpoints": [
+    {
+      "path": "/r/registry.json",
+      "status": 200,
+      "type": "application/json",
+      "length": 209512
+    },
+    {
+      "path": "/r/framerock.json",
+      "status": 200,
+      "type": "application/json",
+      "length": 209512
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "type": "text/plain",
+      "length": 104585
+    }
+  ],
+  "events": []
+}

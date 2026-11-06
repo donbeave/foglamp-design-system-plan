@@ -1,0 +1,917 @@
+$ turbo check-types
+
+   • turbo 2.11.10
+   • Packages in scope: @tailrocks/docs, @tailrocks/framerock, @tailrocks/registry
+   • Running check-types in 3 packages
+   • Remote caching disabled
+
+@tailrocks/framerock:check-types: cache miss, executing 42ea7c834dd2e83d
+@tailrocks/framerock:check-types: $ tsc --noEmit
+@tailrocks/framerock:check-types: src/blocks/app-shell/app-shell-block.tsx(21,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/app-shell/app-shell-block.tsx(21,25): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/app-shell/app-shell-block.tsx(148,70): error TS7006: Parameter 'created' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/app-shell/app-shell-block.tsx(151,25): error TS7006: Parameter 'current' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/app-shell/new-project-dialog.tsx(21,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/app-shell/new-project-dialog.tsx(56,109): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/app-shell/new-project-dialog.tsx(57,187): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/buttons-badges.tsx(65,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/auth/device-approve.tsx(28,10): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/blocks/auth/device-approve.tsx(28,23): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/auth/device-approve.tsx(28,34): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/auth/device-approve.tsx(28,42): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/auth/device-approve.tsx(264,18): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/instrument-empty-state.tsx(32,10): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/blocks/auth/instrument-empty-state.tsx(32,17): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/auth/instrument-empty-state.tsx(199,40): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ v7: string; v6: string; }'.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(25,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(342,30): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(377,30): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(397,17): error TS7031: Binding element 'canSubmit' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(397,28): error TS7031: Binding element 'isSubmitting' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(428,30): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(448,17): error TS7031: Binding element 'canSubmit' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(448,28): error TS7031: Binding element 'isSubmitting' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(488,30): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(508,17): error TS7031: Binding element 'canSubmit' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/auth/login-form.tsx(508,28): error TS7031: Binding element 'isSubmitting' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(51,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(51,20): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(51,31): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(51,40): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(51,48): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(333,23): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(348,25): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(492,39): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(495,40): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(552,39): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(555,40): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(556,40): error TS7006: Parameter '_v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(556,44): error TS7006: Parameter 'key' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(556,49): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(566,45): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/agent-detail-inspector-block.tsx(738,47): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,10): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,25): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,35): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,47): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,58): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,67): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(67,75): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(398,27): error TS7006: Parameter 'current' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(474,54): error TS7006: Parameter 'c' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(860,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(861,29): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(882,46): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(953,21): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(955,28): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(1020,24): error TS7006: Parameter 'seg' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(1020,29): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-detail-block.tsx(1030,46): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ readonly input: "Input"; readonly output: "Output"; readonly context: "Context"; readonly reference: "Reference"; readonly tools: "Tools"; }'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-settings-fields.tsx(302,21): error TS7006: Parameter 'value' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-settings-fields.tsx(370,26): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-settings-fields.tsx(383,24): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-settings-fields.tsx(392,24): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/eval-settings-fields.tsx(402,24): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(53,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(53,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(53,30): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(420,10): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(482,39): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(513,23): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(527,25): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(551,59): error TS7006: Parameter 'm' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(552,36): error TS7006: Parameter 'id' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(552,40): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(558,18): error TS7006: Parameter 'id' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(558,22): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(596,11): error TS2538: Type '{}' cannot be used as an index type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(596,23): error TS2538: Type '{}' cannot be used as an index type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(610,19): error TS7006: Parameter '_' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(610,22): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(708,54): error TS7006: Parameter 'm' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(709,54): error TS7006: Parameter 'a' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(712,26): error TS7006: Parameter 'w' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(716,26): error TS7006: Parameter 'c' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(801,37): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(822,37): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(910,37): error TS7006: Parameter 'm' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(973,37): error TS7006: Parameter 'a' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1027,40): error TS7006: Parameter 'w' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1085,40): error TS7006: Parameter 'c' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1174,35): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1177,36): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1178,36): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1237,35): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1240,36): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1299,35): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1302,36): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1303,36): error TS7006: Parameter '_v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1303,40): error TS7006: Parameter 'key' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1303,45): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/overview-dashboard-block.tsx(1326,42): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/session-conversation-inspector-block.tsx(35,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/session-conversation-inspector-block.tsx(35,26): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(54,10): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(54,23): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(54,34): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(54,43): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(54,51): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(689,26): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(700,44): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(704,36): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(735,37): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(1141,30): error TS7006: Parameter 'p' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(2637,30): error TS7006: Parameter 'f' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(3037,35): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(3047,35): error TS7006: Parameter 'o' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(3061,23): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(3071,34): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(3120,38): error TS7006: Parameter 'a' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/trace-waterfall-inspector-block.tsx(3183,35): error TS7006: Parameter 'o' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(55,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(55,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(55,30): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(55,38): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(307,15): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(309,15): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(327,32): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(328,58): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(329,61): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(330,73): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(330,96): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(331,58): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(332,60): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(333,72): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(336,35): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(338,41): error TS7006: Parameter 'a' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(338,44): error TS7006: Parameter 'b' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(340,116): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(340,224): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(340,291): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(376,18): error TS2322: Type 'unknown' is not assignable to type 'string | null | undefined'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(395,62): error TS18046: 'c' is of type 'unknown'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(398,16): error TS2339: Property 'customerName' does not exist on type '{ customerId: string; }'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(402,27): error TS2339: Property 'customerName' does not exist on type '{ customerId: string; }'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(403,23): error TS2339: Property 'customerImageUrl' does not exist on type '{ customerId: string; }'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(412,30): error TS2345: Argument of type 'unknown' is not assignable to parameter of type 'string | null | undefined'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(414,20): error TS2322: Type 'unknown' is not assignable to type 'string | null | undefined'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(451,13): error TS2322: Type '{ value: unknown; label: unknown; icon: (p: { className?: string | undefined; }) => Element; }[]' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }[]'.
+@tailrocks/framerock:check-types:   Type '{ value: unknown; label: unknown; icon: (p: { className?: string; }) => JSX.Element; }' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }'.
+@tailrocks/framerock:check-types:     Types of property 'value' are incompatible.
+@tailrocks/framerock:check-types:       Type 'unknown' is not assignable to type 'string'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(458,13): error TS2322: Type '{ value: unknown; label: string; icon: (p: { className?: string | undefined; }) => Element; }[]' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }[]'.
+@tailrocks/framerock:check-types:   Type '{ value: unknown; label: string; icon: (p: { className?: string; }) => JSX.Element; }' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }'.
+@tailrocks/framerock:check-types:     Types of property 'value' are incompatible.
+@tailrocks/framerock:check-types:       Type 'unknown' is not assignable to type 'string'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(479,15): error TS2322: Type '{ value: unknown; label: unknown; icon: (p: { className?: string | undefined; }) => Element; }[]' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }[]'.
+@tailrocks/framerock:check-types:   Type '{ value: unknown; label: unknown; icon: (p: { className?: string; }) => JSX.Element; }' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }'.
+@tailrocks/framerock:check-types:     Types of property 'value' are incompatible.
+@tailrocks/framerock:check-types:       Type 'unknown' is not assignable to type 'string'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(505,15): error TS2322: Type '{ value: unknown; label: unknown; icon: (p: { className?: string | undefined; }) => Element; }[]' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }[]'.
+@tailrocks/framerock:check-types:   Type '{ value: unknown; label: unknown; icon: (p: { className?: string; }) => JSX.Element; }' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }'.
+@tailrocks/framerock:check-types:     Types of property 'value' are incompatible.
+@tailrocks/framerock:check-types:       Type 'unknown' is not assignable to type 'string'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(514,15): error TS2322: Type '{ value: unknown; label: unknown; icon: (p: { className?: string | undefined; }) => Element; }[]' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }[]'.
+@tailrocks/framerock:check-types:   Type '{ value: unknown; label: unknown; icon: (p: { className?: string; }) => JSX.Element; }' is not assignable to type '{ value: string; label: string; hint?: string | undefined; icon?: any; }'.
+@tailrocks/framerock:check-types:     Types of property 'value' are incompatible.
+@tailrocks/framerock:check-types:       Type 'unknown' is not assignable to type 'string'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(663,31): error TS7006: Parameter 't' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(668,37): error TS7006: Parameter 'event' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(741,47): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(754,47): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/traces-explorer-block.tsx(773,47): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(50,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(50,20): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(50,31): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(50,40): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(50,48): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(334,23): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(348,25): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(573,39): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(576,40): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(633,39): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(636,40): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(637,40): error TS7006: Parameter '_v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(637,44): error TS7006: Parameter 'key' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/dashboard/workflow-detail-block.tsx(637,49): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/guide/observability-guide.tsx(33,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/guide/observability-guide.tsx(33,21): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/guide/observability-guide.tsx(33,29): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/guide/observability-guide.tsx(33,44): error TS2305: Module '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/blocks/guide/observability-guide.tsx(579,39): error TS7006: Parameter 'value' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/guide/observability-guide.tsx(606,54): error TS7006: Parameter 'value' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/chrome/code-block.tsx(20,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/marketing/chrome/copy-button.tsx(23,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/chrome/copy-button.tsx(23,21): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/chrome/copy-button.tsx(23,29): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/chrome/navbar.tsx(23,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/chrome/navbar.tsx(23,21): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/ask-foggy.tsx(27,10): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/ask-foggy.tsx(27,18): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/ask-foggy.tsx(91,20): error TS7006: Parameter 'current' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/copy-prompt-button.tsx(25,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/copy-prompt-button.tsx(25,21): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/copy-prompt-button.tsx(25,29): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/cta/cta.tsx(29,10): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/demo-chrome.tsx(30,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/demo-context.tsx(19,10): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/demo-context.tsx(19,25): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/demo-shell.tsx(23,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(52,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(52,20): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(277,33): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(280,34): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(323,33): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(326,34): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(327,34): error TS7006: Parameter '_v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(327,38): error TS7006: Parameter 'key' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/agent-detail.tsx(327,43): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/breakdown-cards.tsx(27,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/breakdown-cards.tsx(132,29): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/breakdown-cards.tsx(135,30): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/breakdown-cards.tsx(136,30): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/eval-detail.tsx(49,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/eval-detail.tsx(49,20): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/session-detail.tsx(32,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/session-detail.tsx(32,26): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/trace-detail.tsx(43,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/trace-detail.tsx(474,42): error TS7006: Parameter 'o' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(49,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(49,20): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(248,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(251,26): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(294,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(297,26): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(298,26): error TS7006: Parameter '_v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(298,30): error TS7006: Parameter 'key' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/detail/workflow-detail.tsx(298,35): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/index.tsx(21,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/index.tsx(21,21): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/index.tsx(21,29): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/piece.tsx(23,10): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/piece.tsx(23,25): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/agents-tab.tsx(30,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/agents-tab.tsx(93,37): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/alerts-tab.tsx(46,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/alerts-tab.tsx(129,37): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/evals-tab.tsx(48,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/evals-tab.tsx(277,22): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/evals-tab.tsx(285,31): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(36,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(428,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(431,26): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(432,26): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(474,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(477,26): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(518,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(521,26): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(522,26): error TS7006: Parameter '_v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(522,30): error TS7006: Parameter 'key' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/overview-tab.tsx(522,35): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/sessions-tab.tsx(31,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/sessions-tab.tsx(136,37): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/traces-tab.tsx(52,10): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/traces-tab.tsx(52,18): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/traces-tab.tsx(250,13): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/traces-tab.tsx(252,13): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/traces-tab.tsx(393,38): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/workflows-tab.tsx(30,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/demo/tabs/workflows-tab.tsx(87,37): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-kit.tsx(22,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-picker.tsx(23,10): error TS2305: Module '"react"' has no exported member 'Suspense'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-reveal.tsx(21,3): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-reveal.tsx(22,8): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-reveal.tsx(23,3): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-reveal.tsx(24,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-reveal.tsx(25,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figure-reveal.tsx(26,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(38,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(38,26): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(436,47): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(438,34): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(439,34): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(522,46): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(524,32): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(525,32): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(660,16): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<Dimension, Bar[]>'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(661,37): error TS7006: Parameter 'b' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(676,22): error TS7006: Parameter 'b' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(690,38): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<Dimension, (key: string) => string>'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(965,46): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(967,32): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-costs.tsx(968,32): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-scenes.tsx(40,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-scenes.tsx(40,26): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-traces.tsx(42,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-traces.tsx(42,26): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures-traces.tsx(42,37): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures.tsx(22,2): error TS2305: Module '"react"' has no exported member 'lazy'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures.tsx(23,7): error TS2305: Module '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/blocks/marketing/figures/figures.tsx(24,7): error TS2305: Module '"react"' has no exported member 'LazyExoticComponent'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hero/hero-demo.tsx(23,10): error TS2305: Module '"react"' has no exported member 'lazy'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hero/hero-demo.tsx(23,16): error TS2305: Module '"react"' has no exported member 'Suspense'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hero/hero-demo.tsx(23,26): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hero/hero-demo.tsx(23,37): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hero/hero.tsx(25,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hud-landing.tsx(24,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hud-landing.tsx(24,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hud-landing.tsx(24,30): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hud-landing.tsx(24,38): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/marketing/hud-landing.tsx(57,39): error TS7006: Parameter 'timer' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/marketing/hud-landing.tsx(70,27): error TS7006: Parameter 'timer' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/brand.tsx(23,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/scan/brand.tsx(23,26): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(31,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(31,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(31,30): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(31,38): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(82,29): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(87,11): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(91,31): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/changes-card.tsx(99,31): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/copy-scan-prompt-button.tsx(26,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/scan/copy-scan-prompt-button.tsx(26,21): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/scan/copy-scan-prompt-button.tsx(26,29): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/scan/favicon-context.tsx(16,10): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/blocks/scan/favicon-context.tsx(16,25): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/blocks/scan/favicon-context.tsx(16,42): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(28,8): error TS2305: Module '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(29,8): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(30,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(31,3): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(32,3): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(33,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(34,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(110,24): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(203,7): error TS18047: 'anim' is possibly 'null'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(317,8): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(345,46): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(367,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(367,32): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(386,12): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(386,54): error TS7006: Parameter 'em' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(388,15): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(401,18): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(402,15): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(415,18): error TS7006: Parameter 'g' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(416,15): error TS7006: Parameter 'g' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(427,12): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(429,28): error TS7006: Parameter 'em' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(431,15): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(634,24): error TS7006: Parameter 'em' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(767,33): error TS7006: Parameter 'g' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(781,20): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(831,34): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(831,37): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(869,32): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(869,35): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(872,27): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(898,32): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(898,35): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(904,23): error TS7006: Parameter 'oi' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(910,48): error TS7006: Parameter 'oi' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(934,32): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(935,29): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(947,41): error TS7006: Parameter 'cur' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(994,38): error TS7006: Parameter 'em' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(995,41): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(1099,25): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/blocks/scan/flow-map.tsx(1107,14): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/blocks/scan/kinds.tsx(31,15): error TS2305: Module '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/blocks/scan/left-rail.tsx(36,15): error TS2305: Module '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/blocks/scan/scan-board.tsx(23,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/scan/share-bar.tsx(35,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/blocks/scan/share-bar.tsx(35,26): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/scan/share-bar.tsx(35,37): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(36,15): error TS2305: Module '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(36,30): error TS2305: Module '"react"' has no exported member 'memo'.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(36,36): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(132,20): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(133,23): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(146,20): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(147,23): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/decision-list.tsx(278,29): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(29,3): error TS2305: Module '"react"' has no exported member 'startTransition'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(30,3): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(31,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(32,3): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(33,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(34,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(149,15): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(174,7): error TS2698: Spread types may only be created from object types.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(178,7): error TS2698: Spread types may only be created from object types.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-board.tsx(182,7): error TS2698: Spread types may only be created from object types.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-summary.tsx(31,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/blocks/setup/setup-summary.tsx(31,21): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/setup/verification-report.tsx(34,10): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/blocks/setup/verification-report.tsx(34,19): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/blocks/setup/verification-report.tsx(162,41): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/verification-report.tsx(163,43): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/verification-report.tsx(167,43): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/blocks/setup/verification-report.tsx(196,25): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<"external" | "entry" | "cron" | "agent" | "model" | "tool" | "service" | "store", KindStyle>'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(53,2): error TS2305: Module '"react"' has no exported member 'Children'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(54,7): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(55,7): error TS2305: Module '"react"' has no exported member 'FC'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(56,7): error TS2305: Module '"react"' has no exported member 'ReactElement'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(57,7): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(58,2): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(59,2): error TS2305: Module '"react"' has no exported member 'isValidElement'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(60,2): error TS2305: Module '"react"' has no exported member 'use'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(61,2): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(62,2): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(63,2): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(64,2): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(65,2): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(66,2): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(297,5): error TS2740: Type '{ children: Element[]; className: string | undefined; config: TConfig & ValidateConfigKeys<TData, TConfig>; isUpdating: boolean; footer: false | Element; }' is missing the following properties from type 'Readonly<ChartContainerProps>': initialDimension, height, width, onResize, and 5 more.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(872,30): error TS7006: Parameter 'child' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(1347,23): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/area-chart.tsx(1463,17): error TS7006: Parameter 'latest' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(55,7): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(56,7): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(57,2): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(58,2): error TS2305: Module '"react"' has no exported member 'use'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(59,2): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(60,2): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(61,2): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(62,2): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(63,2): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(306,5): error TS2740: Type '{ children: Element[]; className: string | undefined; config: TConfig & ValidateConfigKeys<TData, TConfig>; isUpdating: boolean; footer: false | Element; }' is missing the following properties from type 'Readonly<ChartContainerProps>': initialDimension, height, width, onResize, and 5 more.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(1432,23): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/bar-chart.tsx(1541,17): error TS7006: Parameter 'latest' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(37,15): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(37,36): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(37,47): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(97,5): error TS2740: Type '{ children: Element; className: string | undefined; config: ChartConfig; }' is missing the following properties from type 'Readonly<ChartContainerProps>': initialDimension, height, width, onResize, and 5 more.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(109,14): error TS7006: Parameter 'value' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(109,21): error TS7006: Parameter 'dataKey' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/donut-chart.tsx(126,20): error TS7006: Parameter 'slice' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(52,2): error TS2305: Module '"react"' has no exported member 'Children'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(53,7): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(54,7): error TS2305: Module '"react"' has no exported member 'FC'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(55,7): error TS2305: Module '"react"' has no exported member 'ReactElement'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(56,7): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(57,2): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(58,2): error TS2305: Module '"react"' has no exported member 'isValidElement'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(59,2): error TS2305: Module '"react"' has no exported member 'use'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(60,2): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(61,2): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(62,2): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(63,2): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(64,2): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(278,5): error TS2740: Type '{ children: Element[]; className: string | undefined; config: TConfig & ValidateConfigKeys<TData, TConfig>; isUpdating: boolean; footer: false | Element; }' is missing the following properties from type 'Readonly<ChartContainerProps>': initialDimension, height, width, onResize, and 5 more.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(746,30): error TS7006: Parameter 'child' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(1071,23): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/charts/line-chart.tsx(1188,17): error TS7006: Parameter 'latest' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/background.tsx(19,10): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(63,17): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(64,16): error TS2694: Namespace '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(73,28): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(76,24): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(86,21): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(88,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(101,40): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(105,17): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/chart.tsx(127,25): error TS2339: Property 'useId' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/dot.tsx(36,24): error TS2339: Property 'memo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/dot.tsx(46,22): error TS2339: Property 'useId' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/dot.tsx(101,26): error TS2339: Property 'memo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/dot.tsx(136,32): error TS2339: Property 'memo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/dot.tsx(182,32): error TS2339: Property 'memo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(35,15): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(35,31): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(35,44): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(132,22): error TS2694: Namespace '"react"' has no exported member 'RefObject'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(135,24): error TS2339: Property 'useRef' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(136,44): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(150,13): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(160,13): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(195,44): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(204,29): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(239,29): error TS2339: Property 'useRef' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(240,21): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(245,24): error TS2339: Property 'useId' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(252,50): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(264,33): error TS2339: Property 'useRef' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(268,22): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(331,10): error TS2339: Property 'startTransition' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(483,28): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(484,28): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(485,26): error TS2694: Namespace '"react"' has no exported member 'PointerEvent'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(552,26): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(583,22): error TS7031: Binding element 'dataKey' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(583,31): error TS7031: Binding element 'colorsCount' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(601,13): error TS2339: Property 'Fragment' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(638,14): error TS2339: Property 'Fragment' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(738,34): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(747,30): error TS2339: Property 'useDeferredValue' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/evil-brush.tsx(757,28): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/legend.tsx(48,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/legend.tsx(74,14): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/legend.tsx(75,11): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/legend.tsx(189,10): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/legend.tsx(211,10): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/legend.tsx(212,25): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(66,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(67,8): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(88,14): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(98,29): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(145,5): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<TooltipRoundness, string>'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(146,5): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Record<TooltipVariant, string>'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(153,35): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(155,15): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(155,21): error TS7006: Parameter 'index' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(234,10): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/tooltip.tsx(251,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/zoom.tsx(19,10): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/zoom.tsx(19,23): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/zoom.tsx(19,31): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/charts/evilcharts/ui/zoom.tsx(146,7): error TS2322: Type '{ x1: string; x2: string; fill: string; fillOpacity: number; stroke: string; }' is not assignable to type 'IntrinsicAttributes & Omit<SVGPropsAndEvents<Props>, "x" | "y" | "height" | "width"> & ReferenceAreaProps<string, any>'.
+@tailrocks/framerock:check-types:   Property 'fill' does not exist on type 'IntrinsicAttributes & Omit<SVGPropsAndEvents<Props>, "x" | "y" | "height" | "width"> & ReferenceAreaProps<string, any>'.
+@tailrocks/framerock:check-types: src/hooks/use-app-hooks.ts(19,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/hooks/use-app-hooks.ts(19,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/hooks/use-app-hooks.ts(19,30): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/hooks/use-app-hooks.ts(19,38): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/hooks/use-copied.ts(19,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/hooks/use-copied.ts(19,21): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/hooks/use-copied.ts(19,29): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/hooks/use-mobile.ts(22,41): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/hooks/use-mobile.ts(24,9): error TS2339: Property 'useEffect' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(22,3): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(23,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(24,3): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(25,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(26,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(27,8): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(28,8): error TS2305: Module '"react"' has no exported member 'RefObject'.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(373,41): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(446,29): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/hud/FoglampHUD.tsx(928,14): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/hud/model-logo.tsx(17,15): error TS2305: Module '"react"' has no exported member 'SVGProps'.
+@tailrocks/framerock:check-types: src/hud/useHudStream.ts(20,10): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/hud/useHudStream.ts(20,23): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/hud/useHudStream.ts(20,34): error TS2305: Module '"react"' has no exported member 'useReducer'.
+@tailrocks/framerock:check-types: src/hud/useHudStream.ts(20,46): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/icons/brand-logos.tsx(17,15): error TS2305: Module '"react"' has no exported member 'SVGProps'.
+@tailrocks/framerock:check-types: src/icons/model-logo.tsx(23,15): error TS2305: Module '"react"' has no exported member 'SVGProps'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(24,37): error TS2694: Namespace '"react"' has no exported member 'ElementType'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(26,36): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(31,18): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(51,8): error TS2694: Namespace '"react"' has no exported member 'ComponentPropsWithRef'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(63,34): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(66,15): error TS2339: Property 'createElement' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(66,59): error TS2694: Namespace '"react"' has no exported member 'ComponentPropsWithRef'.
+@tailrocks/framerock:check-types: src/lib/link-context.tsx(82,15): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/lib/scan/personality.ts(30,15): error TS2305: Module '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(85,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(101,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(117,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(133,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(149,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(165,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert-dialog.tsx(181,13): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert.tsx(44,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert.tsx(55,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert.tsx(71,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/alert.tsx(84,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/avatar.tsx(75,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/avatar.tsx(91,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/avatar.tsx(107,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/badge.tsx(77,32): error TS2339: Property 'Children' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/badge.tsx(77,56): error TS7006: Parameter 'child' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/breadcrumb.tsx(26,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/breadcrumb.tsx(37,56): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/breadcrumb.tsx(50,56): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/breadcrumb.tsx(80,56): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/breadcrumb.tsx(97,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/breadcrumb.tsx(114,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/button.tsx(90,14): error TS2339: Property 'Children' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/button.tsx(90,38): error TS7006: Parameter 'child' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/calendar.tsx(47,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/calendar.tsx(48,24): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/calendar.tsx(214,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/calendar.tsx(217,20): error TS2339: Property 'useRef' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/calendar.tsx(218,8): error TS2339: Property 'useEffect' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(27,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(41,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(54,51): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(67,57): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(77,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(90,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/card.tsx(100,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(51,31): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(54,24): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(71,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(79,50): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(80,50): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(82,25): error TS2339: Property 'useCallback' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(88,27): error TS2339: Property 'useCallback' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(92,27): error TS2339: Property 'useCallback' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(96,30): error TS2339: Property 'useCallback' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(97,17): error TS2694: Namespace '"react"' has no exported member 'KeyboardEvent'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(109,8): error TS2339: Property 'useEffect' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(114,8): error TS2339: Property 'useEffect' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(153,57): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(174,54): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(197,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/carousel.tsx(227,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(36,17): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(37,16): error TS2694: Namespace '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(48,28): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(51,24): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(67,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(69,18): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(77,25): error TS2339: Property 'useId' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(151,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(152,8): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(167,29): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(219,15): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(220,12): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(220,18): error TS7006: Parameter 'index' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(256,26): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(299,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(318,14): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(319,11): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/chart.tsx(319,17): error TS7006: Parameter 'index' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/combobox.tsx(243,10): error TS2694: Namespace '"react"' has no exported member 'ComponentPropsWithRef'.
+@tailrocks/framerock:check-types: src/ui/combobox.tsx(302,15): error TS2339: Property 'useRef' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(41,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(61,15): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(66,18): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(90,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(113,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(129,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(142,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(158,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(172,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/command.tsx(191,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/context-menu.tsx(165,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/context-menu.tsx(261,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/dialog.tsx(100,54): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/dialog.tsx(115,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(28,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(34,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(40,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(46,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(53,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(70,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(89,54): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(102,54): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(115,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/drawer.tsx(128,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/dropdown-menu.tsx(81,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/dropdown-menu.tsx(155,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/dropdown-menu.tsx(261,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/field.tsx(22,10): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/ui/input-group.tsx(29,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-group.tsx(68,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-group.tsx(110,15): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-group.tsx(125,56): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-group.tsx(140,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-group.tsx(156,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-otp.tsx(31,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-otp.tsx(48,55): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-otp.tsx(65,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input-otp.tsx(68,32): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/input-otp.tsx(91,48): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/input.tsx(24,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(27,51): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(44,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(122,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(133,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(146,51): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(159,57): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(172,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(182,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/item.tsx(195,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/label.tsx(25,47): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(56,42): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(62,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(68,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(75,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(94,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(115,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(162,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(198,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(217,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(230,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(245,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(253,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/menubar.tsx(272,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/native-select.tsx(24,37): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/native-select.tsx(60,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/native-select.tsx(73,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(29,52): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(44,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(54,45): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(60,16): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(61,8): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(91,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(108,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/pagination.tsx(124,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/popover.tsx(68,55): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(33,18): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(34,31): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(36,8): error TS2339: Property 'Children' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(36,36): error TS7006: Parameter 'child' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/select.tsx(37,14): error TS2339: Property 'isValidElement' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(40,18): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(41,21): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(59,31): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(61,38): error TS2694: Namespace '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(228,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/select.tsx(246,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sheet.tsx(109,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sheet.tsx(119,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(63,30): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(66,24): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(82,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(88,44): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(92,34): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(94,24): error TS2339: Property 'useCallback' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(110,30): error TS2339: Property 'useCallback' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(111,36): error TS7006: Parameter 'open' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(111,63): error TS7006: Parameter 'open' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(115,8): error TS2339: Property 'useEffect' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(134,29): error TS2339: Property 'useMemo' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(156,17): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(178,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(212,18): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(276,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(286,14): error TS7006: Parameter 'event' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(298,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(323,54): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(339,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(350,55): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(361,55): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(375,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(386,56): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(400,54): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(415,44): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(439,47): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(462,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(473,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(484,57): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(527,8): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(529,28): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(578,8): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(605,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(623,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(627,24): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(650,17): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(657,56): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(674,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/sidebar.tsx(692,8): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(29,28): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(46,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(58,30): error TS2339: Property 'useRef' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(64,47): error TS2339: Property 'useState' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(65,9): error TS2339: Property 'useEffect' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(108,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(109,34): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(131,51): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(141,53): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(161,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(168,19): error TS2694: Namespace '"react"' has no exported member 'KeyboardEvent'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(204,15): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(225,15): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/table.tsx(244,10): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/textarea.tsx(23,50): error TS2694: Namespace '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/ui/toggle-group.tsx(29,34): error TS2339: Property 'createContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/ui/toggle-group.tsx(61,41): error TS2694: Namespace '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/ui/toggle-group.tsx(84,24): error TS2339: Property 'useContext' does not exist on type 'typeof import("react")'.
+@tailrocks/framerock:check-types: src/widgets/animated-api-key.tsx(23,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/animated-api-key.tsx(23,21): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/code-block.tsx(23,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/code-block.tsx(23,21): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(21,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(21,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(21,30): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(227,24): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(230,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(231,25): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/cost-breakdown.tsx(234,18): error TS7006: Parameter 'k' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(55,8): error TS2305: Module '"react"' has no exported member 'ComponentType'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(56,3): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(57,3): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(58,3): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(59,3): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(60,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(61,3): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(62,3): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(63,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(64,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(186,14): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(252,19): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(350,17): error TS18046: 'child' is of type 'unknown'.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(421,25): error TS7006: Parameter 'curr' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(462,20): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(587,27): error TS7006: Parameter 'curr' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(645,28): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/data-table.tsx(649,29): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/dev-toolbar.tsx(68,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/dev-toolbar.tsx(68,21): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/foggy/foggy-widget.tsx(33,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/foggy/foggy-widget.tsx(33,21): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/widgets/foggy/foggy-widget.tsx(33,38): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/foggy/foggy-widget.tsx(33,46): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/foggy/markdown.tsx(19,15): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(20,3): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(21,3): error TS2305: Module '"react"' has no exported member 'useContext'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(22,3): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(23,3): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(24,3): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(25,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/header-slot.tsx(26,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/heat-cell.tsx(28,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/widgets/leaf/customer-avatar.tsx(22,10): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/leaf/node-flow.tsx(23,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/widgets/leaf/relative-time.tsx(21,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/leaf/relative-time.tsx(21,21): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/leaf/relative-time.tsx(37,40): error TS7006: Parameter 'n' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/leaf/scan-brand.tsx(23,15): error TS2305: Module '"react"' has no exported member 'ReactNode'.
+@tailrocks/framerock:check-types: src/widgets/leaf/scan-brand.tsx(23,26): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/markdown.tsx(20,15): error TS2305: Module '"react"' has no exported member 'ComponentProps'.
+@tailrocks/framerock:check-types: src/widgets/page-parts.tsx(34,3): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/widgets/page-parts.tsx(35,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/page-parts.tsx(36,3): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/widgets/page-parts.tsx(37,3): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/widgets/page-parts.tsx(38,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/page-parts.tsx(39,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(33,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(33,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(33,30): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(123,33): error TS7006: Parameter 'o' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(255,39): error TS7006: Parameter 'e' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(321,35): error TS7006: Parameter 'f' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(403,42): error TS7006: Parameter 's' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(416,60): error TS7006: Parameter 'message' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(416,69): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(427,36): error TS7006: Parameter 'message' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/payload-view.tsx(427,45): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/project-context.tsx(21,10): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/widgets/project-context.tsx(21,25): error TS2305: Module '"react"' has no exported member 'use'.
+@tailrocks/framerock:check-types: src/widgets/project-context.tsx(21,30): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/widgets/project-context.tsx(21,43): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/project-context.tsx(21,52): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(28,10): error TS2305: Module '"react"' has no exported member 'Fragment'.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(28,20): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(268,26): error TS7006: Parameter 'b' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(273,20): error TS7006: Parameter 'b' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(273,23): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(292,31): error TS7006: Parameter 'line' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(292,37): error TS7006: Parameter 'j' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(310,31): error TS7006: Parameter 'item' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-prose.tsx(310,37): error TS7006: Parameter 'j' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(37,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(37,21): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(37,30): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(149,31): error TS7006: Parameter 'v' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(292,38): error TS7006: Parameter 'r' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(302,43): error TS7006: Parameter 'd' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(353,19): error TS7006: Parameter 'line' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(353,25): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(367,17): error TS7006: Parameter 'op' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/prompt-versions-card.tsx(367,21): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/range-context.tsx(21,10): error TS2305: Module '"react"' has no exported member 'createContext'.
+@tailrocks/framerock:check-types: src/widgets/range-context.tsx(21,25): error TS2305: Module '"react"' has no exported member 'use'.
+@tailrocks/framerock:check-types: src/widgets/range-context.tsx(21,30): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/range-context.tsx(21,41): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/range-context.tsx(21,50): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/range-picker.tsx(35,10): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/widgets/range-picker.tsx(35,27): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/range-picker.tsx(35,35): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/range-picker.tsx(228,24): error TS7006: Parameter 'range' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/range-picker.tsx(228,31): error TS7006: Parameter 'triggerDate' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/run-exchange.tsx(34,10): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/run-exchange.tsx(334,27): error TS7006: Parameter 'm' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/run-exchange.tsx(334,30): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/run-exchange.tsx(341,21): error TS7006: Parameter 'm' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/run-exchange.tsx(341,24): error TS7006: Parameter 'i' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/theme-switcher.tsx(32,10): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/theme-switcher.tsx(32,21): error TS2305: Module '"react"' has no exported member 'useId'.
+@tailrocks/framerock:check-types: src/widgets/theme-switcher.tsx(32,28): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/tool-breakdown.tsx(23,2): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/widgets/tool-breakdown.tsx(24,2): error TS2305: Module '"react"' has no exported member 'useLayoutEffect'.
+@tailrocks/framerock:check-types: src/widgets/tool-breakdown.tsx(25,2): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/tool-breakdown.tsx(26,2): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(35,8): error TS2305: Module '"react"' has no exported member 'CSSProperties'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(36,8): error TS2305: Module '"react"' has no exported member 'MouseEvent'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(37,3): error TS2305: Module '"react"' has no exported member 'useEffect'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(38,3): error TS2305: Module '"react"' has no exported member 'useMemo'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(39,3): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(40,3): error TS2305: Module '"react"' has no exported member 'useState'.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(352,26): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(360,19): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/trace-timeline.tsx(581,31): error TS7006: Parameter 'row' implicitly has an 'any' type.
+@tailrocks/framerock:check-types: src/widgets/trend-charts.tsx(22,10): error TS2305: Module '"react"' has no exported member 'useCallback'.
+@tailrocks/framerock:check-types: src/widgets/trend-charts.tsx(22,23): error TS2305: Module '"react"' has no exported member 'useRef'.
+@tailrocks/framerock:check-types: src/widgets/trend-charts.tsx(343,45): error TS18047: 'zoomSession' is possibly 'null'.
+@tailrocks/framerock#check-types:  ERROR  command (/Users/donbeave/Projects/donbeave/foglamp-design-system/packages/design-system) /Users/donbeave/.local/share/mise/installs/bun/1.4.4/bin/bun run check-types exited (2)
+
+ Tasks:    0 successful, 1 total
+Cached:    0 cached, 1 total
+  Time:    6.528s 
+Failed:    @tailrocks/framerock#check-types
+
+ ERROR  run failed: command  exited (2)

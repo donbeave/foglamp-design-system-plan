@@ -1,0 +1,118 @@
+[
+  {
+    "device": "desktop",
+    "theme": "light",
+    "documentTheme": "light",
+    "viewport": {
+      "clientWidth": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "heroHeading": {
+      "bottom": 273,
+      "height": 48,
+      "left": 112,
+      "right": 821.15625,
+      "top": 225,
+      "width": 709.15625,
+      "x": 112,
+      "y": 225
+    },
+    "heroAboveFold": true,
+    "observedFromMs": 1206.899999976158,
+    "observedToMs": 4900.399999976158,
+    "slotOverflow": "hidden",
+    "minimumSlotToFollowingHeadingGap": 24,
+    "validCollisionSamples": 37,
+    "totalSamples": 37,
+    "pageErrorVisible": false
+  },
+  {
+    "device": "desktop",
+    "theme": "dark",
+    "documentTheme": "dark",
+    "viewport": {
+      "clientWidth": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "heroHeading": {
+      "bottom": 273,
+      "height": 48,
+      "left": 112,
+      "right": 821.15625,
+      "top": 225,
+      "width": 709.15625,
+      "x": 112,
+      "y": 225
+    },
+    "heroAboveFold": true,
+    "observedFromMs": 553.9000000357628,
+    "observedToMs": 4230.400000035763,
+    "slotOverflow": "hidden",
+    "minimumSlotToFollowingHeadingGap": 24,
+    "validCollisionSamples": 37,
+    "totalSamples": 37,
+    "pageErrorVisible": false
+  },
+  {
+    "device": "mobile",
+    "theme": "light",
+    "documentTheme": "light",
+    "viewport": {
+      "clientWidth": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "heroHeading": {
+      "bottom": 363.5,
+      "height": 80,
+      "left": 20,
+      "right": 370,
+      "top": 283.5,
+      "width": 350,
+      "x": 20,
+      "y": 283.5
+    },
+    "heroAboveFold": true,
+    "observedFromMs": 591.8999999761581,
+    "observedToMs": 4278.800000011921,
+    "slotOverflow": "hidden",
+    "minimumSlotToFollowingHeadingGap": 24.0,
+    "validCollisionSamples": 37,
+    "totalSamples": 37,
+    "pageErrorVisible": false
+  },
+  {
+    "device": "mobile",
+    "theme": "dark",
+    "documentTheme": "dark",
+    "viewport": {
+      "clientWidth": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "width": 390
+    },
+    "heroHeading": {
+      "bottom": 363.5,
+      "height": 80,
+      "left": 20,
+      "right": 370,
+      "top": 283.5,
+      "width": 350,
+      "x": 20,
+      "y": 283.5
+    },
+    "heroAboveFold": true,
+    "observedFromMs": 545.5,
+    "observedToMs": 4223.599999964237,
+    "slotOverflow": "hidden",
+    "minimumSlotToFollowingHeadingGap": 24.0,
+    "validCollisionSamples": 37,
+    "totalSamples": 37,
+    "pageErrorVisible": false
+  }
+]

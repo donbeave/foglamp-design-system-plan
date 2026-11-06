@@ -1,0 +1,32 @@
+{
+  "verdict": "PASS",
+  "method": "Browser fetch actual server-rendered HTML and DOMParser; no raw MDX substitution",
+  "routes": 175,
+  "HTTP200": 175,
+  "singleMainH1": 175,
+  "singleDescriptionMatch": 175,
+  "componentPages": 167,
+  "oneRenderedProvenanceAside": 167,
+  "brokenRelativeLinks": 0,
+  "events": 0,
+  "endpoints": [
+    {
+      "path": "/r/registry.json",
+      "status": 200,
+      "type": "application/json",
+      "length": 209512
+    },
+    {
+      "path": "/r/framerock.json",
+      "status": 200,
+      "type": "application/json",
+      "length": 209512
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "type": "text/plain",
+      "length": 104585
+    }
+  ]
+}

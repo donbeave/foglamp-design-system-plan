@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/theme-repair.py", line 11, in <module>
+    openpath('/docs/blocks/buttons-badges-playground-block','button');record('gallery-parent-inherited');native=clickdom('[...d.querySelectorAll("button")].find(n=>n.textContent==="Light")',True);ev('new Promise(r=>setTimeout(()=>r(true),600))');record('gallery-native-Light-after600ms');save('gallery-native-click.json',native);save('theme-repair-console.json',ab('console'));save('theme-repair-errors.json',ab('errors'));print([(x['step'],x['theme'],x['frame']['theme'])for x in rows])
+                                                                                                                ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/common.py", line 28, in clickdom
+    p=ev(code);ab('mouse','move',str(round(p['x'])),str(round(p['y'])));ab('mouse','down');ab('mouse','up');return p
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/common.py", line 11, in ev
+    def ev(code):return ab('eval',code).get('result')
+                        ~~^^^^^^^^^^^^^
+  File "/Users/donbeave/Projects/donbeave/foglamp-design-system-plan/results/qa/w7-final-verification/browser-final/common.py", line 9, in ab
+    if p.returncode or not r.get('success'):raise RuntimeError(p.stdout)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: {"success":false,"data":null,"error":"Evaluation error: Error: No native click target\n    at <anonymous>:1:161\n    at <anonymous>:1:500"}
+

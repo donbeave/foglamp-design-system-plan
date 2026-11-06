@@ -1,0 +1,7 @@
+{
+  "time_since_native_page_open_seconds": 201.09378123283386,
+  "current_document_age_seconds": 80.09069999998808,
+  "document_replaced_after_page_open": true,
+  "inferred_new_document_start_seconds_after_original_open": 121.00308123284579,
+  "disposition": "Delayed override observation is a new document, so the local override is intentionally reinitialized; not evidence that an uninterrupted override reverted. Complete immediate override/preset case is authoritative."
+}

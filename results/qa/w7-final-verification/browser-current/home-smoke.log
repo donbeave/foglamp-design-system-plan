@@ -1,0 +1,4 @@
+desktop light {'clientWidth': 1440, 'height': 900, 'scrollWidth': 1440, 'width': 1440} light
+desktop dark {'clientWidth': 1440, 'height': 900, 'scrollWidth': 1440, 'width': 1440} dark
+mobile light {'clientWidth': 390, 'height': 844, 'scrollWidth': 390, 'width': 390} light
+mobile dark {'clientWidth': 390, 'height': 844, 'scrollWidth': 390, 'width': 390} dark

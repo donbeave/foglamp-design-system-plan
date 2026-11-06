@@ -1,0 +1,34 @@
+# Provisional Wave 7 browser smoke
+
+**Not a final gate decision.** Antigravity is actively changing implementation. Input checkpoint HEAD was `423fddb8e7a3c0280f14394f6a257e1451b927ae`; mutable file hashes are in input-checkpoint.json. Current observations can be invalidated by subsequent source changes. Strategy for the frozen review is in strategy.md.
+
+The reviewer used isolated agent-browser session `w7-apex-current-3b6ae246dd31` against existing `http://localhost:3000` (IPv6 `[::1]:3000`, nodePID76956, not owned by this reviewer). An authorized dev-start attempt detected the occupied port, fell back3001 and was stopped immediately. No other process was stopped/restarted and no implementation files were edited. See server.md.
+
+| Case | Actual current observation | Evidence |
+| --- | --- | --- |
+| Homepage desktop1440×900 Light/Dark | Hero heading y225–273 and real dashboard demo start around449px, above fold; document width1440 with no horizontal overflow. | home-summary.json, home-smoke.json, screenshots |
+| Homepage mobile390×844 Light/Dark | Heading y283.5–363.5; actual dashboard demo visible from about644px. Document scrollWidth390, no horizontal overflow. New architectural frame mark is visibly distinct from the old three-circle mark. | home-mobile-light/dark.png |
+| Hero/next-section collision | All148 valid samples show outer hero `overflow:hidden` and a24px gap to the following heading. Observed document intervals start0.55–1.21s and end4.22–4.90s; no visible collision in that interval. The first document moments are not instrumented, so full initial-window verification remains required after freeze. | home-smoke.json |
+| Standalone button | Direct `/stories/primitives/button` renders Run evaluation, View trace and More options without a parent. | standalone-button-snapshot.json |
+| Progress | Direct value/label Props controls render. Changing value68→25 updates one progressbar (`aria-valuenow=25`) and visible25%. A keyboard-range attempt hit a stale iframe AX reference during HMR and is not counted as verified. | progress-props-after.json |
+| Radio Group | Native Fast click selects only the first radio; Thorough preset selects only the third. Direct Props controls replace args/Args fallback. | radio-click-after.json, radio-preset-after.json |
+| Sheet | Closed frame has only Inspect trace, no stray Close. Native trigger opens a real dialog with footer Close inside; native Close removes the dialog. | sheet-closed.json, sheet-open.json, sheet-close-after.json |
+| Toggle Group | Native Last week click selects7d and status says7d; defaultValue control1h changes selection and status to1h. | toggle-group-click-after.json, toggle-group-props-after.json |
+| Item | Title control updates rendered text; Muted preset changes actual data-variant and fixture content. Direct controls render. | item-props-after.json, item-preset-after.json |
+| Sonner initial defect | Buttons updated a hand-built role=status card and no actual Sonner toast existed. Source observation confirmed only local visible/tone state with an idle Toaster. Reported to root; source subsequently changed to real toast.success/error calls. | sonner-source-observation.json, sonner-diagnostic.json |
+| Sonner new load blocker | First cold recheck of repaired code displays `Cannot find module 'sonner' imported from .../apps/docs/src/stories/primitives/sonner.story.tsx`, with no iframe. Actual toasts cannot be accepted until dependency resolution is repaired. | sonner-recheck-timeout.json, sonner-recheck.log |
+| Trace waterfall | Native frame1280×800; actual timeline grid540px with240/196/104px columns, rather than crushed6px. No narrow tall text containers in capture. | block-smoke.json, trace-waterfall-inspector-block.png |
+| Flow Map | Native frame1280×720; graph SVG835×170 and sampled node icons have positive visible bounds inside viewport. Full node-bound/direction-reset verification remains for freeze. Frame height differs from the contract’s requested800px. | block-smoke.json, flow-map-block.png |
+| Scan landing | Native frame1280×820; desktop graph is visible,909×315. Hidden alternative graph has zero bounds as expected. Frame height differs from requested800px. | block-smoke.json, scan-landing-block.png |
+| Eval detail | Native first-score click expands complete rubric, judge input and assistant output; no Judge input unavailable. This is an inline score expansion, not an asserted dialog. | eval-score-drawer.json, eval-score-expanded.png |
+| HUD simulator | One native storm observed7.5s, producing a trace and tool in the Shadow DOM with zero new console/duplicate-key messages. Deep step expansion was not proven; the default-mode snapshot had no Expand HUD ref. | hud-storm.json, hud-expanded.json |
+
+## Open findings and limits
+
+- **Sonner dependency resolution blocks the repaired page.** Main-source owner/root has the exact error and must resolve its workspace import before final verification.
+- **Compact quote attribution:** the callout begins the Jobs quotation followed by “— Framerock by Tailrocks,” which can read as incorrect quote attribution. The full lower tribute correctly credits Steve Jobs. Omitting the quote from the compact callout matches the requested concise credit bar and avoids this ambiguity.
+- **Frame specification differences:** Flow Map720px and Scan820px native heights were reported to root against the requested800px frame specification. Current geometry is usable; final contract reconciliation remains with the owner.
+- Full console capture contains3errors and2warnings, despite no uncaught page exceptions: a Base UI uncontrolled FieldControl default-value change message and a caught `No provenance catalog metadata for story registry item "sonner"` during source HMR, plus route error-boundary warnings. They are **not** silently excluded from a zero-console claim. Fresh-navigation/frozen-code rechecks must establish whether they persist. See current-console.json.
+- Agent-browser iframe references became stale during live module/frame replacement. `doctor` passed. Eval’s scaled-frame cell click guard rejected a child span; native integer mouse coordinates derived from actual iframe scaling successfully opened the score. An initial decimal-coordinate input was rejected by CLI and is not counted as a valid interaction. Failed automation attempts are not product failures or successful interactions.
+- Initial collision selector used an aria-label while the section’s accessible name came from aria-labelledby. Its missing samples are retained in home-smoke-initial.json; the corrected heading-based sampler supplies the148 valid samples above.
+- This smoke does not replace all167/175 route checks, source parity/header audit, strict/default consumer type checks, full preset/callback coverage, or final cold initial-motion capture. Those require frozen inputs and the final strategy matrix.

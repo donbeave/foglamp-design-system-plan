@@ -1,0 +1,256 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "http://localhost:3000/docs/blocks/scan-landing-block",
+  "refs": {
+    "e1059": {
+      "name": "Framerock",
+      "role": "link"
+    },
+    "e1060": {
+      "name": "Open Search",
+      "role": "button"
+    },
+    "e1061": {
+      "name": "Open Sidebar",
+      "role": "button"
+    },
+    "e1062": {
+      "name": "0.333333 Scan Landing Public API",
+      "role": "button"
+    },
+    "e1063": {
+      "name": "Scan Landing",
+      "role": "heading"
+    },
+    "e1064": {
+      "name": "Story workbench",
+      "role": "region"
+    },
+    "e1065": {
+      "name": "Public API Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1066": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1067": {
+      "name": "Usage Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1068": {
+      "name": "Source and registry Copy Anchor Link",
+      "role": "heading"
+    },
+    "e1069": {
+      "name": "Scan Board Full-viewport codebase scan explorer pairing the floating architecture summary sidebar with the interactive flow map.",
+      "role": "link"
+    },
+    "e1070": {
+      "name": "Session Conversation Inspector Multi-turn session transcript inspector displaying user messages, assistant responses, tool calls, and per-turn token/cost metrics.",
+      "role": "link"
+    },
+    "e1071": {
+      "name": "Reset",
+      "role": "button"
+    },
+    "e1072": {
+      "name": "tryFoglampHref",
+      "role": "textbox"
+    },
+    "e1073": {
+      "name": "Copy",
+      "role": "button"
+    },
+    "e1074": {
+      "name": "Public API",
+      "role": "link"
+    },
+    "e1075": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1076": {
+      "name": "Usage",
+      "role": "link"
+    },
+    "e1077": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1078": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1079": {
+      "name": "Source and registry",
+      "role": "link"
+    },
+    "e1080": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e1081": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1082": {
+      "name": "default",
+      "role": "tab"
+    },
+    "e1083": {
+      "name": "",
+      "role": "generic"
+    },
+    "e1084": {
+      "name": "Light",
+      "role": "button"
+    },
+    "e1085": {
+      "name": "Dark",
+      "role": "button"
+    },
+    "e1086": {
+      "name": "Scan Landing",
+      "role": "Iframe"
+    },
+    "e1087": {
+      "name": "scan-landing.tsx",
+      "role": "link"
+    },
+    "e1088": {
+      "name": "Gustavo Fior (@gustavo-fior)",
+      "role": "link"
+    },
+    "e1089": {
+      "name": "Abdul Haidar",
+      "role": "link"
+    },
+    "e1090": {
+      "name": "Foglamp Labs (foglamp-labs/foglamp)",
+      "role": "link"
+    },
+    "e1091": {
+      "name": "foglamp.dev",
+      "role": "link"
+    },
+    "e1092": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1093": {
+      "name": "payload JSON",
+      "role": "link"
+    },
+    "e1094": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e1095": {
+      "name": "Preview surface",
+      "role": "combobox"
+    },
+    "e1096": {
+      "name": "ScanLanding",
+      "role": "cell"
+    },
+    "e1097": {
+      "name": "prompt?",
+      "role": "cell"
+    },
+    "e1098": {
+      "name": "string",
+      "role": "cell"
+    },
+    "e1099": {
+      "name": "Onboarding or instrumentation prompt copied by the CTA button.",
+      "role": "cell"
+    },
+    "e1100": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1101": {
+      "name": "onCopy?",
+      "role": "cell"
+    },
+    "e1102": {
+      "name": "() => void",
+      "role": "cell"
+    },
+    "e1103": {
+      "name": "Callback fired when the scan prompt is copied.",
+      "role": "cell"
+    },
+    "e1104": {
+      "name": "",
+      "role": "cell"
+    },
+    "e1105": {
+      "name": "tryFoglampHref?",
+      "role": "cell"
+    },
+    "e1106": {
+      "name": "string",
+      "role": "cell"
+    },
+    "e1107": {
+      "name": "Destination href for the primary call-to-action link.",
+      "role": "cell"
+    },
+    "e1108": {
+      "name": "Export",
+      "role": "columnheader"
+    },
+    "e1109": {
+      "name": "Prop",
+      "role": "columnheader"
+    },
+    "e1110": {
+      "name": "Type",
+      "role": "columnheader"
+    },
+    "e1111": {
+      "name": "Description",
+      "role": "columnheader"
+    },
+    "e1112": {
+      "name": "Default",
+      "role": "option"
+    },
+    "e1113": {
+      "name": "Muted",
+      "role": "option"
+    },
+    "e1114": {
+      "name": "Dark Lift",
+      "role": "option"
+    },
+    "e1115": {
+      "name": "Try Framerock",
+      "role": "button"
+    },
+    "e1116": {
+      "name": "Map your project. Share it.",
+      "role": "heading"
+    },
+    "e1117": {
+      "name": "Copy the scan prompt",
+      "role": "button"
+    }
+  },
+  "removedRefs": [],
+  "snapshot": "- link \"Framerock\" [ref=e1059]\n- button \"Open Search\" [expanded=false, ref=e1060]\n- button \"Open Sidebar\" [expanded=false, ref=e1061]\n- button \"0.333333 Scan Landing Public API\" [expanded=false, ref=e1062]\n- heading \"Scan Landing\" [level=1, ref=e1063]\n- region \"Story workbench\" [ref=e1064]\n  - tab \"default\" [selected, ref=e1082]\n  - generic \"DefaultMutedDark Lift\" [ref=e1083] clickable [cursor:pointer]\n    - combobox \"Preview surface\" [expanded=false, ref=e1095]: Default\n      - option \"Default\" [selected, ref=e1112]\n      - option \"Muted\" [ref=e1113]\n      - option \"Dark Lift\" [ref=e1114]\n  - button \"Light\" [ref=e1084]\n  - button \"Dark\" [ref=e1085]\n  - Iframe \"Scan Landing\" [ref=e1086]\n    - button \"Try Framerock\" [ref=e1115]\n    - heading \"Map your project. Share it.\" [level=1, ref=e1116]\n    - button \"Copy the scan prompt\" [ref=e1117]\n  - button \"Reset\" [ref=e1071]\n  - textbox \"tryFoglampHref\" [ref=e1072]: #scan-demo\n  - button \"Copy\" [ref=e1073]\n  - link \"scan-landing.tsx\" [ref=e1087]\n  - link \"Gustavo Fior (@gustavo-fior)\" [ref=e1088]\n  - link \"Abdul Haidar\" [ref=e1089]\n  - link \"Foglamp Labs (foglamp-labs/foglamp)\" [ref=e1090]\n  - link \"foglamp.dev\" [ref=e1091]\n- heading \"Public API Copy Anchor Link\" [level=2, ref=e1065]\n  - link \"Public API\" [ref=e1074]\n  - button \"Copy Anchor Link\" [ref=e1075]\n- generic \"ExportPropTypeDescriptionScanLandingprompt?stringOnboarding or instrumentation prompt copied by the\" [ref=e1066] focusable [tabindex]\n  - columnheader \"Export\" [ref=e1108]\n  - columnheader \"Prop\" [ref=e1109]\n  - columnheader \"Type\" [ref=e1110]\n  - columnheader \"Description\" [ref=e1111]\n  - cell \"ScanLanding\" [ref=e1096]\n  - cell \"prompt?\" [ref=e1097]\n  - cell \"string\" [ref=e1098]\n  - cell \"Onboarding or instrumentation prompt copied by the CTA button.\" [ref=e1099]\n  - cell [ref=e1100]\n  - cell \"onCopy?\" [ref=e1101]\n  - cell \"() => void\" [ref=e1102]\n  - cell \"Callback fired when the scan prompt is copied.\" [ref=e1103]\n  - cell [ref=e1104]\n  - cell \"tryFoglampHref?\" [ref=e1105]\n  - cell \"string\" [ref=e1106]\n  - cell \"Destination href for the primary call-to-action link.\" [ref=e1107]\n- heading \"Usage Copy Anchor Link\" [level=2, ref=e1067]\n  - link \"Usage\" [ref=e1076]\n  - button \"Copy Anchor Link\" [ref=e1077]\n- button \"Copy Text\" [ref=e1092]\n- generic \"import { ScanLanding } from \\\"@tailrocks/framerock/blocks/scan/scan-landing\\\";\\nimport {\\n  ScanFaviconP\" [ref=e1078] focusable [tabindex]\n- heading \"Source and registry Copy Anchor Link\" [level=2, ref=e1068]\n  - link \"Source and registry\" [ref=e1079]\n  - button \"Copy Anchor Link\" [ref=e1080]\n- link \"payload JSON\" [ref=e1093]\n- button \"Copy Text\" [ref=e1094]\n- generic \"npx shadcn@latest add http://localhost:3000/r/block-scan-scan-landing.json\" [ref=e1081] focusable [tabindex]\n- link \"Scan Board Full-viewport codebase scan explorer pairing the floating architecture summary sidebar with the interactive flow map.\" [ref=e1069]\n- link \"Session Conversation Inspector Multi-turn session transcript inspector displaying user messages, assistant responses, tool calls, and per-turn token/cost metrics.\" [ref=e1070]"
+}

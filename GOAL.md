@@ -227,3 +227,7 @@ W6-GATE verifies provenance against pinned upstream bodies, registry payload not
 ## Wave 7 extension
 
 The active goal now includes every requirement in GOAL-WAVE-7-REVIEW-FIXES.md. The accepted Waves 0–6 remain preserved historical checkpoints, not the completion boundary for this review remediation. Complete the explicit Wave 7 consumer, purity, documentation, workbench, runtime and browser gates, then commit/push both repositories before declaring the new goal complete.
+
+### Wave 7 accepted delivery
+
+All review gates are accepted. Implementation `d7d4bf04409c751685c0d17766c1a823ac710030` is pushed to `origin/main`. Final command, fresh-consumer, documentation, legal and cold-browser evidence is summarized in `results/qa/w7-final-verification/SUMMARY.md`. Earlier failed captures are historical and superseded by the final acceptance reports.

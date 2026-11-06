@@ -1,0 +1,11 @@
+import common as c
+c.S='w7-apex-repair-3b6ae246dd31'
+from common import *
+rows=[];ab('set','viewport','1440','900');ab('set','media','dark');ev('localStorage.clear()')
+def record(name):
+ r=info();r['step']=name;r['pressed']=ev('[...document.querySelectorAll("[role=group] button")].map(n=>({text:n.textContent,pressed:n.getAttribute("aria-pressed")}))');rows.append(r);save('theme-repair.json',rows)
+openpath('/docs/primitives/progress','input[type=range]');record('dark-progress-initial');ab('fill',ref('spinbutton','value'),'39');ab('wait','--fn','document.querySelector("iframe").contentDocument.querySelector("[role=progressbar]").getAttribute("aria-valuenow")==="39"');record('number-edit')
+openpath('/docs/primitives/radio-group','[role=radio]');record('dark-radio-navigation')
+openpath('/docs/primitives/item','button');ab('fill',ref('textbox','title'),'Controlled field recheck');record('string-edit');click('tab','Muted');record('preset-after-edit')
+openpath('/docs/primitives/button','button');record('dark-button-navigation');clickdom('[...d.querySelectorAll("[role=group] button")].find(n=>n.textContent==="Light")');ab('wait','--fn','document.querySelector("iframe").contentDocument.documentElement.classList.contains("light")');record('local-Light-override');click('tab','Outline');record('override-preserved-on-preset');click('button','Toggle Theme');ab('wait','--fn','document.documentElement.classList.contains("light")');record('global-Light');click('button','Toggle Theme');ab('wait','--fn','document.documentElement.classList.contains("dark")');record('global-Dark');ab('select',ref('combobox','Preview surface'),'Dark Lift');record('dark-lift');ab('select',ref('combobox','Preview surface'),'Default');record('default-surface-restored')
+openpath('/docs/blocks/buttons-badges-playground-block','button');record('gallery-parent-inherited');native=clickdom('[...d.querySelectorAll("button")].find(n=>n.textContent==="Light")',True);ev('new Promise(r=>setTimeout(()=>r(true),600))');record('gallery-native-Light-after600ms');save('gallery-native-click.json',native);save('theme-repair-console.json',ab('console'));save('theme-repair-errors.json',ab('errors'));print([(x['step'],x['theme'],x['frame']['theme'])for x in rows])

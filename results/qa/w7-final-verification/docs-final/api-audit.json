@@ -1,0 +1,12 @@
+{
+  "repo": "/Users/donbeave/Projects/donbeave/foglamp-design-system",
+  "componentPages": 167,
+  "pagesWithApiTables": 145,
+  "pagesWithResolvedTargetModules": 145,
+  "findingsAgainstDeclaredPackageImports": 0,
+  "declaredImportFindings": [],
+  "incorrectPublicApiRows": 0,
+  "apiRowFindings": [],
+  "packageImportMismatchPages": 0,
+  "packageImportFindings": []
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "findings": [
+    {
+      "id": "W7-BROWSER-01",
+      "severity": "major",
+      "symptom": "Dark parent page, Light child and Light pressed after navigation without local override",
+      "evidence": [
+        "primitives.json",
+        "theme-race-trace.json"
+      ],
+      "root_cause_evidence": "Initial SSR light appearance/child acknowledgment overwrites queued parent dark synchronization; parent posts light again on sequence2",
+      "latest": "Final cold recheck PASS; historical reproduction retained.",
+      "state": "RESOLVED"
+    },
+    {
+      "id": "W7-BROWSER-02",
+      "severity": "major",
+      "symptom": "Four Base UI uncontrolled FieldControl default-value change console errors during cold Input edits",
+      "evidence": [
+        "primitives-console.json",
+        "primitives.json"
+      ],
+      "root_cause_evidence": "Args controls use defaultValue bound to changing args; Input is not controlled",
+      "latest": "Final cold recheck PASS; historical reproduction retained.",
+      "state": "RESOLVED"
+    },
+    {
+      "id": "W7-BROWSER-03",
+      "severity": "major",
+      "symptom": "Theme repair introduces server/client hydration attribute mismatch console errors on dark documents",
+      "evidence": [
+        "theme-repair-console.json"
+      ],
+      "source": "useState(readDocumentTheme) reads Light on server versus Dark at browser hydration; aria-pressed and classes differ",
+      "state": "RESOLVED",
+      "latest": "Final cold recheck PASS; historical reproduction retained."
+    },
+    {
+      "id": "W7-BROWSER-04",
+      "severity": "major",
+      "symptom": "Theme repair pins original gallery T hotkey back to parent command",
+      "evidence": [
+        "gallery-hotkey-pin.json",
+        "gallery-hotkey-delivery.json"
+      ],
+      "actual": "Native key arrives BODY while iframe focused; child briefly Light at keydown then Dark400ms later. Bridge continuously forces desiredMode.",
+      "state": "RESOLVED",
+      "latest": "Final cold recheck PASS; historical reproduction retained."
+    }
+  ],
+  "owner": "Antigravity; reviewer readonly",
+  "other_final_checks": "Home4mode/viewports and all175SSR checks pass; native primitive functionality passes but failed Dark visual state and warnings not waived",
+  "final_resolution": "All four findings resolved by final cold theme/control sessions; see report.md and theme-final/override-immediate/system-storage evidence."
+}

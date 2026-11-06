@@ -1,0 +1,53 @@
+{
+  "before": {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "dark",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark"
+  },
+  "override": {
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark"
+  },
+  "presetAfter": {
+    "frame": {
+      "bodyBg": "oklch(0.99 0 0)",
+      "bodyFg": "oklch(0.145 0 0)",
+      "fonts": "loaded",
+      "height": 318,
+      "overflow": false,
+      "text": "Run evaluation\nView trace\nMore options",
+      "theme": "light",
+      "width": 810
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/primitives/button",
+    "provenance": 1,
+    "theme": "dark"
+  }
+}

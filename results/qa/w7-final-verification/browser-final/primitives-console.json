@@ -1,0 +1,901 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "messages": [
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl."
+        }
+      ],
+      "text": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl.",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl."
+        }
+      ],
+      "text": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl.",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl."
+        }
+      ],
+      "text": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl.",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl."
+        }
+      ],
+      "text": "Base UI: A component is changing the default value state of an uncontrolled FieldControl after being initialized. To suppress this warning opt to use a controlled FieldControl.",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    }
+  ]
+}

@@ -145,7 +145,7 @@ For `tailrocks-original` files, keep upstream-file fields absent/null rather tha
 
 
 ## Wave 7 additional user requirement
-- [ ] Remove the Foglamp logo and visible product branding from components, defaults, demos, portal, examples and distributed assets; use independent Framerock branding. Keep original creator/upstream/legal attribution in the designated credit surfaces.
+- [x] Remove the Foglamp logo and visible product branding from components, defaults, demos, portal, examples and distributed assets; use independent Framerock branding. Keep original creator/upstream/legal attribution in the designated credit surfaces.
 
 ### Wave 7 execution ownership
 Antigravity implements the main checkout (source/registry, portal/stories, MDX). Codex maintains plan state and independently audits registry/provenance, component documentation, static checks, and live browser behavior. Final acceptance requires every gate in GOAL-WAVE-7-REVIEW-FIXES.md and both repositories pushed.

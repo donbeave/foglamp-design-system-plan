@@ -1,0 +1,5 @@
+trace-waterfall-inspector-block frame {'height': 800, 'width': 1280} narrowTall 0 svg 69
+flow-map-block frame {'height': 720, 'width': 1280} narrowTall 0 svg 5
+scan-landing-block frame {'height': 820, 'width': 1280} narrowTall 0 svg 21
+eval-detail-block frame {'height': 800, 'width': 1280} narrowTall 0 svg 54
+hud-simulator-block frame {'height': 860, 'width': 1360} narrowTall 0 svg 4

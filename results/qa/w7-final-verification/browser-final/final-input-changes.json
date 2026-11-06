@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-11-06T00:59:47.657678+00:00",
+  "authorized_runtime_repairs": [
+    "apps/docs/src/components/story-panel.tsx",
+    "apps/docs/src/lib/story-frame.tsx"
+  ],
+  "changed_since_first_freeze": [
+    {
+      "path": "apps/docs/src/components/story-panel.tsx",
+      "sha256": "441b314c0bf907b41c277cb5d6c73254659202374a4c718352bae3ee89b87e01"
+    },
+    {
+      "path": "apps/docs/src/lib/story-frame.tsx",
+      "sha256": "a5f825e05f4ba93deabf425d1365fd3e2638e19703d424666acea82e08a3db88"
+    },
+    {
+      "path": "apps/docs/content/docs/charts/chart.mdx",
+      "sha256": "48bd197423e6de3f9051c27e00ced6da80ff855cfd8408ba90c8ae8fe1694539"
+    },
+    {
+      "path": "apps/docs/content/docs/charts/bar-chart.mdx",
+      "sha256": "cca3b25556318061d1c12c0d507fa20bb85e4e2d9c0c50c1a4042e81a56e8de5"
+    },
+    {
+      "path": "apps/docs/content/docs/charts/dot.mdx",
+      "sha256": "ee441cb8063c2697d242bca47019274261f2f8bab6219f7269abb063d2992a56"
+    },
+    {
+      "path": "apps/docs/content/docs/charts/zoom.mdx",
+      "sha256": "c02c9a132577e44cbdbe6349ec4c8b444c885171ac56ee7fc94b9095733eddff"
+    },
+    {
+      "path": "apps/docs/content/docs/charts/area-chart.mdx",
+      "sha256": "3f162c18d55fecc7046c15b1fc497e89b2972f4da914db6ce9ba972bddc2da87"
+    },
+    {
+      "path": "apps/docs/content/docs/charts/line-chart.mdx",
+      "sha256": "9b0c42aca37c3f28fc5bc496c94a4f8fdfaf3ecd68aea3a316ed1f92a1dc7c2e"
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/dev-bar.mdx",
+      "sha256": "2125456873faf0105560d852c4cf087e4ff912e4223ee5af513638661b70f78f"
+    },
+    {
+      "path": "apps/docs/content/docs/widgets/span-type.mdx",
+      "sha256": "7f20912235b9fae6d1c75bd05990c3f9e394425d5e06a9455dc4e7a254481fd7"
+    }
+  ]
+}

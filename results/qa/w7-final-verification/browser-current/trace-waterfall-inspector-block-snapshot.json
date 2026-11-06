@@ -1,0 +1,512 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "http://localhost:3000/docs/blocks/trace-waterfall-inspector-block",
+  "refs": {
+    "e847": {
+      "name": "Framerock",
+      "role": "link"
+    },
+    "e848": {
+      "name": "Open Search",
+      "role": "button"
+    },
+    "e849": {
+      "name": "Open Sidebar",
+      "role": "button"
+    },
+    "e850": {
+      "name": "0.333333 Trace Waterfall Inspector Public API",
+      "role": "button"
+    },
+    "e851": {
+      "name": "Trace Waterfall Inspector",
+      "role": "heading"
+    },
+    "e852": {
+      "name": "Story workbench",
+      "role": "region"
+    },
+    "e853": {
+      "name": "Public API Copy Anchor Link",
+      "role": "heading"
+    },
+    "e854": {
+      "name": "",
+      "role": "generic"
+    },
+    "e855": {
+      "name": "Usage Copy Anchor Link",
+      "role": "heading"
+    },
+    "e856": {
+      "name": "Source and registry Copy Anchor Link",
+      "role": "heading"
+    },
+    "e857": {
+      "name": "Setup Board \u00b7 Plan Edits Interactive instrumentation plan review board combining detected agent/workflow decisions with live flow-map spotlighting.",
+      "role": "link"
+    },
+    "e858": {
+      "name": "Traces Explorer Filterable, sortable, and paginated traces table with agent, workflow, model, customer, and error-status filters.",
+      "role": "link"
+    },
+    "e859": {
+      "name": "Reset",
+      "role": "button"
+    },
+    "e860": {
+      "name": "isLoading",
+      "role": "checkbox"
+    },
+    "e861": {
+      "name": "Copy",
+      "role": "button"
+    },
+    "e862": {
+      "name": "Public API",
+      "role": "link"
+    },
+    "e863": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e864": {
+      "name": "Usage",
+      "role": "link"
+    },
+    "e865": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e866": {
+      "name": "",
+      "role": "generic"
+    },
+    "e867": {
+      "name": "Source and registry",
+      "role": "link"
+    },
+    "e868": {
+      "name": "Copy Anchor Link",
+      "role": "button"
+    },
+    "e869": {
+      "name": "",
+      "role": "generic"
+    },
+    "e870": {
+      "name": "default",
+      "role": "tab"
+    },
+    "e871": {
+      "name": "",
+      "role": "generic"
+    },
+    "e872": {
+      "name": "Light",
+      "role": "button"
+    },
+    "e873": {
+      "name": "Dark",
+      "role": "button"
+    },
+    "e874": {
+      "name": "Trace Waterfall Inspector",
+      "role": "Iframe"
+    },
+    "e875": {
+      "name": "trace-detail-client.tsx",
+      "role": "link"
+    },
+    "e876": {
+      "name": "Gustavo Fior (@gustavo-fior)",
+      "role": "link"
+    },
+    "e877": {
+      "name": "Abdul Haidar",
+      "role": "link"
+    },
+    "e878": {
+      "name": "Foglamp Labs (foglamp-labs/foglamp)",
+      "role": "link"
+    },
+    "e879": {
+      "name": "foglamp.dev",
+      "role": "link"
+    },
+    "e880": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e881": {
+      "name": "payload JSON",
+      "role": "link"
+    },
+    "e882": {
+      "name": "Copy Text",
+      "role": "button"
+    },
+    "e883": {
+      "name": "Preview surface",
+      "role": "combobox"
+    },
+    "e884": {
+      "name": "TraceWaterfallInspectorBlock",
+      "role": "cell"
+    },
+    "e885": {
+      "name": "traceId?",
+      "role": "cell"
+    },
+    "e886": {
+      "name": "string",
+      "role": "cell"
+    },
+    "e887": {
+      "name": "Active trace identifier.",
+      "role": "cell"
+    },
+    "e888": {
+      "name": "",
+      "role": "cell"
+    },
+    "e889": {
+      "name": "data?",
+      "role": "cell"
+    },
+    "e890": {
+      "name": "TraceInspectorData | null",
+      "role": "cell"
+    },
+    "e891": {
+      "name": "Structured dataset rendered by the block.",
+      "role": "cell"
+    },
+    "e892": {
+      "name": "",
+      "role": "cell"
+    },
+    "e893": {
+      "name": "isLoading?",
+      "role": "cell"
+    },
+    "e894": {
+      "name": "boolean",
+      "role": "cell"
+    },
+    "e895": {
+      "name": "Renders loading skeleton placeholders while data is being fetched.",
+      "role": "cell"
+    },
+    "e896": {
+      "name": "",
+      "role": "cell"
+    },
+    "e897": {
+      "name": "scores?",
+      "role": "cell"
+    },
+    "e898": {
+      "name": "TraceScore[]",
+      "role": "cell"
+    },
+    "e899": {
+      "name": "Individual evaluation score rows.",
+      "role": "cell"
+    },
+    "e900": {
+      "name": "",
+      "role": "cell"
+    },
+    "e901": {
+      "name": "evals?",
+      "role": "cell"
+    },
+    "e902": {
+      "name": "(EvalMeta & { id: string })[]",
+      "role": "cell"
+    },
+    "e903": {
+      "name": "Configures evals.",
+      "role": "cell"
+    },
+    "e904": {
+      "name": "",
+      "role": "cell"
+    },
+    "e905": {
+      "name": "presets?",
+      "role": "cell"
+    },
+    "e906": {
+      "name": "{ id: string; name: string }[]",
+      "role": "cell"
+    },
+    "e907": {
+      "name": "Available evaluation rubric presets.",
+      "role": "cell"
+    },
+    "e908": {
+      "name": "",
+      "role": "cell"
+    },
+    "e909": {
+      "name": "neighbors?",
+      "role": "cell"
+    },
+    "e910": {
+      "name": "{ prev: { traceId: string } | null; next: { traceId: string } | null } | null",
+      "role": "cell"
+    },
+    "e911": {
+      "name": "Adjacent trace links (prev and next) for keyboard navigation.",
+      "role": "cell"
+    },
+    "e912": {
+      "name": "",
+      "role": "cell"
+    },
+    "e913": {
+      "name": "comparison?",
+      "role": "cell"
+    },
+    "e914": {
+      "name": "{ durationPercentile: number | null; costPercentile: number | null; tokenPercentile: number | null } | null",
+      "role": "cell"
+    },
+    "e915": {
+      "name": "Percentile rankings comparing trace duration, cost, and tokens.",
+      "role": "cell"
+    },
+    "e916": {
+      "name": "",
+      "role": "cell"
+    },
+    "e917": {
+      "name": "initialSpanId?",
+      "role": "cell"
+    },
+    "e918": {
+      "name": "string",
+      "role": "cell"
+    },
+    "e919": {
+      "name": "Initially selected span identifier in the waterfall.",
+      "role": "cell"
+    },
+    "e920": {
+      "name": "",
+      "role": "cell"
+    },
+    "e921": {
+      "name": "onSpanChange?",
+      "role": "cell"
+    },
+    "e922": {
+      "name": "(spanId: string | null) => void",
+      "role": "cell"
+    },
+    "e923": {
+      "name": "Callback fired when the selected span changes.",
+      "role": "cell"
+    },
+    "e924": {
+      "name": "Export",
+      "role": "columnheader"
+    },
+    "e925": {
+      "name": "Prop",
+      "role": "columnheader"
+    },
+    "e926": {
+      "name": "Type",
+      "role": "columnheader"
+    },
+    "e927": {
+      "name": "Description",
+      "role": "columnheader"
+    },
+    "e928": {
+      "name": "Default",
+      "role": "option"
+    },
+    "e929": {
+      "name": "Muted",
+      "role": "option"
+    },
+    "e930": {
+      "name": "Dark Lift",
+      "role": "option"
+    },
+    "e931": {
+      "name": "Emails",
+      "role": "button"
+    },
+    "e932": {
+      "name": "Network",
+      "role": "button"
+    },
+    "e933": {
+      "name": "Invalidate all queries",
+      "role": "button"
+    },
+    "e934": {
+      "name": "Clear query cache",
+      "role": "button"
+    },
+    "e935": {
+      "name": "Hide development controls until reload",
+      "role": "button"
+    },
+    "e936": {
+      "name": "Traces tr_9f2a4c8e1b7d3a6f5e0c Copy trace ID",
+      "role": "heading"
+    },
+    "e937": {
+      "name": "Acme Inc",
+      "role": "button"
+    },
+    "e938": {
+      "name": "ses_a91f",
+      "role": "link"
+    },
+    "e939": {
+      "name": "onboard-customer",
+      "role": "button"
+    },
+    "e940": {
+      "name": "support-triage",
+      "role": "button"
+    },
+    "e941": {
+      "name": "Foggy",
+      "role": "button"
+    },
+    "e942": {
+      "name": "Expand Framerock HUD",
+      "role": "button"
+    },
+    "e943": {
+      "name": "Acme Production",
+      "role": "button"
+    },
+    "e944": {
+      "name": "API Keys",
+      "role": "link"
+    },
+    "e945": {
+      "name": "Settings",
+      "role": "link"
+    },
+    "e946": {
+      "name": "AL Alex Rivera",
+      "role": "button"
+    },
+    "e947": {
+      "name": "Traces",
+      "role": "link"
+    },
+    "e948": {
+      "name": "Copy trace ID",
+      "role": "button"
+    },
+    "e949": {
+      "name": "3 models",
+      "role": "button"
+    },
+    "e950": {
+      "name": "Raw",
+      "role": "button"
+    },
+    "e951": {
+      "name": "Previous span",
+      "role": "button"
+    },
+    "e952": {
+      "name": "Next span",
+      "role": "button"
+    },
+    "e953": {
+      "name": "Copy trace summary as JSON",
+      "role": "button"
+    },
+    "e954": {
+      "name": "Overview",
+      "role": "link"
+    },
+    "e955": {
+      "name": "Workflows",
+      "role": "link"
+    },
+    "e956": {
+      "name": "Agents",
+      "role": "link"
+    },
+    "e957": {
+      "name": "Sessions",
+      "role": "link"
+    },
+    "e958": {
+      "name": "Traces",
+      "role": "link"
+    },
+    "e959": {
+      "name": "Evals",
+      "role": "link"
+    },
+    "e960": {
+      "name": "Alerts",
+      "role": "link"
+    },
+    "e961": {
+      "name": "Trace 5.00s $0.0142 \u00b7 5.1K",
+      "role": "button"
+    },
+    "e962": {
+      "name": "Collapse support-triage 5.84s",
+      "role": "button"
+    },
+    "e963": {
+      "name": "classify-intent 920ms $0.0011 \u00b7 612",
+      "role": "button"
+    },
+    "e964": {
+      "name": "fetch-order 620ms",
+      "role": "button"
+    },
+    "e965": {
+      "name": "Collapse search-knowledge-base 1.46s",
+      "role": "button"
+    },
+    "e966": {
+      "name": "rerank-results 1.08s $0.0042 \u00b7 1.5K",
+      "role": "button"
+    },
+    "e967": {
+      "name": "draft-reply 2.46s $0.0089 \u00b7 3K",
+      "role": "button"
+    },
+    "e968": {
+      "name": "Collapse",
+      "role": "button"
+    },
+    "e969": {
+      "name": "Collapse",
+      "role": "button"
+    }
+  },
+  "removedRefs": [],
+  "snapshot": "- link \"Framerock\" [ref=e847]\n- button \"Open Search\" [expanded=false, ref=e848]\n- button \"Open Sidebar\" [expanded=false, ref=e849]\n- button \"0.333333 Trace Waterfall Inspector Public API\" [expanded=false, ref=e850]\n- heading \"Trace Waterfall Inspector\" [level=1, ref=e851]\n- region \"Story workbench\" [ref=e852]\n  - tab \"default\" [selected, ref=e870]\n  - generic \"DefaultMutedDark Lift\" [ref=e871] clickable [cursor:pointer]\n    - combobox \"Preview surface\" [expanded=false, ref=e883]: Default\n      - option \"Default\" [selected, ref=e928]\n      - option \"Muted\" [ref=e929]\n      - option \"Dark Lift\" [ref=e930]\n  - button \"Light\" [ref=e872]\n  - button \"Dark\" [ref=e873]\n  - Iframe \"Trace Waterfall Inspector\" [ref=e874]\n    - button \"Acme Production\" [expanded=false, ref=e943]\n    - link \"Overview\" [ref=e954]\n    - link \"Workflows\" [ref=e955]\n    - link \"Agents\" [ref=e956]\n    - link \"Sessions\" [ref=e957]\n    - link \"Traces\" [ref=e958]\n    - link \"Evals\" [ref=e959]\n    - link \"Alerts\" [ref=e960]\n    - link \"API Keys\" [ref=e944]\n    - link \"Settings\" [ref=e945]\n    - button \"AL Alex Rivera\" [expanded=false, ref=e946]\n    - button \"Emails\" [expanded=false, ref=e931]\n    - button \"Network\" [expanded=false, ref=e932]\n    - button \"Invalidate all queries\" [ref=e933]\n    - button \"Clear query cache\" [ref=e934]\n    - button \"Hide development controls until reload\" [ref=e935]\n    - heading \"Traces tr_9f2a4c8e1b7d3a6f5e0c Copy trace ID\" [level=1, ref=e936]\n      - link \"Traces\" [ref=e947]\n      - button \"Copy trace ID\" [ref=e948]\n    - button \"Acme Inc\" [ref=e937]\n    - link \"ses_a91f\" [ref=e938]\n    - button \"onboard-customer\" [ref=e939]\n    - button \"support-triage\" [ref=e940]\n    - button \"3 models\" [ref=e949]\n    - button \"Trace 5.00s $0.0142 \u00b7 5.1K\" [ref=e961]\n    - button \"Collapse support-triage 5.84s\" [ref=e962]\n      - button \"Collapse\" [ref=e968]\n    - button \"classify-intent 920ms $0.0011 \u00b7 612\" [ref=e963]\n    - button \"fetch-order 620ms\" [ref=e964]\n    - button \"Collapse search-knowledge-base 1.46s\" [ref=e965]\n      - button \"Collapse\" [ref=e969]\n    - button \"rerank-results 1.08s $0.0042 \u00b7 1.5K\" [ref=e966]\n    - button \"draft-reply 2.46s $0.0089 \u00b7 3K\" [ref=e967]\n    - button \"Raw\" [ref=e950]\n    - button \"Previous span\" [disabled, ref=e951]\n    - button \"Next span\" [ref=e952]\n    - button \"Copy trace summary as JSON\" [ref=e953]\n    - button \"Foggy\" [ref=e941]\n    - button \"Expand Framerock HUD\" [ref=e942]\n  - button \"Reset\" [ref=e859]\n  - checkbox \"isLoading\" [checked=false, ref=e860]\n  - button \"Copy\" [ref=e861]\n  - link \"trace-detail-client.tsx\" [ref=e875]\n  - link \"Gustavo Fior (@gustavo-fior)\" [ref=e876]\n  - link \"Abdul Haidar\" [ref=e877]\n  - link \"Foglamp Labs (foglamp-labs/foglamp)\" [ref=e878]\n  - link \"foglamp.dev\" [ref=e879]\n- heading \"Public API Copy Anchor Link\" [level=2, ref=e853]\n  - link \"Public API\" [ref=e862]\n  - button \"Copy Anchor Link\" [ref=e863]\n- generic \"ExportPropTypeDescriptionTraceWaterfallInspectorBlocktraceId?stringActive trace identifier.data?Trac\" [ref=e854] focusable [tabindex]\n  - columnheader \"Export\" [ref=e924]\n  - columnheader \"Prop\" [ref=e925]\n  - columnheader \"Type\" [ref=e926]\n  - columnheader \"Description\" [ref=e927]\n  - cell \"TraceWaterfallInspectorBlock\" [ref=e884]\n  - cell \"traceId?\" [ref=e885]\n  - cell \"string\" [ref=e886]\n  - cell \"Active trace identifier.\" [ref=e887]\n  - cell [ref=e888]\n  - cell \"data?\" [ref=e889]\n  - cell \"TraceInspectorData | null\" [ref=e890]\n  - cell \"Structured dataset rendered by the block.\" [ref=e891]\n  - cell [ref=e892]\n  - cell \"isLoading?\" [ref=e893]\n  - cell \"boolean\" [ref=e894]\n  - cell \"Renders loading skeleton placeholders while data is being fetched.\" [ref=e895]\n  - cell [ref=e896]\n  - cell \"scores?\" [ref=e897]\n  - cell \"TraceScore[]\" [ref=e898]\n  - cell \"Individual evaluation score rows.\" [ref=e899]\n  - cell [ref=e900]\n  - cell \"evals?\" [ref=e901]\n  - cell \"(EvalMeta & { id: string })[]\" [ref=e902]\n  - cell \"Configures evals.\" [ref=e903]\n  - cell [ref=e904]\n  - cell \"presets?\" [ref=e905]\n  - cell \"{ id: string; name: string }[]\" [ref=e906]\n  - cell \"Available evaluation rubric presets.\" [ref=e907]\n  - cell [ref=e908]\n  - cell \"neighbors?\" [ref=e909]\n  - cell \"{ prev: { traceId: string } | null; next: { traceId: string } | null } | null\" [ref=e910]\n  - cell \"Adjacent trace links (prev and next) for keyboard navigation.\" [ref=e911]\n  - cell [ref=e912]\n  - cell \"comparison?\" [ref=e913]\n  - cell \"{ durationPercentile: number | null; costPercentile: number | null; tokenPercentile: number | null } | null\" [ref=e914]\n  - cell \"Percentile rankings comparing trace duration, cost, and tokens.\" [ref=e915]\n  - cell [ref=e916]\n  - cell \"initialSpanId?\" [ref=e917]\n  - cell \"string\" [ref=e918]\n  - cell \"Initially selected span identifier in the waterfall.\" [ref=e919]\n  - cell [ref=e920]\n  - cell \"onSpanChange?\" [ref=e921]\n  - cell \"(spanId: string | null) => void\" [ref=e922]\n  - cell \"Callback fired when the selected span changes.\" [ref=e923]\n- heading \"Usage Copy Anchor Link\" [level=2, ref=e855]\n  - link \"Usage\" [ref=e864]\n  - button \"Copy Anchor Link\" [ref=e865]\n- button \"Copy Text\" [ref=e880]\n- generic \"import { useState } from \\\"react\\\";\\nimport {\\n  TraceWaterfallInspectorBlock,\\n} from \\\"@tailrocks/framer\" [ref=e866] focusable [tabindex]\n- heading \"Source and registry Copy Anchor Link\" [level=2, ref=e856]\n  - link \"Source and registry\" [ref=e867]\n  - button \"Copy Anchor Link\" [ref=e868]\n- link \"payload JSON\" [ref=e881]\n- button \"Copy Text\" [ref=e882]\n- generic \"npx shadcn@latest add http://localhost:3000/r/block-dashboard-trace-waterfall-inspector.json\" [ref=e869] focusable [tabindex]\n- link \"Setup Board \u00b7 Plan Edits Interactive instrumentation plan review board combining detected agent/workflow decisions with live flow-map spotlighting.\" [ref=e857]\n- link \"Traces Explorer Filterable, sortable, and paginated traces table with agent, workflow, model, customer, and error-status filters.\" [ref=e858]"
+}

@@ -1,0 +1,30 @@
+{
+  "state": "PROVISIONAL_WAITING_FREEZE",
+  "checked_at": "2026-11-06T00:25:13.141486+00:00",
+  "report": "report.md",
+  "strategy": "strategy.md",
+  "open_concrete_failure": "Sonner docs import cannot resolve sonner after native-toast repair",
+  "positive_scope": [
+    "homepage4view/theme configurations above-fold/no horizontal overflow",
+    "standaloneButton defaultargs",
+    "Progress Props/singlebar",
+    "Radio nativeclick/preset",
+    "Sheet open/close/footerplacement",
+    "ToggleGroup nativeclick/Props",
+    "Item Props/preset",
+    "5block nativeframes/defaultgeometry",
+    "Eval firstscore completejudgeinput/output",
+    "HUD one7.5s storm no newduplicatekeyconsole"
+  ],
+  "limits": [
+    "live mutable HMR source; no final gate acceptance",
+    "HMR-dependent console errors retained",
+    "full initial-frame collision window and all graph node bounds deferred tofreeze",
+    "Flow720/Scan820 frame heights differ literal800specification"
+  ],
+  "cleanup": {
+    "owned_browser_closed": true,
+    "owned_dev_attempt_stopped": true,
+    "existing_localhost3000_ipv6_node76956": "untouched, not owned"
+  }
+}

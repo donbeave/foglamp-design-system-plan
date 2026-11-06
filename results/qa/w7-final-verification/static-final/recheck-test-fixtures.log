@@ -1,0 +1,43 @@
+PASS headers.ts ["--check","--fixture-copied-byte"]: corruption rejected
+PASS headers.ts ["--check","--fixture-missing-4b"]: corruption rejected
+PASS headers.ts ["--check","--fixture-false-path"]: corruption rejected
+PASS verify.ts ["--scoped","--fixture-stripped-payload"]: corruption rejected
+PASS verify.ts ["--scoped","--fixture-false-url"]: corruption rejected
+PASS current
+PASS alias
+PASS comment
+PASS fenced
+PASS missing import
+PASS wrong import
+PASS wrong label
+PASS wrong URL
+PASS foundation current
+PASS foundation comment
+PASS foundation removed
+PASS foundation fenced
+PASS foundation frontmatter
+PASS NOTICE actual
+PASS README.md actual
+PASS README.md hidden Good artists copy, great artists steal
+PASS README.md fenced Good artists copy, great artists steal
+PASS README.md hidden https://gustavofior.com
+PASS README.md fenced https://gustavofior.com
+PASS CREDITS.md actual
+PASS CREDITS.md hidden Good artists copy, great artists steal
+PASS CREDITS.md fenced Good artists copy, great artists steal
+PASS CREDITS.md hidden https://gustavofior.com
+PASS CREDITS.md fenced https://gustavofior.com
+PASS apps/docs/content/docs/index.mdx actual
+PASS apps/docs/content/docs/index.mdx hidden Good artists copy, great artists steal
+PASS apps/docs/content/docs/index.mdx fenced Good artists copy, great artists steal
+PASS apps/docs/content/docs/index.mdx hidden https://gustavofior.com
+PASS apps/docs/content/docs/index.mdx fenced https://gustavofior.com
+PASS apps/docs/content/docs/credits.mdx actual
+PASS apps/docs/content/docs/credits.mdx hidden Good artists copy, great artists steal
+PASS apps/docs/content/docs/credits.mdx fenced Good artists copy, great artists steal
+PASS apps/docs/content/docs/credits.mdx hidden https://gustavofior.com
+PASS apps/docs/content/docs/credits.mdx fenced https://gustavofior.com
+PASS apps/docs/src/routes/index.tsx actual
+PASS apps/docs/src/routes/index.tsx hidden Good artists copy, great artists steal
+PASS apps/docs/src/routes/index.tsx hidden https://gustavofior.com
+PASS homepage JSX comment

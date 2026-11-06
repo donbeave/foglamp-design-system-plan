@@ -1,0 +1,42 @@
+{
+  "before": {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 760,
+      "overflow": false,
+      "text": "Buttons & badges playground\n\nPress T to toggle the theme\n\nButtons\ndefault\nButton\nButton\nButton\nButton\noutline\nButton\nButton\nButton\nButton\nsecondary\nButton\nButton\nButton\nButton\nghost\nButton\nButton\nButton\nButton\nghost-destructive\nButton\nButton\nButton\nButton\ndestructive\nButton\nButton\nButton\nButton\nlink\nButton\nButton\nButton\nButton\nBadges\ndefault\nBadge\nBadge\nsecondary\nBadge\nBadge\ndestructive\nBadge\nBadge\ngreen\nBadge\nBadge\nblue\nBadge\nBadge\namber\nBadge\nBadge\norange\nBadge\nBadge\nemerald\nBadge\nBadge\nrose\nBadge\nBadge\nviolet\nBadge\nBadge\noutline\nBadge\nBadge",
+      "theme": "dark",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/buttons-badges-playground-block",
+    "provenance": 1,
+    "theme": "dark"
+  },
+  "nativeFocusClick": {
+    "target": "<h1 class=\"text-lg font-semibold\">Buttons &amp; badges playground</h1>",
+    "x": 720,
+    "y": 431.9032761310452
+  },
+  "nativeKey": "t",
+  "after500ms": {
+    "frame": {
+      "bodyBg": "oklch(0.17 0 0)",
+      "bodyFg": "oklch(0.985 0 0)",
+      "fonts": "loaded",
+      "height": 760,
+      "overflow": false,
+      "text": "Buttons & badges playground\n\nPress T to toggle the theme\n\nButtons\ndefault\nButton\nButton\nButton\nButton\noutline\nButton\nButton\nButton\nButton\nsecondary\nButton\nButton\nButton\nButton\nghost\nButton\nButton\nButton\nButton\nghost-destructive\nButton\nButton\nButton\nButton\ndestructive\nButton\nButton\nButton\nButton\nlink\nButton\nButton\nButton\nButton\nBadges\ndefault\nBadge\nBadge\nsecondary\nBadge\nBadge\ndestructive\nBadge\nBadge\ngreen\nBadge\nBadge\nblue\nBadge\nBadge\namber\nBadge\nBadge\norange\nBadge\nBadge\nemerald\nBadge\nBadge\nrose\nBadge\nBadge\nviolet\nBadge\nBadge\noutline\nBadge\nBadge",
+      "theme": "dark",
+      "width": 1280
+    },
+    "h1": 1,
+    "overflow": false,
+    "path": "/docs/blocks/buttons-badges-playground-block",
+    "provenance": 1,
+    "theme": "dark"
+  }
+}

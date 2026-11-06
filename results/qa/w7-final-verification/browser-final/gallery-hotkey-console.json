@@ -1,0 +1,1221 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 11677035664275010974
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "messages": [
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/components/story-panel.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/components/story-panel.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/components/story-panel.tsx: Could not Fast Refresh (\"storyRegistryItems\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/components/story-panel.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/components/story-panel.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/lib/story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/lib/story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/lib/story.tsx: Could not Fast Refresh (\"defineStory\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/lib/story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/lib/story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/stories/primitives/progress.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/stories/primitives/progress.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/stories/primitives/progress.story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/stories/primitives/progress.story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/stories/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/stories/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "invalidate /src/stories/primitives/progress.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports"
+        }
+      ],
+      "text": "[vite] invalidate /src/stories/primitives/progress.story.tsx: Could not Fast Refresh (\"story\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/stories/primitives/progress.story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/stories/primitives/progress.story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/components/story-panel.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/components/story-panel.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/components/story-panel.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/components/story-panel.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] css hot updated: /src/styles/app.css"
+        }
+      ],
+      "text": "[vite] css hot updated: /src/styles/app.css",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/lib/story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/lib/story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/routes/docs/$.tsx?tsr-split=component"
+        }
+      ],
+      "text": "[vite] hot updated: /src/routes/docs/$.tsx?tsr-split=component",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite]"
+        },
+        {
+          "type": "string",
+          "value": "hot updated: /src/stories/primitives/progress.story.tsx"
+        }
+      ],
+      "text": "[vite] hot updated: /src/stories/primitives/progress.story.tsx",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ProgressStory} displayName=\"Progress\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function RadioGroupStory} displayName=\"Radio Group\" ...>\n                    <StoryProvider Component={function RadioGroupStory} displayName=\"Radio Group\" ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function RadioGroupStory} displayName=\"Radio Group\" ...>\n                    <StoryProvider Component={function RadioGroupStory} displayName=\"Radio Group\" ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ItemStory} displayName=\"Item\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ItemStory} displayName=\"Item\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ItemStory} displayName=\"Item\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ItemStory} displayName=\"Item\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonExample} displayName=\"Button\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ButtonExample} displayName=\"Button\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonExample} displayName=\"Button\" frame={{src:\"/stor...\"}} ...>\n                    <StoryProvider Component={function ButtonExample} displayName=\"Button\" frame={{src:\"/stor...\"}} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                    <StoryProvider Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                    <StoryProvider Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                    <StoryProvider Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                    <StoryProvider Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connecting..."
+        }
+      ],
+      "text": "[vite] connecting...",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "[vite] connected."
+        }
+      ],
+      "text": "[vite] connected.",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+        },
+        {
+          "type": "string",
+          "value": "font-weight:bold"
+        }
+      ],
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s"
+        },
+        {
+          "type": "string",
+          "value": "https://react.dev/link/hydration-mismatch"
+        },
+        {
+          "type": "string",
+          "value": "\n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                    <StoryProvider Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n"
+        }
+      ],
+      "text": "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <main className=\"grid [grid...\" data-layout-main=\"\">\n      <article id=\"nd-page\" data-layout-content=\"\" data-full={false} className=\"flex flex-...\">\n        <Breadcrumb>\n        <DocsTitle>\n        <DocsDescription>\n        <DocsBody>\n          <div className=\"prose flex-1\">\n            <Body components={{...}}>\n              <MDXContent components={{...}}>\n                <WithControl>\n                  <FoglampStoryPanel Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                    <StoryProvider Component={function ButtonsBadgesPlaygroundBlock} displayName={\"Buttons ...\"} ...>\n                      <StfProvider value={{...}}>\n                        <Workbench>\n                          <Card role=\"region\" aria-label=\"Story work...\" data-source-surface=\"dark\" size=\"sm\" ...>\n                            <div\n                              data-slot=\"card\"\n                              data-size=\"sm\"\n                              className={\"group/card flex shadow-(--custom-shadow) flex-col rounded-lg squircle:round...\"}\n                              role=\"region\"\n                              aria-label=\"Story workbench\"\n+                             data-source-surface=\"dark\"\n-                             data-source-surface=\"light\"\n                            >\n                              <div>\n                              <div className=\"flex flex-...\">\n                                <label>\n                                <div role=\"group\" aria-label=\"Preview theme\" className=\"flex gap-0...\">\n                                  <Button type=\"button\" size=\"xs\" variant=\"ghost\" aria-pressed={false} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={false}\n-                                       aria-pressed=\"true\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                                  <Button type=\"button\" size=\"xs\" variant=\"secondary\" aria-pressed={true} ...>\n                                    <Button data-slot=\"button\" className={\"group/bu...\"} nativeButton={true} ...>\n                                      <button\n                                        type=\"button\"\n                                        onClick={function}\n                                        onMouseDown={function}\n                                        onKeyDown={function}\n                                        onKeyUp={function}\n                                        onPointerDown={function}\n                                        tabIndex={0}\n                                        disabled={false}\n                                        data-slot=\"button\"\n+                                       aria-pressed={true}\n-                                       aria-pressed=\"false\"\n                                        ref={function}\n+                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n-                                       className={\"group/button inline-flex shrink-0 cursor-pointer items-center jus...\"}\n                                      >\n                              ...\n                ...\n        ...\n",
+      "type": "error"
+    }
+  ]
+}

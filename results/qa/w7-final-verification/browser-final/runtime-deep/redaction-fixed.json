@@ -1,0 +1,91 @@
+{
+  "before": "Support assistant\nGPT-4o\nStep 1\n110ms\nDuration\n110ms\nThroughput\n118 tok/s\nStatus\nok\nlookupCustomerAccount\n70ms\nINPUT\n{\n  \"email\": \"jordan@acme.example\",\n  \"workspace\": \"production\"\n}\nOUTPUT\n{\n  \"accountId\": \"acct_01HZXA29\",\n  \"activeWorkers\": 2,\n  \"pendingRotation\": true\n}\nStep 2\n3.51s\nDuration\n\u2014\nOutput\n64 tok\nStatus\nrunning\n64\nTOKENS\n\u2014\nCOST\n3.64s\nRUNNING",
+  "after": "Support assistant\nGPT-4o\nStep 1\n110ms\nDuration\n110ms\nThroughput\n118 tok/s\nStatus\nok\nlookupCustomerAccount\n70ms\nINPUT\n\u2022\u2022\u2022\nOUTPUT\n\u2022\u2022\u2022\nStep 2\n7.07s\nDuration\n\u2014\nOutput\n64 tok\nStatus\nrunning\n64\nTOKENS\n\u2014\nCOST\n7.20s\nRUNNING",
+  "console": {
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "messages": [
+      {
+        "args": [
+          {
+            "type": "string",
+            "value": "[vite] connecting..."
+          }
+        ],
+        "text": "[vite] connecting...",
+        "type": "debug"
+      },
+      {
+        "args": [
+          {
+            "type": "string",
+            "value": "[vite] connected."
+          }
+        ],
+        "text": "[vite] connected.",
+        "type": "debug"
+      },
+      {
+        "args": [
+          {
+            "type": "string",
+            "value": "[vite] connecting..."
+          }
+        ],
+        "text": "[vite] connecting...",
+        "type": "debug"
+      },
+      {
+        "args": [
+          {
+            "type": "string",
+            "value": "[vite] connected."
+          }
+        ],
+        "text": "[vite] connected.",
+        "type": "debug"
+      },
+      {
+        "args": [
+          {
+            "type": "string",
+            "value": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools"
+          },
+          {
+            "type": "string",
+            "value": "font-weight:bold"
+          }
+        ],
+        "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold",
+        "type": "info"
+      }
+    ]
+  },
+  "errors": {
+    "errors": [],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 11677035664275010974
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    }
+  }
+}
